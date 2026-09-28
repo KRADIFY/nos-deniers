@@ -5,6 +5,7 @@ from pathlib import Path
 from oracle import Reference,STAGES,compare_cells,digest,within
 from management import Management
 from zeros import source_ledger,classify_cell,LABELS as ZERO_LABELS
+from reporting import summarize, write_outputs
 
 HERE=Path(__file__).resolve().parent
 def stamp():return datetime.datetime.now().astimezone().isoformat(timespec='seconds')
@@ -30,6 +31,12 @@ class Client:
 
 def arithmetic(data,indices):
     errors=[];count=0
+    def nominal_cents(cell):
+        if cell is None:return None
+        amount=cell.get('nominal_cents')
+        if amount is None and cell.get('status')=='excluded' and cell.get('nominal')==0:
+            return 0
+        return amount
     def check(key,wanted,got):
         nonlocal count
         count+=1
@@ -59,7 +66,7 @@ def arithmetic(data,indices):
                     # A source year is never inferred from the order in the JSON array.
                     if c.get('reference_year')!=refyear:errors.append(dict(cell=f'{path} {stage} {name} année',expected=refyear,actual=c.get('reference_year')))
                     before=annuals.get(refyear);left=a[stage];right=before[stage] if before else None;wanted=None
-                    ac=left.get('nominal_cents');bc=right.get('nominal_cents') if right else None
+                    ac=nominal_cents(left);bc=nominal_cents(right)
                     valid=ac is not None and bc is not None and bc>0 and all(x.get('nominal_status',x['status']) in ('ok','excluded') for x in (left,right))
                     iy=indices.get(str(a['year']));ib=indices.get(str(refyear));real=name!='nominal_yoy'
                     if valid and (not real or (iy and ib)):
@@ -133,7 +140,7 @@ class Campaign:
         self.assets={p:hashlib.sha256(self.client.get(p,False)).hexdigest() for p in ('/','/assets/explorer.js','/assets/explorer.css')}
         self.jobs=plan(self.ref,a.quick)
         self.identity=dict(schema=1,url=a.url,reference=digest(a.reference/'manifest.json'),data_version=meta['data_version'],assets=self.assets,
-          code={n:digest(HERE/n) for n in ('audit.py','oracle.py','management.py','zeros.py','document_zeros.py','document-zero-proofs.json')},browser_code=digest(HERE/'browser.cjs'),quick=a.quick,browser=not a.no_browser,planned=len(self.jobs))
+          code={n:digest(HERE/n) for n in ('audit.py','oracle.py','management.py','zeros.py','document_zeros.py','document-zero-proofs.json','reporting.py')},browser_code=digest(HERE/'browser.cjs'),quick=a.quick,browser=not a.no_browser,planned=len(self.jobs))
         ip=self.out/'identity.json'
         if ip.exists() and json.loads(ip.read_text('utf-8'))!=self.identity:raise ValueError('Site, référence ou outil modifiés : choisir un nouveau dossier de résultats.')
         save(ip,self.identity)
@@ -243,29 +250,11 @@ class Campaign:
            'Les parcours navigateur sont un échantillon explicite ; aucune promesse sur toutes les combinaisons possibles.'],
           excluded_sections=['Actes juridiques de la chronologie et pièces justificatives détaillées des mouvements : non certifiés indépendamment.','Recherche documentaire : pertinence des réponses non évaluée.'],
           checkpoint_resume=True,site_modified=False,ai_calls=0)
+        report['summary']=summarize(issues)
+        report['reference_fact_count']=self.ref.meta['fact_count']
         save(self.out/'rapport.json',report)
-        with (self.out/'anomalies.csv').open('w',encoding='utf-8-sig',newline='') as f:
-            w=csv.writer(f,delimiter=';');w.writerow(['Contrôle','Case','Attendu','Observé','Lien'])
-            for e in issues:
-                safe=lambda v: "'"+str(v) if str(v).startswith(('=','+','-','@')) else str(v)
-                w.writerow([safe(e['kind']),safe(e.get('cell','')),safe(e.get('expected','')),safe(e.get('actual','')),self.a.url+'/?'+qs(e['params'])])
-        esc=lambda v:html.escape(str(v))
-        cards=''.join(f'<div><strong>{v:,}</strong><span>{label}</span></div>'.replace(',',' ') for v,label in [(counts['amounts'],'montants comparés'),(counts['calculations'],'calculs vérifiés'),(counts['missing'],'cases sans montant contrôlées'),(len(issues),'anomalies')])
-        cases=''.join(f'<tr><td>{esc(e["kind"])}</td><td>{esc(e.get("cell",""))}</td><td>{esc(e.get("expected",""))}</td><td>{esc(e.get("actual",""))}</td><td><a href="{esc(self.a.url+"/?"+qs(e["params"]))}">Voir</a></td></tr>' for e in issues[:500])
-        page=f'''<!doctype html><html lang="fr"><meta charset="utf-8"><title>Audit indépendant — Nos Deniers</title>
-<style>body{{font:16px/1.55 system-ui;margin:40px auto;max-width:1250px;padding:0 24px;background:#f5f8fc;color:#16364d}}h1{{font-size:30px;margin-bottom:4px}}.cards{{display:flex;gap:14px;flex-wrap:wrap;margin:22px 0}}.cards div{{background:white;border:1px solid #d5e0eb;border-radius:12px;padding:16px;flex:1;min-width:170px}}strong,span{{display:block}}strong{{font-size:27px}}.verdict{{padding:16px;border-left:5px solid {'#a33' if issues or incomplete else '#267b54'};background:white;font-weight:700}}table{{border-collapse:collapse;width:100%;background:white;font-size:13px}}td,th{{padding:10px;border:1px solid #dbe3eb;text-align:left;overflow-wrap:anywhere}}details{{background:white;padding:15px;margin:15px 0}}a{{color:#175897}}</style>
-<h1>Nos Deniers · Audit indépendant</h1><p>{esc(report['at'])} · <a href="{esc(self.a.url)}">{esc(self.a.url)}</a></p>
-<div class="verdict">{esc(verdict)}</div><div class="cards">{cards}</div>
-<p>Les nombres ci-dessus comptent des vérifications, pas des montants uniques : une même donnée peut être testée sous plusieurs filtres. AE et CP sont distingués. Aucun calcul d’IA.</p>
-<h2>Ce que prouve ce contrôle</h2><p>Les montants sont recherchés dans une référence séparée par budget, année, mission, programme, action, sous-action, étape et type de crédit. Les calculs de l’application ne sont pas réutilisés. Un montant attendu et sa position sont comparés au résultat de l’API.</p>
-<p>Les montants sont comparés au centime : aucun seuil de tolérance ne masque une erreur de restitution. Les écarts entre documents déjà signalés ({len(self.ref.warnings)} groupes dans la référence) restent distincts.</p>
-<h2>Couverture et limites</h2><ul>{''.join('<li>'+esc(t)+'</li>' for t in report['limits']+report['excluded_sections'])}</ul>
-<p>Base de référence : {self.ref.meta['fact_count']:,} faits. Version : <code>{esc(self.ref.meta['data_version'])}</code>. Référence et scripts sont identifiés par empreinte ; les résultats sont sauvegardés après chaque scénario.</p>
-<h2>Zéros et cases sans montant</h2><p>Une relecture dédiée distingue les zéros effectivement présents dans les cellules sources, les calculs nuls, les mentions documentaires et les sens non déterminés. Un blanc ou un tiret ne suffit jamais à prouver un zéro.</p><p><a href="zeros-sources.csv">Relevé des zéros sources · CSV</a> · <a href="zeros-sources.json">Détail des preuves · JSON</a></p><ul>{"".join("<li>"+esc(ZERO_LABELS.get(k,k))+" : "+str(v)+"</li>" for k,v in report["zero_source_summary"].get("counts",{}).items())}</ul><p>Ce relevé reste distinct de la conformité des montants restitués par le site. Une source non relue ne devient pas une preuve de zéro.</p><h2>Anomalies</h2><p>{len(issues)} anomalie(s). <a href="anomalies.csv">Télécharger le détail CSV</a> · <a href="rapport.json">Rapport technique</a></p>
-<table><thead><tr><th>Contrôle</th><th>Case</th><th>Attendu</th><th>Observé</th><th>Site</th></tr></thead><tbody>{cases or '<tr><td colspan="5">Aucune anomalie dans les contrôles terminés.</td></tr>'}</tbody></table>
-<details><summary>Scénarios enregistrés : {len(rows)}</summary><ul>{''.join('<li>'+esc(r['kind']+' — '+r['status']+' — '+dump(r['params']))+'</li>' for r in rows)}</ul></details>
-<p>Ce rapport ne signifie jamais que toutes les données publiques possibles ont été collectées. Le site et la base sont restés inchangés.</p></html>'''
-        (self.out/'rapport.html').write_text(page,'utf-8');print(dump(dict(verdict=verdict,counts=dict(counts),errors=len(issues),report=str(self.out/'rapport.html'))),flush=True)
+        write_outputs(self.out,report,self.a.url)
+        print(dump(dict(verdict=verdict,counts=dict(counts),errors=len(issues),distinct_findings=report['summary']['finding_count'],report=str(self.out/'rapport.html'))),flush=True)
         return report
 
 def main():

@@ -1,0 +1,470 @@
+{
+  "passed": true,
+  "tests": 10,
+  "results": [
+    {
+      "test": "Cellule témoin intacte",
+      "detected": true
+    },
+    {
+      "test": "Ligne supprimée",
+      "detected": true,
+      "result": [
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "REPORT_ENTRANT",
+          "status": "missing",
+          "expected_cents": 2067935767,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 15,
+          "raw": "20 679 357,67",
+          "bbox": [
+            513.732883,
+            149.330545,
+            555.784078,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "test": "AE/CP inversés",
+      "detected": true,
+      "result": [
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "REPORT_ENTRANT",
+          "status": "missing",
+          "expected_cents": 2067935767,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 15,
+          "raw": "20 679 357,67",
+          "bbox": [
+            513.732883,
+            149.330545,
+            555.784078,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "test": "Mauvaise année",
+      "detected": true,
+      "result": [
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "REPORT_ENTRANT",
+          "status": "missing",
+          "expected_cents": 2067935767,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 15,
+          "raw": "20 679 357,67",
+          "bbox": [
+            513.732883,
+            149.330545,
+            555.784078,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "test": "Mauvaise colonne",
+      "detected": true,
+      "result": [
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "REPORT_ENTRANT",
+          "status": "missing",
+          "expected_cents": 2067935767,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 15,
+          "raw": "20 679 357,67",
+          "bbox": [
+            513.732883,
+            149.330545,
+            555.784078,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "test": "Un centime ajouté",
+      "detected": true,
+      "result": [
+        {
+          "gap_cents": 1,
+          "gap_percent": "4.835740142213034221386432454E-8",
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "REPORT_ENTRANT",
+          "status": "different",
+          "expected_cents": 2067935767,
+          "actual_cents": [
+            2067935768
+          ],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 15,
+          "raw": "20 679 357,67",
+          "bbox": [
+            513.732883,
+            149.330545,
+            555.784078,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "test": "Ligne dupliquée",
+      "detected": true,
+      "result": [
+        {
+          "gap_cents": 0,
+          "gap_percent": "0",
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "REPORT_ENTRANT",
+          "status": "ambiguous",
+          "expected_cents": 2067935767,
+          "actual_cents": [
+            2067935767
+          ],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 15,
+          "raw": "20 679 357,67",
+          "bbox": [
+            513.732883,
+            149.330545,
+            555.784078,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "test": "Blanc remplacé par zéro",
+      "detected": true,
+      "result": [
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "REPORT_ENTRANT",
+          "status": "different",
+          "expected_cents": null,
+          "actual_cents": [
+            0
+          ],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 15,
+          "raw": "",
+          "bbox": [
+            513.732883,
+            149.330545,
+            555.784078,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "test": "Tableau entier oublié",
+      "detected": true,
+      "result": [
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "LFI",
+          "status": "missing",
+          "expected_cents": 189935753000,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 15,
+          "raw": "1 899 357 530",
+          "bbox": [
+            401.741221,
+            149.330545,
+            443.792416,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        },
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "LEGIS",
+          "status": "missing",
+          "expected_cents": -11547779300,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 15,
+          "raw": "-115 477 793",
+          "bbox": [
+            458.543044,
+            149.330545,
+            497.286247,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        },
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "REPORT_ENTRANT",
+          "status": "missing",
+          "expected_cents": 2067935767,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 15,
+          "raw": "20 679 357,67",
+          "bbox": [
+            513.732883,
+            149.330545,
+            555.784078,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        },
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "REGLEMENT",
+          "status": "missing",
+          "expected_cents": 204643300,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 16,
+          "raw": "2 046 433,00",
+          "bbox": [
+            49.7738,
+            149.330545,
+            88.179588,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        },
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "FDC",
+          "status": "missing",
+          "expected_cents": 764184983,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 16,
+          "raw": "7 641 849,83",
+          "bbox": [
+            108.27212,
+            149.330545,
+            146.677909,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        },
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "FONGIBILITE",
+          "status": "missing",
+          "expected_cents": 0,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 16,
+          "raw": "0,00",
+          "bbox": [
+            185.392473,
+            149.330545,
+            198.194402,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        },
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "PLRG_OUVERTURE",
+          "status": "missing",
+          "expected_cents": 0,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 16,
+          "raw": "0,00",
+          "bbox": [
+            375.937619,
+            149.330545,
+            388.739548,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        },
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "PLRG_ANNULATION",
+          "status": "missing",
+          "expected_cents": 757396167,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 16,
+          "raw": "7 573 961,67",
+          "bbox": [
+            413.834677,
+            149.330545,
+            452.240465,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        },
+        {
+          "gap_cents": null,
+          "gap_percent": null,
+          "year": 2017,
+          "budget": "BG",
+          "program": "105",
+          "measure": "AE",
+          "stage": "REPORT_SORTANT",
+          "status": "missing",
+          "expected_cents": 1704309898,
+          "actual_cents": [],
+          "source": "b53d0a4a0ba89d8680dd",
+          "page": 16,
+          "raw": "17 043 098,98",
+          "bbox": [
+            468.687001,
+            149.330545,
+            510.738197,
+            156.698541
+          ],
+          "unit": "EUR",
+          "opening_gap_cents": 0,
+          "closing_gap_cents": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "test": "Cellule PDF vide sans zéro imprimé",
+      "detected": true
+    }
+  ],
+  "source_modified": false,
+  "method": "Altérations de copies en mémoire de cellules réelles ; aucune écriture dans la référence ou le site."
+}

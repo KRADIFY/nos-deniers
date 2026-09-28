@@ -12,7 +12,7 @@ COPY --from=node-runtime /usr/local/bin/node /usr/local/bin/node
 COPY --from=node-runtime /opt/audit-runtime/node_modules /opt/audit-runtime/node_modules
 RUN pip install --no-cache-dir xlrd==2.0.2
 WORKDIR /app
-COPY audit.py oracle.py management.py zeros.py document_zeros.py document-zero-proofs.json prepare_reference.py service.py zero_api.py worker.py browser.cjs ./
+COPY coverage.py coverage_report.py document-coverage.json mutation_check.py reporting.py audit.py oracle.py management.py zeros.py document_zeros.py document-zero-proofs.json prepare_reference.py service.py zero_api.py worker.py browser.cjs ./
 COPY web ./web
 USER 10001:10001
 EXPOSE 8095

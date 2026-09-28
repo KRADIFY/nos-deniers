@@ -100,6 +100,8 @@ def subset(scope, year, stage, p, indices):
         return dict(result, evidence=evidence, citations=citations,
                     sources=sorted({c['source'] for c in citations}))
     rows = rows_for(p, year, stage, scope)
+    if any(not any(within(path_of(r), path) or within(path, path_of(r)) for r in rows) for path in active_paths):
+        return unavailable('Aucun montant sourcé pour MaPrimeRénov’ à cette étape dans le programme sélectionné. Une mention de couverture ne démontre pas un zéro ; les autres étapes et les CP ne permettent pas de déduire les AE.')
     # A partial import must not silently fill another carrier with zero.
     amount = sum(r['cents'] for r in rows)
     converted = constant_cents(amount, year, p['base'], indices) if p['constant'] else amount

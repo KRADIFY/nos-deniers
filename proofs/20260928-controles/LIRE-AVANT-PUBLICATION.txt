@@ -1,0 +1,17 @@
+NOS DENIERS — POINT DE LIVRAISON DU 28 SEPTEMBRE 2026
+
+Deux paquets complémentaires, préparés et non publiés :
+1. deploy/update-20260928-controles : classeurs et annexes déjà préparés, plus les corrections documentaires MaPrimeRénov’.
+2. deploy/audit-20260928-controles : rapport lisible et contrôle documentaire indépendant.
+
+Installer le site avant l’auditeur, pour que ce dernier copie les registres de la bonne version. Conserver les anciens paquets et les sauvegardes Git. Aucun index vectorisé n’est remplacé par ces correctifs.
+
+Validation locale : 478 tests du site, dont 2 ignorés ; 62 tests auditeur ; 80 scénarios API et contrôle navigateur ; aucun écart de restitution. Les 86 signalements du CSV fourni ont disparu du rejeu ciblé. Vérificateur du lot : 12 628 revues contrôlées. Erreurs injectées dans des copies en mémoire : tests réussis.
+
+VALIDATION DOCKER RESTANTE : Docker Desktop est arrêté. Ne pas déclarer les images finales testées. La publication n’a pas été exécutée.
+
+La couverture documentaire reste partielle : le nouveau lecteur relit directement six annexes 2017–2022, avec un bilan séparé des calculs. Les différences entre publications et les cellules repérées non intégrées restent dans le rapport. Aucun chiffre de la base SQL n’a été changé par ces corrections ; seul le registre séparé MaPrimeRénov’ a reçu deux observations CP sourcées et le retrait des zéros AE non prouvés.
+
+Lire les rapports locaux :
+http://127.0.0.1:8553/reports/20260928-205300-c1a47e/rapport.html
+http://127.0.0.1:8553/reports/20260928-205300-c1a47e/coverage/couverture.html

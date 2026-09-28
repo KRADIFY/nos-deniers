@@ -158,7 +158,7 @@ class TopicTests(unittest.TestCase):
             self.assertEqual(row['page'],439 if row['year']==2023 else 446)
             self.assertEqual(row['precision'],'1 € (RAP)')
             self.assertEqual(old['source'],'296835325a7d511d6a5a')
-        self.assertEqual(len(topics.registry()['facts']),65)
+        self.assertEqual(len(topics.registry()['facts']),67)
 
 
 if __name__=='__main__': unittest.main()

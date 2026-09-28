@@ -2377,6 +2377,58 @@
       "approximate": 1,
       "basis": "La prose de la NEB distingue les CP ouverts en 2021 (740 M€ au P174). Le Sénat confirme expressément ce montant ouvert. Le titre LFI du tableau ne justifie aucune assimilation des crédits ouverts du P362 à une LFI.",
       "corroboration_url": "https://www.senat.fr/rap/l21-792-211-1/l21-792-211-1_mono.html#toc33"
+    },
+    {
+      "year": 2024,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BG",
+      "mission": "PR",
+      "mission_label": "Plan de relance",
+      "program": "362",
+      "program_label": "Écologie",
+      "action": "",
+      "action_label": "",
+      "subaction": "",
+      "subaction_label": "",
+      "category": "",
+      "title": "",
+      "cents": 0,
+      "source": "296835325a7d511d6a5a",
+      "line": 48,
+      "page": 48,
+      "field": "Tableau 17 · ligne Dont 362 · Ouvertures en LFI 2024 · CP",
+      "published_value": "0,0",
+      "published_unit": "Md€",
+      "precision": "0,1 Md€",
+      "approximate": 1,
+      "basis": "Zéro arrondi explicitement publié par la Cour des comptes, NEB Écologie 2024, page 48, tableau 17, données DGEC. Concerne uniquement les CP ; aucune extrapolation aux AE."
+    },
+    {
+      "year": 2024,
+      "stage": "OUVERT",
+      "measure": "CP",
+      "budget": "BG",
+      "mission": "PR",
+      "mission_label": "Plan de relance",
+      "program": "362",
+      "program_label": "Écologie",
+      "action": "",
+      "action_label": "",
+      "subaction": "",
+      "subaction_label": "",
+      "category": "",
+      "title": "",
+      "cents": 0,
+      "source": "296835325a7d511d6a5a",
+      "line": 48,
+      "page": 48,
+      "field": "Tableau 17 · ligne Dont 362 · Solde des crédits ouverts et annulés en 2024 · CP",
+      "published_value": "0,0",
+      "published_unit": "Md€",
+      "precision": "0,1 Md€",
+      "approximate": 1,
+      "basis": "Zéro arrondi explicitement publié par la Cour des comptes, NEB Écologie 2024, page 48, tableau 17, données DGEC. Concerne uniquement les CP ; aucune extrapolation aux AE."
     }
   ],
   "observation_history": [
@@ -2895,10 +2947,9 @@
       "stage": "LFI",
       "measure": "AE",
       "paths": [
-        "TA/174",
-        "PR/362"
+        "TA/174"
       ],
-      "basis": "Parts des P174 et P362 uniquement. La subvention globale du P135 est conservée comme contexte Anah et ne constitue pas une ventilation MaPrimeRénov’."
+      "basis": "Part du P174 vérifiée. Le tableau 17 page 48 ne fournit que des CP : les AE du P362 ne sont pas établies pour cette étape."
     },
     {
       "year": 2024,
@@ -2908,17 +2959,16 @@
         "TA/174",
         "PR/362"
       ],
-      "basis": "Parts des P174 et P362 uniquement. La subvention globale du P135 est conservée comme contexte Anah et ne constitue pas une ventilation MaPrimeRénov’."
+      "basis": "P174 : tableau 12, NEB Cohésion page 62. P362 : zéro arrondi de CP explicitement publié, tableau 17, NEB Écologie page 48. Aucun montant P135 ajouté."
     },
     {
       "year": 2024,
       "stage": "OUVERT",
       "measure": "AE",
       "paths": [
-        "TA/174",
-        "PR/362"
+        "TA/174"
       ],
-      "basis": "Parts des P174 et P362 uniquement. La subvention globale du P135 est conservée comme contexte Anah et ne constitue pas une ventilation MaPrimeRénov’."
+      "basis": "Part du P174 vérifiée. Le tableau 17 page 48 ne fournit que des CP : les AE du P362 ne sont pas établies pour cette étape."
     },
     {
       "year": 2024,
@@ -2928,7 +2978,7 @@
         "TA/174",
         "PR/362"
       ],
-      "basis": "Parts des P174 et P362 uniquement. La subvention globale du P135 est conservée comme contexte Anah et ne constitue pas une ventilation MaPrimeRénov’."
+      "basis": "P174 : tableau 12, NEB Cohésion page 62. P362 : zéro arrondi de CP explicitement publié, tableau 17, NEB Écologie page 48. Aucun montant P135 ajouté."
     },
     {
       "year": 2020,
@@ -3391,5 +3441,13 @@
     }
   ],
   "availability_note": "Disponible dans le périmètre publié : PLF/LFI/ouverts/consommé 2020 ; PLF/LFI/consommé 2021 ; PLF/consommé 2022 ; consommé 2023 ; PLF CP 2025. En 2024, les montants du P174 sont disponibles, mais le total national reste partiel : le P135 regroupe plusieurs aides. Les autres étapes comportent des parts documentées, dont 740 M€ ouverts en CP au P174 en 2021. Cliquez sur chaque montant ou case indisponible pour vérifier sa définition et ses sources.",
-  "last_funding_review": "20260923-mysteries-perimeter-crosscheck"
+  "last_funding_review": "20260923-mysteries-perimeter-crosscheck",
+  "audit_review_20260928": {
+    "scope": "P362 MaPrimeRénov’ 2024 LFI et crédits ouverts",
+    "cp": "Deux zéros arrondis publiés au tableau 17, page physique 48 de la NEB Écologie ; unité 0,1 Md€.",
+    "ae": "Non établies par les deux tableaux relus ; aucune déduction depuis les CP ou le consommé.",
+    "source": "296835325a7d511d6a5a",
+    "sha256": "85a9a851131ec9564f5af7c77c64a895c2c3dcd6a5464a82313e41575cbb0795",
+    "no_structured_database_change": true
+  }
 }

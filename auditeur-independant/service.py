@@ -26,7 +26,8 @@ def current():
         if progress:s['progress']=progress
         report=read(folder/'rapport.json')
         if report:
-            s['report']={k:report[k] for k in ('verdict','passed','counts','cases','error_count','limits','excluded_sections','zero_source_summary','zero_case_counts') if k in report}
+            s['report']={k:report[k] for k in ('verdict','passed','counts','cases','error_count','limits','excluded_sections','zero_source_summary','zero_case_counts','summary','document_coverage','mutation_tests') if k in report}
+            if (folder/'coverage/couverture.html').is_file():s['coverage_url']='/reports/'+rid+'/coverage/couverture.html'
             s['zeros_url']='/zeros?run='+rid
             s['report_url']='/reports/'+rid+'/rapport.html';s['json_url']='/reports/'+rid+'/rapport.json';s['csv_url']='/reports/'+rid+'/anomalies.csv'
         if s.get('status') in ('complete','interrupted','error') and (folder/'rapport.html').is_file():s['report_url']='/reports/'+rid+'/rapport.html'
@@ -78,7 +79,11 @@ class Handler(BaseHTTPRequestHandler):
         static={'/zeros':('zeros.html','text/html; charset=utf-8'),'/zeros.js':('zeros.js','text/javascript; charset=utf-8'),'/':('index.html','text/html; charset=utf-8'),'/memo':('memo.html','text/html; charset=utf-8'),'/app.js':('app.js','text/javascript; charset=utf-8'),'/style.css':('style.css','text/css; charset=utf-8')}
         if path in static:
             name,kind=static[path];return self.reply((ROOT/'web'/name).read_bytes(),kind=kind)
-        match=re.fullmatch(r'/reports/(\d{8}-\d{6}-[a-f0-9]{6})/(rapport\.html|rapport\.json|anomalies\.csv|zeros-sources\.csv|zeros-sources\.json|controle-affichage\.png)',path)
+        coverage_match=re.fullmatch(r'/reports/(\d{8}-\d{6}-[a-f0-9]{6})/coverage/(couverture\.html|couverture-cellules\.csv|catalogue-exploitation\.csv|coverage\.json|mutations\.json)',path)
+        if coverage_match:
+            p=STATE/'runs'/coverage_match[1]/'coverage'/coverage_match[2]
+            if p.is_file():return self.reply(p.read_bytes(),kind={'.html':'text/html; charset=utf-8','.json':'application/json; charset=utf-8','.csv':'text/csv; charset=utf-8'}[p.suffix],report=True)
+        match=re.fullmatch(r'/reports/(\d{8}-\d{6}-[a-f0-9]{6})/(rapport\.html|rapport\.json|anomalies\.csv|anomalies-techniques\.csv|zeros-sources\.csv|zeros-sources\.json|controle-affichage\.png)',path)
         if match:
             p=STATE/'runs'/match[1]/match[2]
             if p.is_file():return self.reply(p.read_bytes(),kind={'.html':'text/html; charset=utf-8','.json':'application/json; charset=utf-8','.csv':'text/csv; charset=utf-8','.png':'image/png'}[p.suffix],report=True)

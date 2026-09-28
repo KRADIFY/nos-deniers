@@ -1,0 +1,917 @@
+{
+  "original_signals": 86,
+  "urls": 11,
+  "remaining": 0,
+  "detail": [
+    {
+      "original": {
+        "Contrôle": "topic",
+        "Case": "BG | AE | PR | 2024 | LFI sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=AE&scope=&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": null,
+      "status": "topic_unavailable",
+      "sources": [],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "topic",
+        "Case": "BG | AE | PR | 2024 | OUVERT sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=AE&scope=&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": null,
+      "status": "topic_unavailable",
+      "sources": [],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "topic",
+        "Case": "BG | AE | PR/362 | 2024 | LFI sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=AE&scope=PR%2F362&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": null,
+      "status": "topic_unavailable",
+      "sources": [],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "topic",
+        "Case": "BG | AE | PR/362 | 2024 | OUVERT sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=AE&scope=PR%2F362&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": null,
+      "status": "topic_unavailable",
+      "sources": [],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "topic",
+        "Case": "BG | CP | PR | 2024 | LFI sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=CP&scope=&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": 0.0,
+      "status": "ok",
+      "sources": [
+        "296835325a7d511d6a5a"
+      ],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "topic",
+        "Case": "BG | CP | PR | 2024 | OUVERT sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=CP&scope=&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": 0.0,
+      "status": "ok",
+      "sources": [
+        "296835325a7d511d6a5a"
+      ],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "topic",
+        "Case": "BG | CP | PR/362 | 2024 | LFI sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=CP&scope=PR%2F362&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": 0.0,
+      "status": "ok",
+      "sources": [
+        "296835325a7d511d6a5a"
+      ],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "topic",
+        "Case": "BG | CP | PR/362 | 2024 | OUVERT sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=CP&scope=PR%2F362&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": 0.0,
+      "status": "ok",
+      "sources": [
+        "296835325a7d511d6a5a"
+      ],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2018 EXEC nominal_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2018 EXEC real_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2018 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2019 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2020 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2020 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2020 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2020 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2021 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2021 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2021 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2021 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2022 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2022 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2022 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2022 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2023 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2023 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2023 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2023 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2024 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2024 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2024 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2024 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2025 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2025 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2025 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2025 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=AE&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YC 2019 EXEC nominal_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YC%2F731%22%5D&measure=AE&scope=YC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YC 2019 EXEC real_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YC%2F731%22%5D&measure=AE&scope=YC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YC 2019 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YC%2F731%22%5D&measure=AE&scope=YC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YC 2020 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YC%2F731%22%5D&measure=AE&scope=YC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YC 2021 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YC%2F731%22%5D&measure=AE&scope=YC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2018 EXEC nominal_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2018 EXEC real_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2018 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2019 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2020 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2020 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2020 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2020 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2021 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2021 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2021 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2021 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2022 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2022 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2022 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2022 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2023 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2023 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2023 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2023 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2024 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2024 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2024 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2024 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2025 PLF real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2025 LFI real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2025 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YB 2025 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YB%2F723%22%5D&measure=CP&scope=YB&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YC 2019 EXEC nominal_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YC%2F731%22%5D&measure=CP&scope=YC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YC 2019 EXEC real_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YC%2F731%22%5D&measure=CP&scope=YC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YC 2019 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YC%2F731%22%5D&measure=CP&scope=YC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YC 2020 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YC%2F731%22%5D&measure=CP&scope=YC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "YC 2021 EXEC real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CAS&constant=0&denominator=LFI&end=2026&exclude=%5B%22YC%2F731%22%5D&measure=CP&scope=YC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "ZC 2018 OUVERT nominal_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CCF&constant=0&denominator=LFI&end=2026&exclude=%5B%22ZC%2F832%22%5D&measure=AE&scope=ZC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "ZC 2018 OUVERT real_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CCF&constant=0&denominator=LFI&end=2026&exclude=%5B%22ZC%2F832%22%5D&measure=AE&scope=ZC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "ZC 2018 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CCF&constant=0&denominator=LFI&end=2026&exclude=%5B%22ZC%2F832%22%5D&measure=AE&scope=ZC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "ZE 2021 EXEC nominal_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CCF&constant=0&denominator=LFI&end=2026&exclude=%5B%22ZE%2F851%22%5D&measure=AE&scope=ZE&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "ZE 2021 EXEC real_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CCF&constant=0&denominator=LFI&end=2026&exclude=%5B%22ZE%2F851%22%5D&measure=AE&scope=ZE&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "ZC 2018 OUVERT nominal_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CCF&constant=0&denominator=LFI&end=2026&exclude=%5B%22ZC%2F832%22%5D&measure=CP&scope=ZC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "ZC 2018 OUVERT real_yoy",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CCF&constant=0&denominator=LFI&end=2026&exclude=%5B%22ZC%2F832%22%5D&measure=CP&scope=ZC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "exclusion",
+        "Case": "ZC 2018 OUVERT real_from_start",
+        "Attendu": "None",
+        "Observé": "'-100.0",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=CCF&constant=0&denominator=LFI&end=2026&exclude=%5B%22ZC%2F832%22%5D&measure=CP&scope=ZC&start=2017&topic=&topic_mode=only"
+      },
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "export",
+        "Case": "BG | AE | PR | 2024 | LFI sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=AE&scope=&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": null,
+      "status": "topic_unavailable",
+      "sources": [],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "export",
+        "Case": "BG | AE | PR | 2024 | OUVERT sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=AE&scope=&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": null,
+      "status": "topic_unavailable",
+      "sources": [],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "export",
+        "Case": "BG | CP | PR | 2024 | LFI sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=CP&scope=&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": 0.0,
+      "status": "ok",
+      "sources": [
+        "296835325a7d511d6a5a"
+      ],
+      "remaining": []
+    },
+    {
+      "original": {
+        "Contrôle": "export",
+        "Case": "BG | CP | PR | 2024 | OUVERT sources",
+        "Attendu": "références présentes",
+        "Observé": "[]",
+        "Lien": "https://budget.lexmachine.net/?base=2025&budget=BG&constant=0&denominator=LFI&end=2026&exclude=%5B%5D&measure=CP&scope=&start=2017&topic=maprimerenov&topic_mode=only"
+      },
+      "value": 0.0,
+      "status": "ok",
+      "sources": [
+        "296835325a7d511d6a5a"
+      ],
+      "remaining": []
+    }
+  ],
+  "scope": "Rejeu local ciblé des 86 signalements du CSV fourni, pas une campagne exhaustive",
+  "public_modified": false
+}

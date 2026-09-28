@@ -183,7 +183,9 @@ class Reference:
         active=[t for t in targets if not any(within(t,e['path']) for e in evidence)]
         covered={t for c in self.mpr['coverage'] if (c['year'],c['stage'],c['measure'])==(year,stage,p['measure']) for t in c['paths']}
         if any((path!=t and within(path,t)) or any(e!=t and within(e,t) for e in excluded) or not any(within(t,c) for c in covered) for t in active):return None
-        return sum(r['cents'] for r in facts if within(nodepath(r),path) and not any(within(nodepath(r),e) for e in excluded))
+        selected=[r for r in facts if within(nodepath(r),path) and not any(within(nodepath(r),e) for e in excluded)]
+        if any(not any(within(nodepath(r),t) or within(t,nodepath(r)) for r in selected) for t in active):return None
+        return sum(r['cents'] for r in selected)
 
 def compare_cells(ref,params,data):
     errors=[];checked=missing=0

@@ -1,0 +1,149 @@
+{
+  "at": "2026-09-28T21:10:07+02:00",
+  "verdict": "CONFORME SUR LE PÉRIMÈTRE CONTRÔLÉ",
+  "passed": true,
+  "identity": {
+    "schema": 1,
+    "url": "http://127.0.0.1:8552",
+    "reference": "3bbe4ae564f02bf2bb2c8b8040224052ed36ed949068f3c23452bfab90390024",
+    "data_version": "fc58a2c4296a6c832c8fd0342a675681d9355ae0ac289c2dc47d9116b8075823",
+    "assets": {
+      "/": "e6c64100c624f9d2a8be2c1ab78bf8e9b3c83e05d0e27f81ab60a637af6c622b",
+      "/assets/explorer.js": "4dc2a93f1c05bc44c25112d3773ba730ea118d0417ba21ee35dfb6643decbb44",
+      "/assets/explorer.css": "b71052fa78d46c3e85a099a6abb1853b1860e69cd571c85c7f091bd19da1703c"
+    },
+    "code": {
+      "audit.py": "f879ba28803ba6e307d71775943118a9856ebe889b558e6a6781330d4e06c4e4",
+      "oracle.py": "9b16b85342e141a3a2f1fd991a064e9a9d67d7084524fdf0143626880375b6e8",
+      "management.py": "c22c92ab30cca4de9d51d9970c99107cdc74566203d3b7bfa9f0e95f93c40d5c",
+      "zeros.py": "6706965fad71d862c9fd94a27e554084fe057345c938096a579289d1e8ba1313",
+      "document_zeros.py": "359ceb66f4bc5d7b811017f266edc98042235e650dbbba791f943960eb847d3e",
+      "document-zero-proofs.json": "0f3cec92d448f71a70761e0badf7cd0aba2f6f569d9cecfdb2e6d192f9b1e34b",
+      "reporting.py": "9d540c62eadae0ed0aa01e674d87915e0c61ea3ccda5bec9f3d4b28f4e61037b"
+    },
+    "browser_code": "a7f769b573487d36248119727387d3eb6c501ad57b39244cf2aa79d063401081",
+    "quick": true,
+    "browser": true,
+    "planned": 80
+  },
+  "counts": {
+    "amounts": 74631,
+    "missing": 59284,
+    "calculations": 416640,
+    "export_cells": 20020,
+    "visible_cells": 60060
+  },
+  "zero_source_summary": {
+    "counts": {
+      "calculated_zero": 401,
+      "document_review_recorded": 17,
+      "source_zero": 17933,
+      "undetermined": 6516
+    },
+    "errors": [],
+    "labels": {
+      "calculated_zero": "Zéro obtenu par addition de cellules sources",
+      "computed_zero": "Solde nul calculé à partir des montants de référence",
+      "document_review_recorded": "Zéro documenté lors d’une relecture antérieure",
+      "excluded": "Zéro de calcul dû aux exclusions",
+      "inflation_missing": "Montant connu, conversion par inflation indisponible",
+      "missing": "Montant absent de la base sur cette sélection",
+      "missing_detail": "Détail insuffisant pour isoler le montant",
+      "nonzero_source": "La cellule source contient un montant non nul",
+      "not_applicable": "Sans objet selon le périmètre documenté",
+      "referenced_zero": "Zéro de la référence, avec sources à examiner",
+      "source_blank": "Cellule source vide : sens non établi",
+      "source_dash": "Tiret dans la source : sens non établi",
+      "source_not_applicable": "Mention explicite « sans objet » dans la source",
+      "source_zero": "Zéro explicite dans la cellule source",
+      "undetermined": "Sens non déterminé : vérification nécessaire",
+      "unproven_zero": "Zéro sans observation monétaire ni preuve attachée"
+    },
+    "reviewed": 24867,
+    "scope": "Faits monétaires nuls et détails des registres d’actions/MaPrimeRénov’. Les cases absentes de l’API sont expliquées séparément ; aucun blanc n’est converti en zéro.",
+    "structured_zero_facts": 23746
+  },
+  "zero_case_counts": {
+    "computed_zero": 5419,
+    "excluded": 12051,
+    "inflation_missing": 214,
+    "missing": 37028,
+    "missing_detail": 12897,
+    "not_applicable": 702,
+    "referenced_zero": 5168
+  },
+  "cases": 83,
+  "error_count": 0,
+  "issues": [],
+  "documented_disagreements": 583,
+  "limits": [
+    "Comparaison indépendante à la base structurée et aux registres figés ; les documents officiels ne sont pas tous réextraits.",
+    "Les cases manquantes restent des données manquantes ; leur absence dans les publications n’est pas démontrée.",
+    "Tableau des crédits, niveaux de détail, montants des réserves et lignes de mouvements : comparaison à la référence. Les réconciliations documentaires ne sont pas refaites intégralement.",
+    "Les parcours navigateur sont un échantillon explicite ; aucune promesse sur toutes les combinaisons possibles."
+  ],
+  "excluded_sections": [
+    "Actes juridiques de la chronologie et pièces justificatives détaillées des mouvements : non certifiés indépendamment.",
+    "Recherche documentaire : pertinence des réponses non évaluée."
+  ],
+  "checkpoint_resume": true,
+  "site_modified": false,
+  "ai_calls": 0,
+  "summary": {
+    "finding_count": 0,
+    "family_count": 0,
+    "raw_signal_count": 0,
+    "families": {},
+    "findings": []
+  },
+  "reference_fact_count": 135155,
+  "document_coverage": {
+    "at": "2026-09-28T21:07:37.463529+02:00",
+    "scope": "Budget général, annexes PLR 2017–2022, totaux de programme AE/CP et étapes de gestion ; sans certification universelle des autres publications",
+    "global_coverage_complete": false,
+    "database_sha256": "733e286ae00cd21580f62ba6e7b5f0454392d503355512b07b6a48f1ba9415d8",
+    "contract_sha256": "bf0921dba970561102590527e5a55d17eba1bc7cb3a9858264c8e707faa525cd",
+    "reader_sha256": "5d91ea7ae6e8afd0a512ef4c0b65b36247cd33b3f6a50f15d918f0bf5c28864d",
+    "documents_expected": 6,
+    "documents_read": 6,
+    "tables_pages": 105,
+    "programme_credit_rows": 1503,
+    "cells": 16533,
+    "counts": {
+      "matched": 14907,
+      "different": 1222,
+      "documented_pending": 344,
+      "missing": 60
+    },
+    "difference_bands": {
+      "≤ 1 €": 901,
+      "De 1 à 10 €": 278,
+      "> 10 €": 43
+    },
+    "catalog_documents": 4294,
+    "catalog_counts": {
+      "exploitation_non_demontree": 3056,
+      "trace_dans_base": 1109,
+      "citation_dans_registre": 129
+    },
+    "limits": [
+      "Le catalogue est contrôlé pour sa traçabilité, pas comparé à un catalogue officiel exhaustif.",
+      "La relecture indépendante des cellules couvre uniquement les six annexes 2017–2022 décrites dans le contrat.",
+      "Une citation, un téléchargement ou une vectorisation ne prouve pas une extraction complète.",
+      "Une divergence est conservée et ne modifie pas automatiquement les chiffres du site."
+    ],
+    "read_only": true,
+    "reading_issues": 4
+  },
+  "mutation_tests": {
+    "passed": true,
+    "tests": 10,
+    "source_modified": false,
+    "method": "Altérations de copies en mémoire de cellules réelles ; aucune écriture dans la référence ou le site."
+  },
+  "presentation_update": {
+    "at": "2026-09-28T21:15:28.517235+02:00",
+    "renderer_sha256": "b3dc3a6a21a307e70a1066ce12015d2b53761189df652c93a03338eea9968f81",
+    "note": "Restitution et bilan documentaire ajoutés sans recalcul ni changement du verdict arithmétique du scan rapide. Identité du calcul conservée."
+  }
+}
