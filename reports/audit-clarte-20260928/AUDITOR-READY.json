@@ -1,0 +1,38 @@
+{
+  "at": "2026-09-28T23:00:14.210180+02:00",
+  "docker_tests": 69,
+  "integration": {
+    "passed": true,
+    "run": "20260928-225444-7955ad",
+    "cases": 14,
+    "counts": {
+      "amounts": 4155,
+      "missing": 711,
+      "calculations": 11592,
+      "export_cells": 572,
+      "visible_cells": 1716
+    },
+    "documentary_cells": 16533,
+    "documentary_counts": {
+      "matched": 14907,
+      "different": 1222,
+      "documented_pending": 344,
+      "missing": 60
+    },
+    "mutations": {
+      "passed": true,
+      "tests": 10,
+      "source_modified": false,
+      "method": "Altérations de copies en mémoire de cellules réelles ; aucune écriture dans la référence ou le site."
+    },
+    "scope": "Targeted Docker integration across scenario types; not the full 80-scenario campaign"
+  },
+  "transfer": {
+    "files_checked": 37,
+    "manifest_sha256": "4356af76095a45ca1a737a4424e5011188e4ebcc66d8bdd11fb45498ffb1bbb8",
+    "published": false
+  },
+  "published": false,
+  "command": "sudo python3 /home/marie/nos-deniers-audit-20260928-controles/update_existing.py",
+  "scope": "Moteur existant et nouveaux controles livres ; inventaire documentaire exhaustif non realise"
+}

@@ -84,9 +84,21 @@ def main():
             assert digest(api.DATA / r['path']) == r['sha256'], sid
         checked = len(plan['reviews'])
         db.close()
+    for measure in ('AE','CP'):
+        for stage in ('LFI','OUVERT'):
+            if args.http:
+                q=urllib.parse.urlencode(dict(start=2024,end=2024,measure=measure,budget='BG',scope='PR/362',topic='maprimerenov'))
+                c=json.loads(get('/api/explorer?'+q))['totals'][0][stage]
+            else:
+                from budget_service import topics
+                c=topics.subset('PR/362',2024,stage,dict(budget='BG',measure=measure,exclude=[],constant=False,base=2025),{})
+            if measure=='AE':assert c['value'] is None
+            else:
+                assert c['nominal_cents']==0 and c['approximate']
+                assert dict(source='296835325a7d511d6a5a',page=48) in c['citations']
     print(json.dumps(dict(passed=True, mode='HTTP' if args.http else 'offline', checked=checked,
                          release=contract['release'], facts=contract['fact_count'],
-                         scope='Contrôle du lot et de sa restitution ; les alertes documentaires préexistantes restent consignées.'), ensure_ascii=False))
+                         scope='Contrôle du lot et de sa restitution ; les limites documentaires figurent dans le bilan indépendant.'), ensure_ascii=False))
 
 
 if __name__ == '__main__':

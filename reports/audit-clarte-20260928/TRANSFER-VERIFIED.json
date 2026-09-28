@@ -1,0 +1,11 @@
+{
+  "files_checked": 41,
+  "release": "20260928-controles",
+  "release_sha256": "f83347343522b0e916602144b096364775cb7cb1073bb754e478bfe6b5910044",
+  "audit_status": "complete",
+  "baseline_match": true,
+  "site_published": false,
+  "at": "2026-09-28T22:24:19.602446+02:00",
+  "destination": "/home/marie/nos-deniers-update-20260928-controles",
+  "command": "sh /home/marie/nos-deniers-update-20260928-controles/PUBLIER_SUR_VPS.sh"
+}

@@ -14,3 +14,14 @@
 - L’auditeur VPS sur 8554 effectue actuellement une campagne ancienne : ne pas l’interrompre. L’installation refuse d’activer tant qu’il indique running. Le bouton conduit à https://auditnosdeniers.lexmachine.net/ ; aucune modification de son moteur.
 - Normalisation générale : le reçu workbook_review_20260928 bloque une reconstruction qui ignorerait ce lot (rejeu non reconnu, échec fermé). Ne pas relancer normalize pour cette livraison. Le plan standalone préserve les 517 faits et les décisions ; une prochaine reconstruction générale devra explicitement adapter le rejeu et conserver cell_reviews.
 - Reprendre en vérifiant reçu et empreintes, jamais en réexécutant aveuglément les scripts de patch ponctuels.
+
+MISE À JOUR — VALIDATION DOCKER DU SITE RÉUSSIE
+370 tests exécutés : 367 réussis, 3 ignorés (outil de préparation du corpus absent de l’image web). Les 12 628 revues et les 12 cas HTTP du paquet sont contrôlés. Le cache du vérificateur a été limité à un groupe pour tenir sous 1 Go, sans réduire les contrôles. Empreintes du paquet vérifiées. Ancienne version, données et index conservés. Aucun transfert ni publication. Cette validation concerne le site ; l’image du nouveau moteur d’audit reste distincte et non testée ici. Reçu : reports/audit-clarte-20260928/DOCKER-VALIDATED.json.
+
+TRANSFERT VPS VÉRIFIÉ — 2026-09-28T22:21:33.740769+02:00
+Paquet site 20260928-controles transféré dans /home/marie/nos-deniers-update-20260928-controles ; 41 empreintes identiques, prédécesseur SQL conforme, aucun audit en cours. Publication non exécutée. Commande utilisateur : sh /home/marie/nos-deniers-update-20260928-controles/PUBLIER_SUR_VPS.sh. Ancienne version conservée par installateur. Moteur audit exhaustif non livré dans ce paquet.
+
+TRANSFERT VPS VÉRIFIÉ — 2026-09-28T22:24:19.602446+02:00
+Paquet site 20260928-controles transféré dans /home/marie/nos-deniers-update-20260928-controles ; 41 empreintes identiques, prédécesseur SQL conforme, aucun audit en cours. Publication non exécutée. Commande utilisateur : sh /home/marie/nos-deniers-update-20260928-controles/PUBLIER_SUR_VPS.sh. Ancienne version conservée par installateur. Moteur audit exhaustif non livré dans ce paquet.
+
+Correctif lanceur Linux du 28 septembre 22 h 24 : PUBLIER_SUR_VPS.sh contenait des CRLF Windows (set: Illegal option). Converti en LF en local et sur VPS ; générateur package_site.py corrigé ; manifeste et 41 empreintes revérifiés. Exécution réelle du lanceur sous sh testée avec sudo remplacé temporairement par un témoin sans effet. Aucune installation lancée ; l’utilisateur peut relancer la même commande. SQL, application et index inchangés.

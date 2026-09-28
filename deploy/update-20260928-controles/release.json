@@ -30,8 +30,8 @@
     "Dockerfile": "0ce6cfa45cc9935dc5d47407d7acd2858a1d106dd87ce716660825c0d27e4f9c",
     "install.py": "e1cfdd5e54526a62d718d994847a8d259d84c6cec4833b5ce8f7db21ebf98730",
     "plan.json": "199d531af7bee485e0159e593404149c011f318cb76f1afab626dd90a54e6fac",
-    "PUBLIER_SUR_VPS.sh": "c355d22a406aea6dc6474035778243f51ab67b672d594c762b2719eaebf141e2",
-    "verify.py": "080ba75838c2c2e60fc005c5bf41d497e3719818bf55ec7707290a99cf1af3bf",
+    "PUBLIER_SUR_VPS.sh": "8e3675bbfcdf7b33dd7458d50b35048160067e17dde8240fe59660ba788c60bd",
+    "verify.py": "f95d6ef53a7c449c78bfb7905183f86f74da387a6b78bfda5496c1fc99756988",
     "checks/auditor-tests.log": "1b342443458ec41b4f24fd742ec72fb46d163934dcc5fc94d8e011dc0bec1548",
     "checks/browser.json": "220794eb149367582ab11cf8c9095500285e6b98bc818b898cf1cc9eef46c971",
     "checks/document-coverage.json": "9202fb0ff0a381f309cb21ee309f98af7bc2ad08e6d1c0a7fe63bb023be71c33",
@@ -64,7 +64,10 @@
     "data/public/reviews/20260928/86f11efd7e43adf978cc.pdf": "094d8e049d0d9d2c3cfa76e74d58e6cb840b0b7b0f5f0805342f6d5f5b9131f0",
     "data/public/selenium/annexes/2021/Annexe-1_BG_2021-a015e06ef1aa.pdf": "a015e06ef1aad510d9951efda0872699b0fa3b85c1562775553633b7f002e720",
     "data/public/selenium/annexes/2022/Annexe-1_BG_2022-613b1184bc11.pdf": "613b1184bc117efdf075e66257ab11e636c5cf023f7115b21020961ce40048a8",
-    "data/public/selenium/rap/2020/PLR-2020-Annexe-1-Budget-general-e6a391f6ce4a.pdf": "e6a391f6ce4a3b266a152e20d76b5e8022fc9b14b0b56d712ad84c251aab0cbc"
+    "data/public/selenium/rap/2020/PLR-2020-Annexe-1-Budget-general-e6a391f6ce4a.pdf": "e6a391f6ce4a3b266a152e20d76b5e8022fc9b14b0b56d712ad84c251aab0cbc",
+    "checks/docker-site-tests.log": "fbee672c9d05624f2c9b749045ddf9ecfa7cb1cf6e5963602227378fd3c90211",
+    "checks/docker-release-bounded-verify.log": "c583e6570a3fbe6151c2e05496be89ad4f3c8242cc1ba714f513eb433eabe96c",
+    "checks/docker-http-verify.log": "db4b85f19f943700975467c554a3bd3aae7529bf4a029799773aa6b67413feb7"
   },
   "prior_source_alerts": [
     {
@@ -80,5 +83,13 @@
   ],
   "mpr_review": "Deux observations CP arrondies et sourcées ; AE LFI/ouverts non établis. SQL inchangé par cette correction.",
   "publication_status": "prepared_not_published",
-  "docker_validation": "pending_Docker_Desktop_stopped"
+  "docker_validation": "passed_site_image_tests_offline_http",
+  "docker_tests": {
+    "run": 370,
+    "passed": 367,
+    "skipped": 3,
+    "offline_reviews": 12628,
+    "http_cases": 12,
+    "audit_service_image_tested": false
+  }
 }

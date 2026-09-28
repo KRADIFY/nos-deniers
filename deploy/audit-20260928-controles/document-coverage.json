@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "scope": "Budget général, annexes PLR 2017–2022, totaux de programme AE/CP et étapes de gestion ; sans certification universelle des autres publications",
+  "sources": [
+    {
+      "id": "b53d0a4a0ba89d8680dd",
+      "year": 2017,
+      "title": "PLR 2017 Annexe1",
+      "sha256": "fe0bfa634b0ea25617aa56457753096181e15aa3d6bbc08e1d07f93e92f676c3",
+      "path": "manual/collecte/annexes/2017/PLR_2017_Annexe1-fe0bfa634b0e.pdf",
+      "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2017/rap/pdf/PLR_2017_Annexe1.pdf"
+    },
+    {
+      "id": "cf16263f0bf9f833190d",
+      "year": 2018,
+      "title": "PLR2018 Annexe1",
+      "sha256": "c8c9077f7027568cd45668465089aaa89b3e8dd8fca9c6c41848130034c4a83e",
+      "path": "manual/collecte/annexes/2018/PLR2018_Annexe1-c8c9077f7027.pdf",
+      "url": ""
+    },
+    {
+      "id": "68d421989cccdaa9d7d5",
+      "year": 2019,
+      "title": "PLR 2019 Annexe 1 BG",
+      "sha256": "1948eb8ff22f44f2fd7f1e69f86eb56f8ea10c0fbf9b5280c955730a21870bb5",
+      "path": "manual/collecte/annexes/2019/PLR-2019-Annexe-1-BG-1948eb8ff22f.pdf",
+      "url": ""
+    },
+    {
+      "id": "f5a26d953548ea1a54ff",
+      "year": 2020,
+      "title": "RAP 2020 — PLR 2020 - annexe 1 : développement des opérations constatées au budget général",
+      "sha256": "e6a391f6ce4a3b266a152e20d76b5e8022fc9b14b0b56d712ad84c251aab0cbc",
+      "path": "public/selenium/rap/2020/PLR-2020-Annexe-1-Budget-general-e6a391f6ce4a.pdf",
+      "url": "https://www.budget.gouv.fr/documentation/file-download/11146"
+    },
+    {
+      "id": "5df1bd3ade4faaf54a21",
+      "year": 2021,
+      "title": "ANNEXES 2021 — PLR 2021 - annexe 1: développement des opérations constatées au budget général (nouvelle présentation)",
+      "sha256": "a015e06ef1aad510d9951efda0872699b0fa3b85c1562775553633b7f002e720",
+      "path": "public/selenium/annexes/2021/Annexe-1_BG_2021-a015e06ef1aa.pdf",
+      "url": "https://www.budget.gouv.fr/documentation/file-download/20829"
+    },
+    {
+      "id": "c0eee1570050ea933730",
+      "year": 2022,
+      "title": "ANNEXES 2022 — PLR 2022 - annexe 1 : développement des opérations constatées au budget général",
+      "sha256": "613b1184bc117efdf075e66257ab11e636c5cf023f7115b21020961ce40048a8",
+      "path": "public/selenium/annexes/2022/Annexe-1_BG_2022-613b1184bc11.pdf",
+      "url": "https://www.budget.gouv.fr/documentation/file-download/19743"
+    }
+  ]
+}

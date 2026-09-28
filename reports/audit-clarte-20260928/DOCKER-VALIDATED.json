@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-28T22:18:15.754667+02:00",
+  "release": "20260928-controles",
+  "release_sha256": "3411a81a1552c2869b29fd93e11bf9583c9ba4c46df8704a5d431e88452d8812",
+  "image": "sha256:09ed9a4d7a21e58f324d18b4418ed2b6297069da44923746d666faf2b6039121",
+  "checks": {
+    "run": 370,
+    "passed": 367,
+    "skipped": 3,
+    "offline_reviews": 12628,
+    "http_cases": 12,
+    "audit_service_image_tested": false
+  },
+  "database_sha256": "aa11479b90fb9c2d79003234b0223cc2a25198fb09c10f4ac2ef4c5ced5da7ba",
+  "site_published": false,
+  "bundle_transferred": false,
+  "initial_offline_attempt": "Stopped after hitting 1 GiB; bounded cache rechecked all reviews successfully.",
+  "remaining": "Transfer and VPS installation checks; exhaustive documentary coverage remains separate."
+}
