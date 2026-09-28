@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "changed": [
+    "/app/public/assets/explorer.css",
+    "/app/public/explorer.html"
+  ],
+  "unchanged_application_files": 150,
+  "link_removed_only": true,
+  "data_modified": false,
+  "activated": false
+}
