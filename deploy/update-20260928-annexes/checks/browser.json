@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_page": true,
+  "exclusion_and_restore": true,
+  "pending_warning": true,
+  "management_stage": true,
+  "mobile_audit_link": true,
+  "visual_variant_same_data": true,
+  "errors": []
+}

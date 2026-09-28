@@ -1,0 +1,21 @@
+{
+  "new_integration_passed": true,
+  "full_audit_passed": false,
+  "numeric_cells": 13185,
+  "arithmetic_errors": 0,
+  "preexisting_source_alerts": [
+    {
+      "cell": "BG | CP | PR | 2024 | LFI sources",
+      "expected": "références présentes",
+      "actual": []
+    },
+    {
+      "cell": "BG | CP | PR | 2024 | OUVERT sources",
+      "expected": "références présentes",
+      "actual": []
+    }
+  ],
+  "new_errors": [],
+  "meaning": "Deux cellules MaPrimeRénov’ PR/2024 sont affichées à zéro sans source attachée dans la réponse de calcul ; même résultat avant le lot. Elles ne sont pas corrigées ni validées par cet import.",
+  "data_version": "fc58a2c4296a6c832c8fd0342a675681d9355ae0ac289c2dc47d9116b8075823"
+}

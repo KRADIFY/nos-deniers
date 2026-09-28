@@ -1,0 +1,200 @@
+"""Resumable public Budget collection through ordinary Selenium navigation.
+
+Uses a fresh browser, no credential/session extraction and no bot evasion.
+The Word guide is the seed list. State and downloaded files stay in Budget.
+"""
+import argparse,hashlib,json,os,re,sys,time,unicodedata,zipfile
+from pathlib import Path
+from urllib.parse import urlparse,urljoin,urldefrag,unquote
+import xml.etree.ElementTree as ET
+
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'.runtime/selenium-libs'))
+os.environ.setdefault('SE_CACHE_PATH',str(ROOT/'.runtime/selenium-cache'))
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException,WebDriverException
+
+HOSTS={'www.budget.gouv.fr','budget.gouv.fr'}
+EXTENSIONS={'.pdf','.csv','.xls','.xlsx','.xml','.ods','.zip','.7z'}
+
+def canonical(url):
+    return urldefrag(url)[0]
+
+def name_key(name):
+    name=unquote(Path(urlparse(name).path).name)
+    name=re.sub(r' \(\d+\)(?=\.[^.]+$)','',name)
+    return unicodedata.normalize('NFC',name).casefold()
+
+def digest(path):
+    with path.open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
+
+def guide_links():
+    path=ROOT/'reports/collecte-manuelle/Nos Deniers - Liens de collecte 2017 à 2026.docx'
+    with zipfile.ZipFile(path) as archive:
+        rels=ET.fromstring(archive.read('word/_rels/document.xml.rels'))
+        targets={x.attrib['Id']:x.attrib['Target'] for x in rels if x.attrib.get('TargetMode')=='External'}
+        xml=ET.fromstring(archive.read('word/document.xml'))
+    ns={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+    found=[]
+    for link in xml.findall('.//w:hyperlink',ns):
+        rid=link.attrib.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')
+        if rid in targets:found.append(targets[rid])
+    return list(dict.fromkeys(found))
+
+def is_file(url):
+    return '/file-download/' in urlparse(url).path or Path(urlparse(url).path).suffix.lower() in EXTENSIONS
+
+def in_scope(url):
+    parsed=urlparse(url)
+    if parsed.scheme not in {'https','http'} or parsed.hostname not in HOSTS:return False
+    years=re.findall(r'exercice-(20\d{2})',parsed.path)
+    if not years or int(years[-1]) not in {2019,2020,2021,2022}:return False
+    return ('/documentation/documents-budgetaires' in parsed.path or '/documents-budgetaires' in parsed.path or
+            '/farandole/' in parsed.path) and not is_file(url)
+
+def atomic_json(path,data):
+    tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');tmp.replace(path)
+
+def validate(path):
+    with path.open('rb') as stream:signature=stream.read(8)
+    if signature.startswith(b'%PDF-'):
+        from pypdf import PdfReader
+        with path.open('rb') as stream:
+            stream.seek(max(0,path.stat().st_size-4096))
+            if b'%%EOF' not in stream.read():raise ValueError('PDF tronqué')
+        pdf=PdfReader(path)
+        for page in pdf.pages:
+            content=page.get_contents()
+            if content is not None:content.get_data()
+        return dict(format='pdf',pages=len(pdf.pages),head_text='\n'.join(p.extract_text() or '' for p in list(pdf.pages)[:3])[:18000])
+    if b'<html' in signature.lower() or path.suffix.lower() in {'.html','.htm'}:raise ValueError('Page HTML reçue à la place du document')
+    if path.suffix.lower()=='.xml':ET.parse(path)
+    elif path.suffix.lower() in {'.zip','.xlsx','.ods'}:
+        with zipfile.ZipFile(path) as z:
+            if z.testzip():raise ValueError('Archive invalide')
+    elif path.suffix.lower() not in {'.csv','.xls','.7z'}:raise ValueError('Format à contrôler manuellement')
+    return dict(format=path.suffix.lstrip('.'))
+
+def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--seed',action='append')
+    parser.add_argument('--out',type=Path,default=ROOT/'reports/selenium-budget/collection')
+    parser.add_argument('--max-pages',type=int,default=3000)
+    parser.add_argument('--max-files',type=int,default=3000)
+    parser.add_argument('--scan-only',action='store_true')
+    parser.add_argument('--headless',action='store_true')
+    parser.add_argument('--retry-blocked',action='store_true')
+    args=parser.parse_args();out=args.out.resolve();out.mkdir(parents=True,exist_ok=True)
+    state_path=out/'state.json'
+    state=json.loads(state_path.read_text(encoding='utf-8')) if state_path.exists() else dict(pages={},documents={},pending=[],guide=guide_links())
+    manifest=json.loads((ROOT/'reports/MANIFEST-COLLECTE.json').read_text(encoding='utf-8'))
+    known_urls={canonical(r['url']):r for r in manifest if r.get('url')}
+    known_names={}
+    known_hashes={r['sha256']:r for r in manifest if r.get('sha256')}
+    for record in manifest:
+        for name in [record.get('original_filename',''),record['path'],record.get('url','')]+record.get('collection_aliases',[]):
+            if name:known_names.setdefault(name_key(name),[]).append(record)
+    seeds=args.seed or state['guide']
+    state['external_catalogues']=[u for u in state['guide'] if not is_file(u) and not in_scope(u)]
+    for url in seeds:
+        url=canonical(url)
+        if is_file(url):
+            state['documents'].setdefault(url,dict(url=url,filename=unquote(Path(urlparse(url).path).name),source_pages=[],status='pending',origin='word'))
+        elif in_scope(url) and url not in state['pages'] and url not in state['pending']:state['pending'].append(url)
+    if args.retry_blocked:
+        for url,r in list(state['pages'].items()):
+            if r['status']!='scanned':
+                state['pending'].append(url);del state['pages'][url]
+        for r in state['documents'].values():
+            if r['status'] in {'blocked','failed'}:r['status']='pending'
+    def save():
+        state['updated_at']=time.strftime('%Y-%m-%dT%H:%M:%S%z');atomic_json(state_path,state)
+    options=webdriver.ChromeOptions();options.binary_location='C:/Program Files/Google/Chrome/Application/chrome.exe'
+    if args.headless:options.add_argument('--headless=new')
+    options.add_argument('--window-size=1450,1050');options.page_load_strategy='eager'
+    options.add_experimental_option('prefs',{'download.prompt_for_download':False,'plugins.always_open_pdf_externally':True,'profile.default_content_setting_values.automatic_downloads':1})
+    driver=webdriver.Chrome(options=options);driver.set_page_load_timeout(30)
+    def visit(url):
+        try:driver.get(url)
+        except TimeoutException:pass
+        time.sleep(1.5)
+        body=driver.find_element(By.TAG_NAME,'body').text
+        if ('Request unsuccessful' in body or 'Access Denied' in body or 'verify you are human' in body.lower()):raise RuntimeError('Contrôle du site : intervention manuelle nécessaire')
+        for button in driver.find_elements(By.XPATH,"//button[contains(.,'Tout refuser')]"):
+            if button.is_displayed():button.click();break
+        return body
+    try:
+        count=0
+        while state['pending'] and count<args.max_pages:
+            url=state['pending'].pop(0);count+=1
+            try:
+                body=visit(url)
+                if not driver.find_elements(By.CSS_SELECTOR,'main'):raise RuntimeError('Page sans contenu principal à vérifier')
+                links=driver.execute_script("""return Array.from(document.querySelectorAll('main a[href]')).map(a=>({url:a.href,text:a.innerText,filename:a.getAttribute('filename'),context:a.closest('article')?.innerText||'',title:a.closest('article')?.querySelector('.field--name-field-titre')?.innerText||''}));""")
+                found=set()
+                for link in links:
+                    target=canonical(link['url'])
+                    if urlparse(target).hostname not in HOSTS:continue
+                    if is_file(target):
+                        found.add(target)
+                        item=state['documents'].setdefault(target,dict(url=target,filename=link['filename'] or unquote(Path(urlparse(target).path).name),source_pages=[],status='pending',origin='catalogue'))
+                        if link['filename']:item['filename']=link['filename']
+                        if link['title']:item['title']=link['title']
+                        item['context']=link['context'][:1500]
+                        if url not in item['source_pages']:item['source_pages'].append(url)
+                    elif in_scope(target) and target not in state['pages'] and target not in state['pending'] and target!=url:
+                        state['pending'].append(target)
+                state['pages'][url]=dict(status='scanned',title=driver.title,documents=len(found),result_counts=re.findall(r'toutes les pages,\s*(\d+) au total',body),links=len(links))
+                print(f"Page {len(state['pages'])} : {len(found)} documents, {len(state['pending'])} pages en attente",flush=True)
+            except Exception as error:
+                state['pages'][url]=dict(status='blocked',error=str(error)[:250],title=driver.title,final_url=driver.current_url,text=driver.find_element(By.TAG_NAME,'body').text[:2500]);(out/'last-page.html').write_text(driver.page_source,encoding='utf-8');save();print('Navigation interrompue : '+str(error)[:200],flush=True);break
+            save()
+        if not args.scan_only:
+            count=0
+            for url,item in state['documents'].items():
+                if item['status']!='pending':continue
+                known=known_urls.get(url)
+                if known:
+                    item.update(status='already_present',path=known['path'],sha256=known.get('sha256'));save();continue
+                candidates=known_names.get(name_key(item['filename']),[])
+                if candidates and len({r.get('sha256') for r in candidates})==1:
+                    item.update(status='matched_filename',path=candidates[0]['path'],sha256=candidates[0].get('sha256'));save();continue
+                if count>=args.max_files:break
+                count+=1;folder=out/'downloads'/hashlib.sha256(url.encode()).hexdigest()[:16];folder.mkdir(parents=True,exist_ok=True)
+                try:
+                    ready=[p for p in folder.iterdir() if p.is_file() and not p.name.endswith(('.crdownload','.tmp'))]
+                    if not ready:
+                        driver.execute_cdp_cmd('Browser.setDownloadBehavior',{'behavior':'allow','downloadPath':str(folder),'eventsEnabled':True})
+                        if item['source_pages']:
+                            visit(item['source_pages'][0])
+                            anchors=[a for a in driver.find_elements(By.CSS_SELECTOR,'a[href]') if a.get_attribute('href')==url and a.is_displayed()]
+                            if not anchors:raise RuntimeError('Bouton de téléchargement absent')
+                            driver.execute_script('arguments[0].scrollIntoView({block:"center"})',anchors[0]);anchors[0].click()
+                        else:
+                            try:driver.get(url)
+                            except TimeoutException:pass
+                        previous=None;stable=0
+                        for tick in range(90):
+                            ready=[p for p in folder.iterdir() if p.is_file() and not p.name.endswith(('.crdownload','.tmp'))]
+                            sizes=[(p.name,p.stat().st_size) for p in ready]
+                            stable=stable+1 if sizes and sizes==previous else 0;previous=sizes
+                            if stable>=2 and not list(folder.glob('*.crdownload')):break
+                            time.sleep(1)
+                        else:raise RuntimeError('Téléchargement non terminé ou contrôle du site')
+                    if len(ready)!=1:raise RuntimeError('Plusieurs fichiers dans le lot de téléchargement')
+                    path=ready[0];details=validate(path);sha=digest(path)
+                    existing=known_hashes.get(sha)
+                    item.update(details,status='duplicate' if existing else 'downloaded',local_path=str(path),bytes=path.stat().st_size,sha256=sha)
+                    if existing:item['duplicate_of']=existing['path']
+                    else:known_hashes[sha]={'path':str(path)}
+                    print('Document contrôlé : '+path.name,flush=True)
+                except Exception as error:
+                    item.update(status='failed',error=str(error)[:300]);save();print('Téléchargement interrompu : '+str(error)[:200],flush=True);break
+                save()
+        state['complete']=not state['pending'] and all(p['status']=='scanned' for p in state['pages'].values()) and not any(d['status'] in {'pending','failed','blocked'} for d in state['documents'].values())
+        save()
+        print(json.dumps(dict(pages=len(state['pages']),documents=len(state['documents']),pending_pages=len(state['pending']),complete=state['complete']),ensure_ascii=False),flush=True)
+    finally:save();driver.quit()
+
+if __name__=='__main__':main()

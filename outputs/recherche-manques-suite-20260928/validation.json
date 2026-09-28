@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checked_programme_rows": 652,
+  "checked_gestion_values": 11976,
+  "checked_gap_formulas": 86,
+  "native_links": 12655,
+  "formula_errors": [],
+  "unchanged_database": true,
+  "xlsx_sha256": "946258968da4f8b02944bc0d92cfb58cd4666d02bc510f1a9146a5653d0eb2bb",
+  "bytes": 1108413
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "numeric_cells": 11672,
+  "exclusions": 11672,
+  "withheld_cells": 344,
+  "provenance": 10,
+  "core_cohort": {
+    "available": 12613,
+    "pending": 28,
+    "not_applicable": 71
+  },
+  "all_prior_facts_unchanged": true,
+  "source_pdf_hashes": 6,
+  "source_total_rows_reread": 1497,
+  "data_version": "fc58a2c4296a6c832c8fd0342a675681d9355ae0ac289c2dc47d9116b8075823",
+  "elapsed_seconds": 43.36
+}

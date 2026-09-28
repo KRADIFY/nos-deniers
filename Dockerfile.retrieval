@@ -1,0 +1,10 @@
+# The verified full archive preserves the pinned BGE runtime after Docker migration.
+# Expected local archive image: sha256:381b7a2bbd0e9fbf90e476a66fb1f5b0a2ffd27386cbb6662197c05287953ecd
+ARG BUDGET_RETRIEVAL_BASE=lexmachine-budget-retrieval:20260919-recherche
+FROM ${BUDGET_RETRIEVAL_BASE}
+ENV USER=budget LOGNAME=budget TORCHINDUCTOR_CACHE_DIR=/tmp/torch XDG_CACHE_HOME=/tmp/cache PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 HF_HUB_DISABLE_TELEMETRY=1
+WORKDIR /app
+COPY budget_service /app/budget_service
+USER 10001:10001
+EXPOSE 8090
+CMD ["python", "-m", "budget_service.retrieval_service"]

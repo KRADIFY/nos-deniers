@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-09-28T16:33:40.379426+00:00",
+  "package_files_verified": 26,
+  "release_sha256": "f66d15c510875331bd6403673910b7d366c3cef9821edd40173ff9551ef7a830",
+  "offline_passed": true,
+  "http_local_passed": true,
+  "reviewed_cells": 12628,
+  "transferred": false,
+  "published": false,
+  "preexisting_source_alerts": [
+    {
+      "cell": "BG | CP | PR | 2024 | LFI sources",
+      "expected": "références présentes",
+      "actual": []
+    },
+    {
+      "cell": "BG | CP | PR | 2024 | OUVERT sources",
+      "expected": "références présentes",
+      "actual": []
+    }
+  ]
+}

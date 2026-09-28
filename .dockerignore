@@ -1,0 +1,13 @@
+*
+!Dockerfile
+!Dockerfile.retrieval
+!budget_service/**
+!public/**
+!tests/**
+!tools/export_document_search.py
+!requirements.txt
+
+# Offline corpus-preparation tests run in the workspace, outside the web image.
+tests/*vectorisation*.py
+tests/test_historical_movement_extractor.py
+tests/test_historical_xls_actions.py

@@ -1,0 +1,51 @@
+# Add to compose.yaml. Data remain outside the image, read-only at runtime.
+services:
+  web:
+    environment:
+      BUDGET_RETRIEVAL_URL: http://retrieval:8090
+  retrieval:
+    image: lexmachine-budget-retrieval:20260924-incremental
+    build:
+      context: .
+      dockerfile: Dockerfile.retrieval
+    init: true
+    read_only: true
+    user: "10001:10001"
+    restart: unless-stopped
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    mem_limit: 2200m
+    cpus: 4
+    pids_limit: 128
+    tmpfs: ["/tmp:size=128m,mode=1777"]
+    environment:
+      BUDGET_RETRIEVAL_ROOT: /search
+      BUDGET_RETRIEVAL_SUPPLEMENT_ROOT: /search-supplement
+      BUDGET_RETRIEVAL_SUPPLEMENT2_ROOT: /search-supplement2
+      BUDGET_ENCODER_THREADS: "2"
+      BUDGET_SEARCH_THREADS: "2"
+      BUDGET_MODEL_DTYPE: float16
+    volumes:
+      - type: bind
+        source: ${BUDGET_SEARCH_HOST_PATH:-D:/LexMachine/NosDeniers/search_20260919}
+        target: /search
+        read_only: true
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${BUDGET_SEARCH_SUPPLEMENT_HOST_PATH:-./retrieval-supplement-20260923-expanded}
+        target: /search-supplement
+        read_only: true
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${BUDGET_SEARCH_SUPPLEMENT2_HOST_PATH:-./retrieval-supplement-20260924-incremental}
+        target: /search-supplement2
+        read_only: true
+        bind: {create_host_path: false}
+    healthcheck:
+      test: [CMD, python, -c, "import json,urllib.request; assert json.load(urllib.request.urlopen('http://127.0.0.1:8090/healthz',timeout=5))['available']"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}

@@ -1,24 +1,41 @@
-# Nos Deniers — version publiée sauvegardée
+# Nos Deniers — préparation du 28 septembre 2026
 
-Cette branche conserve le code de l’image publiée `20260924-final`, extrait de son archive Docker, puis son ajout du lien vers l’audit du 28 septembre. Les 80 empreintes du socle ont été contrôlées avant cet ajout ; les 10 ressources HTTP du résultat correspondent au site public. Le Dockerfile et les deux fichiers de cet ajout sont copiés directement depuis le serveur dans `restore/site-link-20260928/`. Voir `proofs/` et `restore/published-20260924/image-code-manifest.json`.
+Deux versions sont préservées dans ce dépôt privé :
 
-- Site : https://budget.lexmachine.net/
-- Version des données : `f5c7830587b1cf8eb67fdd671e789c51d1f98db9ac8b6e9807ea0406a5340dac`.
-- Montants structurés : **122 970**.
-- Copie antérieure à la livraison des ajouts du 28 septembre 2026.
+| Version | Branche | Repère immuable | Montants structurés |
+| --- | --- | --- | ---: |
+| Site effectivement en ligne, avec bouton d’audit | `main` | `en-ligne-2026-09-28` | 122 970 |
+| Ajouts du jour et présentation à essayer | `preparation` | `preparation-2026-09-28` | 135 155 |
 
-## Où sont les bases et les documents ?
+**Cette version préparée n’a pas été publiée.** Le site public est inchangé par cette sauvegarde.
 
-Git conserve le code, les registres JSON utilisés par le site, les scripts de publication et les empreintes. Les bases SQLite, les trois index de recherche, les documents et les images Docker sont conservés séparément, avec leurs empreintes, dans :
+## Ce que contient la préparation
+
+- Corrections et ajouts des classeurs 10 et 11, puis annexes de gestion 2017–2022 : 12 189 montants supplémentaires et retrait de quatre zéros en double, soit +12 185 montants nets depuis le site public.
+- Code du site, registre des preuves, scripts d’intégration et contrôles, plans et reçus de chaque lot.
+- Paquet cumulatif `deploy/update-20260928-annexes/`, avec les empreintes de sa base et des documents dans `release.json`.
+- Variante visuelle séparée dans `previews/presentation-20260928/`. La CSS d’essai n’est pas imposée à la présentation habituelle. Après démarrage du site local sur le port 8552, lancer `python previews/presentation-20260928/serve.py` puis ouvrir http://127.0.0.1:8556/.
+- Code de l’auditeur indépendant dans `auditeur-independant/`.
+
+## Données et restauration
+
+Les bases, les PDF et les trois index vectoriels sont conservés avec empreintes dans la sauvegarde indépendante :
 
 `H:/Sauvegardes-Nos-Deniers/20260928-avant-publication`
 
-Le fichier `restore/backup-manifest.json` liste toutes les pièces. Cette sauvegarde Git seule ne remplace donc pas la sauvegarde des données sur H.
+Git conserve leur inventaire, pas les lourds fichiers de données. `restore/backup-manifest.json` décrit cette sauvegarde. `restore/current-archive-files.json` détaille chaque fichier de l’archive `nos-deniers-code-base-et-preuves.zip`.
 
-## Restaurer sans modifier la production
+Pour restaurer la préparation dans un **nouveau dossier** :
 
-Dans un dossier neuf, recopier `published-data/` depuis H comme dossier `data/`. Il contient la base structurée publiée et les documents. Recopier les scripts et images de `published-20260924/` depuis H. Décompresser `search.sqlite.zst` et `dense.faiss.zst` vers `search/search.sqlite` et `search/dense.faiss` ; vérifier les empreintes `original_sha256` du manifeste. Copier aussi `search/manifest.json`, `search-supplement/` et `search-supplement2/`.
+1. Vérifier l’empreinte de l’archive avec le manifeste, puis décompresser `nos-deniers-code-base-et-preuves.zip`. Elle restitue un dossier `budget/`, avec le paquet de livraison, la base de 135 155 faits et les PDF complémentaires.
+2. Pour reconstituer un répertoire de données autonome, copier d’abord `published-data/` depuis la sauvegarde, puis y superposer `budget/deploy/update-20260928-annexes/data/` extrait de l’archive. La base finale attendue est `aa11479b90fb9c2d79003234b0223cc2a25198fb09c10f4ac2ef4c5ced5da7ba`.
+3. Les trois index de recherche sont inchangés. Les retrouver dans `published-20260924/` ; décompresser les deux `.zst` du principal dans `search/` et contrôler leurs empreintes `original_sha256`. Conserver les deux compléments et les manifestes. Aucune nouvelle vectorisation n’est nécessaire pour restaurer.
+4. L’image Docker d’origine et le moteur de recherche sont aussi sauvegardés. Le paquet cumulatif fournit son propre installateur et refuse une base publique différente. **Ne pas exécuter cet installateur pour simplement consulter les fichiers : il sert à publier.**
 
-Les images originales `image.tar` et `retrieval-image.tar.gz` évitent de reconstruire une ancienne version avec des dépendances récentes. La composition d’origine figure dans `restore/published-20260924/compose.yaml`. Pour retrouver le site actuel avec son bouton d’audit, reconstruire ensuite la petite image décrite dans `restore/site-link-20260928/Dockerfile`, avec le tag `lexmachine-budget:audit-link-20260928-145106`, et utiliser la composition dans ce même dossier. Adapter uniquement les ports d’une restauration de test pour ne pas interrompre les services existants. Les scripts de publication ne doivent pas être lancés pour simplement consulter cette sauvegarde.
+Le détail de restauration de la version publique figure dans le README de la branche `main`. L’ajout déjà publié du bouton d’audit est sauvegardé dans `restore/site-link-20260928/`.
 
-La branche `preparation` sera la seconde photographie, avec les données ajoutées et la variante CSS. Les anciens paramètres de service ou secrets éventuels ne sont pas stockés dans Git.
+## Contrôles et limites conservés
+
+Les reçus du lot indiquent 473 tests exécutés, deux contrôles de préparation de corpus non applicables, 11 672 nouveaux montants vérifiés et 13 185 contrôles numériques indépendants sans erreur de calcul. Ils conservent aussi deux alertes de provenance MaPrimeRénov’ déjà présentes, ainsi que 344 cellules de gestion en attente de rapprochement. La sauvegarde n’efface pas ces limites et ne vaut pas nouvel audit exhaustif.
+
+`proofs/prepared-files.json` permet de contrôler les fichiers préparés. Les fichiers de l’application en ligne ont été extraits de l’image d’origine et rapprochés des ressources réellement servies avant la première sauvegarde.

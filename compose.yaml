@@ -1,0 +1,414 @@
+{
+  "name": "lexmachine-budget",
+  "services": {
+    "web": {
+      "build": ".",
+      "image": "lexmachine-budget:0.3",
+      "init": true,
+      "read_only": true,
+      "cap_drop": [
+        "ALL"
+      ],
+      "security_opt": [
+        "no-new-privileges:true"
+      ],
+      "pids_limit": 64,
+      "tmpfs": [
+        "/tmp:size=32m,mode=1777"
+      ],
+      "logging": {
+        "driver": "json-file",
+        "options": {
+          "max-size": "10m",
+          "max-file": "3"
+        }
+      },
+      "restart": "unless-stopped",
+      "ports": [
+        "127.0.0.1:8552:8080"
+      ],
+      "volumes": [
+        "budget_state:/state:ro",
+        "budget_data:/data:ro"
+      ],
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/healthz',timeout=3)"
+        ],
+        "interval": "30s",
+        "timeout": "5s",
+        "retries": 3
+      }
+    },
+    "checks": {
+      "build": ".",
+      "image": "lexmachine-budget:0.3",
+      "init": true,
+      "read_only": true,
+      "cap_drop": [
+        "ALL"
+      ],
+      "security_opt": [
+        "no-new-privileges:true"
+      ],
+      "pids_limit": 64,
+      "tmpfs": [
+        "/tmp:size=32m,mode=1777"
+      ],
+      "logging": {
+        "driver": "json-file",
+        "options": {
+          "max-size": "10m",
+          "max-file": "3"
+        }
+      },
+      "profiles": [
+        "checks"
+      ],
+      "user": "1000:1000",
+      "command": [
+        "python",
+        "-m",
+        "budget_service.checks"
+      ],
+      "volumes": [
+        "budget_state:/state",
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/piste_config.py",
+          "target": "/run/secrets/piste_config.py",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        "moulineuse_oauth:/run/secrets/moulineuse:ro",
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_dila_complement/cnil",
+          "target": "/corpus/. JURISPRUDENCE V2/semantic_cache_dila_complement/cnil",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/ccomptes_chunks.sqlite",
+          "target": "/corpus/ccomptes_chunks.sqlite",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/semantic_cache",
+          "target": "/corpus/semantic_cache",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/semantic_cache_ccomptes",
+          "target": "/corpus/semantic_cache_ccomptes",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/semantic_cache_ppl",
+          "target": "/corpus/semantic_cache_ppl",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/plf_pli.db",
+          "target": "/corpus/plf_pli.db",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/. JURISPRUDENCE V2/dila_complement_embeddings_bge_m3.db",
+          "target": "/corpus/. JURISPRUDENCE V2/dila_complement_embeddings_bge_m3.db",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/. JURISPRUDENCE V2/jurisprudence_officielle_fine_chunks_consolidated_20260516.db",
+          "target": "/corpus/. JURISPRUDENCE V2/jurisprudence_officielle_fine_chunks_consolidated_20260516.db",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_dila_complement/jorf",
+          "target": "/corpus/. JURISPRUDENCE V2/semantic_cache_dila_complement/jorf",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_dila_complement/kali",
+          "target": "/corpus/. JURISPRUDENCE V2/semantic_cache_dila_complement/kali",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2",
+          "target": "/corpus/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/marie.db",
+          "target": "/corpus/marie.db",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/. JURISPRUDENCE V2/dila_complement_juridique.db",
+          "target": "/corpus/. JURISPRUDENCE V2/dila_complement_juridique.db",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/. JURISPRUDENCE V2/jurisprudence_v2_embeddings_bge_m3.db",
+          "target": "/corpus/. JURISPRUDENCE V2/jurisprudence_v2_embeddings_bge_m3.db",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/marie_embeddings.db",
+          "target": "/corpus/marie_embeddings.db",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/semantic_cache_dole_ppl",
+          "target": "/corpus/semantic_cache_dole_ppl",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/semantic_cache_questions",
+          "target": "/corpus/semantic_cache_questions",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_dila_complement/circulaires",
+          "target": "/corpus/. JURISPRUDENCE V2/semantic_cache_dila_complement/circulaires",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/legi_dole.db",
+          "target": "/corpus/legi_dole.db",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/ppl.db",
+          "target": "/corpus/ppl.db",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/questions_ecrites.db",
+          "target": "/corpus/questions_ecrites.db",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/semantic_cache_legi_dole",
+          "target": "/corpus/semantic_cache_legi_dole",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "E:/Marie AN 2026/semantic_cache_plf_pli",
+          "target": "/corpus/semantic_cache_plf_pli",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "./.runtime/corpus-preflight.json",
+          "target": "/run/budget/corpus-preflight.json",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        }
+      ]
+    },
+    "collect": {
+      "build": ".",
+      "image": "lexmachine-budget:0.3",
+      "init": true,
+      "read_only": true,
+      "cap_drop": [
+        "ALL"
+      ],
+      "security_opt": [
+        "no-new-privileges:true"
+      ],
+      "pids_limit": 64,
+      "tmpfs": [
+        "/tmp:size=32m,mode=1777"
+      ],
+      "logging": {
+        "driver": "json-file",
+        "options": {
+          "max-size": "10m",
+          "max-file": "3"
+        }
+      },
+      "user": "1000:1000",
+      "profiles": [
+        "collect"
+      ],
+      "command": [
+        "python",
+        "-m",
+        "budget_service.collect"
+      ],
+      "volumes": [
+        "budget_data:/data",
+        {
+          "type": "bind",
+          "source": "./reports",
+          "target": "/inputs",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        },
+        {
+          "type": "bind",
+          "source": "C:/Users/Jean-Christophe/Downloads/FR_2025_PLRG_TA_PGM_205.pdf",
+          "target": "/incoming/FR_2025_PLRG_TA_PGM_205.pdf",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        }
+      ]
+    },
+    "normalize": {
+      "build": ".",
+      "image": "lexmachine-budget:0.3",
+      "init": true,
+      "read_only": true,
+      "user": "1000:1000",
+      "cap_drop": [
+        "ALL"
+      ],
+      "security_opt": [
+        "no-new-privileges:true"
+      ],
+      "profiles": [
+        "normalize"
+      ],
+      "network_mode": "none",
+      "command": [
+        "python",
+        "-m",
+        "budget_service.normalize"
+      ],
+      "volumes": [
+        "budget_data:/data",
+        {
+          "type": "bind",
+          "source": "./reports",
+          "target": "/inputs",
+          "read_only": true,
+          "bind": {
+            "create_host_path": false
+          }
+        }
+      ]
+    }
+  },
+  "volumes": {
+    "budget_state": {},
+    "moulineuse_oauth": {
+      "external": true,
+      "name": "lexmachine-v14-preview-brain-moulineuse-oauth-v1"
+    },
+    "budget_data": {}
+  },
+  "networks": {
+    "default": {
+      "ipam": {
+        "config": [
+          {
+            "subnet": "10.248.72.0/28"
+          }
+        ]
+      }
+    }
+  }
+}

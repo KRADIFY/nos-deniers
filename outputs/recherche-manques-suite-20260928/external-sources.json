@@ -1,0 +1,52 @@
+[
+  {
+    "id": "an-plrg2025",
+    "title": "Assemblée nationale, rapport PLRG 2025, tome II",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion_fin/l17b2847-tii_rapport-fond.pdf",
+    "scope": "MaPrimeRénov’ 2025",
+    "limitation": "Le P135 et les financements Anah sont commentés. Ne pas assimiler leur total aux seuls crédits MaPrimeRénov’.",
+    "status": "Consulté et conservé",
+    "sha256": "f463fce1b22428704cafe6b01aa4e78857490e2945afec36ae7fa4e49647c589",
+    "bytes": 34109173
+  },
+  {
+    "id": "an-accords2020",
+    "title": "Assemblée nationale, PLF 2020, annexe 22",
+    "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L15B2301-tIII-a22.html",
+    "scope": "Accords monétaires 2017–2019",
+    "limitation": "Explique la suspension des documents depuis 2009 et l’absence d’appel de la garantie depuis 1994. Ne constitue pas un tableau annuel des crédits ouverts pour chaque programme.",
+    "status": "Consulté et conservé",
+    "sha256": "851786dd28f1ee952a6b45515623a625d735ac35a3ebe00e536c2d84daf5d9bd",
+    "bytes": 408021
+  },
+  {
+    "id": "senat-mpr2020",
+    "title": "Sénat, règlement 2020, Écologie",
+    "url": "https://www.senat.fr/rap/l20-743-211-1/l20-743-211-1_mono.html",
+    "scope": "MaPrimeRénov’ 2020",
+    "limitation": "Confirme les ordres de grandeur des crédits disponibles et consommés ; la série 2020 existe déjà dans la version préparée.",
+    "status": "Consulté et conservé",
+    "sha256": "8d94e5d7b45b4939aea938855b8639cf3cc45c1b0839b208a67efdc4b1cfce78",
+    "bytes": 809935
+  },
+  {
+    "id": "senat-mpr2024",
+    "title": "Sénat, PLF 2024, Écologie",
+    "url": "https://www.senat.fr/rap/l23-128-311-1/l23-128-311-11.pdf",
+    "scope": "MaPrimeRénov’ 2020–2024",
+    "limitation": "Tableau rétrospectif utile ; vérifier la distinction prime, aides Anah et financements par programme.",
+    "status": "Consulté et conservé",
+    "sha256": "ed401779bad0153a7838564dba426116bf54a21e36e46e41942bc95b0bf5ba4f",
+    "bytes": 3413876
+  },
+  {
+    "id": "senat-p338",
+    "title": "Sénat, PLF 2020, Investissements d’avenir",
+    "url": "https://www.senat.fr/rap/l19-140-37/l19-140-371.pdf",
+    "scope": "Crédits ouverts P338, P532, P542 en 2019",
+    "limitation": "Mention d’absence de crédits ouverts en 2019 ; rapport établi avant clôture, insuffisant seul pour le total annuel définitif.",
+    "status": "Consulté et conservé",
+    "sha256": "e7dd29d1682370c5277b6eb3cac1d0c64f80bc693c34426f7a2677fd069ef446",
+    "bytes": 827631
+  }
+]

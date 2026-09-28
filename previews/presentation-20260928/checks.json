@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "original_files_unchanged": 7,
+  "html_changes": "Title suffix and additional stylesheet only",
+  "identical_routes": [
+    "/api/bootstrap",
+    "/api/explorer?start=2024&end=2024&scope=TA&measure=CP&exclude=%5B%22TA%2F345%22%5D",
+    "/assets/explorer.js",
+    "/assets/explorer.css"
+  ],
+  "original_url": "http://127.0.0.1:8552/",
+  "presentation_url": "http://127.0.0.1:8556/",
+  "published": false
+}

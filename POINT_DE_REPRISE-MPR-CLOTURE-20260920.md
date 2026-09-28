@@ -1,0 +1,30 @@
+# MaPrimeRénov’ — clôture documentaire et explications dans le site
+
+- Chemin permanent : C:/Users/Jean-Christophe/Documents/ChatGPT/docker/budget. Dossier non reconnu comme dépôt Git ; aucune branche ni commit. Préserver les changements précédents du lot RAP.
+- Demande : terminer MaPrimeRénov’ et expliquer les chiffres manquants dans le site, avec sources, coordonnées officielles et demande à copier. Les autres ajouts d’actions RAP, mouvements et réserves sont remis au lot suivant. Aucun Word demandé.
+- 17 observations P174 ajoutées : PLF AE/CP 2020–2024, LFI AE/CP 2021–2023 et ouverts CP 2022. Sources et action 02 contrôlées dans les PDF. 39 observations précédentes conservées exactement ; 56 désormais. Aucun changement aux 120 994 faits SQL ni à l’index vectoriel.
+- P174 PLF AE/CP, en M€ : 2020 390/390 ; 2021 740/740 ; 2022 1700/1390 ; 2023 2450/2300 ; 2024 2697/2065. LFI 2021–2023 : mêmes couples que PLF, établis séparément par les NEB. Ouverts P174 2022 CP : 1419 M€ (source au M€). Le total de départ ouvert 2022 n’est pas importé : la part du dispositif est consultable mais l’exclusion du total reste indisponible, avec un motif spécifique.
+- Les PLF nationaux 2020–2024 restent incomplets : autres programmes non ventilés. Ne pas transformer les parts du P174 en total national.
+- NEB Cohésion 2025 p. 55, note 116 : brique fléchée CP LFI 2025 779,9 M€ et LFI 2026 604,6 M€ ; une autre subvention Anah participe au dispositif dans des proportions non définies. Ces chiffres sont exposés comme contexte, pas injectés dans les calculs.
+- Attention au tableau 11 du même document : intitulé MPR, mais les totaux 2025 recoupent l’enveloppe Anah incluant d’autres aides, SCSP et SCI. RAP 2025 P135 p. 122 confirme le mélange. Ne pas importer les 2 109,9 M€ AE / 2 005,6 M€ CP consommés comme le seul dispositif.
+- API consultées : catalogues Bercy, data.gouv et les 9 jeux de l’organisation Anah ; recherches hybrides locales 2020–2026 ; PAP/RAP/jaunes/NEB physiques. Les requêtes, empreintes et pages sont dans reports/mpr-closure-20260920/. Aucune affirmation d’inexistence absolue des données.
+- UI : cases manquantes cliquables dans le tableau des crédits, boutons sur les cartes, explication liée à l’année/étape/périmètre, montants de contexte séparés, PDF aux pages citées, contacts DB/PRADA/Anah et texte à copier. Aucune demande envoyée. Les chiffres disponibles restent accompagnés des sources et limites de périmètre. Autres fonctions et présentation générale conservées.
+
+## Contrôles réalisés
+
+- 199 tests Python du site réussis en local avec les dépendances existantes (aucun test de vectorisation). Docker ne lançait plus les nouveaux conteneurs : ne pas prétendre que ce premier passage a été exécuté dans Docker.
+- 129 justificatifs testés sur une copie du SQL réel ; 21 PDF vérifiés par SHA-256. 10 contrôles Chrome invisibles réussis : clic manquant, chiffre valide, source/page PDF, contacts, copie presse-papiers, cartes et mobile. Aucun défaut JS. Captures et reçus dans reports/mpr-closure-20260920/.
+- tools/check_mpr_closure.py utilise une copie de contrôle dans reports/mpr-closure-20260920/runtime. Son serveur temporaire écoute sur le port libre inscrit dans preview-url.txt, PID dans preview.pid ; il sert seulement les PDF utiles à ce contrôle, pas tout le corpus. L’arrêter après activation normale.
+- Image lexmachine-budget:0.3 préparée en réutilisant l’image existante, sans exécution d’une étape RUN bloquée ; Dockerfile normal inchangé. Digest préparé : sha256:12ed75522677aecb5f166edb1809a97265dbf757944ef3152273cd5a4de362f0.
+
+## Activation terminée — 20 septembre 2026, 19 h 22
+
+- Accord utilisateur « 1 » obtenu pour redémarrer Docker Desktop. Démarrage bloqué sur des sockets temporaires invalides, erreur Windows 1920. Le dossier AppData/Local/Docker/run a été conservé sous un nom daté et remplacé par un dossier vide ; reçu docker-runtime-recovery.json. Aucun volume supprimé. L’utilisateur a ensuite confirmé « docker redémarré ». La tentative de capture de la liste initiale des conteneurs a échoué ; pas de docker-before-restart.jsonl disponible.
+- Construction STANDARD Dockerfile réussie après reprise (pas de modification du Dockerfile). Image lexmachine-budget:0.3, digest sha256:81d21e9dc7088c26cae6210499fe0f48e73725e63a435b7f5dcae8995874d731.
+- 199 tests exécutés avec succès DANS DOCKER. install_topic_sources a vérifié les six PDF et ajouté les quatre nouvelles copies au volume. Aucun import SQL général ni aucune vectorisation relancé.
+- `docker compose -f compose.yaml -f compose.retrieval.yaml up -d --no-deps web` appliqué. Web et retrieval sains. 10 contrôles navigateur répétés avec succès sur http://127.0.0.1:8552, y compris ouverture du nouveau PDF et copie de la demande. Vérification dans le conteneur : 120 994 faits SQL, 56 faits de dossier et empreintes des six PDF conformes.
+- Aperçu temporaire arrêté. Ancien conteneur de tests bloqué retiré. preview-url.txt désigne désormais le service normal 8552 ; l’ancienne URL de contrôle est conservée dans isolated-preview-url.txt.
+- Livrable et reçus : reports/mpr-closure-20260920/delivery-state.json, source-and-provenance-checks.json, integration.json, ui-checks.json, captures, site-tests.txt (passage local). Le résultat du passage Docker figure aussi dans cette tâche : « Ran 199 tests in 6.111s / OK ».
+- PUBLIC reste 20260910-reactivation. Aucun transfert ni publication. Le paquet du 19 septembre ne contient pas ces nouveaux travaux.
+- Commandes futures : construction `docker compose build web` ; tests `docker run --rm --network none --read-only --tmpfs /tmp:size=128m,mode=1777 lexmachine-budget:0.3 python -m unittest discover -s tests` ; activation locale ci-dessus. Ne pas utiliser la normalisation générale pour une simple mise à jour du site.
+- Fichiers principaux : data_quality.py, topics.py, api.py, maprimerenov.json, explorer.js/css ; tools/integrate_mpr_closure.py et tests/test_mpr_quality.py. Sauvegarde du registre initial dans reports/mpr-closure-20260920/before/.

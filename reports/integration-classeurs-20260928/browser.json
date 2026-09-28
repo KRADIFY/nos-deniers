@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 1440,
+      "all_views_audit_link": true
+    },
+    {
+      "width": 1024,
+      "all_views_audit_link": true
+    },
+    {
+      "width": 390,
+      "all_views_audit_link": true
+    }
+  ],
+  "provenance_checked": true,
+  "errors": []
+}

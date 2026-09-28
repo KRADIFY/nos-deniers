@@ -1,0 +1,35 @@
+{
+  "task": "Recherche de données manquantes",
+  "database_sha256": "7eb26dbe49fed6e93c2f10aebe4f7bce5b3a8814eae6c05972f053bcb37e7baf",
+  "state": "Recherche terminée pour six annexes BG 2017–2022 et cinq pistes parlementaires. Résultats isolés ; aucune intégration ni publication.",
+  "summary": {
+    "original_core_missing": 652,
+    "prior_integrated": 517,
+    "prior_nonapplicable": 67,
+    "new_core": 40,
+    "core_remaining": 28,
+    "core_current_available": 12573,
+    "core_current_nonapplicable": 71,
+    "core_current_pending": 68,
+    "core_total": 12712,
+    "gestion_found": 11976,
+    "gestion_reconciled": 11632,
+    "gestion_with_gap": 344,
+    "source_comparison_gaps": 43,
+    "annex_rows": 1505,
+    "annex_rows_controlled": 1501,
+    "annex_rows_ambiguous": 4,
+    "source_count": 15,
+    "fact_count": 123483,
+    "passages": 4191315,
+    "documents": 4496,
+    "families_remaining": {
+      "Étapes de gestion": 7720,
+      "Ventilation actions": 5132,
+      "Réserves": 1573,
+      "Mouvements datés": 372,
+      "MaPrimeRénov’": 159
+    }
+  },
+  "next_step": "Intégration contrôlée des montants retenus et qualification des 43 divergences avant promotion des lignes concernées. Autres familles non exhaustivement relues."
+}

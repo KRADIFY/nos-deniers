@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checked": {
+    "verified": 517,
+    "not_applicable": 67,
+    "pending": 64
+  },
+  "exclusions_checked": 517,
+  "source_hashes_verified": 155,
+  "facts": 123483,
+  "data_version": "117c28ee5f3c688644bb2674646ff7a41e3fd515b46fc5ca858200ae0f7a7281",
+  "previous_facts_preserved_except_four_documented_duplicate_zeroes": true
+}

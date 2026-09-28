@@ -1,0 +1,69 @@
+{
+  "release": "20260928-annexes",
+  "data_version": "fc58a2c4296a6c832c8fd0342a675681d9355ae0ac289c2dc47d9116b8075823",
+  "database_sha256": "aa11479b90fb9c2d79003234b0223cc2a25198fb09c10f4ac2ef4c5ced5da7ba",
+  "baseline_sha256": "6a096bb731a751accfdd55bb1b1a73938e817ad5346129994380a6e51b4c93f1",
+  "fact_count": 135155,
+  "added_facts": 12189,
+  "review_count": 12628,
+  "data_files": [
+    "derived/budget.sqlite",
+    "public/reviews/20260928/86f11efd7e43adf978cc.pdf",
+    "public/reviews/20260928/01a0527bae9e2607367b.html",
+    "public/reviews/20260928/7fa13eabdc84b9c1a8b8.pdf",
+    "public/selenium/annexes/2021/Annexe-1_BG_2021-a015e06ef1aa.pdf",
+    "manual/collecte/annexes/2019/PLR-2019-Annexe-1-BG-1948eb8ff22f.pdf",
+    "manual/collecte/annexes/2017/PLR_2017_Annexe1-fe0bfa634b0e.pdf",
+    "public/selenium/annexes/2022/Annexe-1_BG_2022-613b1184bc11.pdf",
+    "manual/collecte/annexes/2018/PLR2018_Annexe1-c8c9077f7027.pdf",
+    "public/selenium/rap/2020/PLR-2020-Annexe-1-Budget-general-e6a391f6ce4a.pdf"
+  ],
+  "annex_sources": [
+    "5df1bd3ade4faaf54a21",
+    "68d421989cccdaa9d7d5",
+    "b53d0a4a0ba89d8680dd",
+    "c0eee1570050ea933730",
+    "cf16263f0bf9f833190d",
+    "f5a26d953548ea1a54ff"
+  ],
+  "preexisting_source_alerts": [
+    {
+      "cell": "BG | CP | PR | 2024 | LFI sources",
+      "expected": "références présentes",
+      "actual": []
+    },
+    {
+      "cell": "BG | CP | PR | 2024 | OUVERT sources",
+      "expected": "références présentes",
+      "actual": []
+    }
+  ],
+  "files": {
+    "Dockerfile": "0ce6cfa45cc9935dc5d47407d7acd2858a1d106dd87ce716660825c0d27e4f9c",
+    "install.py": "150c85642eac3a47511074d47f2ed4290bf48c6ed9c7cbd43cda88fb2aa3dab9",
+    "plan.json": "199d531af7bee485e0159e593404149c011f318cb76f1afab626dd90a54e6fac",
+    "PUBLIER_SUR_VPS.sh": "066dcb4159ec9b7772951c688571560fd5d1f93cb389e2b58b1adb5c4189e3b8",
+    "verify.py": "6aef54140cf6a44d91817a73d9c7d90630d89c68c37aaa4e1ffe579aa8621330",
+    "checks/browser.json": "220794eb149367582ab11cf8c9095500285e6b98bc818b898cf1cc9eef46c971",
+    "checks/independent-classification.json": "86d8ef475bb6d5c3f4f7703a0499c32858b0bcb46d58d834eed04aad443f3f9c",
+    "checks/independent-oracle.json": "7d76eed65ec82930cfa7a4f185dca827316331ed2fc7562ada98d503a21cf6d9",
+    "checks/unit-tests.log": "bfc30e36ddb6f672293dbb835941d3b53ce88f1ffcf242bf5d19002c266eb56e",
+    "checks/verification.json": "47205712e2f77d323fd1744829dc544c7cc9010df67affe8b0018fd23d90a994",
+    "app/budget_service/api.py": "4fa1bf4ca59345499f5d6b6d27970283f4271c5babad17cb58f9cf337144e194",
+    "app/budget_service/cell_reviews.py": "38b1f026b449d1b8427e80732986255ffc7d649215e6c57022188de735de301c",
+    "app/public/explorer.html": "e6c64100c624f9d2a8be2c1ab78bf8e9b3c83e05d0e27f81ab60a637af6c622b",
+    "app/tests/test_workbook_cell_reviews.py": "deee76eb15a58fd4a0825ee0df034955ca8101f3f91948e628b079baf90972e2",
+    "app/public/assets/explorer.css": "b71052fa78d46c3e85a099a6abb1853b1860e69cd571c85c7f091bd19da1703c",
+    "app/public/assets/explorer.js": "4dc2a93f1c05bc44c25112d3773ba730ea118d0417ba21ee35dfb6643decbb44",
+    "data/derived/budget.sqlite": "aa11479b90fb9c2d79003234b0223cc2a25198fb09c10f4ac2ef4c5ced5da7ba",
+    "data/manual/collecte/annexes/2017/PLR_2017_Annexe1-fe0bfa634b0e.pdf": "fe0bfa634b0ea25617aa56457753096181e15aa3d6bbc08e1d07f93e92f676c3",
+    "data/manual/collecte/annexes/2018/PLR2018_Annexe1-c8c9077f7027.pdf": "c8c9077f7027568cd45668465089aaa89b3e8dd8fca9c6c41848130034c4a83e",
+    "data/manual/collecte/annexes/2019/PLR-2019-Annexe-1-BG-1948eb8ff22f.pdf": "1948eb8ff22f44f2fd7f1e69f86eb56f8ea10c0fbf9b5280c955730a21870bb5",
+    "data/public/reviews/20260928/01a0527bae9e2607367b.html": "3b191cd4318f7e5080de8109bd8ad492d5c178f7f4afd4fac06f49926da1d33c",
+    "data/public/reviews/20260928/7fa13eabdc84b9c1a8b8.pdf": "3d660ffa1ea2fdea0bb23cfea2492fd617591f956c2c81ed2ee724a1c2d8d5f9",
+    "data/public/reviews/20260928/86f11efd7e43adf978cc.pdf": "094d8e049d0d9d2c3cfa76e74d58e6cb840b0b7b0f5f0805342f6d5f5b9131f0",
+    "data/public/selenium/annexes/2021/Annexe-1_BG_2021-a015e06ef1aa.pdf": "a015e06ef1aad510d9951efda0872699b0fa3b85c1562775553633b7f002e720",
+    "data/public/selenium/annexes/2022/Annexe-1_BG_2022-613b1184bc11.pdf": "613b1184bc117efdf075e66257ab11e636c5cf023f7115b21020961ce40048a8",
+    "data/public/selenium/rap/2020/PLR-2020-Annexe-1-Budget-general-e6a391f6ce4a.pdf": "e6a391f6ce4a3b266a152e20d76b5e8022fc9b14b0b56d712ad84c251aab0cbc"
+  }
+}

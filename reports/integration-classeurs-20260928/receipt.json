@@ -1,0 +1,19 @@
+{
+  "fact_count": 123483,
+  "source_count": 4294,
+  "data_version": "117c28ee5f3c688644bb2674646ff7a41e3fd515b46fc5ca858200ae0f7a7281",
+  "catalogue_updated_at": "2026-09-28",
+  "workbook_review_20260928": {
+    "plan_sha256": "3ba01ff295e640721f390c9e1ce71c04fccbab1bbbfadcd27fd8c69e51dfe154",
+    "added": 517,
+    "duplicate_zeroes_removed": 4,
+    "not_applicable": 67,
+    "pending": 64
+  },
+  "database_sha256": "7eb26dbe49fed6e93c2f10aebe4f7bce5b3a8814eae6c05972f053bcb37e7baf",
+  "baseline_sha256": "6a096bb731a751accfdd55bb1b1a73938e817ad5346129994380a6e51b4c93f1",
+  "new_sources": 3,
+  "verified_sources": 155,
+  "plan_sha256": "3ba01ff295e640721f390c9e1ce71c04fccbab1bbbfadcd27fd8c69e51dfe154",
+  "imported_source_count": 1103
+}

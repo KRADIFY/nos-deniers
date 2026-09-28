@@ -1,0 +1,226 @@
+{
+  "passed": false,
+  "scenarios": 12,
+  "numeric_cells": 13185,
+  "errors": [
+    {
+      "cell": "BG | CP | PR | 2024 | LFI sources",
+      "expected": "références présentes",
+      "actual": []
+    },
+    {
+      "cell": "BG | CP | PR | 2024 | OUVERT sources",
+      "expected": "références présentes",
+      "actual": []
+    }
+  ],
+  "checks": [
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "BG",
+        "measure": "AE",
+        "scope": "",
+        "exclude": [],
+        "constant": false,
+        "base": 2025,
+        "topic": "",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 3820,
+      "errors": 0
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "BG",
+        "measure": "CP",
+        "scope": "",
+        "exclude": [],
+        "constant": false,
+        "base": 2025,
+        "topic": "",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 3846,
+      "errors": 0
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "BA",
+        "measure": "AE",
+        "scope": "",
+        "exclude": [],
+        "constant": false,
+        "base": 2025,
+        "topic": "",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 168,
+      "errors": 0
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "BA",
+        "measure": "CP",
+        "scope": "",
+        "exclude": [],
+        "constant": false,
+        "base": 2025,
+        "topic": "",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 168,
+      "errors": 0
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "CAS",
+        "measure": "AE",
+        "scope": "",
+        "exclude": [],
+        "constant": false,
+        "base": 2025,
+        "topic": "",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 528,
+      "errors": 0
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "CAS",
+        "measure": "CP",
+        "scope": "",
+        "exclude": [],
+        "constant": false,
+        "base": 2025,
+        "topic": "",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 528,
+      "errors": 0
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "CCF",
+        "measure": "AE",
+        "scope": "",
+        "exclude": [],
+        "constant": false,
+        "base": 2025,
+        "topic": "",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 393,
+      "errors": 0
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "CCF",
+        "measure": "CP",
+        "scope": "",
+        "exclude": [],
+        "constant": false,
+        "base": 2025,
+        "topic": "",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 393,
+      "errors": 0
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "BG",
+        "measure": "CP",
+        "scope": "TA",
+        "exclude": [
+          "TA/159"
+        ],
+        "constant": false,
+        "base": 2025,
+        "topic": "",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 1131,
+      "errors": 0
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "BG",
+        "measure": "CP",
+        "scope": "TA",
+        "exclude": [],
+        "constant": true,
+        "base": 2025,
+        "topic": "",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 1131,
+      "errors": 0
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "BG",
+        "measure": "CP",
+        "scope": "",
+        "exclude": [],
+        "constant": false,
+        "base": 2025,
+        "topic": "maprimerenov",
+        "topic_mode": "only",
+        "denominator": "LFI"
+      },
+      "amounts": 59,
+      "errors": 2
+    },
+    {
+      "parameters": {
+        "start": 2017,
+        "end": 2026,
+        "budget": "BG",
+        "measure": "CP",
+        "scope": "TA",
+        "exclude": [],
+        "constant": false,
+        "base": 2025,
+        "topic": "maprimerenov",
+        "topic_mode": "without",
+        "denominator": "LFI"
+      },
+      "amounts": 1020,
+      "errors": 0
+    }
+  ],
+  "data_version": "fc58a2c4296a6c832c8fd0342a675681d9355ae0ac289c2dc47d9116b8075823"
+}

@@ -1,0 +1,18 @@
+from pathlib import Path
+p=Path('service.py');s=p.read_text('utf-8').replace('from urllib.parse import urlsplit','from urllib.parse import urlsplit\nfrom zero_api import query as zero_query')
+s=s.replace("'limits','excluded_sections')}","'limits','excluded_sections','zero_source_summary','zero_case_counts') if k in report}")
+s=s.replace("s['report_url']='/reports/'", "s['zeros_url']='/zeros?run='+rid\n            s['report_url']='/reports/'",1)
+s=s.replace("if path=='/api/status':return self.reply(current())","""if path=='/api/status':return self.reply(current())
+        if path=='/api/zeros':
+            try:return self.reply(zero_query(STATE,urlsplit(self.path).query))
+            except (ValueError,sqlite3.Error):return self.reply(dict(error='Relevé indisponible pour cette sélection.'),400)""")
+s=s.replace("static={'/':", "static={'/zeros':('zeros.html','text/html; charset=utf-8'),'/zeros.js':('zeros.js','text/javascript; charset=utf-8'),'/':")
+s=s.replace(r'rapport\.html|rapport\.json|anomalies\.csv|controle-affichage\.png',r'rapport\.html|rapport\.json|anomalies\.csv|zeros-sources\.csv|zeros-sources\.json|controle-affichage\.png')
+p.write_text(s,'utf-8')
+p=Path('web/index.html');s=p.read_text('utf-8').replace('<a id="csv"', '<a id="zeros" href="#">Zéros et cases vides · explications</a><a id="csv"');p.write_text(s,'utf-8')
+p=Path('web/app.js');s=p.read_text('utf-8').replace("if(s.report_url)$('report').href=s.report_url;","if(s.report_url)$('report').href=s.report_url;\n $('zeros').hidden=!s.zeros_url;if(s.zeros_url)$('zeros').href=s.zeros_url;")
+p.write_text(s,'utf-8')
+p=Path('web/style.css');s=p.read_text('utf-8')+'\n.zero-filters{display:flex;gap:18px;flex-wrap:wrap}.zero-filters label{display:flex;flex-direction:column;gap:6px;font-size:13px;flex:1;min-width:220px}.zero-filters input,.zero-filters select{font:inherit;padding:10px;border:1px solid var(--line);border-radius:6px;background:white;max-width:100%}.zero-table{overflow:auto}.zero-table td{font-size:13px;min-width:190px;max-width:380px;overflow-wrap:anywhere}.zero-table td p{margin:8px 0}.zero-table code{white-space:pre-wrap}.zero-paging{display:flex;gap:18px;align-items:center;justify-content:center;margin-top:20px}#summary{font-size:13px;color:var(--muted)}\n';p.write_text(s,'utf-8')
+p=Path('web/memo.html');s=p.read_text('utf-8').replace('<h2>Trois résultats possibles</h2>', '<h2>Zéros et cases sans montant</h2><p>Le relevé relit les cellules CSV et XLS des montants nuls à leur emplacement d’origine, après contrôle de l’empreinte du fichier. Il conserve le texte brut, la ligne et la colonne. Un zéro explicite, un zéro calculé, une cellule blanche, un tiret et une mention sans objet restent distincts. Les coordonnées ambiguës et les PDF non relus automatiquement sont signalés comme tels.</p><p>Les cases absentes ou nulles de l’API sont également répertoriées avec leur motif : exclusion, détail non isolé, période sans objet, absence de montant importé. Une absence dans la base ne prouve pas une cellule vide dans le document officiel. Les ventilations des mouvements et réserves sont comparées à leurs registres ; leur sens documentaire fin ne fait pas partie de la relecture CSV/XLS des zéros.</p><h2>Trois résultats possibles</h2>');p.write_text(s,'utf-8')
+p=Path('Dockerfile');s=p.read_text('utf-8').replace('service.py worker.py','service.py zero_api.py worker.py');p.write_text(s,'utf-8')
+p=Path('.dockerignore');s=p.read_text('utf-8')+'!zero_api.py\n';p.write_text(s,'utf-8')

@@ -66,13 +66,13 @@ async function main(){
   context.fixture={coverage:[],stages:{},documents:12,meta:{application_version:version,source_count:20,imported_source_count:3,inflation_source:'ipc',issues:[]}};
   context.searchFixture={available,documents:12,passages:99,state:available?'ready':'unavailable',message:available?'':'Service temporairement indisponible'};
   run('bootstrap=fixture;documentSearchStatus=searchFixture;renderCoverage()');
-  const note=element('quality-notes').textContent;
+  const note=element('quality-notes').innerHTML;
   assert.ok(!note.includes('la recherche documentaire fonctionne'));
   assert.ok(note.includes('La disponibilité de la recherche'));
   assert.ok(note.includes('Rapports et documents'));
-  assert.ok(note.includes('mouvements RAP 2017–2022'));
+  assert.ok(note.includes('Mouvements RAP 2017–2022'));
   assert.ok(note.includes('couverture reste partielle'));
-  assert.ok(note.includes('supérieurs à 10 €'));
+  assert.ok(note.includes('supérieur à 10 €'));
   assert.ok(!note.includes('421'),'No hard-coded count of certified historical registries');
   coverage.push(note);
   run("docMode='hybrid';documents=[];renderDocumentMatches()");

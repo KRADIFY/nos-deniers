@@ -1,0 +1,7 @@
+{
+  "output": "D:\\ChatGPT\\docker\\budget\\auditeur-independant\\resultats\\validation-complete-01",
+  "reference": "D:\\ChatGPT\\docker\\budget\\auditeur-independant\\references\\20260924-final",
+  "url": "https://budget.lexmachine.net",
+  "quick": false,
+  "no_browser": false
+}
