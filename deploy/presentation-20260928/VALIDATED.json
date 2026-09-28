@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "changed_files": [
+    "/app/public/assets/explorer.css"
+  ],
+  "unchanged_files": 151,
+  "css_sha256": "afdd5e49555aa4491c12973989a916040b6960c9e5832370224dcc17e46b217e",
+  "published": false
+}
