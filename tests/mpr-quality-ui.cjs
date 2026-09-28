@@ -1,0 +1,56 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict');
+const fs=require('node:fs/promises');
+const path=require('node:path');
+(async()=>{
+ const out=path.resolve(__dirname,'../reports/mpr-closure-20260920');
+ const baseURL=(await fs.readFile(path.join(out,'preview-url.txt'),'utf8')).trim();
+ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+ try{
+  const context=await browser.newContext({baseURL,viewport:{width:1440,height:1050},permissions:['clipboard-read','clipboard-write']});
+  const page=await context.newPage(),errors=[];
+  page.on('pageerror',e=>errors.push(e.message));
+  const loaded=()=>page.waitForFunction(()=>document.querySelector('#loading').hidden&&!document.querySelector('#export').disabled);
+  await page.goto('/?start=2025&end=2025&topic=maprimerenov&measure=CP');await loaded();
+  const missing=page.locator('#credits-table button[data-year="2025"][data-stage="LFI"][data-cell-scope=""]');
+  assert((await missing.innerText()).includes('Pourquoi'));
+  await missing.click();await page.locator('.quality-explanation').waitFor();
+  let text=await page.locator('#source-content').innerText();
+  assert(text.includes('779')&&text.includes('900')&&text.includes('Part seulement'));
+  assert(text.includes('proportions non définies'));
+  assert.equal(await page.locator('.source-rows').count(),0);
+  const pdf=await page.request.get('/api/download/270aaa96aa51346f908e');
+  assert.equal(pdf.status(),200);assert.equal((await pdf.body()).subarray(0,5).toString(),'%PDF-');
+  await page.locator('.quality-requests summary').click();
+  const request=await page.locator('#quality-request').inputValue();
+  assert(request.includes('2025')&&request.includes('CP')&&request.includes('Voté'));
+  await page.locator('[data-copy-quality]').click();
+  assert.equal((await page.evaluate(()=>navigator.clipboard.readText())).replace(/\r\n/g,'\n'),request);
+  await page.screenshot({path:path.join(out,'explanation-desktop.png')});
+  await page.locator('#close-source').click();
+  await page.locator('#summary button[data-stage="LFI"]').click();await page.locator('.quality-explanation').waitFor();
+  assert((await page.locator('.quality-explanation').innerText()).includes('779'));
+  await page.setViewportSize({width:390,height:844});
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);
+  assert.equal(await page.locator('#source-dialog').evaluate(e=>e.scrollWidth>e.clientWidth+2),false);
+  await page.screenshot({path:path.join(out,'explanation-mobile.png')});
+  await page.locator('#close-source').click();
+  await page.goto('/?start=2024&end=2024&topic=maprimerenov&scope=TA&measure=CP');await loaded();
+  const response=await page.request.get('/api/explorer?start=2024&end=2024&topic=maprimerenov&scope=TA&measure=CP');
+  const result=await response.json();assert.equal(result.totals[0].PLF.value,2065000000);
+  await page.locator('#credits-table button[data-year="2024"][data-stage="PLF"][data-cell-scope="TA"]').click();
+  await page.locator('.quality-explanation').waitFor();
+  text=await page.locator('#source-content').innerText();
+  assert(text.includes('Source et périmètre')&&text.includes('mission Écologie'));
+  assert(await page.locator('#source-content a[href="/api/download/ad1d42da63958bf4a275#page=400"]').count());
+  await page.locator('#close-source').click();
+  await page.goto('/?start=2026&end=2026&scope=TA&measure=CP');await loaded();
+  await page.locator('#credits-table button[data-year="2026"][data-stage="EXEC"][data-cell-scope="TA"]').click();
+  await page.locator('.quality-explanation').waitFor();
+  assert((await page.locator('.quality-explanation').innerText()).includes('Aucune valeur importée'));
+  assert.deepEqual(errors,[]);
+  await fs.writeFile(path.join(out,'ui-checks.json'),JSON.stringify({success:true,baseURL,errors,
+    checks:['missing-cell-click','context-not-total','PDF-page','official-contacts','copy-request','summary-click','mobile','new-PLF-P174','valid-amount-source','general-missing-reason']},null,2));
+  console.log('10 contrôles navigateur réussis ; aucune erreur JavaScript.');
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exit(1);});

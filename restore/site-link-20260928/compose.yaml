@@ -1,0 +1,58 @@
+name: lexmachine-budget-public
+services:
+  web:
+    image: lexmachine-budget:audit-link-20260928-145106
+    pull_policy: never
+    init: true
+    read_only: true
+    user: "10001:10001"
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    restart: unless-stopped
+    pids_limit: 128
+    mem_limit: 768m
+    cpus: 2
+    tmpfs: ["/tmp:size=32m,mode=1777"]
+    ports: ["127.0.0.1:8552:8080"]
+    volumes: ["./data:/data:ro"]
+    environment: {BUDGET_RETRIEVAL_URL: "http://retrieval:8090"}
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/readyz',timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  retrieval:
+    image: lexmachine-budget-retrieval:20260924-final
+    pull_policy: never
+    init: true
+    read_only: true
+    user: "10001:10001"
+    restart: unless-stopped
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    mem_limit: 2200m
+    cpus: 4
+    pids_limit: 128
+    tmpfs: ["/tmp:size=128m,mode=1777"]
+    environment:
+      BUDGET_RETRIEVAL_ROOT: /search
+      BUDGET_RETRIEVAL_SUPPLEMENT_ROOT: /search-supplement
+      BUDGET_RETRIEVAL_SUPPLEMENT2_ROOT: /search-supplement2
+      BUDGET_ENCODER_THREADS: "2"
+      BUDGET_SEARCH_THREADS: "2"
+      BUDGET_MODEL_DTYPE: float16
+    volumes: ["./search:/search:ro", "./search-supplement:/search-supplement:ro", "./search-supplement2:/search-supplement2:ro"]
+    healthcheck:
+      test: [CMD, python, -c, "import json,urllib.request; assert json.load(urllib.request.urlopen('http://127.0.0.1:8090/healthz',timeout=5))['available']"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}

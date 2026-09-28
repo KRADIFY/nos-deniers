@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-28T17:52:17.631788+00:00",
+  "assets": [
+    {
+      "route": "/",
+      "path": "public/explorer.html",
+      "sha256": "39a58a1f6d0305134e2fb2cb7af273ca72e8019f652b6b092d4beff678c239be"
+    },
+    {
+      "route": "/assets/explorer.js",
+      "path": "public/assets/explorer.js",
+      "sha256": "4dc2a93f1c05bc44c25112d3773ba730ea118d0417ba21ee35dfb6643decbb44"
+    },
+    {
+      "route": "/assets/diagnostic.js",
+      "path": "public/assets/diagnostic.js",
+      "sha256": "d0e47134240cad234adf66d37fd83b4c7b81b69c668fe1312ca4307de7f5a9a1"
+    },
+    {
+      "route": "/assets/explorer.css",
+      "path": "public/assets/explorer.css",
+      "sha256": "a79bfc25dacd7eca6a7bb8ba9d18d323310af4f049b346436cef8ddc40dfd98a"
+    },
+    {
+      "route": "/assets/diagnostic.css",
+      "path": "public/assets/diagnostic.css",
+      "sha256": "518e645ecce6bd690fdf5232c5e33f6261731d77cafba5f953cdc4781d3cbf20"
+    },
+    {
+      "route": "/assets/nos-deniers-horizontal.svg",
+      "path": "public/assets/nos-deniers-horizontal.svg",
+      "sha256": "c95cb68c3602022a2dc4eaf1b3fcbd74912a980f31efc99557fb3c893ea8cb45"
+    },
+    {
+      "route": "/assets/nos-deniers-icone.svg",
+      "path": "public/assets/nos-deniers-icone.svg",
+      "sha256": "5067440135649e3086bd38b91ec3810fbe4cc2f2e952941700158b738de03232"
+    },
+    {
+      "route": "/assets/nos-deniers-logo.svg",
+      "path": "public/assets/nos-deniers-logo.svg",
+      "sha256": "e7deaae2babcac2ec0783125157b0a381bc1b672328f60f3c55ca04381ab2fb7"
+    },
+    {
+      "route": "/assets/lexmachine-entete.svg",
+      "path": "public/assets/lexmachine-entete.svg",
+      "sha256": "be857dc8ce137c6c0598a98bbe80f6fb76e0e27b15c46653a05b83ca89640e7b"
+    },
+    {
+      "route": "/assets/InterVariable.woff2",
+      "path": "public/assets/InterVariable.woff2",
+      "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+    }
+  ],
+  "all_match": true
+}

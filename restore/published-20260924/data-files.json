@@ -1,0 +1,127 @@
+[
+  {
+    "path": "derived/budget.sqlite",
+    "bytes": 46338048,
+    "sha256": "6a096bb731a751accfdd55bb1b1a73938e817ad5346129994380a6e51b4c93f1"
+  },
+  {
+    "path": "derived/data-audit.json",
+    "bytes": 90371,
+    "sha256": "db9c1e169590f3203893c1362d218611ceac334f089053439875f5998980f5a7"
+  },
+  {
+    "path": "derived/events.sqlite",
+    "bytes": 139264,
+    "sha256": "d760f569b4bb5112c8975901026096a9adfbc23d2bf8baf3d1646f2e1cb01c4f"
+  },
+  {
+    "path": "public/audit-20260923/065c2a668debbab3f024-NEB-2023-Engagements-financiers-Etat.pdf",
+    "bytes": 882766,
+    "sha256": "065c2a668debbab3f024f791ee16b59ca5f6a55f0fcf04c9ecb1d2bba222a50e"
+  },
+  {
+    "path": "public/audit-20260923/0de575b18fbcd316b5f6-NEB-2023-Investir-pour-France-2030.pdf",
+    "bytes": 1374881,
+    "sha256": "0de575b18fbcd316b5f6e4af25208b1882a6afe31f2333a0d3e8042ccfc0209e"
+  },
+  {
+    "path": "public/audit-20260923/189b3ccfe8966f82ce48-NEB-2026-Sante.pdf",
+    "bytes": 881459,
+    "sha256": "189b3ccfe8966f82ce4866d7395baef25bf6c9d85cb5da3f52d6d8564a5ab6ac"
+  },
+  {
+    "path": "public/audit-20260923/261d0d798ac3f4fb61b9-NEB-2024-Engagements-financiers-Etat.pdf",
+    "bytes": 810319,
+    "sha256": "261d0d798ac3f4fb61b9f82b28ef7df0393ec1fc4c1b0919a53f71bed5900756"
+  },
+  {
+    "path": "public/audit-20260923/58cd8c6ef997a5168877-NEB-2026-Engagements-financiers-Etat.pdf",
+    "bytes": 1009313,
+    "sha256": "58cd8c6ef997a516887769ce149558e1756d2618a753836df2d3d1797a796d50"
+  },
+  {
+    "path": "public/audit-20260923/6adc329ada4a5a09f0ca-NEB-2024-Sante.pdf",
+    "bytes": 1084804,
+    "sha256": "6adc329ada4a5a09f0ca0bc791094605af3c25364f6dc21014d348e2e0786500"
+  },
+  {
+    "path": "public/audit-20260923/79cca14cd257d37f1319-NEB-2024-Aide-publique-au-developpement.pdf",
+    "bytes": 1209295,
+    "sha256": "79cca14cd257d37f131948afc8345fc512f7353cfea27bc6e430bef2defadcb3"
+  },
+  {
+    "path": "public/audit-20260923/8a04f40171b880b41ba2-NEB-2023-Ecologie-developpement-mobilite-durables.pdf",
+    "bytes": 2157222,
+    "sha256": "8a04f40171b880b41ba252f6264d170217b50897483313c4d98bc5ae1746bc59"
+  },
+  {
+    "path": "public/audit-20260923/d712fb3178eaed0285d2-NEB-2026-Plan-relance.pdf",
+    "bytes": 852391,
+    "sha256": "d712fb3178eaed0285d26d99654add0d8b96588f8ea2a075e6dab58e7ee504ae"
+  },
+  {
+    "path": "public/audit-20260923/db37a2c2b2ff119b5f53-assemblee-rapport-1822-gestion-2023.html",
+    "bytes": 2213252,
+    "sha256": "db37a2c2b2ff119b5f5344ace279d117c35d4b8cbd5f72ba8be0d2efaf8b275b"
+  },
+  {
+    "path": "public/audit-20260923/ea30a7f405be80bde3a9-NEB-2026-Aide-publique-au-developpement.pdf",
+    "bytes": 975529,
+    "sha256": "ea30a7f405be80bde3a99bc7a1abf5a7ac837ac736a73dae5a5d5ec9ee36a210"
+  },
+  {
+    "path": "public/audit-20260923/ee7a47f8c2e3ed4ee6be-NEB-2023-Sante.pdf.pdf",
+    "bytes": 864821,
+    "sha256": "ee7a47f8c2e3ed4ee6be8f0b9ce8ac9cde10a7a71b43cabf91ab4f4d5d620478"
+  },
+  {
+    "path": "public/audit-20260923/fc48e266135e1161ed69-NEB-2023-Aide-publique-au-developpement.pdf",
+    "bytes": 1113180,
+    "sha256": "fc48e266135e1161ed6986ba99b33d1f070e77e6e1284f830e39760b5f4d75ac"
+  },
+  {
+    "path": "topics/maprimerenov/an-plf2021-energie.pdf",
+    "bytes": 547922,
+    "sha256": "9dc09610ac9ef29bff493cc1ea825c7f487902640f3a8379f195b7b36c95d3f3"
+  },
+  {
+    "path": "topics/maprimerenov/an-plf2022-plan-relance.pdf",
+    "bytes": 722066,
+    "sha256": "2ee68df9e243bf45b79dc1b0e4d0ef4064fc89265e3cf23f36a26e13e96b5e8a"
+  },
+  {
+    "path": "topics/maprimerenov/neb2021-ecologie.pdf",
+    "bytes": 1892483,
+    "sha256": "2f15709320cdd6cb8d0a9e98aec122fbd2016f964de7f9fcaa6027ae3ab51324"
+  },
+  {
+    "path": "topics/maprimerenov/neb2022-ecologie.pdf",
+    "bytes": 2032809,
+    "sha256": "a954f39135465e66a7459af3bdf11d60de2dd3e76ee3c5f8343ad949640f0af4"
+  },
+  {
+    "path": "topics/maprimerenov/neb2023-ecologie.pdf",
+    "bytes": 2157222,
+    "sha256": "8a04f40171b880b41ba252f6264d170217b50897483313c4d98bc5ae1746bc59"
+  },
+  {
+    "path": "topics/maprimerenov/neb2025-cohesion.pdf",
+    "bytes": 1487058,
+    "sha256": "270aaa96aa51346f908e6df1b603097e17d7dacbd22da80e4b09462abc411d80"
+  },
+  {
+    "path": "topics/maprimerenov/pap2021-plan-relance.pdf",
+    "bytes": 703887,
+    "sha256": "7ee245620ec60452359e605d5764b20d2dacdc59a9f3a48a04bfcf3627245a14"
+  },
+  {
+    "path": "topics/historical-mysteries/senat-lfi2018-comparison-56a7f6c13572.pdf",
+    "bytes": 1196932,
+    "sha256": "56a7f6c13572e199a706c40b8bc89de334812fa9a6a150383a1303a4143aad58"
+  },
+  {
+    "path": "public/mysteries-20260923/2ec6de25d671f24e0e80-circulaire-6379-SG-biens-mal-acquis.pdf",
+    "bytes": 803450,
+    "sha256": "2ec6de25d671f24e0e80229b9631b3f63fd7f5c380a23e6778b3714ac1612072"
+  }
+]

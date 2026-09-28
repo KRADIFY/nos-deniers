@@ -1,0 +1,12 @@
+{
+  "kind": "published",
+  "release": "20260924-final",
+  "fact_count": 122970,
+  "database_sha256": "6a096bb731a751accfdd55bb1b1a73938e817ad5346129994380a6e51b4c93f1",
+  "data_version": "f5c7830587b1cf8eb67fdd671e789c51d1f98db9ac8b6e9807ea0406a5340dac",
+  "production_modified": false,
+  "source": "verified original Docker image plus actual server audit-link overlay",
+  "web_image": "lexmachine-budget:audit-link-20260928-145106",
+  "backup_root": "H:\\Sauvegardes-Nos-Deniers\\20260928-avant-publication",
+  "css_preview_enabled": false
+}
