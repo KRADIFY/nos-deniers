@@ -1,0 +1,7 @@
+{
+  "output": "D:\\ChatGPT\\docker\\budget\\auditeur-independant\\resultats\\service-local\\runs\\20260928-205300-c1a47e",
+  "reference": "D:\\ChatGPT\\docker\\budget\\reports\\audit-clarte-20260928\\reference",
+  "url": "http://127.0.0.1:8552",
+  "quick": true,
+  "no_browser": false
+}

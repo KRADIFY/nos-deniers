@@ -1,0 +1,153 @@
+{
+  "purpose": "État avant optimisation; fichiers de code qui diffèrent du commit de base et nouveaux modules",
+  "base_commit": "d922aec89a472bdc3c9c1679e84d0eac6c277224",
+  "source_root": "D:\\ChatGPT\\docker\\budget",
+  "source_git_root": "D:\\ChatGPT\\docker\\backups\\nos-deniers-20260928\\git",
+  "production_release": "20260929-historique76",
+  "production_web_image": "lexmachine-budget:20260929-consultation-chaude",
+  "production_auditor_image": "nos-deniers-audit:20260929-controle-cible",
+  "code_files": [
+    {
+      "path": ".gitignore",
+      "bytes": 74,
+      "sha256": "2a348df053117dd942ff6c2101cc565919e54f812c273d3d8140a99b44cf6210"
+    },
+    {
+      "path": "POINT_DE_REPRISE-INTEGRATION-20260928.md",
+      "bytes": 8645,
+      "sha256": "a8caf0e3aaae75b5c6d10b41ef09c70423f7e43cd307e087dd2a47227af1e79f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2613,
+      "sha256": "d64a6272961e6d61f69e68cb9826c5d87d0cec46162436031dcb7bb2f011c2c9"
+    },
+    {
+      "path": "auditeur-independant/.dockerignore",
+      "bytes": 327,
+      "sha256": "e5223d0a18f1a4fbb39946cda7a0fe9fb6a0cf18d6d30c5113ae974a055e4bac"
+    },
+    {
+      "path": "auditeur-independant/Dockerfile",
+      "bytes": 1301,
+      "sha256": "533227285a2e9a6d2026cdee13c36da22985bdf248bc93100cde5425a06f79ee"
+    },
+    {
+      "path": "auditeur-independant/build_delivery.py",
+      "bytes": 1794,
+      "sha256": "280db9fdf95939d32ea85a227506d44d900af21e34f0ec5ab3e9f4e34b2eedcf"
+    },
+    {
+      "path": "auditeur-independant/coverage.py",
+      "bytes": 16372,
+      "sha256": "2212a35b7b8a53c2a2ecb02d4285c143fd607405b0c99bfc11f36a55819b7f4f"
+    },
+    {
+      "path": "auditeur-independant/dernier-scan.json",
+      "bytes": 292,
+      "sha256": "ce062f53f37e0377ef283c9287cb4c4a6e759d7c65e771a9d30761a4f99dccde"
+    },
+    {
+      "path": "auditeur-independant/service.py",
+      "bytes": 11157,
+      "sha256": "344a81632bdd7e92c7cbe7a8da733b85ffd29fc3767b249ff8fb67d0f9eefbf9"
+    },
+    {
+      "path": "auditeur-independant/test-stop-ui.cjs",
+      "bytes": 1732,
+      "sha256": "48437fdf53f9c9962af0e1614e6821475194092a63de30a74fdfcfff63cfd522"
+    },
+    {
+      "path": "auditeur-independant/test_coverage.py",
+      "bytes": 3968,
+      "sha256": "2aff34b28fe45a8ee34dc68f9d754466d8d44564791bf86005dbc56d3d0edd20"
+    },
+    {
+      "path": "auditeur-independant/test_service.py",
+      "bytes": 4502,
+      "sha256": "90fcb7cccd753bc4427c8a7cbf21790cb0272f5299d9c3c018b01af856d05152"
+    },
+    {
+      "path": "auditeur-independant/web/app.js",
+      "bytes": 4259,
+      "sha256": "224237225cef2275c9944f1254c7143a0771c4ad8cd26711c935f0d024111820"
+    },
+    {
+      "path": "auditeur-independant/web/index.html",
+      "bytes": 3376,
+      "sha256": "a7d932c2f6289bf9fd59cfb59f98ce5c06c2dbfb97eae0447589d6c53fa57d48"
+    },
+    {
+      "path": "auditeur-independant/web/style.css",
+      "bytes": 3613,
+      "sha256": "cc1ee6cca182d13575ff01f9a17974f09280493640ad82541e153f943fb63169"
+    },
+    {
+      "path": "auditeur-independant/web/zeros.js",
+      "bytes": 5020,
+      "sha256": "4cfde01515f2723459cb5f3af297638c7bf756b6f8c839b4419ef8340e9a7a85"
+    },
+    {
+      "path": "auditeur-independant/worker.py",
+      "bytes": 5541,
+      "sha256": "99cba5e1cedde85dfc3575b370a44afc7df9e2dc117b179c25e418d253f2f76b"
+    },
+    {
+      "path": "auditeur-independant/zeros.py",
+      "bytes": 12140,
+      "sha256": "67b7f0db7d44d399ff02743f8317f3f024b25d2b3b68c32a321e951ee9840286"
+    },
+    {
+      "path": "tests/test_document_link_checker.py",
+      "bytes": 3486,
+      "sha256": "37679c97936d701e24ed01ca725b801d384a8bed4cca7c50df461eebaa250632"
+    },
+    {
+      "path": "tools/check_document_links.py",
+      "bytes": 6974,
+      "sha256": "e71f4f41e7728f57327acf19bfa07805269d33f42003ec03c7859e3ef41f4be6"
+    },
+    {
+      "path": "tools/check_site_navigation.py",
+      "bytes": 27267,
+      "sha256": "0d669894072d981b4f9e46c660151aca7ce82377f6f106b62312c5d2d6327fff"
+    },
+    {
+      "path": "tools/expanded_navigation.py",
+      "bytes": 8859,
+      "sha256": "445341d3e629e229a4a70a4c2eb7f9955167c67c7217fbeca1c42e585ddb84d2"
+    },
+    {
+      "path": "auditeur-independant/zero_reconcile.py",
+      "bytes": 4847,
+      "sha256": "4292438f100ac1461884e75dd40ec5856d02e07c58a1900a77a481b2f228329c"
+    },
+    {
+      "path": "auditeur-independant/test_zero_reconcile.py",
+      "bytes": 3585,
+      "sha256": "40ed13c836b0c325f59d2a0fd44ebc6915adbaf8b573882ba87748a94d1ad62f"
+    },
+    {
+      "path": "tools/audit_vps_documents.py",
+      "bytes": 3259,
+      "sha256": "518d9b9e5d4623b106e36c557eeaeca32f588e6c9d598daa098780053822a749"
+    },
+    {
+      "path": "tools/package_historical_76.py",
+      "bytes": 2244,
+      "sha256": "7258c966c5e4b0627f176433470c71f0565745214bc3d164fca497cb57585fea"
+    },
+    {
+      "path": "tools/resolve_historical_76.py",
+      "bytes": 10554,
+      "sha256": "7dceb6d0d52f1e39b3a97b83e867cee8237f58fcd0d9dc95af6e8c8a9239564f"
+    }
+  ],
+  "exclusions": [
+    "bases SQLite",
+    "PDF",
+    "index vectorisés",
+    "rapports volumineux",
+    "deux dossiers non suivis du dépôt existant"
+  ]
+}
