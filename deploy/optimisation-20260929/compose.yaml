@@ -1,0 +1,94 @@
+name: nos-deniers-public
+
+x-web: &web
+  image: lexmachine-budget:20260929-optimisee-notices-v3
+  pull_policy: never
+  init: true
+  user: "10001:10001"
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: ["no-new-privileges:true"]
+  restart: unless-stopped
+  mem_limit: 3g
+  cpu_shares: 2048
+  pids_limit: 128
+  tmpfs: ["/tmp:size=32m,mode=1777"]
+  logging:
+    driver: json-file
+    options: {max-size: "10m", max-file: "3"}
+  volumes:
+    - /opt/nos-deniers/releases/20260929-optimisation/data:/data:ro
+  depends_on:
+    retrieval: {condition: service_healthy}
+  healthcheck:
+    test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/readyz', timeout=5)"]
+    interval: 30s
+    timeout: 10s
+    retries: 3
+
+services:
+  retrieval:
+    image: lexmachine-budget-retrieval:20260924-final
+    pull_policy: never
+    init: true
+    user: "10001:10001"
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    restart: unless-stopped
+    mem_limit: 8g
+    cpu_shares: 4096
+    pids_limit: 256
+    tmpfs: ["/tmp:size=256m,mode=1777"]
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+    environment:
+      BUDGET_ENCODER_THREADS: "4"
+      BUDGET_SEARCH_THREADS: "4"
+      BUDGET_MODEL_DTYPE: float16
+      BUDGET_RETRIEVAL_ROOT: /search
+      BUDGET_RETRIEVAL_SUPPLEMENT_ROOT: /search-supplement
+      BUDGET_RETRIEVAL_SUPPLEMENT2_ROOT: /search-supplement2
+    volumes:
+      - /opt/nos-deniers/releases/20260929-optimisation/search:/search:ro
+      - /opt/nos-deniers/releases/20260929-optimisation/search-supplement:/search-supplement:ro
+      - /opt/nos-deniers/releases/20260929-optimisation/search-supplement2:/search-supplement2:ro
+    healthcheck:
+      test: [CMD, python, -c, "import json,urllib.request; assert json.load(urllib.request.urlopen('http://127.0.0.1:8090/healthz', timeout=8))['available']"]
+      interval: 30s
+      timeout: 12s
+      retries: 4
+
+  web1:
+    <<: *web
+    ports: ["127.0.0.1:8552:8080"]
+    environment:
+      BUDGET_KEEP_WARM: "1"
+      BUDGET_KEEP_WARM_SECONDS: "300"
+      BUDGET_RESPONSE_CACHE_MIB: "128"
+      BUDGET_RETRIEVAL_URL: http://retrieval:8090
+
+  web2:
+    <<: *web
+    ports: ["127.0.0.1:8556:8080"]
+    environment:
+      BUDGET_KEEP_WARM: "1"
+      BUDGET_RESPONSE_CACHE_MIB: "128"
+      BUDGET_RETRIEVAL_URL: http://retrieval:8090
+
+  web3:
+    <<: *web
+    ports: ["127.0.0.1:8557:8080"]
+    environment:
+      BUDGET_KEEP_WARM: "1"
+      BUDGET_RESPONSE_CACHE_MIB: "128"
+      BUDGET_RETRIEVAL_URL: http://retrieval:8090
+
+  web4:
+    <<: *web
+    ports: ["127.0.0.1:8558:8080"]
+    environment:
+      BUDGET_KEEP_WARM: "1"
+      BUDGET_RESPONSE_CACHE_MIB: "128"
+      BUDGET_RETRIEVAL_URL: http://retrieval:8090

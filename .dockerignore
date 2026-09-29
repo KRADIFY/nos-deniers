@@ -5,6 +5,7 @@
 !public/**
 !tests/**
 !tools/export_document_search.py
+!tools/check_document_links.py
 !requirements.txt
 
 # Offline corpus-preparation tests run in the workspace, outside the web image.

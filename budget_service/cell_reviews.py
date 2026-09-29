@@ -1,22 +1,37 @@
 """Reviewed cell evidence, kept distinct from amounts and from missing values."""
 import json
+from collections import defaultdict
 
 class Records(list):
     def __init__(self, rows, reviews):
         super().__init__(rows)
         self.cell_reviews = reviews
 
+class IndexedReviews(dict):
+    """Preserve review order while indexing the group looked up by each cell."""
+    def __init__(self, rows):
+        super().__init__(rows)
+        self.by_cell = defaultdict(list)
+        for (year, stage, measure, budget, path), review in self.items():
+            self.by_cell[(year, stage, measure, budget)].append((path, review))
+
+
 def load(db):
     if not db.execute("select 1 from sqlite_master where name='cell_reviews' and type='table'").fetchone():
         return {}
-    return {(r['year'],r['stage'],r['measure'],r['budget'],r['path']):json.loads(r['data'])
-            for r in db.execute('select * from cell_reviews')}
+    return IndexedReviews(((r['year'],r['stage'],r['measure'],r['budget'],r['path']),json.loads(r['data']))
+                          for r in db.execute('select * from cell_reviews'))
+
 
 def matching(reviews, p, year, stage, scope):
-    return [r for (y,s,m,b,path),r in reviews.items()
-            if (y,s,m,b)==(year,stage,p['measure'],p['budget'])
-            and (not scope or path==scope or path.startswith(scope+'/'))
+    if not reviews: return []
+    key=(year,stage,p['measure'],p['budget'])
+    candidates=(reviews.by_cell.get(key, ()) if isinstance(reviews,IndexedReviews)
+                else ((path,r) for (y,s,m,b,path),r in reviews.items() if (y,s,m,b)==key))
+    return [r for path,r in candidates
+            if (not scope or path==scope or path.startswith(scope+'/'))
             and not any(path==e or path.startswith(e+'/') for e in p['exclude'])]
+
 
 def citations(rows):
     found={}

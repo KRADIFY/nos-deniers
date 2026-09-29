@@ -1,0 +1,9 @@
+{
+  "budget_service/api.py": "575933c6204b7d2281cc5a515839c986d8e58f8766e7c6d93f124d0691f7efaf",
+  "budget_service/historical_discrepancies.py": "59477a2c256b1be9f298b2e72be61c93c6ebcde8df5444d50f58583d4772a103",
+  "budget_service/data/historical_discrepancy_notices_2017_2022.json": "e5f991a1be7d8526db05039922521969064034016eb985520d99301fa0aace81",
+  "public/assets/explorer.js": "eff4ed323ea5f83e1a4fb1c33595764f6435212b0a4990c253db190cbfed4e72",
+  "public/assets/explorer.css": "549febc3847b50d6a4ec06a35fa10a82626ddbf89d5f62185c6a43a8936d9481",
+  "public/explorer.html": "ad649fb2cabf282487977637326868a90a61c9f9a0b21ea8f22303039bfcd7ee",
+  "tests/test_historical_discrepancies.py": "b3bf0b1fd5a7326b49da8ef857eac45ee5f186df10df6e401b1e8ac91ad2791b"
+}

@@ -6,6 +6,7 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 COPY budget_service /app/budget_service
 COPY public /app/public
 COPY tools/export_document_search.py /app/tools/export_document_search.py
+COPY tools/check_document_links.py /app/tools/check_document_links.py
 COPY tests /app/tests
 RUN mkdir /state /data && chown 1000:1000 /state /data && chmod 755 /state /data
 USER 10001:10001

@@ -10,7 +10,7 @@ from pathlib import Path
 from .model import STAGES, constant_cents, norm, safe_csv
 from . import topics, exports, events, action_details
 from .comparisons import compare
-from . import evolution, cell_reviews
+from . import evolution, cell_reviews, historical_discrepancies
 
 DATA = Path(os.environ.get('BUDGET_DATA_DIR', '/data'))
 MISSION_LINEAGES = {
@@ -66,8 +66,17 @@ def parameters(query):
     return dict(denominator=denominator,start=start,end=end,measure=measure,budget=budget,scope=scope,exclude=excluded,constant=one('constant','0')=='1',base=base,topic=topic,topic_mode=topic_mode)
 
 def selected_records(db, p):
-    records = [dict(r) for r in db.execute('SELECT * FROM facts WHERE year BETWEEN ? AND ? AND measure=? AND budget=?',
-            (p['start'],p['end'],p['measure'],p['budget']))]
+    query='SELECT * FROM facts WHERE year BETWEEN ? AND ? AND measure=? AND budget=?'
+    args=[p['start'],p['end'],p['measure'],p['budget']]
+    if p.get('scope') and not p.get('topic'):
+        mission=p['scope'].split('/')[0]
+        if mission=='MB':
+            query+=' AND (mission=? OR (year=2026 AND mission=?))'
+            args.extend((mission,'M26985a5788'))
+        else:
+            query+=' AND mission=?'
+            args.append(mission)
+    records=[dict(r) for r in db.execute(query,args)]
     reviews=cell_reviews.load(db)
     # Reviewed PDF observations store their physical page in the source line.
     for row in records:
@@ -291,7 +300,8 @@ def provenance(db,p,year,stage,scope):
                                               label='Total du RAP' if i==0 else 'Total de référence')
                                          for w in result['source_disagreements'] for i,c in enumerate(w['citations']))
     return {'year':year,'stage':STAGES[stage],'count':len(values),'sources':list(sources.values()),
-            'rows':values[:300],'truncated':len(values)>300,'note':note,'citations':citations,'explanation':explanation}
+            'rows':values[:300],'truncated':len(values)>300,'note':note,'citations':citations,'explanation':explanation,
+            'historical_discrepancy':historical_discrepancies.matching(p,year,stage,scope,result)}
 
 def documents(db,query):
     search=norm(query.get('q',[''])[0])[:200]

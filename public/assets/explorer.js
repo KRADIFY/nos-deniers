@@ -21,22 +21,33 @@ function renderExclusions(){
 }
 function unitLabel(){return Number($('unit').value)===1?'€':Number($('unit').value)===1e9?'Md€':'M€';}
 function toast(message){$('toast').textContent=message;$('toast').hidden=false;setTimeout(()=>$('toast').hidden=true,3500);}
-let activeRequests=0;
+let activeRequests=0,activeViews=0,requestStartedAt=null,requestTimer=null;
+function updateRequestProgress(){
+ const indicator=$('request-progress');if(!indicator)return;
+ const busy=activeRequests+activeViews>0;indicator.hidden=!busy;
+ if(busy&&requestStartedAt===null){
+  requestStartedAt=performance.now();
+  const tick=()=>{const seconds=Math.floor((performance.now()-requestStartedAt)/1000);$('request-elapsed').textContent=String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0');};
+  tick();requestTimer=setInterval(tick,1000);
+ }else if(!busy&&requestStartedAt!==null){
+  clearInterval(requestTimer);requestTimer=null;requestStartedAt=null;$('request-elapsed').textContent='00:00';
+ }
+}
 async function fetchJSON(url,signal){
- const indicator=$('request-progress');activeRequests++;if(indicator)indicator.hidden=false;
+ activeRequests++;updateRequestProgress();
  try{
   let r;try{r=await fetch(url,{signal});}catch(e){if(e.name==='AbortError')throw e;throw new Error('Connexion interrompue. Vérifiez votre connexion puis réessayez la sélection.');}
   let result;try{result=await r.json();}catch(e){if(e.name==='AbortError')throw e;throw new Error(r.status>=500?'Le serveur est momentanément indisponible (HTTP '+r.status+'). Réessayez dans quelques instants.':'La réponse du serveur est illisible. Réessayez la sélection.');}
   if(!r.ok)throw new Error(result?.error||'Impossible de charger les données (HTTP '+r.status+').');return result;
- }finally{activeRequests--;if(indicator)indicator.hidden=activeRequests===0;}
+ }finally{activeRequests--;updateRequestProgress();}
 }
 function sync(){$('topic-treatment').hidden=!state.topic;for(const key of ['start','end','budget','base','topic','topic_mode','denominator'])$(key).value=String(state[key]);$('constant').checked=state.constant;$('base').disabled=!state.constant;document.querySelectorAll('[data-measure]').forEach(b=>{const active=b.dataset.measure===state.measure;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});$('measure-help').textContent=state.measure==='CP'?'Crédits de paiement : suivre les dépenses de l’année.':'Autorisations d’engagement : suivre les engagements autorisés et consommés.';$('inflation-help').textContent=state.constant?`IPC annuel Insee · euros ${state.base}.`:'Euros courants, tels que publiés.';}
 async function load(){
  clearRapMovements();
- if(abort)abort.abort();abort=new AbortController();const controller=abort;$('loading').hidden=false;$('error').hidden=true;$('export').disabled=true;
+ if(abort)abort.abort();abort=new AbortController();const controller=abort;activeViews++;updateRequestProgress();$('loading').hidden=false;$('error').hidden=true;$('export').disabled=true;
  try{const next=await fetchJSON('/api/explorer?'+params(),controller.signal);if(abort!==controller)return;data=next;state=next.parameters;history.replaceState(null,'','?'+params());sync();render();finishRestores();if(switchFocus){const f=switchFocus;switchFocus=null;const candidates=[...document.querySelectorAll('[data-exclude], [data-restore], [data-toggle-topic], [data-restore-topic]')];(candidates.find(b=>[b.dataset.exclude,b.dataset.restore,b.dataset.toggleTopic,b.dataset.restoreTopic].includes(f))||$('scope-title')).focus({preventScroll:true});}}
  catch(e){if(abort===controller&&e.name!=='AbortError'){finishRestores(true);data=null;$('topic-panel').hidden=true;$('credits-table').innerHTML='';$('movements-table').innerHTML='';$('summary').innerHTML='';$('chart').innerHTML='';$('error').textContent=e.message;$('error').hidden=false;}}
- finally{if(abort===controller&&!controller.signal.aborted){$('loading').hidden=true;$('export').disabled=!data;}}
+ finally{activeViews--;updateRequestProgress();if(abort===controller&&!controller.signal.aborted){$('loading').hidden=true;$('export').disabled=!data;}}
 }
 async function changeScope(scope){state.scope=scope;$('row-search').value='';await load();$('credits-table').parentElement.scrollTop=0;$('credits-table').parentElement.scrollLeft=0;}
 function render(){if(!data)return;
@@ -241,6 +252,14 @@ function sourceComparisons(items){
   return `<section class="source-card"><h3>Deux sources donnent des totaux différents pour le programme</h3><dl><dt>Total de référence retenu pour le programme</dt><dd><strong>${euros(reference/100,true)} €</strong></dd><dt>Total publié dans le RAP</dt><dd><strong>${euros(rap/100,true)} €</strong></dd><dt>Différence entre ces deux totaux</dt><dd><strong>${euros(difference/100,true)} €</strong> — soit ${percentage} du total de référence.</dd></dl><p>Ces deux montants concernent le programme complet, avant les exclusions et la correction de l’inflation. Les actions reprennent les chiffres du RAP ; la différence n’est pas répartie artificiellement entre elles.</p><p>C’est une divergence entre publications : elle ne démontre pas, à elle seule, une erreur de calcul du site.</p></section>`;
  }).join('');
 }
+function historicalDiscrepancy(x){
+ if(!x)return '';
+ const percentage=x.other_publication_cents?new Intl.NumberFormat('fr-FR',{maximumFractionDigits:6}).format(Math.abs(x.difference_cents)*100/Math.abs(x.other_publication_cents))+' %':'non calculable (total comparé nul)';
+ const status=x.status==='Rapprochement exact (documents)'?'Rapprochement documentaire reconstitué ; confirmation administrative encore nécessaire':x.status==='Référentiel étayé, pont à compléter'?'Périmètres de publication différents ; rapprochement au centime manquant':x.status==='Hypothèse T2 non démontrée'?'Piste relative aux dépenses de personnel, non démontrée':'Cause de la différence non établie';
+ const pdf=x.source_id?`<a href="/api/download/${esc(x.source_id)}${x.source_page?'#page='+Number(x.source_page):''}" target="_blank" rel="noopener">Ouvrir le PDF rapproché${x.source_page?' à la page '+Number(x.source_page):''} ↗</a>`:'';
+ const links=(x.links||[]).map(url=>safeURL(url)?`<li><a href="${esc(safeURL(url))}" target="_blank" rel="noopener">${esc(new URL(url).hostname)} ↗</a></li>`:'').join('');
+ return `<section class="source-card quality-explanation"><h3>Deux publications donnent des montants différents pour le programme ${esc(x.program)} en ${esc(x.year)}</h3><p><strong>${esc(status)}.</strong> Il s’agit du programme entier, en euros courants, avant exclusions et correction de l’inflation.</p><dl><dt>Montant conservé dans Nos Deniers</dt><dd><strong>${euros(x.site_cents/100,true)} €</strong></dd><dt>Montant de l’autre publication, selon le registre</dt><dd><strong>${euros(x.other_publication_cents/100,true)} €</strong></dd><dt>Différence entre les publications</dt><dd><strong>${euros(Math.abs(x.difference_cents)/100,true)} €</strong>, soit ${percentage} du montant comparé.</dd></dl><p>${esc(x.finding)}</p><p><strong>Ce que les pièces ne démontrent pas encore :</strong> ${esc(x.limit)}</p><p>Cette différence ne prouve pas une erreur de calcul du site. Elle n’est pas ajoutée aux autres écarts éventuels.</p><details><summary>Pièces citées et vérification encore nécessaire</summary><p>${esc(x.needed)}</p>${pdf}${links?`<ul>${links}</ul>`:''}</details></section>`;
+}
 function sourceExplanation(x){
  if(!x)return '';
  const ref=r=>{const page=Number(r.page),hasPage=Number.isInteger(page)&&page>0,local=/^[a-f0-9]{20}$/.test(r.source||''),url=local?'/api/download/'+r.source+(hasPage?'#page='+page:''):(safeURL(r.url)?(hasPage?safeURL(r.url).split('#')[0]+'#page='+page:safeURL(r.url)):''),label=esc(r.label||'Justificatif')+(hasPage?' · PDF p. '+page:r.locator?' · '+esc(r.locator):'');return url?`<a href="${esc(url)}" target="_blank" rel="noopener">${label} ↗</a>`:label;};
@@ -277,7 +296,7 @@ async function showSource(button){
  const request=++sourceRequest;
  const dialog=$('source-dialog');$('source-title').textContent=`${data.stages[button.dataset.stage]} · ${button.dataset.year} · ${state.measure}`;$('source-content').textContent='Lecture des sources…';dialog.showModal();
  try{const p=await fetchJSON('/api/provenance?'+params({year:button.dataset.year,stage:button.dataset.stage,cell_scope:button.dataset.cellScope}));if(request!==sourceRequest)return;
- let html=sourceExplanation(p.explanation)+sourceCalculation(p)+(p.note&&!p.explanation?`<p class="notice">${esc(p.note)}</p>`:'')+sourceEvidence(p)+(p.count?`<p class="hint">${p.count} lignes sources contribuent au montant. Valeurs ci-dessous en euros courants, avant correction de l’inflation.${state.constant?' Affichage du tableau en euros '+state.base+' selon l’IPC annuel Insee.':''}</p>`:'');
+ let html=historicalDiscrepancy(p.historical_discrepancy)+sourceExplanation(p.explanation)+sourceCalculation(p)+(p.note&&!p.explanation?`<p class="notice">${esc(p.note)}</p>`:'')+sourceEvidence(p)+(p.count?`<p class="hint">${p.count} lignes sources contribuent au montant. Valeurs ci-dessous en euros courants, avant correction de l’inflation.${state.constant?' Affichage du tableau en euros '+state.base+' selon l’IPC annuel Insee.':''}</p>`:'');
  html+=p.sources.map(s=>{const url=safeURL(s.url),pages=[...new Set([...p.rows,...(p.citations||[])].filter(r=>r.source===s.id&&r.page).map(r=>Number(r.page)).filter(page=>Number.isInteger(page)&&page>0))];return `<article class="source-card"><h3>${esc(s.title)}</h3><p>${esc(s.dataset_title||'')} · ${esc(s.license||'Licence non renseignée dans cet inventaire')}</p><p>Collecté le ${esc(s.checked_at?.slice(0,10)||'8 septembre 2026')} · Empreinte SHA-256 : <code>${esc(s.sha256)}</code></p><a href="/api/download/${s.id}${pages.length?'#page='+pages[0]:''}" target="_blank" rel="noopener">${pages.length?'Ouvrir le PDF à la page '+pages[0]:'Ouvrir le fichier local'} ↗</a>${pages.map(page=>`<a href="/api/download/${s.id}#page=${page}" target="_blank" rel="noopener">Page PDF ${page} ↗</a>`).join('')}${url?`<a href="${esc(url)}" target="_blank" rel="noopener">Source officielle ↗</a>`:''}</article>`;}).join('');
  if(p.rows.length)html+='<div class="table-scroll source-rows"><table><thead><tr><th>Poste</th><th>Ligne / page</th><th>Champ source</th><th>Montant (€ courants)</th></tr></thead><tbody>'+p.rows.map(r=>`<tr><td>${esc(r.program+' '+r.program_label)}${r.action?'<br>'+esc(r.action+' '+r.action_label):''}${r.subaction?'<br>'+esc(r.subaction+' '+r.subaction_label):''}<br><small>${esc(r.operation==='subtract_action'?(r.subaction?'À retirer : sous-action exclue':'À retirer : action exclue'):r.operation==='subtract'?'À retirer : MaPrimeRénov’':r.operation==='subset'?'Part MaPrimeRénov’':r.category?'Catégorie '+r.category:r.title?'Titre '+r.title:'')}</small></td><td>${r.page?`<a href="/api/download/${r.source}#page=${r.page}" target="_blank" rel="noopener">PDF p. ${r.page}</a>`:r.line}</td><td>${esc(r.field)}</td><td>${r.approximate?'≈ ':''}${euros(r.cents/100,true)}</td></tr>`).join('')+'</tbody></table></div>';
  if(p.truncated)html+='<p class="hint">Aperçu limité aux 300 premières lignes. Le fichier source contient l’ensemble des lignes.</p>';
