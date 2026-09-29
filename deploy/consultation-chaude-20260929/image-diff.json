@@ -1,0 +1,14 @@
+{
+  "changed": [
+    "/app/budget_service/consultation.py",
+    "/app/budget_service/web.py",
+    "/app/tests/test_consultation_cache.py",
+    "/app/tests/test_consultation_http.py",
+    "/app/tests/test_other_budget_historical_movements.py",
+    "/app/tests/test_rap_movements.py",
+    "/app/tests/test_rap_pagination_review.py"
+  ],
+  "unchanged": 148,
+  "data_unchanged": true,
+  "interface_unchanged_from_navigation_release": true
+}

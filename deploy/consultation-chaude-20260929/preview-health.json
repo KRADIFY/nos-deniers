@@ -1,0 +1,68 @@
+{
+  "service": "nos-deniers",
+  "status": "ok",
+  "version": "0.3",
+  "consultation": {
+    "cache": {
+      "entries": 19,
+      "bytes": 45846657,
+      "limit_bytes": 67108864,
+      "hits": 28,
+      "misses": 19,
+      "joined": 0,
+      "pending": 0
+    },
+    "keep_warm": {
+      "state": "warm",
+      "interval_seconds": 300,
+      "completed_cycles": 2,
+      "last_cycle": 1790670588.6227536,
+      "results": [
+        {
+          "path": "/api/bootstrap",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/documents",
+          "status": "warm"
+        },
+        {
+          "path": "/api/reserves",
+          "status": "warm"
+        },
+        {
+          "path": "/api/rap-movements",
+          "status": "warm"
+        },
+        {
+          "path": "retrieval",
+          "status": "warm"
+        }
+      ]
+    }
+  }
+}

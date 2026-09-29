@@ -1,0 +1,16 @@
+# Consultation optimisée — 29 septembre 2026
+Chemin permanent : D:/ChatGPT/docker/budget. Source sans Git ; sauvegarde ../backups/nos-deniers-20260928/git, branche preparation, base sûre d7ffdb3.
+
+Prêt, non publié. Image lexmachine-budget:20260929-consultation-chaude. Prévisualisation : http://127.0.0.1:18673/ ; conteneur budget-consultation-preview, 768 Mio / 2 CPU. Service de recherche local existant utilisé, pas de nouveaux vecteurs.
+
+Modifications : budget_service/consultation.py (cache mémoire 64 Mio, réponses JSON/gzip immuables, clés intégrant tous les filtres, génération DB/WAL/événements/certificat, regroupement des requêtes identiques, deux calculs concurrents, maintien à chaud démarrage + 300 s) ; web.py (raccordement et plafond 32 requêtes actives, JSON en surcharge). La routine réexécute une vraie recherche hybride sur le service privé quand aucun visiteur récent ; les trois collections sont interrogées par ce service. Aucun chiffre, registre, formule, vecteur ou style modifié par cette optimisation. Le paquet cumulatif reprend la navigation/preuves précédemment autorisée.
+
+Contrôles : 505 tests locaux, 2 ignorés ; 390 tests Docker, 3 ignorés ; les autres réussis. 20 réponses et exports identiques à l’image navigation-preuves. 20 requêtes simultanées en cache : médiane 0,078 s, max 0,093 s, 0 erreur. 10 requêtes identiques froides : un calcul, 3,844 s, 0 erreur. Ancienne version : 9,14 s isolée ; timeout 90 s rencontré avec 5 requêtes. Deux cycles réels à 300 s, recherche comprise, confirmés dans preview-health.json. Ces mesures locales ne certifient pas la capacité du VPS ni les sélections arbitraires. Budget warmer/caches bornés ; la résidence de chaque octet de chaque base n’est pas garantie.
+
+Navigateur : reports/navigation-selenium/20260929-102448, 5 cas ciblés réussis, aucune erreur console ; pas un contrôle exhaustif de tout le site. Ancienne campagne étendue distincte conservée.
+
+Paquet : deploy/consultation-chaude-20260929 ; distant /home/marie/nos-deniers-consultation-chaude-20260929. 18 fichiers vérifiés par SHA256, plus FILES.json. Installation utilisateur : sh /home/marie/nos-deniers-consultation-chaude-20260929/PUBLIER_SUR_VPS.sh. Refuse un audit en cours. Accepte les images précédentes style-classique-sans-audit ou navigation-preuves. Sauvegarde ancienne configuration, teste, vérifie la base et des réponses avant/après, contrôle le warmup, rollback automatique. Ne publie que web ; auditeur, recherche, anciens rapports et routine LexMachine/V30 inchangés.
+
+Rapport lisible : reports/consultation-20260929/rapport.html. Script réutilisable de mesures LOCALES : tools/benchmark_consultation.py. La sonde réelle et le cache tournent dans Docker, sans Codex. Le maintien à chaud initial du VPS LexMachine a été retrouvé : /etc/systemd/system/lex-machine-healthcheck.timer (5 min), script /home/marie/apps/lex-machine/deploy/lex-machine-healthcheck.sh, appel /_admin/warmup ; aucune modification.
+
+Prochaine étape : faire installer le paquet puis vérifier le statut en production. Ne pas annoncer publié avant résultat de l’installateur. Une mise à jour du code/registres intégrés requiert le redémarrage de l’image, comme auparavant. Un changement des fichiers SQL/certificat invalide le nouveau cache. Rien n’a été publié pendant cette préparation.

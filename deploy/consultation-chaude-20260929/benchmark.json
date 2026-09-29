@@ -1,0 +1,250 @@
+{
+  "local_only": true,
+  "vps_capacity_certified": false,
+  "checks": [
+    {
+      "path": "/api/bootstrap",
+      "identical": true,
+      "before_seconds": 0.844,
+      "after_seconds": 0.015
+    },
+    {
+      "path": "/api/explorer",
+      "identical": true,
+      "before_seconds": 10.329,
+      "after_seconds": 0.015
+    },
+    {
+      "path": "/api/explorer?measure=AE",
+      "identical": true,
+      "before_seconds": 11.062,
+      "after_seconds": 7.672
+    },
+    {
+      "path": "/api/explorer?scope=TA",
+      "identical": true,
+      "before_seconds": 4.469,
+      "after_seconds": 0.031
+    },
+    {
+      "path": "/api/explorer?scope=TA&measure=AE",
+      "identical": true,
+      "before_seconds": 5.078,
+      "after_seconds": 5.375
+    },
+    {
+      "path": "/api/explorer?topic=maprimerenov",
+      "identical": true,
+      "before_seconds": 6.156,
+      "after_seconds": 0.016
+    },
+    {
+      "path": "/api/explorer?topic=maprimerenov&topic_mode=without&scope=TA",
+      "identical": true,
+      "before_seconds": 5.515,
+      "after_seconds": 4.688
+    },
+    {
+      "path": "/api/explorer?scope=TA&exclude=%5B%22TA%2F345%22%5D",
+      "identical": true,
+      "before_seconds": 5.203,
+      "after_seconds": 5.469
+    },
+    {
+      "path": "/api/explorer?scope=TA&constant=1&base=2017",
+      "identical": true,
+      "before_seconds": 4.672,
+      "after_seconds": 5.047
+    },
+    {
+      "path": "/api/explorer?budget=BA&start=2017&end=2018",
+      "identical": true,
+      "before_seconds": 1.469,
+      "after_seconds": 1.516
+    },
+    {
+      "path": "/api/explorer?budget=CAS&start=2024&end=2026",
+      "identical": true,
+      "before_seconds": 2.14,
+      "after_seconds": 2.578
+    },
+    {
+      "path": "/api/explorer?budget=CCF&measure=AE&start=2025&end=2025",
+      "identical": true,
+      "before_seconds": 1.797,
+      "after_seconds": 1.985
+    },
+    {
+      "path": "/api/provenance?scope=TA&cell_scope=TA%2F174&year=2023&stage=EXEC",
+      "identical": true,
+      "before_seconds": 3.078,
+      "after_seconds": 3.187
+    },
+    {
+      "path": "/api/provenance?scope=TA&cell_scope=TA%2F174&year=2025&stage=LFI",
+      "identical": true,
+      "before_seconds": 3.469,
+      "after_seconds": 3.156
+    },
+    {
+      "path": "/api/reserves?scope=TA",
+      "identical": true,
+      "before_seconds": 0.406,
+      "after_seconds": 0.422
+    },
+    {
+      "path": "/api/events?scope=TA",
+      "identical": true,
+      "before_seconds": 0.125,
+      "after_seconds": 0.172
+    },
+    {
+      "path": "/api/rap-movements?scope=TA&view=summary",
+      "identical": true,
+      "before_seconds": 2.172,
+      "after_seconds": 1.922
+    },
+    {
+      "path": "/api/documents?format=pdf&year=2024",
+      "identical": true,
+      "before_seconds": 0.5,
+      "after_seconds": 0.422
+    },
+    {
+      "path": "/api/export?scope=TA",
+      "identical": true,
+      "before_seconds": 5.328,
+      "after_seconds": 5.969
+    },
+    {
+      "path": "/api/export.xlsx?scope=TA",
+      "identical": true,
+      "before_seconds": 5.969,
+      "after_seconds": 5.766
+    }
+  ],
+  "waves": [
+    {
+      "port": 18671,
+      "clients": 1,
+      "p50_seconds": 9.14,
+      "max_seconds": 9.14,
+      "errors": 0
+    },
+    {
+      "port": 18672,
+      "clients": 1,
+      "p50_seconds": 0.046,
+      "max_seconds": 0.046,
+      "errors": 0
+    },
+    {
+      "port": 18672,
+      "clients": 5,
+      "p50_seconds": 0.016,
+      "max_seconds": 0.032,
+      "errors": 0
+    },
+    {
+      "port": 18672,
+      "clients": 10,
+      "p50_seconds": 0.031,
+      "max_seconds": 0.047,
+      "errors": 0
+    },
+    {
+      "port": 18672,
+      "clients": 20,
+      "p50_seconds": 0.078,
+      "max_seconds": 0.093,
+      "errors": 0
+    }
+  ],
+  "baseline_load_failure": {
+    "clients": 5,
+    "error": "timed out",
+    "timeout_seconds": 90
+  },
+  "cold_shared_wave": {
+    "port": 18672,
+    "clients": 10,
+    "p50_seconds": 3.844,
+    "max_seconds": 3.844,
+    "errors": 0
+  },
+  "cold_shared_calculations": 1,
+  "runtime": {
+    "cache": {
+      "entries": 11,
+      "bytes": 21586851,
+      "limit_bytes": 67108864,
+      "hits": 39,
+      "misses": 11,
+      "joined": 10,
+      "pending": 0
+    },
+    "keep_warm": {
+      "state": "warm",
+      "interval_seconds": 60,
+      "completed_cycles": 2,
+      "last_cycle": 1790670198.5415778,
+      "results": [
+        {
+          "path": "/api/bootstrap",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/explorer",
+          "status": "warm"
+        },
+        {
+          "path": "/api/documents",
+          "status": "warm"
+        },
+        {
+          "path": "/api/reserves",
+          "status": "warm"
+        },
+        {
+          "path": "/api/rap-movements",
+          "status": "warm"
+        }
+      ]
+    }
+  },
+  "containers": [
+    {
+      "name": "/budget-consultation-baseline-test",
+      "oom_killed": false,
+      "memory_limit": 805306368,
+      "cpu_limit": 2000000000
+    },
+    {
+      "name": "/budget-consultation-optimized-test",
+      "oom_killed": false,
+      "memory_limit": 805306368,
+      "cpu_limit": 2000000000
+    }
+  ],
+  "passed": true
+}
