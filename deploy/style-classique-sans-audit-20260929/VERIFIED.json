@@ -1,0 +1,8 @@
+{
+  "previous_public_css_verified": true,
+  "html_unchanged_without_audit_link": true,
+  "restored_original_css_sha256": "b71052fa78d46c3e85a099a6abb1853b1860e69cd571c85c7f091bd19da1703c",
+  "audit_status": "interrupted",
+  "local_docker": "not running; installer checks exact image difference on VPS before activation",
+  "activated": false
+}
