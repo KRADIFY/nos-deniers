@@ -9,23 +9,28 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait,Select
 from selenium.common.exceptions import StaleElementReferenceException
+from expanded_navigation import ExpandedControls
 NAV=['credits','ecologie','maprimerenov','movements','documents','coverage']
-class Check:
+class Check(ExpandedControls):
  def __init__(self,a):
-  self.a=a;self.server=None;self.driver=None;self.rows=[];self.seen={};self.clicked=set();self.started=time.monotonic();self.checked_cells=0;self.transitions=0;self.latencies=[]
+  self.a=a;self.server=None;self.driver=None;self.rows=[];self.seen={};self.clicked=set();self.started=time.monotonic();self.checked_cells=0;self.transitions=0;self.latencies=[];self.links={};self.finished=False;self.documents_summary=None;self.proofs_checked=0;self.active_scope=None;self.last_action=None;self.source_signature={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in ('public/assets/explorer.js','public/assets/explorer.css','public/explorer.html','budget_service/api.py')}
   self.out=ROOT/'reports/navigation-selenium'/datetime.datetime.now().strftime('%Y%m%d-%H%M%S');self.out.mkdir(parents=True)
   self.downloads=self.out/'downloads';self.downloads.mkdir()
  def save(self):
   missing=sorted(set(self.seen)-self.clicked)
-  result=dict(at=datetime.datetime.now().astimezone().isoformat(),url=self.a.url,elapsed_seconds=round(time.monotonic()-self.started),results=self.rows,failed=sum(r['status']=='echec' for r in self.rows),skipped=sum(r['status']=='non_execute' for r in self.rows),control_families_seen=len(self.seen),control_families_exercised=len(self.clicked),unexercised_families=missing,inventory=self.seen,scope='Navigation et interactions réelles. Ne certifie pas les montants ni toutes les combinaisons années/postes. Les liens externes et boutons absents sont explicitement non testés.',rendered_cells_checked=self.checked_cells,settled_transitions=self.transitions,latencies_seconds=self.latencies,source_js_sha256=hashlib.sha256((ROOT/'public/assets/explorer.js').read_bytes()).hexdigest())
-  result['passed']=not result['failed'];result['complete']=result['passed'] and not result['skipped'] and not missing
+  result=dict(at=datetime.datetime.now().astimezone().isoformat(),url=self.a.url,elapsed_seconds=round(time.monotonic()-self.started),results=self.rows,failed=sum(r['status']=='echec' for r in self.rows),skipped=sum(r['status']=='non_execute' for r in self.rows),control_families_seen=len(self.seen),control_families_exercised=len(self.clicked),unexercised_families=missing,inventory=self.seen,execution_finished=self.finished,proofs_checked=self.proofs_checked,active_scope=self.active_scope,all_combinations_covered=False,links_seen=len(self.links),documents=self.documents_summary,scope='Navigation et disponibilité documentaire. Ne certifie pas les montants. Le mode complet parcourt les postes 2017–2026 et leurs commandes ; les croisements de filtres sont testés par paires. Toutes les suites de clics et toutes les combinaisons d’exclusions ne sont pas couvertes.',rendered_cells_checked=self.checked_cells,settled_transitions=self.transitions,latencies_seconds=self.latencies,source_js_sha256=self.source_signature['public/assets/explorer.js'],source_files=self.source_signature)
+  result['passed']=not result['failed'];result['complete']=self.finished and result['passed'] and not result['skipped'] and not missing
   temp=self.out/'result.tmp';temp.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8');temp.replace(self.out/'result.json')
   rows=''.join('<tr><td>'+html.escape(r['name'])+'</td><td>'+html.escape(r['status'])+'</td><td>'+html.escape(r.get('detail',''))+'</td></tr>' for r in self.rows)
-  page='<!doctype html><meta charset="utf-8"><title>Nos Deniers — Navigation</title><style>body{font:16px system-ui;color:#163c55;max-width:1100px;margin:40px auto;padding:20px}table{border-collapse:collapse;width:100%}td,th{padding:10px;border-bottom:1px solid #ddd;text-align:left}h1{font-size:28px}</style><h1>Contrôle de navigation Nos Deniers</h1><p>'+str(len(self.rows))+' scénarios enregistrés · '+str(result['failed'])+' échecs · '+str(result['skipped'])+' non exécutés.</p><p>'+html.escape(result['scope'])+'</p><table><tr><th>Parcours</th><th>Résultat</th><th>Détail</th></tr>'+rows+'</table><h2>Commandes rencontrées sans activation</h2><p>'+html.escape(', '.join(missing) or 'Aucune dans l’inventaire rencontré.')+'</p><p>Les captures des échecs, téléchargements et détails sont conservés dans ce dossier. Un échec réseau n’est pas assimilé à une erreur de montant.</p>'
+  page='<!doctype html><meta charset="utf-8"><title>Nos Deniers — Navigation</title><style>body{font:16px system-ui;color:#163c55;max-width:1100px;margin:40px auto;padding:20px}table{border-collapse:collapse;width:100%}td,th{padding:10px;border-bottom:1px solid #ddd;text-align:left}h1{font-size:28px}</style><h1>Contrôle de navigation Nos Deniers</h1><p>'+str(len(self.rows))+' scénarios enregistrés · '+str(result['failed'])+' échecs · '+str(result['skipped'])+' non exécutés.</p><p>'+html.escape(result['scope'])+'</p><table><tr><th>Parcours</th><th>Résultat</th><th>Détail</th></tr>'+rows+'</table><h2>Commandes rencontrées sans activation</h2><p>'+html.escape(', '.join(self.seen[k].get('label') or k for k in missing) or 'Aucune dans l’inventaire rencontré.')+'</p><p>Les captures des échecs, téléchargements et détails sont conservés dans ce dossier. Un échec réseau n’est pas assimilé à une erreur de montant.</p>'
+  page+='<h2>Documents et liens</h2><p><a href="documents/rapport-liens.html">Contrôle des documents</a></p>' if self.documents_summary else ''
+  page+='<p>'+('Campagne terminée.' if self.finished else 'Campagne en cours ou interrompue. Aucun bilan final.')+'</p>'
   (self.out/'rapport.html').write_text(page,encoding='utf-8');return result
  def inventory(self):
   rows=self.driver.execute_script("""return [...document.querySelectorAll('button,select,input,summary')].filter(e=>e.getClientRects().length).map(e=>({key:e.id?'#'+e.id:e.tagName==='SUMMARY'?'summary':Object.keys(e.dataset).length?'['+Object.keys(e.dataset).sort().join(',')+']':e.tagName.toLowerCase()+'.'+e.className,label:(e.innerText||e.getAttribute('aria-label')||e.name||'').slice(0,100),disabled:e.disabled||false}));""")
   for row in rows:self.seen[row['key']]=row
+  links=self.driver.execute_script("return [...document.querySelectorAll('a[href]')].filter(e=>e.getClientRects().length).map(e=>({url:e.href,raw:e.getAttribute('href'),label:e.textContent.trim()}));")
+  for link in links:self.links[link['url']]=link
  def mark(self,e):
   key=self.driver.execute_script("return arguments[0].id?'#'+arguments[0].id:arguments[0].tagName==='SUMMARY'?'summary':Object.keys(arguments[0].dataset).length?'['+Object.keys(arguments[0].dataset).sort().join(',')+']':arguments[0].tagName.toLowerCase()+'.'+arguments[0].className",e);self.clicked.add(key)
  def wait(self):
@@ -51,6 +56,7 @@ class Check:
    if(!count)errors.push('Tableau sans cellule');return {count,errors};""")
   self.checked_cells+=result['count'];assert not result['errors'],'; '.join(result['errors'][:5])
  def click(self,selector):
+  self.last_action={'selector':selector,'page':self.driver.current_url}
   e=WebDriverWait(self.driver,30).until(lambda d:next((x for x in d.find_elements(By.CSS_SELECTOR,selector) if x.is_displayed() and x.is_enabled()),False))
   self.mark(e);self.driver.execute_script('arguments[0].scrollIntoView({block:"center"})',e);e.click();self.wait()
  def choose(self,id,value):
@@ -70,7 +76,7 @@ class Check:
   try:fn();row=dict(name=name,status='ok',seconds=round(time.monotonic()-start,1))
   except LookupError as e:row=dict(name=name,status='non_execute',detail=str(e))
   except Exception as e:
-   row=dict(name=name,status='echec',detail=str(e),traceback=traceback.format_exc(),seconds=round(time.monotonic()-start,1))
+   row=dict(name=name,status='echec',detail=str(e),action=self.last_action,traceback=traceback.format_exc(),seconds=round(time.monotonic()-start,1))
    try:self.driver.save_screenshot(str(self.out/(str(len(self.rows)+1)+'-echec.png')))
    except Exception:pass
   self.rows.append(row);self.save();print(datetime.datetime.now().strftime('%H:%M:%S'),row['status'],name,flush=True)
@@ -213,15 +219,24 @@ class Check:
     for budget in ('BG','BA','CAS','CCF'):
      for year in range(2017,2027):
       for measure in ('AE','CP'):self.case(f'Matrice {budget} {year} {measure}',lambda b=budget,y=year,m=measure:self.matrix(b,y,m))
-    for budget in ('BG','BA','CAS','CCF'):
-     self.matrix(budget,2024,'CP')
-     roots=self.driver.execute_script('return data.rows.filter(r=>r.has_children).map(r=>r.id)')
-     # DOM is authoritative for navigation: API field names need not encode children.
-     roots=[e.get_attribute('data-scope') for e in self.driver.find_elements(By.CSS_SELECTOR,'#credits-table [data-scope]') if e.is_enabled()]
-     for scope in roots:self.case('Arbre '+budget+' '+scope,lambda b=budget,s=scope:self.branch(b,s))
+    if not getattr(self.a,'full_controls',False):
+     for budget in ('BG','BA','CAS','CCF'):
+      self.matrix(budget,2024,'CP')
+      roots=self.driver.execute_script('return data.rows.filter(r=>r.has_children).map(r=>r.id)')
+      # DOM is authoritative for navigation: API field names need not encode children.
+      roots=[e.get_attribute('data-scope') for e in self.driver.find_elements(By.CSS_SELECTOR,'#credits-table [data-scope]') if e.is_enabled()]
+      for scope in roots:self.case('Arbre '+budget+' '+scope,lambda b=budget,s=scope:self.branch(b,s))
+   if getattr(self.a,'check_documents',False):self.case('Disponibilité du catalogue documentaire',self.linked_documents)
+   if getattr(self.a,'full_controls',False):
+    self.case('Boutons, explications et paginations',self.remaining_controls)
+    self.case('Recherche et ouverture des passages',self.document_search_buttons)
+    self.combined_filters();self.complete_tree()
+   if getattr(self.a,'check_documents',False):self.case('Tous les documents et liens rencontrés',self.linked_documents)
    logs=[r for r in self.driver.get_log('browser') if r['level']=='SEVERE' and 'favicon' not in r['message']]
    (self.out/'browser-errors.json').write_text(json.dumps(logs,ensure_ascii=False,indent=2),encoding='utf-8')
    if logs:self.rows.append(dict(name='Console du navigateur',status='echec',detail=str(len(logs))+' messages à examiner dans browser-errors.json'))
+   if any(hashlib.sha256((ROOT/name).read_bytes()).hexdigest()!=expected for name,expected in self.source_signature.items()):self.rows.append(dict(name='Version contrôlée',status='echec',detail='Les fichiers du site ont changé pendant le contrôle. Refaire un contrôle sur une version stable.'))
+   self.finished=True
   except KeyboardInterrupt:self.rows.append(dict(name='Interruption utilisateur',status='non_execute',detail='Résultats déjà enregistrés conservés.'))
   except Exception as e:self.rows.append(dict(name='Démarrage',status='echec',detail=str(e),traceback=traceback.format_exc()))
   finally:
@@ -229,6 +244,6 @@ class Check:
    if self.driver:self.driver.quit()
    if self.server:self.server.terminate();self.server.wait(timeout=15)
    print('RAPPORT : '+str(self.out/'rapport.html'),flush=True)
-  return 0 if result['passed'] else 1
+  return 0 if result['complete'] else 1 if result['failed'] else 2
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--url',default='http://127.0.0.1:18566');p.add_argument('--serve',action='store_true');p.add_argument('--visible',action='store_true');p.add_argument('--intensive',action='store_true');p.add_argument('--phase',choices=['all','extended'],default='all');args=p.parse_args();sys.exit(Check(args).run())
+ p=argparse.ArgumentParser();p.add_argument('--url',default='http://127.0.0.1:18566');p.add_argument('--serve',action='store_true');p.add_argument('--visible',action='store_true');p.add_argument('--intensive',action='store_true');p.add_argument('--full-controls',action='store_true');p.add_argument('--check-documents',action='store_true');p.add_argument('--phase',choices=['all','extended'],default='all');args=p.parse_args();sys.exit(Check(args).run())

@@ -21,7 +21,14 @@ class PreviewHandler(Handler):
             except (ValueError,LookupError): pass
         if remote:
             try:
-                with urllib.request.urlopen('https://budget.lexmachine.net'+self.path,timeout=90) as r:
+                request=urllib.request.Request('https://budget.lexmachine.net'+self.path,method=self.command,headers={'Range':self.headers['Range']} if self.headers.get('Range') else {})
+                with urllib.request.urlopen(request,timeout=90) as r:
+                    if path.startswith('/api/download/') and r.headers.get('Content-Length'):
+                        self.send_headers(r.status,r.headers.get('Content-Type','application/octet-stream'),int(r.headers['Content-Length']),r.headers.get('Content-Disposition'))
+                        if self.command!='HEAD':
+                            try:shutil.copyfileobj(r,self.wfile)
+                            except (BrokenPipeError,ConnectionResetError):pass
+                        return
                     body=r.read()
                     return self.reply(body,kind=r.headers.get('Content-Type','application/octet-stream'),disposition=r.headers.get('Content-Disposition'))
             except urllib.error.HTTPError as e:return self.reply({'error':'Document public non disponible'},e.code)
