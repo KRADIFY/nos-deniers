@@ -87,6 +87,7 @@ class ReviewedDisagreementsTest(unittest.TestCase):
              patch('budget_service.api.metadata', return_value={'issues': []}):
             proof = provenance(None, params, 2023, 'EXEC', scope)
         self.assertEqual(proof['explanation']['title'], 'Alerte : écart entre les sources')
+        self.assertEqual(proof['explanation']['source_comparisons'], self.result(group)['source_disagreements'])
         self.assertIn('Écart entre sources', proof['explanation']['summary'])
         self.assertTrue(proof['explanation']['references'])
         self.assertIn(group['source'], [s['id'] for s in proof['sources']])

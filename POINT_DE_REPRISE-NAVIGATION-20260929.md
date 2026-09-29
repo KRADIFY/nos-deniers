@@ -1,0 +1,10 @@
+# Navigation, chargement et preuves — 29 septembre 2026
+Dossier permanent : D:/ChatGPT/docker/budget (source sans Git). Sauvegarde privée : ../backups/nos-deniers-20260928/git, branche preparation, précédent commit 652e6e9.
+
+Modifications limitées : retour Grand dossier/Tous les crédits au tableau général ; lien PDF principal paginé ; roue pendant toutes les requêtes de données ; erreur HTML/HTTP compréhensible ; distinction visuelle entre comparaison des totaux RAP/référence et rapprochements des ouverts. Ancien style conservé, lien audit toujours absent. Aucun montant ou index modifié.
+
+Contrôles : 478 tests Python exécutés, 2 sautés (voir reports/navigation-release-20260929/python-tests.log) ; Node 6 retours dossier + 7 exclusions + 10 justificatifs réussis. Selenium ciblé 6 scénarios réussis dans reports/navigation-selenium/20260929-091618 ; contrôle intensif lancé dans reports/navigation-selenium/20260929-091446 (vérifier le nom et result.json à la reprise), pas encore certifié terminé. Les rapports sont enregistrés après chaque scénario. Aucune garantie de complétude de tous les produits cartésiens de filtres ; familles de boutons non activées listées.
+
+Lanceur : CONTROLER_NAVIGATION.bat. Python/Selenium/Chrome locaux requis, déjà installés. Serveur temporaire local 127.0.0.1:18566 ; recherche documentaire seulement peut réutiliser le service public. Scénarios séquentiels, aucune charge intensive sur le site public. Cette suite contrôle les parcours et la restitution API/écran, pas l'exactitude des publications sources.
+
+Livraison : deploy/navigation-preuves-20260929 ; image lexmachine-budget:20260929-navigation-preuves. Diff Docker vérifié : 4 fichiers changés, 148 identiques. Prédécesseur exigé : lexmachine-budget:20260929-style-classique-sans-audit. Paquet transféré dans /home/marie/nos-deniers-navigation-preuves-20260929, installation sudo à effectuer par l'utilisateur. Commande : sh /home/marie/nos-deniers-navigation-preuves-20260929/PUBLIER_SUR_VPS.sh. Sauvegarde et retour automatique si vérifications échouent ; DB, index, auditeur inchangés. Ne pas annoncer publié avant sortie de l'installateur.

@@ -1,4 +1,4 @@
-> **28 septembre au soir : contrôles indépendants renforcés en préparation.** Lire [POINT_DE_REPRISE-CONTROLES-20260928.md](POINT_DE_REPRISE-CONTROLES-20260928.md). Rapport local clarifié et contrôle documentaire séparé. Tests locaux réussis ; validation Docker restante et aucune publication. Les états suivants sont historiques.
+> **29 septembre : navigation et justificatifs corrigés, paquet prêt, publication non exécutée.** Lire [POINT_DE_REPRISE-NAVIGATION-20260929.md](POINT_DE_REPRISE-NAVIGATION-20260929.md). Contrôle Selenium intensif encore en cours, distinct des vérifications ciblées réussies.
 
 > **28 septembre 2026 : ANNEXES INTÉGRÉES EN LOCAL.** Lire [POINT_DE_REPRISE-ANNEXES-20260928.md](POINT_DE_REPRISE-ANNEXES-20260928.md). 135 155 faits, +11 672 par rapport au lot des classeurs ; 344 cellules de gestion documentées en attente. Paquet cumulatif `deploy/update-20260928-annexes` vérifié hors ligne et HTTP local, non transféré, non publié. Deux alertes de provenance MaPrimeRénov’ préexistantes restent consignées ; aucune erreur arithmétique nouvelle. Les états ci-dessous sont historiques.
 

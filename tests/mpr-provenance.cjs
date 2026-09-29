@@ -199,6 +199,13 @@ async function main() {
   assert.equal(html, '<p>Aucune ligne après exclusions.</p>');
   assert.equal(requests.length, 0);
   scenarios.push('Legacy non-topic provenance and its empty-result message remain compatible');
+  const split=context.sourceExplanation({title:'Alerte',summary:'Comparaison des sources',details:[],source_comparisons:[{canonical_cents:260762584500,rap_cents:260762051500}],opening_reconciliation_details:['Autre contrôle : 0,03 €.']});
+  assert.match(split,/5[\s\u2002]330,00/);assert.match(split,/0,0002044/);
+  assert.ok(split.indexOf('Différence entre ces deux totaux')<split.indexOf('<details class="source-card">'));
+  assert.match(split,/ne s’additionnent pas/);
+  const paged={...legacy,rows:legacy.rows.map(r=>({...r,page:431}))};
+  ({html}=await show(paged));assert.match(html,/#page=431/);assert.match(html,/Ouvrir le PDF à la page 431/);
+  scenarios.push('Programme totals and small opening discrepancies are separated; main PDF link targets physical page 431');
   console.log(JSON.stringify({passed: true, source: 'public/assets/explorer.js', source_sha256: crypto.createHash('sha256').update(source).digest('hex'), runtime: process.version, network_used: false, browser_used: false, scenarios}, null, 2));
 }
 main().catch(error => {console.error(error); process.exitCode = 1;});
