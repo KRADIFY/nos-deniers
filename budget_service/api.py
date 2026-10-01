@@ -142,6 +142,18 @@ def cell(records, scope, year, stage, p, indices, stage_records=None, expected_p
                     'Un montant manquant ne signifie pas 0 €.')
     coverage_reason=reason
     sources, detail_note, extra = action_details.annotations(values)
+    if not p.get('topic'):
+        historical = historical_discrepancies.included(values, p, year, stage)
+        if historical:
+            extra['historical_discrepancies'] = historical
+        documented = [dict(kind='RAP', year=warning['year'], mission=warning['mission'],
+                           program=warning['program'], program_label=warning['program_label'])
+                      for warning in extra.get('source_disagreements', [])]
+        documented += [dict(kind='publications', year=notice['year'], mission=notice['mission'],
+                            program=notice['program'], program_label=notice['program_label'])
+                       for notice in historical]
+        if documented:
+            extra['documented_discrepancies'] = documented
     proof_rows=[r for r in reviewed if r['status']=='verified' and r['path'].split('/')[-1] in actual]
     if proof_rows:
         extra.setdefault('citations',[]).extend(cell_reviews.citations(proof_rows))
@@ -301,6 +313,8 @@ def provenance(db,p,year,stage,scope):
                                          for w in result['source_disagreements'] for i,c in enumerate(w['citations']))
     return {'year':year,'stage':STAGES[stage],'count':len(values),'sources':list(sources.values()),
             'rows':values[:300],'truncated':len(values)>300,'note':note,'citations':citations,'explanation':explanation,
+            'documented_discrepancies':result.get('documented_discrepancies',[]),
+            'historical_discrepancies':result.get('historical_discrepancies',[]),
             'historical_discrepancy':historical_discrepancies.matching(p,year,stage,scope,result)}
 
 def documents(db,query):

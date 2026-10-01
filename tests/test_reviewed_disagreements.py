@@ -69,6 +69,15 @@ class ReviewedDisagreementsTest(unittest.TestCase):
         self.assertEqual(excluded['source_disagreements'],
                          restored['source_disagreements'])
 
+    def test_mission_total_lists_the_contributing_rap_disagreement(self):
+        group = next(g for g in self.groups if g['program'] == '354' and g['measure'] == 'AE')
+        rows = self.rows(group)
+        result = cell(rows, group['mission'], group['year'], group['stage'],
+                      parameters({'measure': ['AE']}), {})
+        self.assertEqual(result['nominal_cents'], sum(r['cents'] for r in group['parents']))
+        self.assertEqual([(r['kind'], r['program']) for r in result['documented_discrepancies']],
+                         [('RAP', '354')])
+
     def test_changed_source_still_blocks_detail(self):
         group = copy.deepcopy(self.groups[0])
         with patch.object(action_details, 'registry', return_value=({'groups': [group]}, 'fixture')):

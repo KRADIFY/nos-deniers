@@ -34,6 +34,30 @@ class HistoricalDiscrepancyTests(unittest.TestCase):
         self.assertIsNone(historical_discrepancies.matching(dict(p, topic='maprimerenov'),
                                                              row['year'], row['stage'], scope, result))
 
+    def test_aggregate_notice_requires_the_unchanged_programme_amount(self):
+        notice = next(r for r in self.entries if r['id'] == 'E18')
+        p = {'budget': notice['budget'], 'measure': notice['measure'], 'topic': '',
+             'scope': '', 'exclude': []}
+        programme = dict(mission=notice['mission'], program=notice['program'], action='',
+                         subaction='', cents=notice['site_cents'])
+        other = dict(mission=notice['mission'], program='999', action='', subaction='', cents=2500)
+        self.assertEqual([r['id'] for r in historical_discrepancies.included(
+            [programme, other], p, notice['year'], notice['stage'])], ['E18'])
+        self.assertEqual(historical_discrepancies.included(
+            [dict(programme, cents=programme['cents'] - 1), other], p, notice['year'], notice['stage']), [])
+        self.assertEqual(historical_discrepancies.included(
+            [programme, other], dict(p, topic='maprimerenov'), notice['year'], notice['stage']), [])
+        actions = [dict(programme, action='01', cents=notice['site_cents'] - 2500),
+                   dict(programme, action='02', cents=2500)]
+        self.assertEqual([r['id'] for r in historical_discrepancies.included(
+            actions, p, notice['year'], notice['stage'])], ['E18'])
+        self.assertEqual(historical_discrepancies.included(
+            actions, dict(p, exclude=[f"{notice['mission']}/{notice['program']}/01"]),
+            notice['year'], notice['stage']), [])
+        self.assertEqual(historical_discrepancies.included(
+            actions, dict(p, scope=f"{notice['mission']}/{notice['program']}/01"),
+            notice['year'], notice['stage']), [])
+
     def test_documentary_bridge_keeps_administrative_limit(self):
         row = next(r for r in self.entries if r['id'] == 'E18')
         self.assertEqual(abs(row['difference_cents']), 221600)

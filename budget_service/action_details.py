@@ -61,7 +61,9 @@ def disagreement(group, parents):
                'et les chiffres du RAP pour les actions ; il ne répartit pas cette différence entre elles.')
     citations = [dict(source=group['source'], page=group.get('total_page', group.get('page')))]
     citations += [dict(source=p['source'], page=p.get('page')) for p in parents]
-    return dict(summary=summary, canonical_cents=canonical, rap_cents=published,
+    return dict(summary=summary, mission=group['mission'], program=group['program'],
+                program_label=group.get('program_label') or parents[0].get('program_label', ''), year=group['year'],
+                canonical_cents=canonical, rap_cents=published,
                 difference_cents=difference, percentage=ratio,
                 citations=list({(c['source'], c['page']): c for c in citations}.values()))
 

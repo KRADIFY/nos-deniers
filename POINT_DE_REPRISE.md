@@ -1,3 +1,5 @@
+> **1 octobre — Version `20261001-totaux-centre` publiée sur le nouveau VPS : quatre web sains, avertissements des totaux et compteur centré. Base et vecteurs inchangés ; monitoring actif, mail quotidien à 8 h confirmé.** Voir [POINT_DE_REPRISE-MIGRATION-VPS-20260929.md](POINT_DE_REPRISE-MIGRATION-VPS-20260929.md) pour le socle et `deploy/optimisation-20260929/publier-totaux-centre.py` pour la publication.
+
 > **29 septembre : consultation optimisée prête, maintien à chaud cinq minutes vérifié en Docker, non publiée.** Lire [POINT_DE_REPRISE-CONSULTATION-20260929.md](POINT_DE_REPRISE-CONSULTATION-20260929.md).
 
 > **29 septembre : navigation et justificatifs corrigés, paquet prêt, publication non exécutée.** Lire [POINT_DE_REPRISE-NAVIGATION-20260929.md](POINT_DE_REPRISE-NAVIGATION-20260929.md). Contrôle Selenium intensif encore en cours, distinct des vérifications ciblées réussies.

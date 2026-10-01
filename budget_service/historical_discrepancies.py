@@ -3,6 +3,7 @@
 These notes do not alter any fact, calculation, or chosen amount.
 """
 import json
+from collections import defaultdict
 from functools import lru_cache
 from pathlib import Path
 
@@ -31,3 +32,26 @@ def matching(parameters, year, stage, scope, result):
     if result.get('nominal_cents') != entry['site_cents']:
         return None
     return entry
+
+
+def included(values, parameters, year, stage):
+    """Notices whose unchanged programme amount contributes to this total."""
+    if parameters.get('topic') or not parameters.get('budget') or not parameters.get('measure'):
+        return []
+    programme_amounts = defaultdict(int)
+    for row in values:
+        programme_amounts[(row['mission'], row['program'])] += row['cents']
+    notices = []
+    for (mission, program), amount in sorted(programme_amounts.items()):
+        scope = f'{mission}/{program}'
+        selected = parameters.get('scope', '')
+        if selected and selected != scope and not scope.startswith(selected + '/'):
+            continue
+        if any(excluded == scope or excluded.startswith(scope + '/') or scope.startswith(excluded + '/')
+               for excluded in parameters.get('exclude', [])):
+            continue
+        entry = _by_key().get((year, parameters['budget'], mission, program,
+                               parameters['measure'], stage))
+        if entry and amount == entry['site_cents']:
+            notices.append(entry)
+    return notices

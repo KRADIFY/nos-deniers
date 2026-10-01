@@ -1,0 +1,10 @@
+{
+  "base": "lexmachine-budget:20260929-optimisee-notices-v3",
+  "files": {
+    "budget_service/action_details.py": "b2ff1ab92d202f30527b5d9a4953db1c64089199bf8071e3c0de90f6c441312d",
+    "budget_service/api.py": "79ac63e7a33d9a1d55767971701407dbf5b4f9ea6eb49ce64247f71da5f82574",
+    "budget_service/historical_discrepancies.py": "92f64000e6fb4ff1a83018fbf9570aee7d31e85fffd2dd145025835a2302a290",
+    "public/assets/explorer.css": "4d7fa26cb12107e2deb645ed8e14572b5ad6974352ce91779aa0e9130d20dd33",
+    "public/assets/explorer.js": "872770012cf86f9b7040f18be5b32e7676616cbd3c6e1d39e84a4b1465eb9464"
+  }
+}
