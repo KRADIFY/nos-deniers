@@ -61,7 +61,9 @@ def disagreement(group, parents):
                'et les chiffres du RAP pour les actions ; il ne répartit pas cette différence entre elles.')
     citations = [dict(source=group['source'], page=group.get('total_page', group.get('page')))]
     citations += [dict(source=p['source'], page=p.get('page')) for p in parents]
-    return dict(summary=summary, canonical_cents=canonical, rap_cents=published,
+    return dict(summary=summary, mission=group['mission'], program=group['program'],
+                program_label=group.get('program_label') or parents[0].get('program_label', ''), year=group['year'],
+                canonical_cents=canonical, rap_cents=published,
                 difference_cents=difference, percentage=ratio,
                 citations=list({(c['source'], c['page']): c for c in citations}.values()))
 
@@ -70,7 +72,7 @@ def disagreement(group, parents):
 def registry():
     raw = FILE.read_bytes()
     data = json.loads(raw)
-    for name in ('actions-ecologie.json', 'actions-multititres.json', 'actions-sousactions.json', 'actions-national.json', 'actions-dette.json', 'actions-rap-historique.json'):
+    for name in ('actions-ecologie.json', 'actions-multititres.json', 'actions-sousactions.json', 'actions-national.json', 'actions-dette.json', 'actions-rap-historique.json', 'actions-pap-2027.json'):
         extension = FILE.with_name(name)
         if not extension.exists():
             continue
@@ -111,6 +113,10 @@ def published_row(item, base, group, level='action'):
                approximate=int((not spreadsheet and group['stage'] == 'EXEC') or bool(group.get('reconciliation',{}).get('difference_cents'))),
                precision=precision,
                _detail_note=NOTE+' '+display_note(group))
+    if group.get('document_family')=='PAP' and group['year']==2027:
+        column='FdC/AdP attendus, prévision distincte' if group['stage']=='FDC_PREVU' else 'Total des crédits proposés, hors FdC/AdP'
+        row['precision']='Montant publié à l’euro dans le PAP 2027. '+display_note(group)
+        row['field']=f"{group['stage']} {group['measure']} 2027 · {label} · PAP p. {page} · {column}"
     if spreadsheet:row['source_location']=item['source_location']
     if item.get('amount_kind')=='reconstructed':
         rec=group['action_reconstruction']

@@ -1,0 +1,485 @@
+{
+  "published_url": "https://budget.lexmachine.net/",
+  "database_sha256": "c4911e75d0c05fce9c4494b85cc99ed142222a9101bd1ffe3a25bd36962f06f6",
+  "facts": 135893,
+  "web_image": "lexmachine-budget:20261003-recherche-120s",
+  "retrieval_image": "lexmachine-budget-retrieval:20261003-recherche-filtree",
+  "four_instances_verified": true,
+  "active_retrieval": {
+    "sha256": "24350d4b03e6f2f34a6c2e2ccc2bb2dd43bda2ef1a48b41d986728003fc829b0"
+  },
+  "large_vector_indexes_in_git": false,
+  "production_modified": false,
+  "files": [
+    {
+      "path": "budget_service/action_details.py",
+      "sha256": "643dcbe4e915fe5619207cb8c545c77daf8d791acc25a51697dc36e9fc6d944c",
+      "bytes": 20208
+    },
+    {
+      "path": "budget_service/api.py",
+      "sha256": "caefad6580a8d8c8f674644437eaec3d79e9fc3373eb9e23d2a6083d98e74d68",
+      "bytes": 25640
+    },
+    {
+      "path": "budget_service/audit_data.py",
+      "sha256": "99952f0652ad8df18072b5998f36f1103f684f86aeb03725a0dd113af7132a20",
+      "bytes": 20146
+    },
+    {
+      "path": "budget_service/audit_registries.py",
+      "sha256": "40dcc9c7a7e83bc48cd21b8824a7821ecdc9642a4e93b188b5355ba164cd83bb",
+      "bytes": 9178
+    },
+    {
+      "path": "budget_service/cell_reviews.py",
+      "sha256": "5955966903a3a26e0434f75cd84dbef9c6e8948c3eed039dc9ebd335e15bebb7",
+      "bytes": 2782
+    },
+    {
+      "path": "budget_service/checks.py",
+      "sha256": "a40cd8ed233986537a28cc24f8ef01478234209d8a9a24e3f0974654a70ecf18",
+      "bytes": 16269
+    },
+    {
+      "path": "budget_service/collect.py",
+      "sha256": "f3bd1e210393b42a61ade7996794a11246841bba3650f8eb977d6267b36cca25",
+      "bytes": 9241
+    },
+    {
+      "path": "budget_service/comparisons.py",
+      "sha256": "dbe912dd380b347703dc8dc734a463496ba613bce0dff8ab918e284fc395c62b",
+      "bytes": 1771
+    },
+    {
+      "path": "budget_service/consultation.py",
+      "sha256": "590014063d45d05acfa0c003d7dc15a65a2e54c19b78417c92a00570e0acb218",
+      "bytes": 10311
+    },
+    {
+      "path": "budget_service/correction_ledger.py",
+      "sha256": "f473b15b4b461884c1ba92d0f2225d5b81c6dbb9625f10199281216ba0b36c2d",
+      "bytes": 10739
+    },
+    {
+      "path": "budget_service/data_quality.py",
+      "sha256": "300391b9226aba2effadeb3b820dc8bd17fc3c69908534a3f302c458de82df21",
+      "bytes": 19156
+    },
+    {
+      "path": "budget_service/data_signature.py",
+      "sha256": "4db0c10b856fb3b60569e698881619be0ae4469f12f300897f1e7898b7c56f1c",
+      "bytes": 1197
+    },
+    {
+      "path": "budget_service/document_search.py",
+      "sha256": "3f27ce7b41bd96eb6149a36dd3b8ce37c78e491fc6de35a1b6a19b1c8f5327e4",
+      "bytes": 5993
+    },
+    {
+      "path": "budget_service/events.py",
+      "sha256": "6d371650585b4ee74d934752ae35dba62716ff76c720dec1f9ed02555c03c88f",
+      "bytes": 4696
+    },
+    {
+      "path": "budget_service/evolution.py",
+      "sha256": "58571bdfbd78e1479fd83177fb6ba0be43f4efa8fd516cd3e2e2c3e9d9cdc099",
+      "bytes": 3567
+    },
+    {
+      "path": "budget_service/exports.py",
+      "sha256": "fc19e780974dd11c49b27f6c36e0825de175197dd3235b3d91878e3097a1a862",
+      "bytes": 9580
+    },
+    {
+      "path": "budget_service/historical_discrepancies.py",
+      "sha256": "92f64000e6fb4ff1a83018fbf9570aee7d31e85fffd2dd145025835a2302a290",
+      "bytes": 2426
+    },
+    {
+      "path": "budget_service/import_events.py",
+      "sha256": "5ac86f67aed0822fbcd91127041e6b24dadc2830cf826c2e8fdc18cc75240225",
+      "bytes": 8227
+    },
+    {
+      "path": "budget_service/import_fdc_forecast.py",
+      "sha256": "d50c5d275efe26fa0f45e4373029e4c9d6f41c848cd125a0cb964a7b2713ca82",
+      "bytes": 3592
+    },
+    {
+      "path": "budget_service/import_lfi_2026.py",
+      "sha256": "45cf3136ffea4f9e43e1131304a56d68f416bd85a6d53f58d56763f573ddca27",
+      "bytes": 3568
+    },
+    {
+      "path": "budget_service/import_manual_collection.py",
+      "sha256": "5cebaa55b6963f22f8da683efd0a44cfeb37908a9e42be00f7d1751e83708f5c",
+      "bytes": 5914
+    },
+    {
+      "path": "budget_service/import_pap_2026.py",
+      "sha256": "0b66dad6eb91ceab13c46c2b6ea68e9631dfcd7d7e225609491bda45cfbe916f",
+      "bytes": 5929
+    },
+    {
+      "path": "budget_service/import_pap_2026_national.py",
+      "sha256": "5fa8b3ee131412785fa7a23a761adfad39ab2300bbebaca3b1c886edc5a791bd",
+      "bytes": 12560
+    },
+    {
+      "path": "budget_service/import_pap_2027.py",
+      "sha256": "ed147eefebda67399bc4d3f10edb2a8d244658e07bb921c3c9f14346ce1991cb",
+      "bytes": 6779
+    },
+    {
+      "path": "budget_service/import_rap_synthesis.py",
+      "sha256": "7b359e153b314462caf14de381181a4c2db0906a4ee5f9ce96f1babb73033ab2",
+      "bytes": 9497
+    },
+    {
+      "path": "budget_service/import_rap_zeros.py",
+      "sha256": "1877855c308a54cbc825bda62e4379cba4beaceb90b5e93ebe878566ba08c9f3",
+      "bytes": 4723
+    },
+    {
+      "path": "budget_service/install_topic_sources.py",
+      "sha256": "02d37fb258300fe99949dc37fd81ec3966ae3cf7922a0a69e824d88020f5be9a",
+      "bytes": 1473
+    },
+    {
+      "path": "budget_service/legal_client.py",
+      "sha256": "f6c2c8448c762834eef775f9dcbc233e19804e26bf4514fc39f0dafbef369e11",
+      "bytes": 2782
+    },
+    {
+      "path": "budget_service/legal_tables.py",
+      "sha256": "04b772f34fba17c662e8706f32a6af2a7a7f9bf86858786c171267e959d3043c",
+      "bytes": 1215
+    },
+    {
+      "path": "budget_service/model.py",
+      "sha256": "bda424c19bc639a5fc0e39d6b34ba9d21a90554587a1b680e2944bdac73540f3",
+      "bytes": 2650
+    },
+    {
+      "path": "budget_service/normalize.py",
+      "sha256": "8450bda5d4439bedeca845b1e663c23eb45715cc7e39673edcc46e32709c100a",
+      "bytes": 19764
+    },
+    {
+      "path": "budget_service/normalize_more.py",
+      "sha256": "1e1707b1b4f8b6d623abe3c48732aa5b4303f61fe313dd1664ed99a335662c41",
+      "bytes": 3502
+    },
+    {
+      "path": "budget_service/normalize_replay.py",
+      "sha256": "4b19dd7bb3996f2c74108831142c98f0d500f331a1797906b2d27bae57cfabc3",
+      "bytes": 16492
+    },
+    {
+      "path": "budget_service/normalize_validated.py",
+      "sha256": "2e1b260d97f7618cae2518ac0a069354e47dad95ba171af5c05f08b39276c6ec",
+      "bytes": 4297
+    },
+    {
+      "path": "budget_service/rap_movements.py",
+      "sha256": "e428a510f3c4f45fa9fb27ce0defd6ec0846d5ffacb81e5774c06e6cbdd374fe",
+      "bytes": 19040
+    },
+    {
+      "path": "budget_service/rap_quality.py",
+      "sha256": "b920401e9c9edee35f2dbb2c34b12c4952094020e8a28267cd1991b49352c637",
+      "bytes": 9622
+    },
+    {
+      "path": "budget_service/rap_validation.py",
+      "sha256": "406f6bca57f181ac370474cadd4296705e42f9bc10b15ff2c4f982437bf2d24a",
+      "bytes": 18931
+    },
+    {
+      "path": "budget_service/reconciliation.py",
+      "sha256": "0d75f1be52f66799bcf67c5a69b484e84459663fee8e200ff20e16875c7904ae",
+      "bytes": 2985
+    },
+    {
+      "path": "budget_service/reserves.py",
+      "sha256": "038f8a4604be605ff5b4788bfd7f5de0338de996bd828b83b02941fb2008bed3",
+      "bytes": 7231
+    },
+    {
+      "path": "budget_service/retrieval_client.py",
+      "sha256": "46c8fcaebd54c06603987ae0d884e86aee79580b697402e919c867a72ac588c0",
+      "bytes": 4170
+    },
+    {
+      "path": "budget_service/retrieval_contract.py",
+      "sha256": "7ebbd01690e1e0d4fc219721a65292bbe2a8b8976f56f0dca946b3b326066e69",
+      "bytes": 2555
+    },
+    {
+      "path": "budget_service/retrieval_service.py",
+      "sha256": "8621953c08773991e121ba9365153a7acbb37a2fe46377dba619f32121063cd1",
+      "bytes": 14749
+    },
+    {
+      "path": "budget_service/server.py",
+      "sha256": "fc81f0f76bb9ef10fb5846613f03efaaa7da92a6c2d502970a87742f4af17887",
+      "bytes": 2417
+    },
+    {
+      "path": "budget_service/topics.py",
+      "sha256": "8599ec9275e621db089050d13c1094069c53f86e85ade89b66637553c84e73d8",
+      "bytes": 13051
+    },
+    {
+      "path": "budget_service/web.py",
+      "sha256": "9d1d938ceefac090d4821fb80fb7b5cdcefc09feb4a1723bd673d6660017b240",
+      "bytes": 10302
+    },
+    {
+      "path": "budget_service/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "proofs/budget.sqlite.gz",
+      "sha256": "f63ce77435ec76c180bc5d7ad46401e948e3cec055259b9e6e6628ef5074d29e",
+      "bytes": 8009092
+    },
+    {
+      "path": "proofs/compose.yaml",
+      "sha256": "300e4b266f69c7ad92bea3cfba1c869e510ec8ee7118418a468e16ab43da244a",
+      "bytes": 2773
+    },
+    {
+      "path": "proofs/ecolo.css",
+      "sha256": "ecd11c7c86f97652eb4e558257ddf4218370ecb3266d111ac7df91c27936fab5",
+      "bytes": 82
+    },
+    {
+      "path": "proofs/general.css",
+      "sha256": "324bbb6e0642c9490dcfc496afd954a575a927aaa3cb205afe49e5a0e68fb9b8",
+      "bytes": 238
+    },
+    {
+      "path": "public/diagnostic.html",
+      "sha256": "564c1125e3923f690762529e3fd13bc2e4dd4c7d379970bb4b23737722a1bf66",
+      "bytes": 206
+    },
+    {
+      "path": "public/explorer.html",
+      "sha256": "ee4525990d6f8ae7bb6dbc8b2f3e298a119caa0e2494ba8041d55256917a3630",
+      "bytes": 18808
+    },
+    {
+      "path": "public/index.html",
+      "sha256": "55ed5bdc2f33c13bdd67c6be5a2b5e821df6272c6936a9e6a9cdbe3454adcf23",
+      "bytes": 1537
+    },
+    {
+      "path": "runtime-retrieval/retrieval_service.py",
+      "sha256": "9da7a3dc28ff9e2d1f0433e723ceeb0a0817e985e453035b97731f3af6304cdb",
+      "bytes": 15457
+    },
+    {
+      "path": "public/assets/app.js",
+      "sha256": "d0e47134240cad234adf66d37fd83b4c7b81b69c668fe1312ca4307de7f5a9a1",
+      "bytes": 1553
+    },
+    {
+      "path": "public/assets/diagnostic.css",
+      "sha256": "518e645ecce6bd690fdf5232c5e33f6261731d77cafba5f953cdc4781d3cbf20",
+      "bytes": 3095
+    },
+    {
+      "path": "public/assets/diagnostic.js",
+      "sha256": "d0e47134240cad234adf66d37fd83b4c7b81b69c668fe1312ca4307de7f5a9a1",
+      "bytes": 1553
+    },
+    {
+      "path": "public/assets/explorer.css",
+      "sha256": "fb3db7d025fa5f473a5987ad78481484df50a0c7a7c0cc5d8c04b0f69e3ea523",
+      "bytes": 30704
+    },
+    {
+      "path": "public/assets/explorer.js",
+      "sha256": "631c37b56dcf20f028291c1e7a05a2819662ac4420381c58f0e5cef843de106c",
+      "bytes": 82004
+    },
+    {
+      "path": "public/assets/InterVariable.woff2",
+      "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "bytes": 352240
+    },
+    {
+      "path": "public/assets/lexmachine-entete.svg",
+      "sha256": "be857dc8ce137c6c0598a98bbe80f6fb76e0e27b15c46653a05b83ca89640e7b",
+      "bytes": 20516
+    },
+    {
+      "path": "public/assets/nos-deniers-horizontal.svg",
+      "sha256": "6b95f5bddddeafbf62c35a0f54cb984ba5b1789597081b0d99d11bb6756ee6ce",
+      "bytes": 15756
+    },
+    {
+      "path": "public/assets/nos-deniers-icone.svg",
+      "sha256": "5067440135649e3086bd38b91ec3810fbe4cc2f2e952941700158b738de03232",
+      "bytes": 1468
+    },
+    {
+      "path": "public/assets/nos-deniers-logo.svg",
+      "sha256": "e7deaae2babcac2ec0783125157b0a381bc1b672328f60f3c55ca04381ab2fb7",
+      "bytes": 37702
+    },
+    {
+      "path": "public/assets/plf-stamp.css",
+      "sha256": "7764cbb766666d528855eb39fe9d7df04ed73f783949cac810c5f30cf8120921",
+      "bytes": 609
+    },
+    {
+      "path": "public/assets/style.css",
+      "sha256": "518e645ecce6bd690fdf5232c5e33f6261731d77cafba5f953cdc4781d3cbf20",
+      "bytes": 3095
+    },
+    {
+      "path": "public/assets/tampon-plf-2027.svg",
+      "sha256": "915ba6734be1277c4c760777a23f2910d42323ccfa374bed8d82b796ddf94223",
+      "bytes": 192903
+    },
+    {
+      "path": "budget_service/data/actions-dette.json",
+      "sha256": "fd090a0bb2bb021dc45788fed72c29bd696d99ce7f87c2f2c8db00962f4b7146",
+      "bytes": 5963
+    },
+    {
+      "path": "budget_service/data/actions-ecologie.json",
+      "sha256": "d8eb759d064f1b9ecb49ee6b3aa5a8445405c09d1ccba9eacc3550bf0bdc26b1",
+      "bytes": 116533
+    },
+    {
+      "path": "budget_service/data/actions-multititres.json",
+      "sha256": "6aea21bda4ce4f3cd71300f2c4f99c40122e4559b703b56e6f4f79cd99972e5b",
+      "bytes": 100404
+    },
+    {
+      "path": "budget_service/data/actions-national.json",
+      "sha256": "656f3a2b82fc68b75e080842ba2ff4524f846d341dc96d78d01038d07083a9b7",
+      "bytes": 4713664
+    },
+    {
+      "path": "budget_service/data/actions-p174.json",
+      "sha256": "4792bdc94110d9884ea6a29970ad8e43ca6e781ee2608e8b0846ea393365f0b0",
+      "bytes": 22958
+    },
+    {
+      "path": "budget_service/data/actions-pap-2027.json",
+      "sha256": "cc460e9d61108b9d8c7e70307738278ef4e12c6213a21321cf02c5b37c04b20c",
+      "bytes": 6254606
+    },
+    {
+      "path": "budget_service/data/actions-rap-historique.json",
+      "sha256": "9d300ea04ab532ab6672c519a62ef35c30d60d7909b13cb6299fccf5459fea9a",
+      "bytes": 472857
+    },
+    {
+      "path": "budget_service/data/actions-sousactions.json",
+      "sha256": "4db90e9b7d472c3b7dffae1ff231eb533d59191df86be6344f0737f4b6a75ad5",
+      "bytes": 82611
+    },
+    {
+      "path": "budget_service/data/historical-no-recap-reviewed.json",
+      "sha256": "8e78bfa00ea22959b08f460aa991a63b2bc30cc4ba2aab1108b41b60233dbcf9",
+      "bytes": 526989
+    },
+    {
+      "path": "budget_service/data/historical_discrepancy_notices_2017_2022.json",
+      "sha256": "e5f991a1be7d8526db05039922521969064034016eb985520d99301fa0aace81",
+      "bytes": 50077
+    },
+    {
+      "path": "budget_service/data/maprimerenov.json",
+      "sha256": "287e2f66916f1b84cf5176b60fbe7b57691a815964e6402a8cdc348d26842554",
+      "bytes": 116563
+    },
+    {
+      "path": "budget_service/data/mouvements-rap-autres-budgets-historique.json",
+      "sha256": "334fa154353c907d4413ca5d14ee50f6e6b54b9023550992ba6a69e617679e55",
+      "bytes": 13307959
+    },
+    {
+      "path": "budget_service/data/mouvements-rap-historique-detail.json",
+      "sha256": "74af29f723832d74e7cd0fa1711a04fffdd610e0936672953eeab6b0fbe16370",
+      "bytes": 48574751
+    },
+    {
+      "path": "budget_service/data/mouvements-rap-historique.json",
+      "sha256": "74903f7104d1118acb6e0d24c6370c59266f859be4b2dcc27cf834995696c0c8",
+      "bytes": 809755
+    },
+    {
+      "path": "budget_service/data/mouvements-rap-national.json",
+      "sha256": "f7a4e2a25df163c120a71155b142039554ba47fde69e19e8e7f066dcfa9befe6",
+      "bytes": 41489559
+    },
+    {
+      "path": "budget_service/data/mouvements-rap-p174.json",
+      "sha256": "3f1005a89848e708c6f99084f0c3eee5e4ff3e9e8de9727db4ccf1687f2df20c",
+      "bytes": 191222
+    },
+    {
+      "path": "budget_service/data/pap-2026-national.json",
+      "sha256": "f1b87ea98511b39235c2e24f87a727454e11779c75ba8f35eb44c1048ea18ac3",
+      "bytes": 540862
+    },
+    {
+      "path": "budget_service/data/pap-2027-import-plan.json",
+      "sha256": "95881ae967807fdf33d5e4c67ba3ff1b8456d40c4d4e875802975c54fd077a23",
+      "bytes": 1136999
+    },
+    {
+      "path": "budget_service/data/pap-ecologie-2026.json",
+      "sha256": "c24e5244019524cfd3c8abc7be1f352b311521f83ac576c639bf6c0d7293ebda",
+      "bytes": 26257
+    },
+    {
+      "path": "budget_service/data/rap-coverage.json",
+      "sha256": "7446e73c3c808a6567d834ff1817fcd30ef365a91879bc43b43cf3c1471d8516",
+      "bytes": 33995
+    },
+    {
+      "path": "budget_service/data/rap-explicit-zeros.json",
+      "sha256": "af0d155586fbb3b788c2ed6c9a1b8185a1e0f8a53fc62d413bf1dc281e7e2bd9",
+      "bytes": 52190
+    },
+    {
+      "path": "budget_service/data/rap-investigation.json",
+      "sha256": "91a2057feddd6ebd0507160aa98b5dd69df5c86629fa5bf8fd8f889a1959c523",
+      "bytes": 225384
+    },
+    {
+      "path": "budget_service/data/reserves-ecologie.json",
+      "sha256": "df3649ea0405881a44f3c62c6a4cb67f8af1ecd389af30b0cc6a49fd09c0fb53",
+      "bytes": 980428
+    },
+    {
+      "path": "budget_service/data/reserves-historique-2017-2022.json",
+      "sha256": "0004851941e961d28fd20106413d15bc55c64c1a8c76201d0b13ca4e47b8a4f6",
+      "bytes": 14948604
+    },
+    {
+      "path": "budget_service/data/reserves-national.json",
+      "sha256": "bdecad2029fa663b8306081497a6f7ae17293122cc18c14e29aae6503f096f36",
+      "bytes": 3445728
+    },
+    {
+      "path": "budget_service/data/reserves-p174.json",
+      "sha256": "ef394a673a30df1a57a4baeca625edb05ea5e46d47cee3123371d3a0a107b01c",
+      "bytes": 65534
+    },
+    {
+      "path": "budget_service/data/validated-fact-replay.json",
+      "sha256": "c996c89a11eeb2dfd7df5c09d432ceae4545cbe0e13881cd2c63edb126276cc6",
+      "bytes": 4411112
+    }
+  ]
+}

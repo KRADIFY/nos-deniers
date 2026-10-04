@@ -76,19 +76,40 @@ def xlsx(data,sources):
         return s
     def clean(v):return ''.join(c for c in str(v) if c in '\t\n\r' or ord(c)>=32)[:32767]
     with zipfile.ZipFile(out,'w',zipfile.ZIP_DEFLATED) as z:
-        z.writestr('[Content_Types].xml','<?xml version="1.0" encoding="UTF-8"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>'+''.join(f'<Override PartName="/xl/worksheets/sheet{i}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>' for i in range(1,len(sheets)+1))+'</Types>')
+        z.writestr('[Content_Types].xml','<?xml version="1.0" encoding="UTF-8"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>'+''.join(f'<Override PartName="/xl/worksheets/sheet{i}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>' for i in range(1,len(sheets)+1))+'<Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/></Types>')
         z.writestr('_rels/.rels','<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>')
         z.writestr('xl/workbook.xml',f'<workbook xmlns="{ns}" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>'+''.join(f'<sheet name="{escape(name)}" sheetId="{i}" r:id="rId{i}"/>' for i,(name,_) in enumerate(sheets,1))+'</sheets></workbook>')
-        z.writestr('xl/_rels/workbook.xml.rels','<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'+''.join(f'<Relationship Id="rId{i}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet{i}.xml"/>' for i in range(1,len(sheets)+1))+'</Relationships>')
+        z.writestr('xl/_rels/workbook.xml.rels','<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'+''.join(f'<Relationship Id="rId{i}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet{i}.xml"/>' for i in range(1,len(sheets)+1))+'<Relationship Id="styles" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>')
+        # Fixed display formats only: monetary values and rates remain numeric and unchanged.
+        z.writestr('xl/styles.xml', f'<styleSheet xmlns="{ns}">'
+            '<numFmts count="2"><numFmt numFmtId="164" formatCode="#,##0.00"/>'
+            '<numFmt numFmtId="165" formatCode="#,##0.0000"/></numFmts>'
+            '<fonts count="1"><font><sz val="11"/><name val="Calibri"/></font></fonts>'
+            '<fills count="2"><fill><patternFill patternType="none"/></fill>'
+            '<fill><patternFill patternType="gray125"/></fill></fills>'
+            '<borders count="1"><border/></borders>'
+            '<cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>'
+            '<cellXfs count="3"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/>'
+            '<xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>'
+            '<xf numFmtId="165" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/></cellXfs>'
+            '<cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>')
         for i,(name,values) in enumerate(sheets,1):
-            xml=[f'<worksheet xmlns="{ns}"><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" state="frozen"/></sheetView></sheetViews><cols><col min="1" max="20" width="22" customWidth="1"/></cols><sheetData>']
+            amount_columns={'Crédits':{8,11},'Écarts et taux':{5},'Évolution annuelle':{7}}.get(name,set())
+            columns=''.join(f'<col min="{j}" max="{j}" width="{30 if j in amount_columns else 22}" customWidth="1"/>' for j in range(1,21))
+            xml=[f'<worksheet xmlns="{ns}"><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" state="frozen"/></sheetView></sheetViews><cols>{columns}</cols><sheetData>']
             n=0;last=1
             for n,row in enumerate(values,1):
                 last=len(row);xml.append(f'<row r="{n}">')
                 for j,value in enumerate(row,1):
                     if value is None:continue
                     ref=col(j)+str(n)
-                    if isinstance(value,(int,float)) and not isinstance(value,bool):xml.append(f'<c r="{ref}"><v>{value}</v></c>')
+                    if isinstance(value,(int,float)) and not isinstance(value,bool):
+                        style=''
+                        if n>1 and j in amount_columns:
+                            # Comparison percentages are already expressed on a 0–100 scale.
+                            rate=name=='Évolution annuelle' or (name=='Écarts et taux' and row[5]=='%')
+                            style=f' s="{2 if rate else 1}"'
+                        xml.append(f'<c r="{ref}"{style}><v>{value}</v></c>')
                     else:xml.append(f'<c r="{ref}" t="inlineStr"><is><t xml:space="preserve">{escape(clean(value))}</t></is></c>')
                 xml.append('</row>')
             xml.append(f'</sheetData><autoFilter ref="A1:{col(last)}{n}"/></worksheet>');z.writestr(f'xl/worksheets/sheet{i}.xml',''.join(xml))

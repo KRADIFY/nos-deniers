@@ -3,12 +3,13 @@ import json
 import gzip
 import os
 import shutil
+import threading
 from contextlib import closing
 import sqlite3
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlsplit, parse_qs, quote
-from . import api, document_search, exports, events, reserves, rap_movements, retrieval_client
+from . import api, document_search, exports, events, reserves, rap_movements, retrieval_client, consultation
 
 ROOT=Path(os.environ.get('BUDGET_PUBLIC_DIR','/app/public'))
 STATE=Path(os.environ.get('BUDGET_STATE_DIR','/state'))
@@ -17,6 +18,8 @@ for name in ('explorer.js','diagnostic.js'): ASSETS['/assets/'+name]=('assets/'+
 for name in ('explorer.css','diagnostic.css'): ASSETS['/assets/'+name]=('assets/'+name,'text/css; charset=utf-8')
 for name in ('nos-deniers-horizontal.svg','nos-deniers-icone.svg','nos-deniers-logo.svg','lexmachine-entete.svg'): ASSETS['/assets/'+name]=('assets/'+name,'image/svg+xml')
 ASSETS['/assets/InterVariable.woff2']=('assets/InterVariable.woff2','font/woff2')
+ASSETS['/assets/plf-stamp.css']=('assets/plf-stamp.css','text/css; charset=utf-8')
+ASSETS['/assets/tampon-plf-2027.svg']=('assets/tampon-plf-2027.svg','image/svg+xml')
 
 def download_path(record):
     path=(api.DATA/record['path']).resolve()
@@ -63,7 +66,7 @@ class Handler(BaseHTTPRequestHandler):
         request=urlsplit(self.path); path=request.path
         try:
             query=parse_qs(request.query,max_num_fields=30,keep_blank_values=True)
-            if path=='/healthz': return self.reply({'service':'nos-deniers','status':'ok','version':'0.3'})
+            if path=='/healthz': return self.reply({'service':'nos-deniers','status':'ok','version':'0.3','consultation':consultation.status()})
             if path=='/api/status':
                 try: body=(STATE/'connections.json').read_bytes()
                 except FileNotFoundError: body=b'{"sources":[],"phase":"pending"}'
@@ -74,21 +77,15 @@ class Handler(BaseHTTPRequestHandler):
             if path in ASSETS:
                 file,kind=ASSETS[path]; return self.reply((ROOT/file).read_bytes(),kind=kind)
             if not path.startswith('/api/'): return self.reply({'error':'Page introuvable'},404)
+            consultation.note_request()
+            if path in consultation.ROUTES:
+                payload=consultation.response(path,query)
+                packed=payload.packed is not None and accepts_gzip(self.headers.get('Accept-Encoding',''))
+                body=payload.packed if packed else payload.body
+                self.send_headers(200,'application/json; charset=utf-8',len(body),payload.disposition,encoding='gzip' if packed else None,vary=True)
+                if self.command!='HEAD': self.wfile.write(body)
+                return
             with closing(api.connect()) as db:
-                if path=='/api/bootstrap': return self.reply(api.bootstrap(db))
-                if path=='/api/reserves':
-                    result=reserves.query(api.parameters(query),api.metadata(db))
-                    return self.reply(result,disposition='attachment; filename=nos-deniers-reserves.json' if query.get('download') else None)
-                if path=='/api/rap-movements':
-                    summary=query.get('view')==['summary'] and not query.get('download')
-                    offset=int(query.get('offset',['0'])[0]);limit=int(query.get('limit',['500'])[0])
-                    if summary and (offset<0 or not 1<=limit<=500):raise ValueError('Invalid movement page')
-                    result=rap_movements.query(db,api.parameters(query),api.metadata(db),include_evidence=not summary)
-                    if summary:result=rap_movements.page_result(result,offset,limit)
-                    return self.reply(result,disposition='attachment; filename=nos-deniers-mouvements-rap.json' if query.get('download') else None)
-                if path=='/api/events':
-                    result=events.query(api.DATA,api.parameters(query),api.metadata(db))
-                    return self.reply(result,disposition='attachment; filename=nos-deniers-evenements.json' if query.get('download') else None)
                 if path in ('/api/document-search/status','/api/semantic-search/status'):
                     return self.reply(retrieval_client.status() if retrieval_client.configured() or path=='/api/semantic-search/status' else document_search.status())
                 if path=='/api/document-search':
@@ -98,7 +95,6 @@ class Handler(BaseHTTPRequestHandler):
                     return self.reply(retrieval_client.resolve_sources(retrieval_client.search(dict(query,mode=['hybrid'])),db))
                 if path.startswith('/api/document-passage/'):
                     return self.reply(retrieval_client.resolve_sources(retrieval_client.passage(path.rsplit('/',1)[-1]),db))
-                if path=='/api/documents': return self.reply(api.documents(db,query))
                 if path.startswith('/api/source/'): return self.reply(api.source(db,path.rsplit('/',1)[-1]))
                 if path.startswith('/api/download/'):
                     r=api.source(db,path.rsplit('/',1)[-1]); file=download_path(r)
@@ -120,9 +116,41 @@ class Handler(BaseHTTPRequestHandler):
                     if path=='/api/export': return self.reply(api.export_csv(data,db),kind='text/csv; charset=utf-8',disposition='attachment; filename="nos-deniers.csv"')
                     return self.reply(data)
             self.reply({'error':'Route introuvable'},404)
+        except consultation.Busy: self.reply({'error':'Le site traite plusieurs consultations. Réessayez dans quelques instants.'},503)
         except (ValueError,TypeError): self.reply({'error':'Paramètres invalides. Vérifiez les années et le périmètre.'},400)
         except LookupError: self.reply({'error':'Source ou fichier introuvable.'},404)
         except (sqlite3.Error,FileNotFoundError): self.reply({'error':'La base de données est momentanément indisponible.'},503)
         except (BrokenPipeError,ConnectionResetError): pass
 
-if __name__=='__main__': ThreadingHTTPServer(('0.0.0.0',8080),Handler).serve_forever()
+class BudgetHTTPServer(ThreadingHTTPServer):
+    # Bound socket threads below the container's PID budget. Cached responses
+    # remain independent of the two expensive calculation slots.
+    request_queue_size = 128
+    daemon_threads = True
+
+    def __init__(self, *args, **kwargs):
+        self.slots = threading.BoundedSemaphore(32)
+        super().__init__(*args, **kwargs)
+
+    def process_request(self, request, client_address):
+        request.settimeout(60)
+        if not self.slots.acquire(blocking=False):
+            body = b'{"error":"Le site est momentanement tres sollicite. Reessayez dans quelques instants."}'
+            try:
+                request.settimeout(1)
+                request.sendall(b'HTTP/1.1 503 Service Unavailable\r\nContent-Type: application/json; charset=utf-8\r\nCache-Control: no-store\r\nRetry-After: 3\r\nConnection: close\r\nContent-Length: ' + str(len(body)).encode() + b'\r\n\r\n' + body)
+            except OSError: pass
+            finally: self.shutdown_request(request)
+            return
+        try: super().process_request(request, client_address)
+        except BaseException:
+            self.slots.release()
+            raise
+
+    def process_request_thread(self, request, client_address):
+        try: super().process_request_thread(request, client_address)
+        finally: self.slots.release()
+
+if __name__=='__main__':
+    consultation.start()
+    BudgetHTTPServer(('0.0.0.0',8080),Handler).serve_forever()

@@ -1,0 +1,4 @@
+/* Presentation only; the same application and calculations serve both domains. */
+.nav button[data-pilot="ecologie"] { display: none; }
+.nav button[data-pilot="maprimerenov"] { order: 1; display: none; }
+.topic-filter { display: none; }

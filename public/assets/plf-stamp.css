@@ -1,0 +1,20 @@
+/* Keep the supplied SVG's own inclination and reserve space in the heading. */
+.page-heading > .plf-stamp {
+  display: block;
+  width: 174px;
+  height: auto;
+  flex: 0 0 174px;
+  align-self: center;
+  margin-inline: auto;
+}
+@media (max-width: 1100px) {
+  .page-heading > .plf-stamp { width: 148px; flex-basis: 148px; }
+}
+@media (min-width: 721px) and (max-width: 900px) {
+  .page-heading { flex-wrap: wrap; }
+  .page-heading > div:first-child { flex: 1 1 240px; }
+  .page-heading > div:last-child { flex: 1 0 100%; }
+}
+@media (max-width: 720px) {
+  .page-heading > .plf-stamp { width: 160px; flex: none; }
+}

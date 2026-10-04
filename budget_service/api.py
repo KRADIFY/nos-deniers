@@ -10,7 +10,7 @@ from pathlib import Path
 from .model import STAGES, constant_cents, norm, safe_csv
 from . import topics, exports, events, action_details
 from .comparisons import compare
-from . import evolution
+from . import evolution, cell_reviews, historical_discrepancies
 
 DATA = Path(os.environ.get('BUDGET_DATA_DIR', '/data'))
 MISSION_LINEAGES = {
@@ -49,7 +49,7 @@ def valid_path(path):
 def parameters(query):
     one=lambda k,d: query.get(k,[d])[0]
     start,end=int(one('start','2023')),int(one('end','2025'))
-    if not 2017<=start<=end<=2026: raise ValueError('Choisir des années de 2017 à 2026')
+    if not 2017<=start<=end<=2027: raise ValueError('Choisir des années de 2017 à 2027')
     measure=one('measure','CP'); budget=one('budget','BG')
     if measure not in ('AE','CP') or budget not in ('BG','BA','CAS','CCF'): raise ValueError('Type de crédits invalide')
     scope=one('scope','')
@@ -66,18 +66,35 @@ def parameters(query):
     return dict(denominator=denominator,start=start,end=end,measure=measure,budget=budget,scope=scope,exclude=excluded,constant=one('constant','0')=='1',base=base,topic=topic,topic_mode=topic_mode)
 
 def selected_records(db, p):
-    records = [dict(r) for r in db.execute('SELECT * FROM facts WHERE year BETWEEN ? AND ? AND measure=? AND budget=?',
-            (p['start'],p['end'],p['measure'],p['budget']))]
+    query='SELECT * FROM facts WHERE year BETWEEN ? AND ? AND measure=? AND budget=?'
+    args=[p['start'],p['end'],p['measure'],p['budget']]
+    if p.get('scope') and not p.get('topic'):
+        mission=p['scope'].split('/')[0]
+        if mission=='MB':
+            query+=' AND (mission=? OR (year=2026 AND mission=?))'
+            args.extend((mission,'M26985a5788'))
+        else:
+            query+=' AND mission=?'
+            args.append(mission)
+    records=[dict(r) for r in db.execute(query,args)]
+    reviews=cell_reviews.load(db)
     # Reviewed PDF observations store their physical page in the source line.
     for row in records:
+        review=reviews.get((row['year'],row['stage'],row['measure'],row['budget'],node_path(row)))
+        if review and review['status']=='verified' and row['source']==review['proofs'][0]['source_id']:
+            page=review['proofs'][0]['physical_page']
+            if page: row['page']=page
         lineage=MISSION_LINEAGES.get((row['year'],row['mission']))
         if lineage:
             row['mission'],row['mission_label'],row['_mission_lineage_note']=lineage
         if row['year']==2026 and row['stage'] in ('PLF','FDC_PREVU') and 'PAP p.' in row['field']:
             row['page']=row['line']
-    return action_details.attach(records, db)
+        if row['year']==2027 and row['stage'] in ('PLF','FDC_PREVU') and ' p. ' in row['field']:
+            row['page']=row['line']
+    return cell_reviews.Records(action_details.attach(records, db),reviews)
 
-def cell(records, scope, year, stage, p, indices, stage_records=None, expected_programs=None):
+def cell(records, scope, year, stage, p, indices, stage_records=None, expected_programs=None, reviews=None):
+    reviewed=cell_reviews.matching(reviews or {},p,year,stage,scope)
     relevant=stage_records if stage_records is not None else [r for r in records if r['year']==year and r['stage']==stage]
     values=[]; unresolved=False; removed=0; excluded_programs=set()
     review_notes=[r.get('_detail_note','') for r in action_details.review_rows(relevant,scope,p['exclude'])]
@@ -98,11 +115,15 @@ def cell(records, scope, year, stage, p, indices, stage_records=None, expected_p
         reason='Ventilation insuffisante pour isoler ce périmètre ou appliquer les exclusions.'
         if review_notes:reason='Détail non utilisé : désaccord entre publications. '+' '.join(dict.fromkeys(review_notes))
         return {'value':None,'nominal':None,'status':'detail_unavailable','count':0,'reason':reason}
+    if not values and not removed and len(reviewed)==1 and reviewed[0]['path']==scope:
+        review=reviewed[0]
+        return dict(value=None,nominal=None,status='not_applicable' if review['status']=='not_applicable' else 'missing',count=0,reason=review['explanation'],sources=list(dict.fromkeys(c['source'] for c in cell_reviews.citations(reviewed))),citations=cell_reviews.citations(reviewed))
     if not values:
         return {'value':0 if removed else None,'nominal':0 if removed else None,'status':'excluded' if removed else 'missing','count':0,'reason':'Périmètre entièrement exclu.' if removed else 'Aucune valeur importée à ce niveau pour cette étape et cette année.'}
     amount=sum(r['cents'] for r in values)
     converted=constant_cents(amount,year,p['base'],indices) if p['constant'] else amount
     expected=expected_programs if expected_programs is not None else {r['program'] for r in records if r['year']==year and r['stage'] in ('PLF','LFI','EXEC') and within(node_path(r),scope) and not any(within(node_path(r),e) for e in p['exclude'])}
+    expected=expected-{r['path'].split('/')[-1] for r in reviewed if r['status']=='not_applicable'}
     actual={r['program'] for r in values}
     missing=sorted(expected-actual-excluded_programs)
     status='partial' if missing else 'ok'
@@ -123,6 +144,23 @@ def cell(records, scope, year, stage, p, indices, stage_records=None, expected_p
                     'Un montant manquant ne signifie pas 0 €.')
     coverage_reason=reason
     sources, detail_note, extra = action_details.annotations(values)
+    if not p.get('topic'):
+        historical = historical_discrepancies.included(values, p, year, stage)
+        if historical:
+            extra['historical_discrepancies'] = historical
+        documented = [dict(kind='RAP', year=warning['year'], mission=warning['mission'],
+                           program=warning['program'], program_label=warning['program_label'])
+                      for warning in extra.get('source_disagreements', [])]
+        documented += [dict(kind='publications', year=notice['year'], mission=notice['mission'],
+                            program=notice['program'], program_label=notice['program_label'])
+                       for notice in historical]
+        if documented:
+            extra['documented_discrepancies'] = documented
+    proof_rows=[r for r in reviewed if r['status']=='verified' and r['path'].split('/')[-1] in actual]
+    if proof_rows:
+        extra.setdefault('citations',[]).extend(cell_reviews.citations(proof_rows))
+        sources=sorted(set(sources)|{c['source'] for c in cell_reviews.citations(proof_rows)})
+        if len(proof_rows)==1 and proof_rows[0]['path']==scope: reason=(reason+' '+proof_rows[0]['explanation']).strip()
     if detail_note: reason = (reason + ' ' + detail_note).strip()
     nominal_status=status
     if converted is None: status='inflation_missing';reason=(reason+' Indice annuel d’inflation indisponible.').strip()
@@ -131,7 +169,7 @@ def cell(records, scope, year, stage, p, indices, stage_records=None, expected_p
             'grain':'sous-action' if all(r['subaction'] for r in values) else 'action' if all(r['action'] for r in values) else 'programme'}
 
 def explorer(db, p):
-    records=selected_records(db,p); meta=metadata(db)
+    records=selected_records(db,p); meta=metadata(db); reviews=getattr(records,'cell_reviews',{})
     indices={int(k):v for k,v in meta['indices'].items()}
     has_rollups=db.execute("select 1 from sqlite_master where type='table' and name='reconciled_totals'").fetchone()
     rollups={(r['year'],r['stage'],r['measure'],r['budget'],r['path']):r['cents'] for r in db.execute('select * from reconciled_totals')} if has_rollups else {}
@@ -158,7 +196,7 @@ def explorer(db, p):
             for r in annual_records[year]: by_stage[r['stage']].append(r)
             expected={r['program'] for r in annual_records[year] if r['stage'] in ('PLF','LFI','EXEC') and within(node_path(r),scope) and not any(within(node_path(r),e) for e in p['exclude'])}
             for stage in STAGES:
-                c=cell(annual_records[year],scope,year,stage,p,indices,by_stage[stage],expected)
+                c=cell(annual_records[year],scope,year,stage,p,indices,by_stage[stage],expected,reviews)
                 # Mission and budget totals independently reconciled to the official summary.
                 # This does not fill a missing programme/action value with zero.
                 if (meta.get('reconciliation') and p['budget']=='BG' and year in (2024,2025)
@@ -249,11 +287,16 @@ def provenance(db,p,year,stage,scope):
     for citation in citations:
         if citation['source'] not in sources:sources[citation['source']]=source(db,citation['source'])
     indices = {int(k):v for k,v in metadata(db)['indices'].items()} if p['constant'] else {}
-    result = cell(records, scope, year, stage, p, indices)
+    reviewed=cell_reviews.matching(getattr(records,'cell_reviews',{}),p,year,stage,scope)
+    result = cell(records, scope, year, stage, p, indices, reviews=getattr(records,'cell_reviews',{}))
+    citations.extend(cell_reviews.citations(reviewed))
+    for citation in cell_reviews.citations(reviewed):
+        if citation['source'] not in sources: sources[citation['source']]=source(db,citation['source'])
     for identifier in result.get('sources', []):
         if identifier not in sources:sources[identifier]=source(db,identifier)
     from . import data_quality
     explanation = data_quality.general(result, p, year, stage, scope) if result['value'] is None or result['status']=='partial' else None
+    explanation = cell_reviews.explain(reviewed,result,explanation,scope)
     differences = data_quality.source_discrepancies(values, metadata(db).get('issues', []))
     if differences:
         explanation = explanation or data_quality.general(result, p, year, stage, scope)
@@ -262,17 +305,19 @@ def provenance(db,p,year,stage,scope):
             explanation['summary'] = ('Le montant affiché reprend le chiffre publié. Une ligne du document '
                                       'ne correspond pas exactement à l’addition des mouvements indiqués ; '
                                       'l’écart est détaillé ci-dessous.')
-        explanation['details'].extend(differences)
+        explanation['opening_reconciliation_details'] = differences
     if result.get('source_disagreements'):
         explanation = explanation or data_quality.general(result, p, year, stage, scope)
         explanation['title'] = 'Alerte : écart entre les sources'
-        explanation['details'].extend(w['summary'] for w in result['source_disagreements']
-                                      if w['summary'] not in explanation['summary'])
+        explanation['source_comparisons'] = result['source_disagreements']
         explanation['references'].extend(dict(source=c['source'], page=c['page'],
                                               label='Total du RAP' if i==0 else 'Total de référence')
                                          for w in result['source_disagreements'] for i,c in enumerate(w['citations']))
     return {'year':year,'stage':STAGES[stage],'count':len(values),'sources':list(sources.values()),
-            'rows':values[:300],'truncated':len(values)>300,'note':note,'citations':citations,'explanation':explanation}
+            'rows':values[:300],'truncated':len(values)>300,'note':note,'citations':citations,'explanation':explanation,
+            'documented_discrepancies':result.get('documented_discrepancies',[]),
+            'historical_discrepancies':result.get('historical_discrepancies',[]),
+            'historical_discrepancy':historical_discrepancies.matching(p,year,stage,scope,result)}
 
 def documents(db,query):
     search=norm(query.get('q',[''])[0])[:200]
@@ -283,7 +328,8 @@ def documents(db,query):
         if fmt and r.get('format')!=fmt: continue
         hay=r.get('title','')+' '+r.get('dataset_title','')+' '+r.get('path','')
         if search and search not in norm(hay): continue
-        if year and year not in hay and year not in r.get('years_title',[]): continue
+        # L'année du dossier d'import ne décrit pas celle du document.
+        if year and year not in r.get('years_title',[]): continue
         items.append(r)
     return {'count':len(items),'items':sorted(items,key=lambda r:r['title'])}
 

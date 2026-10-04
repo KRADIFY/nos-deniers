@@ -21,7 +21,8 @@ def request(path):
     if not endpoint:
         return unavailable('La recherche sémantique n’est pas encore raccordée.', 'preparing')
     try:
-        with urlopen(endpoint + path, timeout=90) as response:
+        # Allow the retrieval engine's two-minute budget plus response delivery.
+        with urlopen(endpoint + path, timeout=130) as response:
             result = json.load(response)
         if not isinstance(result, dict):
             raise ValueError('Invalid retrieval response')
@@ -57,6 +58,16 @@ def resolve_sources(result, db):
     from . import api, topics
     topic_by_sha = {s['sha256']: s for s in topics.sources()}
     cache = {}
+    recovered = {}
+
+    def local_source(source, sha):
+        if not source or source.get('sha256') != sha:
+            return False
+        if not re.fullmatch(r'[0-9a-f]{20}', source.get('id', '')):
+            return False
+        path = (api.DATA / source['path']).resolve()
+        return path.is_relative_to(api.DATA.resolve()) and path.is_file()
+
     for item in result.get('items', []) + ([result] if 'citations' in result else []):
         for cite in item.get('citations', []):
             sha = cite.get('source_sha256')
@@ -73,10 +84,19 @@ def resolve_sources(result, db):
                     except (ValueError, LookupError):
                         cache[sid] = None
                 source = cache[sid]
-            valid = bool(source and source.get('sha256') == sha)
-            if valid:
-                path = (api.DATA / source['path']).resolve()
-                valid = path.is_relative_to(api.DATA.resolve()) and path.is_file()
+            valid = local_source(source, sha)
+            # Old indexes can predate the local registration of an original.
+            # An exact source hash reconnects it without changing its vectors.
+            if not valid and db is not None and re.fullmatch(r'[0-9a-f]{64}', sha):
+                if sha not in recovered:
+                    recovered[sha] = None
+                    for row in db.execute("SELECT data FROM sources WHERE json_extract(data,'$.sha256')=? ORDER BY id", (sha,)):
+                        candidate = json.loads(row[0])
+                        if local_source(candidate, sha):
+                            recovered[sha] = candidate
+                            break
+                source = recovered[sha]
+                valid = source is not None
             cite['local_available'] = valid
             cite['source_id'] = source['id'] if valid else ''
     return result

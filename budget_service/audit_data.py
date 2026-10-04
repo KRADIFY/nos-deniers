@@ -61,7 +61,18 @@ def main():
         assert actual==amount,(stage,measure,actual,amount)
     assert db.execute("SELECT count(*) FROM facts WHERE year=2023 AND stage='LFI' AND action<>''").fetchone()[0]==0
     assert db.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
-    assert db.execute("SELECT count(*) FROM facts WHERE measure NOT IN ('AE','CP') OR year NOT BETWEEN 2017 AND 2026").fetchone()[0]==0
+    assert db.execute("SELECT count(*) FROM facts WHERE measure NOT IN ('AE','CP') OR year NOT BETWEEN 2017 AND 2027").fetchone()[0]==0
+    pap2027={}
+    if meta.get('pap2027'):
+        from .import_pap_2027 import validate as validate_2027, FIELDS as FIELDS_2027
+        plan_path=Path(__file__).parent/'data/pap-2027-import-plan.json'
+        plan=json.loads(plan_path.read_text('utf-8'));validate_2027(plan)
+        assert hashlib.sha256(plan_path.read_bytes()).hexdigest()==meta['pap2027']['plan_sha256']
+        expected=sorted(tuple(r[k] for k in FIELDS_2027) for r in plan['rows'])
+        actual=sorted(tuple(r) for r in db.execute('SELECT '+','.join(FIELDS_2027)+' FROM facts WHERE year=2027'))
+        assert actual==expected,'2027 cells differ from reviewed sources'
+        for source in plan['sources']:check_source(source['id'],source['sha256'])
+        pap2027=dict(plan['summary'],blank_cells_converted_to_zero=False,checks=len(plan['checks']))
     pap2026={}
     if meta.get('pap2026_national'):
         pap=meta['pap2026_national']
@@ -230,7 +241,7 @@ def main():
             'documented_fact_corrections':len(meta.get('recent_reconciliation_corrections',{}).get('fact_replacements',[]))+len(meta.get('recent_reconciliation_corrections',{}).get('fact_insertions',[])),
             'historical_canonical_facts':historical_canonical,
             'source_hashes_verified':files,'mission_reconciliations_2024_2025':len(checks),'programme_105_examples':4,
-            'remaining_source_notes':dict(Counter(i['kind'] for i in meta['issues'])),'pap2026_national_checks':pap2026,
+            'remaining_source_notes':dict(Counter(i['kind'] for i in meta['issues'])),'pap2026_national_checks':pap2026,'pap2027_checks':pap2027,
             'rap_actions_national_checks':rap_actions_national,'rap_movements_national_checks':rap_movements_national,'rap_reserves_national_checks':rap_reserves_national,'mpr2025_plf_cp_checks':mpr2025_plf_cp_checks,'checks':checks}
     Path(os.environ.get('BUDGET_AUDIT_OUTPUT',str(DATA/'derived/data-audit.json'))).write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({k:v for k,v in report.items() if k!='checks'},ensure_ascii=False))

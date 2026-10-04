@@ -6,6 +6,7 @@ const infoIcon='<svg class="info-icon" viewBox="0 0 16 16" width="14" height="14
 const defaults={start:2023,end:2025,measure:'CP',budget:'BG',scope:'',exclude:[],constant:false,base:2025,topic:'',topic_mode:'only',denominator:'LFI'};
 let state={...defaults},data=null,bootstrap=null,searchStats=null,view='credits',mode='compare',stage='EXEC',abort=null,documents=[],docLimit=40,docMode='title',documentSearchStatus=null,docSequence=0;
 const pendingRestores=new Map();
+const lastVisitedChild=new Map();
 const labels={credits:['Évolution des crédits de l’État.','Comparez ce qui a été proposé, voté et consommé.'],movements:['Suivre la vie des crédits.','Reports, mouvements, fonds de concours et régularisations.'],documents:['Les documents derrière les chiffres.','Retrouvez et ouvrez les rapports et tableaux déjà collectés.'],coverage:['Des sources visibles. Des limites explicites.','Vérifiez les années et les niveaux de détail disponibles.']};
 function params(extra={}){return new URLSearchParams({...state,constant:state.constant?'1':'0',exclude:JSON.stringify(state.exclude),...extra});}
 function euros(value,exact=false){if(value==null)return '—';const unit=exact?1:Number($('unit').value);const formatter=new Intl.NumberFormat('fr-FR',{minimumFractionDigits:exact?2:unit===1?0:1,maximumFractionDigits:exact?2:unit===1?0:1,useGrouping:true});return formatter.formatToParts(value/unit).map(part=>part.type==='group'?'\u2002':part.value).join('');}
@@ -20,19 +21,67 @@ function renderExclusions(){
  $('exclusion-warning').hidden=!count;$('exclusion-warning').textContent=`${count} poste(s) exclu(s) du calcul. Les étapes sans ventilation suffisante sont marquées indisponibles.`;
 }
 function unitLabel(){return Number($('unit').value)===1?'€':Number($('unit').value)===1e9?'Md€':'M€';}
+function renderIndexHeadline(info){
+ const headline=$('index-punchline');
+ if(!headline||info?.available!==true||!Number.isSafeInteger(info.passages)||info.passages<0||!Number.isSafeInteger(info.documents)||info.documents<0)return;
+ const formatter=new Intl.NumberFormat('fr-FR');
+ headline.textContent=`${formatter.format(info.passages)} passages indexés et sourçables dans ${formatter.format(info.documents)} documents,`;
+}
 function toast(message){$('toast').textContent=message;$('toast').hidden=false;setTimeout(()=>$('toast').hidden=true,3500);}
-async function fetchJSON(url,signal){const r=await fetch(url,{signal});const result=await r.json();if(!r.ok)throw new Error(result.error||'Impossible de charger les données.');return result;}
+let activeRequests=0,activeViews=0,exportPending=false,requestStartedAt=null,requestTimer=null;
+function updateRequestProgress(){
+ const indicator=$('request-progress'),dialog=$('source-dialog'),modalIndicator=$('dialog-request-progress');if(!indicator)return;
+ const busy=activeRequests+activeViews>0||exportPending;indicator.hidden=!busy||dialog.open;modalIndicator.hidden=!busy||!dialog.open;
+ indicator.querySelector('.request-wait-hint').textContent=exportPending?'Préparation de l’export en cours':'Calcul et affichage des résultats en cours';
+ modalIndicator.querySelector('.request-wait-hint').textContent=exportPending?'Préparation de l’export en cours':'Recherche des justificatifs en cours';
+ if(busy&&requestStartedAt===null){
+  requestStartedAt=performance.now();
+  const tick=()=>{const seconds=Math.floor((performance.now()-requestStartedAt)/1000);const elapsed=String(Math.floor(seconds/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0');$('request-elapsed').textContent=elapsed;$('dialog-request-elapsed').textContent=elapsed;};
+  tick();requestTimer=setInterval(tick,1000);
+ }else if(!busy&&requestStartedAt!==null){
+  clearInterval(requestTimer);requestTimer=null;requestStartedAt=null;$('request-elapsed').textContent='00:00';$('dialog-request-elapsed').textContent='00:00';
+ }
+}
+async function fetchJSON(url,signal){
+ activeRequests++;updateRequestProgress();
+ try{
+  let r;try{r=await fetch(url,{signal});}catch(e){if(e.name==='AbortError')throw e;throw new Error('Connexion interrompue. Vérifiez votre connexion puis réessayez la sélection.');}
+  let result;try{result=await r.json();}catch(e){if(e.name==='AbortError')throw e;throw new Error(r.status>=500?'Le serveur est momentanément indisponible (HTTP '+r.status+'). Réessayez dans quelques instants.':'La réponse du serveur est illisible. Réessayez la sélection.');}
+  if(!r.ok)throw new Error(result?.error||'Impossible de charger les données (HTTP '+r.status+').');return result;
+ }finally{activeRequests--;updateRequestProgress();}
+}
 function sync(){$('topic-treatment').hidden=!state.topic;for(const key of ['start','end','budget','base','topic','topic_mode','denominator'])$(key).value=String(state[key]);$('constant').checked=state.constant;$('base').disabled=!state.constant;document.querySelectorAll('[data-measure]').forEach(b=>{const active=b.dataset.measure===state.measure;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});$('measure-help').textContent=state.measure==='CP'?'Crédits de paiement : suivre les dépenses de l’année.':'Autorisations d’engagement : suivre les engagements autorisés et consommés.';$('inflation-help').textContent=state.constant?`IPC annuel Insee · euros ${state.base}.`:'Euros courants, tels que publiés.';}
-async function load(){
+function clearFilteredMovements(){
+ ++eventsRequest;++reservesRequest;
  clearRapMovements();
- if(abort)abort.abort();abort=new AbortController();const controller=abort;$('loading').hidden=false;$('error').hidden=true;$('export').disabled=true;
+ for(const id of ['reserves-table','events-table','reserves-missing'])$(id).innerHTML='';
+ for(const id of ['reserves-coverage','events-coverage'])$(id).textContent='Actualisation de la sélection…';
+ for(const id of ['reserves-export','events-export']){$(id).removeAttribute('href');$(id).setAttribute('aria-disabled','true');}
+}
+async function load(){
+ clearFilteredMovements();
+ if(abort)abort.abort();abort=new AbortController();const controller=abort;activeViews++;updateRequestProgress();$('loading').hidden=false;$('error').hidden=true;$('export').disabled=true;
  try{const next=await fetchJSON('/api/explorer?'+params(),controller.signal);if(abort!==controller)return;data=next;state=next.parameters;history.replaceState(null,'','?'+params());sync();render();finishRestores();if(switchFocus){const f=switchFocus;switchFocus=null;const candidates=[...document.querySelectorAll('[data-exclude], [data-restore], [data-toggle-topic], [data-restore-topic]')];(candidates.find(b=>[b.dataset.exclude,b.dataset.restore,b.dataset.toggleTopic,b.dataset.restoreTopic].includes(f))||$('scope-title')).focus({preventScroll:true});}}
  catch(e){if(abort===controller&&e.name!=='AbortError'){finishRestores(true);data=null;$('topic-panel').hidden=true;$('credits-table').innerHTML='';$('movements-table').innerHTML='';$('summary').innerHTML='';$('chart').innerHTML='';$('error').textContent=e.message;$('error').hidden=false;}}
- finally{if(abort===controller&&!controller.signal.aborted){$('loading').hidden=true;$('export').disabled=!data;}}
+ finally{activeViews--;updateRequestProgress();if(abort===controller&&!controller.signal.aborted){$('loading').hidden=true;$('export').disabled=exportPending||!data;}}
 }
-async function changeScope(scope){state.scope=scope;$('row-search').value='';await load();$('credits-table').parentElement.scrollTop=0;$('credits-table').parentElement.scrollLeft=0;}
+function parentScope(scope){return scope.includes('/')?scope.slice(0,scope.lastIndexOf('/')):'';}
+function updateLevelNavigation(){
+ const parent=parentScope(state.scope),child=lastVisitedChild.get(state.scope);
+ $('level-up').disabled=!state.scope;
+ $('level-up').title=state.scope?'Remonter au niveau précédent':'Déjà au niveau des missions';
+ $('level-down').disabled=!child||!data?.rows.some(row=>row.id===child);
+ $('level-down').title=$('level-down').disabled?'Choisissez d’abord une ligne du tableau':'Revenir au niveau visité';
+}
+async function changeScope(scope){
+ const previous=state.scope;
+ if(scope!==previous&&parentScope(scope)===previous)lastVisitedChild.set(previous,scope);
+ else if(scope!==previous&&parentScope(previous)===scope)lastVisitedChild.set(scope,previous);
+ state.scope=scope;$('row-search').value='';await load();$('credits-table').parentElement.scrollTop=0;$('credits-table').parentElement.scrollLeft=0;
+}
 function render(){if(!data)return;
  renderNavigation();renderEcology();
+ updateLevelNavigation();
  $('scope-title').textContent=data.scope_label;$('currency-label').textContent=`${state.measure} · ${state.constant?'Euros '+state.base:'Euros courants'}`;
  $('breadcrumbs').innerHTML='<button type="button" data-scope="">Toutes les missions</button>'+data.breadcrumbs.map(b=>`<span aria-hidden="true">/</span><button type="button" data-scope="${esc(b.id)}">${esc(b.label)}</button>`).join('');
  renderExclusions();
@@ -46,13 +95,22 @@ function renderTopic(){
  const table=topic.timeline.map(y=>`<tr><th scope="row">${y.year}</th><td>${y.routes.map(r=>esc(r.label)).join('<br>')||'—'}</td><td>${y.stages.length?y.stages.map(s=>esc(data.stages[s])).join('<br>'):y.year<2020?'Non applicable':'À documenter'}</td><td>${esc(y.note)}<div class="topic-references">${y.references.map(refLink).join(' ')}</div></td></tr>`).join('');
  $('topic-panel').innerHTML=`<div class="panel-heading"><div><span class="eyebrow">GRAND DOSSIER</span><h2>MaPrimeRénov’</h2></div><span class="pill">${topic.mode==='only'?'Dispositif isolé':'Dispositif retiré'}</span></div><p>${esc(topic.perimeter)}</p><p class="topic-status">${esc(topic.availability_note||'Consommé national 2021–2024 ; LFI et crédits ouverts 2024. Les disponibilités et changements de rattachement sont précisés par année ci-dessous.')}</p><p class="hint">${topic.mode==='without'?'Retrait des seules parts identifiées dans les programmes de votre sélection, avant correction de l’inflation. Les autres crédits de ces programmes sont conservés.':'Le dossier rassemble les parts identifiées dans plusieurs programmes. Les parts sont documentées par programme ; le rattachement à l’action 02 du P174 est vérifié pour les PLF 2020–2024, les LFI 2020–2023, les ouverts CP 2022 et les consommés 2020, 2023 et 2024. Aucun détail supplémentaire n’est estimé.'}</p><div class="topic-examples"><button type="button" class="secondary" data-topic-example="series">Consommé · 2021–2024</button><button type="button" class="secondary" data-topic-example="ecology">Écologie hors MaPrimeRénov’ · 2024</button></div><details><summary>Rattachements, sources et limites par année</summary><div class="table-scroll"><table class="topic-timeline"><thead><tr><th>Année</th><th>Financement identifié</th><th>Étapes chiffrées</th><th>Périmètre et source</th></tr></thead><tbody>${table}</tbody></table></div><ul>${topic.limitations.map(n=>`<li>${esc(n)}</li>`).join('')}</ul><p class="hint">Les montants n’incluent pas les dépenses fiscales ni les autres financements de la rénovation énergétique. Dossier vérifié le ${new Date(topic.updated_at+'T12:00:00').toLocaleDateString('fr-FR')}.</p></details>`;
 }
+function discrepancyLabel(items){
+ const count=items?.length||0;
+ return count?`Ce total comprend ${count} écart${count>1?'s':''} documenté${count>1?'s':''}`:'';
+}
+function discrepancySummary(items){
+ const label=discrepancyLabel(items);if(!label)return '';
+ return `<section class="source-card quality-explanation"><h3>${label}</h3><p>Programmes concernés par la sélection affichée. Les différences entre publications ne sont pas additionnées et ne modifient pas le total.</p><ul>${items.map(r=>`<li>${esc(r.year)} · Programme ${esc(r.program)}${r.program_label?' « '+esc(r.program_label)+' »':''} · ${r.kind==='RAP'?'RAP et total de référence':'publications historiques'}</li>`).join('')}</ul></section>`;
+}
 function renderSummary(){
  const latest=data.totals.at(-1),stages=['PLF','LFI','EXEC'];
- const cards=stages.map(s=>{const c=latest[s];return `<div class="metric ${s==='EXEC'?'accent':''} ${c.status==='partial'?'partial':''}"><span>${esc(data.stages[s])} · ${latest.year}</span><strong>${c.approximate?'≈ ':''}${euros(c.value)}${c.status==='partial'?'*':''} <small>${unitLabel()}</small></strong><small>${c.value==null?'Donnée indisponible':c.status==='partial'?'Total des postes disponibles':state.measure+' · périmètre sélectionné'}</small>${state.topic||c.value==null||c.status==='partial'||c.source_disagreements?.length?`<button type="button" class="metric-proof" data-year="${latest.year}" data-stage="${s}" data-cell-scope="${esc(state.scope)}" aria-haspopup="dialog">${c.value==null?'Pourquoi ce montant manque-t-il ?':c.source_disagreements?.length?'Écart entre sources · voir le détail':'Source et périmètre'} ${infoIcon}</button>`:''}</div>`;});
+ const cards=stages.map(s=>{const c=latest[s],warning=discrepancyLabel(c.documented_discrepancies);return `<div class="metric ${s==='EXEC'?'accent':''} ${c.status==='partial'?'partial':''}"><span>${esc(data.stages[s])} · ${latest.year}</span><strong>${c.approximate?'≈ ':''}${euros(c.value)}${c.status==='partial'?'*':''} <small>${unitLabel()}</small></strong><small>${c.value==null?'Donnée indisponible':c.status==='partial'?'Total des postes disponibles':state.measure+' · périmètre sélectionné'}</small>${state.topic||c.value==null||c.status==='partial'||warning?`<button type="button" class="metric-proof" data-year="${latest.year}" data-stage="${s}" data-cell-scope="${esc(state.scope)}" aria-haspopup="dialog">${c.value==null?'Pourquoi ce montant manque-t-il ?':warning||'Source et périmètre'} ${infoIcon}</button>`:''}</div>`;});
  const eligible=data.totals.filter(y=>['ok','excluded'].includes(y.EXEC.status));
  const complete=eligible.length===data.years.length;
  const total=complete?eligible.reduce((v,y)=>v+Math.round(y.EXEC.value*100),0)/100:null;
- cards.push(`<div class="metric"><span>Consommé cumulé · ${state.start}–${state.end}</span><strong>${eligible.some(y=>y.EXEC.approximate)?'≈ ':''}${euros(total)} <small>${unitLabel()}</small></strong><small>${complete?data.years.length+' exercices additionnés':eligible.length+' / '+data.years.length+' exercices complets'}</small></div>`);
+ const cumulativeItems=complete?eligible.flatMap(y=>y.EXEC.documented_discrepancies||[]):[];
+ cards.push(`<div class="metric"><span>Consommé cumulé · ${state.start}–${state.end}</span><strong>${eligible.some(y=>y.EXEC.approximate)?'≈ ':''}${euros(total)} <small>${unitLabel()}</small></strong><small>${complete?data.years.length+' exercices additionnés':eligible.length+' / '+data.years.length+' exercices complets'}</small>${cumulativeItems.length?`<button type="button" class="metric-proof" data-cumulative-discrepancies="1" aria-haspopup="dialog">${discrepancyLabel(cumulativeItems)} ${infoIcon}</button>`:''}</div>`);
  $('summary').innerHTML=cards.join('');
 }
 function renderChart(){
@@ -71,7 +129,9 @@ function renderChart(){
 }
 function amountCell(c,year,s,scope,extra=''){
  const missing=`<button type="button" class="amount missing-proof" data-year="${year}" data-stage="${s}" data-cell-scope="${esc(scope)}" aria-haspopup="dialog" title="${esc(c.reason||'Voir le motif et les documents du périmètre')}" aria-label="${esc(data.stages[s])} ${year} : ${c.status==='not_applicable'?'non applicable':'données non disponibles'}. Voir le motif et les sources.">${unavailableLabel(c)} <span class="proof-hint">${c.status==='not_applicable'?'Explication':'Pourquoi ?'} ${infoIcon}</span></button>`;
- const content=c.value==null?missing:`<button type="button" class="amount ${c.status==='partial'?'partial':''}" data-year="${year}" data-stage="${s}" data-cell-scope="${esc(scope)}" title="${esc(c.status==='partial'?(c.coverage_reason||c.reason):(c.source_disagreements?.length?'Écart entre sources : cliquer pour voir les montants et les justificatifs.':c.reason||'Voir le calcul et les sources'))}" aria-label="${esc(data.stages[s])} ${year} : ${euros(c.value,true)} euros. Voir les sources.">${c.approximate?'≈ ':''}${euros(c.value)}${c.status==='partial'?'*':''}${c.source_disagreements?.length?`<span class="proof-hint">Écart entre sources ${infoIcon}</span>`:''}</button>`;
+ const warning=discrepancyLabel(c.documented_discrepancies),count=c.documented_discrepancies?.length||0;
+ const title=[warning,c.status==='partial'?(c.coverage_reason||c.reason):c.reason||'Voir le calcul et les sources'].filter(Boolean).join(' · ');
+ const content=c.value==null?missing:`<button type="button" class="amount ${c.status==='partial'?'partial':''}" data-year="${year}" data-stage="${s}" data-cell-scope="${esc(scope)}" title="${esc(title)}" aria-label="${esc(data.stages[s])} ${year} : ${euros(c.value,true)} euros. ${warning||'Voir les sources.'}">${c.approximate?'≈ ':''}${euros(c.value)}${c.status==='partial'?'*':''}${warning?`<span class="proof-hint">${count} écart${count>1?'s':''} documenté${count>1?'s':''} ${infoIcon}</span>`:''}</button>`;
  return `<td class="${extra}">${content}</td>`;
 }
 function renderTable(){
@@ -121,8 +181,8 @@ function renderCoverage(){
  const indexed=searchStats?.available&&Number(searchStats.passages)>0;
  const indexCard=indexed?`<div class="coverage-stat featured"><strong>${displayCount(searchStats.passages)}</strong><span>passages documentaires indexés</span><small>Recherche dans le contenu de ${displayCount(searchStats.documents)} documents, avec renvoi aux sources.</small></div>`:`<div class="coverage-stat featured"><strong>${displayCount(bootstrap.meta.fact_count)}</strong><span>montants budgétaires structurés</span><small>Le cœur chiffré de l’explorateur.</small></div>`;
  const factsCard=indexed?`<div class="coverage-stat"><strong>${displayCount(bootstrap.meta.fact_count)}</strong><span>montants budgétaires structurés</span><small>Comparables selon l’année, l’étape et le périmètre disponibles.</small></div>`:`<div class="coverage-stat"><strong>${displayCount(bootstrap.meta.imported_source_count)}</strong><span>tables sources des calculs</span><small>Des données structurées, distinctes des documents de recherche.</small></div>`;
- $('coverage-highlights').innerHTML=`<div class="coverage-intro"><span class="eyebrow">LE BUDGET, À LA LOUPE</span><h2>Des millions de passages. Des chiffres que l’on peut vérifier.</h2><p>Explorez l’évolution des crédits, du budget proposé aux dépenses constatées. Les montants disponibles sont reliés à leurs documents sources, avec leur périmètre et leurs limites.</p></div><div class="coverage-stat-grid">${indexCard}${factsCard}<div class="coverage-stat"><strong>${displayCount(bootstrap.meta.source_count)}</strong><span>références au catalogue</span><small>Dont ${displayCount(bootstrap.documents)} PDF consultables.</small></div><div class="coverage-stat"><strong>10 ans</strong><span>de 2017 à 2026</span><small>Pour 2026, l’exécution annuelle est encore en cours.</small></div></div>`;
- const cov=bootstrap.coverage.filter(c=>c.budget===state.budget),years=Array.from({length:10},(_,i)=>2017+i),stages=['PLF','LFI','EXEC','OUVERT','FDC','REPORT_SORTANT'];
+ $('coverage-highlights').innerHTML=`<div class="coverage-intro"><span class="eyebrow">LE BUDGET, À LA LOUPE</span><h2>Des millions de passages. Des chiffres que l’on peut vérifier.</h2><p>Explorez l’évolution des crédits, du budget proposé aux dépenses constatées. Les montants disponibles sont reliés à leurs documents sources, avec leur périmètre et leurs limites.</p></div><div class="coverage-stat-grid">${indexCard}${factsCard}<div class="coverage-stat"><strong>${displayCount(bootstrap.meta.source_count)}</strong><span>références au catalogue</span><small>Dont ${displayCount(bootstrap.documents)} PDF consultables.</small></div><div class="coverage-stat"><strong>11 ans</strong><span>de 2017 à 2027</span><small>2027 : crédits proposés dans le PLF. Exécution 2026 en cours.</small></div></div>`;
+ const cov=bootstrap.coverage.filter(c=>c.budget===state.budget),years=Array.from({length:11},(_,i)=>2017+i),stages=['PLF','LFI','EXEC','OUVERT','FDC','REPORT_SORTANT'];
  let html='<div class="table-scroll"><table class="coverage-table"><thead><tr><th>Étape</th>'+years.map(y=>`<th>${y}</th>`).join('')+'</tr></thead><tbody>';
  for(const s of stages){html+=`<tr><td>${esc(bootstrap.stages[s])}</td>`+years.map(y=>{const c=cov.find(c=>c.year===y&&c.stage===s);if(c)return `<td class="coverage-ok">${['','Programme','Action','Sous-action'][c.grain]}<small>${c.programs} programmes</small></td>`;if(s==='FDC'&&y<=2022&&state.budget==='BG')return '<td class="unavailable" title="Des rattachements de fonds de concours figurent dans les RAP historiques, mais leur série annuelle n’est pas consolidée ici.">Dans les RAP<small>Non consolidé ici</small></td>';return '<td class="unavailable" title="Aucune série annuelle consolidée dans le tableau des crédits pour cette étape.">Non intégré</td>';}).join('')+'</tr>';}
  $('coverage').innerHTML=html+'</tbody></table></div><p class="table-note">Ce tableau décrit les chiffres consolidés de l’explorateur, pas tous les documents collectés. Pour 2017–2022, des fonds de concours figurent dans les RAP, sans série annuelle consolidée ici. Les reports repérés dans ces RAP sont des entrées dans l’exercice ; ils ne remplissent pas automatiquement la ligne « Reports vers N+1 ». Le niveau indiqué est le moins fin des données intégrées ; certains postes disposent d’un détail supplémentaire.</p>';
@@ -131,7 +191,7 @@ function renderCoverage(){
  const issues=bootstrap.meta.issues||[];
  const checks=issues.filter(i=>i.kind==='opening_identity');
  $('quality-notes').innerHTML=`<div class="panel-heading"><div><span class="eyebrow">POINT DE MÉTHODE</span><h2>Ce qu’il faut savoir sur les données</h2></div></div><div class="coverage-note-grid">
- <article><h3>D’où viennent les chiffres ?</h3><ul><li>Pour la LFI 2023, les montants par programme viennent des annexes PLRG : l’export officiel présente une anomalie de colonnes.</li><li>Pour 2021–2022, les montants consommés viennent des totaux AE/CP des synthèses RAP de chaque exercice.</li><li>La LFI 2026 est intégrée au niveau programme ; le PLF 2026 suit le niveau de détail indiqué dans le tableau. L’exécution annuelle 2026 est encore en cours.</li></ul></article>
+ <article><h3>D’où viennent les chiffres ?</h3><ul><li>Pour la LFI 2023, les montants par programme viennent des annexes PLRG : l’export officiel présente une anomalie de colonnes.</li><li>Pour 2021–2022, les montants consommés viennent des totaux AE/CP des synthèses RAP de chaque exercice.</li><li>La LFI 2026 est intégrée au niveau programme ; le PLF 2026 suit le niveau de détail indiqué dans le tableau. L’exécution annuelle 2026 est encore en cours.</li><li>Le PLF 2027 est intégré au niveau programme, avec les actions et sous-actions rapprochées disponibles. Les crédits 2027 sont proposés ; aucune LFI ni exécution 2027 n’est présentée.</li></ul></article>
  <article><h3>Jusqu’où remonte le détail ?</h3><ul><li>Actions RAP, mouvements et réserves du budget général : couverture étendue à 2023–2025.</li><li>Réserves de la mission Écologie : également disponibles pour 2017–2022.</li><li>Mouvements RAP 2017–2022 : lignes datées ou totaux annuels selon les sources. La couverture reste partielle ; certains rapprochements sont en cours de vérification. Le registre des actes juridiques datés reste partiel.</li></ul></article>
  <article><h3>Comment lire les écarts ?</h3><ul><li>Un écart supérieur à 10 € appelle une vérification ; il n’est pas validé automatiquement.</li><li>${checks.length} lignes présentent un écart entre les crédits ouverts publiés et la somme des mouvements indiqués. Les chiffres des documents sont conservés, sans fabriquer de total corrigé.</li><li>Le détail des sources et les tableaux absents se consultent dans « Mouvements et réserves ».</li></ul></article>
  <article><h3>Rapports et recherche</h3><ul><li>La disponibilité de la recherche dans le contenu et par sens est indiquée dans « Rapports et documents » ; elle dépend du service et de l’index accessibles.</li><li>Le site ne fournit pas encore d’analyse causale automatique par IA.</li>${state.topic?'<li>MaPrimeRénov’ dispose d’extractions documentées distinctes ; le tableau ci-dessus décrit les tables budgétaires générales.</li>':''}</ul></article>
@@ -226,6 +286,22 @@ function sourceCalculation(p){
 function sourceEvidence(p){
  return (p.evidence||[]).map(e=>`<section class="source-card"><h3>${e.kind==='outside_scope'?'Justification du périmètre':'Documents de référence'}</h3><p><strong>${esc(e.label||'')}</strong></p><p>${esc(e.explanation||'')}</p>${(e.references||[]).map(r=>`<a href="/api/download/${esc(r.source)}#page=${r.page}" target="_blank" rel="noopener">${esc(r.label||'Document de périmètre')} · PDF p. ${r.page} ↗</a>`).join(' ')}</section>`).join('');
 }
+function sourceComparisons(items){
+ return (items||[]).map(w=>{
+  const reference=Number(w.canonical_cents),rap=Number(w.rap_cents);if(!Number.isFinite(reference)||!Number.isFinite(rap))return '';
+  const difference=Math.abs(rap-reference),percentage=reference?new Intl.NumberFormat('fr-FR',{maximumFractionDigits:8}).format(difference*100/Math.abs(reference))+' %':'non calculable (référence nulle)';
+  const links=(w.citations||[]).map((c,i)=>/^[a-f0-9]{20}$/.test(c.source||'')?`<a href="/api/download/${esc(c.source)}${c.page?'#page='+Number(c.page):''}" target="_blank" rel="noopener">${i===0?'RAP':'Source de référence'}${c.page?' · PDF p. '+Number(c.page):''} ↗</a>`:'').filter(Boolean).join(' ');
+  return `<section class="source-card"><h3>Programme ${esc(w.program)}${w.program_label?' « '+esc(w.program_label)+' »':''} · ${esc(w.year)} : deux sources donnent des totaux différents</h3><dl><dt>Total de référence retenu pour le programme</dt><dd><strong>${euros(reference/100,true)} €</strong></dd><dt>Total publié dans le RAP</dt><dd><strong>${euros(rap/100,true)} €</strong></dd><dt>Différence entre ces deux totaux</dt><dd><strong>${euros(difference/100,true)} €</strong> — soit ${percentage} du total de référence.</dd></dl><p>Ces deux montants concernent le programme complet, avant les exclusions et la correction de l’inflation. Les actions reprennent les chiffres du RAP ; la différence n’est pas répartie artificiellement entre elles.</p><p>C’est une divergence entre publications : elle ne démontre pas, à elle seule, une erreur de calcul du site.</p>${links?`<p>${links}</p>`:''}</section>`;
+ }).join('');
+}
+function historicalDiscrepancy(x){
+ if(!x)return '';
+ const percentage=x.other_publication_cents?new Intl.NumberFormat('fr-FR',{maximumFractionDigits:6}).format(Math.abs(x.difference_cents)*100/Math.abs(x.other_publication_cents))+' %':'non calculable (total comparé nul)';
+ const status=x.status==='Rapprochement exact (documents)'?'Rapprochement documentaire reconstitué ; confirmation administrative encore nécessaire':x.status==='Référentiel étayé, pont à compléter'?'Périmètres de publication différents ; rapprochement au centime manquant':x.status==='Hypothèse T2 non démontrée'?'Piste relative aux dépenses de personnel, non démontrée':'Cause de la différence non établie';
+ const pdf=x.source_id?`<a href="/api/download/${esc(x.source_id)}${x.source_page?'#page='+Number(x.source_page):''}" target="_blank" rel="noopener">Ouvrir le PDF rapproché${x.source_page?' à la page '+Number(x.source_page):''} ↗</a>`:'';
+ const links=(x.links||[]).map(url=>safeURL(url)?`<li><a href="${esc(safeURL(url))}" target="_blank" rel="noopener">${esc(new URL(url).hostname)} ↗</a></li>`:'').join('');
+ return `<section class="source-card quality-explanation"><h3>Deux publications donnent des montants différents pour le programme ${esc(x.program)} en ${esc(x.year)}</h3><p><strong>${esc(status)}.</strong> Il s’agit du programme entier, en euros courants, avant exclusions et correction de l’inflation.</p><dl><dt>Montant conservé dans Nos Deniers</dt><dd><strong>${euros(x.site_cents/100,true)} €</strong></dd><dt>Montant de l’autre publication, selon le registre</dt><dd><strong>${euros(x.other_publication_cents/100,true)} €</strong></dd><dt>Différence entre les publications</dt><dd><strong>${euros(Math.abs(x.difference_cents)/100,true)} €</strong>, soit ${percentage} du montant comparé.</dd></dl><p>${esc(x.finding)}</p><p><strong>Ce que les pièces ne démontrent pas encore :</strong> ${esc(x.limit)}</p><p>Cette différence ne prouve pas une erreur de calcul du site. Elle n’est pas ajoutée aux autres écarts éventuels.</p><details><summary>Pièces citées et vérification encore nécessaire</summary><p>${esc(x.needed)}</p>${pdf}${links?`<ul>${links}</ul>`:''}</details></section>`;
+}
 function sourceExplanation(x){
  if(!x)return '';
  const ref=r=>{const page=Number(r.page),hasPage=Number.isInteger(page)&&page>0,local=/^[a-f0-9]{20}$/.test(r.source||''),url=local?'/api/download/'+r.source+(hasPage?'#page='+page:''):(safeURL(r.url)?(hasPage?safeURL(r.url).split('#')[0]+'#page='+page:safeURL(r.url)):''),label=esc(r.label||'Justificatif')+(hasPage?' · PDF p. '+page:r.locator?' · '+esc(r.locator):'');return url?`<a href="${esc(url)}" target="_blank" rel="noopener">${label} ↗</a>`:label;};
@@ -234,7 +310,9 @@ function sourceExplanation(x){
  const contacts=(x.contacts||[]).map(c=>`<li><strong>${esc(c.name)}</strong><p>${esc(c.role)}</p><a href="${esc(safeURL(c.url)||'#')}" target="_blank" rel="noopener">${esc(c.label)} ↗</a>${c.email&&/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+$/.test(c.email)?`<br><a href="mailto:${esc(c.email)}">${esc(c.email)}</a>`:''}${c.address?`<p>${esc(c.address)}</p>`:''}</li>`).join('');
  const missingPrograms=(x.missing_programs||[]).length>1?`<details><summary>Voir les ${x.missing_programs.length} programmes non renseignés</summary><ul>${x.missing_programs.map(r=>`<li>Programme ${esc(r.code)}${r.label?' « '+esc(r.label)+' »':''}</li>`).join('')}</ul></details>`:'';
  const technicalNote=x.technical_note?`<details><summary>Précisions techniques</summary><p>${esc(x.technical_note)}</p></details>`:'';
- return `<section class="source-card quality-explanation"><h3>${esc(x.title)}</h3><p>${esc(x.summary)}</p>${(x.details||[]).map(t=>`<p>${esc(t)}</p>`).join('')}${missingPrograms}${technicalNote}${known?`<h4>Parts connues — total demandé encore incomplet</h4><ul>${known}</ul>`:''}${contextual?`<h4>${esc(x.contextual_title||'Chiffres trouvés, non retenus comme total du dispositif')}</h4>${contextual}`:''}${(x.references||[]).length?`<details><summary>Documents qui expliquent cette limite</summary><ul>${x.references.map(r=>`<li>${ref(r)}</li>`).join('')}</ul></details>`:''}${x.research_note?`<p class="hint">${esc(x.research_note)}</p>`:''}${contacts?`<details class="quality-requests"><summary>Comment obtenir le détail manquant ?</summary><p>Ces coordonnées officielles permettent de demander les documents. Elles ne garantissent pas l’existence de la ventilation.</p><ul>${contacts}</ul>${x.request_text?`<label for="quality-request">Demande adaptée à cette année, cette étape et ce périmètre</label><textarea id="quality-request" rows="9" readonly>${esc(x.request_text)}</textarea><button type="button" class="secondary" data-copy-quality="1">Copier la demande</button><span class="hint"> Aucun envoi automatique.</span>`:''}</details>`:''}</section>`;
+ const comparisons=sourceComparisons(x.source_comparisons);
+ const opening=(x.opening_reconciliation_details||[]).length?`<details class="source-card"><summary>Autre contrôle : rapprochement des crédits ouverts (${x.opening_reconciliation_details.length} lignes)</summary><p>Il s’agit de comparer les crédits ouverts publiés à l’addition de leurs mouvements. ${comparisons?'Ces écarts sont distincts de la comparaison des deux totaux ci-dessus : ils ne s’additionnent pas pour expliquer cette différence.':'Ce contrôle porte sur les lignes sources, pas sur une addition effectuée par le site.'}</p><ul>${x.opening_reconciliation_details.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details>`:'';
+ return comparisons+`<section class="source-card quality-explanation"><h3>${esc(x.title)}</h3><p>${esc(x.summary)}</p>${(x.details||[]).map(t=>`<p>${esc(t)}</p>`).join('')}${missingPrograms}${technicalNote}${known?`<h4>Parts connues — total demandé encore incomplet</h4><ul>${known}</ul>`:''}${contextual?`<h4>${esc(x.contextual_title||'Chiffres trouvés, non retenus comme total du dispositif')}</h4>${contextual}`:''}${(x.references||[]).length?`<details><summary>Documents qui expliquent cette limite</summary><ul>${x.references.map(r=>`<li>${ref(r)}</li>`).join('')}</ul></details>`:''}${x.research_note?`<p class="hint">${esc(x.research_note)}</p>`:''}${contacts?`<details class="quality-requests"><summary>Comment obtenir le détail manquant ?</summary><p>Ces coordonnées officielles permettent de demander les documents. Elles ne garantissent pas l’existence de la ventilation.</p><ul>${contacts}</ul>${x.request_text?`<label for="quality-request">Demande adaptée à cette année, cette étape et ce périmètre</label><textarea id="quality-request" rows="9" readonly>${esc(x.request_text)}</textarea><button type="button" class="secondary" data-copy-quality="1">Copier la demande</button><span class="hint"> Aucun envoi automatique.</span>`:''}</details>`:''}</section>`+opening;
 }
 const rapExplanations=new Map();let rapExplanationId=0;
 function clearRapExplanations(prefix){for(const key of rapExplanations.keys())if(key.startsWith(prefix+'-'))rapExplanations.delete(key);}
@@ -260,13 +338,22 @@ async function showSource(button){
  const request=++sourceRequest;
  const dialog=$('source-dialog');$('source-title').textContent=`${data.stages[button.dataset.stage]} · ${button.dataset.year} · ${state.measure}`;$('source-content').textContent='Lecture des sources…';dialog.showModal();
  try{const p=await fetchJSON('/api/provenance?'+params({year:button.dataset.year,stage:button.dataset.stage,cell_scope:button.dataset.cellScope}));if(request!==sourceRequest)return;
- let html=sourceExplanation(p.explanation)+sourceCalculation(p)+(p.note&&!p.explanation?`<p class="notice">${esc(p.note)}</p>`:'')+sourceEvidence(p)+(p.count?`<p class="hint">${p.count} lignes sources contribuent au montant. Valeurs ci-dessous en euros courants, avant correction de l’inflation.${state.constant?' Affichage du tableau en euros '+state.base+' selon l’IPC annuel Insee.':''}</p>`:'');
- html+=p.sources.map(s=>{const url=safeURL(s.url),pages=[...new Set([...p.rows,...(p.citations||[])].filter(r=>r.source===s.id&&r.page).map(r=>r.page))];return `<article class="source-card"><h3>${esc(s.title)}</h3><p>${esc(s.dataset_title||'')} · ${esc(s.license||'Licence non renseignée dans cet inventaire')}</p><p>Collecté le ${esc(s.checked_at?.slice(0,10)||'8 septembre 2026')} · Empreinte SHA-256 : <code>${esc(s.sha256)}</code></p><a href="/api/download/${s.id}" target="_blank" rel="noopener">Ouvrir le fichier local ↗</a>${pages.map(page=>`<a href="/api/download/${s.id}#page=${page}" target="_blank" rel="noopener">Page PDF ${page} ↗</a>`).join('')}${url?`<a href="${esc(url)}" target="_blank" rel="noopener">Source officielle ↗</a>`:''}</article>`;}).join('');
+ let html=discrepancySummary(p.documented_discrepancies)+(p.historical_discrepancies?.length?p.historical_discrepancies.map(historicalDiscrepancy).join(''):historicalDiscrepancy(p.historical_discrepancy))+sourceExplanation(p.explanation)+sourceCalculation(p)+(p.note&&!p.explanation?`<p class="notice">${esc(p.note)}</p>`:'')+sourceEvidence(p)+(p.count?`<p class="hint">${p.count} lignes sources contribuent au montant. Valeurs ci-dessous en euros courants, avant correction de l’inflation.${state.constant?' Affichage du tableau en euros '+state.base+' selon l’IPC annuel Insee.':''}</p>`:'');
+ html+=p.sources.map(s=>{const url=safeURL(s.url),pages=[...new Set([...p.rows,...(p.citations||[])].filter(r=>r.source===s.id&&r.page).map(r=>Number(r.page)).filter(page=>Number.isInteger(page)&&page>0))];return `<article class="source-card"><h3>${esc(s.title)}</h3><p>${esc(s.dataset_title||'')} · ${esc(s.license||'Licence non renseignée dans cet inventaire')}</p><p>Collecté le ${esc(s.checked_at?.slice(0,10)||'8 septembre 2026')} · Empreinte SHA-256 : <code>${esc(s.sha256)}</code></p><a href="/api/download/${s.id}${pages.length?'#page='+pages[0]:''}" target="_blank" rel="noopener">${pages.length?'Ouvrir le PDF à la page '+pages[0]:'Ouvrir le fichier local'} ↗</a>${pages.map(page=>`<a href="/api/download/${s.id}#page=${page}" target="_blank" rel="noopener">Page PDF ${page} ↗</a>`).join('')}${url?`<a href="${esc(url)}" target="_blank" rel="noopener">Source officielle ↗</a>`:''}</article>`;}).join('');
  if(p.rows.length)html+='<div class="table-scroll source-rows"><table><thead><tr><th>Poste</th><th>Ligne / page</th><th>Champ source</th><th>Montant (€ courants)</th></tr></thead><tbody>'+p.rows.map(r=>`<tr><td>${esc(r.program+' '+r.program_label)}${r.action?'<br>'+esc(r.action+' '+r.action_label):''}${r.subaction?'<br>'+esc(r.subaction+' '+r.subaction_label):''}<br><small>${esc(r.operation==='subtract_action'?(r.subaction?'À retirer : sous-action exclue':'À retirer : action exclue'):r.operation==='subtract'?'À retirer : MaPrimeRénov’':r.operation==='subset'?'Part MaPrimeRénov’':r.category?'Catégorie '+r.category:r.title?'Titre '+r.title:'')}</small></td><td>${r.page?`<a href="/api/download/${r.source}#page=${r.page}" target="_blank" rel="noopener">PDF p. ${r.page}</a>`:r.line}</td><td>${esc(r.field)}</td><td>${r.approximate?'≈ ':''}${euros(r.cents/100,true)}</td></tr>`).join('')+'</tbody></table></div>';
  if(p.truncated)html+='<p class="hint">Aperçu limité aux 300 premières lignes. Le fichier source contient l’ensemble des lignes.</p>';
  if(!p.count&&!p.calculation&&!p.explanation&&!(p.evidence||[]).length)html='<p>'+esc(p.note||'Ce montant ne comporte aucune ligne conservée après exclusions.')+'</p>';
  $('source-content').innerHTML=html;
  }catch(e){if(request===sourceRequest)$('source-content').textContent=e.message;}
+}
+function showCumulativeDiscrepancies(){
+ const years=data.totals.filter(y=>['ok','excluded'].includes(y.EXEC.status));
+ if(years.length!==data.years.length)return;
+ const items=years.flatMap(y=>y.EXEC.documented_discrepancies||[]);if(!items.length)return;
+ ++sourceRequest;
+ $('source-title').textContent=`Consommé cumulé · ${state.start}–${state.end} · ${state.measure}`;
+ $('source-content').innerHTML=discrepancySummary(items)+years.map(y=>(y.EXEC.historical_discrepancies||[]).map(historicalDiscrepancy).join('')+sourceComparisons(y.EXEC.source_disagreements)).join('');
+ $('source-dialog').showModal();
 }
 function showTopicExclusion(){
  const topic=data?.topic;if(!topic||topic.mode!=='without')return;
@@ -301,7 +388,7 @@ document.addEventListener('click',e=>{
  const b=e.target.closest('button');if(!b)return;
  if(b.dataset.rapExplanation){showRapExplanation(b.dataset.rapExplanation);return;}
  if(b.dataset.copyQuality){copyQualityRequest();return;}
- if(b.dataset.view){if(b.dataset.view==='credits'&&currentPilot()){state={...state,scope:'',topic:'',exclude:[]};$('row-search').value='';sync();setView('credits');load();}else setView(b.dataset.view);}
+ if(b.dataset.view){if((b.dataset.view==='credits'&&currentPilot())||(b.dataset.view==='movements'&&currentPilot()==='maprimerenov')){state={...state,scope:'',topic:'',exclude:[]};$('row-search').value='';sync();setView(b.dataset.view);load();}else setView(b.dataset.view);}
  if(b.dataset.docMode)setDocumentMode(b.dataset.docMode);
  if(b.dataset.pilot)openPilot(b.dataset.pilot);
  if(b.dataset.ecologyPreset){state={...state,budget:'BG',scope:'TA',topic:b.dataset.ecologyPreset==='selected'?'maprimerenov':'',topic_mode:'without',exclude:b.dataset.ecologyPreset==='selected'?['TA/345','TA/235']:[]};$('row-search').value='';sync();setView('credits');load();}
@@ -315,27 +402,48 @@ document.addEventListener('click',e=>{
  if(b.dataset.restoreTopic==='maprimerenov')toggleExclusion(b,'maprimerenov',true);
  if(b.dataset.toggleTopic==='maprimerenov')toggleExclusion(b,'maprimerenov');
  if(b.dataset.topicExclusionDetails==='maprimerenov')showTopicExclusion();
- if(b.dataset.evolution)showEvolution(b);
+ if(b.dataset.cumulativeDiscrepancies)showCumulativeDiscrepancies();
+ else if(b.dataset.evolution)showEvolution(b);
  else if(b.dataset.year)showSource(b);
  if(b.dataset.saved!==undefined){const saved=readSaved()[Number(b.dataset.saved)];if(saved){state={...defaults,...saved.state};sync();load();toast('Sélection restaurée.');}}
  if(b.dataset.deleteSaved!==undefined){const saved=readSaved();saved.splice(Number(b.dataset.deleteSaved),1);try{localStorage.setItem('nos-deniers-selections',JSON.stringify(saved));renderSaved();}catch{toast('Enregistrement impossible dans ce navigateur.');}}
 });
 for(const id of ['start','end','budget','base'])$(id).addEventListener('change',()=>{state[id]=id==='budget'?$(id).value:Number($(id).value);if(id==='budget'){state.scope='';state.exclude=[];}if(state.start>state.end){if(id==='start')state.end=state.start;else state.start=state.end;}sync();load();});
-for(const id of ['topic','topic_mode'])$(id).addEventListener('change',()=>{state[id]=$(id).value;if(state.topic&&state.budget!=='BG'){state.budget='BG';state.scope='';state.exclude=[];}sync();load();});
+for(const id of ['topic','topic_mode'])$(id).addEventListener('change',()=>{
+ state[id]=$(id).value;
+ if(id==='topic'&&!state.topic){state.scope='';state.exclude=[];state.topic_mode='only';$('row-search').value='';}
+ if(state.topic&&state.budget!=='BG'){state.budget='BG';state.scope='';state.exclude=[];}
+ sync();if(id==='topic')setView('credits');load();
+});
 $('constant').addEventListener('change',()=>{state.constant=$('constant').checked;sync();load();});
 $('denominator').addEventListener('change',()=>{state.denominator=$('denominator').value;load();});
 $('unit').addEventListener('change',render);$('stage').addEventListener('change',()=>{stage=$('stage').value;renderTable();});$('row-search').addEventListener('input',renderTable);
 $('reset').addEventListener('click',()=>{state={...defaults,exclude:[]};$('row-search').value='';sync();load();});
-$('export').addEventListener('click',()=>{const format=$('export-format').value;location.href=(format==='xlsx'?'/api/export.xlsx':format==='selection'?'/api/selection':'/api/export')+'?'+params();});
+async function exportExcel(){
+ if(exportPending)return;
+ exportPending=true;$('export').disabled=true;$('error').hidden=true;updateRequestProgress();
+ try{
+  let response;try{response=await fetch('/api/export.xlsx?'+params());}catch{throw new Error('Connexion interrompue pendant l’export. Vérifiez votre connexion puis réessayez.');}
+  if(!response.ok){const result=await response.json().catch(()=>null);throw new Error(result?.error||(response.status>=500?'Le serveur est momentanément indisponible (HTTP '+response.status+'). Réessayez l’export dans quelques instants.':'Impossible de préparer l’export (HTTP '+response.status+').'));}
+  if(!(response.headers.get('Content-Type')||'').startsWith('application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'))throw new Error('Le serveur n’a pas renvoyé un classeur Excel. Réessayez l’export.');
+  let file;try{file=await response.blob();}catch{throw new Error('Téléchargement interrompu. Réessayez l’export.');}
+  const url=URL.createObjectURL(file),link=document.createElement('a');
+  link.href=url;link.download='nos-deniers.xlsx';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
+ }catch(e){$('error').textContent=e.message;$('error').hidden=false;}
+ finally{exportPending=false;updateRequestProgress();$('export').disabled=activeViews>0||!data;}
+}
+$('export').addEventListener('click',()=>{const format=$('export-format').value;if(format==='xlsx'){exportExcel();return;}location.href=(format==='selection'?'/api/selection':'/api/export')+'?'+params();});
 $('save').addEventListener('click',()=>{if(!data)return;const saved=readSaved(),count=exclusionCount(),label=`${data.scope_label} · ${state.start}–${state.end} · ${state.measure}${count?' · '+count+' exclusion(s)':''}${state.constant?' · € '+state.base:''}`;saved.unshift({label,state:JSON.parse(JSON.stringify(state))});try{localStorage.setItem('nos-deniers-selections',JSON.stringify(saved.slice(0,20)));renderSaved();toast('Périmètre enregistré.');}catch{toast('Enregistrement impossible dans ce navigateur.');}});
+$('level-up').addEventListener('click',()=>{if(state.scope)changeScope(parentScope(state.scope));});
+$('level-down').addEventListener('click',()=>{const child=lastVisitedChild.get(state.scope);if(child&&data?.rows.some(row=>row.id===child))changeScope(child);});
 $('close-source').addEventListener('click',()=>$('source-dialog').close());$('source-dialog').addEventListener('click',e=>{if(e.target===$('source-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close();}});
 let docTimer;$('doc-search').addEventListener('input',()=>{clearTimeout(docTimer);if(docMode==='title')docTimer=setTimeout(loadDocuments,250);else $('doc-search-status').textContent='Appuyez sur Entrée ou sur Rechercher.';});$('doc-submit').addEventListener('click',loadDocuments);$('doc-search').addEventListener('keydown',e=>{if(e.key==='Enter'){clearTimeout(docTimer);loadDocuments();}});for(const id of ['doc-year','doc-format'])$(id).addEventListener('change',loadDocuments);$('more-docs').addEventListener('click',()=>{docLimit+=40;renderDocuments();});
 let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(data&&view==='credits')renderChart();},100);});
 async function init(){
- for(let year=2017;year<=2026;year++){for(const id of ['start','end','doc-year'])$(id).add(new Option(String(year),String(year)));if(year<=2025)$('base').add(new Option(String(year),String(year)));}
+ for(let year=2017;year<=2027;year++){for(const id of ['start','end','doc-year'])$(id).add(new Option(String(year),String(year)));if(year<=2025)$('base').add(new Option(String(year),String(year)));}
  try{const q=new URLSearchParams(location.search);for(const k of ['start','end','base'])if(q.has(k))state[k]=Number(q.get(k));for(const k of ['budget','measure','scope','topic','topic_mode','denominator'])if(q.has(k))state[k]=q.get(k);state.constant=q.get('constant')==='1';if(q.has('exclude')){const ex=JSON.parse(q.get('exclude'));if(Array.isArray(ex))state.exclude=ex;}}catch{state={...defaults,exclude:[]};}
  sync();renderSaved();
- try{bootstrap=await fetchJSON('/api/bootstrap');for(const [key,label] of Object.entries(bootstrap.stages))$('stage').add(new Option(label,key));$('stage').value=stage;await load();fetchJSON('/api/semantic-search/status').then(info=>{searchStats=info;renderCoverage();}).catch(()=>{});}
+ try{bootstrap=await fetchJSON('/api/bootstrap');for(const [key,label] of Object.entries(bootstrap.stages))$('stage').add(new Option(label,key));$('stage').value=stage;await load();fetchJSON('/api/semantic-search/status').then(info=>{searchStats=info;renderIndexHeadline(info);renderCoverage();}).catch(()=>{});}
  catch(e){$('loading').hidden=true;$('error').textContent=e.message;$('error').hidden=false;}
 }
 init();
@@ -344,10 +452,11 @@ let eventsRequest=0;
 async function loadEvents(){
  const request=++eventsRequest;
  $('events-coverage').textContent='Lecture des actes publiés…';
- $('events-export').href='/api/events?'+params({download:'1'});
+ $('events-export').removeAttribute('href');$('events-export').setAttribute('aria-disabled','true');
  try{
   const result=await fetchJSON('/api/events?'+params());if(request!==eventsRequest)return;
   $('events-coverage').textContent=result.coverage;
+  $('events-export').href='/api/events?'+params({download:'1'});$('events-export').removeAttribute('aria-disabled');
   const rows=result.items.map(r=>`<tr><td>${esc(r.publication_date)}</td><td>${esc(r.act_title)}<br><small>${esc(r.program+' · '+r.program_label)}</small></td><td>${r.value==null?'—':euros(r.value)}<br><small>${esc(r.reason||'Annulation de crédits')}</small></td><td><a href="${esc(safeURL(r.url)||'#')}" target="_blank" rel="noopener">Annexe officielle ↗</a><br><a href="/api/download/${esc(r.source)}" target="_blank" rel="noopener">Copie conservée ↓</a><br><small>Ligne ${r.line} · ${r.measure}</small></td></tr>`).join('');
   $('events-table').innerHTML=`<thead><tr><th>Publication</th><th>Acte et programme</th><th>Montant (${unitLabel()})</th><th>Preuve</th></tr></thead><tbody>${rows||'<tr><td colspan="4">Aucun acte intégré correspondant à cette sélection. Cela ne signifie pas absence de mouvement.</td></tr>'}</tbody>`;
  }catch(e){if(request===eventsRequest){$('events-coverage').textContent=e.message;$('events-table').innerHTML='';}}
@@ -359,10 +468,12 @@ async function loadReserves(){
  clearRapExplanations('reserves');
  $('reserves-coverage').textContent='Lecture des tableaux de réserve…';
  $('reserves-table').innerHTML='';$('reserves-missing').textContent='';
- $('reserves-export').href='/api/reserves?'+params({download:'1'});
+ $('reserves-export').removeAttribute('href');$('reserves-export').setAttribute('aria-disabled','true');
  try{
   const result=await fetchJSON('/api/reserves?'+params());if(request!==reservesRequest)return;
-  $('reserves-coverage').textContent=result.coverage;
+  const coverage=document.querySelector('link[href="/presentation/general.css"]')?result.coverage.replace(/^Réserves Écologie : [^.]*\.\s*/u,'').replace(' ; la part MaPrimeRénov’ n’est pas isolée',''):result.coverage;
+  $('reserves-coverage').textContent=coverage;
+  $('reserves-export').href='/api/reserves?'+params({download:'1'});$('reserves-export').removeAttribute('aria-disabled');
   const fields=['initial','surgels','degels','cancellations','remaining'];
   const rows=result.items.map(r=>`<tr><th scope="row">${r.year}<br><small>${esc(r.program+' · '+r.program_label)}</small></th>${fields.map(k=>{const c=r.cells[k],label=c.value===null?(c.status==='not_applicable'?'Sans objet':'Données non disponibles')+' · Pourquoi ?':euros(c.value);return `<td title="${esc(c.reason)}">${c.explanation?rapExplanationButton('reserves',c.explanation,label,`Réserves · ${r.year} · P${r.program} · ${r.measure}`):euros(c.value)}</td>`;}).join('')}<td><a href="/api/download/${esc(r.source)}#page=${r.page}" target="_blank" rel="noopener">RAP ${r.year}, p. ${r.page} ↗</a>${(r.context_pages||[]).filter(p=>p!==r.page).map(p=>`<br><a href="/api/download/${esc(r.source)}#page=${p}" target="_blank" rel="noopener">Commentaire p. ${p} ↗</a>`).join('')}<br><small>${esc(r.note)}</small></td></tr>`).join('');
   $('reserves-table').innerHTML=`<thead><tr><th>Année et programme</th><th>Réserve initiale (${unitLabel()})</th><th>Surgels</th><th>Dégels</th><th>Annulations sur réserve</th><th>Solde avant schéma de fin de gestion</th><th>Source et portée</th></tr></thead><tbody>${rows||'<tr><td colspan="7">Aucun tableau de réserve intégré pour cette sélection. Cela ne signifie pas absence de réserve.</td></tr>'}</tbody>`;
@@ -473,4 +584,4 @@ function categoryLabel(row){
  return `<div class="row-label ${missing?'row-unavailable':''}"><span class="code">${esc(row.code)}</span><button type="button" class="drill" data-scope="${esc(row.id)}" ${depth>=3||(state.topic&&state.topic_mode==='only'&&!row.has_children)?'disabled':''}>${esc(row.label)}${row.has_children?'&nbsp;›':''}</button>${categorySwitch(row,row.excluded)}</div>`;
 }
 
-$('source-dialog').addEventListener('close',()=>{sourceRequest++;$('source-dialog').querySelector('.eyebrow').textContent='TRAÇABILITÉ DU MONTANT';});
+$('source-dialog').addEventListener('close',()=>{sourceRequest++;$('source-dialog').querySelector('.eyebrow').textContent='TRAÇABILITÉ DU MONTANT';updateRequestProgress();});

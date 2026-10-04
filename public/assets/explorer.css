@@ -34,6 +34,10 @@ dialog{border:1px solid var(--line);border-radius:14px;padding:25px;width:min(94
 @media(max-width:600px){.topic-panel{padding:16px}.topic-panel .panel-heading{align-items:flex-start;flex-wrap:wrap;gap:8px}.topic-examples button{width:100%;white-space:normal}}
 
 #reserves-table th:not(:first-child){white-space:normal;min-width:90px;max-width:180px}#reserves-table td:last-child{white-space:normal;min-width:200px;max-width:250px;text-align:left}
+#reserves-table tbody th:first-child{white-space:normal;overflow-wrap:anywhere}
+#reserves-table tbody th:first-child small{display:block;white-space:normal;overflow-wrap:anywhere}
+#reserves-table .cell{border:0;background:none;padding:0;text-align:right}
+#reserves-table .cell:hover{text-decoration:underline;text-underline-offset:3px}
 
 /* Category inclusion, independent from the availability of each budget figure. */
 .category-switch,.exclude-chip .category-switch{display:inline-flex;align-items:center;justify-content:center;width:44px;height:36px;min-width:44px;flex:0 0 44px;padding:0;border:0;background:transparent;border-radius:18px;text-decoration:none;vertical-align:middle}
@@ -107,7 +111,7 @@ footer{font-size:13px;line-height:1.65;flex-wrap:wrap}
 #summary .metric.partial>strong{color:#876329}
 #summary .metric.accent.partial>strong{color:#f2d58a}
 #summary .metric.partial>strong small{color:inherit}
-#credits-table thead tr:first-child th:first-child,#credits-table thead tr:first-child th:first-child .hint{font-size:15px;color:var(--coral);font-weight:700}
+#credits-table thead tr:first-child th:first-child,#credits-table thead tr:first-child th:first-child .hint{font-size:14px;color:var(--blue);font-weight:650}
 .reading-key{display:flex;flex-wrap:wrap;align-items:center;gap:5px 18px;margin:0 0 18px;padding:11px 16px;border:1px solid #d7e4ef;border-radius:9px;background:#f1f7fc;color:var(--navy);font-size:12px;line-height:1.45}
 .reading-key>strong{color:var(--blue);font-size:13px}
 .reading-key b{color:var(--blue);font-size:16px}
@@ -140,5 +144,31 @@ footer{font-size:13px;line-height:1.65;flex-wrap:wrap}
 @media(max-width:1100px){.brand-punchline strong{font-size:13px}.brand-punchline span{font-size:11px}}
 @media(max-width:900px){.masthead{height:auto;min-height:88px;flex-wrap:wrap;gap:0 8px}.brand-punchline{order:3;flex:1 0 100%;max-width:none;margin:0;padding:0 0 9px}}
 
-/* Independent audit entry point. */
-.nav .audit-link{align-self:center;margin-left:auto;color:var(--blue);font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap;padding:8px 12px;border:1px solid var(--line);border-radius:6px}.nav .audit-link:hover{text-decoration:underline}.nav .audit-link:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+/* Independent auditor: visible on every explorer view. */
+.masthead>.audit-link{display:inline-flex;align-items:center;justify-content:center;gap:7px;background:#ffb347;color:#122b40;border:1px solid #c57b16;border-radius:8px;padding:11px 14px;font-size:13px;line-height:1.3;font-weight:750;text-decoration:none;text-align:center;max-width:230px;flex-shrink:0;margin:0 14px}
+.masthead>.audit-link:hover{background:#ffc46f}.masthead>.audit-link:focus-visible{outline:3px solid #143e60;outline-offset:3px}
+@media(max-width:1200px){.masthead>.audit-link{max-width:185px;padding:9px 10px;margin:0 8px}}
+@media(max-width:900px){.masthead>.audit-link{order:4;max-width:none;width:100%;margin:0 0 12px;flex-shrink:1;box-sizing:border-box}}
+
+/* Visible during data requests, including when the page is scrolled. */
+.request-progress:not([hidden]){position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:1000;display:flex;flex-direction:column;align-items:center;gap:9px;max-width:calc(100vw - 40px);background:white;border:1px solid var(--line);border-radius:8px;padding:12px 16px;box-shadow:0 3px 16px #163c5520;pointer-events:none}
+.request-chrono{min-width:5.8rem;box-sizing:border-box;padding:.85rem 1rem;border:2px solid rgba(240,145,18,.46);border-radius:999px;background:#fff7e8;color:#7a4300;box-shadow:inset 0 0 0 1px rgba(255,255,255,.72);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:1.22rem;font-weight:800;font-variant-numeric:tabular-nums;line-height:1;text-align:center}
+.request-wait-hint{display:inline-block;padding:.5rem .7rem;border:1px solid rgba(240,145,18,.48);border-radius:999px;background:#fffaf0;color:#7a4300;font-size:.88rem;font-weight:700;text-align:center}
+
+/* Navigation hiérarchique et titres du tableau des crédits. */
+.table-level-nav{display:flex;align-items:center;gap:7px}
+.table-panel .panel-heading #table-title{font-size:15px;font-weight:700;color:var(--coral);letter-spacing:0}
+.level-arrow{border:0;background:transparent;color:var(--coral);font-size:29px;font-weight:750;line-height:24px;min-width:22px;padding:0}
+.level-arrow:hover:not(:disabled){color:var(--navy)}
+.level-arrow:disabled{color:#aab5bf;opacity:.7;cursor:default}
+/* Recherche documentaire : champ compact et bouton sur la même ligne si l’espace le permet. */
+.document-filters{align-items:center;flex-wrap:wrap}
+.document-filters .search{flex:1 1 340px;max-width:720px;min-width:180px}
+.document-filters select{flex:0 1 180px;max-width:180px}
+.document-filters #doc-submit{flex:0 0 auto;min-height:39px}
+@media(max-width:720px){.document-filters .search{flex-basis:100%;max-width:none}.document-filters select{flex:1 1 130px;max-width:none}}
+/* Une fenêtre modale appartient à la couche supérieure du navigateur : compteur inclus dans cette fenêtre. */
+.dialog-request-progress:not([hidden]){display:flex;flex-direction:column;align-items:center;gap:8px;margin:4px auto 16px;text-align:center}
+
+.brand{position:relative;min-width:278px}.brand-tagline{position:absolute;left:109px;top:54px;color:var(--blue);font-size:11px;line-height:1.2;white-space:nowrap;text-decoration:none;font-variation-settings:normal}
+@media(max-width:720px){.brand{min-width:226px}.brand-tagline{left:88px;top:44px;font-size:9px}}
