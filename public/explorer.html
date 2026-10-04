@@ -20,6 +20,7 @@
  <button type="button" data-view="movements">Mouvements et réserves</button>
  <button type="button" data-view="documents">Rapports et documents</button>
  <button type="button" data-view="coverage">Sources et couverture</button>
+ <a class="companion-link" href="https://plfss.lexmachine.net/" target="_blank" rel="noopener">PLFSS</a>
 </nav>
 <div class="workspace">
 <aside class="sidebar" aria-label="Filtres du budget">
@@ -35,7 +36,7 @@
  <div class="aside-section"><h2>Mes sélections</h2><button id="save" class="secondary full" type="button">Enregistrer ce périmètre</button><div id="saved"></div><p class="hint">Conservées dans ce navigateur.</p></div>
 </aside>
 <main id="main" tabindex="-1">
- <div class="page-heading"><div><span class="eyebrow">EXPLORATEUR BUDGÉTAIRE</span><h1 id="page-title">Évolution des crédits de l’État.</h1><p id="subtitle">Comparez ce qui a été proposé, voté et consommé.</p></div><img class="plf-stamp" src="/assets/tampon-plf-2027.svg" alt="PLF 2027 intégré" width="174" height="128"><div><label for="export-format" class="sr-only">Format d’export</label><select id="export-format"><option value="xlsx">Classeur Excel</option><option value="csv">Tableau CSV</option><option value="selection">Sélection et preuves JSON</option></select><button type="button" class="primary" id="export">Exporter les données <span aria-hidden="true">↓</span></button></div></div>
+ <div class="page-heading"><div><span class="eyebrow">EXPLORATEUR BUDGÉTAIRE</span><h1 id="page-title">Évolution des crédits de l’État.</h1><p id="subtitle">Comparez ce qui a été proposé, voté et consommé.</p></div><div class="integration-stamps" aria-label="Budgets intégrés"><img class="plf-stamp" src="/assets/tampon-plf-2027.svg" alt="PLF 2027 intégré" width="174" height="128"><img class="plfss-stamp" src="/assets/tampon-plfss-2027.png" alt="PLFSS 2027 intégré" width="174" height="112"></div><div><label for="export-format" class="sr-only">Format d’export</label><select id="export-format"><option value="xlsx">Classeur Excel</option><option value="csv">Tableau CSV</option><option value="selection">Sélection et preuves JSON</option></select><button type="button" class="primary" id="export">Exporter les données <span aria-hidden="true">↓</span></button></div></div>
  <aside class="reading-key" aria-label="Comment lire les chiffres"><strong>Lire les chiffres</strong><span class="reading-key-partial"><b>* Total partiel</b> : seuls les postes renseignés sont additionnés</span><span><b>≈</b> Au moins une valeur arrondie dans la source</span><span>Les exports conservent la précision des sources.</span></aside>
  <div id="error" class="notice error" role="alert" hidden></div>
  <div id="request-progress" class="request-progress" role="status" aria-live="polite" hidden><span id="request-elapsed" class="request-chrono" aria-hidden="true">00:00</span><span class="request-wait-hint">Calcul et affichage des résultats en cours</span></div>

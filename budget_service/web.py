@@ -20,6 +20,7 @@ for name in ('nos-deniers-horizontal.svg','nos-deniers-icone.svg','nos-deniers-l
 ASSETS['/assets/InterVariable.woff2']=('assets/InterVariable.woff2','font/woff2')
 ASSETS['/assets/plf-stamp.css']=('assets/plf-stamp.css','text/css; charset=utf-8')
 ASSETS['/assets/tampon-plf-2027.svg']=('assets/tampon-plf-2027.svg','image/svg+xml')
+ASSETS['/assets/tampon-plfss-2027.png']=('assets/tampon-plfss-2027.png','image/png')
 
 def download_path(record):
     path=(api.DATA/record['path']).resolve()

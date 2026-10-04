@@ -18,3 +18,11 @@
 @media (max-width: 720px) {
   .page-heading > .plf-stamp { width: 160px; flex: none; }
 }
+
+/* Requested reciprocal navigation, restricted to the new anchor. */
+.nav a.companion-link { align-self:center; flex:none; margin-left:0; padding:9px 16px; border:1px solid #d67520; border-radius:7px; background:#ffb05b; color:#173a55; font-size:13px; font-weight:700; line-height:1.35; text-decoration:none; white-space:nowrap; }
+.nav a.companion-link:focus-visible { outline:2px solid #173a55; outline-offset:3px; }
+.page-heading > .integration-stamps { display:flex; align-items:center; justify-content:center; gap:12px; flex:0 0 auto; margin-inline:auto; }
+.integration-stamps img, .page-heading > .plfss-stamp { display:block; width:174px; height:auto; flex:0 0 174px; align-self:center; }
+@media (max-width:1280px) { .page-heading:has(> .integration-stamps) { flex-wrap:wrap; } .integration-stamps img { width:148px; flex-basis:148px; } }
+@media (max-width:720px) { .page-heading > .integration-stamps { margin-inline:0; } }
