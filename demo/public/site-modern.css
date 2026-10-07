@@ -1,0 +1,228 @@
+/* Nos Deniers — independent visual theme, enabled by default.
+   Use ?style=classique to restore the original presentation.
+   No layout, financial values, visibility, ordering or navigation changes. */
+html.nd-modern {
+  --nd-surface-line: #dce6ed;
+  --nd-surface-shadow: 0 2px 0 #dce5ed, 0 12px 30px -19px #23446045;
+  --nd-control-shadow: 0 2px 0 #dce5ed, 0 4px 9px -7px #23446045;
+}
+html.nd-modern body {
+  background: radial-gradient(ellipse at 94% 2%, #fff4e777, transparent 35%),
+              linear-gradient(150deg, #f1f6fa, #f8fafc 65%);
+}
+html.nd-modern .masthead {
+  background: linear-gradient(115deg, #fff 45%, #f7fafc);
+  border-bottom-color: #e5edf3;
+}
+html.nd-modern .nav {
+  background: linear-gradient(180deg, #fff, #fafcfe);
+  border-bottom-color: var(--nd-surface-line);
+  box-shadow: 0 6px 14px -12px #173a5538;
+}
+html.nd-modern .nav button { border-radius: 8px 8px 0 0; }
+html.nd-modern .nav button.active {
+  background: linear-gradient(180deg, #fff0, #edf4fa);
+}
+html.nd-modern .nav button:hover:not(.active) {
+  background: linear-gradient(180deg, #fff0, #f3f7fb);
+}
+html.nd-modern .sidebar {
+  background: linear-gradient(155deg, #fff, #f7fafc);
+  border-right-color: var(--nd-surface-line);
+}
+html.nd-modern .sidebar select,
+html.nd-modern input[type="search"],
+html.nd-modern .document-filters select,
+html.nd-modern #export-format,
+html.nd-modern .table-options select {
+  border-radius: 10px;
+  border-color: var(--nd-surface-line);
+  background: linear-gradient(180deg, #fff, #fbfcfe);
+  box-shadow: 0 1px 2px #173a5505;
+}
+html.nd-modern .sidebar select:hover,
+html.nd-modern .document-filters select:hover,
+html.nd-modern input[type="search"]:hover { border-color: #afc5d6; }
+html.nd-modern .inflation-box {
+  border-radius: 15px;
+  background: linear-gradient(135deg, #eef6fc, #e5f0f8);
+  box-shadow: inset 0 1px 0 #fff, 0 2px 0 #dce6ef;
+}
+html.nd-modern .segmented {
+  border-radius: 11px;
+  background: linear-gradient(135deg, #e9f1f8, #f1f6fa);
+  box-shadow: inset 0 1px 3px #173a5509;
+}
+html.nd-modern .segmented button { border-radius: 8px; }
+html.nd-modern .segmented button.active {
+  background: linear-gradient(135deg, #244d68, #173a55);
+  color: #fff;
+  box-shadow: 0 2px 5px #173a5522, inset 0 1px 0 #ffffff20;
+}
+html.nd-modern .primary {
+  border-radius: 11px;
+  border-color: #1c415d;
+  background: linear-gradient(135deg, #2b5673, #173a55);
+  box-shadow: 0 3px 0 #102e46, 0 7px 13px -9px #173a5570;
+}
+html.nd-modern .primary:hover {
+  background: linear-gradient(135deg, #244a66, #102e46);
+}
+html.nd-modern .secondary,
+html.nd-modern .document a.open {
+  border-radius: 10px;
+  border-color: var(--nd-surface-line);
+  background: linear-gradient(145deg, #fff, #f3f8fc);
+  box-shadow: var(--nd-control-shadow);
+}
+html.nd-modern .secondary:hover,
+html.nd-modern .document a.open:hover { background: linear-gradient(145deg, #f5f9fc, #eaf2f8); }
+html.nd-modern .primary:active:not(:disabled),
+html.nd-modern .secondary:active:not(:disabled),
+html.nd-modern .document a.open:active { box-shadow: inset 0 2px 4px #173a5520; }
+html.nd-modern .metric {
+  border-radius: 18px;
+  border-color: #fff;
+  box-shadow: var(--nd-surface-shadow), inset 0 1px 0 #fff;
+  background: linear-gradient(140deg, #fff 30%, #eef6fd);
+}
+html.nd-modern .metric:nth-child(2):not(.accent) { background: linear-gradient(140deg, #fff 30%, #fff4e7); }
+html.nd-modern .metric:nth-child(3):not(.accent) { background: linear-gradient(140deg, #fff 30%, #eaf7f2); }
+html.nd-modern .metric:nth-child(4):not(.accent) { background: linear-gradient(140deg, #fff 30%, #f3eefb); }
+html.nd-modern .metric.accent {
+  background: linear-gradient(135deg, #315c78, #173a55);
+  border-color: #315773;
+  box-shadow: 0 2px 0 #102f48, 0 12px 24px -16px #173a5560, inset 0 1px 0 #ffffff25;
+}
+html.nd-modern .panel {
+  border-radius: 19px;
+  border-color: var(--nd-surface-line);
+  box-shadow: var(--nd-surface-shadow);
+  background: linear-gradient(145deg, #fff 25%, #f3f8fc);
+}
+html.nd-modern .panel-heading {
+  background: linear-gradient(125deg, #fff 30%, #f5f9fc);
+}
+html.nd-modern .chart-panel {
+  background: linear-gradient(160deg, #fff 55%, #f8fbfe);
+}
+html.nd-modern .reading-key {
+  border-radius: 13px;
+  border-color: #d6e5f1;
+  background: linear-gradient(120deg, #f4f9fe, #edf5fc);
+  box-shadow: inset 0 1px 0 #fff;
+}
+html.nd-modern .pill {
+  background: linear-gradient(145deg, #fff, #f3f7fb);
+  border-color: var(--nd-surface-line);
+  box-shadow: 0 1px 2px #173a5506;
+}
+/* Table cells retain opaque backgrounds, alignments, sizes and status colours. */
+html.nd-modern th { background: linear-gradient(180deg, #f5f8fc, #edf3f8); }
+html.nd-modern td { background: linear-gradient(125deg, #fff, #f9fbfd); }
+html.nd-modern tbody tr:hover td { background: linear-gradient(125deg, #f6fafe, #edf4fa); }
+html.nd-modern tbody tr.total td { background: linear-gradient(125deg, #eff5fa, #e5eef7); }
+html.nd-modern .table-note { background: linear-gradient(180deg, #fff, #fafcfe); }
+html.nd-modern .document {
+  border-top-color: #e7eef4;
+  background: linear-gradient(125deg, #fff 20%, #f4f9fd);
+}
+html.nd-modern .document:hover { background: linear-gradient(125deg, #f8fbfd, #edf5fb); }
+html.nd-modern .document-icon {
+  border-radius: 10px;
+  border-color: #bfd5e5;
+  background: linear-gradient(145deg, #eff8ff, #dfedf7);
+  box-shadow: 0 2px 0 #d3e0e9;
+}
+html.nd-modern dialog {
+  border-radius: 20px;
+  border-color: #d6e3ed;
+  background: linear-gradient(145deg, #fff 50%, #f7fafc);
+  box-shadow: 0 22px 80px #102b4840;
+}
+html.nd-modern dialog::backdrop { background: #102b4866; }
+html.nd-modern .source-card {
+  border-radius: 13px;
+  border-color: var(--nd-surface-line);
+  background: linear-gradient(135deg, #fff, #f2f7fb);
+  box-shadow: 0 2px 0 #e3ebf1;
+}
+html.nd-modern .dialog-head button {
+  border-radius: 9px;
+  background: linear-gradient(145deg, #f4f8fc, #e5eef6);
+}
+html.nd-modern .saved-row button:first-child {
+  border-radius: 9px;
+  background: linear-gradient(135deg, #f0f6fc, #e6eff7);
+}
+/* The same light finish throughout coverage, explanations and waiting states.
+   Warning colours and opaque sticky table backgrounds remain meaningful. */
+html.nd-modern .coverage-stat {
+  background: linear-gradient(140deg, #fff 25%, #edf6fd);
+}
+html.nd-modern .coverage-stat:nth-child(2):not(.featured) {
+  background: linear-gradient(140deg, #fff 25%, #fff4e7);
+}
+html.nd-modern .coverage-stat:nth-child(3):not(.featured) {
+  background: linear-gradient(140deg, #fff 25%, #eaf7f2);
+}
+html.nd-modern .coverage-stat:nth-child(4):not(.featured) {
+  background: linear-gradient(140deg, #fff 25%, #f3eefb);
+}
+html.nd-modern .coverage-stat.featured {
+  background: linear-gradient(135deg, #315c78, #173a55);
+}
+html.nd-modern .coverage-note-grid article {
+  background: linear-gradient(140deg, #fff 20%, #eff6fc);
+}
+html.nd-modern .document-search-unavailable,
+html.nd-modern .legal-links {
+  background: linear-gradient(135deg, #f4f9fd, #eaf2f8);
+}
+html.nd-modern .document-search-unavailable button,
+html.nd-modern .quality-requests textarea {
+  background: linear-gradient(145deg, #fff, #f6fafe);
+}
+html.nd-modern .notice,
+html.nd-modern .quality-context {
+  background: linear-gradient(130deg, #fffbf4, #fff3df);
+}
+html.nd-modern .notice.error {
+  background: linear-gradient(130deg, #fff7f7, #ffebee);
+}
+html.nd-modern .request-progress:not([hidden]) {
+  background: linear-gradient(145deg, #fff, #f0f6fb);
+}
+html.nd-modern .request-chrono,
+html.nd-modern .request-wait-hint {
+  background: linear-gradient(135deg, #fffdf6, #ffefd7);
+}
+@media print {
+  html.nd-modern body,
+  html.nd-modern .panel,
+  html.nd-modern .panel-heading,
+  html.nd-modern .metric,
+  html.nd-modern .reading-key,
+  html.nd-modern .source-card,
+  html.nd-modern .table-note,
+  html.nd-modern .document,
+  html.nd-modern .document:hover,
+  html.nd-modern .coverage-stat,
+  html.nd-modern .coverage-stat:nth-child(n),
+  html.nd-modern .coverage-note-grid article,
+  html.nd-modern .document-search-unavailable,
+  html.nd-modern .legal-links,
+  html.nd-modern .notice,
+  html.nd-modern .notice.error,
+  html.nd-modern .quality-context,
+  html.nd-modern th,
+  html.nd-modern td,
+  html.nd-modern tbody tr:hover td,
+  html.nd-modern tbody tr.total td { background: #fff; box-shadow: none; }
+  html.nd-modern .metric.accent,
+  html.nd-modern .metric.accent > span,
+  html.nd-modern .metric.accent small,
+  html.nd-modern .coverage-stat.featured,
+  html.nd-modern .coverage-stat.featured strong,
+  html.nd-modern .coverage-stat.featured small { color: #08183f; }
+}

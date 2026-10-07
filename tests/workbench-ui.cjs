@@ -1,0 +1,27 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict');
+const fs=require('node:fs/promises');
+const path=require('node:path');
+(async()=>{
+ const out=path.resolve(__dirname,'../reports/developpement-20260909/ui');await fs.mkdir(out,{recursive:true});
+ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+ const page=await browser.newPage({baseURL:'http://127.0.0.1:8552',viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const ready=async()=>{await page.waitForFunction(()=>document.querySelector('#loading').hidden&&!document.querySelector('#export').disabled);};
+ await page.goto('/?start=2021&end=2022&scope=TA&measure=CP&budget=BG');await ready();
+ assert((await page.locator('#credits-table').innerText()).includes('Énergie'));
+ await page.locator('[data-mode="ratios"]').click();assert((await page.locator('#credits-table thead').innerText()).includes('Consommé / LFI'));
+ await page.locator('#denominator').selectOption('OUVERT');await ready();assert((await page.locator('#credits-table thead').innerText()).includes('Consommé / ouverts'));
+ await page.screenshot({path:path.join(out,'comparaisons.png'),fullPage:true});
+ await page.goto('/?start=2017&end=2026&measure=CP&budget=BG');await ready();await page.setViewportSize({width:390,height:844});await page.waitForTimeout(300);
+ const widths=await page.locator('#chart rect').evaluateAll(nodes=>nodes.map(x=>Number(x.getAttribute('width'))));assert(widths.length>20);assert(widths.every(x=>x>0));
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false);
+ await page.screenshot({path:path.join(out,'mobile-dix-ans.png'),fullPage:true});
+ await page.locator('[data-view="documents"]').click();await page.locator('.document').first().waitFor();await page.locator('#doc-format').selectOption('');const expectedCount=(await (await page.request.get('/api/bootstrap')).json()).meta.source_count;await page.waitForFunction(n=>document.querySelector('#doc-count').textContent===n+' documents',expectedCount);
+ const all=await (await page.request.get('/api/documents?format=')).json();assert(all.items.some(x=>x.format==='csv'));
+ const query='start=2021&end=2022&scope=TA&measure=CP&budget=BG';
+ const excel=await page.request.get('/api/export.xlsx?'+query);assert.equal(excel.status(),200);await fs.writeFile(path.join(out,'ecologie-2021-2022.xlsx'),await excel.body());
+ const selection=await (await page.request.get('/api/selection?'+query)).json();assert(selection.selection_id);assert(selection.sources.length>=2);assert.equal(selection.totals[0].EXEC.nominal,24999890384.71);
+ await fs.writeFile(path.join(out,'selection.json'),JSON.stringify(selection,null,2));
+ assert.deepEqual(errors,[]);await fs.writeFile(path.join(out,'result.json'),JSON.stringify({passed:true,errors,minimumBarWidth:Math.min(...widths),documents:all.count,selection:selection.selection_id}));
+ await browser.close();console.log('Workbench UI passed');
+})().catch(e=>{console.error(e);process.exit(1)});

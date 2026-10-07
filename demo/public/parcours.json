@@ -1,0 +1,483 @@
+{
+  "title": "Nos Deniers pour le travail parlementaire",
+  "journeys": [
+    {
+      "id": "complet",
+      "title": "Découvrir et examiner une enveloppe budgétaire",
+      "summary": "Du PLF 2027 à un chiffre sourcé pour préparer une note.",
+      "steps": [
+        "objectif",
+        "periode",
+        "mission",
+        "programme",
+        "proposition",
+        "comparaison",
+        "paiements",
+        "engagements",
+        "precision",
+        "origine",
+        "preuve",
+        "limites",
+        "documents",
+        "recherche",
+        "export",
+        "fin"
+      ]
+    },
+    {
+      "id": "source",
+      "title": "Vérifier un chiffre avant de le citer",
+      "summary": "Retrouver le document, comprendre les limites et préparer un export.",
+      "steps": [
+        "source-origine",
+        "source-preuve",
+        "source-limites",
+        "source-documents",
+        "source-recherche",
+        "source-export",
+        "source-fin"
+      ]
+    },
+    {
+      "id": "execution",
+      "title": "Du vote à la dépense",
+      "summary": "Comparer le voté et le consommé, lire les mouvements et les réserves, préparer une question budgétaire.",
+      "steps": [
+        "execution-question",
+        "execution-periode",
+        "execution-programme",
+        "execution-comparer",
+        "execution-mouvements",
+        "execution-reserve",
+        "execution-sources",
+        "execution-note",
+        "execution-fin"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "objectif",
+      "title": "Partir d’une question précise",
+      "text": "Pour préparer une note ou une intervention, commençons par une question : quels crédits sont proposés pour le programme 105 en 2027 ? Nous allons retrouver son enveloppe, son évolution et ses sources.",
+      "target": "#page-title",
+      "state": {
+        "scope": "",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "periode",
+      "title": "Choisir la période utile",
+      "text": "Le parcours sélectionne 2026 à 2027. Précisez toujours l’année budgétaire, qui peut différer de la date de publication du document.",
+      "target": "#years",
+      "state": {
+        "scope": "",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "mission",
+      "title": "Retrouver la bonne mission",
+      "text": "Les crédits de l’État sont organisés en missions, puis en programmes, en actions et en sous-actions. Voici la mission Action extérieure de l’État. Le parcours va l’ouvrir pour retrouver le programme qui nous intéresse.",
+      "target": "[data-scope='AA']",
+      "state": {
+        "scope": "",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "programme",
+      "title": "Identifier le programme",
+      "text": "La mission est maintenant ouverte. Nous choisissons le programme 105, Action de la France en Europe et dans le monde. Conserver ce numéro et ce libellé exact dans votre note permet d’éviter une confusion entre postes.",
+      "target": "[data-scope='AA/105']",
+      "state": {
+        "scope": "AA",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "proposition",
+      "title": "Lire une proposition de crédits",
+      "text": "Voici les actions du programme et son total. P.L.F. signifie crédits proposés. L.F.I., crédits votés dans la loi initiale. Consommé, crédits utilisés pendant l’exercice. Pour 2027, une case vide en L.F.I. ou en consommé ne signifie donc pas zéro euro.",
+      "target": "#credits-table thead",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "comparaison",
+      "title": "Comparer des situations comparables",
+      "text": "Le graphique rapproche les étapes pour chaque année. Avant de parler de hausse ou de baisse, précisez la comparaison : proposé contre proposé, ou proposé contre voté. Vérifiez aussi les changements de périmètre. Une différence entre deux barres ne suffit pas à expliquer une politique.",
+      "target": ".chart-panel",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "paiements",
+      "title": "C.P. : les crédits de paiement",
+      "text": "Nous regardons les crédits de paiement. Ils servent à couvrir les paiements de l’année, y compris pour des engagements pris auparavant. Le type de crédits doit accompagner le montant que vous citez.",
+      "target": "#measure",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "engagements",
+      "title": "A.E. : les autorisations d’engagement",
+      "text": "Le parcours bascule en autorisations d’engagement. Les montants du tableau et du graphique changent. Les A.E. encadrent les engagements de dépenses, qui peuvent donner lieu à des paiements sur plusieurs années. Ne les additionnez pas aux C.P.",
+      "target": "#measure",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "AE"
+      }
+    },
+    {
+      "id": "precision",
+      "title": "L’unité change l’affichage",
+      "text": "Nous revenons aux crédits de paiement et affichons les euros. Le montant reste le même, seule l’unité de lecture change. Pour une citation précise, ouvrez la preuve ou utilisez l’export. La présentation en millions arrondit l’affichage et ne donne pas la précision du document d’origine.",
+      "target": "#unit",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP",
+        "unit": 1
+      }
+    },
+    {
+      "id": "origine",
+      "title": "Ouvrir la preuve du chiffre",
+      "text": "Avant de reprendre un chiffre dans une note, ouvrez sa preuve. Le parcours sélectionne le total des crédits de paiement proposés pour le programme 105 en 2027. Cette fenêtre permet de vérifier le montant exact et son rattachement.",
+      "target": "[data-total-proof='2027-PLF']",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "preuve",
+      "title": "Conserver la référence avec le montant",
+      "text": "La fenêtre est ouverte. Vérifiez l’année, le programme, les crédits de paiement et l’étape P.L.F. Conservez le document source et, lorsqu’elle est fournie, la page ou la ligne du tableau. Le montant seul ne suffit pas à rendre une citation vérifiable.",
+      "target": "#automatic-panel",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP",
+        "panel": "proof"
+      }
+    },
+    {
+      "id": "limites",
+      "title": "Reconnaître ce qui reste à vérifier",
+      "text": "Un astérisque indique un total partiel : seuls les postes renseignés sont additionnés. Le signe environ indique un arrondi dans la source. Une donnée absente n’est pas un zéro. Un écart documenté désigne une divergence à lire avec son explication, pas automatiquement une erreur de calcul.",
+      "target": "#reading-key",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "documents",
+      "title": "Comprendre ce que finance le poste",
+      "text": "Pour préparer une question ou un débat, le montant ne suffit pas toujours. Les documents budgétaires, notamment les projets annuels de performances, expliquent les actions et leurs objectifs. Le site propose une recherche par titre, dans le texte intégral ou par le sens, avec des filtres d’année et de format.",
+      "target": "#document-filters",
+      "state": {
+        "scope": "AA/105",
+        "view": "documents",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "recherche",
+      "title": "Retrouver le document de l’exemple",
+      "text": "Le parcours saisit un titre dans la recherche. Ouvrez le document pour vérifier le passage et le contexte avant de les citer.",
+      "target": "#documents",
+      "state": {
+        "scope": "AA/105",
+        "view": "documents",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP",
+        "search": "sample"
+      }
+    },
+    {
+      "id": "export",
+      "title": "Préparer une note réutilisable",
+      "text": "L’export du site conserve votre périmètre et les informations utiles à la traçabilité. Pour votre note, gardez l’année, le programme, A.E. ou C.P., l’étape budgétaire, l’unité et la source. La fenêtre présente les formats disponibles sur le site.",
+      "target": "#automatic-panel",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP",
+        "panel": "export"
+      }
+    },
+    {
+      "id": "fin",
+      "title": "Passer à votre propre dossier",
+      "text": "Vous pouvez maintenant retrouver une enveloppe, comparer les bonnes colonnes et conserver une preuve. Pour travailler sur votre propre sujet avec les données actualisées, ouvrez Nos Deniers. Le bouton Démo vous permet de revenir ici pour choisir un autre parcours ou rejouer une étape.",
+      "target": ".demo-tools a",
+      "state": {
+        "scope": "",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "source-origine",
+      "title": "Ouvrir la preuve du chiffre",
+      "text": "Avant de reprendre un chiffre dans une note, ouvrez sa preuve. Le parcours sélectionne le total des crédits de paiement proposés pour le programme 105 en 2027. Cette fenêtre permet de vérifier le montant exact et son rattachement.",
+      "target": "[data-total-proof='2027-PLF']",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "source-preuve",
+      "title": "Conserver la référence avec le montant",
+      "text": "La fenêtre est ouverte. Vérifiez l’année, le programme, les crédits de paiement et l’étape P.L.F. Conservez le document source et, lorsqu’elle est fournie, la page ou la ligne du tableau. Le montant seul ne suffit pas à rendre une citation vérifiable.",
+      "target": "#automatic-panel",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP",
+        "panel": "proof"
+      }
+    },
+    {
+      "id": "source-limites",
+      "title": "Reconnaître ce qui reste à vérifier",
+      "text": "Un astérisque indique un total partiel : seuls les postes renseignés sont additionnés. Le signe environ indique un arrondi dans la source. Une donnée absente n’est pas un zéro. Un écart documenté désigne une divergence à lire avec son explication, pas automatiquement une erreur de calcul.",
+      "target": "#reading-key",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "source-documents",
+      "title": "Comprendre ce que finance le poste",
+      "text": "Pour préparer une question ou un débat, le montant ne suffit pas toujours. Les documents budgétaires, notamment les projets annuels de performances, expliquent les actions et leurs objectifs. Le site propose une recherche par titre, dans le texte intégral ou par le sens, avec des filtres d’année et de format.",
+      "target": "#document-filters",
+      "state": {
+        "scope": "AA/105",
+        "view": "documents",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "source-recherche",
+      "title": "Retrouver le document de l’exemple",
+      "text": "Le parcours saisit un titre dans la recherche. Ouvrez le document pour vérifier le passage et le contexte avant de les citer.",
+      "target": "#documents",
+      "state": {
+        "scope": "AA/105",
+        "view": "documents",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP",
+        "search": "sample"
+      }
+    },
+    {
+      "id": "source-export",
+      "title": "Préparer une note réutilisable",
+      "text": "L’export du site conserve votre périmètre et les informations utiles à la traçabilité. Pour votre note, gardez l’année, le programme, A.E. ou C.P., l’étape budgétaire, l’unité et la source. La fenêtre présente les formats disponibles sur le site.",
+      "target": "#automatic-panel",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP",
+        "panel": "export"
+      }
+    },
+    {
+      "id": "source-fin",
+      "title": "Passer à votre propre dossier",
+      "text": "Vous pouvez maintenant retrouver une enveloppe, comparer les bonnes colonnes et conserver une preuve. Pour travailler sur votre propre sujet avec les données actualisées, ouvrez Nos Deniers. Le bouton Démo vous permet de revenir ici pour choisir un autre parcours ou rejouer une étape.",
+      "target": ".demo-tools a",
+      "state": {
+        "scope": "",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "execution-question",
+      "title": "Pourquoi le consommé diffère-t-il du voté ?",
+      "text": "Le Parlement vote des crédits, puis leur exécution se déroule pendant l’année. Pour préparer une question budgétaire, nous allons comparer le montant voté et le montant consommé, puis repérer les éléments à examiner avant d’interpréter leur différence.",
+      "target": "#page-title",
+      "state": {
+        "scope": "",
+        "view": "credits",
+        "start": 2023,
+        "end": 2024,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "execution-periode",
+      "title": "Choisir des exercices avec une exécution publiée",
+      "text": "Nous sélectionnons 2023 et 2024, deux années pour lesquelles cet exemple contient des montants votés et consommés. Le P.L.F. 2027 décrit une proposition de budget : il ne permet pas encore de juger les dépenses de cet exercice.",
+      "target": "#years",
+      "state": {
+        "scope": "",
+        "view": "credits",
+        "start": 2023,
+        "end": 2024,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "execution-programme",
+      "title": "Garder le même programme et le même type de crédits",
+      "text": "Dans la mission Action extérieure de l’État, nous retenons le programme 105. La comparaison portera sur les crédits de paiement de ce programme. Garder le même périmètre, la même année et le même type de crédits évite de comparer des montants qui ne décrivent pas la même chose.",
+      "target": "[data-scope='AA/105']",
+      "state": {
+        "scope": "AA",
+        "view": "credits",
+        "start": 2023,
+        "end": 2024,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "execution-comparer",
+      "title": "Comparer L.F.I. et consommé pour chaque année",
+      "text": "Pour chaque année, regardez la colonne L.F.I., puis la colonne Consommé. Elles correspondent aux crédits votés dans la loi initiale et aux dépenses exécutées. Leur différence est un point de départ pour une question. Elle ne démontre, à elle seule, ni une économie ni un abandon de politique publique.",
+      "target": "#credits-table",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2023,
+        "end": 2024,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "execution-mouvements",
+      "title": "Rechercher les mouvements intervenus pendant l’année",
+      "text": "Les crédits peuvent évoluer après le vote initial. Les reports, ouvertures, annulations et autres mouvements sont donc à examiner pour comprendre l’exécution. La rubrique Mouvements et réserves du site fournit les tableaux disponibles et leurs preuves.",
+      "target": "#movement-flow",
+      "state": {
+        "scope": "AA/105",
+        "view": "movements",
+        "start": 2023,
+        "end": 2024,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "execution-reserve",
+      "title": "Distinguer réserve et crédits non consommés",
+      "text": "Une réserve de précaution rend temporairement indisponible une partie des crédits. Elle peut évoluer pendant la gestion. Un montant non consommé ne signifie pas automatiquement qu’il a été gelé. Pour expliquer une différence, il faut examiner les mouvements, les réserves et les commentaires des documents sources.",
+      "target": "#movement-reserve-note",
+      "state": {
+        "scope": "AA/105",
+        "view": "movements",
+        "start": 2023,
+        "end": 2024,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "execution-sources",
+      "title": "Vérifier les limites avant de conclure",
+      "text": "Avant d’interpréter les montants, vérifiez leur couverture. Une donnée non disponible n’est pas un zéro, un total partiel ne couvre que les postes renseignés, et une divergence entre publications doit être lue avec son explication. Si une pièce manque, la question reste ouverte.",
+      "target": "#coverage-explanation",
+      "state": {
+        "scope": "AA/105",
+        "view": "coverage",
+        "start": 2023,
+        "end": 2024,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "execution-note",
+      "title": "Formuler une question précise et vérifiable",
+      "text": "Votre question peut maintenant préciser le programme, l’année et les crédits de paiement concernés : quels mouvements et quels éléments d’exécution expliquent la différence entre les crédits votés et consommés. Conservez les montants, leurs sources et les limites repérées. Le site aide à documenter la question ; les raisons doivent être vérifiées dans les pièces officielles.",
+      "target": "#credits-table",
+      "state": {
+        "scope": "AA/105",
+        "view": "credits",
+        "start": 2023,
+        "end": 2024,
+        "measure": "CP"
+      }
+    },
+    {
+      "id": "execution-fin",
+      "title": "Passer à votre propre dossier",
+      "text": "Pour travailler sur votre propre sujet, ouvrez Nos Deniers. Le bouton Démo vous permet de revenir ici pour choisir un autre parcours ou rejouer une étape.",
+      "target": ".demo-tools a",
+      "state": {
+        "scope": "",
+        "view": "credits",
+        "start": 2026,
+        "end": 2027,
+        "measure": "CP"
+      }
+    }
+  ]
+}

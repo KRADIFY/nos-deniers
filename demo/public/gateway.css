@@ -1,0 +1,13 @@
+.nd-demo-open,.nav a.companion-link{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;gap:7px;padding:10px 15px;border:1px solid transparent;border-radius:12px;background:linear-gradient(145deg,#ffc178,#f5a14c);color:#6c3918;box-shadow:0 3px 0 #dca871;cursor:pointer;font:700 12px/1.35 "Inter Display",Arial,sans-serif;white-space:nowrap;text-decoration:none}
+.nd-demo-open{margin-left:12px;margin-right:auto}
+.nd-demo-open:hover,.nav a.companion-link:hover{background:#f5a14c}
+.nd-demo-open:active,.nav a.companion-link:active{transform:translateY(2px);box-shadow:0 1px 0 #dca871}
+.nd-demo-open:focus-visible,.nav a.companion-link:focus-visible{outline:3px solid #bc6a27;outline-offset:4px}
+.nd-demo-open[aria-busy="true"]{cursor:progress}
+.nd-demo-layer{position:fixed;inset:0;z-index:2147483000;margin:0;padding:0;border:0;background:#f5f8fb}
+.nd-demo-layer[hidden]{display:none!important}
+.nd-demo-layer iframe{display:block;width:100%;height:100%;border:0;background:#f5f8fb}
+html.nd-demo-opened{overflow:hidden}
+@media(max-width:720px){.nd-demo-open{margin-left:4px}.nd-demo-open,.nav a.companion-link{padding:9px 11px}}
+
+.nd-demo-open:focus-visible{outline:none;text-decoration:none;filter:brightness(.92)}

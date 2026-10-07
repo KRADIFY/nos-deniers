@@ -1,0 +1,8 @@
+{
+  "published": true,
+  "file": "/opt/nos-deniers/presentations/budget-refinements.css",
+  "backup": "/opt/nos-deniers/presentations/cards-20261007/before.css",
+  "before_sha256": "65582307bcbb9bba07186641f7b00ad72abcc2bc6d3660144ac65bac17809c07",
+  "after_sha256": "0f91c25b521ea47b7e96d32d9e31e6d7279f98db85f5a89f6f4ee39b550b38ef",
+  "only_summary_card_colours_changed": true
+}

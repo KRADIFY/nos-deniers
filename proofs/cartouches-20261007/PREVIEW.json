@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "live": false,
+  "cards": [
+    {
+      "text": "Proposé en PLF · 2025\n594 036,4 M€\nCP · périmètre sélectionné",
+      "background": "linear-gradient(135deg, rgb(229, 238, 243), rgb(191, 209, 220))",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "colors": [
+        "rgb(8, 24, 63)",
+        "rgb(8, 24, 63)",
+        "rgb(8, 24, 63)",
+        "rgb(8, 24, 63)"
+      ]
+    },
+    {
+      "text": "Voté en LFI · 2025\n582 397,0 M€\nCP · périmètre sélectionné",
+      "background": "linear-gradient(135deg, rgb(49, 92, 120), rgb(23, 58, 85))",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "colors": [
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)"
+      ]
+    },
+    {
+      "text": "Consommé · 2025\n578 038,7 M€\nCP · périmètre sélectionné",
+      "background": "linear-gradient(135deg, rgb(221, 86, 91), rgb(198, 65, 72))",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "colors": [
+        "rgb(8, 24, 63)",
+        "rgb(8, 24, 63)",
+        "rgb(8, 24, 63)",
+        "rgb(8, 24, 63)"
+      ]
+    },
+    {
+      "text": "Consommé cumulé · 2023–2025\n≈ 1 754 907,6 M€\n3 exercices additionnés\nCe total comprend 1 écart documenté ",
+      "background": "none",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "colors": [
+        "rgb(8, 24, 63)",
+        "rgb(8, 24, 63)",
+        "rgb(8, 24, 63)",
+        "rgb(8, 24, 63)",
+        "rgb(8, 24, 63)"
+      ]
+    }
+  ],
+  "proof_popup": true,
+  "mobile": true,
+  "errors": []
+}

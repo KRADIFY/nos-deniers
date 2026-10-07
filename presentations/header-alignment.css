@@ -1,0 +1,28 @@
+/* Requested masthead alignment only; other header elements retain their styles. */
+body header.masthead:has(> .brand-punchline) { position: relative; }
+body header.masthead > .brand-punchline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 840px);
+  max-width: 500px;
+  margin: 0;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  body header.masthead:has(> .brand-punchline) {
+    height: auto;
+    min-height: 88px;
+    flex-wrap: wrap;
+  }
+  body header.masthead > .brand-punchline {
+    position: static;
+    transform: none;
+    order: 3;
+    flex: 1 0 100%;
+    width: 100%;
+    max-width: none;
+    padding: 0 0 9px;
+  }
+}

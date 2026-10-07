@@ -1,0 +1,86 @@
+{
+  "published": true,
+  "image": "nos-deniers-demo:20261007-voix-textes",
+  "previous_image": "nos-deniers-demo:20261006-three-journeys",
+  "backup": "/opt/nos-deniers-demo/updates/20261007-voix-textes/retry-http/before",
+  "files": {
+    "narration.json": "d9fa1938f66c8cd59f95126cc85e47029a66b1e7801c74e11e1d25ce7ad1b551",
+    "parcours.json": "a03372012f0cba698fa9bc60969a9ac1da806cf37baabc39584c30fc20ec7b7b",
+    "assets/narration/20261007/comparaison.mp3": "adc106b839930b2928791096a69ddd62a3c599dbfcebad7c8c15447958dd6d37",
+    "assets/narration/20261007/documents.mp3": "011097a02c159ea4eb757040812314c4a042e3592fb6875b184b188af1a1164d",
+    "assets/narration/20261007/engagements.mp3": "ac879c91bd46c8db5a3a4ac1b8fc4ce842d200001f79e221f38aaa69718981b5",
+    "assets/narration/20261007/execution-comparer.mp3": "46a32f4ca011c9163f7d462f50cbc822b5094ccd5a7b539d361c493881a1e8d4",
+    "assets/narration/20261007/execution-fin.mp3": "29ebbde3147d1fc6e28eec95733846d0456749fb7669715c4ee41a3ee3fc6f89",
+    "assets/narration/20261007/execution-mouvements.mp3": "12c094eb426e0124e4f1dc194c82f35516279f25f1d5b24467495ef5e951b015",
+    "assets/narration/20261007/execution-note.mp3": "cdc8e7d190e8a5c9ac8a7e7b4f8df0f7f5c187a3cdb34ae8a629e307f1aef19d",
+    "assets/narration/20261007/execution-periode.mp3": "bf76f16d47a6aad0ad89722f1fca2e287548fae0a00f53e3da2fdc87c2550747",
+    "assets/narration/20261007/execution-programme.mp3": "e9aba52df32070f2e5a8e5ab69e974cd5d259c9b3c87081185938b7008c8b96c",
+    "assets/narration/20261007/execution-question.mp3": "aee87a372a4a7010cc3cf51afc77718886ec82075e02740d714656496c38c41c",
+    "assets/narration/20261007/execution-reserve.mp3": "d62aeeb222faf51277919be94688d88d1adaf2e5b63d9b9c1a9071bc15a8b70f",
+    "assets/narration/20261007/execution-sources.mp3": "54ff32c9caff04cac21290962f5d408c9af50c9a93d6303461b012fdb87aab0a",
+    "assets/narration/20261007/export.mp3": "3966f5e7749aa2d1c4b761e178b572403481b494f9206b44a4026ceee02751a9",
+    "assets/narration/20261007/fin.mp3": "2b5172d0d63481f9498abc7112ebb229201cf90d1e4800051ca502ad648a44e3",
+    "assets/narration/20261007/limites.mp3": "51be44c895c39e708df326cfec20d903d70763925b1fea63405d233923300aab",
+    "assets/narration/20261007/mission.mp3": "22c865c9bcba2ab26bb767a4f57f290b1082b7c9f831761b54a7adea5cd0bbd4",
+    "assets/narration/20261007/objectif.mp3": "69bd992e2390005e62bf675cff5b85c91b2c598ec8e32c560ffb5a3ed1577658",
+    "assets/narration/20261007/origine.mp3": "a5ea0314a2881e258080ca0eb0bd2ae0e14c82134e6d2e560b59c80c9a3200d0",
+    "assets/narration/20261007/paiements.mp3": "f50fd48da9a80203325498e88d303b3aae98231417de2c30c298bcd4a572e8b4",
+    "assets/narration/20261007/periode.mp3": "27d8f4b312352e269e76647caf79bb0f5c3e75ae6db8b0bdc54dec16a7863a2a",
+    "assets/narration/20261007/precision.mp3": "856d302391fbe137830caee57c1e2daf3efbcc76b8c6215fa4671e5779e88787",
+    "assets/narration/20261007/preuve.mp3": "64f15885c366e44638560303f83ef2a2b1e8458f6d55047d5f36e596963e39da",
+    "assets/narration/20261007/programme.mp3": "8bd782de3ba7feb5a9bca44825f523c1a466175fcaa0356a4513f0a9b9d57506",
+    "assets/narration/20261007/proposition.mp3": "c35df18eaa82399f36202e97e5165d56d17ed61a818426ceb5378996b0753d8b",
+    "assets/narration/20261007/recherche.mp3": "3d3cb62358c8a96240db59d7e8734b6443c567d851835e87049ee930a8d8c5b9",
+    "assets/narration/20261007/source-documents.mp3": "e403be435a25b791b693723282d3f3eea258de248182b99182a0fcdcb754c169",
+    "assets/narration/20261007/source-export.mp3": "0b3e5acc5d19a65e801d815c5d4ebde07bb7a9accd7fffa2bd440b308aa28a61",
+    "assets/narration/20261007/source-fin.mp3": "e8af329baa182ef82c702f1b6d588b961abd856931309b5702f4d8697072681a",
+    "assets/narration/20261007/source-limites.mp3": "eb23d556227dd7a10968043e5499179b1c581bcb8aa108a860126d5c9f09f3d4",
+    "assets/narration/20261007/source-origine.mp3": "a106295f210f6cf4a6c72e7cd506b27ec4e9cc408cda69df02fe0d72b986c0ee",
+    "assets/narration/20261007/source-preuve.mp3": "3ab75f182012ff46a0c1633f31ae5b0a0426f6761a444d70f45c63e787b9cf2b",
+    "assets/narration/20261007/source-recherche.mp3": "0622105f898a3a9257bc4fc1e63a787857a6bdaceaaef08fc6819cdbd2f78a8d"
+  },
+  "changed_existing_assets": [
+    "parcours.json",
+    "narration.json"
+  ],
+  "new_audio_files": 32,
+  "all_other_assets_identical": true,
+  "other_containers_unchanged": true,
+  "financial_data_versions_unchanged": true,
+  "readiness": "HTTP response plus all 34 public asset hashes; existing Docker probe unchanged",
+  "docker_health_before": {
+    "Status": "healthy",
+    "FailingStreak": 0,
+    "Log": [
+      {
+        "Start": "2026-10-07T16:24:36.041533461+02:00",
+        "End": "2026-10-07T16:24:41.724849366+02:00",
+        "ExitCode": -1,
+        "Output": "Health check exceeded timeout (5s)"
+      },
+      {
+        "Start": "2026-10-07T16:25:11.728315811+02:00",
+        "End": "2026-10-07T16:25:17.167029666+02:00",
+        "ExitCode": -1,
+        "Output": "Health check exceeded timeout (5s)"
+      },
+      {
+        "Start": "2026-10-07T16:25:47.167779311+02:00",
+        "End": "2026-10-07T16:25:52.827802522+02:00",
+        "ExitCode": -1,
+        "Output": "Health check exceeded timeout (5s)"
+      },
+      {
+        "Start": "2026-10-07T16:26:22.830629373+02:00",
+        "End": "2026-10-07T16:26:28.01073983+02:00",
+        "ExitCode": 0,
+        "Output": ""
+      }
+    ]
+  },
+  "docker_health_after": {
+    "Status": "starting",
+    "FailingStreak": 0,
+    "Log": []
+  }
+}

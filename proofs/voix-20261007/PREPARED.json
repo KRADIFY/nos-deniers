@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "recorded_steps": 32,
+  "journeys": 3,
+  "sources": [
+    {
+      "file": "PLF 01.wav",
+      "sha256": "308f920721cc334d37f57e03c77d94b8a99f99ae855c55a1404f216b0ec4f91c",
+      "duration": 227.57877083333332,
+      "channels": 2,
+      "sample_rate": 48000,
+      "journey": "complet"
+    },
+    {
+      "file": "PLF 02.wav",
+      "sha256": "f601ddb24fd0bf41cbfc878d00527c21b338e2d1f6b064e84bc9176d2bd91b3d",
+      "duration": 114.63691666666666,
+      "channels": 2,
+      "sample_rate": 48000,
+      "journey": "source"
+    },
+    {
+      "file": "PLF 03.wav",
+      "sha256": "604cb49cb18a9a99319b268ba7d66ab610e441186e32e0c79d1c79043a8e3f1d",
+      "duration": 142.40797916666668,
+      "channels": 2,
+      "sample_rate": 48000,
+      "journey": "execution"
+    }
+  ],
+  "word_cuts": 0,
+  "full_source_timelines_preserved": true,
+  "old_public_assets_untouched": true,
+  "main_site_modified": false,
+  "published": false
+}

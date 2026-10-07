@@ -47,7 +47,7 @@ def explain(rows, result, prior, scope=None):
     if not prior:
         prior=dict(status=result['status'],title='Source et périmètre du montant',summary='',details=[],
                    references=[],contacts=[],request_text='',known_components=[],contextual_amounts=[])
-    prior['checked_at']='2026-09-28'
+    prior['checked_at']=max(str(r.get('checked_at') or r.get('reviewed_at') or '2026-09-28')[:10] for r in rows)
     if exact:
         r=rows[0]
         prior['summary']=r['explanation']

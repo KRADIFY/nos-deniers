@@ -1,0 +1,2 @@
+# Deployment backup: retain exact source bytes for the SHA-256 manifest.
+* -text

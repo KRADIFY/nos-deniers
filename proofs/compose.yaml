@@ -1,7 +1,7 @@
 name: nos-deniers-public
 
 x-web: &web
-  image: lexmachine-budget:20261003-recherche-120s
+  image: lexmachine-budget:20261005-complements-5401
   pull_policy: never
   init: true
   user: "10001:10001"
@@ -53,7 +53,7 @@ services:
     volumes:
       - /opt/nos-deniers/releases/20260929-optimisation/search:/search:ro
       - /opt/nos-deniers/releases/20261002-documents/search-supplement:/search-supplement:ro
-      - /opt/nos-deniers/releases/20260929-optimisation/search-supplement2:/search-supplement2:ro
+      - /opt/nos-deniers/releases/20261006-cour-vectorisation/search-supplement2:/search-supplement2:ro
     healthcheck:
       test: [CMD, python, -c, "import json,urllib.request; assert json.load(urllib.request.urlopen('http://127.0.0.1:8090/healthz', timeout=8))['available']"]
       interval: 30s

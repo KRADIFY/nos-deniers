@@ -76,30 +76,53 @@ def main():
     pap2026={}
     if meta.get('pap2026_national'):
         pap=meta['pap2026_national']
-        pap_facts=db.execute("SELECT count(*) FROM facts WHERE year=2026 AND budget='BG' AND stage IN ('PLF','FDC_PREVU') AND action='' AND subaction=''").fetchone()[0]
-        assert pap_facts==pap['observations']==372
-        assert db.execute("SELECT count(*) FROM facts WHERE year=2026 AND budget='BG' AND stage IN ('PLF','FDC_PREVU') AND cents<=0").fetchone()[0]==0
-        assert db.execute("SELECT count(*) FROM facts WHERE year=2026 AND mission='TA' AND program='362' AND stage IN ('PLF','FDC_PREVU')").fetchone()[0]==0
+        # The 5401 review adds explicitly printed zeros and new PLF sources.
+        # Preserve the exact historical rows; validate additions against an immutable plan.
+        plan_path=Path(__file__).parent/'data/integration-5401-plf-plan.json'
+        assert file_digest(plan_path)=='5f71a0057012cc9cd493910bbbef6323b3f7c7f43a184c08e14a40f33f39ee2a', 'PLF 5401 plan differs from reviewed payload'
+        plan=json.loads(plan_path.read_text(encoding='utf-8'))
+        assert plan['baseline_database_sha256']=='c4911e75d0c05fce9c4494b85cc99ed142222a9101bd1ffe3a25bd36962f06f6'
+        assert pap==plan['baseline_pap2026_metadata'], 'Historical PAP2026 metadata changed'
+        fields=plan['fact_fields'];key_fields=plan['fact_key_fields']
+        legacy=plan['legacy_pap2026_bg_rows']
+        assert len(legacy)==pap['observations']==372
+        def exact_plan_row(expected):
+            found=db.execute('SELECT '+','.join(fields)+' FROM facts WHERE '+
+                ' AND '.join(k+'=?' for k in key_fields),tuple(expected[k] for k in key_fields)).fetchall()
+            assert len(found)==1 and tuple(found[0])==tuple(expected[k] for k in fields), expected
+        for expected in legacy:exact_plan_row(expected)
+        for expected in plan['new_rows']:exact_plan_row(expected)
+        expected_plf=sorted(tuple(r[k] for k in fields) for r in plan['existing_2026_plf_rows']+plan['new_rows'])
+        actual_plf=sorted(tuple(r) for r in db.execute('SELECT '+','.join(fields)+" FROM facts WHERE year=2026 AND stage='PLF'"))
+        assert actual_plf==expected_plf, 'PLF2026 facts differ from the legacy and reviewed addition plan'
+        assert len(plan['new_rows'])==119 and len({tuple(r[k] for k in key_fields) for r in plan['new_rows']})==119
+        proofs={(item['id'],proof['field']):proof for item in plan['evidence'] for proof in item['proofs']}
+        for expected in plan['new_rows']:
+            identifier=expected['field'].rsplit(' · ',1)[-1]
+            proof=proofs[(identifier,expected['measure'])]
+            assert proof['source_id']==expected['source'] and proof['page']==expected['line']
+            assert proof['value_eur']*100==expected['cents']
+            if expected['cents']==0:assert proof['explicit_published_zero'] is True
+        assert sum(r['cents']==0 for r in plan['new_rows'])==47
+        for source in plan['new_sources']:check_source(source['id'],source['sha256'])
         duplicates=db.execute("""SELECT count(*) FROM (
             SELECT year,stage,measure,budget,mission,program,count(*) n FROM facts
             WHERE year=2026 AND budget='BG' AND stage IN ('PLF','FDC_PREVU') AND action='' AND subaction=''
             GROUP BY year,stage,measure,budget,mission,program HAVING n>1)""").fetchone()[0]
         assert duplicates==0
-        source_pairs=list(db.execute("SELECT DISTINCT mission,source FROM facts WHERE year=2026 AND budget='BG' AND stage IN ('PLF','FDC_PREVU')"))
+        source_pairs=sorted({(r['mission'],r['source']) for r in legacy})
         assert len(source_pairs)==pap['missions']==32
-        for mission,identifier in source_pairs:
-            stored=db.execute('SELECT data FROM sources WHERE id=?',(identifier,)).fetchone()
-            assert stored,(mission,identifier)
-            source=json.loads(stored[0])
-            digest=hashlib.sha256((DATA/source['path']).read_bytes()).hexdigest()
-            assert digest==source['sha256']==pap['sources'][mission],mission
+        for mission,identifier in source_pairs:check_source(identifier,pap['sources'][mission])
+        pap_facts=db.execute("SELECT count(*) FROM facts WHERE year=2026 AND budget='BG' AND stage IN ('PLF','FDC_PREVU') AND action='' AND subaction=''").fetchone()[0]
         rollups=list(db.execute("SELECT stage,measure,path,cents FROM reconciled_totals WHERE year=2026 AND budget='BG' AND stage IN ('PLF','FDC_PREVU')"))
         assert len(rollups)==pap['mission_totals_checked']==110
         for stage,measure,mission,total in rollups:
             actual=db.execute("""SELECT sum(cents) FROM facts WHERE year=2026 AND budget='BG'
                 AND stage=? AND measure=? AND mission=? AND action='' AND subaction=''""",(stage,measure,mission)).fetchone()[0]
             assert actual==total,(mission,stage,measure,actual,total)
-        pap2026={'sources_verified':len(source_pairs),'observations':pap_facts,
+        pap2026={'sources_verified':len(source_pairs)+len(plan['new_sources']),'observations':pap_facts,
+                 'legacy_observations_verified':len(legacy),'reviewed_plf_additions':len(plan['new_rows']),
+                 'reviewed_plf_plan_sha256':file_digest(plan_path),
                  'programme_checks':pap['programmes_checked'],'mission_totals':len(rollups),
                  'blank_cells_converted_to_zero':False,'duplicate_programme_facts':duplicates}
     # Independently re-check the derived national RAP action registry. It does not

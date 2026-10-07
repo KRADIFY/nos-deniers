@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Découvrir Nos Deniers · Démo interactive</title>
+  <link rel="icon" href="assets/nos-deniers-icone.svg">
+  <link rel="stylesheet" href="assets/explorer.css">
+  <link rel="stylesheet" href="vendor/driver.css">
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="floating-ui.css">
+  <script src="vendor/driver.js" defer></script>
+  <script src="player.js" defer></script>
+  <script src="recorded-voice.js" defer></script>
+  <script src="popover-layout.js" defer></script>
+  <script src="demo.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Aller à la démonstration</a>
+<button id="exit-demo" class="demo-exit" type="button" aria-label="Arrêter la démonstration et consulter la page"><span aria-hidden="true">■</span> Stop démo</button>
+<div id="demo-player" class="demo-toolbar" aria-label="Lecteur de la démonstration">
+  <div class="player-display"><div class="tape-reels" aria-hidden="true"><i></i><span></span><i></i></div><div class="player-track"><span class="demo-badge"><i class="player-led" aria-hidden="true"></i> VISITE GUIDÉE</span><span id="player-status" class="demo-toolbar-copy" role="status">Choisissez un parcours, puis lancez la lecture.</span><progress id="tour-progress" value="0" max="16" aria-label="Progression du parcours"></progress></div></div>
+  <div class="demo-tools"><button id="previous" class="demo-button ghost" aria-label="Étape précédente" disabled>⏮</button><button id="start-tour" class="demo-button" aria-label="Lire le parcours" disabled>▶ Lecture</button><button id="pause" class="demo-button ghost" aria-label="Mettre en pause" disabled>⏸ Pause</button><button id="stop" class="demo-button ghost" aria-label="Arrêter et revenir au début" disabled>⏹ Stop</button><button id="next" class="demo-button ghost" aria-label="Étape suivante" disabled>⏭</button><button id="voice" class="demo-button ghost" aria-pressed="true">Voix : oui</button><button id="chapters" class="demo-button ghost" disabled>Parcours</button><a href="https://budget.lexmachine.net/" target="_blank" rel="noopener noreferrer">Ouvrir le site ↗</a></div>
+</div>
+<section id="welcome" class="demo-welcome" aria-labelledby="welcome-title"><div class="welcome-heading"><span class="eyebrow">VOTRE VISITE GUIDÉE</span><h1 id="welcome-title">Par où voulez-vous commencer ?</h1><p>Choisissez un parcours. Regardez, écoutez, explorez.</p><p class="sr-only">Regardez les filtres et les tableaux évoluer, écoutez les explications et faites une pause quand vous le souhaitez. La visite utilise une copie datée de Nos Deniers.</p></div><div id="journeys" class="demo-journeys"></div><p id="voice-status" class="demo-voice-status" role="status">Les explications restent visibles pendant la lecture.</p></section>
+<header class="masthead">
+  <a href="./" class="brand" aria-label="Accueil de la démonstration"><img src="assets/nos-deniers-horizontal.svg" alt="Nos Deniers" width="290" height="100"><span class="brand-tagline">Du budget voté à l’euro dépensé</span></a>
+  <button id="reopen-demo" class="demo-reopen" type="button" aria-controls="welcome demo-player" aria-expanded="true"><span aria-hidden="true">▶</span> Démo</button>
+  <p class="brand-punchline"><strong>Comprendre les chiffres. Retrouver leurs sources.</strong><span>Une visite guidée des principales fonctions du site.</span></p>
+  <span class="demo-edition">ESPACE DE DÉMONSTRATION</span>
+</header>
+<nav class="nav" aria-label="Rubriques de démonstration">
+  <button type="button" data-view="credits" class="active">Tableau des crédits</button>
+  <button type="button" data-view="movements">Mouvements et réserves</button>
+  <button type="button" data-view="documents">Rapports et documents</button>
+  <button type="button" data-view="coverage">Sources et couverture</button>
+</nav>
+<div class="workspace">
+<aside class="sidebar" aria-label="Filtres de l’exemple">
+  <div class="aside-heading"><span class="eyebrow">VOTRE PÉRIMÈTRE</span><button id="reset" class="text-button" type="button">Réinitialiser</button></div>
+  <label for="budget">Budget</label><select id="budget" disabled aria-describedby="scope-limit"><option>Budget général</option></select>
+  <label for="start">Années comparées</label><div class="years" id="years"><select id="start" aria-label="Première année"></select><span>à</span><select id="end" aria-label="Dernière année"></select></div>
+  <label>Type de crédits</label><div class="segmented" id="measure" role="group" aria-label="Type de crédits"><button type="button" data-measure="CP" class="active" aria-pressed="true">CP</button><button type="button" data-measure="AE" aria-pressed="false">AE</button></div>
+  <p class="hint" id="measure-help">Crédits de paiement : suivre les dépenses de l’année.</p>
+  <label for="unit">Unité d’affichage</label><select id="unit"><option value="1000000">Millions d’euros (M€)</option><option value="1000000000">Milliards d’euros (Md€)</option><option value="1">Euros (€)</option></select>
+  <div class="aside-section demo-scope-note"><h2>Un exemple pour essayer</h2><p id="scope-limit">Le parcours détaille la mission « Action extérieure de l’État », puis le programme 105. Les années de cet exemple vont de 2023 à 2027.</p><p id="snapshot-date">Chargement de l’exemple…</p><p>Les montants sont une copie datée du site. Pour les données actualisées et les autres périmètres, ouvrez Nos Deniers.</p></div>
+</aside>
+<main id="main" tabindex="-1">
+  <div id="demo-error" role="alert" class="notice error" hidden></div>
+  <div class="page-heading"><div><span class="eyebrow">EXPLORATEUR BUDGÉTAIRE</span><h1 id="page-title">Évolution des crédits de l’État.</h1><p id="subtitle">Comparez ce qui a été proposé, voté et consommé.</p></div><button id="export" class="primary" type="button">Exporter les données ↓</button></div>
+  <aside class="reading-key" id="reading-key" aria-label="Comment lire les chiffres"><strong>Lire les chiffres</strong><span><b>* Total partiel</b> : seuls les postes renseignés sont additionnés</span><span><b>≈</b> Valeur arrondie dans la source</span><span>Une donnée manquante ne vaut pas zéro.</span></aside>
+  <section id="credits-view">
+    <div id="breadcrumbs" class="breadcrumbs" aria-label="Périmètre de l’exemple"></div>
+    <div class="scope-heading"><h2 id="scope-title">Ensemble des missions</h2><span class="pill">Euros courants</span></div>
+    <section class="panel chart-panel"><div class="panel-heading"><div><h2>Du proposé au consommé</h2><p id="chart-caption" class="hint"></p></div><div class="legend"><span class="plf">PLF</span><span class="lfi">LFI</span><span class="exec">Consommé</span></div></div><div id="chart"></div></section>
+    <section class="panel table-panel"><div class="panel-heading"><div><div class="table-level-nav"><button id="level-up" class="level-arrow" aria-label="Remonter au niveau précédent" type="button" disabled>‹</button><h2 id="table-title">Les missions, en détail</h2></div><p class="hint">Ouvrez la mission Action extérieure de l’État, puis le programme 105. Cliquez sur un montant pour voir ses références.</p></div><label class="search"><span class="sr-only">Rechercher dans les lignes</span><input id="row-search" type="search" placeholder="Rechercher un poste…"></label></div>
+      <div class="table-scroll" tabindex="0" aria-label="Tableau de démonstration"><table id="credits-table"></table></div>
+      <p class="table-note">Extrait pédagogique daté. Les totaux reproduisent ceux du site pour le périmètre indiqué ; aucun montant manquant n’est remplacé par zéro.</p>
+    </section>
+  </section>
+  <section id="movements-view" hidden><section class="panel demo-explanation" id="movement-explanation"><span class="eyebrow">SUIVRE LA VIE DES CRÉDITS</span><h2>Du budget voté aux crédits disponibles</h2><div class="demo-flow" id="movement-flow"><span>Crédits votés</span><b>→</b><span>Mouvements de gestion</span><b>→</b><span>Crédits ouverts</span><b>→</b><span>Crédits consommés</span></div><p>Sur le site, cette rubrique présente les reports, ouvertures et annulations, les fonds de concours et les réserves de précaution, selon les données disponibles.</p><p id="movement-reserve-note">Les réserves et les mouvements disposent de leurs propres preuves. Un crédit non consommé n’est pas nécessairement un crédit gelé.</p><p class="hint">Ce schéma explique la lecture. Les tableaux détaillés de mouvements ne sont pas reproduits dans cette démo.</p></section></section>
+  <section id="documents-view" hidden><section class="panel"><div class="panel-heading"><div><h2>La bibliothèque budgétaire</h2><p class="hint">Un document de l’exemple est conservé ici pour expliquer la recherche.</p></div></div><div class="document-filters" id="document-filters"><label class="search"><span class="sr-only">Rechercher dans l’exemple</span><input id="doc-search" type="search" placeholder="Rechercher le document de l’exemple…"></label><button class="secondary" id="doc-submit">Rechercher</button></div><div id="documents"></div><p class="table-note">Sur Nos Deniers, vous pouvez rechercher par titre, dans le texte intégral ou par le sens, et filtrer les documents par année et format.</p></section></section>
+  <section id="coverage-view" hidden><section class="panel demo-explanation" id="coverage-explanation"><span class="eyebrow">SOURCES ET LIMITES</span><h2>Savoir ce qui est disponible</h2><p>Le site distingue les documents collectés, les montants intégrés et les niveaux de détail accessibles. La présence d’un PDF ne signifie pas que tous ses tableaux sont intégrés.</p><dl><dt>Un zéro</dt><dd>Un montant nul établi par la source ou par un calcul documenté.</dd><dt>Données non disponibles</dt><dd>Une valeur absente ou un détail qui ne peut pas être isolé avec les sources disponibles.</dd><dt>Total partiel *</dt><dd>Seuls les postes renseignés sont additionnés.</dd><dt>Écart documenté</dt><dd>Une différence entre publications, à lire avec son explication.</dd></dl></section></section>
+  <p id="demo-status" class="demo-status" role="status" aria-live="polite"></p>
+  <section id="automatic-panel" class="demo-auto-panel panel" hidden aria-labelledby="automatic-title"><div class="dialog-head"><div><span class="eyebrow">EXEMPLE DE FENÊTRE DU SITE</span><h2 id="automatic-title"></h2></div></div><div id="automatic-content"></div></section>
+  <footer><span>Nos Deniers · Démonstration indépendante</span><button class="text-button" id="restart-bottom">Reprendre la visite guidée</button></footer>
+</main>
+</div>
+<dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><div><span class="eyebrow">DÉMONSTRATION</span><h2 id="dialog-title"></h2></div><button id="close-dialog" aria-label="Fermer" type="button">×</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>

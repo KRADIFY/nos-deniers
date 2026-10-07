@@ -1,0 +1,1073 @@
+{
+  "passed": true,
+  "live": true,
+  "decoded": [
+    {
+      "id": "objectif",
+      "duration": 13.43,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "periode",
+      "duration": 9.15,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "mission",
+      "duration": 12.74,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "programme",
+      "duration": 13.13,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "proposition",
+      "duration": 16.78,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "comparaison",
+      "duration": 16.25,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "paiements",
+      "duration": 10.79,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "engagements",
+      "duration": 12.81,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "precision",
+      "duration": 16.36,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "origine",
+      "duration": 13.36,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "preuve",
+      "duration": 14.81,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "limites",
+      "duration": 16.9,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "documents",
+      "duration": 18.42,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "recherche",
+      "duration": 7.49,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "export",
+      "duration": 15.51,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "fin",
+      "duration": 19.648770833333334,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "source-origine",
+      "duration": 15.61,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "source-preuve",
+      "duration": 15.45,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "source-limites",
+      "duration": 17.74,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "source-documents",
+      "duration": 18.47,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "source-recherche",
+      "duration": 7.8,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "source-export",
+      "duration": 15.09,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "source-fin",
+      "duration": 24.476916666666668,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "execution-question",
+      "duration": 14.98,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "execution-periode",
+      "duration": 14.34,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "execution-programme",
+      "duration": 15.27,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "execution-comparer",
+      "duration": 17.16,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "execution-mouvements",
+      "duration": 13.13,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "execution-reserve",
+      "duration": 15.76,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "execution-sources",
+      "duration": 16.22,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "execution-note",
+      "duration": 18.85,
+      "channels": 2,
+      "sampleRate": 48000
+    },
+    {
+      "id": "execution-fin",
+      "duration": 16.697979166666666,
+      "channels": 2,
+      "sampleRate": 48000
+    }
+  ],
+  "steps": [
+    {
+      "journey": "complet",
+      "id": "objectif",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/objectif.mp3",
+      "geometry": {
+        "top": 269,
+        "bottom": 532.46875,
+        "left": 277,
+        "right": 657,
+        "height": 263.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "periode",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/periode.mp3",
+      "geometry": {
+        "top": 395,
+        "bottom": 612.28125,
+        "left": 15,
+        "right": 395,
+        "height": 217.28125,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "mission",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/mission.mp3",
+      "geometry": {
+        "top": 444.984375,
+        "bottom": 708.453125,
+        "left": 322,
+        "right": 702,
+        "height": 263.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "programme",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/programme.mp3",
+      "geometry": {
+        "top": 544.40625,
+        "bottom": 807.875,
+        "left": 323.1875,
+        "right": 703.1875,
+        "height": 263.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "proposition",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/proposition.mp3",
+      "geometry": {
+        "top": 566.5625,
+        "bottom": 830.03125,
+        "left": 174,
+        "right": 554,
+        "height": 263.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "comparaison",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/comparaison.mp3",
+      "geometry": {
+        "top": 357.875,
+        "bottom": 671.4375,
+        "left": 277,
+        "right": 657,
+        "height": 313.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "paiements",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/paiements.mp3",
+      "geometry": {
+        "top": 87,
+        "bottom": 327.375,
+        "left": 15,
+        "right": 395,
+        "height": 240.375,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "engagements",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/engagements.mp3",
+      "geometry": {
+        "top": 87,
+        "bottom": 377.46875,
+        "left": 15,
+        "right": 395,
+        "height": 290.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "precision",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/precision.mp3",
+      "geometry": {
+        "top": 219.875,
+        "bottom": 506.4375,
+        "left": 15,
+        "right": 395,
+        "height": 286.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "origine",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/origine.mp3",
+      "geometry": {
+        "top": 320.34375,
+        "bottom": 583.8125,
+        "left": 1046,
+        "right": 1426,
+        "height": 263.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "preuve",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/preuve.mp3",
+      "geometry": {
+        "top": 314.765625,
+        "bottom": 605.234375,
+        "left": 373,
+        "right": 753,
+        "height": 290.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": true
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "limites",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/limites.mp3",
+      "geometry": {
+        "top": 366.1875,
+        "bottom": 652.75,
+        "left": 277,
+        "right": 657,
+        "height": 286.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "documents",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/documents.mp3",
+      "geometry": {
+        "top": 125.8125,
+        "bottom": 439.375,
+        "left": 278,
+        "right": 658,
+        "height": 313.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "recherche",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/recherche.mp3",
+      "geometry": {
+        "top": 254.59375,
+        "bottom": 498.875,
+        "left": 278,
+        "right": 658,
+        "height": 244.28125,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "export",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/export.mp3",
+      "geometry": {
+        "top": 335.140625,
+        "bottom": 598.609375,
+        "left": 373,
+        "right": 753,
+        "height": 263.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": true
+      }
+    },
+    {
+      "journey": "complet",
+      "id": "fin",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/fin.mp3",
+      "geometry": {
+        "top": 549.4375,
+        "bottom": 836,
+        "left": 565.5,
+        "right": 945.5,
+        "height": 286.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": true
+      }
+    },
+    {
+      "journey": "source",
+      "id": "source-origine",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/source-origine.mp3",
+      "geometry": {
+        "top": 523.3125,
+        "bottom": 786.78125,
+        "left": 984.546875,
+        "right": 1364.546875,
+        "height": 263.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "source",
+      "id": "source-preuve",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/source-preuve.mp3",
+      "geometry": {
+        "top": 314.765625,
+        "bottom": 605.234375,
+        "left": 373,
+        "right": 753,
+        "height": 290.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": true
+      }
+    },
+    {
+      "journey": "source",
+      "id": "source-limites",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/source-limites.mp3",
+      "geometry": {
+        "top": 366.1875,
+        "bottom": 652.75,
+        "left": 277,
+        "right": 657,
+        "height": 286.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "source",
+      "id": "source-documents",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/source-documents.mp3",
+      "geometry": {
+        "top": 125.8125,
+        "bottom": 439.375,
+        "left": 278,
+        "right": 658,
+        "height": 313.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "source",
+      "id": "source-recherche",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/source-recherche.mp3",
+      "geometry": {
+        "top": 254.59375,
+        "bottom": 498.875,
+        "left": 278,
+        "right": 658,
+        "height": 244.28125,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "source",
+      "id": "source-export",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/source-export.mp3",
+      "geometry": {
+        "top": 335.140625,
+        "bottom": 598.609375,
+        "left": 373,
+        "right": 753,
+        "height": 263.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": true
+      }
+    },
+    {
+      "journey": "source",
+      "id": "source-fin",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/source-fin.mp3",
+      "geometry": {
+        "top": 549.4375,
+        "bottom": 836,
+        "left": 565.5,
+        "right": 945.5,
+        "height": 286.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": true
+      }
+    },
+    {
+      "journey": "execution",
+      "id": "execution-question",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/execution-question.mp3",
+      "geometry": {
+        "top": 269,
+        "bottom": 559.46875,
+        "left": 277,
+        "right": 657,
+        "height": 290.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "execution",
+      "id": "execution-periode",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/execution-periode.mp3",
+      "geometry": {
+        "top": 395,
+        "bottom": 685.46875,
+        "left": 15,
+        "right": 395,
+        "height": 290.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "execution",
+      "id": "execution-programme",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/execution-programme.mp3",
+      "geometry": {
+        "top": 202.5,
+        "bottom": 516.0625,
+        "left": 323.1875,
+        "right": 703.1875,
+        "height": 313.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "execution",
+      "id": "execution-comparer",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/execution-comparer.mp3",
+      "geometry": {
+        "top": 522.4375,
+        "bottom": 836,
+        "left": 530,
+        "right": 910,
+        "height": 313.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "execution",
+      "id": "execution-mouvements",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/execution-mouvements.mp3",
+      "geometry": {
+        "top": 391.109375,
+        "bottom": 681.578125,
+        "left": 304,
+        "right": 684,
+        "height": 290.46875,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "execution",
+      "id": "execution-reserve",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/execution-reserve.mp3",
+      "geometry": {
+        "top": 493.109375,
+        "bottom": 829.765625,
+        "left": 304,
+        "right": 684,
+        "height": 336.65625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "execution",
+      "id": "execution-sources",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/execution-sources.mp3",
+      "geometry": {
+        "top": 522.4375,
+        "bottom": 836,
+        "left": 277,
+        "right": 657,
+        "height": 313.5625,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "execution",
+      "id": "execution-note",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/execution-note.mp3",
+      "geometry": {
+        "top": 476.25,
+        "bottom": 836,
+        "left": 530,
+        "right": 910,
+        "height": 359.75,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": false
+      }
+    },
+    {
+      "journey": "execution",
+      "id": "execution-fin",
+      "text_matches_word": true,
+      "audio": "/assets/narration/20261007/execution-fin.mp3",
+      "geometry": {
+        "top": 618.71875,
+        "bottom": 836,
+        "left": 565.5,
+        "right": 945.5,
+        "height": 217.28125,
+        "playerTop": 850,
+        "overlap": false,
+        "scrollX": false,
+        "scrollY": true
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "width": 800,
+      "id": "objectif",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "periode",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "mission",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "programme",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "proposition",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "comparaison",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "paiements",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "engagements",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "precision",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "origine",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "preuve",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "limites",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "documents",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "recherche",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "export",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "fin",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "source-origine",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "source-preuve",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "source-limites",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "source-documents",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "source-recherche",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "source-export",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "source-fin",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "execution-question",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "execution-periode",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "execution-programme",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "execution-comparer",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "execution-mouvements",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "execution-reserve",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "execution-sources",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "execution-note",
+      "passed": true
+    },
+    {
+      "width": 800,
+      "id": "execution-fin",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "objectif",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "periode",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "mission",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "programme",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "proposition",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "comparaison",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "paiements",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "engagements",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "precision",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "origine",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "preuve",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "limites",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "documents",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "recherche",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "export",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "fin",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "source-origine",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "source-preuve",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "source-limites",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "source-documents",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "source-recherche",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "source-export",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "source-fin",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "execution-question",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "execution-periode",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "execution-programme",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "execution-comparer",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "execution-mouvements",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "execution-reserve",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "execution-sources",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "execution-note",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "id": "execution-fin",
+      "passed": true
+    }
+  ],
+  "controls": [
+    "pause/resume preserves recording position",
+    "next/previous selects correct file and cancels old audio",
+    "speaker mutes and restores supplied recording",
+    "stop cancels audio and returns to journey choices"
+  ],
+  "errors": []
+}

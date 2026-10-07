@@ -1,0 +1,26 @@
+const {chromium}=require('C:/Users/Jean-Christophe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const folder=__dirname,live=process.argv.includes('--live');
+const css=path.resolve(folder,'../../../nos-deniers-demo/public/budget-refinements.css');
+const url='https://budget.lexmachine.net/?demo=off&start=2023&end=2025';
+(async()=>{const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+try{
+ const context=await browser.newContext({viewport:{width:1900,height:1100},extraHTTPHeaders:{DNT:'1'}});
+ await context.route('**/activity/**',r=>r.fulfill({status:204,body:''}));
+ if(!live)await context.route('**/presentation/budget-refinements.css*',r=>r.fulfill({path:css,contentType:'text/css'}));
+ const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(url);await page.waitForFunction(()=>document.querySelectorAll('#summary .metric').length===4&&document.documentElement.classList.contains('nd-modern'));
+ await page.getByText('Calcul et affichage des résultats en cours',{exact:true}).waitFor({state:'hidden'});
+ const cards=await page.locator('#summary .metric').evaluateAll(es=>es.map(e=>({text:e.innerText,background:getComputedStyle(e).backgroundImage,backgroundColor:getComputedStyle(e).backgroundColor,colors:[...e.querySelectorAll('span,strong,small,button')].map(x=>getComputedStyle(x).color)})));
+ assert(cards[0].background.includes('191, 209, 220'));assert(cards[1].background.includes('23, 58, 85'));assert(cards[2].background.includes('198, 65, 72'));assert.equal(cards[3].background,'none');assert.equal(cards[3].backgroundColor,'rgb(255, 255, 255)');
+ for(let i=0;i<4;i++)assert(cards[i].colors.every(c=>c===(i===1?'rgb(255, 255, 255)':'rgb(8, 24, 63)')),JSON.stringify(cards[i]));
+ await page.locator('#summary').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(folder,live?'live.png':'preview.png')});
+ const table=await page.locator('#credits-table').innerText();
+ await page.locator('[data-cumulative-discrepancies]').click();await page.waitForTimeout(150);assert(await page.locator('dialog[open], [role="dialog"]:visible').count()>0,'Cumulative evidence popup');await page.keyboard.press('Escape');
+ await page.setViewportSize({width:390,height:1000});await page.locator('#summary').scrollIntoViewIfNeeded();
+ assert.equal(await page.locator('#credits-table').innerText(),table);
+ for(const box of await page.locator('#summary .metric').evaluateAll(es=>es.map(e=>({width:e.clientWidth,scroll:e.scrollWidth}))))assert(box.scroll<=box.width+2,'Card content clipped');
+ await page.screenshot({path:path.join(folder,live?'live-mobile.png':'preview-mobile.png')});
+ assert.deepEqual(errors,[]);
+ const report={passed:true,live,cards,proof_popup:true,mobile:true,errors};fs.writeFileSync(path.join(folder,live?'LIVE.json':'PREVIEW.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+}finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});
