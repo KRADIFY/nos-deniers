@@ -1,0 +1,13 @@
+{
+  "prepared": true,
+  "encoded": false,
+  "published": false,
+  "documents": 75,
+  "passages": 1126,
+  "tokens": 695188,
+  "table_rows": 5367,
+  "table_cells": 20887,
+  "input_sha256": "51e2a87da24ee150faf82313ea69e031024a46a366617bc8ed02e4f6c315647c",
+  "catalogue_sha256": "c5f42e999e211ca5cd946a7cc975287531b18bc768fe6c63dec51a01fee4392b",
+  "contract_sha256": "abd47bd2c7f2692abac0b1e02006436775455ec07e36f3dd746e7c168dae302e"
+}

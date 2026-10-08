@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "domain": "budget.lexmachine.net",
+      "width": 1440,
+      "headline": "4 887 593 passages indexés et sourçables dans 5 275 documents"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "width": 390,
+      "headline": "4 887 593 passages indexés et sourçables dans 5 275 documents"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "width": 1440,
+      "headline": "4 887 593 passages indexés et sourçables dans 5 275 documents,"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "width": 390,
+      "headline": "4 887 593 passages indexés et sourçables dans 5 275 documents,"
+    }
+  ],
+  "analytics_events_blocked": true
+}

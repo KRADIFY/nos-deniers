@@ -2,7 +2,7 @@ name: nos-deniers-demo
 services:
   demo:
     build: .
-    image: nos-deniers-demo:20261007-voix-textes
+    image: nos-deniers-demo:20261007-caption-layout
     ports:
       - "127.0.0.1:18896:8080"
     restart: unless-stopped

@@ -1,0 +1,26 @@
+{
+  "version": "nos-deniers-retrieval-1",
+  "state": "ready",
+  "input_sha256": "5089bcdcd395be8c371f4ed99961b46251120a744d61a7349b3b27b8687ce442",
+  "model": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "dimension": 1024,
+  "passages": 4051433,
+  "documents": 4439,
+  "quantization": "IVF/SQ8",
+  "sparse": "candidate_reranking",
+  "numeric_facts_certified": false,
+  "generated_at": "2026-09-19T16:54:21.766499+00:00",
+  "files": [
+    {
+      "path": "search.sqlite",
+      "bytes": 25879855104,
+      "sha256": "17015a96351d9460e37d1756922f40a83bd8bb23d8b74d27a054ae53a7a28cbc"
+    },
+    {
+      "path": "dense.faiss",
+      "bytes": 4185289728,
+      "sha256": "db5d369b29d4294b639743f6c5b272f45e3e94007a107ca8b3c2048f492aaecf"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "archive": "/opt/nos-deniers/staging/git-backup-20261008/snapshot.tar.gz",
+  "sha256": "89a7872191a06c5e5f82c8a1e22a910a6aac3da37eebc0205b8e0004183657ab",
+  "bytes": 45691807,
+  "files": 340,
+  "database_sha256": "e1f379fac58ed9b5086bc925eb5c6fa229711fc2d20d2159c6e20f92d27d9b05",
+  "production_modified": false
+}

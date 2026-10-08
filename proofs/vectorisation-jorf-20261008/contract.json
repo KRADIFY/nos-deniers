@@ -1,0 +1,30 @@
+{
+  "profile": "nos-deniers-memo-20261001-routes-historiques",
+  "model": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "dense_dimensions": 1024,
+  "dense_dtype": "float16",
+  "dense_normalized": true,
+  "sparse_dtype": "float32",
+  "colbert": false,
+  "return_colbert_vecs": false,
+  "max_tokens": 800,
+  "artificial_overlap": "by_route",
+  "generic_overlap_max_tokens": 150,
+  "pdf_table_artificial_overlap": 0,
+  "html_table_artificial_overlap": 0,
+  "truncate": false,
+  "source_blank_states_retained": true,
+  "range_compaction_enabled": false,
+  "input_count": 1126,
+  "input_sha256": "51e2a87da24ee150faf82313ea69e031024a46a366617bc8ed02e4f6c315647c",
+  "input_bytes": 2716492,
+  "tokenizer_sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+  "frozen_code": {
+    "common.py": "095a3c99b0484c60a1cd015672345bded67ab1de2fb0596a38e64c94e391abbf",
+    "extractors.py": "6b04a929409ee2d3c12576c7c3f590f36cd3c0cb5eae76a639ddd968f67f3a39",
+    "corrected.py": "d78b70ccc75662fe6d39df90a5cdab2e57dc8680700c204a3a26da7551164a2f"
+  },
+  "user_rule": "No overlap for tables; conditional memo overlap for prose",
+  "source_protocol_sha256": "ae996e1eb22781431ac0c89dda570b6e21694970d97772a5f86f10d625015ebb"
+}

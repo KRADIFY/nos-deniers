@@ -1,0 +1,539 @@
+{
+  "passed": true,
+  "sources": 75,
+  "all_source_words_exact": true,
+  "table_cells": 20887,
+  "table_rows": 5367,
+  "table_segments_without_gaps_or_overlap": true,
+  "tokens": 695188,
+  "unique_passages": 1126,
+  "input_sha256": "51e2a87da24ee150faf82313ea69e031024a46a366617bc8ed02e4f6c315647c",
+  "documents": [
+    {
+      "id": "e65696ddafe9f4809191",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "b743bcbbaaa757c81c5f",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "ed2c0d8cc3c58e282d57",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "732ff16b6e9f649a5be3",
+      "source_text_exact": true,
+      "table_rows": 16,
+      "table_cells": 64,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "2e464b4210840df4955d",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "259602eeaa20689bfc0e",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "2f97d1f47c250290dece",
+      "source_text_exact": true,
+      "table_rows": 160,
+      "table_cells": 640,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "073b10da3bafd7ca9773",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "8a565d2ad422dcc0f0d5",
+      "source_text_exact": true,
+      "table_rows": 146,
+      "table_cells": 448,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "0aac118aade7ad307d80",
+      "source_text_exact": true,
+      "table_rows": 184,
+      "table_cells": 786,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "5bb403615154fc528bad",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "234e3b19da30272fc4c4",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "01632449b561d146903b",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "c2a6d4fcf7778928c912",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "575b3eef9d083e5c4e00",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "0b57773fc92e40536681",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "d410a193e67b25f2b565",
+      "source_text_exact": true,
+      "table_rows": 431,
+      "table_cells": 1667,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "68c1c8d9eeda20d9c1be",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "a75436e46ea1637a43f1",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "bda5df48c2ab989cc051",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "267e9d0589f85c4b9b16",
+      "source_text_exact": true,
+      "table_rows": 485,
+      "table_cells": 1883,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "215538b106428b16b536",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "1e4545f5a91a956fea79",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "c5d48146bd08540538af",
+      "source_text_exact": true,
+      "table_rows": 154,
+      "table_cells": 496,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "0403b43c9e6e23e6dfe1",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "8ca032df9d891efb7462",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "189e6da374f8880be475",
+      "source_text_exact": true,
+      "table_rows": 103,
+      "table_cells": 363,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "ed4687115db8c04bf107",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "5383d14df0f50ed64243",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "8bd6a9737d5bf4c0ae4c",
+      "source_text_exact": true,
+      "table_rows": 123,
+      "table_cells": 503,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "f4691933e2c5686e5875",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "b509ad64e8874281396c",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "3e0e009f096680eb7fe2",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "513b46a1ac31ad8eae40",
+      "source_text_exact": true,
+      "table_rows": 482,
+      "table_cells": 1906,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "490857ccf6b95e290952",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "9eae526cc85706ca0617",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "ae9648f2586f8bab4c9e",
+      "source_text_exact": true,
+      "table_rows": 11,
+      "table_cells": 44,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "d3098c923b949770c797",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "81962adf2c19aee94e9b",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "708c633dc0fcbbfc3fdc",
+      "source_text_exact": true,
+      "table_rows": 265,
+      "table_cells": 1047,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "ebb4ef090ad7a1506a58",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "3d3cc3e88577061b85be",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "f6c8fafd6646f6501df4",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "5344554b4b16039ca74b",
+      "source_text_exact": true,
+      "table_rows": 473,
+      "table_cells": 1865,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "fdbf6e6ac42150840725",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "70ea01384b07421496b5",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "66873793946bd2e1fa68",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "2fa2cd94bbbf4c9de2a1",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "284f4daf9c6ef046c2d5",
+      "source_text_exact": true,
+      "table_rows": 138,
+      "table_cells": 552,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "23b1a320ec3436683126",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "9e15173d8f9642654a97",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "35a9011b487009f16f5e",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "eb8bcd08ca9b8dd10d53",
+      "source_text_exact": true,
+      "table_rows": 315,
+      "table_cells": 1275,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "114ee01ae0a2673d2ab0",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "eb6e16f2c4b2a4b253c2",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "40c25fa0ebb3753c59bf",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "43e58a6ee17a9b7f09d4",
+      "source_text_exact": true,
+      "table_rows": 330,
+      "table_cells": 1338,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "50583191362f225c29c2",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "ebc7f9c2c49720005ef0",
+      "source_text_exact": true,
+      "table_rows": 9,
+      "table_cells": 36,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "6c00deeb531aac689151",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "da9a8942f5eff8cc23cb",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "955478bd6ae0f1c58ed2",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "91e894bea4fc25aaeb23",
+      "source_text_exact": true,
+      "table_rows": 372,
+      "table_cells": 1439,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "6ac35c07f1c7b5ac3f16",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "b320c66ccefc3872907d",
+      "source_text_exact": true,
+      "table_rows": 156,
+      "table_cells": 624,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "429ed86ceb810cb81069",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "12d21d666d9cc77e611f",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "8b34a7fca65dd7e2dde0",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "383a7ebf50273529062a",
+      "source_text_exact": true,
+      "table_rows": 482,
+      "table_cells": 1879,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "64b1e0a40e60ff673d32",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "86ca40cc35fd0a04d7fe",
+      "source_text_exact": true,
+      "table_rows": 106,
+      "table_cells": 424,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "bb0fb779ca83e0a8158d",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "878831775ae99425d3c7",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "671b3a7d5a78b7b0d105",
+      "source_text_exact": true,
+      "table_rows": 0,
+      "table_cells": 0,
+      "segments_zero_overlap": true
+    },
+    {
+      "id": "6f2dff3fc6b63cb101c5",
+      "source_text_exact": true,
+      "table_rows": 426,
+      "table_cells": 1608,
+      "segments_zero_overlap": true
+    }
+  ],
+  "gpu_launched": false
+}

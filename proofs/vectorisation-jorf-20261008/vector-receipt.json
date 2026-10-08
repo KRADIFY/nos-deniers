@@ -1,0 +1,20 @@
+{
+  "elapsed_seconds": 5.533452749252319,
+  "expected_count": 1126,
+  "input_sha256": "51e2a87da24ee150faf82313ea69e031024a46a366617bc8ed02e4f6c315647c",
+  "job_name": "nos-deniers-jorf-20261008-51e2a87da24e",
+  "parts": [
+    {
+      "count": 1126,
+      "end_line": 1126,
+      "file": "part-000000.sqlite",
+      "input_sha256": "51e2a87da24ee150faf82313ea69e031024a46a366617bc8ed02e4f6c315647c",
+      "lot_identity_sha256": "0342edf6e5715ba2f4607fd73aa80c559b6d8adb448595d173a7d8258a9347ab",
+      "sha256": "5caa8aac6bc24ffcbb50f910ddc28b7c9ad3b96d621a8f1d4fb7ef55df9e8091",
+      "start_line": 0
+    }
+  ],
+  "produced_count": 1126,
+  "status": "complete",
+  "unpublished_rows": 0
+}

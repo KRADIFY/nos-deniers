@@ -1,39 +1,41 @@
-# Nos Deniers — sauvegarde en ligne du 7 octobre 2026
+# PLF / Nos Deniers — version en ligne du 8 octobre 2026
 
-Branche `sauvegarde-en-ligne-20261007` du dépôt privé `KRADIFY/nos-deniers`.
-Capture des fichiers des conteneurs actifs et des styles effectivement servis sur
-https://budget.lexmachine.net/. Les sauvegardes des 28 septembre et 4 octobre sont conservées.
+Sauvegarde privée : https://github.com/KRADIFY/nos-deniers.
+Version du jour : branche `sauvegarde-en-ligne-20261008`, tag `en-ligne-20261008`.
+La branche principale est actualisée par avance simple ; les sauvegardes précédentes sont conservées.
+Site capturé : https://budget.lexmachine.net/.
 
-## Contenu actuel
+## Contenu de cette version
 
-- Application web dans `budget_service`, `public`, `tools`, `tests` et `requirements.txt`.
-- Moteur documentaire actif dans `runtime-retrieval` ; ses trois index sont référencés dans la configuration.
-- Base financière de 140 875 observations dans `proofs/budget.sqlite.gz`.
-- Démo à trois parcours dans `demo`, avec les textes et les 32 nouveaux extraits audio du 7 octobre.
-- Styles séparés et adaptateurs de présentation dans `presentations`.
-- Cartouches : proposé bleu clair, voté bleu foncé avec texte blanc, consommé rouge avec tout le texte sombre, consommé cumulé blanc.
-- Configuration de production dans `proofs/compose.yaml`, `proofs/nginx-budget.conf` et `presentations/general-locations.conf`.
-- Sauvegarde du CSS précédent, contrôles ordinateur/mobile et reçus de publication dans `proofs/cartouches-20261007`.
-- Reçus de publication et contrôles des voix dans `proofs/voix-20261007`.
+- Code du site, moteur de recherche et configurations réellement utilisés en production.
+- Base financière : **141 859 observations**, conservée dans `proofs/budget.sqlite.gz`.
+- Recherche documentaire : **4 887 593 passages dans 5 275 documents** ; les trois index actifs sont référencés dans `proofs/compose.yaml`.
+- Démo : trois parcours, textes et 32 extraits audio du 7 octobre, passages musicaux conservés.
+- Dernière correction de placement des cartouches d'explication dans `demo/public/popover-layout.js`, `demo.js` et `floating-ui.css`.
+- Styles effectivement injectés : boutons orange, cartouches accordées au graphique, consommé avec texte sombre, cumulé blanc.
+- Les 984 montants supplémentaires du 7 octobre et le complément documentaire du Journal officiel du 8 octobre sont inclus.
+- Reçus du complément documentaire dans `proofs/vectorisation-jorf-20261008`.
+
+La capture a été effectuée en lecture seule. Aucun chiffre, texte, style, service ou réglage de production n'a été modifié pour réaliser la sauvegarde.
+
+## Dépôt local et gros fichiers
+
+Le dépôt Git local se trouve dans :
+`D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git`.
+Le nom du dossier indique sa date de création, pas la date de sa dernière sauvegarde.
+Il contient le code et l'historique des versions, y compris celle du 8 octobre.
+Git n'enregistre une nouvelle version que lorsqu'un commit est créé ; il ne synchronise pas automatiquement les changements futurs du serveur.
+
+Les corpus, index vectoriels et images Docker sont trop volumineux pour les objets Git.
+Leur copie locale est conservée séparément dans :
+`H:/Sauvegardes-Nos-Deniers/20261008-version-en-ligne`.
+Consulter le manifeste de vérification dans ce dossier pour les volumes et les instructions de restauration. Les index existants ont été conservés, sans nouvelle vectorisation.
 
 ## Vérification et restauration
 
-`proofs/VERSION-EN-LIGNE.json` inventorie les fichiers capturés et leurs SHA-256,
-les images Docker actives, les montages et les métadonnées de la base. Ce manifeste
-fait autorité pour la capture actuelle ; les anciennes preuves conservées dans
-l'historique ne décrivent pas la version du 7 octobre.
+`proofs/VERSION-EN-LIGNE.json` fait autorité pour les fichiers capturés, leurs SHA-256, les images Docker actives, les montages et les métadonnées financières. Les autres preuves historiques décrivent leurs dates respectives.
 
-La base décompressée doit avoir l'empreinte
-`80894c3446a0126f554861634e0140f9a16a513f67cbabf75efe5fe8a57d5413`.
-Le CSS publié est `presentations/budget-refinements.css` ; la version précédente
-est `proofs/cartouches-20261007/before.css`. La même version actuelle du CSS est
-conservée dans la source autonome `demo/public/budget-refinements.css`.
+Empreinte SHA-256 de la base financière décompressée :
+`e1f379fac58ed9b5086bc925eb5c6fa229711fc2d20d2159c6e20f92d27d9b05`.
 
-Les configurations sont des copies de production, avec leurs chemins VPS.
-Elles nécessitent les données, les images Docker et les index correspondants ;
-les scripts de publication archivés sont des preuves, pas des commandes à relancer aveuglément.
-
-Les gros corpus PDF, les index vectoriels, les images Docker et les fichiers de
-données annexes restent dans leurs sauvegardes dédiées sur le VPS et en local.
-Ce dépôt ne constitue donc pas une sauvegarde intégrale de tous ces volumes.
-PLFSS n'est pas actualisé par cette sauvegarde. Aucun service de production n'a été modifié.
+Les configurations archivées conservent les chemins du VPS. Une restauration nécessite aussi les volumes séparés et les images Docker correspondantes ; les scripts de publication historiques ne doivent pas être relancés aveuglément. Le dossier local sur H: contient les instructions et les archives. PLFSS est sauvegardé dans son propre dépôt `KRADIFY/plfss`.

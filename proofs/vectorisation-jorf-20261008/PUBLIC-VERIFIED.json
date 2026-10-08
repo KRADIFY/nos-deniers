@@ -1,0 +1,1246 @@
+{
+  "passed": true,
+  "domains": [
+    {
+      "domain": "budget.lexmachine.net",
+      "passages": 4887593,
+      "documents": 5275,
+      "facts": 141859
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "passages": 4887593,
+      "documents": 5275,
+      "facts": 141859
+    }
+  ],
+  "sources": [
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "e65696ddafe9f4809191",
+      "article": "JORFARTI000035251008",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "e65696ddafe9f4809191f60c346fe036ba0630b678ef0b8ef1a7ad604279ed2a"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "b743bcbbaaa757c81c5f",
+      "article": "JORFARTI000035251009",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "b743bcbbaaa757c81c5f24ef161046b5fe72b7aa1e3f6a661bc9f0f5e1ecec8e"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "ed2c0d8cc3c58e282d57",
+      "article": "JORFARTI000035251017",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "ed2c0d8cc3c58e282d572198f0106526b3db25b4d807c0b46817196de3d2d3ca"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "732ff16b6e9f649a5be3",
+      "article": "JORFARTI000035251020",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "732ff16b6e9f649a5be3e71bfa6939a459e89d76a0f6d01906a53035fbe07b1b"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "2e464b4210840df4955d",
+      "article": "JORFARTI000036121411",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "2e464b4210840df4955d2abd520888983f3c37bcfac2d4a0049c21d1f86df2db"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "259602eeaa20689bfc0e",
+      "article": "JORFARTI000036121412",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "259602eeaa20689bfc0e98dd5f9d2e0bff01c30ac3422fd779412783935ff8c2"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "2f97d1f47c250290dece",
+      "article": "JORFARTI000036121415",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "2f97d1f47c250290dece23929e44f961a75b0417b095e73600d2188b42464079"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "073b10da3bafd7ca9773",
+      "article": "JORFARTI000036126778",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "073b10da3bafd7ca97739388807e34104d76b0bfc688a2cb897fa028ff6ba87d"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "8a565d2ad422dcc0f0d5",
+      "article": "JORFARTI000036126779",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "8a565d2ad422dcc0f0d535b20b988e170f356e71a29a034f12cb55a8c1f25de2"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "0aac118aade7ad307d80",
+      "article": "JORFARTI000036298559",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "0aac118aade7ad307d80cdb45708c629682eae15bbb7f19700dee1b741f55169"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "5bb403615154fc528bad",
+      "article": "JORFARTI000036298565",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "5bb403615154fc528bad42ceb7ffdff59fbc4313fec6ac1a5318b8bd58a6592e"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "234e3b19da30272fc4c4",
+      "article": "JORFARTI000036298566",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "234e3b19da30272fc4c455d3881c3ff2c461975ac9edc9c5cfd483dd2dbeba19"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "01632449b561d146903b",
+      "article": "JORFARTI000036298567",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "01632449b561d146903b76ad145b5f7fab807ed0a9b492791fbb3f7263939b15"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "c2a6d4fcf7778928c912",
+      "article": "JORFARTI000037789721",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "c2a6d4fcf7778928c912b92fb4d941df4331a568d4fd2006bb1566f98641e3ab"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "575b3eef9d083e5c4e00",
+      "article": "JORFARTI000037789722",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "575b3eef9d083e5c4e00b3d72f38955fdd8150a39981bec5455901339e08b986"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "0b57773fc92e40536681",
+      "article": "JORFARTI000037789723",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "0b57773fc92e405366810e6d815de9aa93672fc88f35bad11b6ff40cd515aad0"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "d410a193e67b25f2b565",
+      "article": "JORFARTI000037789725",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "d410a193e67b25f2b565d8d9625709c35888440d40fb371d24389f06775236b3"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "68c1c8d9eeda20d9c1be",
+      "article": "JORFARTI000039440018",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "68c1c8d9eeda20d9c1be293c0b6ded355ac62b897ee541f8d931756b4e40e4fc"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "a75436e46ea1637a43f1",
+      "article": "JORFARTI000039440019",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "a75436e46ea1637a43f1d7ce8ebde4f9cf17a5ac7026ff7a746bf5fa16e96a6b"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "bda5df48c2ab989cc051",
+      "article": "JORFARTI000039440020",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "bda5df48c2ab989cc0516914ef4b8f78a51127825ed45444382a39248a1c1c6c"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "267e9d0589f85c4b9b16",
+      "article": "JORFARTI000039440023",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "267e9d0589f85c4b9b165d7a1603aaba3923fe66a68ef78b2392aaae6b9b2d10"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "215538b106428b16b536",
+      "article": "JORFARTI000041746307",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "215538b106428b16b53687fb0f6cb88897176500f86833246f7cb655026f5522"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "1e4545f5a91a956fea79",
+      "article": "JORFARTI000041746308",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "1e4545f5a91a956fea79abb4baef61e1872d25830d2842262f758272df11f2f7"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "c5d48146bd08540538af",
+      "article": "JORFARTI000041746312",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "c5d48146bd08540538af0abf50a40c3ef5772c0da6fbd8ffbf86a3908d76ad40"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "0403b43c9e6e23e6dfe1",
+      "article": "JORFARTI000041820876",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "0403b43c9e6e23e6dfe122257b54ec692f58365ccbe5fd6b77d07abaf17e3a87"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "8ca032df9d891efb7462",
+      "article": "JORFARTI000041820877",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "8ca032df9d891efb74623a7941ffa5454b3e0f9d7fdfb29556247987cf7970e6"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "189e6da374f8880be475",
+      "article": "JORFARTI000041820897",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "189e6da374f8880be475a7aab423dfe13b07420881c64bc84ba9c3cf7271321a"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "ed4687115db8c04bf107",
+      "article": "JORFARTI000042176595",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "ed4687115db8c04bf10709d79b9e330ff4c8ecb614b6fde01b566d0bcdb1ed59"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "5383d14df0f50ed64243",
+      "article": "JORFARTI000042176596",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "5383d14df0f50ed642431fdd9fcd0429a9b023f155f929e48f29f4a77d2580a2"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "8bd6a9737d5bf4c0ae4c",
+      "article": "JORFARTI000042176651",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "8bd6a9737d5bf4c0ae4c3237fe139b6c432f9930049d367c3234d59c5b0a15b8"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "f4691933e2c5686e5875",
+      "article": "JORFARTI000042580138",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "f4691933e2c5686e5875fc041abc6f9dfbf0dc5a1e525ab6eef4f1be304c02ec"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "b509ad64e8874281396c",
+      "article": "JORFARTI000042580139",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "b509ad64e8874281396ccfef3c24f76c6f4f41ec3db5c312873a15079cde1866"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "3e0e009f096680eb7fe2",
+      "article": "JORFARTI000042580140",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "3e0e009f096680eb7fe2aafadd6d47d8c953aad746f3a49073a456b91890c6dc"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "513b46a1ac31ad8eae40",
+      "article": "JORFARTI000042580144",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "513b46a1ac31ad8eae4032e6dc757b3861957f8f7479a63dc308e8b2955593ba"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "490857ccf6b95e290952",
+      "article": "JORFARTI000043512384",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "490857ccf6b95e29095227f7558d4a44f638fd71bf2059e096a63b06b26f0e39"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "9eae526cc85706ca0617",
+      "article": "JORFARTI000043512385",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "9eae526cc85706ca0617ff50d94823a94b96ef8e7e0c020d99a8baf6d70f2ca1"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "ae9648f2586f8bab4c9e",
+      "article": "JORFARTI000043512388",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "ae9648f2586f8bab4c9e24d8cba1e09c6b931e77092afa7e31001d75571e46d1"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "d3098c923b949770c797",
+      "article": "JORFARTI000043805924",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "d3098c923b949770c797c9c2736e86f3c256c6c25fabdb06d26709d26a69aae5"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "81962adf2c19aee94e9b",
+      "article": "JORFARTI000043805925",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "81962adf2c19aee94e9bbca753ad5732e6c723b000f06003a7f7aff6058c2951"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "708c633dc0fcbbfc3fdc",
+      "article": "JORFARTI000043805943",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "708c633dc0fcbbfc3fdc475eb70c12a4313807b790d5a797f96c6033e08477bf"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "ebb4ef090ad7a1506a58",
+      "article": "JORFARTI000044394376",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "ebb4ef090ad7a1506a58c0ac5e08b7b570dd761b99d06526579c67609196e3b8"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "3d3cc3e88577061b85be",
+      "article": "JORFARTI000044394377",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "3d3cc3e88577061b85be492de62f0f75b44b714c09e19f754da83e2fc6128703"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "f6c8fafd6646f6501df4",
+      "article": "JORFARTI000044394378",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "f6c8fafd6646f6501df47f4570bff2225ea52f1443d2bf2ab93035b261c37525"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "5344554b4b16039ca74b",
+      "article": "JORFARTI000044394388",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "5344554b4b16039ca74be4e803db89da4f6825167d7a0efb5ed2b3982da82152"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "fdbf6e6ac42150840725",
+      "article": "JORFARTI000045536790",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "fdbf6e6ac421508407256ed28b409c18bac8c0d0c48005480c9f7d5e92a61e80"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "70ea01384b07421496b5",
+      "article": "JORFARTI000045536791",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "70ea01384b07421496b536d43490593ff2baae15ffee3a4013973817a3c0b8da"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "66873793946bd2e1fa68",
+      "article": "JORFARTI000045536792",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "66873793946bd2e1fa6800d3f3ed76263c7b9d51b7b480eb1ddc8f36c86ecc21"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "2fa2cd94bbbf4c9de2a1",
+      "article": "JORFARTI000045536793",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "2fa2cd94bbbf4c9de2a181fb55e5f3e1139fbf0597b5dc45ec4471b10dea15b1"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "284f4daf9c6ef046c2d5",
+      "article": "JORFARTI000045536796",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "284f4daf9c6ef046c2d5ad17e782cbd37095a222f92a75d3df06b1d46067b58a"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "23b1a320ec3436683126",
+      "article": "JORFARTI000046186688",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "23b1a320ec3436683126b2d678bfc649b6240c94302ef46d0dde98f537282bad"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "9e15173d8f9642654a97",
+      "article": "JORFARTI000046186689",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "9e15173d8f9642654a970f3c726f2ad31874824d1047e679311f116d5d01ff4e"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "35a9011b487009f16f5e",
+      "article": "JORFARTI000046186690",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "35a9011b487009f16f5ea158aeb58af41c8f758d1618056c81fc4430136de286"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "eb8bcd08ca9b8dd10d53",
+      "article": "JORFARTI000046186722",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "eb8bcd08ca9b8dd10d537754d085e06a8e26afd40aa08ca421fdc63b645a6543"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "114ee01ae0a2673d2ab0",
+      "article": "JORFARTI000046672421",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "114ee01ae0a2673d2ab034b2336857f6c9fed2be47a2d987172d95c7ad7680ef"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "eb6e16f2c4b2a4b253c2",
+      "article": "JORFARTI000046672422",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "eb6e16f2c4b2a4b253c208181d4f9b836f85f85743265e83453daa96b5408dbe"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "40c25fa0ebb3753c59bf",
+      "article": "JORFARTI000046672423",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "40c25fa0ebb3753c59bfbc17d4c09c3372c6b6d47b8c5881f9d10b5dee4d5e3c"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "43e58a6ee17a9b7f09d4",
+      "article": "JORFARTI000046672442",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "43e58a6ee17a9b7f09d4550e313ae677cf63d4ced4ed22e472239a10994615a5"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "50583191362f225c29c2",
+      "article": "JORFARTI000048088700",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "50583191362f225c29c2fa9467acaf90f04bcfd8e7edd9ae9e1972f6f43cb88a"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "ebc7f9c2c49720005ef0",
+      "article": "JORFARTI000048088703",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "ebc7f9c2c49720005ef06fe7586755019646935d0400816ed66b6e5f62674bb6"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "6c00deeb531aac689151",
+      "article": "JORFARTI000048493378",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "6c00deeb531aac68915144d241dd7ab772c61992b26c93267705d3689516c82b"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "da9a8942f5eff8cc23cb",
+      "article": "JORFARTI000048493379",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "da9a8942f5eff8cc23cb4b5841386da54432306890bd9b088594a920ca247e6a"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "955478bd6ae0f1c58ed2",
+      "article": "JORFARTI000048493380",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "955478bd6ae0f1c58ed2697796bc92702e8f9da3c703bddfb2e6f74ef107f591"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "91e894bea4fc25aaeb23",
+      "article": "JORFARTI000048493385",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "91e894bea4fc25aaeb233144a43a679f0e705fa59c47061601b1dd87d336f2c9"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "6ac35c07f1c7b5ac3f16",
+      "article": "JORFARTI000049180273",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "6ac35c07f1c7b5ac3f16974f43474e3e74e17b4a15376e468a020b6e09c7edcc"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "b320c66ccefc3872907d",
+      "article": "JORFARTI000049180276",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "b320c66ccefc3872907dafe57d94268344c180675a41e5aef688ef4231680b92"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "429ed86ceb810cb81069",
+      "article": "JORFARTI000050754953",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "429ed86ceb810cb81069aa90bc68cf458dcf066e3f3ba00c398ffd56162222f7"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "12d21d666d9cc77e611f",
+      "article": "JORFARTI000050754954",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "12d21d666d9cc77e611f50919ce31175ad3c9ab3860c1fa12bdb0028eb06185f"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "8b34a7fca65dd7e2dde0",
+      "article": "JORFARTI000050754955",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "8b34a7fca65dd7e2dde0779570a7060c7d3db0db13f34c692d6444106f0ea8e0"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "383a7ebf50273529062a",
+      "article": "JORFARTI000050754956",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "383a7ebf50273529062a342fce0fb215e7cf6e7b2761e58268cbcdea5fe60233"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "64b1e0a40e60ff673d32",
+      "article": "JORFARTI000051520784",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "64b1e0a40e60ff673d321430ef4c97b44ca00383d6d7f2f1afcd50e40a6337fa"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "86ca40cc35fd0a04d7fe",
+      "article": "JORFARTI000051520787",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "86ca40cc35fd0a04d7fe41f180fdad702414d9083896aaa7ebb33206c411914f"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "bb0fb779ca83e0a8158d",
+      "article": "JORFARTI000053000654",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "bb0fb779ca83e0a8158d3999ea8a8c83fbad48e52bee8aa9ab2cc86575fd7325"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "878831775ae99425d3c7",
+      "article": "JORFARTI000053000655",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "878831775ae99425d3c7a82197e118a60615d137d9c036640a90918907fd5379"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "671b3a7d5a78b7b0d105",
+      "article": "JORFARTI000053000656",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "671b3a7d5a78b7b0d105e67a2926305a82bf9014bdf9b37de58add6dca332844"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "6f2dff3fc6b63cb101c5",
+      "article": "JORFARTI000053000660",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "6f2dff3fc6b63cb101c512749fc125242ba060ffc49cd7d3b2493f836ec8fcb7"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "e65696ddafe9f4809191",
+      "article": "JORFARTI000035251008",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "e65696ddafe9f4809191f60c346fe036ba0630b678ef0b8ef1a7ad604279ed2a"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "b743bcbbaaa757c81c5f",
+      "article": "JORFARTI000035251009",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "b743bcbbaaa757c81c5f24ef161046b5fe72b7aa1e3f6a661bc9f0f5e1ecec8e"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "ed2c0d8cc3c58e282d57",
+      "article": "JORFARTI000035251017",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "ed2c0d8cc3c58e282d572198f0106526b3db25b4d807c0b46817196de3d2d3ca"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "732ff16b6e9f649a5be3",
+      "article": "JORFARTI000035251020",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "732ff16b6e9f649a5be3e71bfa6939a459e89d76a0f6d01906a53035fbe07b1b"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "2e464b4210840df4955d",
+      "article": "JORFARTI000036121411",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "2e464b4210840df4955d2abd520888983f3c37bcfac2d4a0049c21d1f86df2db"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "259602eeaa20689bfc0e",
+      "article": "JORFARTI000036121412",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "259602eeaa20689bfc0e98dd5f9d2e0bff01c30ac3422fd779412783935ff8c2"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "2f97d1f47c250290dece",
+      "article": "JORFARTI000036121415",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "2f97d1f47c250290dece23929e44f961a75b0417b095e73600d2188b42464079"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "073b10da3bafd7ca9773",
+      "article": "JORFARTI000036126778",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "073b10da3bafd7ca97739388807e34104d76b0bfc688a2cb897fa028ff6ba87d"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "8a565d2ad422dcc0f0d5",
+      "article": "JORFARTI000036126779",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "8a565d2ad422dcc0f0d535b20b988e170f356e71a29a034f12cb55a8c1f25de2"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "0aac118aade7ad307d80",
+      "article": "JORFARTI000036298559",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "0aac118aade7ad307d80cdb45708c629682eae15bbb7f19700dee1b741f55169"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "5bb403615154fc528bad",
+      "article": "JORFARTI000036298565",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "5bb403615154fc528bad42ceb7ffdff59fbc4313fec6ac1a5318b8bd58a6592e"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "234e3b19da30272fc4c4",
+      "article": "JORFARTI000036298566",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "234e3b19da30272fc4c455d3881c3ff2c461975ac9edc9c5cfd483dd2dbeba19"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "01632449b561d146903b",
+      "article": "JORFARTI000036298567",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "01632449b561d146903b76ad145b5f7fab807ed0a9b492791fbb3f7263939b15"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "c2a6d4fcf7778928c912",
+      "article": "JORFARTI000037789721",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "c2a6d4fcf7778928c912b92fb4d941df4331a568d4fd2006bb1566f98641e3ab"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "575b3eef9d083e5c4e00",
+      "article": "JORFARTI000037789722",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "575b3eef9d083e5c4e00b3d72f38955fdd8150a39981bec5455901339e08b986"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "0b57773fc92e40536681",
+      "article": "JORFARTI000037789723",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "0b57773fc92e405366810e6d815de9aa93672fc88f35bad11b6ff40cd515aad0"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "d410a193e67b25f2b565",
+      "article": "JORFARTI000037789725",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "d410a193e67b25f2b565d8d9625709c35888440d40fb371d24389f06775236b3"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "68c1c8d9eeda20d9c1be",
+      "article": "JORFARTI000039440018",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "68c1c8d9eeda20d9c1be293c0b6ded355ac62b897ee541f8d931756b4e40e4fc"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "a75436e46ea1637a43f1",
+      "article": "JORFARTI000039440019",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "a75436e46ea1637a43f1d7ce8ebde4f9cf17a5ac7026ff7a746bf5fa16e96a6b"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "bda5df48c2ab989cc051",
+      "article": "JORFARTI000039440020",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "bda5df48c2ab989cc0516914ef4b8f78a51127825ed45444382a39248a1c1c6c"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "267e9d0589f85c4b9b16",
+      "article": "JORFARTI000039440023",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "267e9d0589f85c4b9b165d7a1603aaba3923fe66a68ef78b2392aaae6b9b2d10"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "215538b106428b16b536",
+      "article": "JORFARTI000041746307",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "215538b106428b16b53687fb0f6cb88897176500f86833246f7cb655026f5522"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "1e4545f5a91a956fea79",
+      "article": "JORFARTI000041746308",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "1e4545f5a91a956fea79abb4baef61e1872d25830d2842262f758272df11f2f7"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "c5d48146bd08540538af",
+      "article": "JORFARTI000041746312",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "c5d48146bd08540538af0abf50a40c3ef5772c0da6fbd8ffbf86a3908d76ad40"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "0403b43c9e6e23e6dfe1",
+      "article": "JORFARTI000041820876",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "0403b43c9e6e23e6dfe122257b54ec692f58365ccbe5fd6b77d07abaf17e3a87"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "8ca032df9d891efb7462",
+      "article": "JORFARTI000041820877",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "8ca032df9d891efb74623a7941ffa5454b3e0f9d7fdfb29556247987cf7970e6"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "189e6da374f8880be475",
+      "article": "JORFARTI000041820897",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "189e6da374f8880be475a7aab423dfe13b07420881c64bc84ba9c3cf7271321a"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "ed4687115db8c04bf107",
+      "article": "JORFARTI000042176595",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "ed4687115db8c04bf10709d79b9e330ff4c8ecb614b6fde01b566d0bcdb1ed59"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "5383d14df0f50ed64243",
+      "article": "JORFARTI000042176596",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "5383d14df0f50ed642431fdd9fcd0429a9b023f155f929e48f29f4a77d2580a2"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "8bd6a9737d5bf4c0ae4c",
+      "article": "JORFARTI000042176651",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "8bd6a9737d5bf4c0ae4c3237fe139b6c432f9930049d367c3234d59c5b0a15b8"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "f4691933e2c5686e5875",
+      "article": "JORFARTI000042580138",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "f4691933e2c5686e5875fc041abc6f9dfbf0dc5a1e525ab6eef4f1be304c02ec"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "b509ad64e8874281396c",
+      "article": "JORFARTI000042580139",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "b509ad64e8874281396ccfef3c24f76c6f4f41ec3db5c312873a15079cde1866"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "3e0e009f096680eb7fe2",
+      "article": "JORFARTI000042580140",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "3e0e009f096680eb7fe2aafadd6d47d8c953aad746f3a49073a456b91890c6dc"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "513b46a1ac31ad8eae40",
+      "article": "JORFARTI000042580144",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "513b46a1ac31ad8eae4032e6dc757b3861957f8f7479a63dc308e8b2955593ba"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "490857ccf6b95e290952",
+      "article": "JORFARTI000043512384",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "490857ccf6b95e29095227f7558d4a44f638fd71bf2059e096a63b06b26f0e39"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "9eae526cc85706ca0617",
+      "article": "JORFARTI000043512385",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "9eae526cc85706ca0617ff50d94823a94b96ef8e7e0c020d99a8baf6d70f2ca1"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "ae9648f2586f8bab4c9e",
+      "article": "JORFARTI000043512388",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "ae9648f2586f8bab4c9e24d8cba1e09c6b931e77092afa7e31001d75571e46d1"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "d3098c923b949770c797",
+      "article": "JORFARTI000043805924",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "d3098c923b949770c797c9c2736e86f3c256c6c25fabdb06d26709d26a69aae5"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "81962adf2c19aee94e9b",
+      "article": "JORFARTI000043805925",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "81962adf2c19aee94e9bbca753ad5732e6c723b000f06003a7f7aff6058c2951"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "708c633dc0fcbbfc3fdc",
+      "article": "JORFARTI000043805943",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "708c633dc0fcbbfc3fdc475eb70c12a4313807b790d5a797f96c6033e08477bf"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "ebb4ef090ad7a1506a58",
+      "article": "JORFARTI000044394376",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "ebb4ef090ad7a1506a58c0ac5e08b7b570dd761b99d06526579c67609196e3b8"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "3d3cc3e88577061b85be",
+      "article": "JORFARTI000044394377",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "3d3cc3e88577061b85be492de62f0f75b44b714c09e19f754da83e2fc6128703"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "f6c8fafd6646f6501df4",
+      "article": "JORFARTI000044394378",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "f6c8fafd6646f6501df47f4570bff2225ea52f1443d2bf2ab93035b261c37525"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "5344554b4b16039ca74b",
+      "article": "JORFARTI000044394388",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "5344554b4b16039ca74be4e803db89da4f6825167d7a0efb5ed2b3982da82152"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "fdbf6e6ac42150840725",
+      "article": "JORFARTI000045536790",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "fdbf6e6ac421508407256ed28b409c18bac8c0d0c48005480c9f7d5e92a61e80"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "70ea01384b07421496b5",
+      "article": "JORFARTI000045536791",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "70ea01384b07421496b536d43490593ff2baae15ffee3a4013973817a3c0b8da"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "66873793946bd2e1fa68",
+      "article": "JORFARTI000045536792",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "66873793946bd2e1fa6800d3f3ed76263c7b9d51b7b480eb1ddc8f36c86ecc21"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "2fa2cd94bbbf4c9de2a1",
+      "article": "JORFARTI000045536793",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "2fa2cd94bbbf4c9de2a181fb55e5f3e1139fbf0597b5dc45ec4471b10dea15b1"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "284f4daf9c6ef046c2d5",
+      "article": "JORFARTI000045536796",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "284f4daf9c6ef046c2d5ad17e782cbd37095a222f92a75d3df06b1d46067b58a"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "23b1a320ec3436683126",
+      "article": "JORFARTI000046186688",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "23b1a320ec3436683126b2d678bfc649b6240c94302ef46d0dde98f537282bad"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "9e15173d8f9642654a97",
+      "article": "JORFARTI000046186689",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "9e15173d8f9642654a970f3c726f2ad31874824d1047e679311f116d5d01ff4e"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "35a9011b487009f16f5e",
+      "article": "JORFARTI000046186690",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "35a9011b487009f16f5ea158aeb58af41c8f758d1618056c81fc4430136de286"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "eb8bcd08ca9b8dd10d53",
+      "article": "JORFARTI000046186722",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "eb8bcd08ca9b8dd10d537754d085e06a8e26afd40aa08ca421fdc63b645a6543"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "114ee01ae0a2673d2ab0",
+      "article": "JORFARTI000046672421",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "114ee01ae0a2673d2ab034b2336857f6c9fed2be47a2d987172d95c7ad7680ef"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "eb6e16f2c4b2a4b253c2",
+      "article": "JORFARTI000046672422",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "eb6e16f2c4b2a4b253c208181d4f9b836f85f85743265e83453daa96b5408dbe"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "40c25fa0ebb3753c59bf",
+      "article": "JORFARTI000046672423",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "40c25fa0ebb3753c59bfbc17d4c09c3372c6b6d47b8c5881f9d10b5dee4d5e3c"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "43e58a6ee17a9b7f09d4",
+      "article": "JORFARTI000046672442",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "43e58a6ee17a9b7f09d4550e313ae677cf63d4ced4ed22e472239a10994615a5"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "50583191362f225c29c2",
+      "article": "JORFARTI000048088700",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "50583191362f225c29c2fa9467acaf90f04bcfd8e7edd9ae9e1972f6f43cb88a"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "ebc7f9c2c49720005ef0",
+      "article": "JORFARTI000048088703",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "ebc7f9c2c49720005ef06fe7586755019646935d0400816ed66b6e5f62674bb6"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "6c00deeb531aac689151",
+      "article": "JORFARTI000048493378",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "6c00deeb531aac68915144d241dd7ab772c61992b26c93267705d3689516c82b"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "da9a8942f5eff8cc23cb",
+      "article": "JORFARTI000048493379",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "da9a8942f5eff8cc23cb4b5841386da54432306890bd9b088594a920ca247e6a"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "955478bd6ae0f1c58ed2",
+      "article": "JORFARTI000048493380",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "955478bd6ae0f1c58ed2697796bc92702e8f9da3c703bddfb2e6f74ef107f591"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "91e894bea4fc25aaeb23",
+      "article": "JORFARTI000048493385",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "91e894bea4fc25aaeb233144a43a679f0e705fa59c47061601b1dd87d336f2c9"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "6ac35c07f1c7b5ac3f16",
+      "article": "JORFARTI000049180273",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "6ac35c07f1c7b5ac3f16974f43474e3e74e17b4a15376e468a020b6e09c7edcc"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "b320c66ccefc3872907d",
+      "article": "JORFARTI000049180276",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "b320c66ccefc3872907dafe57d94268344c180675a41e5aef688ef4231680b92"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "429ed86ceb810cb81069",
+      "article": "JORFARTI000050754953",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "429ed86ceb810cb81069aa90bc68cf458dcf066e3f3ba00c398ffd56162222f7"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "12d21d666d9cc77e611f",
+      "article": "JORFARTI000050754954",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "12d21d666d9cc77e611f50919ce31175ad3c9ab3860c1fa12bdb0028eb06185f"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "8b34a7fca65dd7e2dde0",
+      "article": "JORFARTI000050754955",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "8b34a7fca65dd7e2dde0779570a7060c7d3db0db13f34c692d6444106f0ea8e0"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "383a7ebf50273529062a",
+      "article": "JORFARTI000050754956",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "383a7ebf50273529062a342fce0fb215e7cf6e7b2761e58268cbcdea5fe60233"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "64b1e0a40e60ff673d32",
+      "article": "JORFARTI000051520784",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "64b1e0a40e60ff673d321430ef4c97b44ca00383d6d7f2f1afcd50e40a6337fa"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "86ca40cc35fd0a04d7fe",
+      "article": "JORFARTI000051520787",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "86ca40cc35fd0a04d7fe41f180fdad702414d9083896aaa7ebb33206c411914f"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "bb0fb779ca83e0a8158d",
+      "article": "JORFARTI000053000654",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "bb0fb779ca83e0a8158d3999ea8a8c83fbad48e52bee8aa9ab2cc86575fd7325"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "878831775ae99425d3c7",
+      "article": "JORFARTI000053000655",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "878831775ae99425d3c7a82197e118a60615d137d9c036640a90918907fd5379"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "671b3a7d5a78b7b0d105",
+      "article": "JORFARTI000053000656",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "671b3a7d5a78b7b0d105e67a2926305a82bf9014bdf9b37de58add6dca332844"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "6f2dff3fc6b63cb101c5",
+      "article": "JORFARTI000053000660",
+      "text_search": true,
+      "source_metadata": true,
+      "download_sha256": "6f2dff3fc6b63cb101c512749fc125242ba060ffc49cd7d3b2493f836ec8fcb7"
+    }
+  ],
+  "hybrid": [
+    {
+      "source_id": "e65696ddafe9f4809191",
+      "found": true,
+      "methods": [
+        "dense",
+        "sparse_rerank",
+        "text"
+      ]
+    },
+    {
+      "source_id": "8a565d2ad422dcc0f0d5",
+      "found": true,
+      "methods": [
+        "dense",
+        "sparse_rerank"
+      ]
+    },
+    {
+      "source_id": "6f2dff3fc6b63cb101c5",
+      "found": true,
+      "methods": [
+        "dense",
+        "sparse_rerank"
+      ]
+    }
+  ]
+}

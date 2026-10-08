@@ -1,0 +1,60 @@
+{
+  "published": true,
+  "time": "2026-10-08T16:57:41.589405+00:00",
+  "new_documents": 75,
+  "new_passages": 1126,
+  "previous_passages_preserved": 4886467,
+  "indexed_documents": 5275,
+  "indexed_passages": 4887593,
+  "new_index": "/opt/nos-deniers/releases/20261008-jorf-vectorisation/search-supplement2",
+  "previous_index_retained": "/opt/nos-deniers/releases/20261006-cour-vectorisation/search-supplement2",
+  "backup": "/opt/nos-deniers/staging/20261008-jorf-vectorisation/backup-before-activation",
+  "financial_database_sha256_unchanged": "e1f379fac58ed9b5086bc925eb5c6fa229711fc2d20d2159c6e20f92d27d9b05",
+  "data_version_unchanged": "89083f23cec554a708fa8d30045a58b18827837e22f6242a7a7bad9d74dc629f",
+  "facts_unchanged": 141859,
+  "other_containers_unchanged": true,
+  "application_image_and_styles_unchanged": true,
+  "all_three_collections_mounted": true,
+  "instances": [
+    {
+      "port": 8552,
+      "passages": 4887593,
+      "documents": 5275,
+      "fact_count": 141859,
+      "data_version": "89083f23cec554a708fa8d30045a58b18827837e22f6242a7a7bad9d74dc629f"
+    },
+    {
+      "port": 8556,
+      "passages": 4887593,
+      "documents": 5275,
+      "fact_count": 141859,
+      "data_version": "89083f23cec554a708fa8d30045a58b18827837e22f6242a7a7bad9d74dc629f"
+    },
+    {
+      "port": 8557,
+      "passages": 4887593,
+      "documents": 5275,
+      "fact_count": 141859,
+      "data_version": "89083f23cec554a708fa8d30045a58b18827837e22f6242a7a7bad9d74dc629f"
+    },
+    {
+      "port": 8558,
+      "passages": 4887593,
+      "documents": 5275,
+      "fact_count": 141859,
+      "data_version": "89083f23cec554a708fa8d30045a58b18827837e22f6242a7a7bad9d74dc629f"
+    }
+  ],
+  "files": [
+    {
+      "path": "search.sqlite",
+      "bytes": 1152065536,
+      "sha256": "e49aa6099ba89d142c5e8f2c8daf1cf2f2f7236498417c75583192ecc3c303f5"
+    },
+    {
+      "path": "dense.faiss",
+      "bytes": 249652248,
+      "sha256": "c6cbe0cc82a5571323b10957a46d1ee518aa0216f03701bd1b68c5b587337aa3"
+    }
+  ]
+}

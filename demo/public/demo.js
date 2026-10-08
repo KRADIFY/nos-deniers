@@ -118,45 +118,15 @@
     }
   }
   function showDialog(title, html) {
-    player.pause(); driver.destroy();
+    player.pause(); captionLayout.reset(); driver.destroy();
     $('dialog-title').textContent = title; $('dialog-content').innerHTML = html;
     $('info-dialog').showModal();
   }
+  const captionLayout = placeTourPopover.createController();
   function fitTourPopover() {
-    const popover = document.querySelector('.driver-popover');
-    if (!popover || !lastTarget?.isConnected) return;
-    const playerTop = document.querySelector('.demo-toolbar').getBoundingClientRect().top;
-    const viewportHeight = window.visualViewport?.height || window.innerHeight;
-    const viewportWidth = document.documentElement.clientWidth;
-    const anchor = lastTarget.getBoundingClientRect();
-    const availableHeight = Math.max(1, Math.min(playerTop, viewportHeight) - 28);
-    const description = popover.querySelector('.driver-popover-description');
-    const driverLeft = parseFloat(popover.style.left);
-    const driverRight = parseFloat(popover.style.right);
-    popover.style.removeProperty('--tour-description-max-height');
-    const fitted = placeTourPopover.fitWidth({viewportWidth, maxHeight:availableHeight,
-      measure:width => {
-        popover.style.setProperty('--tour-caption-width', width + 'px');
-        return popover.getBoundingClientRect().height;
-      }});
-    // Only very small windows need text scrolling. Keep it inside the description,
-    // never on the caption frame (whose outside arrow otherwise creates scrollbars).
-    const overflow = fitted.height > availableHeight;
-    if (description) {
-      if (overflow) {
-        const textHeight = Math.max(1, description.getBoundingClientRect().height - (fitted.height - availableHeight));
-        popover.style.setProperty('--tour-description-max-height', textHeight + 'px');
-        description.tabIndex = 0;
-      } else description.removeAttribute('tabindex');
-    }
-    const preferredLeft = Number.isFinite(driverLeft) ? driverLeft
-      : Number.isFinite(driverRight) ? viewportWidth - driverRight - fitted.width : anchor.left;
-    const left = Math.max(14, Math.min(preferredLeft, viewportWidth - fitted.width - 14));
-    popover.style.setProperty('--tour-caption-left', left + 'px');
-    const placement = placeTourPopover({anchorTop:anchor.top, anchorBottom:anchor.bottom,
-      height:popover.getBoundingClientRect().height, playerTop, viewportHeight,
-      side:state.panel ? 'left' : 'bottom'});
-    popover.style.setProperty('--tour-caption-top', placement.top + 'px');
+    const popover=document.querySelector('.driver-popover');
+    if(!popover || !lastTarget?.isConnected) return;
+    captionLayout.fit({target:lastTarget,popover,player:$('demo-player'),exit:$('exit-demo'),refresh:()=>driver.refresh()});
   }
   let popoverFrame = null;
   function schedulePopoverFit() {
@@ -165,6 +135,7 @@
   }
   const captionResize = typeof ResizeObserver === 'undefined' ? null : new ResizeObserver(schedulePopoverFit);
   function showStep(step, index, total) {
+    captionLayout.reset();
     if ($('info-dialog').open) $('info-dialog').close();
     $('welcome').hidden = true;
     state = {...baseline, ...step.state};
@@ -240,7 +211,7 @@
     player.setSteps(journey.steps.map(id => config.steps.find(step => step.id === id)));
     player.seek(index, true);
   }
-  function stopForInteraction() { player.pause(); driver.destroy(); state.panel = null; }
+  function stopForInteraction() { player.pause(); captionLayout.reset(); driver.destroy(); state.panel = null; }
   function csvDownload() {
     const csvCell = value => '"' + String(value ?? '').replace(/^[=+@-]/, "'$&").replace(/"/g, '""') + '"';
     const cents = value => value == null ? '' : (value < 0 ? '-' : '') + Math.floor(Math.abs(value) / 100) + ',' + String(Math.abs(value) % 100).padStart(2,'0');
@@ -270,7 +241,7 @@
     player = new DemoPlayer({steps:activeJourney.steps.map(id => config.steps.find(step => step.id === id)), voice:voiceAdapter,
       onStep:showStep, onState:updateControls,
       onVoiceError:() => { $('player-status').textContent += ' · voix indisponible, lecture du texte'; },
-      onExit:() => { driver.destroy(); state = {...baseline}; $('row-search').value = ''; $('doc-search').value = ''; $('welcome').hidden = !demoEnabled; if ($('info-dialog').open) $('info-dialog').close(); render(); }});
+      onExit:() => { captionLayout.reset(); driver.destroy(); state = {...baseline}; $('row-search').value = ''; $('doc-search').value = ''; $('welcome').hidden = !demoEnabled; if ($('info-dialog').open) $('info-dialog').close(); render(); }});
     const journeyIcons = ['<path d="m12 3 2.6 6.4L21 12l-6.4 2.6L12 21l-2.6-6.4L3 12l6.4-2.6Z"/>', '<circle cx="10" cy="10" r="6"/><path d="m15 15 6 6m-14-11 2 2 4-4"/>', '<path d="M4 7h13l-3-3m3 3-3 3M20 17H7l3 3m-3-3 3-3"/>'];
     $('journeys').innerHTML = config.journeys.map((journey, index) => `<button class="demo-journey" data-journey="${esc(journey.id)}"><span class="journey-top"><span class="journey-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${journeyIcons[index]}</svg></span><span class="journey-number">0${index + 1}</span></span><strong>${esc(journey.title)}</strong><span class="journey-summary">${esc(journey.summary)}</span><span class="journey-bottom"><small>${journey.steps.length} étapes</small><b aria-hidden="true">▶</b></span></button>`).join('');
     $('start-tour').addEventListener('click', () => {

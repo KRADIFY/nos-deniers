@@ -1,0 +1,1286 @@
+[
+  {
+    "reference_id": "db5e8864fba5f17c80d6bad5f5d2c624c82d94ce01324c46ec53430c7d4ecde6",
+    "source_id": "e65696ddafe9f4809191",
+    "sha256": "e65696ddafe9f4809191f60c346fe036ba0630b678ef0b8ef1a7ad604279ed2a",
+    "title": "Décret n° 2017-1182 du 20 juillet 2017 portant ouverture et annulation de crédits à titre d'avance — article 1 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000035251008",
+    "path": "second-pass-20261007/jorf/JORFARTI000035251008.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "61bcb876cfdf9e169c741da2cffc681ae8707e8a8df35a6c877ca76ec039f196",
+    "source_id": "b743bcbbaaa757c81c5f",
+    "sha256": "b743bcbbaaa757c81c5f24ef161046b5fe72b7aa1e3f6a661bc9f0f5e1ecec8e",
+    "title": "Décret n° 2017-1182 du 20 juillet 2017 portant ouverture et annulation de crédits à titre d'avance — article 2 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000035251009",
+    "path": "second-pass-20261007/jorf/JORFARTI000035251009.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "3142e7ecf8e803d32e153a8c6f2463e69638622fbb9070ebad44a6ff7e910f82",
+    "source_id": "ed2c0d8cc3c58e282d57",
+    "sha256": "ed2c0d8cc3c58e282d572198f0106526b3db25b4d807c0b46817196de3d2d3ca",
+    "title": "Décret n° 2017-1183 du 20 juillet 2017 portant annulation de crédits — article 1 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000035251017",
+    "path": "second-pass-20261007/jorf/JORFARTI000035251017.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": [
+      "4d2e82f166efc23882efa1d3ba8795ee86b3c60b707258b94d034784d34b1a2c",
+      "e612aa3250eb71ccc8e69a2dd8ede431b24830cec11599e60ab3a5c87df72b5d"
+    ]
+  },
+  {
+    "reference_id": "a3989d5a04e1a46fbac31eb9140b2c7ed71af3ec0bc6df48cf9cea3e4fc1d6c0",
+    "source_id": "732ff16b6e9f649a5be3",
+    "sha256": "732ff16b6e9f649a5be3e71bfa6939a459e89d76a0f6d01906a53035fbe07b1b",
+    "title": "Décret n° 2017-1183 du 20 juillet 2017 portant annulation de crédits — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000035251020",
+    "path": "second-pass-20261007/jorf/JORFARTI000035251020.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "af86f6ccdcc0b7eb2cb2f49c337bef9ab5e092be9bd282774c8e73f44f7572dd",
+    "source_id": "2e464b4210840df4955d",
+    "sha256": "2e464b4210840df4955d2abd520888983f3c37bcfac2d4a0049c21d1f86df2db",
+    "title": "Décret n° 2017-1639 du 30 novembre 2017 portant ouverture et annulation de crédits à titre d'avance — article 1 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036121411",
+    "path": "second-pass-20261007/jorf/JORFARTI000036121411.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "295329bd44ee9520d15e89b557261bc0cc69560039fa21ab10c27b7ddd1c204a",
+    "source_id": "259602eeaa20689bfc0e",
+    "sha256": "259602eeaa20689bfc0e98dd5f9d2e0bff01c30ac3422fd779412783935ff8c2",
+    "title": "Décret n° 2017-1639 du 30 novembre 2017 portant ouverture et annulation de crédits à titre d'avance — article 2 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036121412",
+    "path": "second-pass-20261007/jorf/JORFARTI000036121412.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "7cd1ade549cf55417c5aaa4ccb45e350399011821aaa6d3f5804117d8d2d70af",
+    "source_id": "2f97d1f47c250290dece",
+    "sha256": "2f97d1f47c250290dece23929e44f961a75b0417b095e73600d2188b42464079",
+    "title": "Décret n° 2017-1639 du 30 novembre 2017 portant ouverture et annulation de crédits à titre d'avance — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036121415",
+    "path": "second-pass-20261007/jorf/JORFARTI000036121415.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "3a03974d2686350b38658df6f83f24c81dd233bc1c6f144e7f4f78369f839860",
+    "source_id": "073b10da3bafd7ca9773",
+    "sha256": "073b10da3bafd7ca97739388807e34104d76b0bfc688a2cb897fa028ff6ba87d",
+    "title": "LOI n° 2017-1640 du 1er décembre 2017 de finances rectificative pour 2017 (1) — article 4 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036126778",
+    "path": "second-pass-20261007/jorf/JORFARTI000036126778.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "a171a7a4fd5bb84b63dd59f3ef3efdf4be35f059242c8f20d858580f6a0c18ea",
+    "source_id": "8a565d2ad422dcc0f0d5",
+    "sha256": "8a565d2ad422dcc0f0d535b20b988e170f356e71a29a034f12cb55a8c1f25de2",
+    "title": "LOI n° 2017-1640 du 1er décembre 2017 de finances rectificative pour 2017 (1) — article 5, comprenant les états budgétaires annexés dans le bloc DILA — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036126779",
+    "path": "second-pass-20261007/jorf/JORFARTI000036126779.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "cbd7539ae2f09c19869d92480d1a184723af0ed45a26875073432c54e3764de5",
+    "source_id": "0aac118aade7ad307d80",
+    "sha256": "0aac118aade7ad307d80cdb45708c629682eae15bbb7f19700dee1b741f55169",
+    "title": "LOI n° 2017-1775 du 28 décembre 2017 de finances rectificative pour 2017 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036298559",
+    "path": "second-pass-20261007/jorf/JORFARTI000036298559.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "d2967e875aec38edd4f8aa968231c14730e5a679c39acb92f8b05ff0ac3ea4c2",
+    "source_id": "5bb403615154fc528bad",
+    "sha256": "5bb403615154fc528bad42ceb7ffdff59fbc4313fec6ac1a5318b8bd58a6592e",
+    "title": "LOI n° 2017-1775 du 28 décembre 2017 de finances rectificative pour 2017 (1) — article 6 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036298565",
+    "path": "second-pass-20261007/jorf/JORFARTI000036298565.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "32a95b9d168825c275ecaca454fd37792fe8bdb7b24509a855cee3e5b5f99379",
+    "source_id": "234e3b19da30272fc4c4",
+    "sha256": "234e3b19da30272fc4c455d3881c3ff2c461975ac9edc9c5cfd483dd2dbeba19",
+    "title": "LOI n° 2017-1775 du 28 décembre 2017 de finances rectificative pour 2017 (1) — article 7 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036298566",
+    "path": "second-pass-20261007/jorf/JORFARTI000036298566.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "632d0d29397b73fc8d3250815894e77c55b800bd3b5e7004aa609ad7455ecad2",
+    "source_id": "01632449b561d146903b",
+    "sha256": "01632449b561d146903b76ad145b5f7fab807ed0a9b492791fbb3f7263939b15",
+    "title": "LOI n° 2017-1775 du 28 décembre 2017 de finances rectificative pour 2017 (1) — article 8 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000036298567",
+    "path": "second-pass-20261007/jorf/JORFARTI000036298567.html",
+    "format": "html",
+    "years": [
+      "2017"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "5ac7164bbf2fcaed0b3df89124908416c9b95b49b949887c3bcce92514927600",
+    "source_id": "c2a6d4fcf7778928c912",
+    "sha256": "c2a6d4fcf7778928c912b92fb4d941df4331a568d4fd2006bb1566f98641e3ab",
+    "title": "LOI n° 2018-1104 du 10 décembre 2018 de finances rectificative pour 2018 (1) — article 5 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000037789721",
+    "path": "second-pass-20261007/jorf/JORFARTI000037789721.html",
+    "format": "html",
+    "years": [
+      "2018"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "b2b66596f79e4480abe066eefce3c68cde5b64f4681e419dff2888d3c42601b6",
+    "source_id": "575b3eef9d083e5c4e00",
+    "sha256": "575b3eef9d083e5c4e00b3d72f38955fdd8150a39981bec5455901339e08b986",
+    "title": "LOI n° 2018-1104 du 10 décembre 2018 de finances rectificative pour 2018 (1) — article 6 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000037789722",
+    "path": "second-pass-20261007/jorf/JORFARTI000037789722.html",
+    "format": "html",
+    "years": [
+      "2018"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "11d755aa7e11ed0eaef414c8c5c45567b1393824059acb5fd9d8409863640377",
+    "source_id": "0b57773fc92e40536681",
+    "sha256": "0b57773fc92e405366810e6d815de9aa93672fc88f35bad11b6ff40cd515aad0",
+    "title": "LOI n° 2018-1104 du 10 décembre 2018 de finances rectificative pour 2018 (1) — article 7 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000037789723",
+    "path": "second-pass-20261007/jorf/JORFARTI000037789723.html",
+    "format": "html",
+    "years": [
+      "2018"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "d7095452d3b8db3d842d15e85784d61b9f49bca85ebf4dc67f12f0a9ec941bab",
+    "source_id": "d410a193e67b25f2b565",
+    "sha256": "d410a193e67b25f2b565d8d9625709c35888440d40fb371d24389f06775236b3",
+    "title": "LOI n° 2018-1104 du 10 décembre 2018 de finances rectificative pour 2018 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000037789725",
+    "path": "second-pass-20261007/jorf/JORFARTI000037789725.html",
+    "format": "html",
+    "years": [
+      "2018"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "c6c89d340c2d09306744e1a348d6ce6843121857a5d345d4f0c34338311ca098",
+    "source_id": "68c1c8d9eeda20d9c1be",
+    "sha256": "68c1c8d9eeda20d9c1be293c0b6ded355ac62b897ee541f8d931756b4e40e4fc",
+    "title": "LOI n° 2019-1270 du 2 décembre 2019 de finances rectificative pour 2019 (1) — article 5 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000039440018",
+    "path": "second-pass-20261007/jorf/JORFARTI000039440018.html",
+    "format": "html",
+    "years": [
+      "2019"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "193aeb56a7609900404e45d1fae5a2b456ea819848792eb12a49b3645cbdf43a",
+    "source_id": "a75436e46ea1637a43f1",
+    "sha256": "a75436e46ea1637a43f1d7ce8ebde4f9cf17a5ac7026ff7a746bf5fa16e96a6b",
+    "title": "LOI n° 2019-1270 du 2 décembre 2019 de finances rectificative pour 2019 (1) — article 6 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000039440019",
+    "path": "second-pass-20261007/jorf/JORFARTI000039440019.html",
+    "format": "html",
+    "years": [
+      "2019"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "3ffd09275b0fa5641a7c0e3fd3b08abdf530d366a26fe31c171dd4419189978f",
+    "source_id": "bda5df48c2ab989cc051",
+    "sha256": "bda5df48c2ab989cc0516914ef4b8f78a51127825ed45444382a39248a1c1c6c",
+    "title": "LOI n° 2019-1270 du 2 décembre 2019 de finances rectificative pour 2019 (1) — article 7 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000039440020",
+    "path": "second-pass-20261007/jorf/JORFARTI000039440020.html",
+    "format": "html",
+    "years": [
+      "2019"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "7810f1f56fdddd456ec768d983d7bf650f28ad4ef5af204e968293b233493a09",
+    "source_id": "267e9d0589f85c4b9b16",
+    "sha256": "267e9d0589f85c4b9b165d7a1603aaba3923fe66a68ef78b2392aaae6b9b2d10",
+    "title": "LOI n° 2019-1270 du 2 décembre 2019 de finances rectificative pour 2019 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000039440023",
+    "path": "second-pass-20261007/jorf/JORFARTI000039440023.html",
+    "format": "html",
+    "years": [
+      "2019"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "98314659b2ae3e8d4b941037f8dac1911c23a0c687b5c1c7523b93294ee8f3c9",
+    "source_id": "215538b106428b16b536",
+    "sha256": "215538b106428b16b53687fb0f6cb88897176500f86833246f7cb655026f5522",
+    "title": "LOI n° 2020-289 du 23 mars 2020 de finances rectificative pour 2020 (1) — article 3 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000041746307",
+    "path": "second-pass-20261007/jorf/JORFARTI000041746307.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "1a1d58852c36e992aa4b4501073f5d227dec585c7bf65eacb0a46c9df6180514",
+    "source_id": "1e4545f5a91a956fea79",
+    "sha256": "1e4545f5a91a956fea79abb4baef61e1872d25830d2842262f758272df11f2f7",
+    "title": "LOI n° 2020-289 du 23 mars 2020 de finances rectificative pour 2020 (1) — article 4 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000041746308",
+    "path": "second-pass-20261007/jorf/JORFARTI000041746308.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "bdcbd8dc7d5296a7da71fd7f1e2a31ba8370b935f56ab1f4c860754a09cd1185",
+    "source_id": "c5d48146bd08540538af",
+    "sha256": "c5d48146bd08540538af0abf50a40c3ef5772c0da6fbd8ffbf86a3908d76ad40",
+    "title": "LOI n° 2020-289 du 23 mars 2020 de finances rectificative pour 2020 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000041746312",
+    "path": "second-pass-20261007/jorf/JORFARTI000041746312.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "164110ada4c06c247fd40ce5be458cda138e7cabe9f437fbd3c2ab3dd4a88647",
+    "source_id": "0403b43c9e6e23e6dfe1",
+    "sha256": "0403b43c9e6e23e6dfe122257b54ec692f58365ccbe5fd6b77d07abaf17e3a87",
+    "title": "LOI n° 2020-473 du 25 avril 2020 de finances rectificative pour 2020 (1) — article 9 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000041820876",
+    "path": "second-pass-20261007/jorf/JORFARTI000041820876.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "6d979e6ba76d8cae259ebd7d15e5b1bbe3a3421e7438054a4387cb45281aef24",
+    "source_id": "8ca032df9d891efb7462",
+    "sha256": "8ca032df9d891efb74623a7941ffa5454b3e0f9d7fdfb29556247987cf7970e6",
+    "title": "LOI n° 2020-473 du 25 avril 2020 de finances rectificative pour 2020 (1) — article 10 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000041820877",
+    "path": "second-pass-20261007/jorf/JORFARTI000041820877.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "45c32e5318a979e9be5d0f4da423b8838739fa8572f4392ccf3f22cd8bda6a72",
+    "source_id": "189e6da374f8880be475",
+    "sha256": "189e6da374f8880be475a7aab423dfe13b07420881c64bc84ba9c3cf7271321a",
+    "title": "LOI n° 2020-473 du 25 avril 2020 de finances rectificative pour 2020 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000041820897",
+    "path": "second-pass-20261007/jorf/JORFARTI000041820897.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "4b2e9de53e52ec2d55036499bdbc2ddf7fe6387c271b7a3d0207778c2017f97d",
+    "source_id": "ed4687115db8c04bf107",
+    "sha256": "ed4687115db8c04bf10709d79b9e330ff4c8ecb614b6fde01b566d0bcdb1ed59",
+    "title": "LOI n° 2020-935 du 30 juillet 2020 de finances rectificative pour 2020 (1) — article 28 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042176595",
+    "path": "second-pass-20261007/jorf/JORFARTI000042176595.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "0cdd165bb158798b9f8af242f01a12c3cb22c28548cac829316fbf7d14f903ff",
+    "source_id": "5383d14df0f50ed64243",
+    "sha256": "5383d14df0f50ed642431fdd9fcd0429a9b023f155f929e48f29f4a77d2580a2",
+    "title": "LOI n° 2020-935 du 30 juillet 2020 de finances rectificative pour 2020 (1) — article 29 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042176596",
+    "path": "second-pass-20261007/jorf/JORFARTI000042176596.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "c20a5fad38e417c8822b3ef8cb13418f4b3f982d361d0817e6f36672087fd893",
+    "source_id": "8bd6a9737d5bf4c0ae4c",
+    "sha256": "8bd6a9737d5bf4c0ae4c3237fe139b6c432f9930049d367c3234d59c5b0a15b8",
+    "title": "LOI n° 2020-935 du 30 juillet 2020 de finances rectificative pour 2020 (1) — article 76, comprenant les états budgétaires annexés dans le bloc DILA — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042176651",
+    "path": "second-pass-20261007/jorf/JORFARTI000042176651.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "335ebb43da23dfdab8b984564172473974886cadab646f53fe968013c4c212d2",
+    "source_id": "f4691933e2c5686e5875",
+    "sha256": "f4691933e2c5686e5875fc041abc6f9dfbf0dc5a1e525ab6eef4f1be304c02ec",
+    "title": "LOI n° 2020-1473 du 30 novembre 2020 de finances rectificative pour 2020 (1) — article 5 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042580138",
+    "path": "second-pass-20261007/jorf/JORFARTI000042580138.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "862443aaabfb68f2b653ecc493f1d7272796d57885ac362fd51880d8220971ec",
+    "source_id": "b509ad64e8874281396c",
+    "sha256": "b509ad64e8874281396ccfef3c24f76c6f4f41ec3db5c312873a15079cde1866",
+    "title": "LOI n° 2020-1473 du 30 novembre 2020 de finances rectificative pour 2020 (1) — article 6 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042580139",
+    "path": "second-pass-20261007/jorf/JORFARTI000042580139.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "201a7d61d39a51a17cb33f9cfd026cd311414beccc260de8833d70620742ec07",
+    "source_id": "3e0e009f096680eb7fe2",
+    "sha256": "3e0e009f096680eb7fe2aafadd6d47d8c953aad746f3a49073a456b91890c6dc",
+    "title": "LOI n° 2020-1473 du 30 novembre 2020 de finances rectificative pour 2020 (1) — article 7 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042580140",
+    "path": "second-pass-20261007/jorf/JORFARTI000042580140.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "92dbc93811e04fc8808bcfade838093c207bc125f6fcaaae7d3e6e6fdd753a3b",
+    "source_id": "513b46a1ac31ad8eae40",
+    "sha256": "513b46a1ac31ad8eae4032e6dc757b3861957f8f7479a63dc308e8b2955593ba",
+    "title": "LOI n° 2020-1473 du 30 novembre 2020 de finances rectificative pour 2020 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042580144",
+    "path": "second-pass-20261007/jorf/JORFARTI000042580144.html",
+    "format": "html",
+    "years": [
+      "2020"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "774565e5d198f0ecd195e76d11566d192f00d26a17203a3b182d1bf99f9096e4",
+    "source_id": "490857ccf6b95e290952",
+    "sha256": "490857ccf6b95e29095227f7558d4a44f638fd71bf2059e096a63b06b26f0e39",
+    "title": "Décret n° 2021-620 du 19 mai 2021 portant ouverture et annulation de crédits à titre d'avance — article 1 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043512384",
+    "path": "second-pass-20261007/jorf/JORFARTI000043512384.html",
+    "format": "html",
+    "years": [
+      "2021"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "1965b0e6a6c9e51abc23e45e58a44e1e4465d15d7ff430ad6cb086a030904b0c",
+    "source_id": "9eae526cc85706ca0617",
+    "sha256": "9eae526cc85706ca0617ff50d94823a94b96ef8e7e0c020d99a8baf6d70f2ca1",
+    "title": "Décret n° 2021-620 du 19 mai 2021 portant ouverture et annulation de crédits à titre d'avance — article 2 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043512385",
+    "path": "second-pass-20261007/jorf/JORFARTI000043512385.html",
+    "format": "html",
+    "years": [
+      "2021"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "a9c77e402cb0ecfd4b53ff97aeafa19d2b4360ceb548f5de882c359dd4e19c6a",
+    "source_id": "ae9648f2586f8bab4c9e",
+    "sha256": "ae9648f2586f8bab4c9e24d8cba1e09c6b931e77092afa7e31001d75571e46d1",
+    "title": "Décret n° 2021-620 du 19 mai 2021 portant ouverture et annulation de crédits à titre d'avance — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043512388",
+    "path": "second-pass-20261007/jorf/JORFARTI000043512388.html",
+    "format": "html",
+    "years": [
+      "2021"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "d16b7913a403fbdf1f62f9d72d55243dc726cdb5fcfceaa0db856a1951f925c1",
+    "source_id": "d3098c923b949770c797",
+    "sha256": "d3098c923b949770c797c9c2736e86f3c256c6c25fabdb06d26709d26a69aae5",
+    "title": "LOI n° 2021-953 du 19 juillet 2021 de finances rectificative pour 2021 (1) — article 16 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043805924",
+    "path": "second-pass-20261007/jorf/JORFARTI000043805924.html",
+    "format": "html",
+    "years": [
+      "2021"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "73519c2a8a6f774ae0245341d463810021f354f1ca096cb19477f63abf44cf5b",
+    "source_id": "81962adf2c19aee94e9b",
+    "sha256": "81962adf2c19aee94e9bbca753ad5732e6c723b000f06003a7f7aff6058c2951",
+    "title": "LOI n° 2021-953 du 19 juillet 2021 de finances rectificative pour 2021 (1) — article 17 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043805925",
+    "path": "second-pass-20261007/jorf/JORFARTI000043805925.html",
+    "format": "html",
+    "years": [
+      "2021"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "7f3b933a7dfdfeb66a74adba56bb5b0b47b747461ca14c9c9ad722e26c4fb897",
+    "source_id": "708c633dc0fcbbfc3fdc",
+    "sha256": "708c633dc0fcbbfc3fdc475eb70c12a4313807b790d5a797f96c6033e08477bf",
+    "title": "LOI n° 2021-953 du 19 juillet 2021 de finances rectificative pour 2021 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043805943",
+    "path": "second-pass-20261007/jorf/JORFARTI000043805943.html",
+    "format": "html",
+    "years": [
+      "2021"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "61635974a5a3d479d608274c49f9f905312d0fc879ff829b259e6e52944d6953",
+    "source_id": "ebb4ef090ad7a1506a58",
+    "sha256": "ebb4ef090ad7a1506a58c0ac5e08b7b570dd761b99d06526579c67609196e3b8",
+    "title": "LOI n° 2021-1549 du 1er décembre 2021 de finances rectificative pour 2021 (1) — article 4 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000044394376",
+    "path": "second-pass-20261007/jorf/JORFARTI000044394376.html",
+    "format": "html",
+    "years": [
+      "2021"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "eacb61d716cb16cab758902f3608bdc44afcc077bef03ce0f3f94290c7230dd6",
+    "source_id": "3d3cc3e88577061b85be",
+    "sha256": "3d3cc3e88577061b85be492de62f0f75b44b714c09e19f754da83e2fc6128703",
+    "title": "LOI n° 2021-1549 du 1er décembre 2021 de finances rectificative pour 2021 (1) — article 5 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000044394377",
+    "path": "second-pass-20261007/jorf/JORFARTI000044394377.html",
+    "format": "html",
+    "years": [
+      "2021"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "b41eabd77cced169e0e8b51a24d96a5a7c61378f057f61c7f187f9fbd56851a9",
+    "source_id": "f6c8fafd6646f6501df4",
+    "sha256": "f6c8fafd6646f6501df47f4570bff2225ea52f1443d2bf2ab93035b261c37525",
+    "title": "LOI n° 2021-1549 du 1er décembre 2021 de finances rectificative pour 2021 (1) — article 6 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000044394378",
+    "path": "second-pass-20261007/jorf/JORFARTI000044394378.html",
+    "format": "html",
+    "years": [
+      "2021"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "27eb2315ff0be639582166be68935670eba0aab2274e81664872015f1fd2a93a",
+    "source_id": "5344554b4b16039ca74b",
+    "sha256": "5344554b4b16039ca74be4e803db89da4f6825167d7a0efb5ed2b3982da82152",
+    "title": "LOI n° 2021-1549 du 1er décembre 2021 de finances rectificative pour 2021 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000044394388",
+    "path": "second-pass-20261007/jorf/JORFARTI000044394388.html",
+    "format": "html",
+    "years": [
+      "2021"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "f430b81168b6069c5f12ce61489ea0ec474d1850c9ee4c5b701a501dc53d6ebc",
+    "source_id": "fdbf6e6ac42150840725",
+    "sha256": "fdbf6e6ac421508407256ed28b409c18bac8c0d0c48005480c9f7d5e92a61e80",
+    "title": "Décret n° 2022-512 du 7 avril 2022 portant ouverture et annulation de crédits à titre d'avance — article 1 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000045536790",
+    "path": "second-pass-20261007/jorf/JORFARTI000045536790.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "7dac937112c0cbc5cf49eeeda6a6519563c2f7f1a79529907058bb3aa603f618",
+    "source_id": "70ea01384b07421496b5",
+    "sha256": "70ea01384b07421496b536d43490593ff2baae15ffee3a4013973817a3c0b8da",
+    "title": "Décret n° 2022-512 du 7 avril 2022 portant ouverture et annulation de crédits à titre d'avance — article 2 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000045536791",
+    "path": "second-pass-20261007/jorf/JORFARTI000045536791.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "7394440d8b4136f0b1474ffee4d3d7a030bd74c40f26688c0b1f111b4151360f",
+    "source_id": "66873793946bd2e1fa68",
+    "sha256": "66873793946bd2e1fa6800d3f3ed76263c7b9d51b7b480eb1ddc8f36c86ecc21",
+    "title": "Décret n° 2022-512 du 7 avril 2022 portant ouverture et annulation de crédits à titre d'avance — article 3 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000045536792",
+    "path": "second-pass-20261007/jorf/JORFARTI000045536792.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "a967912ef2713c4dfb1cbc650fc1b544713f9e13fcc3ba2c38dc2f31918b654c",
+    "source_id": "2fa2cd94bbbf4c9de2a1",
+    "sha256": "2fa2cd94bbbf4c9de2a181fb55e5f3e1139fbf0597b5dc45ec4471b10dea15b1",
+    "title": "Décret n° 2022-512 du 7 avril 2022 portant ouverture et annulation de crédits à titre d'avance — article 4 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000045536793",
+    "path": "second-pass-20261007/jorf/JORFARTI000045536793.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "b0ed2a10a451d114c3cb0f0038b848dc333afd28d46a7f4d2e7ea824549c9fed",
+    "source_id": "284f4daf9c6ef046c2d5",
+    "sha256": "284f4daf9c6ef046c2d5ad17e782cbd37095a222f92a75d3df06b1d46067b58a",
+    "title": "Décret n° 2022-512 du 7 avril 2022 portant ouverture et annulation de crédits à titre d'avance — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000045536796",
+    "path": "second-pass-20261007/jorf/JORFARTI000045536796.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "fa1a23d42d0f86360f819d43ba2d3ea83b7d0b9181a1eebb23c493cb3099b999",
+    "source_id": "23b1a320ec3436683126",
+    "sha256": "23b1a320ec3436683126b2d678bfc649b6240c94302ef46d0dde98f537282bad",
+    "title": "LOI n° 2022-1157 du 16 août 2022 de finances rectificative pour 2022 (1) — article 17 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000046186688",
+    "path": "second-pass-20261007/jorf/JORFARTI000046186688.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "6a909e19bf03c9ef5ce258f4dd200dba5919072e75538fbfa798ef2d571b4cb4",
+    "source_id": "9e15173d8f9642654a97",
+    "sha256": "9e15173d8f9642654a970f3c726f2ad31874824d1047e679311f116d5d01ff4e",
+    "title": "LOI n° 2022-1157 du 16 août 2022 de finances rectificative pour 2022 (1) — article 18 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000046186689",
+    "path": "second-pass-20261007/jorf/JORFARTI000046186689.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "f440ceb7743ed844f6c9c29683c2178d232ae6a8240c21a25b9f781157b94ba2",
+    "source_id": "35a9011b487009f16f5e",
+    "sha256": "35a9011b487009f16f5ea158aeb58af41c8f758d1618056c81fc4430136de286",
+    "title": "LOI n° 2022-1157 du 16 août 2022 de finances rectificative pour 2022 (1) — article 19 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000046186690",
+    "path": "second-pass-20261007/jorf/JORFARTI000046186690.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "d76fc7d52e745c4ce29602e9ab6c530c2ecdfe51dfa868475bb192663282a028",
+    "source_id": "eb8bcd08ca9b8dd10d53",
+    "sha256": "eb8bcd08ca9b8dd10d537754d085e06a8e26afd40aa08ca421fdc63b645a6543",
+    "title": "LOI n° 2022-1157 du 16 août 2022 de finances rectificative pour 2022 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000046186722",
+    "path": "second-pass-20261007/jorf/JORFARTI000046186722.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "9937c1378df2014956e73e7ab74492752f57a0198d7f912e878b48dca12ba518",
+    "source_id": "114ee01ae0a2673d2ab0",
+    "sha256": "114ee01ae0a2673d2ab034b2336857f6c9fed2be47a2d987172d95c7ad7680ef",
+    "title": "LOI n° 2022-1499 du 1er décembre 2022 de finances rectificative pour 2022 (1) — article 7 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000046672421",
+    "path": "second-pass-20261007/jorf/JORFARTI000046672421.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "fe7282296a59c05e54e14457384662de77c86b5d72c2fe911924b07ce2d0bb79",
+    "source_id": "eb6e16f2c4b2a4b253c2",
+    "sha256": "eb6e16f2c4b2a4b253c208181d4f9b836f85f85743265e83453daa96b5408dbe",
+    "title": "LOI n° 2022-1499 du 1er décembre 2022 de finances rectificative pour 2022 (1) — article 8 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000046672422",
+    "path": "second-pass-20261007/jorf/JORFARTI000046672422.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "0a420cb7f202ccc774291006760e4499c428facb2aabd0031b810a78a9c13eba",
+    "source_id": "40c25fa0ebb3753c59bf",
+    "sha256": "40c25fa0ebb3753c59bfbc17d4c09c3372c6b6d47b8c5881f9d10b5dee4d5e3c",
+    "title": "LOI n° 2022-1499 du 1er décembre 2022 de finances rectificative pour 2022 (1) — article 9 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000046672423",
+    "path": "second-pass-20261007/jorf/JORFARTI000046672423.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "2a5ac7ff6559bab9c950cdc97107feaf6cc24dee854b1c1192c3466cb6da30f5",
+    "source_id": "43e58a6ee17a9b7f09d4",
+    "sha256": "43e58a6ee17a9b7f09d4550e313ae677cf63d4ced4ed22e472239a10994615a5",
+    "title": "LOI n° 2022-1499 du 1er décembre 2022 de finances rectificative pour 2022 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000046672442",
+    "path": "second-pass-20261007/jorf/JORFARTI000046672442.html",
+    "format": "html",
+    "years": [
+      "2022"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "dec34471781b9aab15b2da7d26bf70c66edcbc58550d6249ad183e92caccde35",
+    "source_id": "50583191362f225c29c2",
+    "sha256": "50583191362f225c29c2fa9467acaf90f04bcfd8e7edd9ae9e1972f6f43cb88a",
+    "title": "Décret n° 2023-883 du 18 septembre 2023 portant annulation de crédits — article 1 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000048088700",
+    "path": "second-pass-20261007/jorf/JORFARTI000048088700.html",
+    "format": "html",
+    "years": [
+      "2023"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": [
+      "0aca70921d953e0249d0faf9ea83e8f43cd3f6e252130d83f4a871dd9c2ff1cf",
+      "9bedea28ab321c3cedc4f56d9f4576044133da45971343d8ed9fc20d75b988bf"
+    ]
+  },
+  {
+    "reference_id": "b32bf93df9ec4aa9bee6a16be197be8c1e12302db4f92cf6c4623cb8f0649a11",
+    "source_id": "ebc7f9c2c49720005ef0",
+    "sha256": "ebc7f9c2c49720005ef06fe7586755019646935d0400816ed66b6e5f62674bb6",
+    "title": "Décret n° 2023-883 du 18 septembre 2023 portant annulation de crédits — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000048088703",
+    "path": "second-pass-20261007/jorf/JORFARTI000048088703.html",
+    "format": "html",
+    "years": [
+      "2023"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "87c1e8e0c6b64b576fcf120c39a401108dc9fcf21c329b68cae122d21df02697",
+    "source_id": "6c00deeb531aac689151",
+    "sha256": "6c00deeb531aac68915144d241dd7ab772c61992b26c93267705d3689516c82b",
+    "title": "LOI n° 2023-1114 du 30 novembre 2023 de finances de fin de gestion pour 2023 (1) — article 6 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000048493378",
+    "path": "second-pass-20261007/jorf/JORFARTI000048493378.html",
+    "format": "html",
+    "years": [
+      "2023"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "0aa35cba4d4bdb42fa18d3457ea840fbd0d9081d9189f6e19eec23baee6f4821",
+    "source_id": "da9a8942f5eff8cc23cb",
+    "sha256": "da9a8942f5eff8cc23cb4b5841386da54432306890bd9b088594a920ca247e6a",
+    "title": "LOI n° 2023-1114 du 30 novembre 2023 de finances de fin de gestion pour 2023 (1) — article 7 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000048493379",
+    "path": "second-pass-20261007/jorf/JORFARTI000048493379.html",
+    "format": "html",
+    "years": [
+      "2023"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "91f3e90efa9b9d219aab4ede35dd64dffb16dd38c65c8b1fc5bcbe6b433f7cbc",
+    "source_id": "955478bd6ae0f1c58ed2",
+    "sha256": "955478bd6ae0f1c58ed2697796bc92702e8f9da3c703bddfb2e6f74ef107f591",
+    "title": "LOI n° 2023-1114 du 30 novembre 2023 de finances de fin de gestion pour 2023 (1) — article 8 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000048493380",
+    "path": "second-pass-20261007/jorf/JORFARTI000048493380.html",
+    "format": "html",
+    "years": [
+      "2023"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "73bda79741effa9b26b079053c66920609724759f48469d7e78857d08d4abd29",
+    "source_id": "91e894bea4fc25aaeb23",
+    "sha256": "91e894bea4fc25aaeb233144a43a679f0e705fa59c47061601b1dd87d336f2c9",
+    "title": "LOI n° 2023-1114 du 30 novembre 2023 de finances de fin de gestion pour 2023 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000048493385",
+    "path": "second-pass-20261007/jorf/JORFARTI000048493385.html",
+    "format": "html",
+    "years": [
+      "2023"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "e262b41b9b6a9bd13f420e80d46542b872f39573e39f11d1791319c0a8e930cf",
+    "source_id": "6ac35c07f1c7b5ac3f16",
+    "sha256": "6ac35c07f1c7b5ac3f16974f43474e3e74e17b4a15376e468a020b6e09c7edcc",
+    "title": "Décret n° 2024-124 du 21 février 2024 portant annulation de crédits — article 1 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000049180273",
+    "path": "second-pass-20261007/jorf/JORFARTI000049180273.html",
+    "format": "html",
+    "years": [
+      "2024"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "3028f3065126fa7e0752a0ef011890c7511654f247d393e5e0ce01a0c0ccfae8",
+    "source_id": "b320c66ccefc3872907d",
+    "sha256": "b320c66ccefc3872907dafe57d94268344c180675a41e5aef688ef4231680b92",
+    "title": "Décret n° 2024-124 du 21 février 2024 portant annulation de crédits — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000049180276",
+    "path": "second-pass-20261007/jorf/JORFARTI000049180276.html",
+    "format": "html",
+    "years": [
+      "2024"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "e0955b50edf21228e68daca3386fa8d3e48033feaaef23f1c787cd4f40bcc0d2",
+    "source_id": "429ed86ceb810cb81069",
+    "sha256": "429ed86ceb810cb81069aa90bc68cf458dcf066e3f3ba00c398ffd56162222f7",
+    "title": "LOI n° 2024-1167 du 6 décembre 2024 de finances de fin de gestion pour 2024 (1) — article 4 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000050754953",
+    "path": "second-pass-20261007/jorf/JORFARTI000050754953.html",
+    "format": "html",
+    "years": [
+      "2024"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "ef3b42691807a0a3f3117179fd847798c2675a727cb7766c27ce4d898d4efa47",
+    "source_id": "12d21d666d9cc77e611f",
+    "sha256": "12d21d666d9cc77e611f50919ce31175ad3c9ab3860c1fa12bdb0028eb06185f",
+    "title": "LOI n° 2024-1167 du 6 décembre 2024 de finances de fin de gestion pour 2024 (1) — article 5 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000050754954",
+    "path": "second-pass-20261007/jorf/JORFARTI000050754954.html",
+    "format": "html",
+    "years": [
+      "2024"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "7f5bacc5f8466cceb2a0a9baa2f69d37b2b33584310bde1c1e0bebbc9c5bbdb7",
+    "source_id": "8b34a7fca65dd7e2dde0",
+    "sha256": "8b34a7fca65dd7e2dde0779570a7060c7d3db0db13f34c692d6444106f0ea8e0",
+    "title": "LOI n° 2024-1167 du 6 décembre 2024 de finances de fin de gestion pour 2024 (1) — article 6 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000050754955",
+    "path": "second-pass-20261007/jorf/JORFARTI000050754955.html",
+    "format": "html",
+    "years": [
+      "2024"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "f1616dcc721845da0e5c33f397d1ee52b2fdad9ce4974a8216f1ddc833d58deb",
+    "source_id": "383a7ebf50273529062a",
+    "sha256": "383a7ebf50273529062a342fce0fb215e7cf6e7b2761e58268cbcdea5fe60233",
+    "title": "LOI n° 2024-1167 du 6 décembre 2024 de finances de fin de gestion pour 2024 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000050754956",
+    "path": "second-pass-20261007/jorf/JORFARTI000050754956.html",
+    "format": "html",
+    "years": [
+      "2024"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "fd53d0448b00895ff96d554ae6efc5f69d225ea8c3a05a184a173161d72ff5b1",
+    "source_id": "64b1e0a40e60ff673d32",
+    "sha256": "64b1e0a40e60ff673d321430ef4c97b44ca00383d6d7f2f1afcd50e40a6337fa",
+    "title": "Décret n° 2025-374 du 25 avril 2025 portant annulation de crédits — article 1 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051520784",
+    "path": "second-pass-20261007/jorf/JORFARTI000051520784.html",
+    "format": "html",
+    "years": [
+      "2025"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": [
+      "926fff125de3cfd5f5f5de03bb0ba059bfdfbcd6b26b7832f09d4d7f8c2c560f",
+      "b72132d8f0862a49fe9bdf303e626b53d0505f92aff002b0a89e7da48acf5a5a"
+    ]
+  },
+  {
+    "reference_id": "4720bed5f9cadcded4c297150aadb32b24a2a9f783ffc615453289c7856b998a",
+    "source_id": "86ca40cc35fd0a04d7fe",
+    "sha256": "86ca40cc35fd0a04d7fe41f180fdad702414d9083896aaa7ebb33206c411914f",
+    "title": "Décret n° 2025-374 du 25 avril 2025 portant annulation de crédits — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000051520787",
+    "path": "second-pass-20261007/jorf/JORFARTI000051520787.html",
+    "format": "html",
+    "years": [
+      "2025"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "cd66fa250911286b3db5acd078e128165df08f1bc306af504d49d63289f2e94f",
+    "source_id": "bb0fb779ca83e0a8158d",
+    "sha256": "bb0fb779ca83e0a8158d3999ea8a8c83fbad48e52bee8aa9ab2cc86575fd7325",
+    "title": "LOI n° 2025-1173 du 8 décembre 2025 de finances de fin de gestion pour 2025 (1) — article 5 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053000654",
+    "path": "second-pass-20261007/jorf/JORFARTI000053000654.html",
+    "format": "html",
+    "years": [
+      "2025"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "de2c675cc10f0a9a18e52a455a4933e1880a4ea0f354b2c53ecbc90ffa7f1c50",
+    "source_id": "878831775ae99425d3c7",
+    "sha256": "878831775ae99425d3c7a82197e118a60615d137d9c036640a90918907fd5379",
+    "title": "LOI n° 2025-1173 du 8 décembre 2025 de finances de fin de gestion pour 2025 (1) — article 6 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053000655",
+    "path": "second-pass-20261007/jorf/JORFARTI000053000655.html",
+    "format": "html",
+    "years": [
+      "2025"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "10fba671d265f0eb8ea23bf9ff875a1aa6f71f6d02fbaffe0ce6d0d638dc1554",
+    "source_id": "671b3a7d5a78b7b0d105",
+    "sha256": "671b3a7d5a78b7b0d105e67a2926305a82bf9014bdf9b37de58add6dca332844",
+    "title": "LOI n° 2025-1173 du 8 décembre 2025 de finances de fin de gestion pour 2025 (1) — article 7 — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053000656",
+    "path": "second-pass-20261007/jorf/JORFARTI000053000656.html",
+    "format": "html",
+    "years": [
+      "2025"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  },
+  {
+    "reference_id": "a494e9acbaa3bc5b69a0b9da82a74a82e366f02a2722fe672c6f2675ed81c4a4",
+    "source_id": "6f2dff3fc6b63cb101c5",
+    "sha256": "6f2dff3fc6b63cb101c512749fc125242ba060ffc49cd7d3b2493f836ec8fcb7",
+    "title": "LOI n° 2025-1173 du 8 décembre 2025 de finances de fin de gestion pour 2025 (1) — annexes et états budgétaires — HTML DILA original",
+    "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053000660",
+    "path": "second-pass-20261007/jorf/JORFARTI000053000660.html",
+    "format": "html",
+    "years": [
+      "2025"
+    ],
+    "stage": "articles_acte_budgetaire",
+    "source_kind": "source_html",
+    "table_layout": "raw_html_spans_preserved",
+    "numeric_status": "raw_not_validated_facts",
+    "related_existing_references": []
+  }
+]

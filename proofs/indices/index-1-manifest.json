@@ -1,0 +1,2440 @@
+{
+  "version": "nos-deniers-retrieval-1",
+  "state": "ready",
+  "input_sha256": "7cab781e5e779dc09c2d96c6ccc1a3c5b6889e9dd161a3d2271c045859109004",
+  "model": "BAAI/bge-m3",
+  "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "dimension": 1024,
+  "passages": 594432,
+  "documents": 261,
+  "quantization": "IVF/SQ8",
+  "sparse": "candidate_reranking",
+  "numeric_facts_certified": false,
+  "generated_at": "2026-10-02T07:07:49.792327+00:00",
+  "files": [
+    {
+      "path": "search.sqlite",
+      "bytes": 2983829504,
+      "sha256": "a06a8d0866ff912800ed140f8b70d5ad1c8330f538db4ab80f55382950e5e28e"
+    },
+    {
+      "path": "dense.faiss",
+      "bytes": 614254272,
+      "sha256": "f41926b757cd7401be9cec8c7e7bcd5a860e5b0e732eb4193171e531ce2de596"
+    }
+  ],
+  "base_input_sha256": "5089bcdcd395be8c371f4ed99961b46251120a744d61a7349b3b27b8687ce442",
+  "encoder_contract": {
+    "artificial_overlap": 0,
+    "automatic_numeric_fact": false,
+    "colbert": false,
+    "context_included_in_token_limit": true,
+    "dense_dimensions": 1024,
+    "dense_dtype": "float16",
+    "dense_normalized": true,
+    "documents": 261,
+    "documents_replacing_legacy_index": 16,
+    "existing_conforming_indexes_untouched": [
+      "/search",
+      "/search-supplement2"
+    ],
+    "gpu_launched": false,
+    "headers": "source_candidates_not_certified",
+    "input": "public.bge-m3.jsonl",
+    "input_bytes": 1262754463,
+    "input_count": 594432,
+    "input_sha256": "7cab781e5e779dc09c2d96c6ccc1a3c5b6889e9dd161a3d2271c045859109004",
+    "input_tokens": 381078075,
+    "legacy_index_to_replace_after_validation": "/search-supplement",
+    "max_tokens": 800,
+    "model": "BAAI/bge-m3",
+    "natural_blocks": true,
+    "null_is_not_zero": true,
+    "part_size": 8192,
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "schema": "nos-deniers-bge-m3-incremental-v20261001",
+    "source_groups": {
+      "complements_20261001": 14,
+      "legacy_supplement_replacement": 16,
+      "plf2027": 231
+    },
+    "sparse_dtype": "float32",
+    "tokenizer_sha256": "21106b6d7dab2952c1d496fb21d5dc9db75c28ed361a05f5020bbba27810dd08",
+    "tokenizers_version": "0.22.2",
+    "truncate": false,
+    "word_boundaries": true
+  },
+  "replaces_input_sha256": "b274ff775a402b0ad0eff91f85adebb621ce55159d129700280b83d5ad536f39",
+  "original_sources_preserved": 16,
+  "source_groups": {
+    "complements_20261001": 14,
+    "legacy_supplement_replacement": 16,
+    "plf2027": 231
+  },
+  "source_documents": [
+    {
+      "sha256": "76b20ef37e53c85c1133dbf9f5c21530a29821f0e801ea505638f0587415d17b",
+      "source_id": "76b20ef37e53c85c1133",
+      "title": "* PLF 2027 - Dossier de presse complet",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "d254ced154a60b041d74a59dc12c97cc349a237639eb83457a77481918d95661",
+      "source_id": "d254ced154a60b041d74",
+      "title": "* Projet de loi de finances (PLF) pour 2027",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "850e678c3cca6b6c2558d085429ccc80680a582b0d2baef4c2bccc552273df6b",
+      "source_id": "850e678c3cca6b6c2558",
+      "title": "101 - Accès au droit et à la justice",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "c7f304e678d1171e6e061242d93da2df3b895a3f491079b6475e02b4b2643ed9",
+      "source_id": "c7f304e678d1171e6e06",
+      "title": "102 - Accès et retour à l'emploi",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "bb0c155d2bdf44f980c4e9c6aa56bd24b97e57fab4538e71ec20c5cdf2e8fa63",
+      "source_id": "bb0c155d2bdf44f980c4",
+      "title": "103 - Accompagnement des mutations économiques et développement de l'emploi",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "c0d854fa986e49c4750735aac63b4164803b850a020c047ee86952c3582239b0",
+      "source_id": "c0d854fa986e49c47507",
+      "title": "104 - Intégration et accès à la nationalité française",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "24a0a73750a5f0a331d9277b2687db8333e8ab3462908d69f4923e0a41cb9054",
+      "source_id": "24a0a73750a5f0a331d9",
+      "title": "105 - Action de la France en Europe et dans le monde",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "59c88f54132b37d1acf7dfdea604bf59a34927fc33fe5e6586ab8a1ec9c5206b",
+      "source_id": "59c88f54132b37d1acf7",
+      "title": "107 - Administration pénitentiaire",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "a5739b5eacc2bb7403fac3c5db7546d41d4583b8442ac260b879452b3246a20d",
+      "source_id": "a5739b5eacc2bb7403fa",
+      "title": "109 - Aide à l'accès au logement",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ee7706e27d810abbb703166600af49729550945877683b1749f5d469a5512821",
+      "source_id": "ee7706e27d810abbb703",
+      "title": "110 - Aide économique et financière au développement",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "a5306f234a4e40c117661e31863c7429141d10a59df32f1e71dad871a1f85052",
+      "source_id": "a5306f234a4e40c11766",
+      "title": "111 - Amélioration de la qualité de l'emploi et des relations du travail",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "aa834c0ca384c74aedec9642d6011a6622069d6e33b66401b6112432c9abe29a",
+      "source_id": "aa834c0ca384c74aedec",
+      "title": "112 - Impulsion et coordination de la politique d'aménagement du territoire",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "868aef1e0b4fdfdc5059631d28fa0f4faaf96218779444d05d2967375aed24cc",
+      "source_id": "868aef1e0b4fdfdc5059",
+      "title": "113 - Paysages, eau et biodiversité",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "fa5775eff1d1272867acdd906fd60014ca104d3054574fedc30556bba3ec56a4",
+      "source_id": "fa5775eff1d1272867ac",
+      "title": "114 - Appels en garantie de l'État (crédits évaluatifs)",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "bd2a6d6bbb5c78ca663d10796bf78fea11b170f8b9b61a18a32288e0ce357260",
+      "source_id": "bd2a6d6bbb5c78ca663d",
+      "title": "117 - Charge de la dette et trésorerie de l'État (crédits évaluatifs)",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "abbed3453587f7b7ff31639964e7c6d347662309b986fff91b5d3cb7a2d27f89",
+      "source_id": "abbed3453587f7b7ff31",
+      "title": "119 - Concours financiers aux collectivités territoriales et à leurs groupements",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "bfb51c585dc12fa5fd381e89e5de62fc89467d6034ee93899669333871020b90",
+      "source_id": "bfb51c585dc12fa5fd38",
+      "title": "122 - Concours spécifiques et administration",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "4597d280fd454158a78e9fd852e2ed05674a285ffd25c0cb8013e97f8de2a9eb",
+      "source_id": "4597d280fd454158a78e",
+      "title": "123 - Conditions de vie outre-mer",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "80d70f2ebb70f6736e642c66eacfff321c06a0375085f4bd02d707e755edc25e",
+      "source_id": "80d70f2ebb70f6736e64",
+      "title": "126 - Conseil économique, social et environnemental",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "27095292c46453bb33200430bd550a03428d1321e2d6ce6fb701bfa416cbfd4d",
+      "source_id": "27095292c46453bb3320",
+      "title": "129 - Coordination du travail gouvernemental",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b093e23d716b2a22afcfc6f02dd66528e6351a08a90422a6ae67097771229b97",
+      "source_id": "b093e23d716b2a22afcf",
+      "title": "131 - Création",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "6165359272964d349dedda78e2be26c8b421f8386b69413c1439aabc5f788bb0",
+      "source_id": "6165359272964d349ded",
+      "title": "134 - Développement des entreprises et régulations",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "599a163c4a04b75c3e474e985db93f72ce76754a9d38fc078bb43001a06883d2",
+      "source_id": "599a163c4a04b75c3e47",
+      "title": "135 - Urbanisme, territoires et amélioration de l'habitat",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "0b891f7dfcdf1b698f5499ed653c2866030519dac1582d96a9aed7ccfabc5668",
+      "source_id": "0b891f7dfcdf1b698f54",
+      "title": "137 - Égalité entre les femmes et les hommes",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "1d9815e25743569049736a719dee75ffef497250691f1e9e454fca8a75fb517e",
+      "source_id": "1d9815e2574356904973",
+      "title": "138 - Emploi outre-mer",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b97f5640449078268c3f2d534e133a98d310a332e5c65bbb954a547f7152f73a",
+      "source_id": "b97f5640449078268c3f",
+      "title": "139 - Enseignement privé du premier et du second degrés",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "074b4091a1b8b5cbf9558c7fe7f55ed637c2264a7fd79106b580249d817b5af3",
+      "source_id": "074b4091a1b8b5cbf955",
+      "title": "140 - Enseignement scolaire public du premier degré",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "8910391a276faad2cabead4038cc088a6f8f940b152ba43386e0584679a21cbf",
+      "source_id": "8910391a276faad2cabe",
+      "title": "141 - Enseignement scolaire public du second degré",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "625b0b35d8f468860d7b4c9fa2ef4cc594a6b9e4be1da1d3a60731c9ff404a91",
+      "source_id": "625b0b35d8f468860d7b",
+      "title": "142 - Enseignement supérieur et recherche agricoles",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b0531168dd06080e388db9b7a191f270e6002d78125e45673b7fba5327fcf45a",
+      "source_id": "b0531168dd06080e388d",
+      "title": "143 - Enseignement technique agricole",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "5c62f9ef14184f8a43e53dfd9b3e6ff86f93e64acd35f30ceedacfd37ba86b1b",
+      "source_id": "5c62f9ef14184f8a43e5",
+      "title": "144 - Environnement et prospective de la politique de défense",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "bcb8587d73a1ea39a02cad46be162297070bf9c237004b4f7148df283ff46da4",
+      "source_id": "bcb8587d73a1ea39a02c",
+      "title": "145 - Épargne",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ca459ad8f92d7f15af1a84b488b9986902040f34e6c8c62d6221fc395cf65d9d",
+      "source_id": "ca459ad8f92d7f15af1a",
+      "title": "146 - Équipement des forces",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "3a5ec49bd704dd1312ab0ec530e3721c8441668f3214605922189924667e6812",
+      "source_id": "3a5ec49bd704dd1312ab",
+      "title": "147 - Politique de la ville",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "2eb1127d2083009ccd677acc2be7dc2892ecfe8cfdd53fc4171c98274b503e9a",
+      "source_id": "2eb1127d2083009ccd67",
+      "title": "148 - Fonction publique",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "e3edde503cdcba513bb18afbcaf853250c5f8beaa3cec67fb1fb68c8250e0033",
+      "source_id": "e3edde503cdcba513bb1",
+      "title": "149 - Compétitivité et durabilité de l'agriculture et de l'agroalimentaire",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "330e8cdc58c2f2933e760727c28c21441f89e5bebaf468419ecde13b4ca6d63c",
+      "source_id": "330e8cdc58c2f2933e76",
+      "title": "150 - Formations supérieures et recherche universitaire",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "a093d61d34f88716c1db38ce0528a00c9adb0d222934807b8fbf826269e076c8",
+      "source_id": "a093d61d34f88716c1db",
+      "title": "151 - Français à l'étranger et affaires consulaires",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "f0c2f5fb620c95dbfe1535a28ba3c4892eeb64ce7abd03893a94e0fbff073ad9",
+      "source_id": "f0c2f5fb620c95dbfe15",
+      "title": "152 - Gendarmerie nationale",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "eb0da739b80a21b733d6e1f27eb98cd8ac247cd9620fc17297667c7f4c7aca4c",
+      "source_id": "eb0da739b80a21b733d6",
+      "title": "155 - Soutien des ministères sociaux",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "74062512a23b52104fa66d83d05dbb80654b9053a9bd518f4ff6dc4e7c9c9a89",
+      "source_id": "74062512a23b52104fa6",
+      "title": "157 - Handicap et dépendance",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "2002501285979bf0b6f8eb0fa0b46ef54ad242d099aa0db8db0039812665f2ef",
+      "source_id": "2002501285979bf0b6f8",
+      "title": "158 - Indemnisation des victimes des persécutions antisémites et des actes de barbarie pendant la seconde guerre mondiale",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "34dee8f4ca8f97954e879e0671241d027221ae7e6e467d91627cd8f0422c1e7b",
+      "source_id": "34dee8f4ca8f97954e87",
+      "title": "159 - Expertise, information géographique et météorologie",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "fce11fbc2c841e97845222539f35b20605a13a774e994c97c83fd8b8236dfee7",
+      "source_id": "fce11fbc2c841e978452",
+      "title": "161 - Sécurité civile",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "0819704d981573c4da22fcc6de5c88cacaa407064b1466d1f4aae3b0bb430a5c",
+      "source_id": "0819704d981573c4da22",
+      "title": "162 - Interventions territoriales de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "73edd70e9c3b7955f65de20c32303dbcf59ac27f0742ccce8929fd59bfe41f76",
+      "source_id": "73edd70e9c3b7955f65d",
+      "title": "163 - Jeunesse et vie associative",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "2af07bc69129d623eb9a3a504157bdfe8010f719eefcb79750e2d2074fdf527e",
+      "source_id": "2af07bc69129d623eb9a",
+      "title": "164 - Cour des comptes et autres juridictions financières",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b25f4bd34f299c654219431a12f031efd29221b32bf27de683e8688ff8d00fd8",
+      "source_id": "b25f4bd34f299c654219",
+      "title": "165 - Conseil d'État et autres juridictions administratives",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "fb469b1cb634acad56323bf9710fb311eb7326bffdd5460424041580a72249c8",
+      "source_id": "fb469b1cb634acad5632",
+      "title": "166 - Justice judiciaire",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "e5b1077838274b7acad6bb3376ffbe8e996303216ed63aff8e18617c634b64b4",
+      "source_id": "e5b1077838274b7acad6",
+      "title": "169 - Reconnaissance et réparation en faveur du monde combattant, mémoire et liens avec la Nation",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "8fe6ba552d952270537e656af807f3d947826cdffc305d16333ad087f7c6174a",
+      "source_id": "8fe6ba552d952270537e",
+      "title": "172 - Recherches scientifiques et technologiques pluridisciplinaires",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b4e1013fb6913390e0c67b1310fff2c00887edb653ff8b23f514c9b38833c0f5",
+      "source_id": "b4e1013fb6913390e0c6",
+      "title": "174 - Énergie, climat et après-mines",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "c9c3399b9ec2735b5314a1b3c87d64917a089bae3d61c9481bae88bdbe22e345",
+      "source_id": "c9c3399b9ec2735b5314",
+      "title": "175 - Patrimoines",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "e5df54b624cf2e22afdb395c427f119c61031b194db15c47d229bd85a0602a05",
+      "source_id": "e5df54b624cf2e22afdb",
+      "title": "176 - Police nationale",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "1d9a95303c5ac59fa262180af06e29127d619fb1f581a59aed2caf3ad10024fd",
+      "source_id": "1d9a95303c5ac59fa262",
+      "title": "177 - Hébergement, parcours vers le logement et insertion des personnes vulnérables",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "6bc4ec8bf40650b15af270d5adba71540b28c837a1932b6df25fa384a4890238",
+      "source_id": "6bc4ec8bf40650b15af2",
+      "title": "178 - Préparation et emploi des forces",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ac27a95a846e528e21b593ed64b94f919e38211ac24b0a6481e81b168454d116",
+      "source_id": "ac27a95a846e528e21b5",
+      "title": "180 - Presse et médias",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "cc2770d9d35148f5c71f8f6db6988bc3ff03967d20670dc51ae64857d0721d76",
+      "source_id": "cc2770d9d35148f5c71f",
+      "title": "181 - Prévention des risques",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "6a61ff3ec783d1261e278b7b41194ffb22d1f60179568d19c30e9eab92f23f05",
+      "source_id": "6a61ff3ec783d1261e27",
+      "title": "182 - Protection judiciaire de la jeunesse",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "5933088ce365d66c4b1ebe17080ade135ee64e102975478679df85cb410b7b09",
+      "source_id": "5933088ce365d66c4b1e",
+      "title": "183 - Protection maladie",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ea96eb870b46810d0cbe6a32004403eaf055e6066197b98fa5ca79a40ae0d1ec",
+      "source_id": "ea96eb870b46810d0cbe",
+      "title": "185 - Diplomatie culturelle et d'influence",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7d911ec0af7de19a251638d44c5c3278a394a6171c006f7c6186956c587226d4",
+      "source_id": "7d911ec0af7de19a2516",
+      "title": "190 - Recherche dans les domaines de l'énergie, du développement et de la mobilité durables",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b13c5b82cf3c5a6414530ce5ccc264aa9098b09b6c731a74875292a186657f72",
+      "source_id": "b13c5b82cf3c5a641453",
+      "title": "192 - Recherche et enseignement supérieur en matière économique et industrielle",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "9651d91a84f5d7d6bd09ff36c062560b9b3667dac1a1bcd4a08f55a632712b82",
+      "source_id": "9651d91a84f5d7d6bd09",
+      "title": "193 - Recherche spatiale",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "5be19f1b222c239e225be7f90b51c1733c776410afca2074baf3e954b09daca1",
+      "source_id": "5be19f1b222c239e225b",
+      "title": "195 - Régimes de retraite des mines, de la SEITA, et divers",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "303f7677a4a4569d003116f5872e0f6b7944ac059bd49727a341a972cad86eb8",
+      "source_id": "303f7677a4a4569d0031",
+      "title": "196 - Compensation des exonérations relatives au taux de contribution employeur du CAS « Pensions »",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "52b0a394ae2887d2c93a408debaa24713e3b37c724dcef5a366b0019a92c355c",
+      "source_id": "52b0a394ae2887d2c93a",
+      "title": "197 - Régimes de retraite et de sécurité sociale des marins",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "9504e48b20a32914010fce13e60bb4a820101696c883ffa475bf6f3834022848",
+      "source_id": "9504e48b20a32914010f",
+      "title": "198 - Régimes sociaux et de retraite des transports terrestres",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7a6b60048d8df45b4469e534e523946cfd718ed08235891d6f36ac01f3a88c3e",
+      "source_id": "7a6b60048d8df45b4469",
+      "title": "200 - Remboursements et dégrèvements d'impôts d'État (crédits évaluatifs)",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "a8eb589582638116012fc3971504460880a0daf04f56ebffb6476fa0a0cfd81c",
+      "source_id": "a8eb589582638116012f",
+      "title": "201 - Remboursements et dégrèvements d'impôts locaux (crédits évaluatifs)",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "170fc6a17a339b6f51624c1cfef1365c907802c2f911382e8ac5c95e6e8df4f9",
+      "source_id": "170fc6a17a339b6f5162",
+      "title": "203 - Infrastructures et services de transports",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "3643073b2aafbef9fe4fe127885e9b1c92720eaa12f5b7e802c5639b001b5ec1",
+      "source_id": "3643073b2aafbef9fe4f",
+      "title": "204 - Prévention, sécurité sanitaire et offre de soins",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "c439dc8e942bdfa4697e6d3f940ed65f6dd8f3b08c2a7f8bb7d49035fdc6e2a7",
+      "source_id": "c439dc8e942bdfa4697e",
+      "title": "205 - Mer, pêche et aquaculture",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "02d2171d304e6346084b998032a41c54d4624a40b1755db019bd470254305cb4",
+      "source_id": "02d2171d304e6346084b",
+      "title": "206 - Sécurité et qualité sanitaires de l'alimentation",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "9ec344907ff877d578e3efe3de2802b01c650f27ce574927d9d41cbd9dd41b66",
+      "source_id": "9ec344907ff877d578e3",
+      "title": "207 - Sécurité et éducation routières",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "f68cae4cacdb92481078d449fcf1a90457fb35be4b3e37353129185fd845c0a1",
+      "source_id": "f68cae4cacdb92481078",
+      "title": "209 - Solidarité à l'égard des pays en développement",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "e4e5379fb4f2f6f6f349552a2c5d63f08fa248bb7b3ea75ff3a695942b45f1c1",
+      "source_id": "e4e5379fb4f2f6f6f349",
+      "title": "212 - Soutien de la politique de la défense",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "59992a5a4b46f63d411ea6ce67a92dc6dded12d8adb33bc85f3d391ba4422ec8",
+      "source_id": "59992a5a4b46f63d411e",
+      "title": "214 - Conduite et soutien des politiques de l’enseignement, de la recherche, de la jeunesse, de la vie associative et des sports",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ff242cb1ce008916fb7e1ff022b5f95de48b9720d92ded8872967bcb3d903eb7",
+      "source_id": "ff242cb1ce008916fb7e",
+      "title": "215 - Conduite et pilotage des politiques de l'agriculture",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "908c7fe261efcf4afe5d9282db8026132d5b01aba752e0cb38577caf34da833b",
+      "source_id": "908c7fe261efcf4afe5d",
+      "title": "216 - Conduite et pilotage des politiques de l'intérieur",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "4b7ee45e61b4a269540aac8af9b908eb95a64313cad62fb4143c3abc90455cc2",
+      "source_id": "4b7ee45e61b4a269540a",
+      "title": "217 - Conduite et pilotage des politiques de l'écologie, du développement et de la mobilité durables",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "17fd15420f37902df8c22b5fc503fd28998fd03d4aa2e5f6be9199cd5086d25c",
+      "source_id": "17fd15420f37902df8c2",
+      "title": "219 - Sport",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "57e0392439ca4d3a835fef3184c70cbe8f15575c591f1b937cfc79f92076bee4",
+      "source_id": "57e0392439ca4d3a835f",
+      "title": "220 - Statistiques et études économiques",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "4f4119babdf5ca93923fee0c701b4ce86a0f6865b259ee3a7d32d08e109924af",
+      "source_id": "4f4119babdf5ca93923f",
+      "title": "224 - Soutien aux politiques du ministère de la culture",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "d99f77b97eadba3fa9e3fcb7f429931ed6bdd10a1e05c4bf0e1c921f234f6600",
+      "source_id": "d99f77b97eadba3fa9e3",
+      "title": "230 - Vie de l'élève",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ef159fa1e01eb3943dddf6a499dce539ec1166a4c22af521d691d53ccc32bf6f",
+      "source_id": "ef159fa1e01eb3943ddd",
+      "title": "231 - Vie étudiante",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "64b55c4a2831a3fdc9d1be304f1e654b45b85e5ef415ab244cddb56413342c97",
+      "source_id": "64b55c4a2831a3fdc9d1",
+      "title": "232 - Vie politique",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "48b00367f956cbfed1b67de1846294962bf97e4079a65b8fadb46509e10de790",
+      "source_id": "48b00367f956cbfed1b6",
+      "title": "235 - Sûreté nucléaire et radioprotection",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "1856f67f3d15289f71d6d71ff8b0972a57ce89cff69aae9473c5a2738340b81b",
+      "source_id": "1856f67f3d15289f71d6",
+      "title": "303 - Immigration et asile",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "64d6488defea7f24aac9833aa7cf5164095828a66fb7d70b7064df66adcb7027",
+      "source_id": "64d6488defea7f24aac9",
+      "title": "304 - Inclusion sociale et protection des personnes",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "cdbf03423262563131d2eeb55a615bb85b6e269f1a83edec9387fbc7bff5ca18",
+      "source_id": "cdbf03423262563131d2",
+      "title": "305 - Stratégies économiques",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "d9666b1e4a79d0d0b76976ac74ecf3e5177b3b3c1e6e9c39769662fa9708dc1b",
+      "source_id": "d9666b1e4a79d0d0b769",
+      "title": "308 - Protection des droits et libertés",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "25c361e74158b7def695712193e602e2eb978400f47531e5b8a8ec5779188ccf",
+      "source_id": "25c361e74158b7def695",
+      "title": "310 - Conduite et pilotage de la politique de la justice",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "baf2edbeb0fc9e2f03347cc58b11354cf867faba26b077908a4b4492441bfa38",
+      "source_id": "baf2edbeb0fc9e2f0334",
+      "title": "334 - Livre et industries culturelles",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "71e68daf7f9f8c7696dda1ff0e9b56a94c813618a6516f60e444d0e1f801d73d",
+      "source_id": "71e68daf7f9f8c7696dd",
+      "title": "335 - Conseil supérieur de la magistrature",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "1a2018a14b26aa356ce0d792bc3571f8ad09063b0a018a94c8d6cf3a4a719623",
+      "source_id": "1a2018a14b26aa356ce0",
+      "title": "336 - Dotation du Mécanisme européen de stabilité",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "2c8d70b54b22043c05a110dd53640d412b30f5b5647e953c001d458af9b01d74",
+      "source_id": "2c8d70b54b22043c05a1",
+      "title": "338 - Augmentation de capital de la Banque européenne d'investissement",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "6b90d63fc94baddd1a3f8331ed5be718d2fb77026f844be5343b759885b26753",
+      "source_id": "6b90d63fc94baddd1a3f",
+      "title": "343 - Plan France Très haut débit",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "00e049a4db767c972d773c6e47da997d2e9dbaed28c792c84e24fbba85c23e64",
+      "source_id": "00e049a4db767c972d77",
+      "title": "344 - Fonds de soutien relatif aux prêts et contrats financiers structurés à risque",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "0eb2ebbebfa808974205526c1a7301948b45d5449fa6d63c75834452dbd9a611",
+      "source_id": "0eb2ebbebfa808974205",
+      "title": "345 - Service public de l'énergie",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "2dc291163d632b8aa84212a7b4faffd6cbc787fd0f217f12c75e6d3aad22fa23",
+      "source_id": "2dc291163d632b8aa842",
+      "title": "348 - Performance et résilience des bâtiments de l'État et de ses opérateurs",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "400417d26abe03fde7127d7c8d45d67274b94c526c36f5eef40975f5000c941b",
+      "source_id": "400417d26abe03fde712",
+      "title": "349 - Accès, qualité et transformation des services publics",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "5bcaab3ceefe632147d3e11c48db1758f25c910c2127ce64494ea0dfd84d91a0",
+      "source_id": "5bcaab3ceefe632147d3",
+      "title": "354 - Administration territoriale de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "75194061790e02ada95b1c95ff0b658df74d9ec20521cb3347b116aa3ac5ce75",
+      "source_id": "75194061790e02ada95b",
+      "title": "355 - Charge de la dette de SNCF Réseau reprise par l'État (crédits évaluatifs)",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "9717522d1c0817085bd66a90a867ffdca4b4d962dc4b3988de888d425b419965",
+      "source_id": "9717522d1c0817085bd6",
+      "title": "361 - Transmission des savoirs et démocratisation de la culture",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "1d0c90348f06fb799957205c0509e0ce887d24fa3100d6031bec9e1b448c3c8d",
+      "source_id": "1d0c90348f06fb799957",
+      "title": "362 - Ecologie – mise en extinction du plan de relance",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "f74955720a501f11b880d17e6d6cce31b48409509e0e35dab7d8d9d7e2ac343a",
+      "source_id": "f74955720a501f11b880",
+      "title": "365 - Renforcement des fonds propres de l'Agence française de développement",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "d132815d2decd3d6ab73d26cbe175ce2978cb904ebe0eb49a9a70c002a0102c0",
+      "source_id": "d132815d2decd3d6ab73",
+      "title": "367 - Financement des opérations patrimoniales en 2027 sur le compte d'affectation spéciale « Participations financières de l'État »",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "9ebe5cac212b669ad98685b89ccd47c57bc3357550f9ec4ee9b2777d422a7084",
+      "source_id": "9ebe5cac212b669ad986",
+      "title": "370 - Restitution des « biens mal acquis »",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7f938daa7f0bea10c00300de918f28b5bd44b1261ee9948581fa004349c1a8e9",
+      "source_id": "7f938daa7f0bea10c003",
+      "title": "379 - Reversement à la sécurité sociale des recettes de la Facilité pour la Relance et la Résilience (FRR) européenne au titre du volet « Ségur investissement » du plan national de relance et de résilience (PNRR)",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "3d469ef16bb1e94519872c5337b31237a41969f1509836a9ae2c9451e6d5d92f",
+      "source_id": "3d469ef16bb1e9451987",
+      "title": "380 - Fonds d'accélération de la transition écologique dans les territoires",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b322800d5e6191821726dd13fb708c25c533c4fdc43bd3e874a8806c6ecbdb9d",
+      "source_id": "b322800d5e6191821726",
+      "title": "384 - Fonds de solidarité pour le développement",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "6f8f6a432955cda856512413c70c03f7bd0ac7d7b742e6399e8df0a9a002db9f",
+      "source_id": "6f8f6a432955cda85651",
+      "title": "385 - Jeux olympiques et paralympiques d'hiver 2030",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "3acdb29c67e70c12ea47121ffab2ade07cc55c4d89d35a7315fb65ad90d10742",
+      "source_id": "3acdb29c67e70c12ea47",
+      "title": "386 - Forêt",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "a93fa6a3dbf38209d34a7ed7e0a60f2fc49786652fde6c85f4b7fbd1ac631a7e",
+      "source_id": "a93fa6a3dbf38209d34a",
+      "title": "387 - Soutien financier au nouveau nucléaire français",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "35f7bb0f061e1785777831efbd2a4c521b9ce1666ae1039e1b53cad1cbe84020",
+      "source_id": "35f7bb0f061e17857778",
+      "title": "421 - Soutien des progrès de l'enseignement et de la recherche",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "0f7100e32e296f74918ffbd94778ccd413336687fe32d250b6fc1553168ae605",
+      "source_id": "0f7100e32e296f74918f",
+      "title": "422 - Valorisation de la recherche",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "8b2b036fc5bf6c81512ecd2100a8d63e78f907eec78c62c6454b31d9e6c8eaed",
+      "source_id": "8b2b036fc5bf6c81512e",
+      "title": "423 - Accélération de la modernisation des entreprises",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7409cfb4e9820fb92cee4032c185e168eacd6d89b7a9ee1340ff35ba1821c48e",
+      "source_id": "7409cfb4e9820fb92cee",
+      "title": "424 - Financement des investissements stratégiques",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "0a95b1f1fd540972bd7b3faed1d400e8af5bc6edfdd1553c3ba8d6d525e2ca22",
+      "source_id": "0a95b1f1fd540972bd7b",
+      "title": "425 - Financement structurel des écosystèmes d'innovation",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "316110792ca9abdb4062665df4d0ecf855b320f3ccdcbaf1438c0c8ba698e5a0",
+      "source_id": "316110792ca9abdb4062",
+      "title": "501 - Présidence de la République",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b68f1eb786a7ec0aa3934687174e1541c1ce7320d5a2686e5589395b9304c992",
+      "source_id": "b68f1eb786a7ec0aa393",
+      "title": "511 - Assemblée nationale",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7b3c7f8c8eac5e5fafd0bb194e9b7792834e0680c5fa7b927e9718c6b0acd4b2",
+      "source_id": "7b3c7f8c8eac5e5fafd0",
+      "title": "521 - Sénat",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ecf47e27b3f54b5fe425346545974ec6780ca230e62a52270c68cde00af0ba8d",
+      "source_id": "ecf47e27b3f54b5fe425",
+      "title": "531 - Conseil constitutionnel",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "d343c6a0181df6567b6df6f67ed3d7bde1b57182807bc457c3498134b9620a06",
+      "source_id": "d343c6a0181df6567b6d",
+      "title": "532 - Haute Cour",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "a6aa6962667532c2927040ac313ca6ef3a1328043dc5cda55b1c5ea3423f8982",
+      "source_id": "a6aa6962667532c29270",
+      "title": "533 - Cour de justice de la République",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "bb715adb9f1a051c63f016aed5ec22d1983f40298c7e0ba0160087c203206f5c",
+      "source_id": "bb715adb9f1a051c63f0",
+      "title": "541 - La Chaîne parlementaire",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "a5af03e834e99de68d7527f412995c35d8e753783ca2903edfe256aa8561fbb7",
+      "source_id": "a5af03e834e99de68d75",
+      "title": "542 - Indemnités des représentants français au Parlement européen",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7252588b8b7cc5c679592d5faa73ab97aecfe33e14bed509da9399f4b0d881a1",
+      "source_id": "7252588b8b7cc5c67959",
+      "title": "551 - Provision relative aux rémunérations publiques",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "78fdfcc2b2f058fc560f0c8149922c27641c51b6ec39f5170417de635e9b1032",
+      "source_id": "78fdfcc2b2f058fc560f",
+      "title": "552 - Dépenses accidentelles et imprévisibles",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "3d4809135c4ad79e5504b8f8714cf04b217573a73af6b5c486d5614d10a4034a",
+      "source_id": "3d4809135c4ad79e5504",
+      "title": "612 - Navigation aérienne",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "73ab966d224c32293c8e1ed06a11b5d281830776018089610ca14cc02d08f1a8",
+      "source_id": "73ab966d224c32293c8e",
+      "title": "613 - Soutien aux prestations de l'aviation civile",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ae8dd174015a762a038ae0555cb6fae4f173a2e9c625de929d02bcb8f4b2b210",
+      "source_id": "ae8dd174015a762a038a",
+      "title": "614 - Transports aériens, surveillance et certification",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "4617c9d1138c6451cb9d03c93f922bf4ca334b17cb8d2b36de1f09b29cde4355",
+      "source_id": "4617c9d1138c6451cb9d",
+      "title": "623 - Édition et diffusion",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "f7b71673c3b729fe13a3dda21619fb907c31e7e901bb7b27795f2e9041ce2a0f",
+      "source_id": "f7b71673c3b729fe13a3",
+      "title": "624 - Pilotage et ressources humaines",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "48a935932091056ba3ed7256239a7a1f715c3c5c789aeaf2a6c238f3b5321b5b",
+      "source_id": "48a935932091056ba3ed",
+      "title": "721 - Contribution des cessions immobilières au désendettement de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "78e0cb630fa3d66e6a08bedef32fcd2b04acac97fa4d8a765b61a232086547af",
+      "source_id": "78e0cb630fa3d66e6a08",
+      "title": "723 - Opérations immobilières et entretien des bâtiments de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "9437b2477780d1899b6ce735f230caa4942fe726f81cdaa6a9cbfd1a924c18e3",
+      "source_id": "9437b2477780d1899b6c",
+      "title": "731 - Opérations en capital intéressant les participations financières de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7070dce0950d49e52626fe4e36247ea20d3c823ddfa2f95fe5f2b59a3b166a7f",
+      "source_id": "7070dce0950d49e52626",
+      "title": "732 - Désendettement de l'État et d'établissements publics de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "56413b79eb7d86679bdb79f7ead6d5e5f1b6214b4ecf683274293c082dafb68a",
+      "source_id": "56413b79eb7d86679bdb",
+      "title": "741 - Pensions civiles et militaires de retraite et allocations temporaires d'invalidité",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "22a38833c7cb6076c8040aba806df8c4fd150c94e5f20e78a5f20f95da1839f4",
+      "source_id": "22a38833c7cb6076c804",
+      "title": "742 - Ouvriers des établissements industriels de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "1535863ec31cb958ca19a13f06938352df20d673cd221016d0f11062bc095f08",
+      "source_id": "1535863ec31cb958ca19",
+      "title": "743 - Pensions militaires d'invalidité et des victimes de guerre et autres pensions",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "158a233bd60f249d29d5ba2fc958d481cfe0ae6593894d9aba04aa25d9163893",
+      "source_id": "158a233bd60f249d29d5",
+      "title": "751 - Structures et dispositifs de sécurité routière",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b58d82b178f86105935c80378164d0fb8adf24f25c9ae6c0235098bb512839c1",
+      "source_id": "b58d82b178f86105935c",
+      "title": "753 - Contrôle et modernisation de la politique de la circulation et du stationnement routiers",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "878d44647befd36612bc10bbb0a504e541555b05e5558cc39521ba79aec66419",
+      "source_id": "878d44647befd36612bc",
+      "title": "754 - Contribution à l'équipement des collectivités territoriales pour l'amélioration des transports en commun, de la sécurité et de la circulation routières",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7fcdef631d68d0209459cb995388b9ec73afbcd7ca67a2f26906e3ea9f09bac9",
+      "source_id": "7fcdef631d68d0209459",
+      "title": "755 - Désendettement de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "0151b8112a9111f25b47ac7de9d45d73c2b86a93669328587f8cb1878d903588",
+      "source_id": "0151b8112a9111f25b47",
+      "title": "775 - Développement et transfert en agriculture",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b8dde19082f4785e6ee702fb758bef80524b1055f620d6e1f91935276d06e2f8",
+      "source_id": "b8dde19082f4785e6ee7",
+      "title": "776 - Recherche appliquée et innovation en agriculture",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7d14848418ef9564cab077a7a20021066cc60772b9bee33be33c5e59cac1e633",
+      "source_id": "7d14848418ef9564cab0",
+      "title": "793 - Électrification rurale",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "75eac60a641dc1d983803061f2f723e672ee253b73397c3b902df4dee1590761",
+      "source_id": "75eac60a641dc1d98380",
+      "title": "794 - Opérations de maîtrise de la demande d'électricité, de production d'électricité par des énergies renouvelables ou de production de proximité dans les zones non interconnectées",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "5d07ba2a34ac448e4282ea0ae01084dd7cd4efdba2e88d75a5c9af29a44ca1f9",
+      "source_id": "5d07ba2a34ac448e4282",
+      "title": "821 - Avances à l'Agence de services et de paiement, au titre du préfinancement des aides communautaires de la politique agricole commune",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "d33f8c886d76af42b3d6fe19f05ee73f8e0c84573e91e9af0a563b85d4d7bc12",
+      "source_id": "d33f8c886d76af42b3d6",
+      "title": "823 - Avances à des organismes distincts de l'État et gérant des services publics",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "424ac08a99ae8fbd98cf4421e2c47146e405aa3626422869e53133f44b049ac8",
+      "source_id": "424ac08a99ae8fbd98cf",
+      "title": "824 - Prêts et avances à des services de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "51adc25bc22c9ca2638ca2893faaa869b4b144c0ca1ffc557f636f934746a81f",
+      "source_id": "51adc25bc22c9ca2638c",
+      "title": "825 - Avances à l'Office national d'indemnisation des accidents médicaux, des affections iatrogènes et des infections nosocomiales (ONIAM) au titre de l'indemnisation des victimes du Benfluorex",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "fa5abe4db7861c7deb587cec782737818286f5a724f61b5da37cf4e23ff5fe76",
+      "source_id": "fa5abe4db7861c7deb58",
+      "title": "826 - Prêts aux exploitants d'aéroports touchés par la crise de covid-19 au titre des dépenses de sûreté-sécurité",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "4056a3dafb88d0aa0f23dbf0a4759a44445ec6d7c8bcf806eaf04593251d474c",
+      "source_id": "4056a3dafb88d0aa0f23",
+      "title": "827 - Prêts destinés à soutenir Île-de-France Mobilités à la suite des conséquences de l'épidémie de la covid-19",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "cbf1a0a6e593d53893449ee56282f8c5e91d7689c18a860038fed39763734d6f",
+      "source_id": "cbf1a0a6e593d5389344",
+      "title": "828 - Prêts destinés à soutenir les autorités organisatrices de la mobilité à la suite des conséquences de l'épidémie de la covid-19",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "4caeab2087785e2d52a9a975770699a6e60b55f45aaa7ddfc8e5bddb7a89f0a6",
+      "source_id": "4caeab2087785e2d52a9",
+      "title": "830 - Prêts à FranceAgriMer au titre des préfinancements de fonds européens",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "0c949944b648ba355e2d2baa2ba827ef433ad27b79f6ffc7bee304f818f8b28a",
+      "source_id": "0c949944b648ba355e2d",
+      "title": "832 - Avances aux collectivités et établissements publics, à la Nouvelle-Calédonie et aux collectivités régies par l’article 74 de la Constitution",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "37439ba5f2b3e424dc55959bc05e82a05a62ef18fd2cdf5dcbbc2c1ae9c8d7be",
+      "source_id": "37439ba5f2b3e424dc55",
+      "title": "833 - Avances sur le montant des impositions revenant aux régions, départements, communes, établissements et divers organismes",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7cd6fb0ef506935da802f4944cb21e6bdf68861138f43f63a5127cc494bc963a",
+      "source_id": "7cd6fb0ef506935da802",
+      "title": "834 - Avances remboursables de droits de mutation à titre onéreux destinées à soutenir les départements et d'autres collectivités affectés par les conséquences économiques de l'épidémie de covid-19",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "33f645f2c4122fffb7cf61313b2b87cad300bed4d0294959549b53287c0cbf6c",
+      "source_id": "33f645f2c4122fffb7cf",
+      "title": "835 - Avances sur le montant des produits d’accise sur les énergies revenant aux régions, départements et divers organismes",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "5adbd4736b13f14eced2a6ece7860ed9ed9a7d4666db7400b47c4c79d1138af6",
+      "source_id": "5adbd4736b13f14eced2",
+      "title": "841 - France Télévisions",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "e2620306f98c0aed699224c4f7c3cea542365d55cd35e92c5e88db53a0c7a05a",
+      "source_id": "e2620306f98c0aed6992",
+      "title": "842 - ARTE France",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "a9f10ddf35c498015f5736c77a4990d2bcc0e7e8faa5e550c14f34f50e51a695",
+      "source_id": "a9f10ddf35c498015f57",
+      "title": "843 - Radio France",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "f9210d7d83a0778d628975fcf5c1b29eab2121397a634ae83aeabdcb99c22808",
+      "source_id": "f9210d7d83a0778d6289",
+      "title": "844 - France Médias Monde",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "c872d3c3324336a69ebd0432521e4ce51bc38d578e2bc518df0bf93814366cd3",
+      "source_id": "c872d3c3324336a69ebd",
+      "title": "845 - Institut national de l'audiovisuel",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "905bcda18ba9d2772e94a3a5ba6878ba188b87a51fababbba924ac8885c2b949",
+      "source_id": "905bcda18ba9d2772e94",
+      "title": "847 - TV5 Monde",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "3e312cedcd37bc3ff8aa82d105142084b43c9d717ba37c735cb834234bc3d0b1",
+      "source_id": "3e312cedcd37bc3ff8aa",
+      "title": "851 - Prêts du Trésor à des États étrangers en vue de faciliter la vente de biens et de services concourant au développement du commerce extérieur de la France",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b6777e00f74edf3061a22d28d0c294dcf51f9740bf0b35a30a831674419359d6",
+      "source_id": "b6777e00f74edf3061a2",
+      "title": "852 - Prêts à des États étrangers pour consolidation de dettes envers la France",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "da1bf34c9b1a762d6836b5f301b6331cd1e9c66320d54d95a01ca8aa45e19a71",
+      "source_id": "da1bf34c9b1a762d6836",
+      "title": "853 - Prêts à l'Agence française de développement en vue de favoriser le développement économique et social dans des États étrangers",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "03ef7875e848a41015ada1e79ccd053dc95216f9bf2dbea3ad89dacd2a5b5bbf",
+      "source_id": "03ef7875e848a41015ad",
+      "title": "854 - Prêts aux États membres de l'Union européenne dont la monnaie est l'euro",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "c66bf9e7774052715758ee256cdffd8cb8b6efc1a5872500a68e04795d95d4b0",
+      "source_id": "c66bf9e7774052715758",
+      "title": "861 - Prêts et avances pour le logement des agents de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ab726242a75a6727fc5287663a17d331cd3105e26332757c114628794a14e057",
+      "source_id": "ab726242a75a6727fc52",
+      "title": "862 - Prêts pour le développement économique et social",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "1accc773818f08abbe2c82e3328fa9587ee2c6d1750165a0bda2187f448bdee2",
+      "source_id": "1accc773818f08abbe2c",
+      "title": "869 - Prêts à la société concessionnaire de la liaison express entre Paris et l'aéroport Paris - Charles-de-Gaulle",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "c32b35433b9771a5deea263bd02ce1751598927a989489e9d1af92f2b169a617",
+      "source_id": "c32b35433b9771a5deea",
+      "title": "876 - Prêts octroyés dans le cadre des programmes des investissements d'avenir",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "37535e5325fee4a1bac946e0028e17884530d54c06b178b70fc9cec9719d2377",
+      "source_id": "37535e5325fee4a1bac9",
+      "title": "877 - Avances remboursables et prêts bonifiés aux entreprises touchées par la crise de la covid-19 ou par le conflit en Ukraine",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "4ee80f574d8c08962c7629250bdf5cee1430c567eaf73aa1ddf4c7b7eb5f8e96",
+      "source_id": "4ee80f574d8c08962c76",
+      "title": "878 - Soutien à la filière nickel en Nouvelle Calédonie",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "061bc4e4ccc171135b4b6b027570edfe7ab43ae3b5b4a39eaa2a52a023224391",
+      "source_id": "061bc4e4ccc171135b4b",
+      "title": "Action extérieure de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "73822560f41666ba682166c0eda34dfdbab04cb5e451d5a3e497c7be8f84398f",
+      "source_id": "73822560f41666ba6821",
+      "title": "Administration générale et territoriale de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "91df7b817335cea403393553b0657bcb39f2a3fc16dbeaef3191099a8ca100f5",
+      "source_id": "91df7b817335cea40339",
+      "title": "Agriculture et alimentation",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "edca32b929c7ae0c5049cecc342df82de4d377d5510ace80348acbe9f3a94d6c",
+      "source_id": "edca32b929c7ae0c5049",
+      "title": "Aide publique au développement",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "3c286dcaa3f4cc750b4790f396fcacb721071ffe78f5a0ca5fccfb186205f741",
+      "source_id": "3c286dcaa3f4cc750b47",
+      "title": "Avances aux collectivités territoriales et aux collectivités régies par les articles 73, 74 et 76 de la Constitution",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "413a3a19df78dfa120e3068ded6cc7efbed982b9a9f57c484f1d8e73c0acee5f",
+      "source_id": "413a3a19df78dfa120e3",
+      "title": "Avances à l'audiovisuel public",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "703b2c7360e7b5a200163a8a1e25bf0b2bd7beb83a08c0a48f51d367c502fe95",
+      "source_id": "703b2c7360e7b5a20016",
+      "title": "Cohésion des territoires",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "efec59b85b68906f5ec3348fb69a431feabd92f8227b68a61103390e305676ef",
+      "source_id": "efec59b85b68906f5ec3",
+      "title": "Comptes d'opérations monétaires",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "4f5a04fe4dc48aa85e7cedc70bf4cef862d062aaea321c5b65a2407fa3cf80da",
+      "source_id": "4f5a04fe4dc48aa85e7c",
+      "title": "Comptes de commerces",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "33a5d150d8c9a002e125dcf8bedf75d5b9f45d15fe916b294d4c39a232381bf0",
+      "source_id": "33a5d150d8c9a002e125",
+      "title": "Conseil et contrôle de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "98040aa6bfec90ff8be2acfecb0053c060bfde5a91409ec0d78d0a7ae8714c73",
+      "source_id": "98040aa6bfec90ff8be2",
+      "title": "Contrôle de la circulation et du stationnement routiers",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "2c26a9fbdbd2be3b28f1ceefa4579a87a3dbea818136582350ee7969f13696cb",
+      "source_id": "2c26a9fbdbd2be3b28f1",
+      "title": "Contrôle et exploitation aériens",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "254a736125926b6126e3f24b9a82f64d446c01001a2c72f8a299cdc6ea5d362f",
+      "source_id": "254a736125926b6126e3",
+      "title": "Crédits non répartis",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "472d672edb602744d3ce92f3461ce8a90db67779bbfe7917122d37b299920484",
+      "source_id": "472d672edb602744d3ce",
+      "title": "Culture",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "f90a02fcb9c5fd5bb23925e7e5f7a46cac85889d12e2c6014c55e8edb7294b7c",
+      "source_id": "f90a02fcb9c5fd5bb239",
+      "title": "Direction de l'action du Gouvernement",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "3db418981fc1d0dc61061bad5e139f22ced7060624bf68ef738c439ad6052122",
+      "source_id": "3db418981fc1d0dc6106",
+      "title": "Défense",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "cea94238eddc33328623e0a5dd0be46313df3a8d3713ad475f4331b9fce1c99c",
+      "source_id": "cea94238eddc33328623",
+      "title": "Développement agricole et rural",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "73d37d79f7d72ae0e5b614c1f6fa72a277e6766754246bf02d944d62949d57cf",
+      "source_id": "73d37d79f7d72ae0e5b6",
+      "title": "Engagements financiers de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "614a15aa31d101a87b39eed618f3578d209503a43cb66ae507542eaa6d72cf8d",
+      "source_id": "614a15aa31d101a87b39",
+      "title": "Enseignement scolaire",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "7f039136f90eb2f0da98d66feb0486d1c59ccabf98ebbfa0295dd89f5c340648",
+      "source_id": "7f039136f90eb2f0da98",
+      "title": "Financement des aides aux collectivités pour l'électrification rurale",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b638982f6b7dc3cbc083dd0a4d42c16040c9385168ad2524171d3dbc40e7e54c",
+      "source_id": "b638982f6b7dc3cbc083",
+      "title": "Gestion du patrimoine immobilier de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "e00189949f79c782f3dd301a4d1cc35db3eb49e3b930e274177236473370d8d0",
+      "source_id": "e00189949f79c782f3dd",
+      "title": "Immigration, asile et intégration",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+      "source_id": "aba89aa415accd31d7d0",
+      "title": "Investir pour la France de 2030",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "470b7daccf43fb1db904c0a4a55f1c9ff9aa2037fe635f802eaef5b3952ec98b",
+      "source_id": "470b7daccf43fb1db904",
+      "title": "Justice",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "45fe656cd8ab9b072cff08d17c9e82f36ef7f442d20a6b75d5c129a5876c2499",
+      "source_id": "45fe656cd8ab9b072cff",
+      "title": "Monde combattant, mémoire et liens avec la Nation",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "e4ca73d55b608acb082c055a23ad6e4c7a320e88d67484b9a4bc76da5033ba6c",
+      "source_id": "e4ca73d55b608acb082c",
+      "title": "Médias, livre et industries culturelles",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b5d76987566e06519e7d733cacaf935d5d977b63af2e4d84bb911b87b0a64594",
+      "source_id": "b5d76987566e06519e7d",
+      "title": "Outre-mer",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "5f903828b4274290b49484a29a39f10452e2a25558eb7454d8acf730ec37ce08",
+      "source_id": "5f903828b4274290b494",
+      "title": "PLF 2027 - Chiffres clés",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b412f10ea404e13281a020cfca829c7222c51ebac0a265bf1fed8644cfedc4aa",
+      "source_id": "b412f10ea404e13281a0",
+      "title": "PLF 2027 - Fiches missions",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "9d793cb48af265fe7af487e9919ec8a0ae686004f64429454ea79f6d832974ff",
+      "source_id": "9d793cb48af265fe7af4",
+      "title": "PLF 2027 - Présentation",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "1ac3cb1e0f54096d0288969d9f6ced2569a70162329c328aed22af2464eeb524",
+      "source_id": "1ac3cb1e0f54096d0288",
+      "title": "PLF 2027 - Synthèse du budget pour 2027",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "df6d44becd862085a717f91bd3d0a818a4483c62dd596de52b5dd36a2024fca1",
+      "source_id": "df6d44becd862085a717",
+      "title": "Participations financières de l'État",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "330bf99f11b780fb68654973c4858c8eedcecb7b0cda362a8ca07390cb95d280",
+      "source_id": "330bf99f11b780fb6865",
+      "title": "Pensions",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "1589ccc218343169aeee843b9887c74cb1587ea3eaa3c5d2d500ef8eb32e2e99",
+      "source_id": "1589ccc218343169aeee",
+      "title": "Pouvoirs publics",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "b5d733c05ac0fa30c10fbfda4abb06dede6a2e04dbfbb038695a18a7910c9955",
+      "source_id": "b5d733c05ac0fa30c10f",
+      "title": "Prêts et avances à des particuliers ou à des organismes privés",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "a96fc5d7f17435b388080ae21250b0710f7344751feffe36176cdce0f3cffca4",
+      "source_id": "a96fc5d7f17435b38808",
+      "title": "Prêts et avances à divers services de l'État ou organismes gérant des services publics",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "fb79d3d508eaf2b60df35118dbb8ec6a063603adfc268497050a0624bbee52d3",
+      "source_id": "fb79d3d508eaf2b60df3",
+      "title": "Prêts à des États étrangers",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "c654596a9c38a4bfe8ebd474055861b68c09fe8861285702ecec2267cd237674",
+      "source_id": "c654596a9c38a4bfe8eb",
+      "title": "Publications officielles et information administrative",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "c7ab9f339974a235e494b0875f6228330b4a9c87852ba22d8f3c4f6dcf4b9bd4",
+      "source_id": "c7ab9f339974a235e494",
+      "title": "Rapport sur la situation des finances publiques locales",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "37bfc5330588a71222b87cd68c4378564abe11f3a7bc0bfdda354d259e5c8b7c",
+      "source_id": "37bfc5330588a71222b8",
+      "title": "Rapport sur le mécanisme de correction",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "0a2dd4f6e98d8c7d1bea740c2d3f43889ea328e108016665e5419f6ce1a3e5b9",
+      "source_id": "0a2dd4f6e98d8c7d1bea",
+      "title": "Recherche et enseignement supérieur",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "3a68966cab4747796538a570ac555b89457f734ad06234ba601fab800d3970be",
+      "source_id": "3a68966cab4747796538",
+      "title": "Relations avec les collectivités territoriales",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "60a13977309a126fbf6e617a467f36a6628bd9f153f8c6bed83d5deb80b3fe5c",
+      "source_id": "60a13977309a126fbf6e",
+      "title": "Remboursements et dégrèvements",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ab4c5c489530513523795d04721bcf29f139aae7c5c1e41a4986ecbe666aa873",
+      "source_id": "ab4c5c48953051352379",
+      "title": "Régimes sociaux et de retraite",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "72a8b2495eb53f68fa828db6da4ce08384ac3ff2e59ec994c8a823dcc2a77c0a",
+      "source_id": "72a8b2495eb53f68fa82",
+      "title": "Santé",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "e811ea50cd1c53faab90b9f3de4905317cf42ca49c447585067d12ae20425db8",
+      "source_id": "e811ea50cd1c53faab90",
+      "title": "Solidarité, insertion et égalité des chances",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ef8021e35beb7a74da16ea7524839e14127e265287496e92d6748fb9b90fcdb9",
+      "source_id": "ef8021e35beb7a74da16",
+      "title": "Sport, jeunesse et vie associative",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "e22f4600eaacef2afb593e0722803c7180de48419649be243cb133b6678bd213",
+      "source_id": "e22f4600eaacef2afb59",
+      "title": "Sécurités",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ce6481e4594e8a75995eece7dc3b83439c6203679a7fae78b023dc0038603261",
+      "source_id": "ce6481e4594e8a75995e",
+      "title": "Transformation et fonction publiques",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "e3e695ae44e20689332bc9af2bdc599634cee5323254679949d23bd7e85f3b34",
+      "source_id": "e3e695ae44e20689332b",
+      "title": "Travail, emploi et administration des ministères sociaux",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "378fdb34d8212c5cdf404cd7485d1e07c6e315a904e3dee180f2429db6de537d",
+      "source_id": "378fdb34d8212c5cdf40",
+      "title": "Écologie, développement et mobilité durables",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "94b36068896c060dbb20686a468485949bf9479f6189a0fbbaaf09ea1609415e",
+      "source_id": "94b36068896c060dbb20",
+      "title": "Économie",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "1494e4da46334735ae55b907c3b75bae125ac0645733b5711daa6bdc3b955897",
+      "source_id": "1494e4da46334735ae55",
+      "title": "Évaluations préalables des articles du projet de loi - PLF 2027",
+      "format": "pdf",
+      "years": [
+        "2027"
+      ]
+    },
+    {
+      "sha256": "9dc09610ac9ef29bff493cc1ea825c7f487902640f3a8379f195b7b36c95d3f3",
+      "source_id": "9dc09610ac9ef29bff49",
+      "title": "Assemblée nationale — PLF 2021, Énergie, financement MaPrimeRénov’",
+      "format": "pdf",
+      "years": [
+        "2020",
+        "2021"
+      ]
+    },
+    {
+      "sha256": "2ee68df9e243bf45b79dc1b0e4d0ef4064fc89265e3cf23f36a26e13e96b5e8a",
+      "source_id": "2ee68df9e243bf45b79d",
+      "title": "Assemblée nationale — PLF 2022, Plan de relance, tableau MaPrimeRénov’",
+      "format": "pdf",
+      "years": [
+        "2020",
+        "2021",
+        "2022"
+      ]
+    },
+    {
+      "sha256": "8a04f40171b880b41ba252f6264d170217b50897483313c4d98bc5ae1746bc59",
+      "source_id": "8a04f40171b880b41ba2",
+      "title": "Cour des comptes — 2023 — Écologie, développement et mobilité durables",
+      "format": "pdf",
+      "years": [
+        "2023"
+      ]
+    },
+    {
+      "sha256": "270aaa96aa51346f908e6df1b603097e17d7dacbd22da80e4b09462abc411d80",
+      "source_id": "270aaa96aa51346f908e",
+      "title": "Cour des comptes — 2025 — Cohésion des territoires",
+      "format": "pdf",
+      "years": [
+        "2025",
+        "2026"
+      ]
+    },
+    {
+      "sha256": "2f15709320cdd6cb8d0a9e98aec122fbd2016f964de7f9fcaa6027ae3ab51324",
+      "source_id": "2f15709320cdd6cb8d0a",
+      "title": "Cour des comptes — NEB 2021 — NEB-2021-Ecologie-developpement-mobilite-durables",
+      "format": "pdf",
+      "years": [
+        "2021"
+      ]
+    },
+    {
+      "sha256": "a954f39135465e66a7459af3bdf11d60de2dd3e76ee3c5f8343ad949640f0af4",
+      "source_id": "a954f39135465e66a745",
+      "title": "Cour des comptes — NEB 2022 — NEB-2022-Ecologie-developpement-mobilite-durables",
+      "format": "pdf",
+      "years": [
+        "2022"
+      ]
+    },
+    {
+      "sha256": "85a9a851131ec9564f5af7c77c64a895c2c3dcd6a5464a82313e41575cbb0795",
+      "source_id": "85a9a851131ec9564f5a",
+      "title": "MaPrimeRénov’ — Cour des comptes, exécution 2024, Écologie",
+      "format": "pdf",
+      "years": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "sha256": "fc48e266135e1161ed6986ba99b33d1f070e77e6e1284f830e39760b5f4d75ac",
+      "source_id": "fc48e266135e1161ed69",
+      "title": "NEB 2023 Aide publique au developpement",
+      "format": "pdf",
+      "years": [
+        "2023"
+      ]
+    },
+    {
+      "sha256": "79cca14cd257d37f131948afc8345fc512f7353cfea27bc6e430bef2defadcb3",
+      "source_id": "79cca14cd257d37f1319",
+      "title": "NEB 2024 Aide publique au developpement",
+      "format": "pdf",
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "sha256": "261d0d798ac3f4fb61b9f82b28ef7df0393ec1fc4c1b0919a53f71bed5900756",
+      "source_id": "261d0d798ac3f4fb61b9",
+      "title": "NEB 2024 Engagements financiers Etat",
+      "format": "pdf",
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "sha256": "6adc329ada4a5a09f0ca0bc791094605af3c25364f6dc21014d348e2e0786500",
+      "source_id": "6adc329ada4a5a09f0ca",
+      "title": "NEB 2024 Sante",
+      "format": "pdf",
+      "years": [
+        "2024"
+      ]
+    },
+    {
+      "sha256": "ea30a7f405be80bde3a99bc7a1abf5a7ac837ac736a73dae5a5d5ec9ee36a210",
+      "source_id": "ea30a7f405be80bde3a9",
+      "title": "NEB 2025 Aide publique au developpement",
+      "format": "pdf",
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "sha256": "58cd8c6ef997a516887769ce149558e1756d2618a753836df2d3d1797a796d50",
+      "source_id": "58cd8c6ef997a5168877",
+      "title": "NEB 2025 Engagements financiers Etat",
+      "format": "pdf",
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "sha256": "d712fb3178eaed0285d26d99654add0d8b96588f8ea2a075e6dab58e7ee504ae",
+      "source_id": "d712fb3178eaed0285d2",
+      "title": "NEB 2025 Plan relance",
+      "format": "pdf",
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "sha256": "189b3ccfe8966f82ce4866d7395baef25bf6c9d85cb5da3f52d6d8564a5ab6ac",
+      "source_id": "189b3ccfe8966f82ce48",
+      "title": "NEB 2025 Sante",
+      "format": "pdf",
+      "years": [
+        "2025"
+      ]
+    },
+    {
+      "sha256": "db37a2c2b2ff119b5f5344ace279d117c35d4b8cbd5f72ba8be0d2efaf8b275b",
+      "source_id": "db37a2c2b2ff119b5f53",
+      "title": "assemblee rapport 1822 gestion 2023",
+      "format": "html",
+      "years": [
+        "2023"
+      ]
+    },
+    {
+      "sha256": "cb0f8b5bdfde65e0fbffff12ebd3418bc492db634650967d8b6ee325ab481e3d",
+      "source_id": "cb0f8b5bdfde65e0fbff",
+      "title": "Anah : bilan des aides au premier semestre 2026",
+      "format": "pdf",
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "sha256": "f465bb7602628eb391ec3b4f679b3ea9600660caa5c4c675287fcad905ae6d71",
+      "source_id": "f465bb7602628eb391ec",
+      "title": "Anah : enquête de satisfaction MaPrimeRénov 2026",
+      "format": "pdf",
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "sha256": "39e9137ec1f3f05c36f2d4d8be0f8dd0b67fb7b1f3374f343dae1d72a0f5b1f0",
+      "source_id": "39e9137ec1f3f05c36f2",
+      "title": "Balances comptables de l’État, version 29 septembre 2026",
+      "format": "csv",
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "sha256": "e24b5cca8500f121414dbca3a815467a98da84be353bf84d9bcd461ab53f4639",
+      "source_id": "e24b5cca8500f121414d",
+      "title": "Circulaire d’élaboration des nomenclatures budgétaires, mai 2026",
+      "format": "pdf",
+      "years": [
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "sha256": "023a03c21b477d3ef9cf2f85dff9edd9358414e850d9369d060396a7170717ea",
+      "source_id": "023a03c21b477d3ef9cf",
+      "title": "Circulaire sur la bascule et les reports 2026 vers 2027",
+      "format": "pdf",
+      "years": [
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "sha256": "770de8f13f9537e81fe7aaced0756bf252011d4d9abae13886226567a8984244",
+      "source_id": "770de8f13f9537e81fe7",
+      "title": "Circulaire sur le contrôle interne financier 2026",
+      "format": "pdf",
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "sha256": "855cbcf15e0dcd9d549ff133ad2614ed77b108e0f57177b2fea933ec94d7d4a7",
+      "source_id": "855cbcf15e0dcd9d549f",
+      "title": "PLF 2027 : circulaire de répartition, juillet 2026",
+      "format": "pdf",
+      "years": [
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "sha256": "27b60572c6e42848b8801d54ab11f69594110a193055e4320e115582a33d2204",
+      "source_id": "27b60572c6e42848b880",
+      "title": "PLF 2027 : transmission des articles, mai 2026",
+      "format": "pdf",
+      "years": [
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "sha256": "ffdef1e985e7fedff6a25505afc43f30635cad79218ae4f1bd3ed22309d343c6",
+      "source_id": "ffdef1e985e7fedff6a2",
+      "title": "PLF 2027 : volet performance des PAP, avril 2026",
+      "format": "pdf",
+      "years": [
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "sha256": "16842b03f2e433ba88dfd76c0200e59a52acbbb641a38cb615079c5a5a441063",
+      "source_id": "16842b03f2e433ba88df",
+      "title": "PLF 2027 : élaboration des PAP, juillet 2026",
+      "format": "pdf",
+      "years": [
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "sha256": "4261afbd96210071eef1f9d0b7f8eec441ec32207aa51fe2b127f852d3594be5",
+      "source_id": "4261afbd96210071eef1",
+      "title": "PLF 2027 : élaboration des annexes générales, juillet 2026",
+      "format": "pdf",
+      "years": [
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "sha256": "4e5cd97ec37498642b4a53114c93d1d9ce62a032d47f4ff0d278eaec04b56ce2",
+      "source_id": "4e5cd97ec37498642b4a",
+      "title": "Plafonds de dépenses du PLF 2027, rapport art. 48 LOLF, juillet 2026",
+      "format": "pdf",
+      "years": [
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "sha256": "2f95f654d7cf63960ecae78114b6b877e9f90fad6ddbd3de5686e84ac187320b",
+      "source_id": "2f95f654d7cf63960eca",
+      "title": "Référentiel budgétaire BJ septembre 2026",
+      "format": "txt",
+      "years": [
+        "2026"
+      ]
+    },
+    {
+      "sha256": "0914b32adf6dfecddc234eeb819d1e122669039f3b3e0d9b1c62dcdd577dcece",
+      "source_id": "0914b32adf6dfecddc23",
+      "title": "Référentiel des emplois septembre 2026",
+      "format": "zip",
+      "years": [
+        "2026"
+      ]
+    }
+  ]
+}
