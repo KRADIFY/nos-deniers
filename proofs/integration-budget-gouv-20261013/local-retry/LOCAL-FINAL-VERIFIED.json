@@ -1,0 +1,3771 @@
+{
+  "at": "2026-10-13T11:54:17.937477+00:00",
+  "success": true,
+  "fact_count": 141942,
+  "database_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+  "image_id": "sha256:713c095a9b96e8021bfd0fdb9423e4afc1071e81aa69f4eb838c1d9d41d6452b",
+  "same_image_and_database_as_verified_online_version": true,
+  "http_calculation_cases_verified": 5,
+  "pdf_downloads_verified": 5,
+  "online_exhaustive_validation_reference": "vps/ALL-217-ENGINE-VERIFIED.json",
+  "related_services_restarted": [
+    "lexmachine-budget-retrieval-1",
+    "nos-deniers-demo-demo-1"
+  ],
+  "existing_unrelated_containers_unchanged": true,
+  "concurrent_inventory_delta": {
+    "added": [
+      "datamairies-web-1"
+    ],
+    "removed": []
+  },
+  "wsl_memory_unchanged": true,
+  "indices_and_model_files_unchanged": true,
+  "document_search_status": {
+    "available": true,
+    "state": "ready",
+    "documents": 5275,
+    "passages": 4887593,
+    "version": "nos-deniers-retrieval-1",
+    "supplement_documents": 836,
+    "supplement_passages": 836160,
+    "supplement_generated_at": "2026-10-08T16:50:51.867272+00:00",
+    "generated_at": "2026-09-19T16:54:21.766499+00:00",
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "method": "Texte intégral + recherche dense BGE-M3 + reclassement sparse des candidats",
+    "numeric_facts_certified": false,
+    "message": "Recherche documentaire disponible, avec références aux sources."
+  },
+  "before": {
+    "lexmachine-budget-web-1": {
+      "id": "13cdf068bf36ce03c22119a0ba322958fae8a1e51ef769ffd42b94a073ae59fb",
+      "image": "sha256:713c095a9b96e8021bfd0fdb9423e4afc1071e81aa69f4eb838c1d9d41d6452b",
+      "started_at": "2026-10-13T11:43:12.348400934Z",
+      "running": true,
+      "health": "healthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/budget/releases/en-ligne-20261008/plf-data",
+          "Destination": "/data",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-budget_budget_state",
+          "Source": "/var/lib/docker/volumes/lexmachine-budget_budget_state/_data",
+          "Destination": "/state",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-linktolaw-web-1": {
+      "id": "1104654956c99f2864aa3b50c3b0a27ab5bb0bec5c0712f1bb752c158fb8772d",
+      "image": "sha256:116f1063eb8a298fd1c9bd1136804462098388a155b6e27554ce4c71b6dda6bf",
+      "started_at": "2026-10-13T11:23:59.675019204Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-linktolaw_documents",
+          "Source": "/var/lib/docker/volumes/lexmachine-linktolaw_documents/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/linktolaw-ssh/id_ed25519",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/linktolaw-ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "tricoteuses-direct-widget-v3": {
+      "id": "9ba88fc08e46596974d0ae4d4038f1ce90e865634d326400598343cfc12fc9e5",
+      "image": "sha256:eb16de9a07f46ebdc0552fedbb6b47b744d6337ee4a9153a9b054580256e68b6",
+      "started_at": "2026-10-13T11:23:59.700363187Z",
+      "running": true,
+      "health": "healthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "tricoteuses_widget_v3_data",
+          "Source": "/var/lib/docker/volumes/tricoteuses_widget_v3_data/_data",
+          "Destination": "/app/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "nos-deniers-demo-demo-1": {
+      "id": "85f484eb208f6cd844bb6ead0da694978203c29f183e393ff5d82aa33a0b765b",
+      "image": "sha256:03186211696e11f82aeab111669035990aeb619383a93cd294c4b4acb8a097c6",
+      "started_at": "2026-10-13T11:23:59.550960061Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "lexmachine-budget-retrieval-1": {
+      "id": "8ec189acfd78d8012d1739ca66b0cff0c8cfe9276ff35f23c3d0e976fe85f337",
+      "image": "sha256:c3c2f27b50456639c408078a36edbe724dc181a0982f72237e2109b46cd65622",
+      "started_at": "2026-10-13T11:23:59.573948736Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:/LexMachine/NosDeniers/search_20260919",
+          "Destination": "/search",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/budget/releases/en-ligne-20261008/plf-index-supp1",
+          "Destination": "/search-supplement",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/budget/releases/en-ligne-20261008/plf-index-supp2",
+          "Destination": "/search-supplement2",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "batiperformance-openwebui-webui-1": {
+      "id": "31d4340b38d7d08a038bb4f0f923c75ea40a60b92c5c010cdf129a7d6e730ca6",
+      "image": "sha256:a1edc483ff9e92c974875ca8a10c76ea7c9d462835cff1f1215318873f14f0ee",
+      "started_at": "2026-10-13T11:23:59.692258559Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance-openwebui_webui_data",
+          "Source": "/var/lib/docker/volumes/batiperformance-openwebui_webui_data/_data",
+          "Destination": "/app/backend/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "batiperformance-text-search-typesense-1": {
+      "id": "57329508ebc8861d31eca638bbf9917c37e187de8de158af1bb9b0c02d3fc846",
+      "image": "sha256:610f2d34b1f93d00762869da2c67736775e5798d19a2c8b91b014b8a0cc1e110",
+      "started_at": "2026-10-13T11:23:59.596413032Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance-text-search_text_index",
+          "Source": "/var/lib/docker/volumes/batiperformance-text-search_text_index/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "asiadata-web-1": {
+      "id": "6ec9a0c89dbf9a54a9197a73c777f5ec2c7f2b5bec515cc80ae6cf918c8f8e3f",
+      "image": "sha256:7e92e37620b8032cbc80dda51ce24785160dd4b24a9aeb1c40cd0e35302e0fbf",
+      "started_at": "2026-10-13T11:23:59.689198669Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "batiperformance-retrieval-retrieval-1": {
+      "id": "aa0a9f497f81ec2370315c41589f01cde518c70b8ff7a0969014b2deba52d0da",
+      "image": "sha256:aa02eb7ade038aa58f4d4f03ddc6e5f0537178661c1fcaf9ec23b29d5e494b07",
+      "started_at": "2026-10-13T11:23:59.457641087Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\batiperformance\\data\\faq-re2020\\indexes\\bge-m3-gpu-v1",
+          "Destination": "/index",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "batiperformance-docsgpt-test-worker-1": {
+      "id": "30a4c4f01748186583235467b6335c55d5cd27a827ac2e340a7f21de06075228",
+      "image": "sha256:df854d647b08ad2d460f2529e7d63e626c0a1fd745eb6bfafb7d3bfe9efca5ef",
+      "started_at": "2026-10-10T09:10:19.972815449Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_indexes",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_indexes/_data",
+          "Destination": "/app/indexes",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_inputs",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_inputs/_data",
+          "Destination": "/app/inputs",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_vectors",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_vectors/_data",
+          "Destination": "/app/vectors",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\batiperformance\\integrations\\docsgpt\\.runtime\\bridge.token",
+          "Destination": "/run/secrets/batiperf_bridge_token",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\batiperformance\\integrations\\docsgpt\\models",
+          "Destination": "/app/docsgpt/core/models",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/d/ChatGPT/docker/batiperformance/integrations/docsgpt/batiperformance_tool.py",
+          "Destination": "/app/docsgpt/agents/tools/batiperformance.py",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "batiperformance-docsgpt-test-backend-1": {
+      "id": "3ea7e6d382ba79066193de890d49bb9e1854c1ac840673e7094cd0c15c88a188",
+      "image": "sha256:df854d647b08ad2d460f2529e7d63e626c0a1fd745eb6bfafb7d3bfe9efca5ef",
+      "started_at": "2026-10-10T09:10:10.21446759Z",
+      "running": false,
+      "health": "starting",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_indexes",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_indexes/_data",
+          "Destination": "/app/indexes",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_inputs",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_inputs/_data",
+          "Destination": "/app/inputs",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_vectors",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_vectors/_data",
+          "Destination": "/app/vectors",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/d/ChatGPT/docker/batiperformance/integrations/docsgpt/.runtime/bridge.token",
+          "Destination": "/run/secrets/batiperf_bridge_token",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/d/ChatGPT/docker/batiperformance/integrations/docsgpt/models",
+          "Destination": "/app/docsgpt/core/models",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/d/ChatGPT/docker/batiperformance/integrations/docsgpt/batiperformance_tool.py",
+          "Destination": "/app/docsgpt/agents/tools/batiperformance.py",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "batiperformance-docsgpt-test-postgres-1": {
+      "id": "e4fcaf3eee5ff22bcbcacfe441a5f60316aed4778f11f1ab5ec33a799e760004",
+      "image": "sha256:721873c34ceb9f8d8fc265984940dc982404c105f19ad51be9fdc5970a6080ea",
+      "started_at": "2026-10-10T07:31:11.077854941Z",
+      "running": false,
+      "health": "starting",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_postgres_data",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_postgres_data/_data",
+          "Destination": "/var/lib/postgresql/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "batiperformance-docsgpt-test-redis-1": {
+      "id": "003775332b62dfa7ee679593827ef816543f97b8534ce4981b8226ac8b73541e",
+      "image": "sha256:858f009f9709ce576febc734aa78b8f6d624b82571f9ddb6bda4377c833b3499",
+      "started_at": "2026-10-10T07:31:11.927756936Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "c25c287c4d5af5cee9d8490ac4c54fad45d7ae665a71b8f979115fa378d55358",
+          "Source": "/var/lib/docker/volumes/c25c287c4d5af5cee9d8490ac4c54fad45d7ae665a71b8f979115fa378d55358/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "historique-codex-tableau-de-bord-1": {
+      "id": "cb23a03ba6c9801d8db545c0d84c753320030d4ea51aefd6a26880f848d10e3a",
+      "image": "sha256:1b577484562e19633f301b99f4f6c5031fe3f0e40abf145d5c9e10f8dda24c55",
+      "started_at": "2026-10-13T11:23:59.689625436Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "H:\\HISTORIQUE_CODEX_2026-10-09\\tableau_de_bord\\donnees\\bilan.json",
+          "Destination": "/app/donnees/bilan.json",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "H:\\HISTORIQUE_CODEX_2026-10-09\\tableau_de_bord\\donnees\\historique.duckdb",
+          "Destination": "/app/donnees/historique.duckdb",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-clean-lexmachine-web-1": {
+      "id": "50a9047fd4d8b5fbeb953c349a4daac2256a1ec0ce45ce0073ae620d037293be",
+      "image": "sha256:c51a6c0e2c00c34c0409ecd1a2fe507b6d82a70821be35e14fc3371ce5600733",
+      "started_at": "2026-10-13T11:23:59.691176039Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/cache",
+          "Destination": "/data-source-cache",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean_lexmachine-runtime",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean_lexmachine-runtime/_data",
+          "Destination": "/runtime",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean_lexmachine-data-cache",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean_lexmachine-data-cache/_data",
+          "Destination": "/data/cache",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/LEXMACHINE_V30_CLEANUP/Logs V32",
+          "Destination": "/runtime/logs",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/LEXMACHINE_V30_CLEANUP/reports",
+          "Destination": "/runtime/reports",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/config_api.txt",
+          "Destination": "/run/secrets/config_api.txt",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "batiperformance-api-1": {
+      "id": "c8a732462bd093df0019e937d95a77f242f2dc7805510131f08a2fae66dd0f4a",
+      "image": "sha256:a1bf31e777cfe65c2c9fb9b48bb8e4ca04b6dcb22d26aec769ba3a213bbeb5c5",
+      "started_at": "2026-10-13T11:23:59.634860262Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "batiperformance-db-1": {
+      "id": "f7c1fd5459ec6f9c71f570e34b7aedccd775c8a683955af68a74b2c38f2127b5",
+      "image": "sha256:ef257d85f76e48da1c64832459b59fcaba1a4dac97bf5d7450c77753542eee94",
+      "started_at": "2026-10-13T11:23:59.631740011Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance_batiperformance_db",
+          "Source": "/var/lib/docker/volumes/batiperformance_batiperformance_db/_data",
+          "Destination": "/var/lib/postgresql/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "seances-demo-demo-1": {
+      "id": "daddb60ba07ff1fb984434f7b61b97aff53f7e4b1a31ddc3f39ee3ba4a6f223e",
+      "image": "sha256:4c47b996ac58583eeda2649fd784d8258e9fdb2ca64efc4467606a5d043c45fd",
+      "started_at": "2026-10-13T11:23:59.572259464Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "nos-deniers-plfss-local-web-1": {
+      "id": "27be8612120538955535fa436ce127fbe9b3b1e9d22f768aeb6fb40389129c9e",
+      "image": "sha256:b89ced2e6f902e9cef3f29d44c845c558fa6db13ab23e6c849ce52a60568208b",
+      "started_at": "2026-10-13T11:23:59.532092427Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\plfss\\data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-plfss-local-retrieval-1": {
+      "id": "50c581673c16dd78680ad219a93d359ff02032e6cc0e27dede20e9bace8ccba6",
+      "image": "sha256:f41610d8acab3081e1738be644b07db97697fd5ffba459374e039ac9b8fbf53e",
+      "started_at": "2026-10-13T11:23:59.552719225Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\plfss\\data\\search",
+          "Destination": "/search",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-analyse-web-1": {
+      "id": "6aab10ae80962c7666c85ca59f5d8f8bc4d5671dcf2939e0f69c2eb74546040e",
+      "image": "sha256:1704318484448645ea57c70f9083c6316adf84b7d4263f75ac49864e043f6d5b",
+      "started_at": "2026-10-13T11:23:59.675027822Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\backups\\nos-deniers-20260929-optimisation\\analyse-plf\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-documents-local-web-1": {
+      "id": "6b0471e0f4a61ef2687d7ae05346749a2282976dc596b925012ee5f74bf31a1a",
+      "image": "sha256:de37a95e324fd5f692959806308155173eb445ddbee43d75c6bfd30e53019498",
+      "started_at": "2026-10-02T10:41:01.05128293Z",
+      "running": false,
+      "health": "starting",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/backups/nos-deniers-20260929-optimisation/reports/source-refresh-20261001/delivery-20261002/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/backups/nos-deniers-20260929-optimisation/reports/source-refresh-20261001/numeric-20261002/data/derived/budget-final.sqlite",
+          "Destination": "/data/derived/budget.sqlite",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-documents-local-retrieval-1": {
+      "id": "c720060b458b8f5086beee674d4b17c00703fa4be6d498d89b546b8bb65941fd",
+      "image": "sha256:3cda5f679b9e161b345a03e9c948dae1037bd6d829ef970306b85e7bb1ab4108",
+      "started_at": "2026-10-02T07:28:22.793477351Z",
+      "running": false,
+      "health": "starting",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:/LexMachine/NosDeniers/search_20260919",
+          "Destination": "/search",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/backups/nos-deniers-20260929-optimisation/reports/source-refresh-20261001/delivery-20261002/search-supplement",
+          "Destination": "/search-supplement",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/budget/retrieval-supplement-20260924-incremental",
+          "Destination": "/search-supplement2",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "budget-consultation-preview": {
+      "id": "91a55633273ffa4f633d4ff3eeb9c8877b4f4bf0a2368939bdd237e974e91136",
+      "image": "sha256:a7c0be665b9839fd42dc112d24580fdf8ba03c156981c43a8be1407822732761",
+      "started_at": "2026-09-29T08:24:14.340148649Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/budget/reports/integration-annexes-20260928/data",
+          "Destination": "/data",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "data-lobby-api-1": {
+      "id": "27de0c6f11b15a76f82f2d8b54a2bcfab7e00560a92d3f5230d5ae6effc06696",
+      "image": "sha256:d2a454ba7bacbe2d60db3a2b0c7bfa5da0d65e2b41b61b993b8864d51f54e864",
+      "started_at": "2026-10-13T11:23:59.70774792Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\config",
+          "Destination": "/app/config",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\outputs\\controle-23411-20260925",
+          "Destination": "/sources/audit",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:/Marie AN 2026/. LEXIMPACT SOCIETES",
+          "Destination": "/sources/leximpact",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/sources/wiki-lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/sources/wiki-lobby-analyses",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/ssh/identity",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "data-lobby-worker-1": {
+      "id": "9bf1dbfe474010f767f7e764fa38741762875396473720ee8ae3d9007654c614",
+      "image": "sha256:ce572e196acaf3d62378b10cbefc69afb874b50b0ce3d4294aaa0da3caf276e8",
+      "started_at": "2026-09-26T17:59:17.915481938Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\config",
+          "Destination": "/app/config",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\outputs\\controle-23411-20260925",
+          "Destination": "/sources/audit",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:/Marie AN 2026/. LEXIMPACT SOCIETES",
+          "Destination": "/sources/leximpact",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/sources/wiki-lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/sources/wiki-lobby-analyses",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/ssh/identity",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "data-lobby-worker-4": {
+      "id": "7d7a5111dfcdd0fa72a25c1bef22536417b4e5891176f55d20aed101499e1b53",
+      "image": "sha256:ce572e196acaf3d62378b10cbefc69afb874b50b0ce3d4294aaa0da3caf276e8",
+      "started_at": "2026-09-26T17:59:31.841722757Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\config",
+          "Destination": "/app/config",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\outputs\\controle-23411-20260925",
+          "Destination": "/sources/audit",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:/Marie AN 2026/. LEXIMPACT SOCIETES",
+          "Destination": "/sources/leximpact",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/sources/wiki-lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/sources/wiki-lobby-analyses",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/ssh/identity",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "data-lobby-worker-2": {
+      "id": "b10f28bc55bab24a4b7ee1e238557ce2e594c5ba5968494a3f1d68276635f7b6",
+      "image": "sha256:ce572e196acaf3d62378b10cbefc69afb874b50b0ce3d4294aaa0da3caf276e8",
+      "started_at": "2026-09-26T17:59:33.403888096Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\config",
+          "Destination": "/app/config",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\outputs\\controle-23411-20260925",
+          "Destination": "/sources/audit",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:/Marie AN 2026/. LEXIMPACT SOCIETES",
+          "Destination": "/sources/leximpact",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/sources/wiki-lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/sources/wiki-lobby-analyses",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/ssh/identity",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "data-lobby-worker-3": {
+      "id": "d90bcd6987d875a47bb987af115fb8b6d9bffcc92c2322b46f348488c42ff783",
+      "image": "sha256:ce572e196acaf3d62378b10cbefc69afb874b50b0ce3d4294aaa0da3caf276e8",
+      "started_at": "2026-09-26T17:59:17.944429644Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\config",
+          "Destination": "/app/config",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\outputs\\controle-23411-20260925",
+          "Destination": "/sources/audit",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:/Marie AN 2026/. LEXIMPACT SOCIETES",
+          "Destination": "/sources/leximpact",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/sources/wiki-lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/sources/wiki-lobby-analyses",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/ssh/identity",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-crashtest-web-1": {
+      "id": "933e78e08c196ecf0f8b09f6b3027c4390a530233f2da7b6dce30ba663cbb145",
+      "image": "sha256:c4f765b435b7d751227a75cbd386a5901cd7708bbc6ec3c680994f70b7311c24",
+      "started_at": "2026-10-13T11:23:59.347797436Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "data-lobby-db-1": {
+      "id": "f6250c6a0202a1b205f44f28882054bc2d06e34ae1103644bca1ea3d7544786a",
+      "image": "sha256:ef257d85f76e48da1c64832459b59fcaba1a4dac97bf5d7450c77753542eee94",
+      "started_at": "2026-10-13T11:23:59.618320551Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "data-lobby_database",
+          "Source": "/var/lib/docker/volumes/data-lobby_database/_data",
+          "Destination": "/var/lib/postgresql/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lobby": {
+      "id": "98d3f9e34010f68ed9578d368332a9ea1fdcf2a5ae911983ec600a07bf5c62bd",
+      "image": "sha256:cab0720d44c372b3e9555ec1ad8524e1b6b5b3ee5a97ec669ae7d6254d55faf3",
+      "started_at": "2026-10-13T11:23:59.38313942Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lobby_lobby_reviews",
+          "Source": "/var/lib/docker/volumes/lobby_lobby_reviews/_data",
+          "Destination": "/app/state",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lobby_api_token",
+          "Source": "/var/lib/docker/volumes/lobby_api_token/_data",
+          "Destination": "/run/secrets",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/c/Users/Jean-Christophe/Documents/ChatGPT/docker/lobby/private/editorial-access.txt",
+          "Destination": "/run/lobby/editorial-access",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe\\Documents\\ChatGPT\\docker\\lobby\\private\\ssh-bridge-token",
+          "Destination": "/run/lobby/ssh-bridge-token",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-danaides-web-1": {
+      "id": "c819ebddd9db0907b13fd05d32cb1ad5176daddc6f501e4d55d93dd54f7355ec",
+      "image": "sha256:fd6da662c57477de29b316794c6dba01918be5cb3703f7108d066666c470d83e",
+      "started_at": "2026-10-13T11:23:59.363735833Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-danaides_danaides_data",
+          "Source": "/var/lib/docker/volumes/lexmachine-danaides_danaides_data/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-budget_budget_data",
+          "Source": "/var/lib/docker/volumes/lexmachine-budget_budget_data/_data",
+          "Destination": "/corpus/budget",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/c/Users/Jean-Christophe/Documents/ChatGPT/docker/lobby/data",
+          "Destination": "/corpus/lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/c/Users/Jean-Christophe/Documents/ChatGPT/docker/lobby-analyses/data",
+          "Destination": "/corpus/relations",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lobby-analyses": {
+      "id": "5f874402ebc3f7522f7ee6706c23343950f2db8c4d9cc03a5ec6ecfe81a56fb8",
+      "image": "sha256:83298eeb589e64e63424cb7cf61d21b872a2ce4665d9c47ed331913cb02a13c7",
+      "started_at": "2026-10-13T11:23:59.529399374Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe\\Documents\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/app/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "volume",
+          "Name": "lobby-analyses_lobby_analysis_baskets",
+          "Source": "/var/lib/docker/volumes/lobby-analyses_lobby_analysis_baskets/_data",
+          "Destination": "/app/state",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe\\Documents\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/data/lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe\\Documents\\ChatGPT\\docker\\lobby\\private\\editorial-access.txt",
+          "Destination": "/run/lobby/editorial-access",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-danaides-monitor-1": {
+      "id": "782f7a6ca8baf2cb0a2eeed536ba778d07e0f598108930a3c879c57179625957",
+      "image": "sha256:d475ce483a7435dcb89240319c5b0bb77a9af88d1290072a50691a87df2cda68",
+      "started_at": "2026-10-13T11:23:59.330819976Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-danaides_danaides_data",
+          "Source": "/var/lib/docker/volumes/lexmachine-danaides_danaides_data/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-brainstorming-consolidation-r24-brainstorming-preview-1": {
+      "id": "70a1bddb982d77c65750ae8b6f39ccdc8b048c29869ce0a06b29679bc64dfeb9",
+      "image": "sha256:b0859bc1c4d7ef7518616c6925feaf233b86b0935161c87b057677ba65ee270a",
+      "started_at": "2026-10-13T11:23:59.59145744Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-brainstorming-r24-preview-tls",
+          "Source": "/var/lib/docker/volumes/lexmachine-brainstorming-r24-preview-tls/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-caddy-reception-data-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-caddy-reception-data-v1/_data",
+          "Destination": "/portal-tls",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe\\Documents\\ChatGPT\\docker\\BRAINSTORMING_R24\\deploy\\Caddyfile.r24-preview",
+          "Destination": "/etc/caddy/Caddyfile",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "wikijuris-api": {
+      "id": "dc2f645aa2520b44e478dc7bced533f853ebbb4d8fb479bf682f2421431b6bb4",
+      "image": "sha256:cd34f584b0e3f0ab24e7955d09455f04bbe2ed43fbb7f8508ff1b590e8ef31f8",
+      "started_at": "2026-10-13T11:23:59.675278433Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "wikijuris_private-access",
+          "Source": "/var/lib/docker/volumes/wikijuris_private-access/_data",
+          "Destination": "/run/wiki-private",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        }
+      ]
+    },
+    "wikijuris-web-1": {
+      "id": "3ccd6bd9ea03e8c08b0cb4d736718bd1c33cf27f70f468262f8550d225bf3366",
+      "image": "sha256:6641c1893d719d71b87497376b9be8a6105d0513bf355c2809a5296d6b99a981",
+      "started_at": "2026-10-13T11:23:59.403613956Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "lexmachine-construction-web-1": {
+      "id": "dd79b74a1a7172f622f1d46516a05e3dfa38aff684616e468c385fafcebc3a44",
+      "image": "sha256:396f4e1de10802a26d3cb331c38e80868d03f51aea6c3e5342bd748972cc7bab",
+      "started_at": "2026-10-13T11:23:59.651763459Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "lexmachine-construction-db-1": {
+      "id": "0f728043c7a50d9df69a195b3a2a7958c64253fba504240221dd764b50da1fe6",
+      "image": "sha256:ef257d85f76e48da1c64832459b59fcaba1a4dac97bf5d7450c77753542eee94",
+      "started_at": "2026-10-13T11:23:59.605237946Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-construction_construction_db",
+          "Source": "/var/lib/docker/volumes/lexmachine-construction_construction_db/_data",
+          "Destination": "/var/lib/postgresql/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-v14-preview-portal": {
+      "id": "55725ecedba28e728e9c331fc0f61883905df889fcfc577aabe5c2b558a3de83",
+      "image": "sha256:2b08b56be4c706d52a690adcbe32aa745dc1a17a8ed6062876417dda4eac727b",
+      "started_at": "2026-10-13T11:23:59.683449214Z",
+      "running": true,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-v14-preview-billing-db-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-v14-preview-billing-db-v1/_data",
+          "Destination": "/run/secrets/lexmachine-billing-db",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-identity-secrets-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-identity-secrets-v1/_data",
+          "Destination": "/run/secrets/lexmachine-identity",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-v14-preview-registration-db-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-v14-preview-registration-db-v1/_data",
+          "Destination": "/run/secrets/lexmachine-registration-db",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-v14-preview-registration-hmac-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-v14-preview-registration-hmac-v1/_data",
+          "Destination": "/run/secrets/lexmachine-registration-hmac",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-v14-preview-registration-smtp-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-v14-preview-registration-smtp-v1/_data",
+          "Destination": "/run/secrets/lexmachine-registration-smtp",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-v14-preview-stripe-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-v14-preview-stripe-v1/_data",
+          "Destination": "/run/secrets/lexmachine-stripe",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-workflow-secrets-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-workflow-secrets-v1/_data",
+          "Destination": "/run/secrets/lexmachine-workflow",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        }
+      ]
+    },
+    "pas-perdus-web-1": {
+      "id": "d7723e78333ac3688f6ed6d40e1e95b636a1231d95143b65e11ab60add527376",
+      "image": "sha256:c53af183c4874022da17533412f83123abf7ed55fec63cce22ecfcd4edd2f94e",
+      "started_at": "2026-10-13T11:23:59.479354606Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "tricoteuses-direct-widget-v2": {
+      "id": "3241c56e1e3239a966a152cd36413be4f3db899656d7934640a88600afff7a8b",
+      "image": "sha256:d4a4d4740e7107151624bece01256a2f2ef26a37970a27d3a39b80de863c9670",
+      "started_at": "2026-10-13T11:23:59.533817529Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "tricoteuses_widget_v2_data",
+          "Source": "/var/lib/docker/volumes/tricoteuses_widget_v2_data/_data",
+          "Destination": "/app/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-clean-12-designs": {
+      "id": "7290bea2112300d3cd0ce4073409ab1bedcc88e879b68bdc5706b754a2bd156a",
+      "image": "sha256:32c12cde67add9a84b91973af1bb19e5b3cf2bf4b98bf4296ffe76672a80d18c",
+      "started_at": "2026-10-13T11:23:59.657716476Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/cache",
+          "Destination": "/data-source-cache",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean-12-designs-runtime",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean-12-designs-runtime/_data",
+          "Destination": "/runtime",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean-12-designs-data-cache",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean-12-designs-data-cache/_data",
+          "Destination": "/data/cache",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/config_api.txt",
+          "Destination": "/run/secrets/config_api.txt",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-clean-12-layouts": {
+      "id": "1f3ec4d9f3717068b039eb2b67b75a1f464397566a41d65db23b93991077368a",
+      "image": "sha256:36c1933c0ccfa23f7e21edbe2245b022a2bff8bb80d8a87f29f1ef90ec86604f",
+      "started_at": "2026-10-13T11:23:59.652956735Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/cache",
+          "Destination": "/data-source-cache",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean-12-layouts-runtime",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean-12-layouts-runtime/_data",
+          "Destination": "/runtime",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean-12-layouts-data-cache",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean-12-layouts-data-cache/_data",
+          "Destination": "/data/cache",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/config_api.txt",
+          "Destination": "/run/secrets/config_api.txt",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-v14-preview-redaction": {
+      "id": "4ab72a54c6eb4d8c0112f111c036492aa0af828003eb362765dd0d86d4eb4345",
+      "image": "sha256:3ecb21cbdef73089894eb1e7d741225829039668a4bb8c405cc605a5e1505c3c",
+      "started_at": "2026-10-13T11:23:59.66145009Z",
+      "running": true,
+      "health": "healthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026\\. GUIDE REDACTION\\build",
+          "Destination": "/data/. GUIDE REDACTION/build",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-portal-identity-i3-reception": {
+      "id": "8572216ec9e3e31abc679a13d66d702353b161b8be08f9492c0ca645666304e9",
+      "image": "sha256:f89b1c6d4ed6030820009784380883cbcb997bd5473f9b561e0972ee20f7fbef",
+      "started_at": "2026-10-13T11:23:59.688097539Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-identity-secrets-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-identity-secrets-v1/_data",
+          "Destination": "/run/secrets/lexmachine-identity",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-workflow-secrets-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-workflow-secrets-v1/_data",
+          "Destination": "/run/secrets/lexmachine-workflow",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-portal-identity-i3-ingress": {
+      "id": "48fb79ba8dbb1f08c92ed99d893c17453beb66954a69c354eb2e156258908738",
+      "image": "sha256:ab21eddffde204bc7f96e8ef605ec0d361385eacf6233785a0a64d6006b450be",
+      "started_at": "2026-10-13T11:23:59.59070103Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-caddy-reception-data-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-caddy-reception-data-v1/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-brainstorming-amendements-brainstorming-amendements-1": {
+      "id": "b8a64d3a1c3855e22ff4aed1ffea8e9cb7ae946182cf5430531752afddab4d86",
+      "image": "sha256:29aad032bf3a2bb7b88d5216ca23908fa804fa173162e7bb7122850cdbb7d323",
+      "started_at": "2026-10-13T11:23:59.580020389Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/SANDBOXES/BRAINSTORMING_AMENDEMENTS_20260729/data",
+          "Destination": "/data",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/cache",
+          "Destination": "/data-source-cache",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/SANDBOXES/BRAINSTORMING_AMENDEMENTS_20260729/runtime",
+          "Destination": "/runtime",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/ccomptes.db",
+          "Destination": "/data/ccomptes.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/ccomptes_chunks.sqlite",
+          "Destination": "/data/ccomptes_chunks.sqlite",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/legi_dole.db",
+          "Destination": "/data/legi_dole.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/marie.db",
+          "Destination": "/data/marie.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/marie_embeddings.db",
+          "Destination": "/data/marie_embeddings.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/plf_pli.db",
+          "Destination": "/data/plf_pli.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/ppl.db",
+          "Destination": "/data/ppl.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/questions_ecrites.db",
+          "Destination": "/data/questions_ecrites.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache",
+          "Destination": "/data/semantic_cache",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_ccomptes",
+          "Destination": "/data/semantic_cache_ccomptes",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_dole_ppl",
+          "Destination": "/data/semantic_cache_dole_ppl",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_legi_dole",
+          "Destination": "/data/semantic_cache_legi_dole",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_plf_pli",
+          "Destination": "/data/semantic_cache_plf_pli",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_ppl",
+          "Destination": "/data/semantic_cache_ppl",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_questions",
+          "Destination": "/data/semantic_cache_questions",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/dila_complement_embeddings_bge_m3.db",
+          "Destination": "/data/. JURISPRUDENCE V2/dila_complement_embeddings_bge_m3.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/dila_complement_juridique.db",
+          "Destination": "/data/. JURISPRUDENCE V2/dila_complement_juridique.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/jurisprudence_officielle_fine_chunks_consolidated_20260516.db",
+          "Destination": "/data/. JURISPRUDENCE V2/jurisprudence_officielle_fine_chunks_consolidated_20260516.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/jurisprudence_v2_embeddings_bge_m3.db",
+          "Destination": "/data/. JURISPRUDENCE V2/jurisprudence_v2_embeddings_bge_m3.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_dila_complement",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_dila_complement",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026\\LEXMACHINE_SECRETS\\docker-v1.2\\brainstorming-config-api.txt",
+          "Destination": "/run/secrets/config_api.txt",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. GUIDE REDACTION/build/guide_redaction_amendements.sqlite",
+          "Destination": "/data/. GUIDE REDACTION/build/guide_redaction_amendements.sqlite",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. GUIDE REDACTION/build/guide_redaction_amendements.sqlite",
+          "Destination": "/app/lexmachine/. GUIDE REDACTION/build/guide_redaction_amendements.sqlite",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-analyse-jurisprudentielle-analyse-jurisprudentielle-1": {
+      "id": "9ab6a18b4e270dcdf16388c5f99b025229f868e6c6bd965596b5da966b2af930",
+      "image": "sha256:c9f46b738f67b7db6dc5f767519e198d5c658c8ac767ee481ef9ca7c51deab58",
+      "started_at": "2026-10-13T11:23:59.336477128Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/SANDBOXES/ANALYSE_JURISPRUDENTIELLE_20260730/runtime",
+          "Destination": "/runtime",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/jurisprudence_officielle_fine_chunks_consolidated_20260516.db",
+          "Destination": "/data/. JURISPRUDENCE V2/jurisprudence_officielle_fine_chunks_consolidated_20260516.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/jurisprudence_v2_embeddings_bge_m3.db",
+          "Destination": "/data/. JURISPRUDENCE V2/jurisprudence_v2_embeddings_bge_m3.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026\\LEXMACHINE_SECRETS\\docker-v1.2\\jurisprudence-openai.txt",
+          "Destination": "/run/secrets/config_api.txt",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/bge_m3_vectors.npy",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/bge_m3_vectors.npy",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/chunk_ids.npy",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/chunk_ids.npy",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/faiss_ivfpq.index",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/faiss_ivfpq.index",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/faiss_ivfpq.meta.json",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/faiss_ivfpq.meta.json",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/meta.json",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/meta.json",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-control-plane-postgres": {
+      "id": "b6719f52061d0bbd9f3a43eaee9ef60158dc4b8282cc17adf12c223fd1c1b55e",
+      "image": "sha256:9a8afca54e7861fd90fab5fdf4c42477a6b1cb7d293595148e674e0a3181de15",
+      "started_at": "2026-10-13T11:23:59.493671195Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-control-plane-postgres-secrets-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-control-plane-postgres-secrets-v1/_data",
+          "Destination": "/run/secrets",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-control-plane-postgres-data-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-control-plane-postgres-data-v1/_data",
+          "Destination": "/var/lib/postgresql",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-portail-hybride-portal-1": {
+      "id": "f2fc6b959c9a3fa9c83801ffadc423bb391da8162d2cba8f849d84f26c736742",
+      "image": "sha256:5411dbc510fcc48491ce546095da45557165c3ade122a16fca5209e38df4b6cc",
+      "started_at": "2026-10-13T11:23:59.422296405Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    }
+  },
+  "after": {
+    "datamairies-web-1": {
+      "id": "02ec73511410de4346c5fb4ed4b171af4ba4d3cf1d4378f106a84b753d98a8fe",
+      "image": "sha256:21c0da157dcac1dda1ef0c104a4f5c8fec1eda4a4323f2f5743f795247b41af9",
+      "started_at": "2026-10-13T11:51:37.38803696Z",
+      "running": true,
+      "health": "healthy",
+      "mounts": []
+    },
+    "lexmachine-budget-web-1": {
+      "id": "13cdf068bf36ce03c22119a0ba322958fae8a1e51ef769ffd42b94a073ae59fb",
+      "image": "sha256:713c095a9b96e8021bfd0fdb9423e4afc1071e81aa69f4eb838c1d9d41d6452b",
+      "started_at": "2026-10-13T11:50:43.384696073Z",
+      "running": true,
+      "health": "healthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/budget/releases/en-ligne-20261008/plf-data",
+          "Destination": "/data",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-budget_budget_state",
+          "Source": "/var/lib/docker/volumes/lexmachine-budget_budget_state/_data",
+          "Destination": "/state",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-linktolaw-web-1": {
+      "id": "1104654956c99f2864aa3b50c3b0a27ab5bb0bec5c0712f1bb752c158fb8772d",
+      "image": "sha256:116f1063eb8a298fd1c9bd1136804462098388a155b6e27554ce4c71b6dda6bf",
+      "started_at": "2026-10-13T11:23:59.675019204Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-linktolaw_documents",
+          "Source": "/var/lib/docker/volumes/lexmachine-linktolaw_documents/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/linktolaw-ssh/id_ed25519",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/linktolaw-ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "tricoteuses-direct-widget-v3": {
+      "id": "9ba88fc08e46596974d0ae4d4038f1ce90e865634d326400598343cfc12fc9e5",
+      "image": "sha256:eb16de9a07f46ebdc0552fedbb6b47b744d6337ee4a9153a9b054580256e68b6",
+      "started_at": "2026-10-13T11:23:59.700363187Z",
+      "running": true,
+      "health": "healthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "tricoteuses_widget_v3_data",
+          "Source": "/var/lib/docker/volumes/tricoteuses_widget_v3_data/_data",
+          "Destination": "/app/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "nos-deniers-demo-demo-1": {
+      "id": "85f484eb208f6cd844bb6ead0da694978203c29f183e393ff5d82aa33a0b765b",
+      "image": "sha256:03186211696e11f82aeab111669035990aeb619383a93cd294c4b4acb8a097c6",
+      "started_at": "2026-10-13T11:51:29.118166557Z",
+      "running": true,
+      "health": "healthy",
+      "mounts": []
+    },
+    "lexmachine-budget-retrieval-1": {
+      "id": "8ec189acfd78d8012d1739ca66b0cff0c8cfe9276ff35f23c3d0e976fe85f337",
+      "image": "sha256:c3c2f27b50456639c408078a36edbe724dc181a0982f72237e2109b46cd65622",
+      "started_at": "2026-10-13T11:51:28.646718758Z",
+      "running": true,
+      "health": "healthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:/LexMachine/NosDeniers/search_20260919",
+          "Destination": "/search",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/budget/releases/en-ligne-20261008/plf-index-supp1",
+          "Destination": "/search-supplement",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/budget/releases/en-ligne-20261008/plf-index-supp2",
+          "Destination": "/search-supplement2",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "batiperformance-openwebui-webui-1": {
+      "id": "31d4340b38d7d08a038bb4f0f923c75ea40a60b92c5c010cdf129a7d6e730ca6",
+      "image": "sha256:a1edc483ff9e92c974875ca8a10c76ea7c9d462835cff1f1215318873f14f0ee",
+      "started_at": "2026-10-13T11:23:59.692258559Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance-openwebui_webui_data",
+          "Source": "/var/lib/docker/volumes/batiperformance-openwebui_webui_data/_data",
+          "Destination": "/app/backend/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "batiperformance-text-search-typesense-1": {
+      "id": "57329508ebc8861d31eca638bbf9917c37e187de8de158af1bb9b0c02d3fc846",
+      "image": "sha256:610f2d34b1f93d00762869da2c67736775e5798d19a2c8b91b014b8a0cc1e110",
+      "started_at": "2026-10-13T11:23:59.596413032Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance-text-search_text_index",
+          "Source": "/var/lib/docker/volumes/batiperformance-text-search_text_index/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "asiadata-web-1": {
+      "id": "6ec9a0c89dbf9a54a9197a73c777f5ec2c7f2b5bec515cc80ae6cf918c8f8e3f",
+      "image": "sha256:7e92e37620b8032cbc80dda51ce24785160dd4b24a9aeb1c40cd0e35302e0fbf",
+      "started_at": "2026-10-13T11:23:59.689198669Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "batiperformance-retrieval-retrieval-1": {
+      "id": "aa0a9f497f81ec2370315c41589f01cde518c70b8ff7a0969014b2deba52d0da",
+      "image": "sha256:aa02eb7ade038aa58f4d4f03ddc6e5f0537178661c1fcaf9ec23b29d5e494b07",
+      "started_at": "2026-10-13T11:23:59.457641087Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\batiperformance\\data\\faq-re2020\\indexes\\bge-m3-gpu-v1",
+          "Destination": "/index",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "batiperformance-docsgpt-test-worker-1": {
+      "id": "30a4c4f01748186583235467b6335c55d5cd27a827ac2e340a7f21de06075228",
+      "image": "sha256:df854d647b08ad2d460f2529e7d63e626c0a1fd745eb6bfafb7d3bfe9efca5ef",
+      "started_at": "2026-10-10T09:10:19.972815449Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_indexes",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_indexes/_data",
+          "Destination": "/app/indexes",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_inputs",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_inputs/_data",
+          "Destination": "/app/inputs",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_vectors",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_vectors/_data",
+          "Destination": "/app/vectors",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\batiperformance\\integrations\\docsgpt\\.runtime\\bridge.token",
+          "Destination": "/run/secrets/batiperf_bridge_token",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\batiperformance\\integrations\\docsgpt\\models",
+          "Destination": "/app/docsgpt/core/models",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/d/ChatGPT/docker/batiperformance/integrations/docsgpt/batiperformance_tool.py",
+          "Destination": "/app/docsgpt/agents/tools/batiperformance.py",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "batiperformance-docsgpt-test-backend-1": {
+      "id": "3ea7e6d382ba79066193de890d49bb9e1854c1ac840673e7094cd0c15c88a188",
+      "image": "sha256:df854d647b08ad2d460f2529e7d63e626c0a1fd745eb6bfafb7d3bfe9efca5ef",
+      "started_at": "2026-10-10T09:10:10.21446759Z",
+      "running": false,
+      "health": "starting",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_indexes",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_indexes/_data",
+          "Destination": "/app/indexes",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_inputs",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_inputs/_data",
+          "Destination": "/app/inputs",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_vectors",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_vectors/_data",
+          "Destination": "/app/vectors",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/d/ChatGPT/docker/batiperformance/integrations/docsgpt/.runtime/bridge.token",
+          "Destination": "/run/secrets/batiperf_bridge_token",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/d/ChatGPT/docker/batiperformance/integrations/docsgpt/models",
+          "Destination": "/app/docsgpt/core/models",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/d/ChatGPT/docker/batiperformance/integrations/docsgpt/batiperformance_tool.py",
+          "Destination": "/app/docsgpt/agents/tools/batiperformance.py",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "batiperformance-docsgpt-test-postgres-1": {
+      "id": "e4fcaf3eee5ff22bcbcacfe441a5f60316aed4778f11f1ab5ec33a799e760004",
+      "image": "sha256:721873c34ceb9f8d8fc265984940dc982404c105f19ad51be9fdc5970a6080ea",
+      "started_at": "2026-10-10T07:31:11.077854941Z",
+      "running": false,
+      "health": "starting",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance-docsgpt-test_postgres_data",
+          "Source": "/var/lib/docker/volumes/batiperformance-docsgpt-test_postgres_data/_data",
+          "Destination": "/var/lib/postgresql/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "batiperformance-docsgpt-test-redis-1": {
+      "id": "003775332b62dfa7ee679593827ef816543f97b8534ce4981b8226ac8b73541e",
+      "image": "sha256:858f009f9709ce576febc734aa78b8f6d624b82571f9ddb6bda4377c833b3499",
+      "started_at": "2026-10-10T07:31:11.927756936Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "c25c287c4d5af5cee9d8490ac4c54fad45d7ae665a71b8f979115fa378d55358",
+          "Source": "/var/lib/docker/volumes/c25c287c4d5af5cee9d8490ac4c54fad45d7ae665a71b8f979115fa378d55358/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "historique-codex-tableau-de-bord-1": {
+      "id": "cb23a03ba6c9801d8db545c0d84c753320030d4ea51aefd6a26880f848d10e3a",
+      "image": "sha256:1b577484562e19633f301b99f4f6c5031fe3f0e40abf145d5c9e10f8dda24c55",
+      "started_at": "2026-10-13T11:23:59.689625436Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "H:\\HISTORIQUE_CODEX_2026-10-09\\tableau_de_bord\\donnees\\bilan.json",
+          "Destination": "/app/donnees/bilan.json",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "H:\\HISTORIQUE_CODEX_2026-10-09\\tableau_de_bord\\donnees\\historique.duckdb",
+          "Destination": "/app/donnees/historique.duckdb",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-clean-lexmachine-web-1": {
+      "id": "50a9047fd4d8b5fbeb953c349a4daac2256a1ec0ce45ce0073ae620d037293be",
+      "image": "sha256:c51a6c0e2c00c34c0409ecd1a2fe507b6d82a70821be35e14fc3371ce5600733",
+      "started_at": "2026-10-13T11:23:59.691176039Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/cache",
+          "Destination": "/data-source-cache",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean_lexmachine-runtime",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean_lexmachine-runtime/_data",
+          "Destination": "/runtime",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean_lexmachine-data-cache",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean_lexmachine-data-cache/_data",
+          "Destination": "/data/cache",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/LEXMACHINE_V30_CLEANUP/Logs V32",
+          "Destination": "/runtime/logs",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/LEXMACHINE_V30_CLEANUP/reports",
+          "Destination": "/runtime/reports",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/config_api.txt",
+          "Destination": "/run/secrets/config_api.txt",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "batiperformance-api-1": {
+      "id": "c8a732462bd093df0019e937d95a77f242f2dc7805510131f08a2fae66dd0f4a",
+      "image": "sha256:a1bf31e777cfe65c2c9fb9b48bb8e4ca04b6dcb22d26aec769ba3a213bbeb5c5",
+      "started_at": "2026-10-13T11:23:59.634860262Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "batiperformance-db-1": {
+      "id": "f7c1fd5459ec6f9c71f570e34b7aedccd775c8a683955af68a74b2c38f2127b5",
+      "image": "sha256:ef257d85f76e48da1c64832459b59fcaba1a4dac97bf5d7450c77753542eee94",
+      "started_at": "2026-10-13T11:23:59.631740011Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "batiperformance_batiperformance_db",
+          "Source": "/var/lib/docker/volumes/batiperformance_batiperformance_db/_data",
+          "Destination": "/var/lib/postgresql/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "seances-demo-demo-1": {
+      "id": "daddb60ba07ff1fb984434f7b61b97aff53f7e4b1a31ddc3f39ee3ba4a6f223e",
+      "image": "sha256:4c47b996ac58583eeda2649fd784d8258e9fdb2ca64efc4467606a5d043c45fd",
+      "started_at": "2026-10-13T11:23:59.572259464Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "nos-deniers-plfss-local-web-1": {
+      "id": "27be8612120538955535fa436ce127fbe9b3b1e9d22f768aeb6fb40389129c9e",
+      "image": "sha256:b89ced2e6f902e9cef3f29d44c845c558fa6db13ab23e6c849ce52a60568208b",
+      "started_at": "2026-10-13T11:23:59.532092427Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\plfss\\data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-plfss-local-retrieval-1": {
+      "id": "50c581673c16dd78680ad219a93d359ff02032e6cc0e27dede20e9bace8ccba6",
+      "image": "sha256:f41610d8acab3081e1738be644b07db97697fd5ffba459374e039ac9b8fbf53e",
+      "started_at": "2026-10-13T11:23:59.552719225Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\plfss\\data\\search",
+          "Destination": "/search",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-analyse-web-1": {
+      "id": "6aab10ae80962c7666c85ca59f5d8f8bc4d5671dcf2939e0f69c2eb74546040e",
+      "image": "sha256:1704318484448645ea57c70f9083c6316adf84b7d4263f75ac49864e043f6d5b",
+      "started_at": "2026-10-13T11:23:59.675027822Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\backups\\nos-deniers-20260929-optimisation\\analyse-plf\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-documents-local-web-1": {
+      "id": "6b0471e0f4a61ef2687d7ae05346749a2282976dc596b925012ee5f74bf31a1a",
+      "image": "sha256:de37a95e324fd5f692959806308155173eb445ddbee43d75c6bfd30e53019498",
+      "started_at": "2026-10-02T10:41:01.05128293Z",
+      "running": false,
+      "health": "starting",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/backups/nos-deniers-20260929-optimisation/reports/source-refresh-20261001/delivery-20261002/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/backups/nos-deniers-20260929-optimisation/reports/source-refresh-20261001/numeric-20261002/data/derived/budget-final.sqlite",
+          "Destination": "/data/derived/budget.sqlite",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-documents-local-retrieval-1": {
+      "id": "c720060b458b8f5086beee674d4b17c00703fa4be6d498d89b546b8bb65941fd",
+      "image": "sha256:3cda5f679b9e161b345a03e9c948dae1037bd6d829ef970306b85e7bb1ab4108",
+      "started_at": "2026-10-02T07:28:22.793477351Z",
+      "running": false,
+      "health": "starting",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:/LexMachine/NosDeniers/search_20260919",
+          "Destination": "/search",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/backups/nos-deniers-20260929-optimisation/reports/source-refresh-20261001/delivery-20261002/search-supplement",
+          "Destination": "/search-supplement",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/budget/retrieval-supplement-20260924-incremental",
+          "Destination": "/search-supplement2",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "budget-consultation-preview": {
+      "id": "91a55633273ffa4f633d4ff3eeb9c8877b4f4bf0a2368939bdd237e974e91136",
+      "image": "sha256:a7c0be665b9839fd42dc112d24580fdf8ba03c156981c43a8be1407822732761",
+      "started_at": "2026-09-29T08:24:14.340148649Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:/ChatGPT/docker/budget/reports/integration-annexes-20260928/data",
+          "Destination": "/data",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "data-lobby-api-1": {
+      "id": "27de0c6f11b15a76f82f2d8b54a2bcfab7e00560a92d3f5230d5ae6effc06696",
+      "image": "sha256:d2a454ba7bacbe2d60db3a2b0c7bfa5da0d65e2b41b61b993b8864d51f54e864",
+      "started_at": "2026-10-13T11:23:59.70774792Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\config",
+          "Destination": "/app/config",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\outputs\\controle-23411-20260925",
+          "Destination": "/sources/audit",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:/Marie AN 2026/. LEXIMPACT SOCIETES",
+          "Destination": "/sources/leximpact",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/sources/wiki-lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/sources/wiki-lobby-analyses",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/ssh/identity",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "data-lobby-worker-1": {
+      "id": "9bf1dbfe474010f767f7e764fa38741762875396473720ee8ae3d9007654c614",
+      "image": "sha256:ce572e196acaf3d62378b10cbefc69afb874b50b0ce3d4294aaa0da3caf276e8",
+      "started_at": "2026-09-26T17:59:17.915481938Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\config",
+          "Destination": "/app/config",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\outputs\\controle-23411-20260925",
+          "Destination": "/sources/audit",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:/Marie AN 2026/. LEXIMPACT SOCIETES",
+          "Destination": "/sources/leximpact",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/sources/wiki-lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/sources/wiki-lobby-analyses",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/ssh/identity",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "data-lobby-worker-4": {
+      "id": "7d7a5111dfcdd0fa72a25c1bef22536417b4e5891176f55d20aed101499e1b53",
+      "image": "sha256:ce572e196acaf3d62378b10cbefc69afb874b50b0ce3d4294aaa0da3caf276e8",
+      "started_at": "2026-09-26T17:59:31.841722757Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\config",
+          "Destination": "/app/config",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\outputs\\controle-23411-20260925",
+          "Destination": "/sources/audit",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:/Marie AN 2026/. LEXIMPACT SOCIETES",
+          "Destination": "/sources/leximpact",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/sources/wiki-lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/sources/wiki-lobby-analyses",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/ssh/identity",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "data-lobby-worker-2": {
+      "id": "b10f28bc55bab24a4b7ee1e238557ce2e594c5ba5968494a3f1d68276635f7b6",
+      "image": "sha256:ce572e196acaf3d62378b10cbefc69afb874b50b0ce3d4294aaa0da3caf276e8",
+      "started_at": "2026-09-26T17:59:33.403888096Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\config",
+          "Destination": "/app/config",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\outputs\\controle-23411-20260925",
+          "Destination": "/sources/audit",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:/Marie AN 2026/. LEXIMPACT SOCIETES",
+          "Destination": "/sources/leximpact",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/sources/wiki-lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/sources/wiki-lobby-analyses",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/ssh/identity",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "data-lobby-worker-3": {
+      "id": "d90bcd6987d875a47bb987af115fb8b6d9bffcc92c2322b46f348488c42ff783",
+      "image": "sha256:ce572e196acaf3d62378b10cbefc69afb874b50b0ce3d4294aaa0da3caf276e8",
+      "started_at": "2026-09-26T17:59:17.944429644Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\data",
+          "Destination": "/data",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\data-lobby\\config",
+          "Destination": "/app/config",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\outputs\\controle-23411-20260925",
+          "Destination": "/sources/audit",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:/Marie AN 2026/. LEXIMPACT SOCIETES",
+          "Destination": "/sources/leximpact",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/sources/wiki-lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "D:\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/sources/wiki-lobby-analyses",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/id_ed25519",
+          "Destination": "/run/ssh/identity",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:/Users/Jean-Christophe/.ssh/known_hosts",
+          "Destination": "/run/ssh/known_hosts",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-crashtest-web-1": {
+      "id": "933e78e08c196ecf0f8b09f6b3027c4390a530233f2da7b6dce30ba663cbb145",
+      "image": "sha256:c4f765b435b7d751227a75cbd386a5901cd7708bbc6ec3c680994f70b7311c24",
+      "started_at": "2026-10-13T11:23:59.347797436Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "data-lobby-db-1": {
+      "id": "f6250c6a0202a1b205f44f28882054bc2d06e34ae1103644bca1ea3d7544786a",
+      "image": "sha256:ef257d85f76e48da1c64832459b59fcaba1a4dac97bf5d7450c77753542eee94",
+      "started_at": "2026-10-13T11:23:59.618320551Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "data-lobby_database",
+          "Source": "/var/lib/docker/volumes/data-lobby_database/_data",
+          "Destination": "/var/lib/postgresql/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lobby": {
+      "id": "98d3f9e34010f68ed9578d368332a9ea1fdcf2a5ae911983ec600a07bf5c62bd",
+      "image": "sha256:cab0720d44c372b3e9555ec1ad8524e1b6b5b3ee5a97ec669ae7d6254d55faf3",
+      "started_at": "2026-10-13T11:23:59.38313942Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lobby_lobby_reviews",
+          "Source": "/var/lib/docker/volumes/lobby_lobby_reviews/_data",
+          "Destination": "/app/state",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lobby_api_token",
+          "Source": "/var/lib/docker/volumes/lobby_api_token/_data",
+          "Destination": "/run/secrets",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/c/Users/Jean-Christophe/Documents/ChatGPT/docker/lobby/private/editorial-access.txt",
+          "Destination": "/run/lobby/editorial-access",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe\\Documents\\ChatGPT\\docker\\lobby\\private\\ssh-bridge-token",
+          "Destination": "/run/lobby/ssh-bridge-token",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-danaides-web-1": {
+      "id": "c819ebddd9db0907b13fd05d32cb1ad5176daddc6f501e4d55d93dd54f7355ec",
+      "image": "sha256:fd6da662c57477de29b316794c6dba01918be5cb3703f7108d066666c470d83e",
+      "started_at": "2026-10-13T11:23:59.363735833Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-danaides_danaides_data",
+          "Source": "/var/lib/docker/volumes/lexmachine-danaides_danaides_data/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-budget_budget_data",
+          "Source": "/var/lib/docker/volumes/lexmachine-budget_budget_data/_data",
+          "Destination": "/corpus/budget",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/c/Users/Jean-Christophe/Documents/ChatGPT/docker/lobby/data",
+          "Destination": "/corpus/lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/c/Users/Jean-Christophe/Documents/ChatGPT/docker/lobby-analyses/data",
+          "Destination": "/corpus/relations",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lobby-analyses": {
+      "id": "5f874402ebc3f7522f7ee6706c23343950f2db8c4d9cc03a5ec6ecfe81a56fb8",
+      "image": "sha256:83298eeb589e64e63424cb7cf61d21b872a2ce4665d9c47ed331913cb02a13c7",
+      "started_at": "2026-10-13T11:23:59.529399374Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe\\Documents\\ChatGPT\\docker\\lobby-analyses\\data",
+          "Destination": "/app/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "volume",
+          "Name": "lobby-analyses_lobby_analysis_baskets",
+          "Source": "/var/lib/docker/volumes/lobby-analyses_lobby_analysis_baskets/_data",
+          "Destination": "/app/state",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe\\Documents\\ChatGPT\\docker\\lobby\\data",
+          "Destination": "/data/lobby",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe\\Documents\\ChatGPT\\docker\\lobby\\private\\editorial-access.txt",
+          "Destination": "/run/lobby/editorial-access",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-danaides-monitor-1": {
+      "id": "782f7a6ca8baf2cb0a2eeed536ba778d07e0f598108930a3c879c57179625957",
+      "image": "sha256:d475ce483a7435dcb89240319c5b0bb77a9af88d1290072a50691a87df2cda68",
+      "started_at": "2026-10-13T11:23:59.330819976Z",
+      "running": false,
+      "health": null,
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-danaides_danaides_data",
+          "Source": "/var/lib/docker/volumes/lexmachine-danaides_danaides_data/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-brainstorming-consolidation-r24-brainstorming-preview-1": {
+      "id": "70a1bddb982d77c65750ae8b6f39ccdc8b048c29869ce0a06b29679bc64dfeb9",
+      "image": "sha256:b0859bc1c4d7ef7518616c6925feaf233b86b0935161c87b057677ba65ee270a",
+      "started_at": "2026-10-13T11:23:59.59145744Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-brainstorming-r24-preview-tls",
+          "Source": "/var/lib/docker/volumes/lexmachine-brainstorming-r24-preview-tls/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-caddy-reception-data-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-caddy-reception-data-v1/_data",
+          "Destination": "/portal-tls",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "C:\\Users\\Jean-Christophe\\Documents\\ChatGPT\\docker\\BRAINSTORMING_R24\\deploy\\Caddyfile.r24-preview",
+          "Destination": "/etc/caddy/Caddyfile",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "wikijuris-api": {
+      "id": "dc2f645aa2520b44e478dc7bced533f853ebbb4d8fb479bf682f2421431b6bb4",
+      "image": "sha256:cd34f584b0e3f0ab24e7955d09455f04bbe2ed43fbb7f8508ff1b590e8ef31f8",
+      "started_at": "2026-10-13T11:23:59.675278433Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "wikijuris_private-access",
+          "Source": "/var/lib/docker/volumes/wikijuris_private-access/_data",
+          "Destination": "/run/wiki-private",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        }
+      ]
+    },
+    "wikijuris-web-1": {
+      "id": "3ccd6bd9ea03e8c08b0cb4d736718bd1c33cf27f70f468262f8550d225bf3366",
+      "image": "sha256:6641c1893d719d71b87497376b9be8a6105d0513bf355c2809a5296d6b99a981",
+      "started_at": "2026-10-13T11:23:59.403613956Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "lexmachine-construction-web-1": {
+      "id": "dd79b74a1a7172f622f1d46516a05e3dfa38aff684616e468c385fafcebc3a44",
+      "image": "sha256:396f4e1de10802a26d3cb331c38e80868d03f51aea6c3e5342bd748972cc7bab",
+      "started_at": "2026-10-13T11:23:59.651763459Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "lexmachine-construction-db-1": {
+      "id": "0f728043c7a50d9df69a195b3a2a7958c64253fba504240221dd764b50da1fe6",
+      "image": "sha256:ef257d85f76e48da1c64832459b59fcaba1a4dac97bf5d7450c77753542eee94",
+      "started_at": "2026-10-13T11:23:59.605237946Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-construction_construction_db",
+          "Source": "/var/lib/docker/volumes/lexmachine-construction_construction_db/_data",
+          "Destination": "/var/lib/postgresql/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-v14-preview-portal": {
+      "id": "55725ecedba28e728e9c331fc0f61883905df889fcfc577aabe5c2b558a3de83",
+      "image": "sha256:2b08b56be4c706d52a690adcbe32aa745dc1a17a8ed6062876417dda4eac727b",
+      "started_at": "2026-10-13T11:23:59.683449214Z",
+      "running": true,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-v14-preview-billing-db-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-v14-preview-billing-db-v1/_data",
+          "Destination": "/run/secrets/lexmachine-billing-db",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-identity-secrets-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-identity-secrets-v1/_data",
+          "Destination": "/run/secrets/lexmachine-identity",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-v14-preview-registration-db-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-v14-preview-registration-db-v1/_data",
+          "Destination": "/run/secrets/lexmachine-registration-db",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-v14-preview-registration-hmac-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-v14-preview-registration-hmac-v1/_data",
+          "Destination": "/run/secrets/lexmachine-registration-hmac",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-v14-preview-registration-smtp-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-v14-preview-registration-smtp-v1/_data",
+          "Destination": "/run/secrets/lexmachine-registration-smtp",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-v14-preview-stripe-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-v14-preview-stripe-v1/_data",
+          "Destination": "/run/secrets/lexmachine-stripe",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-workflow-secrets-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-workflow-secrets-v1/_data",
+          "Destination": "/run/secrets/lexmachine-workflow",
+          "Driver": "local",
+          "Mode": "z",
+          "RW": false,
+          "Propagation": ""
+        }
+      ]
+    },
+    "pas-perdus-web-1": {
+      "id": "d7723e78333ac3688f6ed6d40e1e95b636a1231d95143b65e11ab60add527376",
+      "image": "sha256:c53af183c4874022da17533412f83123abf7ed55fec63cce22ecfcd4edd2f94e",
+      "started_at": "2026-10-13T11:23:59.479354606Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    },
+    "tricoteuses-direct-widget-v2": {
+      "id": "3241c56e1e3239a966a152cd36413be4f3db899656d7934640a88600afff7a8b",
+      "image": "sha256:d4a4d4740e7107151624bece01256a2f2ef26a37970a27d3a39b80de863c9670",
+      "started_at": "2026-10-13T11:23:59.533817529Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "tricoteuses_widget_v2_data",
+          "Source": "/var/lib/docker/volumes/tricoteuses_widget_v2_data/_data",
+          "Destination": "/app/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-clean-12-designs": {
+      "id": "7290bea2112300d3cd0ce4073409ab1bedcc88e879b68bdc5706b754a2bd156a",
+      "image": "sha256:32c12cde67add9a84b91973af1bb19e5b3cf2bf4b98bf4296ffe76672a80d18c",
+      "started_at": "2026-10-13T11:23:59.657716476Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/cache",
+          "Destination": "/data-source-cache",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean-12-designs-runtime",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean-12-designs-runtime/_data",
+          "Destination": "/runtime",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean-12-designs-data-cache",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean-12-designs-data-cache/_data",
+          "Destination": "/data/cache",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/config_api.txt",
+          "Destination": "/run/secrets/config_api.txt",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-clean-12-layouts": {
+      "id": "1f3ec4d9f3717068b039eb2b67b75a1f464397566a41d65db23b93991077368a",
+      "image": "sha256:36c1933c0ccfa23f7e21edbe2245b022a2bff8bb80d8a87f29f1ef90ec86604f",
+      "started_at": "2026-10-13T11:23:59.652956735Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/cache",
+          "Destination": "/data-source-cache",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean-12-layouts-runtime",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean-12-layouts-runtime/_data",
+          "Destination": "/runtime",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-clean-12-layouts-data-cache",
+          "Source": "/var/lib/docker/volumes/lexmachine-clean-12-layouts-data-cache/_data",
+          "Destination": "/data/cache",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/e/Marie AN 2026/config_api.txt",
+          "Destination": "/run/secrets/config_api.txt",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-v14-preview-redaction": {
+      "id": "4ab72a54c6eb4d8c0112f111c036492aa0af828003eb362765dd0d86d4eb4345",
+      "image": "sha256:3ecb21cbdef73089894eb1e7d741225829039668a4bb8c405cc605a5e1505c3c",
+      "started_at": "2026-10-13T11:23:59.66145009Z",
+      "running": true,
+      "health": "healthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026\\. GUIDE REDACTION\\build",
+          "Destination": "/data/. GUIDE REDACTION/build",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-portal-identity-i3-reception": {
+      "id": "8572216ec9e3e31abc679a13d66d702353b161b8be08f9492c0ca645666304e9",
+      "image": "sha256:f89b1c6d4ed6030820009784380883cbcb997bd5473f9b561e0972ee20f7fbef",
+      "started_at": "2026-10-13T11:23:59.688097539Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-identity-secrets-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-identity-secrets-v1/_data",
+          "Destination": "/run/secrets/lexmachine-identity",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-workflow-secrets-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-workflow-secrets-v1/_data",
+          "Destination": "/run/secrets/lexmachine-workflow",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-portal-identity-i3-ingress": {
+      "id": "48fb79ba8dbb1f08c92ed99d893c17453beb66954a69c354eb2e156258908738",
+      "image": "sha256:ab21eddffde204bc7f96e8ef605ec0d361385eacf6233785a0a64d6006b450be",
+      "started_at": "2026-10-13T11:23:59.59070103Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-portal-caddy-reception-data-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-portal-caddy-reception-data-v1/_data",
+          "Destination": "/data",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-brainstorming-amendements-brainstorming-amendements-1": {
+      "id": "b8a64d3a1c3855e22ff4aed1ffea8e9cb7ae946182cf5430531752afddab4d86",
+      "image": "sha256:29aad032bf3a2bb7b88d5216ca23908fa804fa173162e7bb7122850cdbb7d323",
+      "started_at": "2026-10-13T11:23:59.580020389Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/SANDBOXES/BRAINSTORMING_AMENDEMENTS_20260729/data",
+          "Destination": "/data",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/cache",
+          "Destination": "/data-source-cache",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/SANDBOXES/BRAINSTORMING_AMENDEMENTS_20260729/runtime",
+          "Destination": "/runtime",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/ccomptes.db",
+          "Destination": "/data/ccomptes.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/ccomptes_chunks.sqlite",
+          "Destination": "/data/ccomptes_chunks.sqlite",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/legi_dole.db",
+          "Destination": "/data/legi_dole.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/marie.db",
+          "Destination": "/data/marie.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/marie_embeddings.db",
+          "Destination": "/data/marie_embeddings.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/plf_pli.db",
+          "Destination": "/data/plf_pli.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/ppl.db",
+          "Destination": "/data/ppl.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/questions_ecrites.db",
+          "Destination": "/data/questions_ecrites.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache",
+          "Destination": "/data/semantic_cache",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_ccomptes",
+          "Destination": "/data/semantic_cache_ccomptes",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_dole_ppl",
+          "Destination": "/data/semantic_cache_dole_ppl",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_legi_dole",
+          "Destination": "/data/semantic_cache_legi_dole",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_plf_pli",
+          "Destination": "/data/semantic_cache_plf_pli",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_ppl",
+          "Destination": "/data/semantic_cache_ppl",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/semantic_cache_questions",
+          "Destination": "/data/semantic_cache_questions",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/dila_complement_embeddings_bge_m3.db",
+          "Destination": "/data/. JURISPRUDENCE V2/dila_complement_embeddings_bge_m3.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/dila_complement_juridique.db",
+          "Destination": "/data/. JURISPRUDENCE V2/dila_complement_juridique.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/jurisprudence_officielle_fine_chunks_consolidated_20260516.db",
+          "Destination": "/data/. JURISPRUDENCE V2/jurisprudence_officielle_fine_chunks_consolidated_20260516.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/jurisprudence_v2_embeddings_bge_m3.db",
+          "Destination": "/data/. JURISPRUDENCE V2/jurisprudence_v2_embeddings_bge_m3.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_dila_complement",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_dila_complement",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026\\LEXMACHINE_SECRETS\\docker-v1.2\\brainstorming-config-api.txt",
+          "Destination": "/run/secrets/config_api.txt",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. GUIDE REDACTION/build/guide_redaction_amendements.sqlite",
+          "Destination": "/data/. GUIDE REDACTION/build/guide_redaction_amendements.sqlite",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. GUIDE REDACTION/build/guide_redaction_amendements.sqlite",
+          "Destination": "/app/lexmachine/. GUIDE REDACTION/build/guide_redaction_amendements.sqlite",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-analyse-jurisprudentielle-analyse-jurisprudentielle-1": {
+      "id": "9ab6a18b4e270dcdf16388c5f99b025229f868e6c6bd965596b5da966b2af930",
+      "image": "sha256:c9f46b738f67b7db6dc5f767519e198d5c658c8ac767ee481ef9ca7c51deab58",
+      "started_at": "2026-10-13T11:23:59.336477128Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/SANDBOXES/ANALYSE_JURISPRUDENTIELLE_20260730/runtime",
+          "Destination": "/runtime",
+          "Mode": "",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/jurisprudence_officielle_fine_chunks_consolidated_20260516.db",
+          "Destination": "/data/. JURISPRUDENCE V2/jurisprudence_officielle_fine_chunks_consolidated_20260516.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/jurisprudence_v2_embeddings_bge_m3.db",
+          "Destination": "/data/. JURISPRUDENCE V2/jurisprudence_v2_embeddings_bge_m3.db",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026\\LEXMACHINE_SECRETS\\docker-v1.2\\jurisprudence-openai.txt",
+          "Destination": "/run/secrets/config_api.txt",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/bge_m3_vectors.npy",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/bge_m3_vectors.npy",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/chunk_ids.npy",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/chunk_ids.npy",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/faiss_ivfpq.index",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/faiss_ivfpq.index",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/faiss_ivfpq.meta.json",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/faiss_ivfpq.meta.json",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "E:\\Marie AN 2026/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/meta.json",
+          "Destination": "/data/. JURISPRUDENCE V2/semantic_cache_jurisprudence_v2/meta.json",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "lexmachine-control-plane-postgres": {
+      "id": "b6719f52061d0bbd9f3a43eaee9ef60158dc4b8282cc17adf12c223fd1c1b55e",
+      "image": "sha256:9a8afca54e7861fd90fab5fdf4c42477a6b1cb7d293595148e674e0a3181de15",
+      "started_at": "2026-10-13T11:23:59.493671195Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": [
+        {
+          "Type": "volume",
+          "Name": "lexmachine-control-plane-postgres-secrets-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-control-plane-postgres-secrets-v1/_data",
+          "Destination": "/run/secrets",
+          "Driver": "local",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": ""
+        },
+        {
+          "Type": "volume",
+          "Name": "lexmachine-control-plane-postgres-data-v1",
+          "Source": "/var/lib/docker/volumes/lexmachine-control-plane-postgres-data-v1/_data",
+          "Destination": "/var/lib/postgresql",
+          "Driver": "local",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": ""
+        }
+      ]
+    },
+    "lexmachine-portail-hybride-portal-1": {
+      "id": "f2fc6b959c9a3fa9c83801ffadc423bb391da8162d2cba8f849d84f26c736742",
+      "image": "sha256:5411dbc510fcc48491ce546095da45557165c3ade122a16fca5209e38df4b6cc",
+      "started_at": "2026-10-13T11:23:59.422296405Z",
+      "running": false,
+      "health": "unhealthy",
+      "mounts": []
+    }
+  },
+  "whole_database_certified": false
+}

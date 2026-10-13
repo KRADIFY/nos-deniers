@@ -12,6 +12,6 @@ Le reçu actuel est proofs/VERSION-EN-LIGNE-20261013.json. Les preuves datées d
 
 Sauvegarde de la mise à jour : D:/ChatGPT/docker/backups/sauvegarde-20261013-budget-gouv. Le paquet contient la nouvelle base, les cinq PDF et une copie exacte de l'image web du VPS. Les autres documents et index sont restaurables depuis la sauvegarde immuable H:/Sauvegardes-Nos-Deniers/20261008-version-en-ligne ; le paquet du 13 octobre complète cette base.
 
-Le Docker local conserve sa base précédente : sa VM WSL de 6 Go subit des arrêts par manque de mémoire. Le 13 octobre, Jean-Christophe a demandé de terminer la mise en ligne et les deux Git ; aucune modification de la mémoire WSL n'a été appliquée. Le dépôt Git local sauvegarde bien la nouvelle version publique.
+Le Docker local a ensuite été mis à jour et redémarré le 13 octobre, après arrêt des projets inactifs par Jean-Christophe. Son image et sa base sont identiques à la version publique ; le site, la recherche et la démonstration sont sains. Le plafond WSL reste à 6 Go et les autres conteneurs existants ont été préservés.
 
 Dépôt local permanent : D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git. Git conserve les versions à chaque commit ; la synchronisation ne se fait pas automatiquement. PLFSS conserve son propre dépôt et sa version.

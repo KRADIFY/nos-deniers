@@ -20,7 +20,7 @@
   "image_id": "sha256:713c095a9b96e8021bfd0fdb9423e4afc1071e81aa69f4eb838c1d9d41d6452b",
   "search_documents": 5275,
   "search_passages": 4887593,
-  "local_runtime_updated": false,
+  "local_runtime_updated": true,
   "local_runtime_base_preserved": true,
   "user_chose_online_and_git_only": true,
   "whole_database_audit_passed": false,
@@ -36,5 +36,10 @@
   ],
   "separate_backup": "D:/ChatGPT/docker/backups/sauvegarde-20261013-budget-gouv",
   "immutable_base_backup": "H:/Sauvegardes-Nos-Deniers/20261008-version-en-ligne",
-  "restoration": "Restore the 8 October data/index base, overlay the approved-release data and use the saved web image/config."
+  "restoration": "Restore the 8 October data/index base, overlay the approved-release data and use the saved web image/config.",
+  "local_runtime_verified_at": "2026-10-13T11:54:17.937477+00:00",
+  "local_runtime_image_id": "sha256:713c095a9b96e8021bfd0fdb9423e4afc1071e81aa69f4eb838c1d9d41d6452b",
+  "local_runtime_database_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+  "local_runtime_healthy_services": 3,
+  "wsl_memory_unchanged": true
 }
