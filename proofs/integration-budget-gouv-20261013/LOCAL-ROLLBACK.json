@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-13T11:08:16.177358+00:00",
+  "error": "RuntimeError(\"('Client timed out; operation state must be checked', {'at': '2026-10-13T11:07:33.528010+00:00', 'arguments': ['docker', 'load', '--input', 'D:\\\\\\\\ChatGPT\\\\\\\\docker\\\\\\\\budget\\\\\\\\outputs\\\\\\\\integration-budget-gouv-20261013\\\\\\\\web-image.tar.gz'], 'pid': 17156, 'elapsed_seconds': 180.031, 'timeout_seconds': 180, 'timed_out': True, 'returncode': 1})\")",
+  "complete": false,
+  "steps": [
+    {
+      "step": "database",
+      "restored": true
+    },
+    {
+      "step": "compose",
+      "restored": true
+    },
+    {
+      "step": "source",
+      "path": "manual/budget-gouv-20261013/705ecd63a460283e2105.pdf",
+      "restored": true
+    },
+    {
+      "step": "source",
+      "path": "manual/budget-gouv-20261013/85e85b7b38d419c9ffea.pdf",
+      "restored": true
+    },
+    {
+      "step": "source",
+      "path": "manual/budget-gouv-20261013/ead873592d52796c64b8.pdf",
+      "restored": true
+    },
+    {
+      "step": "source",
+      "path": "manual/budget-gouv-20261013/c3be0fcfeb01dbf86383.pdf",
+      "restored": true
+    },
+    {
+      "step": "source",
+      "path": "manual/budget-gouv-20261013/356c4b7ddf6ed47a710b.pdf",
+      "restored": true
+    },
+    {
+      "step": "web_and_protected_runtime",
+      "restored": false,
+      "error": "RuntimeError(\"({'at': '2026-10-13T11:08:16.175361+00:00', 'arguments': ['docker', 'compose', '-f', 'D:\\\\\\\\ChatGPT\\\\\\\\docker\\\\\\\\budget\\\\\\\\compose.yaml', '-f', 'D:\\\\\\\\ChatGPT\\\\\\\\docker\\\\\\\\budget\\\\\\\\compose.retrieval.yaml', 'up', '-d', '--no-deps', '--no-build', '--pull', 'never', '--wait', '--wait-timeout', '90', 'web'], 'pid': 16924, 'elapsed_seconds': 42.422, 'timeout_seconds': 180, 'timed_out': False, 'returncode': 1}, 'request returned 500 Internal Server Error for API route and version http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping, check if the server supports the requested API version\\\\n')\")"
+    }
+  ]
+}

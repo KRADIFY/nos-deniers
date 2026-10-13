@@ -1,0 +1,504 @@
+{
+  "at": "2026-10-13T11:27:35.164000+00:00",
+  "success": true,
+  "database_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+  "image_id": "sha256:713c095a9b96e8021bfd0fdb9423e4afc1071e81aa69f4eb838c1d9d41d6452b",
+  "image_tag": "lexmachine-budget:20261013-complements-budget-gouv",
+  "before": {
+    "nos-deniers-public-web4-1": {
+      "id": "bc9d1423288c01f9d18d438395228869da3df4da97048857ec4dafff04db5041",
+      "image": "sha256:f9cd9e99c9a38f5b4273db79758755021af274ec45d11e51659a563045619c18",
+      "started_at": "2026-10-13T11:13:49.340882021Z",
+      "image_tag": "lexmachine-budget:20261005-complements-5401",
+      "running": true,
+      "health": "healthy",
+      "service": "web4",
+      "project": "nos-deniers-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-plf2027/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-public-web3-1": {
+      "id": "8aae31d92f10ff275a1408c6c931ab779649a66544afc9f69e9315c4e678283d",
+      "image": "sha256:f9cd9e99c9a38f5b4273db79758755021af274ec45d11e51659a563045619c18",
+      "started_at": "2026-10-13T11:13:14.991096619Z",
+      "image_tag": "lexmachine-budget:20261005-complements-5401",
+      "running": true,
+      "health": "healthy",
+      "service": "web3",
+      "project": "nos-deniers-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-plf2027/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-public-web2-1": {
+      "id": "7e04ea66cfdf6bbd2ba00359ad47b87d4318f9737b2e1108e9ea6dacdd9205eb",
+      "image": "sha256:f9cd9e99c9a38f5b4273db79758755021af274ec45d11e51659a563045619c18",
+      "started_at": "2026-10-13T11:12:40.073978497Z",
+      "image_tag": "lexmachine-budget:20261005-complements-5401",
+      "running": true,
+      "health": "healthy",
+      "service": "web2",
+      "project": "nos-deniers-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-plf2027/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-public-web1-1": {
+      "id": "3b547e3980cba448d8d4ba5b2d99567915a5b122099984fea8164ee5e891d63b",
+      "image": "sha256:f9cd9e99c9a38f5b4273db79758755021af274ec45d11e51659a563045619c18",
+      "started_at": "2026-10-13T11:12:06.034766076Z",
+      "image_tag": "lexmachine-budget:20261005-complements-5401",
+      "running": true,
+      "health": "healthy",
+      "service": "web1",
+      "project": "nos-deniers-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-plf2027/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-public-retrieval-1": {
+      "id": "802c713cfa7334e4725330d3efea2352771c505c2ef16df2b07015eb906422b1",
+      "image": "sha256:c3c2f27b50456639c408078a36edbe724dc181a0982f72237e2109b46cd65622",
+      "started_at": "2026-10-08T16:57:29.384397961Z",
+      "image_tag": "lexmachine-budget-retrieval:20261003-recherche-filtree",
+      "running": true,
+      "health": "healthy",
+      "service": "retrieval",
+      "project": "nos-deniers-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20260929-optimisation/search",
+          "Destination": "/search",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-documents/search-supplement",
+          "Destination": "/search-supplement",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261008-jorf-vectorisation/search-supplement2",
+          "Destination": "/search-supplement2",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "plfss-demo-demo-1": {
+      "id": "99985dccbffa19aa6ea4edbc9afbaa7d9f2733d647c839ced73b6ade5f5e5429",
+      "image": "sha256:090a3e727ed708c69acad080b49b0afffe1801850a522b80cd3e4874ae503a05",
+      "started_at": "2026-10-07T19:23:06.257336128Z",
+      "image_tag": "plfss-demo:20261007-caption-layout",
+      "running": true,
+      "health": "healthy",
+      "service": "demo",
+      "project": "plfss-demo",
+      "mounts": []
+    },
+    "nos-deniers-demo-demo-1": {
+      "id": "ab871dadbf444232583517dd7992004697b7db2cb73b5cc7197bc6ead6835bab",
+      "image": "sha256:03186211696e11f82aeab111669035990aeb619383a93cd294c4b4acb8a097c6",
+      "started_at": "2026-10-07T19:22:05.249829233Z",
+      "image_tag": "nos-deniers-demo:20261007-caption-layout",
+      "running": true,
+      "health": "healthy",
+      "service": "demo",
+      "project": "nos-deniers-demo",
+      "mounts": []
+    },
+    "nos-deniers-plfss-public-web-1": {
+      "id": "75dd094f9e8f05ec83e946f0c712f960a1dec73ef9a9b2d44e0b37bca7007f3f",
+      "image": "sha256:9b651c2d47db66f5c99c64c3c339959105beaa48d104db99843a0d0fc40b7d90",
+      "started_at": "2026-10-04T18:29:19.33436924Z",
+      "image_tag": "nos-deniers-plfss:20261004-phrase-entete",
+      "running": true,
+      "health": "healthy",
+      "service": "web",
+      "project": "nos-deniers-plfss-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/plfss/current/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-plfss-public-retrieval-1": {
+      "id": "62152b7782a1564269ba34430cb7ca85b891b5009bd8e4466ded77de8fbfaf6e",
+      "image": "sha256:6fa05b5d4d4b2696e70c4e3ed202e7b98eb2cc5907e63674a971980142d5e2d3",
+      "started_at": "2026-10-04T16:20:54.287347288Z",
+      "image_tag": "nos-deniers-plfss-retrieval:20261004-vectorise",
+      "running": true,
+      "health": "healthy",
+      "service": "retrieval",
+      "project": "nos-deniers-plfss-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/plfss/releases/20261004-vectorise-7711a46a/data/search",
+          "Destination": "/search",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-documents-candidate-web-1": {
+      "id": "0683ee4f9d1ceafa1f22800c564f03cff02cf73c6d911d3e014afe008d1ac5a8",
+      "image": "sha256:725ec2bb2b8f3735bb1b3b3053a851d232ed8163bb9b3856c8615a1732defab5",
+      "started_at": "2026-10-02T10:06:10.855834667Z",
+      "image_tag": "lexmachine-budget:20261002-plf2027",
+      "running": false,
+      "health": "unhealthy",
+      "service": "web",
+      "project": "nos-deniers-documents-candidate",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/root/nos-deniers-plf-2027-20261002",
+          "Destination": "/checks",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-plf2027/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-documents-candidate-retrieval-1": {
+      "id": "0faf4caca21a4f839953abacc535948e5d159789002a583295090a6865e36d5c",
+      "image": "sha256:3cda5f679b9e161b345a03e9c948dae1037bd6d829ef970306b85e7bb1ab4108",
+      "started_at": "2026-10-02T09:27:38.805020563Z",
+      "image_tag": "lexmachine-budget-retrieval:20260924-final",
+      "running": false,
+      "health": "unhealthy",
+      "service": "retrieval",
+      "project": "nos-deniers-documents-candidate",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20260929-optimisation/search",
+          "Destination": "/search",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-documents/search-supplement",
+          "Destination": "/search-supplement",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20260929-optimisation/search-supplement2",
+          "Destination": "/search-supplement2",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    }
+  },
+  "after": {
+    "nos-deniers-public-web4-1": {
+      "id": "5d5f9d03d4de979150a76142649274f8a65ed10dca15ae1583d2a0b0d3052d2b",
+      "image": "sha256:713c095a9b96e8021bfd0fdb9423e4afc1071e81aa69f4eb838c1d9d41d6452b",
+      "started_at": "2026-10-13T11:24:42.762750283Z",
+      "image_tag": "lexmachine-budget:20261013-complements-budget-gouv",
+      "running": true,
+      "health": "healthy",
+      "service": "web4",
+      "project": "nos-deniers-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-plf2027/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-public-web3-1": {
+      "id": "cf65418f9dc76c0da214de20b485e79eca7ef90ea47496b93cefcbc4a819ef80",
+      "image": "sha256:713c095a9b96e8021bfd0fdb9423e4afc1071e81aa69f4eb838c1d9d41d6452b",
+      "started_at": "2026-10-13T11:24:07.318171703Z",
+      "image_tag": "lexmachine-budget:20261013-complements-budget-gouv",
+      "running": true,
+      "health": "healthy",
+      "service": "web3",
+      "project": "nos-deniers-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-plf2027/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-public-web2-1": {
+      "id": "64fe4d8279c80d5ff75bd55f3087040d9be33f8005bd5abc0f5c8b8d041b93c3",
+      "image": "sha256:713c095a9b96e8021bfd0fdb9423e4afc1071e81aa69f4eb838c1d9d41d6452b",
+      "started_at": "2026-10-13T11:23:31.924900751Z",
+      "image_tag": "lexmachine-budget:20261013-complements-budget-gouv",
+      "running": true,
+      "health": "healthy",
+      "service": "web2",
+      "project": "nos-deniers-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-plf2027/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-public-web1-1": {
+      "id": "eca420fa40b4ae9f3d746e734cbd79f02cc15df34d0c21840cc1e8a19a262570",
+      "image": "sha256:713c095a9b96e8021bfd0fdb9423e4afc1071e81aa69f4eb838c1d9d41d6452b",
+      "started_at": "2026-10-13T11:22:57.017775693Z",
+      "image_tag": "lexmachine-budget:20261013-complements-budget-gouv",
+      "running": true,
+      "health": "healthy",
+      "service": "web1",
+      "project": "nos-deniers-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-plf2027/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-public-retrieval-1": {
+      "id": "802c713cfa7334e4725330d3efea2352771c505c2ef16df2b07015eb906422b1",
+      "image": "sha256:c3c2f27b50456639c408078a36edbe724dc181a0982f72237e2109b46cd65622",
+      "started_at": "2026-10-08T16:57:29.384397961Z",
+      "image_tag": "lexmachine-budget-retrieval:20261003-recherche-filtree",
+      "running": true,
+      "health": "healthy",
+      "service": "retrieval",
+      "project": "nos-deniers-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20260929-optimisation/search",
+          "Destination": "/search",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-documents/search-supplement",
+          "Destination": "/search-supplement",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261008-jorf-vectorisation/search-supplement2",
+          "Destination": "/search-supplement2",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "plfss-demo-demo-1": {
+      "id": "99985dccbffa19aa6ea4edbc9afbaa7d9f2733d647c839ced73b6ade5f5e5429",
+      "image": "sha256:090a3e727ed708c69acad080b49b0afffe1801850a522b80cd3e4874ae503a05",
+      "started_at": "2026-10-07T19:23:06.257336128Z",
+      "image_tag": "plfss-demo:20261007-caption-layout",
+      "running": true,
+      "health": "healthy",
+      "service": "demo",
+      "project": "plfss-demo",
+      "mounts": []
+    },
+    "nos-deniers-demo-demo-1": {
+      "id": "ab871dadbf444232583517dd7992004697b7db2cb73b5cc7197bc6ead6835bab",
+      "image": "sha256:03186211696e11f82aeab111669035990aeb619383a93cd294c4b4acb8a097c6",
+      "started_at": "2026-10-07T19:22:05.249829233Z",
+      "image_tag": "nos-deniers-demo:20261007-caption-layout",
+      "running": true,
+      "health": "healthy",
+      "service": "demo",
+      "project": "nos-deniers-demo",
+      "mounts": []
+    },
+    "nos-deniers-plfss-public-web-1": {
+      "id": "75dd094f9e8f05ec83e946f0c712f960a1dec73ef9a9b2d44e0b37bca7007f3f",
+      "image": "sha256:9b651c2d47db66f5c99c64c3c339959105beaa48d104db99843a0d0fc40b7d90",
+      "started_at": "2026-10-04T18:29:19.33436924Z",
+      "image_tag": "nos-deniers-plfss:20261004-phrase-entete",
+      "running": true,
+      "health": "healthy",
+      "service": "web",
+      "project": "nos-deniers-plfss-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/plfss/current/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-plfss-public-retrieval-1": {
+      "id": "62152b7782a1564269ba34430cb7ca85b891b5009bd8e4466ded77de8fbfaf6e",
+      "image": "sha256:6fa05b5d4d4b2696e70c4e3ed202e7b98eb2cc5907e63674a971980142d5e2d3",
+      "started_at": "2026-10-04T16:20:54.287347288Z",
+      "image_tag": "nos-deniers-plfss-retrieval:20261004-vectorise",
+      "running": true,
+      "health": "healthy",
+      "service": "retrieval",
+      "project": "nos-deniers-plfss-public",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/plfss/releases/20261004-vectorise-7711a46a/data/search",
+          "Destination": "/search",
+          "Mode": "",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-documents-candidate-web-1": {
+      "id": "0683ee4f9d1ceafa1f22800c564f03cff02cf73c6d911d3e014afe008d1ac5a8",
+      "image": "sha256:725ec2bb2b8f3735bb1b3b3053a851d232ed8163bb9b3856c8615a1732defab5",
+      "started_at": "2026-10-02T10:06:10.855834667Z",
+      "image_tag": "lexmachine-budget:20261002-plf2027",
+      "running": false,
+      "health": "unhealthy",
+      "service": "web",
+      "project": "nos-deniers-documents-candidate",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/root/nos-deniers-plf-2027-20261002",
+          "Destination": "/checks",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-plf2027/data",
+          "Destination": "/data",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    },
+    "nos-deniers-documents-candidate-retrieval-1": {
+      "id": "0faf4caca21a4f839953abacc535948e5d159789002a583295090a6865e36d5c",
+      "image": "sha256:3cda5f679b9e161b345a03e9c948dae1037bd6d829ef970306b85e7bb1ab4108",
+      "started_at": "2026-10-02T09:27:38.805020563Z",
+      "image_tag": "lexmachine-budget-retrieval:20260924-final",
+      "running": false,
+      "health": "unhealthy",
+      "service": "retrieval",
+      "project": "nos-deniers-documents-candidate",
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20260929-optimisation/search",
+          "Destination": "/search",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20261002-documents/search-supplement",
+          "Destination": "/search-supplement",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/opt/nos-deniers/releases/20260929-optimisation/search-supplement2",
+          "Destination": "/search-supplement2",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ]
+    }
+  },
+  "new_source_files": 5,
+  "fact_count": 141942,
+  "targeted_missing_cells_resolved": 217,
+  "other_containers_unchanged": true,
+  "retrieval_unchanged": true,
+  "plfss_unchanged": true,
+  "demo_unchanged": true,
+  "auditor_unchanged": true,
+  "whole_database_certified": false
+}

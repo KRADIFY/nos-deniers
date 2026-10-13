@@ -1,0 +1,24 @@
+{
+  "preexisting_in_baseline": true,
+  "delta_introduced_new_mismatch": false,
+  "validator": "audit_registries.run",
+  "failed_assertion": "actual==rec[field]",
+  "program": "159",
+  "year": 2019,
+  "stage": "OUVERT",
+  "measure": "AE",
+  "checks": [
+    {
+      "database": "H:\\Sauvegardes-Nos-Deniers\\20261008-version-en-ligne\\plf-data\\derived\\budget.sqlite",
+      "actual_cents": 50798254958,
+      "registry_expected_cents": 50798254900,
+      "difference_cents": 58
+    },
+    {
+      "database": "D:\\ChatGPT\\docker\\budget\\outputs\\integration-budget-gouv-20261013\\staging-data\\derived\\budget.sqlite",
+      "actual_cents": 50798254958,
+      "registry_expected_cents": 50798254900,
+      "difference_cents": 58
+    }
+  ]
+}

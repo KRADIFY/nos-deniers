@@ -1,0 +1,560 @@
+{
+  "at": "2026-10-13T10:46:52.874366+00:00",
+  "status": "staged_scoped_delta_verified_with_preexisting_audit_limits",
+  "database_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+  "registry_sha256": "14980f64c59358889506f0a522c3703bcedbafd1aed644cf2d18b968a83f6374",
+  "source_description_code_sha256": "bd7355bf1e86b9c8306204ea60e7684361df6a8782c6d0c94ef17dc9132767c2",
+  "data_version": "55724c93036b4027781e3972a8eb1b77b8a943734613ebb93dbdd5f90e7fd7a3",
+  "fact_count": 141942,
+  "source_count": 5216,
+  "cell_review_count": 18753,
+  "historical_facts_and_rowids_preserved": 141859,
+  "old_groups_preserved": 82,
+  "new_groups_validated": 60,
+  "real_engine_cells_checked": 217,
+  "exclusions_checked": 134,
+  "independent_csv_checks": 264,
+  "full_audit_passed": false,
+  "global_registry_audit_passed": false,
+  "preexisting_historical_aggregate_mismatches": 4,
+  "preexisting_registry_difference_cents": 58,
+  "assertions_changed_or_bypassed": false,
+  "application_performed": false,
+  "files": [
+    {
+      "path": "APPLY-MANIFEST.json",
+      "bytes": 3295,
+      "sha256": "da8baffb173473a7f9c7482edfc3f9320643fb0c8abd84f89610c8b209f4a516"
+    },
+    {
+      "path": "audit_staging.py",
+      "bytes": 6614,
+      "sha256": "fc3bdb7b47d716a44708f10269fb9defed8ac43cfdbc8631ec20b77da8d3f8ec"
+    },
+    {
+      "path": "build_staging.py",
+      "bytes": 16237,
+      "sha256": "42e7bfa004aab66ea030cb14d7b5fc54f71f757cbe5610aaf401219f7e072144"
+    },
+    {
+      "path": "code-snapshot/budget_service/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "code-snapshot/budget_service/action_details.py",
+      "bytes": 20559,
+      "sha256": "bd7355bf1e86b9c8306204ea60e7684361df6a8782c6d0c94ef17dc9132767c2"
+    },
+    {
+      "path": "code-snapshot/budget_service/api.py",
+      "bytes": 25640,
+      "sha256": "caefad6580a8d8c8f674644437eaec3d79e9fc3373eb9e23d2a6083d98e74d68"
+    },
+    {
+      "path": "code-snapshot/budget_service/audit_data.py",
+      "bytes": 22070,
+      "sha256": "cfdabc4d96f65f332e59310aa831e8cff1e1dd969c6fb1f13a13c185a909ed0b"
+    },
+    {
+      "path": "code-snapshot/budget_service/audit_registries.py",
+      "bytes": 9178,
+      "sha256": "40dcc9c7a7e83bc48cd21b8824a7821ecdc9642a4e93b188b5355ba164cd83bb"
+    },
+    {
+      "path": "code-snapshot/budget_service/cell_reviews.py",
+      "bytes": 2858,
+      "sha256": "a50bfe3c872500dfed7456cf6e59b66eceec08ff376d6e558f20fb2e24ae0654"
+    },
+    {
+      "path": "code-snapshot/budget_service/checks.py",
+      "bytes": 16269,
+      "sha256": "a40cd8ed233986537a28cc24f8ef01478234209d8a9a24e3f0974654a70ecf18"
+    },
+    {
+      "path": "code-snapshot/budget_service/collect.py",
+      "bytes": 9241,
+      "sha256": "f3bd1e210393b42a61ade7996794a11246841bba3650f8eb977d6267b36cca25"
+    },
+    {
+      "path": "code-snapshot/budget_service/comparisons.py",
+      "bytes": 1771,
+      "sha256": "dbe912dd380b347703dc8dc734a463496ba613bce0dff8ab918e284fc395c62b"
+    },
+    {
+      "path": "code-snapshot/budget_service/consultation.py",
+      "bytes": 10311,
+      "sha256": "590014063d45d05acfa0c003d7dc15a65a2e54c19b78417c92a00570e0acb218"
+    },
+    {
+      "path": "code-snapshot/budget_service/correction_ledger.py",
+      "bytes": 10739,
+      "sha256": "f473b15b4b461884c1ba92d0f2225d5b81c6dbb9625f10199281216ba0b36c2d"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/actions-dette.json",
+      "bytes": 5963,
+      "sha256": "fd090a0bb2bb021dc45788fed72c29bd696d99ce7f87c2f2c8db00962f4b7146"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/actions-ecologie.json",
+      "bytes": 116533,
+      "sha256": "d8eb759d064f1b9ecb49ee6b3aa5a8445405c09d1ccba9eacc3550bf0bdc26b1"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/actions-multititres.json",
+      "bytes": 100404,
+      "sha256": "6aea21bda4ce4f3cd71300f2c4f99c40122e4559b703b56e6f4f79cd99972e5b"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/actions-national.json",
+      "bytes": 4713664,
+      "sha256": "656f3a2b82fc68b75e080842ba2ff4524f846d341dc96d78d01038d07083a9b7"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/actions-p174.json",
+      "bytes": 22958,
+      "sha256": "4792bdc94110d9884ea6a29970ad8e43ca6e781ee2608e8b0846ea393365f0b0"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/actions-pap-2027.json",
+      "bytes": 6254606,
+      "sha256": "cc460e9d61108b9d8c7e70307738278ef4e12c6213a21321cf02c5b37c04b20c"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/actions-rap-historique.json",
+      "bytes": 627807,
+      "sha256": "14980f64c59358889506f0a522c3703bcedbafd1aed644cf2d18b968a83f6374"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/actions-sousactions.json",
+      "bytes": 82611,
+      "sha256": "4db90e9b7d472c3b7dffae1ff231eb533d59191df86be6344f0737f4b6a75ad5"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/historical-no-recap-reviewed.json",
+      "bytes": 526989,
+      "sha256": "8e78bfa00ea22959b08f460aa991a63b2bc30cc4ba2aab1108b41b60233dbcf9"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/historical_discrepancy_notices_2017_2022.json",
+      "bytes": 50077,
+      "sha256": "e5f991a1be7d8526db05039922521969064034016eb985520d99301fa0aace81"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/integration-5401-plf-plan.json",
+      "bytes": 597093,
+      "sha256": "5f71a0057012cc9cd493910bbbef6323b3f7c7f43a184c08e14a40f33f39ee2a"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/maprimerenov.json",
+      "bytes": 116563,
+      "sha256": "287e2f66916f1b84cf5176b60fbe7b57691a815964e6402a8cdc348d26842554"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/mouvements-rap-autres-budgets-historique.json",
+      "bytes": 13307959,
+      "sha256": "334fa154353c907d4413ca5d14ee50f6e6b54b9023550992ba6a69e617679e55"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/mouvements-rap-historique-detail.json",
+      "bytes": 48574751,
+      "sha256": "74af29f723832d74e7cd0fa1711a04fffdd610e0936672953eeab6b0fbe16370"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/mouvements-rap-historique.json",
+      "bytes": 809755,
+      "sha256": "74903f7104d1118acb6e0d24c6370c59266f859be4b2dcc27cf834995696c0c8"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/mouvements-rap-national.json",
+      "bytes": 41489559,
+      "sha256": "f7a4e2a25df163c120a71155b142039554ba47fde69e19e8e7f066dcfa9befe6"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/mouvements-rap-p174.json",
+      "bytes": 191222,
+      "sha256": "3f1005a89848e708c6f99084f0c3eee5e4ff3e9e8de9727db4ccf1687f2df20c"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/pap-2026-national.json",
+      "bytes": 540862,
+      "sha256": "f1b87ea98511b39235c2e24f87a727454e11779c75ba8f35eb44c1048ea18ac3"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/pap-2027-import-plan.json",
+      "bytes": 1136999,
+      "sha256": "95881ae967807fdf33d5e4c67ba3ff1b8456d40c4d4e875802975c54fd077a23"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/pap-ecologie-2026.json",
+      "bytes": 26257,
+      "sha256": "c24e5244019524cfd3c8abc7be1f352b311521f83ac576c639bf6c0d7293ebda"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/rap-coverage.json",
+      "bytes": 33995,
+      "sha256": "7446e73c3c808a6567d834ff1817fcd30ef365a91879bc43b43cf3c1471d8516"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/rap-explicit-zeros.json",
+      "bytes": 52190,
+      "sha256": "af0d155586fbb3b788c2ed6c9a1b8185a1e0f8a53fc62d413bf1dc281e7e2bd9"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/rap-investigation.json",
+      "bytes": 225384,
+      "sha256": "91a2057feddd6ebd0507160aa98b5dd69df5c86629fa5bf8fd8f889a1959c523"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/reserves-ecologie.json",
+      "bytes": 980428,
+      "sha256": "df3649ea0405881a44f3c62c6a4cb67f8af1ecd389af30b0cc6a49fd09c0fb53"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/reserves-historique-2017-2022.json",
+      "bytes": 15756504,
+      "sha256": "97e47689f0cf5971ece79b51e4440b204b1796386d0670505b20d5e8ae501221"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/reserves-national.json",
+      "bytes": 3445728,
+      "sha256": "bdecad2029fa663b8306081497a6f7ae17293122cc18c14e29aae6503f096f36"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/reserves-p174.json",
+      "bytes": 65534,
+      "sha256": "ef394a673a30df1a57a4baeca625edb05ea5e46d47cee3123371d3a0a107b01c"
+    },
+    {
+      "path": "code-snapshot/budget_service/data/validated-fact-replay.json",
+      "bytes": 4411112,
+      "sha256": "c996c89a11eeb2dfd7df5c09d432ceae4545cbe0e13881cd2c63edb126276cc6"
+    },
+    {
+      "path": "code-snapshot/budget_service/data_quality.py",
+      "bytes": 19156,
+      "sha256": "300391b9226aba2effadeb3b820dc8bd17fc3c69908534a3f302c458de82df21"
+    },
+    {
+      "path": "code-snapshot/budget_service/data_signature.py",
+      "bytes": 1197,
+      "sha256": "4db0c10b856fb3b60569e698881619be0ae4469f12f300897f1e7898b7c56f1c"
+    },
+    {
+      "path": "code-snapshot/budget_service/document_search.py",
+      "bytes": 5993,
+      "sha256": "3f27ce7b41bd96eb6149a36dd3b8ce37c78e491fc6de35a1b6a19b1c8f5327e4"
+    },
+    {
+      "path": "code-snapshot/budget_service/events.py",
+      "bytes": 4696,
+      "sha256": "6d371650585b4ee74d934752ae35dba62716ff76c720dec1f9ed02555c03c88f"
+    },
+    {
+      "path": "code-snapshot/budget_service/evolution.py",
+      "bytes": 3567,
+      "sha256": "58571bdfbd78e1479fd83177fb6ba0be43f4efa8fd516cd3e2e2c3e9d9cdc099"
+    },
+    {
+      "path": "code-snapshot/budget_service/exports.py",
+      "bytes": 9580,
+      "sha256": "fc19e780974dd11c49b27f6c36e0825de175197dd3235b3d91878e3097a1a862"
+    },
+    {
+      "path": "code-snapshot/budget_service/historical_discrepancies.py",
+      "bytes": 2426,
+      "sha256": "92f64000e6fb4ff1a83018fbf9570aee7d31e85fffd2dd145025835a2302a290"
+    },
+    {
+      "path": "code-snapshot/budget_service/import_events.py",
+      "bytes": 8227,
+      "sha256": "5ac86f67aed0822fbcd91127041e6b24dadc2830cf826c2e8fdc18cc75240225"
+    },
+    {
+      "path": "code-snapshot/budget_service/import_fdc_forecast.py",
+      "bytes": 3592,
+      "sha256": "d50c5d275efe26fa0f45e4373029e4c9d6f41c848cd125a0cb964a7b2713ca82"
+    },
+    {
+      "path": "code-snapshot/budget_service/import_lfi_2026.py",
+      "bytes": 3568,
+      "sha256": "45cf3136ffea4f9e43e1131304a56d68f416bd85a6d53f58d56763f573ddca27"
+    },
+    {
+      "path": "code-snapshot/budget_service/import_manual_collection.py",
+      "bytes": 5914,
+      "sha256": "5cebaa55b6963f22f8da683efd0a44cfeb37908a9e42be00f7d1751e83708f5c"
+    },
+    {
+      "path": "code-snapshot/budget_service/import_pap_2026.py",
+      "bytes": 5929,
+      "sha256": "0b66dad6eb91ceab13c46c2b6ea68e9631dfcd7d7e225609491bda45cfbe916f"
+    },
+    {
+      "path": "code-snapshot/budget_service/import_pap_2026_national.py",
+      "bytes": 12560,
+      "sha256": "5fa8b3ee131412785fa7a23a761adfad39ab2300bbebaca3b1c886edc5a791bd"
+    },
+    {
+      "path": "code-snapshot/budget_service/import_pap_2027.py",
+      "bytes": 6779,
+      "sha256": "ed147eefebda67399bc4d3f10edb2a8d244658e07bb921c3c9f14346ce1991cb"
+    },
+    {
+      "path": "code-snapshot/budget_service/import_rap_synthesis.py",
+      "bytes": 9497,
+      "sha256": "7b359e153b314462caf14de381181a4c2db0906a4ee5f9ce96f1babb73033ab2"
+    },
+    {
+      "path": "code-snapshot/budget_service/import_rap_zeros.py",
+      "bytes": 4723,
+      "sha256": "1877855c308a54cbc825bda62e4379cba4beaceb90b5e93ebe878566ba08c9f3"
+    },
+    {
+      "path": "code-snapshot/budget_service/install_topic_sources.py",
+      "bytes": 1473,
+      "sha256": "02d37fb258300fe99949dc37fd81ec3966ae3cf7922a0a69e824d88020f5be9a"
+    },
+    {
+      "path": "code-snapshot/budget_service/legal_client.py",
+      "bytes": 2782,
+      "sha256": "f6c2c8448c762834eef775f9dcbc233e19804e26bf4514fc39f0dafbef369e11"
+    },
+    {
+      "path": "code-snapshot/budget_service/legal_tables.py",
+      "bytes": 1215,
+      "sha256": "04b772f34fba17c662e8706f32a6af2a7a7f9bf86858786c171267e959d3043c"
+    },
+    {
+      "path": "code-snapshot/budget_service/model.py",
+      "bytes": 2650,
+      "sha256": "bda424c19bc639a5fc0e39d6b34ba9d21a90554587a1b680e2944bdac73540f3"
+    },
+    {
+      "path": "code-snapshot/budget_service/normalize.py",
+      "bytes": 19764,
+      "sha256": "8450bda5d4439bedeca845b1e663c23eb45715cc7e39673edcc46e32709c100a"
+    },
+    {
+      "path": "code-snapshot/budget_service/normalize_more.py",
+      "bytes": 3502,
+      "sha256": "1e1707b1b4f8b6d623abe3c48732aa5b4303f61fe313dd1664ed99a335662c41"
+    },
+    {
+      "path": "code-snapshot/budget_service/normalize_replay.py",
+      "bytes": 16492,
+      "sha256": "4b19dd7bb3996f2c74108831142c98f0d500f331a1797906b2d27bae57cfabc3"
+    },
+    {
+      "path": "code-snapshot/budget_service/normalize_validated.py",
+      "bytes": 4297,
+      "sha256": "2e1b260d97f7618cae2518ac0a069354e47dad95ba171af5c05f08b39276c6ec"
+    },
+    {
+      "path": "code-snapshot/budget_service/rap_movements.py",
+      "bytes": 19040,
+      "sha256": "e428a510f3c4f45fa9fb27ce0defd6ec0846d5ffacb81e5774c06e6cbdd374fe"
+    },
+    {
+      "path": "code-snapshot/budget_service/rap_quality.py",
+      "bytes": 9622,
+      "sha256": "b920401e9c9edee35f2dbb2c34b12c4952094020e8a28267cd1991b49352c637"
+    },
+    {
+      "path": "code-snapshot/budget_service/rap_validation.py",
+      "bytes": 18931,
+      "sha256": "406f6bca57f181ac370474cadd4296705e42f9bc10b15ff2c4f982437bf2d24a"
+    },
+    {
+      "path": "code-snapshot/budget_service/reconciliation.py",
+      "bytes": 2985,
+      "sha256": "0d75f1be52f66799bcf67c5a69b484e84459663fee8e200ff20e16875c7904ae"
+    },
+    {
+      "path": "code-snapshot/budget_service/reserves.py",
+      "bytes": 7231,
+      "sha256": "038f8a4604be605ff5b4788bfd7f5de0338de996bd828b83b02941fb2008bed3"
+    },
+    {
+      "path": "code-snapshot/budget_service/retrieval_client.py",
+      "bytes": 4170,
+      "sha256": "46c8fcaebd54c06603987ae0d884e86aee79580b697402e919c867a72ac588c0"
+    },
+    {
+      "path": "code-snapshot/budget_service/retrieval_contract.py",
+      "bytes": 2555,
+      "sha256": "7ebbd01690e1e0d4fc219721a65292bbe2a8b8976f56f0dca946b3b326066e69"
+    },
+    {
+      "path": "code-snapshot/budget_service/retrieval_service.py",
+      "bytes": 14749,
+      "sha256": "8621953c08773991e121ba9365153a7acbb37a2fe46377dba619f32121063cd1"
+    },
+    {
+      "path": "code-snapshot/budget_service/server.py",
+      "bytes": 2417,
+      "sha256": "fc81f0f76bb9ef10fb5846613f03efaaa7da92a6c2d502970a87742f4af17887"
+    },
+    {
+      "path": "code-snapshot/budget_service/topics.py",
+      "bytes": 13051,
+      "sha256": "8599ec9275e621db089050d13c1094069c53f86e85ade89b66637553c84e73d8"
+    },
+    {
+      "path": "code-snapshot/budget_service/web.py",
+      "bytes": 10544,
+      "sha256": "08f5720855acf188c19de728b4bc5c99c696be0c0cfb68c17dd67e950514b685"
+    },
+    {
+      "path": "delta/ACTION-GROUPS-VALIDATED.json",
+      "bytes": 145521,
+      "sha256": "b001b50adea0a6a108544a2cb3d4c734e062c54846e5919dd7568f099929c4c4"
+    },
+    {
+      "path": "delta/CELL-REVIEWS-APPENDED.json",
+      "bytes": 548541,
+      "sha256": "127a2e5f49dfb120e88fd9a347814b0e48f4b0996fd4690426323423dbc199c2"
+    },
+    {
+      "path": "delta/DATA-VERSION-INPUT.json",
+      "bytes": 1764,
+      "sha256": "15d3c7a87f33b2c9e66702153fb6d47c6726a7d9809cc804dcb0e955c196feed"
+    },
+    {
+      "path": "delta/FACTS-APPENDED.json",
+      "bytes": 56366,
+      "sha256": "008ea670888554b9e5b8a3249005a45b1a789df1560f288500b4350c010919ca"
+    },
+    {
+      "path": "delta/SOURCES-APPENDED.json",
+      "bytes": 3372,
+      "sha256": "e16b9702b433a7e249bc2b7ba2e5019e9d67c6260ecb583987f90bf59615f4ec"
+    },
+    {
+      "path": "derived/budget.sqlite",
+      "bytes": 102772736,
+      "sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00"
+    },
+    {
+      "path": "finalize_staging.py",
+      "bytes": 6891,
+      "sha256": "ef75b24872856f4185a110fefa73f4415aa0e6f7bbe699b4b494213bd50dcdd5"
+    },
+    {
+      "path": "inputs/MANIFEST-COLLECTE.json",
+      "bytes": 7912974,
+      "sha256": "891763a78946ec4bceec0e189c499beb11155c26197faa53cc3f504a5a972747"
+    },
+    {
+      "path": "manual/budget-gouv-20261013/356c4b7ddf6ed47a710b.pdf",
+      "bytes": 1361387,
+      "sha256": "356c4b7ddf6ed47a710b018676d770bf11ca2ad8c901537a7301bda059f17c6e"
+    },
+    {
+      "path": "manual/budget-gouv-20261013/705ecd63a460283e2105.pdf",
+      "bytes": 482756,
+      "sha256": "705ecd63a460283e2105feb074f99e21451db78e808d94f316a4f4e0efaa97bd"
+    },
+    {
+      "path": "manual/budget-gouv-20261013/85e85b7b38d419c9ffea.pdf",
+      "bytes": 8039676,
+      "sha256": "85e85b7b38d419c9ffea3b1280edf33512cb34a04e666d7651e858f26d11bc0b"
+    },
+    {
+      "path": "manual/budget-gouv-20261013/c3be0fcfeb01dbf86383.pdf",
+      "bytes": 2096194,
+      "sha256": "c3be0fcfeb01dbf86383b24255347c11a96698831cb0f65931aa99d1c13dab1b"
+    },
+    {
+      "path": "manual/budget-gouv-20261013/ead873592d52796c64b8.pdf",
+      "bytes": 9478536,
+      "sha256": "ead873592d52796c64b820a70002f40bad1ed2b25e6780e54c47d35d73b52273"
+    },
+    {
+      "path": "POINT_DE_REPRISE.md",
+      "bytes": 2365,
+      "sha256": "59b057e78e3746038bee30a00d5fd2888f2ba7fc7aa2e8dd12fbed2a18c1f8c1"
+    },
+    {
+      "path": "raw/api/plrg-2024-7121f910/43d319c79320/Annexe1-Etat_AE_CP-2024.csv-17242404.csv",
+      "bytes": 2865,
+      "sha256": "5c374be4eb01bf71d007a1c25855d9c81116a09232e3cf653dd166536b8585fa"
+    },
+    {
+      "path": "raw/api/projet-de-loi-relatif-aux-resultats-de-la-gestion-et-portant-approbation-des-comptes--14352ccd/5edf7687889e/Annexe1-Etat_AE_CP-2025.csv-9be6e683.csv",
+      "bytes": 2895,
+      "sha256": "ffa348ed5e4a219557884687b84333ac89b3f3bf1e2814a9396404f81e90d7dd"
+    },
+    {
+      "path": "receipts/APPROVED-CODE-PREVIEW.json",
+      "bytes": 625,
+      "sha256": "7162fa0c306e97a9ff531cedeb203de6628bc34ee8c7d860f11a755aea238b0f"
+    },
+    {
+      "path": "receipts/AUDIT-ADAPTER.json",
+      "bytes": 2417,
+      "sha256": "26c91f66aed7b7763708c4a5b07e9967207cd0c949a665d7b9b8dfb0489b66e5"
+    },
+    {
+      "path": "receipts/AUDIT-RUN.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "receipts/CODE-SNAPSHOT-IDENTITIES.json",
+      "bytes": 12655,
+      "sha256": "77fe768767d45f0a7b18efe06e13943804aba5e3ce9d612baeaa70aa68d08480"
+    },
+    {
+      "path": "receipts/FULL-AUDIT-LIMIT.json",
+      "bytes": 1211,
+      "sha256": "e8c0dab3c10978252df6656447db2a779f0138696bf1a7339543928b41c74de8"
+    },
+    {
+      "path": "receipts/HISTORICAL-AUDIT-PREEXISTING-LIMIT.json",
+      "bytes": 2771,
+      "sha256": "aeb7e0af8e2b300286ae51b92633f30d482e4938c298640237a71144a23bd6f5"
+    },
+    {
+      "path": "receipts/INDEPENDENT-CSV-VERIFIED.json",
+      "bytes": 78662,
+      "sha256": "0effd2018ba087d59f78e5ef35e0e8b5ad683d7d2f2f207a7404ac050b7fd1d5"
+    },
+    {
+      "path": "receipts/REGISTRY-AUDIT-PREEXISTING-LIMIT.json",
+      "bytes": 767,
+      "sha256": "800bb626534d0a180e35de553709ac1e0091e55475b96ac511641ec1d9b9b48a"
+    },
+    {
+      "path": "receipts/REGISTRY-VALIDATION.json",
+      "bytes": 20498,
+      "sha256": "fd9dfb3d028d0809516faaa9791da9e1db06245f77c4da01191248c7cda67d0e"
+    },
+    {
+      "path": "receipts/STAGED-DELTA-ENGINE-VERIFIED.json",
+      "bytes": 58342,
+      "sha256": "65f543acd2df0d2b63c3bb8405307760db232c8dca2d5c03a051ee1d0df71875"
+    },
+    {
+      "path": "receipts/STAGING-BUILD-VERIFIED.json",
+      "bytes": 6368,
+      "sha256": "74042970daa323834fb5df142dfded5cff8b86a8abee2ff41159600208190800"
+    },
+    {
+      "path": "receipts/TARGETED-RELEASE-LIMIT.json",
+      "bytes": 1438,
+      "sha256": "cbf8efc4b282bbaf8aa0bf579ed66e2b89d01ec2b3e8fbae9e62d7efadd40a9b"
+    },
+    {
+      "path": "verify_staging_delta.py",
+      "bytes": 5412,
+      "sha256": "9b0b5f1e79c1e0c0a3cac3e77b265e897222c939de584fba403e5f660bc99a90"
+    },
+    {
+      "path": "verify_targeted_release.py",
+      "bytes": 5550,
+      "sha256": "2bd0a0e37e5c2b50f4b536f6ccb21879dc0028175cb4b1aa339a28a5d88a7a8f"
+    }
+  ]
+}

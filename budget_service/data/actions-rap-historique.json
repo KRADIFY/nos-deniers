@@ -13498,6 +13498,4722 @@
         "accepted": true
       },
       "reconciliation_note": "Montants relus dans les cellules XLS au centime publié ; sous-actions contrôlées séparément, sans les ajouter une seconde fois au programme."
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "501",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 8,
+      "document_family": "RAP",
+      "published_total_cents": 10000000000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "501",
+          "program_label": "Présidence de la République",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 10000000000,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Présidence de la République",
+          "cents": 10000000000,
+          "page": 8
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "511",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 22,
+      "document_family": "RAP",
+      "published_total_cents": 51789000000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "511",
+          "program_label": "Assemblée nationale",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 51789000000,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Assemblée nationale",
+          "cents": 51789000000,
+          "page": 22
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "521",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 23,
+      "document_family": "RAP",
+      "published_total_cents": 32358460000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "521",
+          "program_label": "Sénat",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 32358460000,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Sénat",
+          "cents": 31162770000,
+          "page": 23
+        },
+        {
+          "code": "02",
+          "label": "Jardin du Luxembourg",
+          "cents": 1195690000,
+          "page": 23
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "531",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 26,
+      "document_family": "RAP",
+      "published_total_cents": 1369697400,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "531",
+          "program_label": "Conseil constitutionnel",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 1369697400,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Conseil constitutionnel",
+          "cents": 1369697400,
+          "page": 26
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "533",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 30,
+      "document_family": "RAP",
+      "published_total_cents": 86150000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "533",
+          "program_label": "Cour de justice de la République",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 86150000,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Cour de justice de la République",
+          "cents": 86150000,
+          "page": 30
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "541",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 24,
+      "document_family": "RAP",
+      "published_total_cents": 3488716200,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "541",
+          "program_label": "La Chaîne parlementaire",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 3488716200,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "La Chaîne parlementaire - Assemblée nationale",
+          "cents": 1664116200,
+          "page": 24
+        },
+        {
+          "code": "02",
+          "label": "Public Sénat",
+          "cents": 1824600000,
+          "page": 24
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "501",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 8,
+      "document_family": "RAP",
+      "published_total_cents": 10000000000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "501",
+          "program_label": "Présidence de la République",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 10000000000,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Présidence de la République",
+          "cents": 10000000000,
+          "page": 8
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "511",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 22,
+      "document_family": "RAP",
+      "published_total_cents": 51789000000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "511",
+          "program_label": "Assemblée nationale",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 51789000000,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Assemblée nationale",
+          "cents": 51789000000,
+          "page": 22
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "521",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 23,
+      "document_family": "RAP",
+      "published_total_cents": 32358460000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "521",
+          "program_label": "Sénat",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 32358460000,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Sénat",
+          "cents": 31162770000,
+          "page": 23
+        },
+        {
+          "code": "02",
+          "label": "Jardin du Luxembourg",
+          "cents": 1195690000,
+          "page": 23
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "531",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 26,
+      "document_family": "RAP",
+      "published_total_cents": 1369697400,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "531",
+          "program_label": "Conseil constitutionnel",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 1369697400,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Conseil constitutionnel",
+          "cents": 1369697400,
+          "page": 26
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "533",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 30,
+      "document_family": "RAP",
+      "published_total_cents": 86150000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "533",
+          "program_label": "Cour de justice de la République",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 86150000,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Cour de justice de la République",
+          "cents": 86150000,
+          "page": 30
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BG",
+      "mission": "PB",
+      "program": "541",
+      "source": "0b11c5c683f81b1187b3",
+      "sha256": "4b42f99e36ff13121a538b38cff3084ca9903af912697cc1eda84bcbfb03615c",
+      "page": 24,
+      "document_family": "RAP",
+      "published_total_cents": 3488716200,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BG",
+          "mission": "PB",
+          "mission_label": "Pouvoirs publics",
+          "program": "541",
+          "program_label": "La Chaîne parlementaire",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 3488716200,
+          "source": "0b11c5c683f81b1187b3",
+          "line": 8,
+          "field": "Contrôle documentaire du 28/09/2026 : Colonnes de prévision LFI du même exercice.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "La Chaîne parlementaire - Assemblée nationale",
+          "cents": 1664116200,
+          "page": 24
+        },
+        {
+          "code": "02",
+          "label": "Public Sénat",
+          "cents": 1824600000,
+          "page": 24
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Dotation initiale 2017",
+        "precision": "Dotation votée publiée en euros ; distincte des dépenses internes de l’institution. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "cefc105b2c756edcbbe2",
+      "sha256": "7f6de64dc663c5c7a4a57c98c4ae8ab128f85f5813c1db9dc598cc4ae9a786c0",
+      "page": 82,
+      "document_family": "RAP",
+      "published_total_cents": 52844261100,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 52844261100,
+          "source": "5e7f9f8883cff87d2535",
+          "line": 11,
+          "field": "RAP 2017 — Total (hors FDC et ADP) — total programme tous titres — page 11",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 24637484100,
+          "page": 82
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 28206777000,
+          "page": 82
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2017 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "FDC_PREVU",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "19908a3de61e46e87404",
+      "sha256": "179a1be92d742c860d69ff3168a0de5e619db3576178c2e434d0f8f75d8247d5",
+      "page": 86,
+      "document_family": "PAP",
+      "published_total_cents": 6136000000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "FDC_PREVU",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 6136000000,
+          "source": "51266a664bf1622a2852",
+          "line": 12,
+          "field": "PAP p. 12 : FdC et AdP prévus 2017, total programme (D00002)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 570000000,
+          "page": 86
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 5566000000,
+          "page": 86
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2017 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "cefc105b2c756edcbbe2",
+      "sha256": "7f6de64dc663c5c7a4a57c98c4ae8ab128f85f5813c1db9dc598cc4ae9a786c0",
+      "page": 35,
+      "document_family": "RAP",
+      "published_total_cents": 156349396400,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 156349396400,
+          "source": "5e267b90a1e9a84540b2",
+          "line": 9,
+          "field": "RAP 2017 — Total (hors FDC et ADP) — total programme tous titres — page 9",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 119508673400,
+          "page": 35
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 4043376500,
+          "page": 35
+        },
+        {
+          "code": "03",
+          "label": "Affaires financières",
+          "cents": 23673900000,
+          "page": 35
+        },
+        {
+          "code": "04",
+          "label": "Formation aéronautique",
+          "cents": 9123446500,
+          "page": 35
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2017 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 250,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "FDC_PREVU",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "19908a3de61e46e87404",
+      "sha256": "179a1be92d742c860d69ff3168a0de5e619db3576178c2e434d0f8f75d8247d5",
+      "page": 41,
+      "document_family": "PAP",
+      "published_total_cents": 42000000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "FDC_PREVU",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 42000000,
+          "source": "e9c2ab450beb295f9dad",
+          "line": 11,
+          "field": "PAP p. 11 : FdC et AdP prévus 2017, total programme (D00011)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 30000000,
+          "page": 41
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 12000000,
+          "page": 41
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2017 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "cefc105b2c756edcbbe2",
+      "sha256": "7f6de64dc663c5c7a4a57c98c4ae8ab128f85f5813c1db9dc598cc4ae9a786c0",
+      "page": 111,
+      "document_family": "RAP",
+      "published_total_cents": 4342574000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 4342574000,
+          "source": "b321abf61bb3d413be2e",
+          "line": 12,
+          "field": "RAP 2017 — Total (hors FDC et ADP) — total programme tous titres — page 12",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 1669486500,
+          "page": 111
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 2387945000,
+          "page": 111
+        },
+        {
+          "code": "04",
+          "label": "Enquêtes de sécurité aérienne",
+          "cents": 285142500,
+          "page": 111
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2017 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "FDC_PREVU",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "19908a3de61e46e87404",
+      "sha256": "179a1be92d742c860d69ff3168a0de5e619db3576178c2e434d0f8f75d8247d5",
+      "page": 118,
+      "document_family": "PAP",
+      "published_total_cents": 143000000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "FDC_PREVU",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 143000000,
+          "source": "9f78835db602422817f2",
+          "line": 12,
+          "field": "PAP p. 12 : FdC et AdP prévus 2017, total programme (D00020)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 7000000,
+          "page": 118
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 136000000,
+          "page": 118
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2017 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "623",
+      "source": "465c914d4fc839f11990",
+      "sha256": "902227c90c32169a2fc85d05a8067cb5f00f9194ca22e664c2f9d8c40b29a132",
+      "page": 30,
+      "document_family": "RAP",
+      "published_total_cents": 6602100000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "623",
+          "program_label": "Édition et diffusion",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 6602100000,
+          "source": "4ba78032fbd8c8c53cd7",
+          "line": 8,
+          "field": "RAP 2017 — Total (hors FDC et ADP) — total programme tous titres — page 8",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Diffusion légale",
+          "cents": 670000000,
+          "page": 30
+        },
+        {
+          "code": "02",
+          "label": "Information administrative, édition publique et promotion",
+          "cents": 5932100000,
+          "page": 30
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2017 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "624",
+      "source": "465c914d4fc839f11990",
+      "sha256": "902227c90c32169a2fc85d05a8067cb5f00f9194ca22e664c2f9d8c40b29a132",
+      "page": 48,
+      "document_family": "RAP",
+      "published_total_cents": 12144500000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "624",
+          "program_label": "Pilotage et ressources humaines",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 12144500000,
+          "source": "43c5ef921296ab711068",
+          "line": 6,
+          "field": "RAP 2017 — Total (hors FDC et ADP) — total programme tous titres — page 6",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Pilotage, modernisation et activités numériques",
+          "cents": 657300000,
+          "page": 48
+        },
+        {
+          "code": "03",
+          "label": "Dépenses de personnel",
+          "cents": 7390000000,
+          "page": 48
+        },
+        {
+          "code": "04",
+          "label": "Convention Etat - Société anonyme de composition et d'impression des journaux officiels",
+          "cents": 4097200000,
+          "page": 48
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2017 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "ec09e151b1ffcff3be1e",
+      "sha256": "ef45724d8d497bfc1f09b8e47be44ff5d53e0b77e5c23575cb6987cdbcd2a9ac",
+      "page": 70,
+      "document_family": "RAP",
+      "published_total_cents": 53185489200,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 53185489200,
+          "source": "8e6f27a0cfc51f80a4d5",
+          "line": 10,
+          "field": "RAP 2018 — Total (hors FDC et ADP) — total programme tous titres — page 10",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 25101826600,
+          "page": 70
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 28083662600,
+          "page": 70
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2018 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "FDC_PREVU",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "b8d72f21a4ed8d22cb15",
+      "sha256": "276499cacbdce0b0a37fdf7b26134901959060b399e20febed086cfb3d795003",
+      "page": 89,
+      "document_family": "PAP",
+      "published_total_cents": 5140000000,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "FDC_PREVU",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 5140000000,
+          "source": "e5b9d476e36c4443c076",
+          "line": 13,
+          "field": "PAP p. 13 : FdC et AdP prévus 2018, total programme (D00717)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 5000000,
+          "page": 89
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 5135000000,
+          "page": 89
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2018 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "ec09e151b1ffcff3be1e",
+      "sha256": "ef45724d8d497bfc1f09b8e47be44ff5d53e0b77e5c23575cb6987cdbcd2a9ac",
+      "page": 30,
+      "document_family": "RAP",
+      "published_total_cents": 155626954900,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 155626954900,
+          "source": "be957fa76f31d5bd8aa6",
+          "line": 8,
+          "field": "RAP 2018 — Total (hors FDC et ADP) — total programme tous titres — page 8",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 121542553600,
+          "page": 30
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 4085574300,
+          "page": 30
+        },
+        {
+          "code": "03",
+          "label": "Affaires financières",
+          "cents": 20677153600,
+          "page": 30
+        },
+        {
+          "code": "04",
+          "label": "Formation aéronautique",
+          "cents": 9321673400,
+          "page": 30
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2018 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 250,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "FDC_PREVU",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "b8d72f21a4ed8d22cb15",
+      "sha256": "276499cacbdce0b0a37fdf7b26134901959060b399e20febed086cfb3d795003",
+      "page": 40,
+      "document_family": "PAP",
+      "published_total_cents": 39000000,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "FDC_PREVU",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 39000000,
+          "source": "92768a95327ee617ea96",
+          "line": 10,
+          "field": "PAP p. 10 : FdC et AdP prévus 2018, total programme (D00726)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 21000000,
+          "page": 40
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 18000000,
+          "page": 40
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2018 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "ec09e151b1ffcff3be1e",
+      "sha256": "ef45724d8d497bfc1f09b8e47be44ff5d53e0b77e5c23575cb6987cdbcd2a9ac",
+      "page": 100,
+      "document_family": "RAP",
+      "published_total_cents": 4342523400,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 4342523400,
+          "source": "fc92b7cb132fcce2a0c3",
+          "line": 10,
+          "field": "RAP 2018 — Total (hors FDC et ADP) — total programme tous titres — page 10",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 1634983700,
+          "page": 100
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 2421907600,
+          "page": 100
+        },
+        {
+          "code": "04",
+          "label": "Enquêtes de sécurité aérienne",
+          "cents": 285632100,
+          "page": 100
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2018 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "FDC_PREVU",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "b8d72f21a4ed8d22cb15",
+      "sha256": "276499cacbdce0b0a37fdf7b26134901959060b399e20febed086cfb3d795003",
+      "page": 121,
+      "document_family": "PAP",
+      "published_total_cents": 511100000,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "FDC_PREVU",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 511100000,
+          "source": "d40749f590940390a7af",
+          "line": 13,
+          "field": "PAP p. 13 : FdC et AdP prévus 2018, total programme (D00735)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 348000000,
+          "page": 121
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 163100000,
+          "page": 121
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2018 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "623",
+      "source": "d9979ccc900a707f7158",
+      "sha256": "6b733c97f287f2515792c714e4566d1d2d6db3e7359a327b5502a84b94ea69b8",
+      "page": 26,
+      "document_family": "RAP",
+      "published_total_cents": 6254000000,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "623",
+          "program_label": "Édition et diffusion",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 6254000000,
+          "source": "63982282c5052fadfb8b",
+          "line": 8,
+          "field": "RAP 2018 — Total (hors FDC et ADP) — total programme tous titres — page 8",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Diffusion légale",
+          "cents": 670000000,
+          "page": 26
+        },
+        {
+          "code": "02",
+          "label": "Information administrative, édition publique et promotion",
+          "cents": 5584000000,
+          "page": 26
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2018 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "LFI",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "624",
+      "source": "d9979ccc900a707f7158",
+      "sha256": "6b733c97f287f2515792c714e4566d1d2d6db3e7359a327b5502a84b94ea69b8",
+      "page": 45,
+      "document_family": "RAP",
+      "published_total_cents": 12075285600,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "LFI",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "624",
+          "program_label": "Pilotage et ressources humaines",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 12075285600,
+          "source": "e160091d2f569ce1615a",
+          "line": 7,
+          "field": "RAP 2018 — Total (hors FDC et ADP) — total programme tous titres — page 7",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Pilotage, modernisation et activités numériques",
+          "cents": 800000000,
+          "page": 45
+        },
+        {
+          "code": "03",
+          "label": "Dépenses de personnel",
+          "cents": 6969485600,
+          "page": 45
+        },
+        {
+          "code": "04",
+          "label": "Convention Etat - Société anonyme de composition et d'impression des journaux officiels",
+          "cents": 4305800000,
+          "page": 45
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2018 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 70,
+      "document_family": "PAP",
+      "published_total_cents": 57222305900,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "PLF",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 57222305900,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 70,
+          "field": "Contrôle documentaire du 28/09/2026 : Total source contrôlé : AE 304 623 059 + 267 600 000 = 572 223 059 ; CP 304 723 059 + 267 500 000 = 572 223 059.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 24692305900,
+          "page": 70
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 32530000000,
+          "page": 70
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Total des crédits proposés, hors FdC et AdP prévus",
+        "precision": "Crédits proposés publiés en euros dans le PAP 2019. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "FDC_PREVU",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 70,
+      "document_family": "PAP",
+      "published_total_cents": 4927000000,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "FDC_PREVU",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 4927000000,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 70,
+          "field": "PAP p. 70 : FdC et AdP prévus 2019, total programme (D01409)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 400000000,
+          "page": 70
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 4527000000,
+          "page": 70
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2019 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 34,
+      "document_family": "PAP",
+      "published_total_cents": 150614448700,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "PLF",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 150614448700,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 34,
+          "field": "Contrôle documentaire du 28/09/2026 : Total source contrôlé : AE 1 353 934 758 + 152 209 729 = 1 506 144 487 ; CP 1 353 934 758 + 152 209 729 = 1 506 144 487.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 122473651900,
+          "page": 34
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 4119106100,
+          "page": 34
+        },
+        {
+          "code": "03",
+          "label": "Affaires financières",
+          "cents": 14521690700,
+          "page": 34
+        },
+        {
+          "code": "04",
+          "label": "Formation aéronautique",
+          "cents": 9500000000,
+          "page": 34
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Total des crédits proposés, hors FdC et AdP prévus",
+        "precision": "Crédits proposés publiés en euros dans le PAP 2019. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 250,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "FDC_PREVU",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 34,
+      "document_family": "PAP",
+      "published_total_cents": 137700000,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "FDC_PREVU",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 137700000,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 34,
+          "field": "PAP p. 34 : FdC et AdP prévus 2019, total programme (D01418)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 9700000,
+          "page": 34
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 128000000,
+          "page": 34
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2019 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 103,
+      "document_family": "PAP",
+      "published_total_cents": 4237096900,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "PLF",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 4237096900,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 103,
+          "field": "Contrôle documentaire du 28/09/2026 : Total source contrôlé : AE 29 855 386 + 12 515 583 = 42 370 969 ; CP 29 855 386 + 12 515 583 = 42 370 969.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 1617097500,
+          "page": 103
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 2334639800,
+          "page": 103
+        },
+        {
+          "code": "04",
+          "label": "Enquêtes de sécurité aérienne",
+          "cents": 285359600,
+          "page": 103
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Total des crédits proposés, hors FdC et AdP prévus",
+        "precision": "Crédits proposés publiés en euros dans le PAP 2019. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "FDC_PREVU",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 103,
+      "document_family": "PAP",
+      "published_total_cents": 884400000,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "FDC_PREVU",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 884400000,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 103,
+          "field": "PAP p. 103 : FdC et AdP prévus 2019, total programme (D01427)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 219400000,
+          "page": 103
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 665000000,
+          "page": 103
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2019 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "623",
+      "source": "ed8f7c7ba73875dfdbea",
+      "sha256": "29e39a0e07bb65ed905ef1bf305165934de34411fc4490f0da790dc31da2e3e4",
+      "page": 28,
+      "document_family": "PAP",
+      "published_total_cents": 6224000000,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "PLF",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "623",
+          "program_label": "Édition et diffusion",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 6224000000,
+          "source": "ed8f7c7ba73875dfdbea",
+          "line": 28,
+          "field": "Contrôle documentaire du 28/09/2026 : Total source contrôlé : AE 48 973 000 + 13 267 000 = 62 240 000 ; CP 39 330 000 + 13 205 000 = 52 535 000.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Diffusion légale",
+          "cents": 600000000,
+          "page": 28
+        },
+        {
+          "code": "02",
+          "label": "Information administrative, édition publique et promotion",
+          "cents": 5624000000,
+          "page": 28
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Total des crédits proposés, hors FdC et AdP prévus",
+        "precision": "Crédits proposés publiés en euros dans le PAP 2019. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "AE",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "624",
+      "source": "ed8f7c7ba73875dfdbea",
+      "sha256": "29e39a0e07bb65ed905ef1bf305165934de34411fc4490f0da790dc31da2e3e4",
+      "page": 46,
+      "document_family": "PAP",
+      "published_total_cents": 11377174600,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "PLF",
+          "measure": "AE",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "624",
+          "program_label": "Pilotage et ressources humaines",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 11377174600,
+          "source": "ed8f7c7ba73875dfdbea",
+          "line": 46,
+          "field": "Contrôle documentaire du 28/09/2026 : Total source contrôlé : AE 8 000 000 + 65 912 746 + 39 859 000 = 113 771 746 ; CP 7 700 000 + 65 912 746 + 39 859 000 = 113 471 746.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Pilotage, modernisation et activités numériques",
+          "cents": 800000000,
+          "page": 46
+        },
+        {
+          "code": "03",
+          "label": "Dépenses de personnel",
+          "cents": 6591274600,
+          "page": 46
+        },
+        {
+          "code": "04",
+          "label": "Convention Etat - Société anonyme de composition et d'impression des journaux officiels",
+          "cents": 3985900000,
+          "page": 46
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Total des crédits proposés, hors FdC et AdP prévus",
+        "precision": "Crédits proposés publiés en euros dans le PAP 2019. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "cefc105b2c756edcbbe2",
+      "sha256": "7f6de64dc663c5c7a4a57c98c4ae8ab128f85f5813c1db9dc598cc4ae9a786c0",
+      "page": 82,
+      "document_family": "RAP",
+      "published_total_cents": 52844261100,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 52844261100,
+          "source": "5e7f9f8883cff87d2535",
+          "line": 11,
+          "field": "RAP 2017 — Total (hors FDC et ADP) — total programme tous titres — page 11",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 24646484100,
+          "page": 82
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 28197777000,
+          "page": 82
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2017 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "FDC_PREVU",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "19908a3de61e46e87404",
+      "sha256": "179a1be92d742c860d69ff3168a0de5e619db3576178c2e434d0f8f75d8247d5",
+      "page": 86,
+      "document_family": "PAP",
+      "published_total_cents": 5131000000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "FDC_PREVU",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 5131000000,
+          "source": "51266a664bf1622a2852",
+          "line": 12,
+          "field": "PAP p. 12 : FdC et AdP prévus 2017, total programme (D00002)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 570000000,
+          "page": 86
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 4561000000,
+          "page": 86
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2017 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "cefc105b2c756edcbbe2",
+      "sha256": "7f6de64dc663c5c7a4a57c98c4ae8ab128f85f5813c1db9dc598cc4ae9a786c0",
+      "page": 35,
+      "document_family": "RAP",
+      "published_total_cents": 156349396400,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 156349396400,
+          "source": "5e267b90a1e9a84540b2",
+          "line": 9,
+          "field": "RAP 2017 — Total (hors FDC et ADP) — total programme tous titres — page 9",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 119546173400,
+          "page": 35
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 4005876500,
+          "page": 35
+        },
+        {
+          "code": "03",
+          "label": "Affaires financières",
+          "cents": 23673900000,
+          "page": 35
+        },
+        {
+          "code": "04",
+          "label": "Formation aéronautique",
+          "cents": 9123446500,
+          "page": 35
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2017 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 250,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "FDC_PREVU",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "19908a3de61e46e87404",
+      "sha256": "179a1be92d742c860d69ff3168a0de5e619db3576178c2e434d0f8f75d8247d5",
+      "page": 41,
+      "document_family": "PAP",
+      "published_total_cents": 42000000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "FDC_PREVU",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 42000000,
+          "source": "e9c2ab450beb295f9dad",
+          "line": 11,
+          "field": "PAP p. 11 : FdC et AdP prévus 2017, total programme (D00011)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 30000000,
+          "page": 41
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 12000000,
+          "page": 41
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2017 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "cefc105b2c756edcbbe2",
+      "sha256": "7f6de64dc663c5c7a4a57c98c4ae8ab128f85f5813c1db9dc598cc4ae9a786c0",
+      "page": 111,
+      "document_family": "RAP",
+      "published_total_cents": 4342574000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 4342574000,
+          "source": "b321abf61bb3d413be2e",
+          "line": 12,
+          "field": "RAP 2017 — Total (hors FDC et ADP) — total programme tous titres — page 12",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 1669486500,
+          "page": 111
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 2387945000,
+          "page": 111
+        },
+        {
+          "code": "04",
+          "label": "Enquêtes de sécurité aérienne",
+          "cents": 285142500,
+          "page": 111
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2017 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "FDC_PREVU",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "19908a3de61e46e87404",
+      "sha256": "179a1be92d742c860d69ff3168a0de5e619db3576178c2e434d0f8f75d8247d5",
+      "page": 118,
+      "document_family": "PAP",
+      "published_total_cents": 143000000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "FDC_PREVU",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 143000000,
+          "source": "9f78835db602422817f2",
+          "line": 12,
+          "field": "PAP p. 12 : FdC et AdP prévus 2017, total programme (D00020)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 7000000,
+          "page": 118
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 136000000,
+          "page": 118
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2017 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "623",
+      "source": "465c914d4fc839f11990",
+      "sha256": "902227c90c32169a2fc85d05a8067cb5f00f9194ca22e664c2f9d8c40b29a132",
+      "page": 30,
+      "document_family": "RAP",
+      "published_total_cents": 5453900000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "623",
+          "program_label": "Édition et diffusion",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 5453900000,
+          "source": "4ba78032fbd8c8c53cd7",
+          "line": 8,
+          "field": "RAP 2017 — Total (hors FDC et ADP) — total programme tous titres — page 8",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Diffusion légale",
+          "cents": 670000000,
+          "page": 30
+        },
+        {
+          "code": "02",
+          "label": "Information administrative, édition publique et promotion",
+          "cents": 4783900000,
+          "page": 30
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2017 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2017,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "624",
+      "source": "465c914d4fc839f11990",
+      "sha256": "902227c90c32169a2fc85d05a8067cb5f00f9194ca22e664c2f9d8c40b29a132",
+      "page": 48,
+      "document_family": "RAP",
+      "published_total_cents": 12257200000,
+      "parents": [
+        {
+          "year": 2017,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "624",
+          "program_label": "Pilotage et ressources humaines",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 12257200000,
+          "source": "43c5ef921296ab711068",
+          "line": 6,
+          "field": "RAP 2017 — Total (hors FDC et ADP) — total programme tous titres — page 6",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Pilotage, modernisation et activités numériques",
+          "cents": 770000000,
+          "page": 48
+        },
+        {
+          "code": "03",
+          "label": "Dépenses de personnel",
+          "cents": 7390000000,
+          "page": 48
+        },
+        {
+          "code": "04",
+          "label": "Convention Etat - Société anonyme de composition et d'impression des journaux officiels",
+          "cents": 4097200000,
+          "page": 48
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2017 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "ec09e151b1ffcff3be1e",
+      "sha256": "ef45724d8d497bfc1f09b8e47be44ff5d53e0b77e5c23575cb6987cdbcd2a9ac",
+      "page": 70,
+      "document_family": "RAP",
+      "published_total_cents": 53185489200,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 53185489200,
+          "source": "8e6f27a0cfc51f80a4d5",
+          "line": 10,
+          "field": "RAP 2018 — Total (hors FDC et ADP) — total programme tous titres — page 10",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 24906826600,
+          "page": 70
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 28278662600,
+          "page": 70
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2018 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "FDC_PREVU",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "b8d72f21a4ed8d22cb15",
+      "sha256": "276499cacbdce0b0a37fdf7b26134901959060b399e20febed086cfb3d795003",
+      "page": 89,
+      "document_family": "PAP",
+      "published_total_cents": 5140000000,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "FDC_PREVU",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 5140000000,
+          "source": "e5b9d476e36c4443c076",
+          "line": 13,
+          "field": "PAP p. 13 : FdC et AdP prévus 2018, total programme (D00717)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 5000000,
+          "page": 89
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 5135000000,
+          "page": 89
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2018 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "ec09e151b1ffcff3be1e",
+      "sha256": "ef45724d8d497bfc1f09b8e47be44ff5d53e0b77e5c23575cb6987cdbcd2a9ac",
+      "page": 30,
+      "document_family": "RAP",
+      "published_total_cents": 155626954900,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 155626954900,
+          "source": "be957fa76f31d5bd8aa6",
+          "line": 8,
+          "field": "RAP 2018 — Total (hors FDC et ADP) — total programme tous titres — page 8",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 121565277600,
+          "page": 30
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 4062850300,
+          "page": 30
+        },
+        {
+          "code": "03",
+          "label": "Affaires financières",
+          "cents": 20677153600,
+          "page": 30
+        },
+        {
+          "code": "04",
+          "label": "Formation aéronautique",
+          "cents": 9321673400,
+          "page": 30
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2018 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 250,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "FDC_PREVU",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "b8d72f21a4ed8d22cb15",
+      "sha256": "276499cacbdce0b0a37fdf7b26134901959060b399e20febed086cfb3d795003",
+      "page": 40,
+      "document_family": "PAP",
+      "published_total_cents": 39000000,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "FDC_PREVU",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 39000000,
+          "source": "92768a95327ee617ea96",
+          "line": 10,
+          "field": "PAP p. 10 : FdC et AdP prévus 2018, total programme (D00726)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 21000000,
+          "page": 40
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 18000000,
+          "page": 40
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2018 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "ec09e151b1ffcff3be1e",
+      "sha256": "ef45724d8d497bfc1f09b8e47be44ff5d53e0b77e5c23575cb6987cdbcd2a9ac",
+      "page": 100,
+      "document_family": "RAP",
+      "published_total_cents": 4342523400,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 4342523400,
+          "source": "fc92b7cb132fcce2a0c3",
+          "line": 10,
+          "field": "RAP 2018 — Total (hors FDC et ADP) — total programme tous titres — page 10",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 1651699300,
+          "page": 100
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 2397704300,
+          "page": 100
+        },
+        {
+          "code": "04",
+          "label": "Enquêtes de sécurité aérienne",
+          "cents": 293119800,
+          "page": 100
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2018 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "FDC_PREVU",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "b8d72f21a4ed8d22cb15",
+      "sha256": "276499cacbdce0b0a37fdf7b26134901959060b399e20febed086cfb3d795003",
+      "page": 121,
+      "document_family": "PAP",
+      "published_total_cents": 511100000,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "FDC_PREVU",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 511100000,
+          "source": "d40749f590940390a7af",
+          "line": 13,
+          "field": "PAP p. 13 : FdC et AdP prévus 2018, total programme (D00735)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 348000000,
+          "page": 121
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 163100000,
+          "page": 121
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2018 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "623",
+      "source": "d9979ccc900a707f7158",
+      "sha256": "6b733c97f287f2515792c714e4566d1d2d6db3e7359a327b5502a84b94ea69b8",
+      "page": 26,
+      "document_family": "RAP",
+      "published_total_cents": 5283500000,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "623",
+          "program_label": "Édition et diffusion",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 5283500000,
+          "source": "63982282c5052fadfb8b",
+          "line": 8,
+          "field": "RAP 2018 — Total (hors FDC et ADP) — total programme tous titres — page 8",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Diffusion légale",
+          "cents": 670000000,
+          "page": 26
+        },
+        {
+          "code": "02",
+          "label": "Information administrative, édition publique et promotion",
+          "cents": 4613500000,
+          "page": 26
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2018 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2018,
+      "stage": "LFI",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "624",
+      "source": "d9979ccc900a707f7158",
+      "sha256": "6b733c97f287f2515792c714e4566d1d2d6db3e7359a327b5502a84b94ea69b8",
+      "page": 45,
+      "document_family": "RAP",
+      "published_total_cents": 12045285600,
+      "parents": [
+        {
+          "year": 2018,
+          "stage": "LFI",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "624",
+          "program_label": "Pilotage et ressources humaines",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 12045285600,
+          "source": "e160091d2f569ce1615a",
+          "line": 7,
+          "field": "RAP 2018 — Total (hors FDC et ADP) — total programme tous titres — page 7",
+          "approximate": 1
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Pilotage, modernisation et activités numériques",
+          "cents": 770000000,
+          "page": 45
+        },
+        {
+          "code": "03",
+          "label": "Dépenses de personnel",
+          "cents": 6969485600,
+          "page": 45
+        },
+        {
+          "code": "04",
+          "label": "Convention Etat - Société anonyme de composition et d'impression des journaux officiels",
+          "cents": 4305800000,
+          "page": 45
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "RAP",
+        "column": "Total des crédits votés en LFI, hors FdC et AdP prévus",
+        "precision": "Crédits votés publiés en euros dans le RAP 2018 ; distincts des crédits ouverts. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 70,
+      "document_family": "PAP",
+      "published_total_cents": 57222305900,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "PLF",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 57222305900,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 70,
+          "field": "Contrôle documentaire du 28/09/2026 : Total source contrôlé : AE 304 623 059 + 267 600 000 = 572 223 059 ; CP 304 723 059 + 267 500 000 = 572 223 059.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 24512305900,
+          "page": 70
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 32710000000,
+          "page": 70
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Total des crédits proposés, hors FdC et AdP prévus",
+        "precision": "Crédits proposés publiés en euros dans le PAP 2019. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "FDC_PREVU",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "612",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 70,
+      "document_family": "PAP",
+      "published_total_cents": 4927000000,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "FDC_PREVU",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "612",
+          "program_label": "Navigation aérienne",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 4927000000,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 70,
+          "field": "PAP p. 70 : FdC et AdP prévus 2019, total programme (D01409)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Soutien et prestations externes de la Navigation aérienne",
+          "cents": 400000000,
+          "page": 70
+        },
+        {
+          "code": "02",
+          "label": "Exploitation et innovation de la Navigation aérienne",
+          "cents": 4527000000,
+          "page": 70
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2019 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 34,
+      "document_family": "PAP",
+      "published_total_cents": 150614448700,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "PLF",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 150614448700,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 34,
+          "field": "Contrôle documentaire du 28/09/2026 : Total source contrôlé : AE 1 353 934 758 + 152 209 729 = 1 506 144 487 ; CP 1 353 934 758 + 152 209 729 = 1 506 144 487.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 122455751900,
+          "page": 34
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 4137006100,
+          "page": 34
+        },
+        {
+          "code": "03",
+          "label": "Affaires financières",
+          "cents": 14521690700,
+          "page": 34
+        },
+        {
+          "code": "04",
+          "label": "Formation aéronautique",
+          "cents": 9500000000,
+          "page": 34
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Total des crédits proposés, hors FdC et AdP prévus",
+        "precision": "Crédits proposés publiés en euros dans le PAP 2019. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 250,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "FDC_PREVU",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "613",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 34,
+      "document_family": "PAP",
+      "published_total_cents": 137700000,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "FDC_PREVU",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "613",
+          "program_label": "Soutien aux prestations de l'aviation civile",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 137700000,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 34,
+          "field": "PAP p. 34 : FdC et AdP prévus 2019, total programme (D01418)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Ressources humaines et management",
+          "cents": 9700000,
+          "page": 34
+        },
+        {
+          "code": "02",
+          "label": "Logistique",
+          "cents": 128000000,
+          "page": 34
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2019 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 103,
+      "document_family": "PAP",
+      "published_total_cents": 4237096900,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "PLF",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 4237096900,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 103,
+          "field": "Contrôle documentaire du 28/09/2026 : Total source contrôlé : AE 29 855 386 + 12 515 583 = 42 370 969 ; CP 29 855 386 + 12 515 583 = 42 370 969.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 1617097500,
+          "page": 103
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 2334639800,
+          "page": 103
+        },
+        {
+          "code": "04",
+          "label": "Enquêtes de sécurité aérienne",
+          "cents": 285359600,
+          "page": 103
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Total des crédits proposés, hors FdC et AdP prévus",
+        "precision": "Crédits proposés publiés en euros dans le PAP 2019. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "FDC_PREVU",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XC",
+      "program": "614",
+      "source": "82e9775f059eab9f6a2c",
+      "sha256": "993a6b8e9e86509737b5b6701044b589e770c6999d5ecf1770273853b126f5bc",
+      "page": 103,
+      "document_family": "PAP",
+      "published_total_cents": 884400000,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "FDC_PREVU",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XC",
+          "mission_label": "Contrôle et exploitation aériens",
+          "program": "614",
+          "program_label": "Transports aériens, surveillance et certification",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 884400000,
+          "source": "82e9775f059eab9f6a2c",
+          "line": 103,
+          "field": "PAP p. 103 : FdC et AdP prévus 2019, total programme (D01427)",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Développement durable et régulation",
+          "cents": 219400000,
+          "page": 103
+        },
+        {
+          "code": "02",
+          "label": "Surveillance et certification",
+          "cents": 665000000,
+          "page": 103
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Prévisions de FdC et AdP",
+        "precision": "Prévision publiée en euros dans le PAP 2019 ; distincte des crédits PLF et des rattachements effectifs. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "623",
+      "source": "ed8f7c7ba73875dfdbea",
+      "sha256": "29e39a0e07bb65ed905ef1bf305165934de34411fc4490f0da790dc31da2e3e4",
+      "page": 28,
+      "document_family": "PAP",
+      "published_total_cents": 5253500000,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "PLF",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "623",
+          "program_label": "Édition et diffusion",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 5253500000,
+          "source": "ed8f7c7ba73875dfdbea",
+          "line": 28,
+          "field": "Contrôle documentaire du 28/09/2026 : Total source contrôlé : AE 48 973 000 + 13 267 000 = 62 240 000 ; CP 39 330 000 + 13 205 000 = 52 535 000.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Diffusion légale",
+          "cents": 600000000,
+          "page": 28
+        },
+        {
+          "code": "02",
+          "label": "Information administrative, édition publique et promotion",
+          "cents": 4653500000,
+          "page": 28
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Total des crédits proposés, hors FdC et AdP prévus",
+        "precision": "Crédits proposés publiés en euros dans le PAP 2019. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "CP",
+      "budget": "BA",
+      "mission": "XJ",
+      "program": "624",
+      "source": "ed8f7c7ba73875dfdbea",
+      "sha256": "29e39a0e07bb65ed905ef1bf305165934de34411fc4490f0da790dc31da2e3e4",
+      "page": 46,
+      "document_family": "PAP",
+      "published_total_cents": 11347174600,
+      "parents": [
+        {
+          "year": 2019,
+          "stage": "PLF",
+          "measure": "CP",
+          "budget": "BA",
+          "mission": "XJ",
+          "mission_label": "Publications officielles et information administrative",
+          "program": "624",
+          "program_label": "Pilotage et ressources humaines",
+          "action": "",
+          "action_label": "",
+          "subaction": "",
+          "subaction_label": "",
+          "category": "",
+          "title": "",
+          "cents": 11347174600,
+          "source": "ed8f7c7ba73875dfdbea",
+          "line": 46,
+          "field": "Contrôle documentaire du 28/09/2026 : Total source contrôlé : AE 8 000 000 + 65 912 746 + 39 859 000 = 113 771 746 ; CP 7 700 000 + 65 912 746 + 39 859 000 = 113 471 746.",
+          "approximate": 0
+        }
+      ],
+      "actions": [
+        {
+          "code": "01",
+          "label": "Pilotage, modernisation et activités numériques",
+          "cents": 770000000,
+          "page": 46
+        },
+        {
+          "code": "03",
+          "label": "Dépenses de personnel",
+          "cents": 6591274600,
+          "page": 46
+        },
+        {
+          "code": "04",
+          "label": "Convention Etat - Société anonyme de composition et d'impression des journaux officiels",
+          "cents": 3985900000,
+          "page": 46
+        }
+      ],
+      "reconciliation_note": "Somme exactement égale au total de programme retenu ; aucune répartition d’écart.",
+      "review_required": false,
+      "source_description": {
+        "document": "PAP",
+        "column": "Total des crédits proposés, hors FdC et AdP prévus",
+        "precision": "Crédits proposés publiés en euros dans le PAP 2019. "
+      },
+      "action_sum_minus_parent_cents": 0,
+      "published_total_minus_parent_cents": 0,
+      "reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     }
   ]
 }

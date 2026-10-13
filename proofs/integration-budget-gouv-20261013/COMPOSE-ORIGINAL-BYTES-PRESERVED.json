@@ -1,0 +1,7 @@
+{
+  "before_sha256": "968861942333c68f63c75cce5b46fe28370e6de97d0721aa9bf1282d8c33e8d0",
+  "after_sha256": "8c8ebfba6d094c85893070d9be57056d88a63aeb74f06da6c5522d0b461637c9",
+  "single_image_tag_changed": true,
+  "all_other_compose_bytes_preserved": true,
+  "services_restarted": false
+}

@@ -1,0 +1,2699 @@
+{
+  "at": "2026-10-13T10:44:22.084210+00:00",
+  "success": true,
+  "validation_scope": "264 independent mission CSV comparisons only; full audit and global registry audit retain their documented pre-existing failures.",
+  "whole_database_audit_passed": false,
+  "source_hashes_verified": 5,
+  "verified_source_sha256": {
+    "5798fd78b8191c9a463d": "37e04fe6be4666b9cacfb2d6374964f18f4435a3b8c69d8ae1ee9e6c4e9432b8",
+    "845f6db20376d793dcb5": "7d840229a2598da1ba0683cf665193da06e1d6d9ab210fd545e4e88b76954b85",
+    "ba344e45e4e53597721a": "72e47483a63ac1c9e02d814b87b6e08a7d6444381ded74f439a3cdcda684c71b",
+    "07bb96493a8cff9ddf93": "ffa348ed5e4a219557884687b84333ac89b3f3bf1e2814a9396404f81e90d7dd",
+    "ea46c16371deff6b94a7": "5c374be4eb01bf71d007a1c25855d9c81116a09232e3cf653dd166536b8585fa"
+  },
+  "independent_csv_checks": 264,
+  "checks": [
+    {
+      "year": 2025,
+      "mission": "Action extérieure de l'État",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 2
+    },
+    {
+      "year": 2025,
+      "mission": "Action extérieure de l'État",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 2
+    },
+    {
+      "year": 2025,
+      "mission": "Action extérieure de l'État",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 2
+    },
+    {
+      "year": 2025,
+      "mission": "Action extérieure de l'État",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 2
+    },
+    {
+      "year": 2025,
+      "mission": "Administration générale et territoriale de l'État",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 3
+    },
+    {
+      "year": 2025,
+      "mission": "Administration générale et territoriale de l'État",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 3
+    },
+    {
+      "year": 2025,
+      "mission": "Administration générale et territoriale de l'État",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 3
+    },
+    {
+      "year": 2025,
+      "mission": "Administration générale et territoriale de l'État",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 3
+    },
+    {
+      "year": 2025,
+      "mission": "Agriculture, alimentation, forêt et affaires rurales",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 4
+    },
+    {
+      "year": 2025,
+      "mission": "Agriculture, alimentation, forêt et affaires rurales",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 4
+    },
+    {
+      "year": 2025,
+      "mission": "Agriculture, alimentation, forêt et affaires rurales",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 4
+    },
+    {
+      "year": 2025,
+      "mission": "Agriculture, alimentation, forêt et affaires rurales",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 4
+    },
+    {
+      "year": 2025,
+      "mission": "Aide publique au développement",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 5
+    },
+    {
+      "year": 2025,
+      "mission": "Aide publique au développement",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 5
+    },
+    {
+      "year": 2025,
+      "mission": "Aide publique au développement",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 5
+    },
+    {
+      "year": 2025,
+      "mission": "Aide publique au développement",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 5
+    },
+    {
+      "year": 2025,
+      "mission": "Anciens combattants, mémoire et liens avec la Nation",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 6
+    },
+    {
+      "year": 2025,
+      "mission": "Anciens combattants, mémoire et liens avec la Nation",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 6
+    },
+    {
+      "year": 2025,
+      "mission": "Anciens combattants, mémoire et liens avec la Nation",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 6
+    },
+    {
+      "year": 2025,
+      "mission": "Anciens combattants, mémoire et liens avec la Nation",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 6
+    },
+    {
+      "year": 2025,
+      "mission": "Cohésion des territoires",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 7
+    },
+    {
+      "year": 2025,
+      "mission": "Cohésion des territoires",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 7
+    },
+    {
+      "year": 2025,
+      "mission": "Cohésion des territoires",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 7
+    },
+    {
+      "year": 2025,
+      "mission": "Cohésion des territoires",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 7
+    },
+    {
+      "year": 2025,
+      "mission": "Conseil et contrôle de l'État",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 8
+    },
+    {
+      "year": 2025,
+      "mission": "Conseil et contrôle de l'État",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 8
+    },
+    {
+      "year": 2025,
+      "mission": "Conseil et contrôle de l'État",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 8
+    },
+    {
+      "year": 2025,
+      "mission": "Conseil et contrôle de l'État",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 8
+    },
+    {
+      "year": 2025,
+      "mission": "Crédits non répartis",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 9
+    },
+    {
+      "year": 2025,
+      "mission": "Crédits non répartis",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 9
+    },
+    {
+      "year": 2025,
+      "mission": "Crédits non répartis",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 9
+    },
+    {
+      "year": 2025,
+      "mission": "Crédits non répartis",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 9
+    },
+    {
+      "year": 2025,
+      "mission": "Culture",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 10
+    },
+    {
+      "year": 2025,
+      "mission": "Culture",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 10
+    },
+    {
+      "year": 2025,
+      "mission": "Culture",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 10
+    },
+    {
+      "year": 2025,
+      "mission": "Culture",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 10
+    },
+    {
+      "year": 2025,
+      "mission": "Défense",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 11
+    },
+    {
+      "year": 2025,
+      "mission": "Défense",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 11
+    },
+    {
+      "year": 2025,
+      "mission": "Défense",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 11
+    },
+    {
+      "year": 2025,
+      "mission": "Défense",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 11
+    },
+    {
+      "year": 2025,
+      "mission": "Direction de l'action du Gouvernement",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 12
+    },
+    {
+      "year": 2025,
+      "mission": "Direction de l'action du Gouvernement",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 12
+    },
+    {
+      "year": 2025,
+      "mission": "Direction de l'action du Gouvernement",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 12
+    },
+    {
+      "year": 2025,
+      "mission": "Direction de l'action du Gouvernement",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 12
+    },
+    {
+      "year": 2025,
+      "mission": "Écologie, développement et mobilité durables",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 13
+    },
+    {
+      "year": 2025,
+      "mission": "Écologie, développement et mobilité durables",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 13
+    },
+    {
+      "year": 2025,
+      "mission": "Écologie, développement et mobilité durables",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 13
+    },
+    {
+      "year": 2025,
+      "mission": "Écologie, développement et mobilité durables",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 13
+    },
+    {
+      "year": 2025,
+      "mission": "Économie",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 14
+    },
+    {
+      "year": 2025,
+      "mission": "Économie",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 14
+    },
+    {
+      "year": 2025,
+      "mission": "Économie",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 14
+    },
+    {
+      "year": 2025,
+      "mission": "Économie",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 14
+    },
+    {
+      "year": 2025,
+      "mission": "Engagements financiers de l'État",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 15
+    },
+    {
+      "year": 2025,
+      "mission": "Engagements financiers de l'État",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 15
+    },
+    {
+      "year": 2025,
+      "mission": "Engagements financiers de l'État",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 15
+    },
+    {
+      "year": 2025,
+      "mission": "Engagements financiers de l'État",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 15
+    },
+    {
+      "year": 2025,
+      "mission": "Enseignement scolaire",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 16
+    },
+    {
+      "year": 2025,
+      "mission": "Enseignement scolaire",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 16
+    },
+    {
+      "year": 2025,
+      "mission": "Enseignement scolaire",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 16
+    },
+    {
+      "year": 2025,
+      "mission": "Enseignement scolaire",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 16
+    },
+    {
+      "year": 2025,
+      "mission": "Gestion des finances publiques",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 17
+    },
+    {
+      "year": 2025,
+      "mission": "Gestion des finances publiques",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 17
+    },
+    {
+      "year": 2025,
+      "mission": "Gestion des finances publiques",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 17
+    },
+    {
+      "year": 2025,
+      "mission": "Gestion des finances publiques",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 17
+    },
+    {
+      "year": 2025,
+      "mission": "Immigration, asile et intégration",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 18
+    },
+    {
+      "year": 2025,
+      "mission": "Immigration, asile et intégration",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 18
+    },
+    {
+      "year": 2025,
+      "mission": "Immigration, asile et intégration",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 18
+    },
+    {
+      "year": 2025,
+      "mission": "Immigration, asile et intégration",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 18
+    },
+    {
+      "year": 2025,
+      "mission": "Investir pour la France de 2030",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 19
+    },
+    {
+      "year": 2025,
+      "mission": "Investir pour la France de 2030",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 19
+    },
+    {
+      "year": 2025,
+      "mission": "Investir pour la France de 2030",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 19
+    },
+    {
+      "year": 2025,
+      "mission": "Investir pour la France de 2030",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 19
+    },
+    {
+      "year": 2025,
+      "mission": "Justice",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 20
+    },
+    {
+      "year": 2025,
+      "mission": "Justice",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 20
+    },
+    {
+      "year": 2025,
+      "mission": "Justice",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 20
+    },
+    {
+      "year": 2025,
+      "mission": "Justice",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 20
+    },
+    {
+      "year": 2025,
+      "mission": "Médias, livre et industries culturelles",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 21
+    },
+    {
+      "year": 2025,
+      "mission": "Médias, livre et industries culturelles",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 21
+    },
+    {
+      "year": 2025,
+      "mission": "Médias, livre et industries culturelles",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 21
+    },
+    {
+      "year": 2025,
+      "mission": "Médias, livre et industries culturelles",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 21
+    },
+    {
+      "year": 2025,
+      "mission": "Outre-Mer",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 22
+    },
+    {
+      "year": 2025,
+      "mission": "Outre-Mer",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 22
+    },
+    {
+      "year": 2025,
+      "mission": "Outre-Mer",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 22
+    },
+    {
+      "year": 2025,
+      "mission": "Outre-Mer",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 22
+    },
+    {
+      "year": 2025,
+      "mission": "Plan de relance",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 23
+    },
+    {
+      "year": 2025,
+      "mission": "Plan de relance",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 23
+    },
+    {
+      "year": 2025,
+      "mission": "Plan de relance",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 23
+    },
+    {
+      "year": 2025,
+      "mission": "Plan de relance",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 23
+    },
+    {
+      "year": 2025,
+      "mission": "Pouvoirs publics",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 24
+    },
+    {
+      "year": 2025,
+      "mission": "Pouvoirs publics",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 24
+    },
+    {
+      "year": 2025,
+      "mission": "Pouvoirs publics",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 24
+    },
+    {
+      "year": 2025,
+      "mission": "Pouvoirs publics",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 24
+    },
+    {
+      "year": 2025,
+      "mission": "Recherche et enseignement supérieur",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 25
+    },
+    {
+      "year": 2025,
+      "mission": "Recherche et enseignement supérieur",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 25
+    },
+    {
+      "year": 2025,
+      "mission": "Recherche et enseignement supérieur",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 25
+    },
+    {
+      "year": 2025,
+      "mission": "Recherche et enseignement supérieur",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 25
+    },
+    {
+      "year": 2025,
+      "mission": "Régimes sociaux et de retraite",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 26
+    },
+    {
+      "year": 2025,
+      "mission": "Régimes sociaux et de retraite",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 26
+    },
+    {
+      "year": 2025,
+      "mission": "Régimes sociaux et de retraite",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 26
+    },
+    {
+      "year": 2025,
+      "mission": "Régimes sociaux et de retraite",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 26
+    },
+    {
+      "year": 2025,
+      "mission": "Relations avec les collectivités territoriales",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 27
+    },
+    {
+      "year": 2025,
+      "mission": "Relations avec les collectivités territoriales",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 27
+    },
+    {
+      "year": 2025,
+      "mission": "Relations avec les collectivités territoriales",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 27
+    },
+    {
+      "year": 2025,
+      "mission": "Relations avec les collectivités territoriales",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 27
+    },
+    {
+      "year": 2025,
+      "mission": "Remboursements et dégrèvements",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 28
+    },
+    {
+      "year": 2025,
+      "mission": "Remboursements et dégrèvements",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 28
+    },
+    {
+      "year": 2025,
+      "mission": "Remboursements et dégrèvements",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 28
+    },
+    {
+      "year": 2025,
+      "mission": "Remboursements et dégrèvements",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 28
+    },
+    {
+      "year": 2025,
+      "mission": "Santé",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 29
+    },
+    {
+      "year": 2025,
+      "mission": "Santé",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 29
+    },
+    {
+      "year": 2025,
+      "mission": "Santé",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 29
+    },
+    {
+      "year": 2025,
+      "mission": "Santé",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 29
+    },
+    {
+      "year": 2025,
+      "mission": "Sécurités",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 30
+    },
+    {
+      "year": 2025,
+      "mission": "Sécurités",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 30
+    },
+    {
+      "year": 2025,
+      "mission": "Sécurités",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 30
+    },
+    {
+      "year": 2025,
+      "mission": "Sécurités",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 30
+    },
+    {
+      "year": 2025,
+      "mission": "Solidarité, insertion et égalité des chances",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 31
+    },
+    {
+      "year": 2025,
+      "mission": "Solidarité, insertion et égalité des chances",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 31
+    },
+    {
+      "year": 2025,
+      "mission": "Solidarité, insertion et égalité des chances",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 31
+    },
+    {
+      "year": 2025,
+      "mission": "Solidarité, insertion et égalité des chances",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 31
+    },
+    {
+      "year": 2025,
+      "mission": "Sport, jeunesse et vie associative",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 32
+    },
+    {
+      "year": 2025,
+      "mission": "Sport, jeunesse et vie associative",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 32
+    },
+    {
+      "year": 2025,
+      "mission": "Sport, jeunesse et vie associative",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 32
+    },
+    {
+      "year": 2025,
+      "mission": "Sport, jeunesse et vie associative",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 32
+    },
+    {
+      "year": 2025,
+      "mission": "Transformation et fonction publiques",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 33
+    },
+    {
+      "year": 2025,
+      "mission": "Transformation et fonction publiques",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 33
+    },
+    {
+      "year": 2025,
+      "mission": "Transformation et fonction publiques",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 33
+    },
+    {
+      "year": 2025,
+      "mission": "Transformation et fonction publiques",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 33
+    },
+    {
+      "year": 2025,
+      "mission": "Travail, emploi et administration des ministères sociaux",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 34
+    },
+    {
+      "year": 2025,
+      "mission": "Travail, emploi et administration des ministères sociaux",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 34
+    },
+    {
+      "year": 2025,
+      "mission": "Travail, emploi et administration des ministères sociaux",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 34
+    },
+    {
+      "year": 2025,
+      "mission": "Travail, emploi et administration des ministères sociaux",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "07bb96493a8cff9ddf93",
+      "row": 34
+    },
+    {
+      "year": 2024,
+      "mission": "Action extérieure de l'État",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 2
+    },
+    {
+      "year": 2024,
+      "mission": "Action extérieure de l'État",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 2
+    },
+    {
+      "year": 2024,
+      "mission": "Action extérieure de l'État",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 2
+    },
+    {
+      "year": 2024,
+      "mission": "Action extérieure de l'État",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 2
+    },
+    {
+      "year": 2024,
+      "mission": "Administration générale et territoriale de l'État",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 3
+    },
+    {
+      "year": 2024,
+      "mission": "Administration générale et territoriale de l'État",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 3
+    },
+    {
+      "year": 2024,
+      "mission": "Administration générale et territoriale de l'État",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 3
+    },
+    {
+      "year": 2024,
+      "mission": "Administration générale et territoriale de l'État",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 3
+    },
+    {
+      "year": 2024,
+      "mission": "Agriculture, alimentation, forêt et affaires rurales",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 4
+    },
+    {
+      "year": 2024,
+      "mission": "Agriculture, alimentation, forêt et affaires rurales",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 4
+    },
+    {
+      "year": 2024,
+      "mission": "Agriculture, alimentation, forêt et affaires rurales",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 4
+    },
+    {
+      "year": 2024,
+      "mission": "Agriculture, alimentation, forêt et affaires rurales",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 4
+    },
+    {
+      "year": 2024,
+      "mission": "Aide publique au développement",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 5
+    },
+    {
+      "year": 2024,
+      "mission": "Aide publique au développement",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 5
+    },
+    {
+      "year": 2024,
+      "mission": "Aide publique au développement",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 5
+    },
+    {
+      "year": 2024,
+      "mission": "Aide publique au développement",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 5
+    },
+    {
+      "year": 2024,
+      "mission": "Anciens combattants, mémoire et liens avec la Nation",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 6
+    },
+    {
+      "year": 2024,
+      "mission": "Anciens combattants, mémoire et liens avec la Nation",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 6
+    },
+    {
+      "year": 2024,
+      "mission": "Anciens combattants, mémoire et liens avec la Nation",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 6
+    },
+    {
+      "year": 2024,
+      "mission": "Anciens combattants, mémoire et liens avec la Nation",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 6
+    },
+    {
+      "year": 2024,
+      "mission": "Cohésion des territoires",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 7
+    },
+    {
+      "year": 2024,
+      "mission": "Cohésion des territoires",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 7
+    },
+    {
+      "year": 2024,
+      "mission": "Cohésion des territoires",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 7
+    },
+    {
+      "year": 2024,
+      "mission": "Cohésion des territoires",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 7
+    },
+    {
+      "year": 2024,
+      "mission": "Conseil et contrôle de l'État",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 8
+    },
+    {
+      "year": 2024,
+      "mission": "Conseil et contrôle de l'État",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 8
+    },
+    {
+      "year": 2024,
+      "mission": "Conseil et contrôle de l'État",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 8
+    },
+    {
+      "year": 2024,
+      "mission": "Conseil et contrôle de l'État",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 8
+    },
+    {
+      "year": 2024,
+      "mission": "Crédits non répartis",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 9
+    },
+    {
+      "year": 2024,
+      "mission": "Crédits non répartis",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 9
+    },
+    {
+      "year": 2024,
+      "mission": "Crédits non répartis",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 9
+    },
+    {
+      "year": 2024,
+      "mission": "Crédits non répartis",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 9
+    },
+    {
+      "year": 2024,
+      "mission": "Culture",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 10
+    },
+    {
+      "year": 2024,
+      "mission": "Culture",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 10
+    },
+    {
+      "year": 2024,
+      "mission": "Culture",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 10
+    },
+    {
+      "year": 2024,
+      "mission": "Culture",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 10
+    },
+    {
+      "year": 2024,
+      "mission": "Défense",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 11
+    },
+    {
+      "year": 2024,
+      "mission": "Défense",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 46100,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 11
+    },
+    {
+      "year": 2024,
+      "mission": "Défense",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 11
+    },
+    {
+      "year": 2024,
+      "mission": "Défense",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 11
+    },
+    {
+      "year": 2024,
+      "mission": "Direction de l'action du Gouvernement",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 12
+    },
+    {
+      "year": 2024,
+      "mission": "Direction de l'action du Gouvernement",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 12
+    },
+    {
+      "year": 2024,
+      "mission": "Direction de l'action du Gouvernement",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 12
+    },
+    {
+      "year": 2024,
+      "mission": "Direction de l'action du Gouvernement",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 12
+    },
+    {
+      "year": 2024,
+      "mission": "Écologie, développement et mobilité durables",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 13
+    },
+    {
+      "year": 2024,
+      "mission": "Écologie, développement et mobilité durables",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 13
+    },
+    {
+      "year": 2024,
+      "mission": "Écologie, développement et mobilité durables",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 13
+    },
+    {
+      "year": 2024,
+      "mission": "Écologie, développement et mobilité durables",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 13
+    },
+    {
+      "year": 2024,
+      "mission": "Économie",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 14
+    },
+    {
+      "year": 2024,
+      "mission": "Économie",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 14
+    },
+    {
+      "year": 2024,
+      "mission": "Économie",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 14
+    },
+    {
+      "year": 2024,
+      "mission": "Économie",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 14
+    },
+    {
+      "year": 2024,
+      "mission": "Engagements financiers de l'État",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 15
+    },
+    {
+      "year": 2024,
+      "mission": "Engagements financiers de l'État",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 15
+    },
+    {
+      "year": 2024,
+      "mission": "Engagements financiers de l'État",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 15
+    },
+    {
+      "year": 2024,
+      "mission": "Engagements financiers de l'État",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 15
+    },
+    {
+      "year": 2024,
+      "mission": "Enseignement scolaire",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 16
+    },
+    {
+      "year": 2024,
+      "mission": "Enseignement scolaire",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 16
+    },
+    {
+      "year": 2024,
+      "mission": "Enseignement scolaire",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 16
+    },
+    {
+      "year": 2024,
+      "mission": "Enseignement scolaire",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 16
+    },
+    {
+      "year": 2024,
+      "mission": "Gestion des finances publiques",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 17
+    },
+    {
+      "year": 2024,
+      "mission": "Gestion des finances publiques",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 17
+    },
+    {
+      "year": 2024,
+      "mission": "Gestion des finances publiques",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 17
+    },
+    {
+      "year": 2024,
+      "mission": "Gestion des finances publiques",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 17
+    },
+    {
+      "year": 2024,
+      "mission": "Immigration, asile et intégration",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 18
+    },
+    {
+      "year": 2024,
+      "mission": "Immigration, asile et intégration",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 18
+    },
+    {
+      "year": 2024,
+      "mission": "Immigration, asile et intégration",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 18
+    },
+    {
+      "year": 2024,
+      "mission": "Immigration, asile et intégration",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 18
+    },
+    {
+      "year": 2024,
+      "mission": "Investir pour la France de 2030",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 19
+    },
+    {
+      "year": 2024,
+      "mission": "Investir pour la France de 2030",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 19
+    },
+    {
+      "year": 2024,
+      "mission": "Investir pour la France de 2030",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 19
+    },
+    {
+      "year": 2024,
+      "mission": "Investir pour la France de 2030",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 19
+    },
+    {
+      "year": 2024,
+      "mission": "Justice",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 20
+    },
+    {
+      "year": 2024,
+      "mission": "Justice",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 20
+    },
+    {
+      "year": 2024,
+      "mission": "Justice",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 20
+    },
+    {
+      "year": 2024,
+      "mission": "Justice",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 20
+    },
+    {
+      "year": 2024,
+      "mission": "Médias, livre et industries culturelles",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 21
+    },
+    {
+      "year": 2024,
+      "mission": "Médias, livre et industries culturelles",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 21
+    },
+    {
+      "year": 2024,
+      "mission": "Médias, livre et industries culturelles",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 21
+    },
+    {
+      "year": 2024,
+      "mission": "Médias, livre et industries culturelles",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 21
+    },
+    {
+      "year": 2024,
+      "mission": "Outre-Mer",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 22
+    },
+    {
+      "year": 2024,
+      "mission": "Outre-Mer",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 22
+    },
+    {
+      "year": 2024,
+      "mission": "Outre-Mer",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 22
+    },
+    {
+      "year": 2024,
+      "mission": "Outre-Mer",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 22
+    },
+    {
+      "year": 2024,
+      "mission": "Plan de relance",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 23
+    },
+    {
+      "year": 2024,
+      "mission": "Plan de relance",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 23
+    },
+    {
+      "year": 2024,
+      "mission": "Plan de relance",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 23
+    },
+    {
+      "year": 2024,
+      "mission": "Plan de relance",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 23
+    },
+    {
+      "year": 2024,
+      "mission": "Pouvoirs publics",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 24
+    },
+    {
+      "year": 2024,
+      "mission": "Pouvoirs publics",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 24
+    },
+    {
+      "year": 2024,
+      "mission": "Pouvoirs publics",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 24
+    },
+    {
+      "year": 2024,
+      "mission": "Pouvoirs publics",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 24
+    },
+    {
+      "year": 2024,
+      "mission": "Recherche et enseignement supérieur",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 25
+    },
+    {
+      "year": 2024,
+      "mission": "Recherche et enseignement supérieur",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 25
+    },
+    {
+      "year": 2024,
+      "mission": "Recherche et enseignement supérieur",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 25
+    },
+    {
+      "year": 2024,
+      "mission": "Recherche et enseignement supérieur",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 25
+    },
+    {
+      "year": 2024,
+      "mission": "Régimes sociaux et de retraite",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 26
+    },
+    {
+      "year": 2024,
+      "mission": "Régimes sociaux et de retraite",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 26
+    },
+    {
+      "year": 2024,
+      "mission": "Régimes sociaux et de retraite",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 26
+    },
+    {
+      "year": 2024,
+      "mission": "Régimes sociaux et de retraite",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 26
+    },
+    {
+      "year": 2024,
+      "mission": "Relations avec les collectivités territoriales",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 27
+    },
+    {
+      "year": 2024,
+      "mission": "Relations avec les collectivités territoriales",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 27
+    },
+    {
+      "year": 2024,
+      "mission": "Relations avec les collectivités territoriales",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 27
+    },
+    {
+      "year": 2024,
+      "mission": "Relations avec les collectivités territoriales",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 27
+    },
+    {
+      "year": 2024,
+      "mission": "Remboursements et dégrèvements",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 28
+    },
+    {
+      "year": 2024,
+      "mission": "Remboursements et dégrèvements",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 28
+    },
+    {
+      "year": 2024,
+      "mission": "Remboursements et dégrèvements",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 28
+    },
+    {
+      "year": 2024,
+      "mission": "Remboursements et dégrèvements",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 28
+    },
+    {
+      "year": 2024,
+      "mission": "Santé",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 29
+    },
+    {
+      "year": 2024,
+      "mission": "Santé",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 29
+    },
+    {
+      "year": 2024,
+      "mission": "Santé",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 29
+    },
+    {
+      "year": 2024,
+      "mission": "Santé",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 29
+    },
+    {
+      "year": 2024,
+      "mission": "Sécurités",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 30
+    },
+    {
+      "year": 2024,
+      "mission": "Sécurités",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 30
+    },
+    {
+      "year": 2024,
+      "mission": "Sécurités",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 30
+    },
+    {
+      "year": 2024,
+      "mission": "Sécurités",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 30
+    },
+    {
+      "year": 2024,
+      "mission": "Solidarité, insertion et égalité des chances",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 31
+    },
+    {
+      "year": 2024,
+      "mission": "Solidarité, insertion et égalité des chances",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 31
+    },
+    {
+      "year": 2024,
+      "mission": "Solidarité, insertion et égalité des chances",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 31
+    },
+    {
+      "year": 2024,
+      "mission": "Solidarité, insertion et égalité des chances",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 31
+    },
+    {
+      "year": 2024,
+      "mission": "Sport, jeunesse et vie associative",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 32
+    },
+    {
+      "year": 2024,
+      "mission": "Sport, jeunesse et vie associative",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 32
+    },
+    {
+      "year": 2024,
+      "mission": "Sport, jeunesse et vie associative",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 32
+    },
+    {
+      "year": 2024,
+      "mission": "Sport, jeunesse et vie associative",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 32
+    },
+    {
+      "year": 2024,
+      "mission": "Transformation et fonction publiques",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 33
+    },
+    {
+      "year": 2024,
+      "mission": "Transformation et fonction publiques",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 33
+    },
+    {
+      "year": 2024,
+      "mission": "Transformation et fonction publiques",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 33
+    },
+    {
+      "year": 2024,
+      "mission": "Transformation et fonction publiques",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 33
+    },
+    {
+      "year": 2024,
+      "mission": "Travail et emploi",
+      "stage": "OUVERT",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 34
+    },
+    {
+      "year": 2024,
+      "mission": "Travail et emploi",
+      "stage": "EXEC",
+      "measure": "AE",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 34
+    },
+    {
+      "year": 2024,
+      "mission": "Travail et emploi",
+      "stage": "OUVERT",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 34
+    },
+    {
+      "year": 2024,
+      "mission": "Travail et emploi",
+      "stage": "EXEC",
+      "measure": "CP",
+      "difference_cents": 0,
+      "difference_after_documented_adjustment_cents": 0,
+      "source": "ea46c16371deff6b94a7",
+      "row": 34
+    }
+  ],
+  "all_registries": {},
+  "database_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+  "data_signature": {
+    "version": 1,
+    "database_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+    "registries": {
+      "actions-dette.json": "fd090a0bb2bb021dc45788fed72c29bd696d99ce7f87c2f2c8db00962f4b7146",
+      "actions-ecologie.json": "d8eb759d064f1b9ecb49ee6b3aa5a8445405c09d1ccba9eacc3550bf0bdc26b1",
+      "actions-multititres.json": "6aea21bda4ce4f3cd71300f2c4f99c40122e4559b703b56e6f4f79cd99972e5b",
+      "actions-national.json": "656f3a2b82fc68b75e080842ba2ff4524f846d341dc96d78d01038d07083a9b7",
+      "actions-p174.json": "4792bdc94110d9884ea6a29970ad8e43ca6e781ee2608e8b0846ea393365f0b0",
+      "actions-pap-2027.json": "cc460e9d61108b9d8c7e70307738278ef4e12c6213a21321cf02c5b37c04b20c",
+      "actions-rap-historique.json": "14980f64c59358889506f0a522c3703bcedbafd1aed644cf2d18b968a83f6374",
+      "actions-sousactions.json": "4db90e9b7d472c3b7dffae1ff231eb533d59191df86be6344f0737f4b6a75ad5",
+      "historical-no-recap-reviewed.json": "8e78bfa00ea22959b08f460aa991a63b2bc30cc4ba2aab1108b41b60233dbcf9",
+      "historical_discrepancy_notices_2017_2022.json": "e5f991a1be7d8526db05039922521969064034016eb985520d99301fa0aace81",
+      "integration-5401-plf-plan.json": "5f71a0057012cc9cd493910bbbef6323b3f7c7f43a184c08e14a40f33f39ee2a",
+      "maprimerenov.json": "287e2f66916f1b84cf5176b60fbe7b57691a815964e6402a8cdc348d26842554",
+      "mouvements-rap-autres-budgets-historique.json": "334fa154353c907d4413ca5d14ee50f6e6b54b9023550992ba6a69e617679e55",
+      "mouvements-rap-historique-detail.json": "74af29f723832d74e7cd0fa1711a04fffdd610e0936672953eeab6b0fbe16370",
+      "mouvements-rap-historique.json": "74903f7104d1118acb6e0d24c6370c59266f859be4b2dcc27cf834995696c0c8",
+      "mouvements-rap-national.json": "f7a4e2a25df163c120a71155b142039554ba47fde69e19e8e7f066dcfa9befe6",
+      "mouvements-rap-p174.json": "3f1005a89848e708c6f99084f0c3eee5e4ff3e9e8de9727db4ccf1687f2df20c",
+      "pap-2026-national.json": "f1b87ea98511b39235c2e24f87a727454e11779c75ba8f35eb44c1048ea18ac3",
+      "pap-2027-import-plan.json": "95881ae967807fdf33d5e4c67ba3ff1b8456d40c4d4e875802975c54fd077a23",
+      "pap-ecologie-2026.json": "c24e5244019524cfd3c8abc7be1f352b311521f83ac576c639bf6c0d7293ebda",
+      "rap-coverage.json": "7446e73c3c808a6567d834ff1817fcd30ef365a91879bc43b43cf3c1471d8516",
+      "rap-explicit-zeros.json": "af0d155586fbb3b788c2ed6c9a1b8185a1e0f8a53fc62d413bf1dc281e7e2bd9",
+      "rap-investigation.json": "91a2057feddd6ebd0507160aa98b5dd69df5c86629fa5bf8fd8f889a1959c523",
+      "reserves-ecologie.json": "df3649ea0405881a44f3c62c6a4cb67f8af1ecd389af30b0cc6a49fd09c0fb53",
+      "reserves-historique-2017-2022.json": "97e47689f0cf5971ece79b51e4440b204b1796386d0670505b20d5e8ae501221",
+      "reserves-national.json": "bdecad2029fa663b8306081497a6f7ae17293122cc18c14e29aae6503f096f36",
+      "reserves-p174.json": "ef394a673a30df1a57a4baeca625edb05ea5e46d47cee3123371d3a0a107b01c",
+      "validated-fact-replay.json": "c996c89a11eeb2dfd7df5c09d432ceae4545cbe0e13881cd2c63edb126276cc6"
+    }
+  },
+  "database_unchanged": true,
+  "original_baseline_unchanged": true,
+  "existing_validators_unchanged": true,
+  "assertions_bypassed": false,
+  "network": false,
+  "deployment": false
+}

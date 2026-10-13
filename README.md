@@ -1,41 +1,17 @@
-# PLF / Nos Deniers — version en ligne du 8 octobre 2026
+# PLF / Nos Deniers — version du 13 octobre 2026
 
-Sauvegarde privée : https://github.com/KRADIFY/nos-deniers.
-Version du jour : branche `sauvegarde-en-ligne-20261008`, tag `en-ligne-20261008`.
-La branche principale est actualisée par avance simple ; les sauvegardes précédentes sont conservées.
-Site capturé : https://budget.lexmachine.net/.
+Version publique : https://budget.lexmachine.net/. Dépôt privé : https://github.com/KRADIFY/nos-deniers.
 
-## Contenu de cette version
+Le complément approuvé de Budget.gouv ajoute 83 positions globales, dont deux nouvellement repérées et 81 candidats antérieurs, et comble 134 détails manquants. Deux positions d'appui complètent la hiérarchie du Sénat. Les 141 859 anciens faits restent identiques ; la base compte désormais 141 942 faits.
 
-- Code du site, moteur de recherche et configurations réellement utilisés en production.
-- Base financière : **141 859 observations**, conservée dans `proofs/budget.sqlite.gz`.
-- Recherche documentaire : **4 887 593 passages dans 5 275 documents** ; les trois index actifs sont référencés dans `proofs/compose.yaml`.
-- Démo : trois parcours, textes et 32 extraits audio du 7 octobre, passages musicaux conservés.
-- Dernière correction de placement des cartouches d'explication dans `demo/public/popover-layout.js`, `demo.js` et `floating-ui.css`.
-- Styles effectivement injectés : boutons orange, cartouches accordées au graphique, consommé avec texte sombre, cumulé blanc.
-- Les 984 montants supplémentaires du 7 octobre et le complément documentaire du Journal officiel du 8 octobre sont inclus.
-- Reçus du complément documentaire dans `proofs/vectorisation-jorf-20261008`.
+Les cinq PDF justificatifs et les 83 notices sont conservés. Un correctif de cinq lignes précise les mentions PAP/FdC des nouveaux détails, sans changer les calculs. PLFSS, la démo, les autres fichiers de l'image et les index de recherche restent inchangés : 5 275 documents / 4 887 593 passages.
 
-La capture a été effectuée en lecture seule. Aucun chiffre, texte, style, service ou réglage de production n'a été modifié pour réaliser la sauvegarde.
+Les 217 positions et 134 exclusions sont vérifiées sur la base préparée puis sur les services réels ; 264 comparaisons avec les CSV officiels concordent. L'audit global n'est pas déclaré validé : quatre écarts d'agrégats historiques et un écart de 58 centimes entre un registre historique et la base étaient déjà présents. Ils sont conservés dans les reçus.
 
-## Dépôt local et gros fichiers
+Le reçu actuel est proofs/VERSION-EN-LIGNE-20261013.json. Les preuves datées du 8 octobre et le tag en-ligne-20261008 restent historiques. proofs/budget.sqlite.gz conserve la base actuelle ; les gros documents/index restent hors Git.
 
-Le dépôt Git local se trouve dans :
-`D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git`.
-Le nom du dossier indique sa date de création, pas la date de sa dernière sauvegarde.
-Il contient le code et l'historique des versions, y compris celle du 8 octobre.
-Git n'enregistre une nouvelle version que lorsqu'un commit est créé ; il ne synchronise pas automatiquement les changements futurs du serveur.
+Sauvegarde de la mise à jour : D:/ChatGPT/docker/backups/sauvegarde-20261013-budget-gouv. Le paquet contient la nouvelle base, les cinq PDF et une copie exacte de l'image web du VPS. Les autres documents et index sont restaurables depuis la sauvegarde immuable H:/Sauvegardes-Nos-Deniers/20261008-version-en-ligne ; le paquet du 13 octobre complète cette base.
 
-Les corpus, index vectoriels et images Docker sont trop volumineux pour les objets Git.
-Leur copie locale est conservée séparément dans :
-`H:/Sauvegardes-Nos-Deniers/20261008-version-en-ligne`.
-Consulter le manifeste de vérification dans ce dossier pour les volumes et les instructions de restauration. Les index existants ont été conservés, sans nouvelle vectorisation.
+Le Docker local conserve sa base précédente : sa VM WSL de 6 Go subit des arrêts par manque de mémoire. Le 13 octobre, Jean-Christophe a demandé de terminer la mise en ligne et les deux Git ; aucune modification de la mémoire WSL n'a été appliquée. Le dépôt Git local sauvegarde bien la nouvelle version publique.
 
-## Vérification et restauration
-
-`proofs/VERSION-EN-LIGNE.json` fait autorité pour les fichiers capturés, leurs SHA-256, les images Docker actives, les montages et les métadonnées financières. Les autres preuves historiques décrivent leurs dates respectives.
-
-Empreinte SHA-256 de la base financière décompressée :
-`e1f379fac58ed9b5086bc925eb5c6fa229711fc2d20d2159c6e20f92d27d9b05`.
-
-Les configurations archivées conservent les chemins du VPS. Une restauration nécessite aussi les volumes séparés et les images Docker correspondantes ; les scripts de publication historiques ne doivent pas être relancés aveuglément. Le dossier local sur H: contient les instructions et les archives. PLFSS est sauvegardé dans son propre dépôt `KRADIFY/plfss`.
+Dépôt local permanent : D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git. Git conserve les versions à chaque commit ; la synchronisation ne se fait pas automatiquement. PLFSS conserve son propre dépôt et sa version.

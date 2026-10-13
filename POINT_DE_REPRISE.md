@@ -1,14 +1,10 @@
-# Point de reprise — sauvegarde PLF
+# Point de reprise — Nos Deniers PLF, 13 octobre 2026
 
-- Chemin permanent du dépôt : `D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git`.
-- Capture : version publique du 8 octobre 2026, 141 859 montants ; 4 887 593 passages / 5 275 documents.
-- Branche de capture : `sauvegarde-en-ligne-20261008` ; branche active apres sauvegarde : `main` ; tag : `en-ligne-20261008` ; copie distante privée : `KRADIFY/nos-deniers`.
-- Dernier commit sûr avant cette capture : `8ebb8bb695419a0e780d2407b09f98e47c0cbcec` (7 octobre).
-- Commit courant et état : `git log -1 --oneline` et `git status --short --branch` depuis cette racine.
-- Capture vérifiée par SHA-256 dans `proofs/VERSION-EN-LIGNE.json` et `proofs/CAPTURE-VERIFIED-20261008.json`.
-- Démarrage : configurations archivées de production dans `proofs/compose.yaml` et `demo/compose.yaml` ; ne pas les lancer avant de restaurer les volumes et les images Docker. Aucun conteneur local créé pour cette sauvegarde.
-- Contrôles Git : `git fsck --full` ; contrôle des fichiers et de la base dans les reçus.
-- URL locale historique de la démo : `http://127.0.0.1:18896/` ; site public : `https://budget.lexmachine.net/`.
-- Données et images séparées : `H:/Sauvegardes-Nos-Deniers/20261008-version-en-ligne`.
-- Travail terminé dans la capture : dernières voix, placement des explications, 984 montants et complément documentaire JORF. Aucun déploiement ni changement de production par cette sauvegarde.
-- Prochaine étape lors d'une modification future : faire une nouvelle capture et un nouveau commit ; conserver ce tag pour revenir à cette version.
+- Chemin permanent : D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; branche main. État/commit : git status --short --branch et git log -1 --oneline depuis cette racine.
+- Version intégrée : 141 942 faits ; +83 globaux, 134 détails, deux positions d'appui Sénat, cinq PDF et 83 notices. Correctif source de cinq lignes ; aucun ancien fait remplacé.
+- Réception : proofs/VERSION-EN-LIGNE-20261013.json et proofs/integration-budget-gouv-20261013/. Les réserves historiques de l'auditeur restent visibles ; aucune certification globale.
+- VPS : /opt/nos-deniers/compose.yaml ; image lexmachine-budget:20261013-complements-budget-gouv ; quatre web vérifiés. Recherche et démo inchangées.
+- Git local : nouvelle version publique capturée. Docker local D:/ChatGPT/docker/budget : base précédente préservée ; mise à jour interrompue par les OOM WSL. Jean-Christophe a choisi mise en ligne + Git uniquement, sans changement WSL. Public https://budget.lexmachine.net/.
+- Contrôles : 217 montants, 134 exclusions, notices et cinq téléchargements PDF ; 264 comparaisons CSV. Scripts/reçus : D:/ChatGPT/docker/budget/outputs/integration-budget-gouv-20261013.
+- Sauvegarde : D:/ChatGPT/docker/backups/sauvegarde-20261013-budget-gouv. Base/index historiques immuables : H:/Sauvegardes-Nos-Deniers/20261008-version-en-ligne ; tag en-ligne-20261008 conservé. Restauration : base historique + overlay du 13 octobre et image web sauvegardée.
+- Prochaine étape : attendre Jean-Christophe ; ne corriger aucun autre chiffre ni reprendre les réserves sans l'avertir.

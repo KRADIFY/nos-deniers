@@ -117,6 +117,11 @@ def published_row(item, base, group, level='action'):
         column='FdC/AdP attendus, prévision distincte' if group['stage']=='FDC_PREVU' else 'Total des crédits proposés, hors FdC/AdP'
         row['precision']='Montant publié à l’euro dans le PAP 2027. '+display_note(group)
         row['field']=f"{group['stage']} {group['measure']} 2027 · {label} · PAP p. {page} · {column}"
+    description=group.get('source_description')
+    if description:
+        row['precision']=row['_detail_note']=description['precision']+display_note(group)
+        row['field']=(f"{group['stage']} {group['measure']} {group['year']} · {label} · "
+                      f"{description['document']} p. {page} · {description['column']}")
     if spreadsheet:row['source_location']=item['source_location']
     if item.get('amount_kind')=='reconstructed':
         rec=group['action_reconstruction']

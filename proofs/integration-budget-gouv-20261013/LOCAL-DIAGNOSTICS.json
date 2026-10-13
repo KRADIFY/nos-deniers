@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-13T11:08:16.178370+00:00",
+  "error": "RuntimeError(\"('Client timed out; operation state must be checked', {'at': '2026-10-13T11:07:33.528010+00:00', 'arguments': ['docker', 'load', '--input', 'D:\\\\\\\\ChatGPT\\\\\\\\docker\\\\\\\\budget\\\\\\\\outputs\\\\\\\\integration-budget-gouv-20261013\\\\\\\\web-image.tar.gz'], 'pid': 17156, 'elapsed_seconds': 180.031, 'timeout_seconds': 180, 'timed_out': True, 'returncode': 1})\")",
+  "desktop_or_wsl_repair_attempted": false,
+  "context": "desktop-linux\n",
+  "server": {
+    "error": "RuntimeError(\"('Client timed out; operation state must be checked', {'at': '2026-10-13T11:08:22.365912+00:00', 'arguments': ['docker', 'info', '--format', '{{json .ServerVersion}} {{json .MemTotal}} {{json .NCPU}}'], 'pid': 20372, 'elapsed_seconds': 6.031, 'timeout_seconds': 6, 'timed_out': True, 'returncode': 1})\")"
+  },
+  "readyz": {
+    "error": "TimeoutError('timed out')"
+  }
+}

@@ -1,0 +1,2089 @@
+[
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "PB/501/01",
+    "cents": 10000000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 10000000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "PB/511/01",
+    "cents": 51789000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 51789000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "PB/521/02",
+    "cents": 1195690000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 32358460000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "PB/531/01",
+    "cents": 1369697400,
+    "financial_role": "action_detail",
+    "original_parent_cents": 1369697400
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "PB/533/01",
+    "cents": 86150000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 86150000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "PB/541/01",
+    "cents": 1664116200,
+    "financial_role": "action_detail",
+    "original_parent_cents": 3488716200
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "PB/541/02",
+    "cents": 1824600000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 3488716200
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "PB/501/01",
+    "cents": 10000000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 10000000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "PB/511/01",
+    "cents": 51789000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 51789000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "PB/521/02",
+    "cents": 1195690000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 32358460000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "PB/531/01",
+    "cents": 1369697400,
+    "financial_role": "action_detail",
+    "original_parent_cents": 1369697400
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "PB/533/01",
+    "cents": 86150000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 86150000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "PB/541/01",
+    "cents": 1664116200,
+    "financial_role": "action_detail",
+    "original_parent_cents": 3488716200
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "PB/541/02",
+    "cents": 1824600000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 3488716200
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/01",
+    "cents": 24637484100,
+    "financial_role": "action_detail",
+    "original_parent_cents": 52844261100
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/01",
+    "cents": 570000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 6136000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/02",
+    "cents": 28206777000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 52844261100
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/02",
+    "cents": 5566000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 6136000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/01",
+    "cents": 119508673400,
+    "financial_role": "action_detail",
+    "original_parent_cents": 156349396400
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/01",
+    "cents": 30000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 42000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/02",
+    "cents": 4043376500,
+    "financial_role": "action_detail",
+    "original_parent_cents": 156349396400
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/02",
+    "cents": 12000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 42000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/03",
+    "cents": 23673900000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 156349396400
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/04",
+    "cents": 9123446500,
+    "financial_role": "action_detail",
+    "original_parent_cents": 156349396400
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/01",
+    "cents": 1669486500,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342574000
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/01",
+    "cents": 7000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 143000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/02",
+    "cents": 2387945000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342574000
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/02",
+    "cents": 136000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 143000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/04",
+    "cents": 285142500,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342574000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/623/01",
+    "cents": 670000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 6602100000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/623/02",
+    "cents": 5932100000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 6602100000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/624/01",
+    "cents": 657300000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12144500000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/624/03",
+    "cents": 7390000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12144500000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/624/04",
+    "cents": 4097200000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12144500000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/01",
+    "cents": 25101826600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 53185489200
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/01",
+    "cents": 5000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5140000000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/02",
+    "cents": 28083662600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 53185489200
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/02",
+    "cents": 5135000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5140000000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/01",
+    "cents": 121542553600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 155626954900
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/01",
+    "cents": 21000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 39000000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/02",
+    "cents": 4085574300,
+    "financial_role": "action_detail",
+    "original_parent_cents": 155626954900
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/02",
+    "cents": 18000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 39000000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/03",
+    "cents": 20677153600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 155626954900
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/04",
+    "cents": 9321673400,
+    "financial_role": "action_detail",
+    "original_parent_cents": 155626954900
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/01",
+    "cents": 1634983700,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342523400
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/01",
+    "cents": 348000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 511100000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/02",
+    "cents": 2421907600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342523400
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/02",
+    "cents": 163100000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 511100000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/04",
+    "cents": 285632100,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342523400
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/623/01",
+    "cents": 670000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 6254000000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/623/02",
+    "cents": 5584000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 6254000000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/624/01",
+    "cents": 800000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12075285600
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/624/03",
+    "cents": 6969485600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12075285600
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/624/04",
+    "cents": 4305800000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12075285600
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/623",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/01",
+    "cents": 24692305900,
+    "financial_role": "action_detail",
+    "original_parent_cents": 57222305900
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/01",
+    "cents": 400000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4927000000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/02",
+    "cents": 32530000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 57222305900
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/612/02",
+    "cents": 4527000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4927000000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/01",
+    "cents": 122473651900,
+    "financial_role": "action_detail",
+    "original_parent_cents": 150614448700
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/01",
+    "cents": 9700000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 137700000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/02",
+    "cents": 4119106100,
+    "financial_role": "action_detail",
+    "original_parent_cents": 150614448700
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/02",
+    "cents": 128000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 137700000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/03",
+    "cents": 14521690700,
+    "financial_role": "action_detail",
+    "original_parent_cents": 150614448700
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/613/04",
+    "cents": 9500000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 150614448700
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/01",
+    "cents": 1617097500,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4237096900
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/01",
+    "cents": 219400000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 884400000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/02",
+    "cents": 2334639800,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4237096900
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/02",
+    "cents": 665000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 884400000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XC/614/04",
+    "cents": 285359600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4237096900
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/623/01",
+    "cents": 600000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 6224000000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/623/02",
+    "cents": 5624000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 6224000000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/624/01",
+    "cents": 800000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 11377174600
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/624/03",
+    "cents": 6591274600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 11377174600
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "AE",
+    "path": "XJ/624/04",
+    "cents": 3985900000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 11377174600
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/01",
+    "cents": 24646484100,
+    "financial_role": "action_detail",
+    "original_parent_cents": 52844261100
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/01",
+    "cents": 570000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5131000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/02",
+    "cents": 28197777000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 52844261100
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/02",
+    "cents": 4561000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5131000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/01",
+    "cents": 119546173400,
+    "financial_role": "action_detail",
+    "original_parent_cents": 156349396400
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/01",
+    "cents": 30000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 42000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/02",
+    "cents": 4005876500,
+    "financial_role": "action_detail",
+    "original_parent_cents": 156349396400
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/02",
+    "cents": 12000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 42000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/03",
+    "cents": 23673900000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 156349396400
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/04",
+    "cents": 9123446500,
+    "financial_role": "action_detail",
+    "original_parent_cents": 156349396400
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/01",
+    "cents": 1669486500,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342574000
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/01",
+    "cents": 7000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 143000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/02",
+    "cents": 2387945000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342574000
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/02",
+    "cents": 136000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 143000000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/04",
+    "cents": 285142500,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342574000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/623/01",
+    "cents": 670000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5453900000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/623/02",
+    "cents": 4783900000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5453900000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/624/01",
+    "cents": 770000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12257200000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/624/03",
+    "cents": 7390000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12257200000
+  },
+  {
+    "year": 2017,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/624/04",
+    "cents": 4097200000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12257200000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/01",
+    "cents": 24906826600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 53185489200
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/01",
+    "cents": 5000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5140000000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/02",
+    "cents": 28278662600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 53185489200
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/02",
+    "cents": 5135000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5140000000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/01",
+    "cents": 121565277600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 155626954900
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/01",
+    "cents": 21000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 39000000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/02",
+    "cents": 4062850300,
+    "financial_role": "action_detail",
+    "original_parent_cents": 155626954900
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/02",
+    "cents": 18000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 39000000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/03",
+    "cents": 20677153600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 155626954900
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/04",
+    "cents": 9321673400,
+    "financial_role": "action_detail",
+    "original_parent_cents": 155626954900
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/01",
+    "cents": 1651699300,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342523400
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/01",
+    "cents": 348000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 511100000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/02",
+    "cents": 2397704300,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342523400
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/02",
+    "cents": 163100000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 511100000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/04",
+    "cents": 293119800,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4342523400
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/623/01",
+    "cents": 670000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5283500000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/623/02",
+    "cents": 4613500000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5283500000
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/624/01",
+    "cents": 770000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12045285600
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/624/03",
+    "cents": 6969485600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12045285600
+  },
+  {
+    "year": 2018,
+    "stage": "LFI",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/624/04",
+    "cents": 4305800000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 12045285600
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/623",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/01",
+    "cents": 24512305900,
+    "financial_role": "action_detail",
+    "original_parent_cents": 57222305900
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/01",
+    "cents": 400000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4927000000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/02",
+    "cents": 32710000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 57222305900
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/612/02",
+    "cents": 4527000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4927000000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/01",
+    "cents": 122455751900,
+    "financial_role": "action_detail",
+    "original_parent_cents": 150614448700
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/01",
+    "cents": 9700000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 137700000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/02",
+    "cents": 4137006100,
+    "financial_role": "action_detail",
+    "original_parent_cents": 150614448700
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/02",
+    "cents": 128000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 137700000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/03",
+    "cents": 14521690700,
+    "financial_role": "action_detail",
+    "original_parent_cents": 150614448700
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/613/04",
+    "cents": 9500000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 150614448700
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/01",
+    "cents": 1617097500,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4237096900
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/01",
+    "cents": 219400000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 884400000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/02",
+    "cents": 2334639800,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4237096900
+  },
+  {
+    "year": 2019,
+    "stage": "FDC_PREVU",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/02",
+    "cents": 665000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 884400000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XC/614/04",
+    "cents": 285359600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 4237096900
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/623/01",
+    "cents": 600000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5253500000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/623/02",
+    "cents": 4653500000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 5253500000
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/624/01",
+    "cents": 770000000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 11347174600
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/624/03",
+    "cents": 6591274600,
+    "financial_role": "action_detail",
+    "original_parent_cents": 11347174600
+  },
+  {
+    "year": 2019,
+    "stage": "PLF",
+    "budget": "BA",
+    "measure": "CP",
+    "path": "XJ/624/04",
+    "cents": 3985900000,
+    "financial_role": "action_detail",
+    "original_parent_cents": 11347174600
+  },
+  {
+    "year": 2017,
+    "stage": "LEGIS",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "AV/421",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "LEGIS",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "AV/422",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "LEGIS",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "AV/423",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "LEGIS",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "EB/338",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "LEGIS",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "EB/338",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "SA/183",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "TB/111",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YB/721",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YB/724",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YC/732",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YE/755",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZB/821",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZB/823",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZB/824",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZB/825",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2017,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZD/841",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "RA/190",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "RB/197",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "RB/198",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "RD/201",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "TR/348",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YB/721",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YB/723",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YC/731",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YC/732",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YE/754",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YE/755",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YK/793",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YK/794",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YL/791",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YL/792",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YN/764",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YN/765",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZB/823",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZB/824",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZB/825",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2018,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZF/862",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2020,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "AE",
+    "path": "YI/785",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2020,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YI/785",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2020,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "AE",
+    "path": "YI/786",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2020,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YI/786",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2020,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "AE",
+    "path": "YN/764",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2020,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YN/764",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2020,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "AE",
+    "path": "YN/765",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2020,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YN/765",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2020,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "AE",
+    "path": "ZD/844",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2020,
+    "stage": "FDC_PREVU",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZD/844",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "CA/340",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "CA/340",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "UE/356",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "UE/356",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "UE/357",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "UE/357",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "UE/358",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "UE/358",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "UE/360",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "UE/360",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "UE/366",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "UE/366",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "AE",
+    "path": "YM/795",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "FDC_PREVU",
+    "budget": "CAS",
+    "measure": "CP",
+    "path": "YM/795",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "LEGIS",
+    "budget": "CCF",
+    "measure": "AE",
+    "path": "ZB/823",
+    "cents": -48863654200,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "LEGIS",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZB/823",
+    "cents": -49943654200,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "REGLEMENT",
+    "budget": "CCF",
+    "measure": "AE",
+    "path": "ZB/823",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2022,
+    "stage": "REGLEMENT",
+    "budget": "CCF",
+    "measure": "CP",
+    "path": "ZB/823",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2025,
+    "stage": "LEGIS",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "EB/336",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2025,
+    "stage": "LEGIS",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "EB/336",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2025,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "EB/338",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2025,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "EB/338",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "AD/209",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "AD/209",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "CB/131",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "CB/131",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "CB/175",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "CB/175",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "DA/212",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "DA/212",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "JA/182",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "JA/182",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "AE",
+    "path": "SA/204",
+    "cents": 0,
+    "financial_role": "programme_total"
+  },
+  {
+    "year": 2026,
+    "stage": "FDC_PREVU",
+    "budget": "BG",
+    "measure": "CP",
+    "path": "SA/204",
+    "cents": 0,
+    "financial_role": "programme_total"
+  }
+]

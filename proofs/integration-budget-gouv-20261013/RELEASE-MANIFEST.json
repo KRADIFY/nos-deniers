@@ -1,0 +1,100 @@
+{
+  "at": "2026-10-13T10:53:04.702027+00:00",
+  "expected_base_sha256": "e1f379fac58ed9b5086bc925eb5c6fa229711fc2d20d2159c6e20f92d27d9b05",
+  "database_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+  "new_image": "lexmachine-budget:20261013-complements-budget-gouv",
+  "base_image": "lexmachine-budget:20261005-complements-5401",
+  "base_image_id": "sha256:f9cd9e99c9a38f5b4273db79758755021af274ec45d11e51659a563045619c18",
+  "code_sha256": "40cff934ee62bb0493b7f16fb3b3f3e1b08d10fd086f0ff062247ff2037585b7",
+  "registry_sha256": "14980f64c59358889506f0a522c3703bcedbafd1aed644cf2d18b968a83f6374",
+  "targeted_cells": 217,
+  "new_facts": 83,
+  "missing_details": 134,
+  "support_positions": 2,
+  "action_groups": 60,
+  "new_sources": 5,
+  "whole_database_audit_passed": false,
+  "preserved_old_facts": 141859,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 55,
+      "sha256": "07595efebb2559e3e3b9940bcd4c61614c40ed26a25fae7c6f96ac15a6ce74ae"
+    },
+    {
+      "path": "budget_service/action_details.py",
+      "bytes": 20552,
+      "sha256": "40cff934ee62bb0493b7f16fb3b3f3e1b08d10fd086f0ff062247ff2037585b7"
+    },
+    {
+      "path": "budget_service/data/actions-rap-historique.json",
+      "bytes": 627807,
+      "sha256": "14980f64c59358889506f0a522c3703bcedbafd1aed644cf2d18b968a83f6374"
+    },
+    {
+      "path": "compose.yaml",
+      "bytes": 2883,
+      "sha256": "f49ad467b2b5393dc00686192ebf59e3d3b22c3a8a182aa93aa3285a66c65e25"
+    },
+    {
+      "path": "data/derived/budget.sqlite",
+      "bytes": 102772736,
+      "sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00"
+    },
+    {
+      "path": "data/manual/budget-gouv-20261013/356c4b7ddf6ed47a710b.pdf",
+      "bytes": 1361387,
+      "sha256": "356c4b7ddf6ed47a710b018676d770bf11ca2ad8c901537a7301bda059f17c6e"
+    },
+    {
+      "path": "data/manual/budget-gouv-20261013/705ecd63a460283e2105.pdf",
+      "bytes": 482756,
+      "sha256": "705ecd63a460283e2105feb074f99e21451db78e808d94f316a4f4e0efaa97bd"
+    },
+    {
+      "path": "data/manual/budget-gouv-20261013/85e85b7b38d419c9ffea.pdf",
+      "bytes": 8039676,
+      "sha256": "85e85b7b38d419c9ffea3b1280edf33512cb34a04e666d7651e858f26d11bc0b"
+    },
+    {
+      "path": "data/manual/budget-gouv-20261013/c3be0fcfeb01dbf86383.pdf",
+      "bytes": 2096194,
+      "sha256": "c3be0fcfeb01dbf86383b24255347c11a96698831cb0f65931aa99d1c13dab1b"
+    },
+    {
+      "path": "data/manual/budget-gouv-20261013/ead873592d52796c64b8.pdf",
+      "bytes": 9478536,
+      "sha256": "ead873592d52796c64b820a70002f40bad1ed2b25e6780e54c47d35d73b52273"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 234,
+      "sha256": "57a31c662d43d9545f72ba90e345d2211a799736b810b4aa0e2b0a9d0614385a"
+    },
+    {
+      "path": "NEW-SOURCES.json",
+      "bytes": 3372,
+      "sha256": "e16b9702b433a7e249bc2b7ba2e5019e9d67c6260ecb583987f90bf59615f4ec"
+    },
+    {
+      "path": "remote_apply.py",
+      "bytes": 11911,
+      "sha256": "6a2278710f327f281eeab649824c74297a7678e94b348ffc076b425005ea0a7c"
+    },
+    {
+      "path": "TARGET-CELLS.json",
+      "bytes": 45699,
+      "sha256": "3668ed1ab517bab8aa763147720b0cca6136a93a1cf949c26ec9c928bbca339e"
+    },
+    {
+      "path": "verify_engine.py",
+      "bytes": 3508,
+      "sha256": "e45d76b8f05bbe37fcf3e8231bb4ac532b63e2b8ad76e7d9ffa54e81d3832965"
+    },
+    {
+      "path": "verify_service.py",
+      "bytes": 4940,
+      "sha256": "34d0b2744ec5a0dab2ebf0db3605b1a851bf99bdc36d597fb3cc557ca73786d9"
+    }
+  ]
+}
