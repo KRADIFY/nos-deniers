@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "manifest_sha256": "94b56715ddb6f5a2b8de1f80f6a82063cb59895b38065dcc696257aae480fb54",
+  "release_archive_sha256": "cd4980e87e25de58116758033e89249b4cd4c50ecba49fdf2c92c753f7467667",
+  "release_archive_bytes": 221758719,
+  "image_archive_sha256": "5e38c259eef114be2887c08f943400e26829f521822d356d6d8c55513bcbb3bb",
+  "image_archive_bytes": 59390245,
+  "driver_sha256": "7c4a2969cb6cc56669514f5169e8a362ed07d38b6b6a40ed1f23f9ec46cf45b9",
+  "remote_controller_sha256": "0bf887cfed0804e674c7a13db92b2047f71eeeff6d4d7b04a21faa6368392f1c",
+  "server_modified": false,
+  "application_performed": false,
+  "controller_revision": 2,
+  "previous_driver_sha256": "88d2b0e07c78a5a8103c88c281e937420be94b48c2ab02a28f69833f00d4c838",
+  "previous_seal_preserved": "history-prepublication/PUBLICATION-PREPARED.json",
+  "ssh_apply_timeout_seconds": 7200,
+  "ssh_keepalive_seconds": 15,
+  "ssh_keepalive_count": 4
+}

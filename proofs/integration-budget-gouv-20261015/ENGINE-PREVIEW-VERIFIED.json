@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-15T12:27:44.102719+00:00",
+  "success": true,
+  "target_cells": 3916,
+  "single_exclusions": 3916,
+  "duplicate_exclusions": 3916,
+  "parent_child_exclusions": 3916,
+  "programme_contexts": 1149,
+  "parent_amounts_unchanged": 1149,
+  "known_group_exclusions": 1086,
+  "existing_action_amounts_preserved": 558,
+  "public_provenance_contexts": 1149,
+  "historical_rows_preserved": {
+    "facts": 141942,
+    "sources": 5216,
+    "cell_reviews": 18753,
+    "published_nodes": 5340,
+    "reconciled_totals": 512,
+    "nomenclature_provenance": 46
+  },
+  "staged_database_sha256": "ef3e0846e52e82577336293de3e2ba12ef307784f1a38406f597af8201680ed5",
+  "application_modified": false,
+  "full_general_audit": false,
+  "errors": 0
+}

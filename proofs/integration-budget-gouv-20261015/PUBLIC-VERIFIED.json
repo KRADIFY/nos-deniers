@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "at": "2026-10-15T15:24:32.662723+00:00",
+  "url": "https://budget.lexmachine.net",
+  "ready": true,
+  "home_status": 200,
+  "home_sha256": "07897dc62b4a53d907b2ef8e0538a3f5c90bcd92e55145777a172d8c6558d6cf",
+  "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752",
+  "fact_count": 142079,
+  "document_search_available": true,
+  "public_amount_and_provenance_checks": [
+    "initial:3",
+    "initial:1561",
+    "initial:8918"
+  ],
+  "vps_receipt_path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-financier-budget-gouv-20261014\\reprise-20261015\\integration-3916-preview-20261015\\publication\\retry-v3\\vps-results\\APPLIED.json",
+  "vps_receipt_sha256": "268a55c42cdc285fe82410a45363031e19fdd54f54c10cdadcd07c82d5738ac0",
+  "global_financial_certification": false
+}

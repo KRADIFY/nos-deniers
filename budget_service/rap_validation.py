@@ -99,7 +99,89 @@ def validate_action_reconstruction(group):
     return rec
 
 
+ANNUAL_COMPLEMENT_BATCH = 'annual-complements-3916-20261015'
+ANNUAL_COMPLEMENT_RECEIPT_SHA256 = '4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395'
+ANNUAL_COMPLEMENT_BASE_SHA256 = '41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00'
+
+
+def annual_complement_action_signature(group):
+    """Bind the complete final group, omitting only this self-referential hash."""
+    import hashlib
+    import json
+    payload = dict(group)
+    review = dict(group['annual_complement_review'])
+    review.pop('action_cells_sha256', None)
+    payload['annual_complement_review'] = review
+    encoded = json.dumps(payload, ensure_ascii=False, sort_keys=True,
+                         separators=(',', ':'), allow_nan=False).encode('utf-8')
+    return hashlib.sha256(encoded).hexdigest()
+
+
+def validate_annual_complement(group):
+    """Validate only the sealed 3916 batch; preserve the ordinary RAP validator."""
+    review = group['annual_complement_review']
+    assert review['batch_id'] == ANNUAL_COMPLEMENT_BATCH
+    assert review['receipt_sha256'] == ANNUAL_COMPLEMENT_RECEIPT_SHA256
+    assert review['baseline_sha256'] == ANNUAL_COMPLEMENT_BASE_SHA256
+    assert review['financial_certification'] is False
+    assert type(review['coverage_complete']) is bool
+    assert group.get('partial_action_coverage') is (not review['coverage_complete'])
+    assert review['coverage_kind'] in ('official_LFI_complete', 'bounded_RAP_table_complete',
+                                       'official_LFI_partial', 'bounded_RAP_table_partial',
+                                       'official_inventory_not_demonstrated')
+    assert review['coverage_complete'] == (review['coverage_kind'] in ('official_LFI_complete', 'bounded_RAP_table_complete'))
+    assert group.get('reconciliation_note')
+    assert not group.get('action_reconstruction')
+    parents = group.get('parents') or [group['parent']]
+    assert parents and all(not p['action'] and not p['subaction'] for p in parents)
+    assert all(type(p['cents']) is int for p in parents)
+    parent = sum(p['cents'] for p in parents)
+    assert group['published_total_origin'] == 'unchanged_canonical_programme_facts'
+    assert published_cents(group) == parent == review['parent_cents']
+    assert review['parent_reference_kind'] == 'unchanged_canonical_programme_facts'
+    actions = group['actions']
+    assert actions and len({a['code'] for a in actions}) == len(actions)
+    assert all(re.fullmatch(r'\d{2,3}', a['code']) and a.get('label') for a in actions)
+    known_missing = review['known_missing_actions']
+    assert isinstance(known_missing, list) and len(set(known_missing)) == len(known_missing)
+    assert not set(known_missing) & {a['code'] for a in actions}
+    assert not review['coverage_complete'] or not known_missing
+    for action in actions:
+        assert type(action_cents(action)) is int
+        source = action.get('source', group['source'])
+        sha256 = action.get('sha256') or (group['sha256'] if source == group['source'] else None)
+        assert source and isinstance(sha256, str) and re.fullmatch(r'[0-9a-f]{64}', sha256)
+        spreadsheet = action.get('source_format', group.get('source_format')) in ('xls', 'xlsx')
+        if spreadsheet:
+            assert type(action['line']) is int and action['line'] > 0
+            assert action.get('field') and action.get('source_location')
+            location = action['source_location']
+            assert isinstance(location['sheet'], str) and location['sheet']
+            assert isinstance(location['column'], str) and location['column']
+            assert location['row'] == action['line']
+            if 'rows' in location:
+                assert isinstance(location['rows'], list) and location['rows']
+                assert location['rows'][0] == location['row']
+                assert all(type(row) is int and row > 0 for row in location['rows'])
+                assert len(set(location['rows'])) == len(location['rows'])
+        else:
+            page = action.get('page', group.get('page'))
+            assert type(page) is int and page > 0
+        validate_action_subactions(group, action)
+    assert review['action_cells_sha256'] == annual_complement_action_signature(group)
+    total = sum(action_cents(a) for a in actions)
+    assert group['action_sum_minus_parent_cents'] == total - parent
+    assert group.get('published_total_minus_parent_cents', 0) == 0
+    if review['coverage_complete']:
+        assert assess_difference(total, parent, len(actions))['accepted']
+    return dict(batch_id=review['batch_id'], partial=not review['coverage_complete'],
+                actions=len(actions), parent_cents=parent, known_action_sum_cents=total,
+                difference_cents=total-parent, original_facts_rewritten=False)
+
+
 def validate_action(group):
+    if group.get('annual_complement_review') or group.get('partial_action_coverage') is True:
+        return validate_annual_complement(group)
     parent=sum(r['cents'] for r in (group.get('parents') or [group['parent']]))
     published=published_cents(group)
     actions=sum(action_cents(a) for a in group['actions'])

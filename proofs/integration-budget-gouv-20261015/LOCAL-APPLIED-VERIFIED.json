@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "transaction": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-financier-budget-gouv-20261014\\reprise-20261015\\integration-3916-preview-20261015\\local-application\\transactions\\20261015T143541364478Z\\TRANSACTION.json",
+  "manifest_sha256": "56e7893edece13898e77d1278584429165d762a8efb24b9508062d47913e8e0d",
+  "database_sha256": "ef3e0846e52e82577336293de3e2ba12ef307784f1a38406f597af8201680ed5",
+  "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752",
+  "image_id": "sha256:c883bb343e204f4f91e070125b2837844e4eddf8fdf32fd7c6ce02507e8bfc6e",
+  "image_tag": "lexmachine-budget:20261015-complements-3916-v2",
+  "files_changed": [
+    "budget_service/action_details.py",
+    "budget_service/rap_validation.py",
+    "budget_service/data/actions-rap-historique.json",
+    "budget_service/data/actions-pap-2027.json"
+  ],
+  "assets_added": 398,
+  "fact_count": 142079,
+  "http_samples": 32,
+  "all_new_downloads_verified": 398,
+  "only_web_restarted": true,
+  "other_containers_preserved": true,
+  "git_committed": false,
+  "online_modified": false,
+  "global_financial_certification": false
+}

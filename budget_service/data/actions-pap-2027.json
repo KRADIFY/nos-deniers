@@ -13688,17 +13688,63 @@
             "plf_euros": 22000000,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "02",
+          "label": "BMA_Coopération multilatérale",
+          "cents": 0,
+          "source": "edca32b929c7ae0c5049",
+          "sha256": "edca32b929c7ae0c5049cecc342df82de4d377d5510ace80348acbe9f3a94d6c",
+          "source_format": "pdf",
+          "page": 119,
+          "line": 119,
+          "field": "PLF AE 2027 ; action 02 ; page 119",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10495",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 2200000000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 2200000000,
+        "action_cells_sha256": "500fc396b6347cc10de7d1d4f575a581dfd5a4717c24089428a8ad3cb7396e54"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -13777,17 +13823,63 @@
             "plf_euros": 0,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "02",
+          "label": "BMA_Coopération multilatérale",
+          "cents": 0,
+          "source": "edca32b929c7ae0c5049",
+          "sha256": "edca32b929c7ae0c5049cecc342df82de4d377d5510ace80348acbe9f3a94d6c",
+          "source_format": "pdf",
+          "page": 119,
+          "line": 119,
+          "field": "PLF CP 2027 ; action 02 ; page 119",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11253",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 0,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 0,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 0,
+        "action_cells_sha256": "a1bec48cdac5e76cc13a53622c9b4ef438f972d8d7454713143bb7b7c6e8b34f"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 150,
+        "materiality_bound_cents": 0,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -15826,17 +15918,81 @@
             "plf_euros": 264548656,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "09",
+          "label": "Crédits Relance Cohésion",
+          "cents": 0,
+          "source": "703b2c7360e7b5a20016",
+          "sha256": "703b2c7360e7b5a200163a8a1e25bf0b2bd7beb83a08c0a48f51d367c502fe95",
+          "source_format": "pdf",
+          "page": 123,
+          "line": 123,
+          "field": "PLF AE 2027 ; action 09 ; page 123",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11075",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "10",
+          "label": "Crédits Relance Écologie",
+          "cents": 0,
+          "source": "703b2c7360e7b5a20016",
+          "sha256": "703b2c7360e7b5a200163a8a1e25bf0b2bd7beb83a08c0a48f51d367c502fe95",
+          "source_format": "pdf",
+          "page": 123,
+          "line": 123,
+          "field": "PLF AE 2027 ; action 10 ; page 123",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11076",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 583505177900,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 583505177900,
+        "action_cells_sha256": "7e5f570ec061449120040811497594524f2f326556bcb7c174a710bbef66aae6"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 450,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -16125,17 +16281,81 @@
             "plf_euros": 284648656,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "09",
+          "label": "Crédits Relance Cohésion",
+          "cents": 0,
+          "source": "703b2c7360e7b5a20016",
+          "sha256": "703b2c7360e7b5a200163a8a1e25bf0b2bd7beb83a08c0a48f51d367c502fe95",
+          "source_format": "pdf",
+          "page": 123,
+          "line": 123,
+          "field": "PLF CP 2027 ; action 09 ; page 123",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11833",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "10",
+          "label": "Crédits Relance Écologie",
+          "cents": 0,
+          "source": "703b2c7360e7b5a20016",
+          "sha256": "703b2c7360e7b5a200163a8a1e25bf0b2bd7beb83a08c0a48f51d367c502fe95",
+          "source_format": "pdf",
+          "page": 123,
+          "line": 123,
+          "field": "PLF CP 2027 ; action 10 ; page 123",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11834",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 179394020900,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 179394020900,
+        "action_cells_sha256": "da0a561eaada6e906fe0e0e08a5c6124a6bb8f8ab794a0ce453b5677650c6fc6"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 450,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -52986,17 +53206,63 @@
               }
             }
           ]
+        },
+        {
+          "code": "12",
+          "label": "Parts étrangères et programmes civils",
+          "cents": 0,
+          "source": "3db418981fc1d0dc6106",
+          "sha256": "3db418981fc1d0dc61061bad5e139f22ced7060624bf68ef738c439ad6052122",
+          "source_format": "pdf",
+          "page": 539,
+          "line": 539,
+          "field": "PLF AE 2027 ; action 12 ; page 539",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10569",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 3960222169700,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 3960222169700,
+        "action_cells_sha256": "5856c907360070cd6829a0046fdd886ea17c3f83e75de516760958593a4bb98f"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 500,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -56662,17 +56928,63 @@
               }
             }
           ]
+        },
+        {
+          "code": "12",
+          "label": "Parts étrangères et programmes civils",
+          "cents": 0,
+          "source": "3db418981fc1d0dc6106",
+          "sha256": "3db418981fc1d0dc61061bad5e139f22ced7060624bf68ef738c439ad6052122",
+          "source_format": "pdf",
+          "page": 539,
+          "line": 539,
+          "field": "PLF CP 2027 ; action 12 ; page 539",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11327",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 2695487485200,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 2695487485200,
+        "action_cells_sha256": "c8d2404632ca50925028fca9889ede7838db39f323674871bf61ad64b16578d5"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 500,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -69576,17 +69888,63 @@
             "plf_euros": 140912472,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "53",
+          "label": "Dotation exceptionnelle à l'AFITF",
+          "cents": 0,
+          "source": "378fdb34d8212c5cdf40",
+          "sha256": "378fdb34d8212c5cdf404cd7485d1e07c6e315a904e3dee180f2429db6de537d",
+          "source_format": "pdf",
+          "page": 94,
+          "line": 94,
+          "field": "PLF AE 2027 ; action 53 ; page 94",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10965",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 452512021100,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 452512021100,
+        "action_cells_sha256": "54e857b6b8075d5b85d0dbf99cdec13ae6149d91255e0ac92e0d9acb6bed5b9b"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 600,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -70043,17 +70401,63 @@
             "plf_euros": 149338521,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "53",
+          "label": "Dotation exceptionnelle à l'AFITF",
+          "cents": 0,
+          "source": "378fdb34d8212c5cdf40",
+          "sha256": "378fdb34d8212c5cdf404cd7485d1e07c6e315a904e3dee180f2429db6de537d",
+          "source_format": "pdf",
+          "page": 94,
+          "line": 94,
+          "field": "PLF CP 2027 ; action 53 ; page 94",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11723",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 483560555000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 483560555000,
+        "action_cells_sha256": "fe87927b6cea44b182a8ddc880ea285b57566000687c34ed3f94953439eba518"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 600,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -81970,17 +82374,81 @@
             "plf_euros": 52421500,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "09",
+          "label": "Personnels œuvrant pour les politiques du programme \"Sécurité et éducation routières\"",
+          "cents": 0,
+          "source": "378fdb34d8212c5cdf40",
+          "sha256": "378fdb34d8212c5cdf404cd7485d1e07c6e315a904e3dee180f2429db6de537d",
+          "source_format": "pdf",
+          "page": 430,
+          "line": 430,
+          "field": "PLF AE 2027 ; action 09 ; page 430",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10975",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "18",
+          "label": "Personnels relevant de programmes d'autres ministères",
+          "cents": 0,
+          "source": "378fdb34d8212c5cdf40",
+          "sha256": "378fdb34d8212c5cdf404cd7485d1e07c6e315a904e3dee180f2429db6de537d",
+          "source_format": "pdf",
+          "page": 432,
+          "line": 432,
+          "field": "PLF AE 2027 ; action 18 ; page 432",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10980",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 314262829600,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 314262829600,
+        "action_cells_sha256": "2e8b16da6501c0a7713fc931b2bd03ca1b801a49921be9f2899363515258684c"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 750,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -82521,17 +82989,81 @@
             "plf_euros": 52421500,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "09",
+          "label": "Personnels œuvrant pour les politiques du programme \"Sécurité et éducation routières\"",
+          "cents": 0,
+          "source": "378fdb34d8212c5cdf40",
+          "sha256": "378fdb34d8212c5cdf404cd7485d1e07c6e315a904e3dee180f2429db6de537d",
+          "source_format": "pdf",
+          "page": 430,
+          "line": 430,
+          "field": "PLF CP 2027 ; action 09 ; page 430",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11733",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "18",
+          "label": "Personnels relevant de programmes d'autres ministères",
+          "cents": 0,
+          "source": "378fdb34d8212c5cdf40",
+          "sha256": "378fdb34d8212c5cdf404cd7485d1e07c6e315a904e3dee180f2429db6de537d",
+          "source_format": "pdf",
+          "page": 432,
+          "line": 432,
+          "field": "PLF CP 2027 ; action 18 ; page 432",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11738",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 319823225800,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 319823225800,
+        "action_cells_sha256": "89d7c9932d4032d7ad16ce4666590ca97fcd2e4ade3cb47c5903f1b207b53519"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 750,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -99190,17 +99722,63 @@
             "plf_euros": 154556786,
             "fdc_euros": 40000
           }
+        },
+        {
+          "code": "07",
+          "label": "Scolarisation à 3 ans",
+          "cents": 0,
+          "source": "614a15aa31d101a87b39",
+          "sha256": "614a15aa31d101a87b39eed618f3578d209503a43cb66ae507542eaa6d72cf8d",
+          "source_format": "pdf",
+          "page": 160,
+          "line": 160,
+          "field": "PLF AE 2027 ; action 07 ; page 160",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10711",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 824517734000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 824517734000,
+        "action_cells_sha256": "dadde09af12b4e8a8b560b2edee7d510ae179e2d22c9f882d3018616576f57e2"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 400,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -99489,17 +100067,63 @@
             "plf_euros": 154556786,
             "fdc_euros": 40000
           }
+        },
+        {
+          "code": "07",
+          "label": "Scolarisation à 3 ans",
+          "cents": 0,
+          "source": "614a15aa31d101a87b39",
+          "sha256": "614a15aa31d101a87b39eed618f3578d209503a43cb66ae507542eaa6d72cf8d",
+          "source_format": "pdf",
+          "page": 160,
+          "line": 160,
+          "field": "PLF CP 2027 ; action 07 ; page 160",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11469",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 825251713400,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 825251713400,
+        "action_cells_sha256": "efb2e81f108c0ffc9cb4075f74ec41d0d70758b22a86554f49453e9867171ac4"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 400,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -107376,17 +108000,63 @@
             "plf_euros": 0,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "06",
+          "label": "Créations expérimentales de sociétés universitaires et scientifiques",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 37,
+          "line": 37,
+          "field": "PLF AE 2027 ; action 06 ; page 37",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10502",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 0,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 0,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 0,
+        "action_cells_sha256": "15708fb3cb61957f53e97c475745ffebdb450e3164346725be65d3fd195277cb"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 400,
+        "materiality_bound_cents": 0,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -107675,17 +108345,63 @@
             "plf_euros": 0,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "06",
+          "label": "Créations expérimentales de sociétés universitaires et scientifiques",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 37,
+          "line": 37,
+          "field": "PLF CP 2027 ; action 06 ; page 37",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11260",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 8100000000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 8100000000,
+        "action_cells_sha256": "36c76c49443c1e013285740619a6f5f669a6c0fae4404a7a29b089120edf8155"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 400,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -108404,17 +109120,99 @@
             "plf_euros": 0,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "01",
+          "label": "Intégration des SATT, incubateurs et accélérateurs",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 50,
+          "line": 50,
+          "field": "PLF AE 2027 ; action 01 ; page 50",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10504",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "02",
+          "label": "Fonds national post-maturation \"Frontier venture\"",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 51,
+          "line": 51,
+          "field": "PLF AE 2027 ; action 02 ; page 51",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10505",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "04",
+          "label": "Nouveaux écosystèmes d'innovation",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 54,
+          "line": 54,
+          "field": "PLF AE 2027 ; action 04 ; page 54",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10507",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 0,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 0,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 0,
+        "action_cells_sha256": "5414674db44fd599dbd8b1c8668a6196bcc585b6d024f2d7d609178ea617a9a9"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 300,
+        "materiality_bound_cents": 0,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -108535,17 +109333,99 @@
             "plf_euros": 10182288,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "01",
+          "label": "Intégration des SATT, incubateurs et accélérateurs",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 50,
+          "line": 50,
+          "field": "PLF CP 2027 ; action 01 ; page 50",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11262",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "02",
+          "label": "Fonds national post-maturation \"Frontier venture\"",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 51,
+          "line": 51,
+          "field": "PLF CP 2027 ; action 02 ; page 51",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11263",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "04",
+          "label": "Nouveaux écosystèmes d'innovation",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 54,
+          "line": 54,
+          "field": "PLF CP 2027 ; action 04 ; page 54",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11265",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 2520000000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 2520000000,
+        "action_cells_sha256": "fe121a3310da3530822e3b8928771df01a96a622532a2dd42444bc03d7d0222a"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 300,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -108970,17 +109850,153 @@
             "plf_euros": 0,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "03",
+          "label": "Industrie du futur",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 69,
+          "line": 69,
+          "field": "PLF AE 2027 ; action 03 ; page 69",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10511",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "04",
+          "label": "Adaptation et qualification de la main d'oeuvre",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 70,
+          "line": 70,
+          "field": "PLF AE 2027 ; action 04 ; page 70",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10512",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "05",
+          "label": "Concours d'innovation",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 71,
+          "line": 71,
+          "field": "PLF AE 2027 ; action 05 ; page 71",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10513",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "06",
+          "label": "Fonds national d'amorçage n° 2",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 71,
+          "line": 71,
+          "field": "PLF AE 2027 ; action 06 ; page 71",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10514",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "07",
+          "label": "Fonds à l'internationalisation des PME",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 72,
+          "line": 72,
+          "field": "PLF AE 2027 ; action 07 ; page 72",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10515",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "08",
+          "label": "Fonds de fonds \"Multicap Croissance\" n° 2",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 72,
+          "line": 72,
+          "field": "PLF AE 2027 ; action 08 ; page 72",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10516",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 0,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 0,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 0,
+        "action_cells_sha256": "59f634e86e5c44ff2616fd1ebc0d0415d8173e946ed758568f65eefca014985c"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 500,
+        "materiality_bound_cents": 0,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -109143,17 +110159,153 @@
             "plf_euros": 0,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "03",
+          "label": "Industrie du futur",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 69,
+          "line": 69,
+          "field": "PLF CP 2027 ; action 03 ; page 69",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11269",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "04",
+          "label": "Adaptation et qualification de la main d'oeuvre",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 70,
+          "line": 70,
+          "field": "PLF CP 2027 ; action 04 ; page 70",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11270",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "05",
+          "label": "Concours d'innovation",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 71,
+          "line": 71,
+          "field": "PLF CP 2027 ; action 05 ; page 71",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11271",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "06",
+          "label": "Fonds national d'amorçage n° 2",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 71,
+          "line": 71,
+          "field": "PLF CP 2027 ; action 06 ; page 71",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11272",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "07",
+          "label": "Fonds à l'internationalisation des PME",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 72,
+          "line": 72,
+          "field": "PLF CP 2027 ; action 07 ; page 72",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11273",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "08",
+          "label": "Fonds de fonds \"Multicap Croissance\" n° 2",
+          "cents": 0,
+          "source": "aba89aa415accd31d7d0",
+          "sha256": "aba89aa415accd31d7d010b4c2f2685e649ac0bb320c2fe11ba7342c05a85b8f",
+          "source_format": "pdf",
+          "page": 72,
+          "line": 72,
+          "field": "PLF CP 2027 ; action 08 ; page 72",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11274",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 0,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 0,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 0,
+        "action_cells_sha256": "468dd4de48e30bc441cddf255781a519f0392b067acc065e88a015b7cef77017"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 500,
+        "materiality_bound_cents": 0,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -133138,17 +134290,63 @@
               }
             }
           ]
+        },
+        {
+          "code": "13",
+          "label": "Recherche partenariale dans le développement et l'aménagement durable",
+          "cents": 0,
+          "source": "0a2dd4f6e98d8c7d1bea",
+          "sha256": "0a2dd4f6e98d8c7d1bea740c2d3f43889ea328e108016665e5419f6ce1a3e5b9",
+          "source_format": "pdf",
+          "page": 307,
+          "line": 307,
+          "field": "PLF AE 2027 ; action 13 ; page 307",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10825",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 149079615700,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 149079615700,
+        "action_cells_sha256": "29c48e8efbabe7248aa37517534a348594a8a88359e73a43d6af07df96db308c"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 300,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -133527,17 +134725,63 @@
               }
             }
           ]
+        },
+        {
+          "code": "13",
+          "label": "Recherche partenariale dans le développement et l'aménagement durable",
+          "cents": 0,
+          "source": "0a2dd4f6e98d8c7d1bea",
+          "sha256": "0a2dd4f6e98d8c7d1bea740c2d3f43889ea328e108016665e5419f6ce1a3e5b9",
+          "source_format": "pdf",
+          "page": 307,
+          "line": 307,
+          "field": "PLF CP 2027 ; action 13 ; page 307",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11583",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 153501125600,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 153501125600,
+        "action_cells_sha256": "5953889ca0833511bcfc74bfb40d3e9c3ef75e506a1ef4aa9eba329d8600d289"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 300,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -147210,17 +148454,63 @@
             "plf_euros": 5150000,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "18",
+          "label": "Projets régionaux de santé",
+          "cents": 0,
+          "source": "72a8b2495eb53f68fa82",
+          "sha256": "72a8b2495eb53f68fa828db6da4ce08384ac3ff2e59ec994c8a823dcc2a77c0a",
+          "source_format": "pdf",
+          "page": 60,
+          "line": 60,
+          "field": "PLF AE 2027 ; action 18 ; page 60",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10884",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 30933327800,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 30933327800,
+        "action_cells_sha256": "0df420751396214a0f7740d8550d2635b47837c9f7ccac968a7080b166f0c99b"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 500,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -147593,17 +148883,63 @@
             "plf_euros": 5150000,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "18",
+          "label": "Projets régionaux de santé",
+          "cents": 0,
+          "source": "72a8b2495eb53f68fa82",
+          "sha256": "72a8b2495eb53f68fa828db6da4ce08384ac3ff2e59ec994c8a823dcc2a77c0a",
+          "source_format": "pdf",
+          "page": 60,
+          "line": 60,
+          "field": "PLF CP 2027 ; action 18 ; page 60",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11642",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 31073325800,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 31073325800,
+        "action_cells_sha256": "d707fb4b551f3d99a74173405e8f2002c192f665b84c54217d93664bf48363c2"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 500,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -158234,17 +159570,81 @@
             "plf_euros": 248292359,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "19",
+          "label": "Stratégie interministérielle de Prévention et de Lutte contre la Pauvreté des Enfants et des",
+          "cents": 0,
+          "source": "e811ea50cd1c53faab90",
+          "sha256": "e811ea50cd1c53faab90b9f3de4905317cf42ca49c447585067d12ae20425db8",
+          "source_format": "pdf",
+          "page": 56,
+          "line": 56,
+          "field": "PLF AE 2027 ; action 19 ; page 56",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10919",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "22",
+          "label": "Aide exceptionnelle de solidarité 3",
+          "cents": 0,
+          "source": "e811ea50cd1c53faab90",
+          "sha256": "e811ea50cd1c53faab90b9f3de4905317cf42ca49c447585067d12ae20425db8",
+          "source_format": "pdf",
+          "page": 58,
+          "line": 58,
+          "field": "PLF AE 2027 ; action 22 ; page 58",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10921",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 1478278057400,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 1478278057400,
+        "action_cells_sha256": "bb0037b5096a0f7cb5f7ea2fb67c3731acbce1f972c5973cab83ab73c30b9f82"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 600,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -158659,17 +160059,81 @@
             "plf_euros": 248292359,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "19",
+          "label": "Stratégie interministérielle de Prévention et de Lutte contre la Pauvreté des Enfants et des",
+          "cents": 0,
+          "source": "e811ea50cd1c53faab90",
+          "sha256": "e811ea50cd1c53faab90b9f3de4905317cf42ca49c447585067d12ae20425db8",
+          "source_format": "pdf",
+          "page": 56,
+          "line": 56,
+          "field": "PLF CP 2027 ; action 19 ; page 56",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11677",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "22",
+          "label": "Aide exceptionnelle de solidarité 3",
+          "cents": 0,
+          "source": "e811ea50cd1c53faab90",
+          "sha256": "e811ea50cd1c53faab90b9f3de4905317cf42ca49c447585067d12ae20425db8",
+          "source_format": "pdf",
+          "page": 58,
+          "line": 58,
+          "field": "PLF CP 2027 ; action 22 ; page 58",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11679",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 1478338057400,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 1478338057400,
+        "action_cells_sha256": "a19371ad85d9a4048e276b62304ae5c5a7b07c3fb988b7f6d1d638224856d8ad"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 600,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -161926,17 +163390,63 @@
             "plf_euros": 484737958,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "06",
+          "label": "Service National Universel",
+          "cents": 0,
+          "source": "ef8021e35beb7a74da16",
+          "sha256": "ef8021e35beb7a74da16ea7524839e14127e265287496e92d6748fb9b90fcdb9",
+          "source_format": "pdf",
+          "page": 103,
+          "line": 103,
+          "field": "PLF AE 2027 ; action 06 ; page 103",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10926",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 63793833600,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 63793833600,
+        "action_cells_sha256": "02ee0e19e34d2cbd8968955da4d9951b4b8a6a3e6289d9c8c8724fc87331f81e"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 250,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -162099,17 +163609,63 @@
             "plf_euros": 484737958,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "06",
+          "label": "Service National Universel",
+          "cents": 0,
+          "source": "ef8021e35beb7a74da16",
+          "sha256": "ef8021e35beb7a74da16ea7524839e14127e265287496e92d6748fb9b90fcdb9",
+          "source_format": "pdf",
+          "page": 103,
+          "line": 103,
+          "field": "PLF CP 2027 ; action 06 ; page 103",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11684",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 63793833600,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 63793833600,
+        "action_cells_sha256": "912dd8b3fa6ede8bf41c93b7eae114bf292e45e5f0192735d764ef2a7a697a36"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 250,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -162576,17 +164132,63 @@
             "plf_euros": 0,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "03",
+          "label": "Autres dépenses liées aux Jeux olympiques et paralympiques 2030",
+          "cents": 0,
+          "source": "ef8021e35beb7a74da16",
+          "sha256": "ef8021e35beb7a74da16ea7524839e14127e265287496e92d6748fb9b90fcdb9",
+          "source_format": "pdf",
+          "page": 122,
+          "line": 122,
+          "field": "PLF AE 2027 ; action 03 ; page 122",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10933",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 6160000000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 6160000000,
+        "action_cells_sha256": "f24631214f7519897db2c6a80e7c301b053f5ff2c27d8e70f039dd69064189d8"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -162707,17 +164309,63 @@
             "plf_euros": 50700000,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "03",
+          "label": "Autres dépenses liées aux Jeux olympiques et paralympiques 2030",
+          "cents": 0,
+          "source": "ef8021e35beb7a74da16",
+          "sha256": "ef8021e35beb7a74da16ea7524839e14127e265287496e92d6748fb9b90fcdb9",
+          "source_format": "pdf",
+          "page": 122,
+          "line": 122,
+          "field": "PLF CP 2027 ; action 03 ; page 122",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11691",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 11230000000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 11230000000,
+        "action_cells_sha256": "97e6f338ac7aca445bc9ed190e7c955b0627ee15f31268b23039fb37a95d613d"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 200,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -171868,17 +173516,81 @@
             "plf_euros": 44699133,
             "fdc_euros": 130968
           }
+        },
+        {
+          "code": "04",
+          "label": "Lutte contre le travail illégal",
+          "cents": 0,
+          "source": "e3e695ae44e20689332b",
+          "sha256": "e3e695ae44e20689332bc9af2bdc599634cee5323254679949d23bd7e85f3b34",
+          "source_format": "pdf",
+          "page": 189,
+          "line": 189,
+          "field": "PLF AE 2027 ; action 04 ; page 189",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11024",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "06",
+          "label": "Renforcement de la prévention en santé au travail",
+          "cents": 0,
+          "source": "e3e695ae44e20689332b",
+          "sha256": "e3e695ae44e20689332bc9af2bdc599634cee5323254679949d23bd7e85f3b34",
+          "source_format": "pdf",
+          "page": 189,
+          "line": 189,
+          "field": "PLF AE 2027 ; action 06 ; page 189",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11025",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 8266354500,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 8266354500,
+        "action_cells_sha256": "937025e2b913bb2504e2798522fce1c7d134847257e203f908eae775445fbdf7"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 300,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -172041,17 +173753,81 @@
             "plf_euros": 44176051,
             "fdc_euros": 130968
           }
+        },
+        {
+          "code": "04",
+          "label": "Lutte contre le travail illégal",
+          "cents": 0,
+          "source": "e3e695ae44e20689332b",
+          "sha256": "e3e695ae44e20689332bc9af2bdc599634cee5323254679949d23bd7e85f3b34",
+          "source_format": "pdf",
+          "page": 189,
+          "line": 189,
+          "field": "PLF CP 2027 ; action 04 ; page 189",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11782",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "06",
+          "label": "Renforcement de la prévention en santé au travail",
+          "cents": 0,
+          "source": "e3e695ae44e20689332b",
+          "sha256": "e3e695ae44e20689332bc9af2bdc599634cee5323254679949d23bd7e85f3b34",
+          "source_format": "pdf",
+          "page": 189,
+          "line": 189,
+          "field": "PLF CP 2027 ; action 06 ; page 189",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11783",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 8214046300,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 8214046300,
+        "action_cells_sha256": "cf06bff14582299838b802400f007fdad18c55e32da302c60fc4f30a1d912aec"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 300,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -173064,17 +174840,63 @@
             "plf_euros": 19457861,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "39",
+          "label": "Formations à des métiers de la santé et du soin",
+          "cents": 0,
+          "source": "eb0da739b80a21b733d6",
+          "sha256": "eb0da739b80a21b733d6e1f27eb98cd8ac247cd9620fc17297667c7f4c7aca4c",
+          "source_format": "pdf",
+          "page": 52,
+          "line": 52,
+          "field": "PLF AE 2027 ; action 39 ; page 52",
+          "documentary_note": "Unité absente de l’en-tête du tableau de crédits; EUR déduit par concordance du même programme et exercice avec une synthèse explicitement en M€. Cette réserve reste visible. Zéro imprimé pour le PLF uniquement; ne signifie pas coût nul, absence de gestion, de reports ou de transferts. Unité absente de l’en-tête du tableau de crédits; EUR déduit par concordance du même programme et exercice avec une synthèse explicitement en M€. Cette réserve reste visible. Zéro imprimé pour le PLF uniquement; ne signifie pas coût nul, absence de gestion, de reports ou de transferts.",
+          "audit_key": "initial:11041",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 201042710600,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 201042710600,
+        "action_cells_sha256": "385a5d6dec86dc2375629c77dca76e730a82597bbad50e2a1af3ba27533ddc03"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 850,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -173741,17 +175563,63 @@
             "plf_euros": 19338990,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "39",
+          "label": "Formations à des métiers de la santé et du soin",
+          "cents": 0,
+          "source": "eb0da739b80a21b733d6",
+          "sha256": "eb0da739b80a21b733d6e1f27eb98cd8ac247cd9620fc17297667c7f4c7aca4c",
+          "source_format": "pdf",
+          "page": 52,
+          "line": 52,
+          "field": "PLF CP 2027 ; action 39 ; page 52",
+          "documentary_note": "Unité absente de l’en-tête du tableau de crédits; EUR déduit par concordance du même programme et exercice avec une synthèse explicitement en M€. Cette réserve reste visible. Zéro imprimé pour le PLF uniquement; ne signifie pas coût nul, absence de gestion, de reports ou de transferts. Unité absente de l’en-tête du tableau de crédits; EUR déduit par concordance du même programme et exercice avec une synthèse explicitement en M€. Cette réserve reste visible. Zéro imprimé pour le PLF uniquement; ne signifie pas coût nul, absence de gestion, de reports ou de transferts.",
+          "audit_key": "initial:11799",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 205586663300,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 205586663300,
+        "action_cells_sha256": "9aef29c9a1eaeb8540db48e7d9ef44fc864bd9b131655305632e0ca57619c78a"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 850,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -177868,17 +179736,63 @@
             "plf_euros": 41800000,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "02",
+          "label": "Promotion et distribution des publications",
+          "cents": 0,
+          "source": "c654596a9c38a4bfe8eb",
+          "sha256": "c654596a9c38a4bfe8ebd474055861b68c09fe8861285702ecec2267cd237674",
+          "source_format": "pdf",
+          "page": 77,
+          "line": 77,
+          "field": "PLF AE 2027 ; action 02 ; page 77",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:10426",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 10064910500,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 10064910500,
+        "action_cells_sha256": "c2f946814f59a56b06ce5864838394fc2ea850d51565236ee048c2c690482545"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 250,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -178041,17 +179955,63 @@
             "plf_euros": 41800000,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "02",
+          "label": "Promotion et distribution des publications",
+          "cents": 0,
+          "source": "c654596a9c38a4bfe8eb",
+          "sha256": "c654596a9c38a4bfe8ebd474055861b68c09fe8861285702ecec2267cd237674",
+          "source_format": "pdf",
+          "page": 77,
+          "line": 77,
+          "field": "PLF CP 2027 ; action 02 ; page 77",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11184",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 10048310500,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 10048310500,
+        "action_cells_sha256": "14220a3cbe76af8be2bb3c702725cced559f819795144a945cb7e91e586aaec2"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 250,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -181704,17 +183664,81 @@
             "plf_euros": 62000000,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "06",
+          "label": "Sécurisation des fils nus (hors faible section)",
+          "cents": 0,
+          "source": "7f039136f90eb2f0da98",
+          "sha256": "7f039136f90eb2f0da98d66feb0486d1c59ccabf98ebbfa0295dd89f5c340648",
+          "source_format": "pdf",
+          "page": 28,
+          "line": 28,
+          "field": "PLF AE 2027 ; action 06 ; page 28",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11123",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "07",
+          "label": "Sécurisation des fils nus de faible section",
+          "cents": 0,
+          "source": "7f039136f90eb2f0da98",
+          "sha256": "7f039136f90eb2f0da98d66feb0486d1c59ccabf98ebbfa0295dd89f5c340648",
+          "source_format": "pdf",
+          "page": 28,
+          "line": 28,
+          "field": "PLF AE 2027 ; action 07 ; page 28",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11124",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 35530000000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 35530000000,
+        "action_cells_sha256": "a404aba32ae176de2ea2be5efff48a597a93322888f392717f14503d09d8cd3d"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 500,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -182045,17 +184069,81 @@
             "plf_euros": 62000000,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "06",
+          "label": "Sécurisation des fils nus (hors faible section)",
+          "cents": 0,
+          "source": "7f039136f90eb2f0da98",
+          "sha256": "7f039136f90eb2f0da98d66feb0486d1c59ccabf98ebbfa0295dd89f5c340648",
+          "source_format": "pdf",
+          "page": 28,
+          "line": 28,
+          "field": "PLF CP 2027 ; action 06 ; page 28",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11881",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "07",
+          "label": "Sécurisation des fils nus de faible section",
+          "cents": 0,
+          "source": "7f039136f90eb2f0da98",
+          "sha256": "7f039136f90eb2f0da98d66feb0486d1c59ccabf98ebbfa0295dd89f5c340648",
+          "source_format": "pdf",
+          "page": 28,
+          "line": 28,
+          "field": "PLF CP 2027 ; action 07 ; page 28",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11882",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 35530000000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 35530000000,
+        "action_cells_sha256": "f6e7bb6545f1d412806363cef045f3f7aad6d9c86de0b273a76be00dd853a791"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 500,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -191182,17 +193270,99 @@
             "plf_euros": 200000000,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "02",
+          "label": "Avances de l'article L. 2337-2 du code général des collectivités territoriales",
+          "cents": 0,
+          "source": "3c286dcaa3f4cc750b47",
+          "sha256": "3c286dcaa3f4cc750b4790f396fcacb721071ffe78f5a0ca5fccfb186205f741",
+          "source_format": "pdf",
+          "page": 23,
+          "line": 23,
+          "field": "PLF AE 2027 ; action 02 ; page 23",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11143",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "03",
+          "label": "Avances de l'article 34 de la loi n° 53-1336 du 31 décembre 1953 (avances spéciales sur",
+          "cents": 0,
+          "source": "3c286dcaa3f4cc750b47",
+          "sha256": "3c286dcaa3f4cc750b4790f396fcacb721071ffe78f5a0ca5fccfb186205f741",
+          "source_format": "pdf",
+          "page": 24,
+          "line": 24,
+          "field": "PLF AE 2027 ; action 03 ; page 24",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11144",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "04",
+          "label": "Avances à la Nouvelle-Calédonie, au titre de la fiscalité du nickel",
+          "cents": 0,
+          "source": "3c286dcaa3f4cc750b47",
+          "sha256": "3c286dcaa3f4cc750b4790f396fcacb721071ffe78f5a0ca5fccfb186205f741",
+          "source_format": "pdf",
+          "page": 24,
+          "line": 24,
+          "field": "PLF AE 2027 ; action 04 ; page 24",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11145",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF AE",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 20600000000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 20600000000,
+        "action_cells_sha256": "637e12aeaa4f7ab5aad2113e87989799a980ff7e0c0326a902eda5ab6ec1d2dc"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 300,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,
@@ -191313,17 +193483,99 @@
             "plf_euros": 200000000,
             "fdc_euros": 0
           }
+        },
+        {
+          "code": "02",
+          "label": "Avances de l'article L. 2337-2 du code général des collectivités territoriales",
+          "cents": 0,
+          "source": "3c286dcaa3f4cc750b47",
+          "sha256": "3c286dcaa3f4cc750b4790f396fcacb721071ffe78f5a0ca5fccfb186205f741",
+          "source_format": "pdf",
+          "page": 23,
+          "line": 23,
+          "field": "PLF CP 2027 ; action 02 ; page 23",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11901",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "03",
+          "label": "Avances de l'article 34 de la loi n° 53-1336 du 31 décembre 1953 (avances spéciales sur",
+          "cents": 0,
+          "source": "3c286dcaa3f4cc750b47",
+          "sha256": "3c286dcaa3f4cc750b4790f396fcacb721071ffe78f5a0ca5fccfb186205f741",
+          "source_format": "pdf",
+          "page": 24,
+          "line": 24,
+          "field": "PLF CP 2027 ; action 03 ; page 24",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11902",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
+        },
+        {
+          "code": "04",
+          "label": "Avances à la Nouvelle-Calédonie, au titre de la fiscalité du nickel",
+          "cents": 0,
+          "source": "3c286dcaa3f4cc750b47",
+          "sha256": "3c286dcaa3f4cc750b4790f396fcacb721071ffe78f5a0ca5fccfb186205f741",
+          "source_format": "pdf",
+          "page": 24,
+          "line": 24,
+          "field": "PLF CP 2027 ; action 04 ; page 24",
+          "documentary_note": "Zéro réellement imprimé au total de l’action, année PLF, colonne AE/CP, unité EUR explicite et équilibre du programme contrôlés ; page primaire vue. Aucune intégration. Ne pas sommer ces actions à leur programme ni leurs sous-actions aux actions. Aucune absence ou blanc transformé en zéro ; valeurs originales conservées. Le zéro porte seulement sur les crédits proposés en PLF de cette action et cette année ; il ne démontre ni un coût nul de la politique ni une absence d’exécution, reports ou transferts.",
+          "audit_key": "initial:11903",
+          "source_description": {
+            "document": "Tableau officiel",
+            "column": "PLF CP",
+            "precision": "Montant annuel du document source ; réserves documentaires conservées. "
+          }
         }
       ],
       "review_required": false,
-      "reconciliation_note": "Les montants 2027 sont proposés dans le PLF. Détail du PAP rapproché exactement du total publié ; les zéros sont ceux explicitement imprimés.",
+      "reconciliation_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
       "reconciliation": {
         "status": "exact",
         "difference_cents": 0,
+        "rounding_bound_cents": 100,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
         "accepted": true
       },
       "action_sum_minus_parent_cents": 0,
-      "published_total_minus_parent_cents": 0
+      "published_total_minus_parent_cents": 0,
+      "published_total_origin": "unchanged_canonical_programme_facts",
+      "published_total_cents": 20600000000,
+      "partial_action_coverage": true,
+      "annual_complement_review": {
+        "batch_id": "annual-complements-3916-20261015",
+        "receipt_sha256": "4be4d4d477f6ca57e85d28528a36575b2e94cee7aaae48061f072c6e11995395",
+        "baseline_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+        "financial_certification": false,
+        "coverage_complete": false,
+        "coverage_kind": "official_inventory_not_demonstrated",
+        "known_missing_actions": [],
+        "parent_reference_kind": "unchanged_canonical_programme_facts",
+        "parent_cents": 20600000000,
+        "action_cells_sha256": "79905eba427b4a5790c414a442d51fff36b6bfad8e1e4f9c09df14d8a8dcf939"
+      },
+      "action_reconciliation": {
+        "status": "exact",
+        "difference_cents": 0,
+        "rounding_bound_cents": 300,
+        "materiality_bound_cents": 1000,
+        "automatic_limit_cents": 1000,
+        "review_required": false,
+        "accepted": true
+      }
     },
     {
       "year": 2027,

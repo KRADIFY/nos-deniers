@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-15T12:12:32.647077+00:00",
+  "positions": 3916,
+  "old_facts": 141942,
+  "new_raw_facts": 137,
+  "new_raw_facts_all_zero": true,
+  "new_notices": 3916,
+  "new_sources": 398,
+  "new_assets": 398,
+  "reused_sources": 227,
+  "staged_db_sha256": "294db873306f3947f5589b8937120413534b2c09d80ab1ad6f3555838db41c96",
+  "base_db_sha256": "41c1e5c21cf6f78c5e15b5c9f72e36cfba5ff3a1309c40de6ee8518cb7d83a00",
+  "application_modified": false,
+  "metadata_finalization_pending": true,
+  "engine_validation_pending": true
+}

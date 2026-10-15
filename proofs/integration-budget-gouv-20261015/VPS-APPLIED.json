@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "at": "2026-10-15T15:23:33.344650+00:00",
+  "database_sha256": "ef3e0846e52e82577336293de3e2ba12ef307784f1a38406f597af8201680ed5",
+  "image_id": "sha256:c883bb343e204f4f91e070125b2837844e4eddf8fdf32fd7c6ce02507e8bfc6e",
+  "image_tag": "lexmachine-budget:20261015-complements-3916-v2",
+  "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752",
+  "fact_count": 142079,
+  "web_checks": [
+    {
+      "service": "web1",
+      "port": 8552,
+      "ready": true,
+      "fact_count": 142079,
+      "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752",
+      "http_samples": 4
+    },
+    {
+      "service": "web2",
+      "port": 8556,
+      "ready": true,
+      "fact_count": 142079,
+      "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752",
+      "http_samples": 4
+    },
+    {
+      "service": "web3",
+      "port": 8557,
+      "ready": true,
+      "fact_count": 142079,
+      "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752",
+      "http_samples": 4
+    },
+    {
+      "service": "web4",
+      "port": 8558,
+      "ready": true,
+      "fact_count": 142079,
+      "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752",
+      "http_samples": 4
+    }
+  ],
+  "assets_added": 398,
+  "new_asset_files_sha256_verified": 398,
+  "new_http_amount_provenance_checks": 16,
+  "new_http_asset_downloads": 0,
+  "reused_first_attempt": {
+    "manifest_sha256": "94b56715ddb6f5a2b8de1f80f6a82063cb59895b38065dcc696257aae480fb54",
+    "transaction_sha256": "91f08ea7fda7b41a52140f45d30a735fb3a353a71eeb1169a8fb9606904c0697",
+    "controller_sha256": "0bf887cfed0804e674c7a13db92b2047f71eeeff6d4d7b04a21faa6368392f1c",
+    "http_amount_provenance_checks": 128,
+    "asset_downloads_sha256_verified": 398,
+    "download_evidence": "The immutable controller reaches other_unchanged only after all 398 download SHA assertions; the exact recorded application_error is from that subsequent check.",
+    "external_change": {
+      "container": "datamairies-public-web-1",
+      "changes": {
+        "id": {
+          "before": "44c7ced30c6b29ee40898ee08f38c935ef5b92ac37e0e7598d5e5679710921b4",
+          "now": "5599f3a8c57a3e0f2d08a157ea04c6c9935e8abbc099db495897cff8ae95b186"
+        },
+        "image": {
+          "before": "sha256:45d1361eddac7e173ce3964d3b7a900f3f70b365f74ff415c0c9d4352f804a18",
+          "now": "sha256:dbccbc05bf16f47a9f4466bee20a3624675a3924289291cb723cfd7252edb502"
+        },
+        "started_at": {
+          "before": "2026-10-15T12:19:18.458789613Z",
+          "now": "2026-10-15T15:02:36.954774142Z"
+        }
+      },
+      "current": {
+        "id": "5599f3a8c57a3e0f2d08a157ea04c6c9935e8abbc099db495897cff8ae95b186",
+        "image": "sha256:dbccbc05bf16f47a9f4466bee20a3624675a3924289291cb723cfd7252edb502",
+        "image_tag": "datamairies:mairiedata-20261015-02",
+        "started_at": "2026-10-15T15:02:36.954774142Z",
+        "running": true,
+        "health": "healthy",
+        "mounts": [],
+        "service": "web",
+        "project": "datamairies-public"
+      }
+    }
+  },
+  "external_changes_during_retry": [
+    {
+      "container": "datamairies-public-web-1",
+      "fields": {
+        "id": {
+          "before": "5599f3a8c57a3e0f2d08a157ea04c6c9935e8abbc099db495897cff8ae95b186",
+          "after": "e01dc4cac39c6b9b974c78e95a73da6f833e7931ec5440dcf0b99ef9618e5740"
+        },
+        "image": {
+          "before": "sha256:dbccbc05bf16f47a9f4466bee20a3624675a3924289291cb723cfd7252edb502",
+          "after": "sha256:174f034037175e5bb0507ce0da90a3829407eaf8dc3fe94c5e1c338a5d805e32"
+        },
+        "started_at": {
+          "before": "2026-10-15T15:02:36.954774142Z",
+          "after": "2026-10-15T15:18:57.533369471Z"
+        }
+      },
+      "controller_action": "none"
+    }
+  ],
+  "other_containers_unchanged_during_retry": false,
+  "other_containers_modified_by_this_controller": false,
+  "proxy_configuration_preserved": true,
+  "manifest_sha256": "7957b31458dd625463421de69e8a5b0b1175e857670c8b51de672e82b75a8ecb",
+  "global_financial_certification": false
+}

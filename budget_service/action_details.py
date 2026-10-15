@@ -103,12 +103,13 @@ def public_row(row):
 
 def published_row(item, base, group, level='action'):
     label = ('action ' + item['code']) if level == 'action' else ('action ' + base['action'] + ' · sous-action ' + item['code'])
-    spreadsheet=group.get('source_format') in ('xls','xlsx')
+    source=item.get('source',group['source'])
+    spreadsheet=item.get('source_format',group.get('source_format')) in ('xls','xlsx')
     page=None if spreadsheet else item.get('page',group['page'])
     precision=('Montant publié au centime dans la synthèse RAP. ' if spreadsheet else 'Montant publié à l’euro dans le RAP. ')+display_note(group)
     row = dict(public_row(base), **{level: item['code'], level + '_label': item['label']},
                title='', category='', cents=action_cents(item),
-               source=group['source'], line=item['line'] if spreadsheet else page, page=page,
+               source=source, line=item['line'] if spreadsheet else page, page=page,
                field=item['field'] if spreadsheet else f"{group['stage']} {group['measure']} {group['year']} · {label} · colonne Total (hors FdC/AdP prévus)",
                approximate=int((not spreadsheet and group['stage'] == 'EXEC') or bool(group.get('reconciliation',{}).get('difference_cents'))),
                precision=precision,
@@ -117,12 +118,18 @@ def published_row(item, base, group, level='action'):
         column='FdC/AdP attendus, prévision distincte' if group['stage']=='FDC_PREVU' else 'Total des crédits proposés, hors FdC/AdP'
         row['precision']='Montant publié à l’euro dans le PAP 2027. '+display_note(group)
         row['field']=f"{group['stage']} {group['measure']} 2027 · {label} · PAP p. {page} · {column}"
-    description=group.get('source_description')
+    description=item.get('source_description') or group.get('source_description')
     if description:
         row['precision']=row['_detail_note']=description['precision']+display_note(group)
         row['field']=(f"{group['stage']} {group['measure']} {group['year']} · {label} · "
                       f"{description['document']} p. {page} · {description['column']}")
     if spreadsheet:row['source_location']=item['source_location']
+    if group.get('annual_complement_review'):
+        if item.get('field'):row['field']=item['field']
+        if item.get('documentary_note'):
+            for field in ('precision','_detail_note'):
+                if item['documentary_note'] not in row[field]:
+                    row[field] += ' ' + item['documentary_note']
     if item.get('amount_kind')=='reconstructed':
         rec=group['action_reconstruction']
         row['reconstruction']={k:rec[k] for k in ('method','formula','title2_parent','ht2_components','scope_proof','citations')}
@@ -141,6 +148,22 @@ def published_row(item, base, group, level='action'):
             row['precision']=precision+' '+note
             row['_detail_comparisons']=review.get('citations',[])
     return row
+
+
+def verified_sources(group, db):
+    dependencies = {(group['source'], group['sha256'])}
+    pending = list(group['actions'])
+    while pending:
+        item = pending.pop()
+        if 'source' in item:
+            expected = item.get('sha256') or (group['sha256'] if item['source'] == group['source'] else None)
+            dependencies.add((item['source'], expected))
+        pending.extend(item.get('subactions', []))
+    for source, expected in dependencies:
+        entry = db.execute('SELECT data FROM sources WHERE id=?', (source,)).fetchone()
+        if not expected or not entry or json.loads(entry[0]).get('sha256') != expected:
+            return False
+    return True
 
 
 def attach(records, db):
@@ -166,9 +189,13 @@ def attach(records, db):
             match = True
         if len(parents) != len(expected) or unmatched or match is not True:
             continue
-        entry = db.execute('SELECT data FROM sources WHERE id=?', (group['source'],)).fetchone()
-        if not entry or json.loads(entry[0]).get('sha256') != group['sha256']:
+        if not verified_sources(group, db):
             continue
+        if group.get('annual_complement_review') or group.get('partial_action_coverage') is True:
+            try:
+                validate_action(group)
+            except (AssertionError,KeyError,ValueError,TypeError):
+                continue
         parent = parents[0]
         comparison=assess_difference(published_cents(group),sum(p['cents'] for p in parents))
         action_comparison=assess_difference(sum(action_cents(a) for a in group['actions']),sum(p['cents'] for p in parents),len(group['actions']))
@@ -185,13 +212,17 @@ def attach(records, db):
                 # Retain original programme facts when this reviewed identity is stale.
                 continue
         show_disagreement=published_disagreement(group)
-        needs_review=(bool(group.get('review_required')) or (not reconstructed and not comparison['accepted']) or not action_comparison['accepted']) and not show_disagreement
-        if comparison['status']=='source_difference' or needs_review or reconstructed:
+        partial = group.get('partial_action_coverage') is True
+        needs_review=(bool(group.get('review_required')) or (not partial and ((not reconstructed and not comparison['accepted']) or not action_comparison['accepted']))) and not show_disagreement
+        if partial:
+            parent['_partial_action_coverage'] = True
+        if comparison['status']=='source_difference' or needs_review or reconstructed or partial:
             note=display_note(group) or difference_note(comparison if not comparison['accepted'] else action_comparison)
             parent['_detail_note']=note
             parent['precision']=note
-            parent['_detail_comparison']=dict(source=group['source'],page=group.get('total_page',group.get('page')))
-            if group.get('source_location'):parent['_detail_comparison']['source_location']=group['source_location']
+            if not group.get('annual_complement_review'):
+                parent['_detail_comparison']=dict(source=group['source'],page=group.get('total_page',group.get('page')))
+                if group.get('source_location'):parent['_detail_comparison']['source_location']=group['source_location']
         if reconstructed:
             parent['_detail_comparisons']=[c for c in group['action_reconstruction']['citations'] if c['page']]
         if needs_review:
@@ -264,7 +295,7 @@ def excluded_parts(row, fine):
             return [], False, False
         removed.extend(parts)
         complete += int(full)
-    full = bool(children) and complete == len(children)
+    full = bool(children) and complete == len(children) and not row.get('_partial_action_coverage')
     return ([public_row(row)] if full else removed), full, True
 
 
@@ -363,8 +394,9 @@ def annotations(values):
             for citation in row.get('reconstruction',{}).get('citations',[]):
                 if citation not in extra['citations']:extra['citations'].append(citation)
         extra['spreadsheet_cells']=[dict(source=s,sheet=sheet,column=column,row=row)
-            for s,sheet,column,row in sorted({(r['source'],r['source_location']['sheet'],r['source_location']['column'],r['source_location']['row'])
-                for r in used if r.get('source_location')})]
+            for s,sheet,column,row in sorted({(r['source'],r['source_location']['sheet'],r['source_location']['column'],line)
+                for r in used if r.get('source_location')
+                for line in r['source_location'].get('rows',[r['source_location']['row']])})]
     reconstruction_sources={c['source'] for r in used for c in r.get('reconstruction',{}).get('citations',[])}
     return sorted({r['source'] for r in used}|reconstruction_sources|{c['source'] for warning in disagreements for c in warning['citations']}), ' '.join(notes), extra
 

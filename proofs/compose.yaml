@@ -1,7 +1,7 @@
 name: nos-deniers-public
 
 x-web: &web
-  image: lexmachine-budget:20261013-complements-budget-gouv
+  image: lexmachine-budget:20261015-complements-3916-v2
   pull_policy: never
   init: true
   user: "10001:10001"
