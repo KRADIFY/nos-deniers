@@ -1,0 +1,1 @@
+{"cap_usd": 2.0, "compute_absent_confirmed": true, "deadline": 1792143991.4848557, "halt_reason": "controller_exit", "halted": true, "input_sha256": "4a01bc3ae0aec7e10dccc74aa99cb8b84944fa774d8dbbef7f17aa04e1b0a499", "job_name": "nos-deniers-archives-pap-20261016-4a01bc3ae0ae", "max_rate_usd_h": 4.6, "pod_ids": ["wpvg8odzvpxooj"], "started_at": 1792142822.6536868}

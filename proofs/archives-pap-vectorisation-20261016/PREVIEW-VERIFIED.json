@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "source_searches": 5,
+  "dense_document_witnesses": 5,
+  "candidate_status": {
+    "available": true,
+    "state": "ready",
+    "documents": 5683,
+    "passages": 4996538,
+    "version": "nos-deniers-retrieval-1",
+    "supplement_documents": 1244,
+    "supplement_passages": 945105,
+    "supplement_generated_at": "2026-10-16T09:47:17.336514+00:00",
+    "generated_at": "2026-09-19T16:54:21.766499+00:00",
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "method": "Texte intégral + recherche dense BGE-M3 + reclassement sparse des candidats",
+    "numeric_facts_certified": false,
+    "message": "Recherche documentaire disponible, avec références aux sources."
+  },
+  "lexical_checks": [
+    {
+      "source_id": "0d79bcc64f5822da3ce5",
+      "found": true,
+      "method": "document_sha"
+    },
+    {
+      "source_id": "99af6e9c5d5088d59b7a",
+      "found": true,
+      "method": "document_sha"
+    },
+    {
+      "source_id": "b63fffbf386d1c2661b1",
+      "found": true,
+      "method": "document_sha"
+    },
+    {
+      "source_id": "1f4867e41d5983d81ddf",
+      "found": true,
+      "method": "document_sha"
+    },
+    {
+      "source_id": "9a6c25bb008740d2c200",
+      "found": true,
+      "method": "document_sha"
+    }
+  ],
+  "dense_checks": [
+    {
+      "source_id": "0d79bcc64f5822da3ce5",
+      "dense_self_retrieved": true,
+      "rank": 1
+    },
+    {
+      "source_id": "99af6e9c5d5088d59b7a",
+      "dense_self_retrieved": true,
+      "rank": 1
+    },
+    {
+      "source_id": "b63fffbf386d1c2661b1",
+      "dense_self_retrieved": true,
+      "rank": 1
+    },
+    {
+      "source_id": "1f4867e41d5983d81ddf",
+      "dense_self_retrieved": true,
+      "rank": 1
+    },
+    {
+      "source_id": "9a6c25bb008740d2c200",
+      "dense_self_retrieved": true,
+      "rank": 1
+    }
+  ],
+  "no_public_activation": true
+}

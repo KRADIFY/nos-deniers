@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "indexed_documents": 5683,
+  "indexed_passages": 4996538,
+  "new_documents": 5,
+  "new_passages": 1817,
+  "release": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+  "backup": "D:\\ChatGPT\\docker\\budget\\outputs\\vectorisation-archives-pap-20261016\\local-before-activation",
+  "financial_database_sha256_unchanged": "578a0a6134ee50e58f722f7feea9c8c9e68ec532765ffacb989b69a72d6df1e3",
+  "data_version_unchanged": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752",
+  "other_containers_unchanged": true,
+  "candidate_dense_checks": 5,
+  "local_full_encoder_query_exercised": false
+}

@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "domains": [
+    {
+      "domain": "budget.lexmachine.net",
+      "passages": 4996538,
+      "documents": 5683,
+      "facts": 142079
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "passages": 4996538,
+      "documents": 5683,
+      "facts": 142079
+    }
+  ],
+  "sources": [
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "0d79bcc64f5822da3ce5",
+      "text_search": true,
+      "source_metadata": true,
+      "source_sha256": "b1d43ac64ece8667fc51cb81ae96c701f953ce5471d56ad6964c55199abac6d6"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "99af6e9c5d5088d59b7a",
+      "text_search": true,
+      "source_metadata": true,
+      "source_sha256": "17732d1316874dff094e5ecfb886f99d0676770b257d7fc1d66f04d74cea22bd"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "b63fffbf386d1c2661b1",
+      "text_search": true,
+      "source_metadata": true,
+      "source_sha256": "6127973acf76426f6aa3ba94840483c3d0d4701ae66b490aed1dda055444122e"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "1f4867e41d5983d81ddf",
+      "text_search": true,
+      "source_metadata": true,
+      "source_sha256": "cf23b9b371c1959f15b442990b9c482edb018ba0b8f5f8f757b3fad747adc7c7"
+    },
+    {
+      "domain": "budget.lexmachine.net",
+      "source_id": "9a6c25bb008740d2c200",
+      "text_search": true,
+      "source_metadata": true,
+      "source_sha256": "328576a9eeaf1ea15cfe4953b88c9d143f61cf183193abac0b7d11ec04ca5489"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "0d79bcc64f5822da3ce5",
+      "text_search": true,
+      "source_metadata": true,
+      "source_sha256": "b1d43ac64ece8667fc51cb81ae96c701f953ce5471d56ad6964c55199abac6d6"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "99af6e9c5d5088d59b7a",
+      "text_search": true,
+      "source_metadata": true,
+      "source_sha256": "17732d1316874dff094e5ecfb886f99d0676770b257d7fc1d66f04d74cea22bd"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "b63fffbf386d1c2661b1",
+      "text_search": true,
+      "source_metadata": true,
+      "source_sha256": "6127973acf76426f6aa3ba94840483c3d0d4701ae66b490aed1dda055444122e"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "1f4867e41d5983d81ddf",
+      "text_search": true,
+      "source_metadata": true,
+      "source_sha256": "cf23b9b371c1959f15b442990b9c482edb018ba0b8f5f8f757b3fad747adc7c7"
+    },
+    {
+      "domain": "budgetecolo.lexmachine.net",
+      "source_id": "9a6c25bb008740d2c200",
+      "text_search": true,
+      "source_metadata": true,
+      "source_sha256": "328576a9eeaf1ea15cfe4953b88c9d143f61cf183193abac0b7d11ec04ca5489"
+    }
+  ],
+  "downloads": [
+    {
+      "source_id": "0d79bcc64f5822da3ce5",
+      "download_sha256": "b1d43ac64ece8667fc51cb81ae96c701f953ce5471d56ad6964c55199abac6d6"
+    },
+    {
+      "source_id": "99af6e9c5d5088d59b7a",
+      "download_sha256": "17732d1316874dff094e5ecfb886f99d0676770b257d7fc1d66f04d74cea22bd"
+    },
+    {
+      "source_id": "b63fffbf386d1c2661b1",
+      "download_sha256": "6127973acf76426f6aa3ba94840483c3d0d4701ae66b490aed1dda055444122e"
+    },
+    {
+      "source_id": "1f4867e41d5983d81ddf",
+      "download_sha256": "cf23b9b371c1959f15b442990b9c482edb018ba0b8f5f8f757b3fad747adc7c7"
+    },
+    {
+      "source_id": "9a6c25bb008740d2c200",
+      "download_sha256": "328576a9eeaf1ea15cfe4953b88c9d143f61cf183193abac0b7d11ec04ca5489"
+    }
+  ],
+  "hybrid": [
+    {
+      "query": "hebergement logement adapte pensions famille",
+      "methods": [
+        "dense",
+        "sparse_rerank",
+        "text"
+      ],
+      "results": 20
+    },
+    {
+      "query": "credits autorisations engagement paiements",
+      "methods": [
+        "dense",
+        "sparse_rerank",
+        "text"
+      ],
+      "results": 20
+    },
+    {
+      "query": "fiscalite grandes entreprises",
+      "methods": [
+        "dense",
+        "sparse_rerank",
+        "text"
+      ],
+      "results": 20
+    }
+  ],
+  "completed_at": "2026-10-16T09:55:16.994911+00:00",
+  "financial_facts_and_version_unchanged": true,
+  "documentary_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb"
+}

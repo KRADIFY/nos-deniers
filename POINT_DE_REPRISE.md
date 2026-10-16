@@ -1,3 +1,14 @@
+# Version publiée et sauvegardée — 16 octobre 2026
+
+- Chemin permanent : D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main, KRADIFY/nos-deniers. Commit courant : git log -1 ; reçu GIT-PUSH-VERIFIED.json dans budget/outputs/vectorisation-archives-pap-20261016.
+- Cinq PDF officiels PAP ajoutés au catalogue et à la recherche, 90 autres déjà indexés conservés. Les deux sites Budget et Budgetécolo ont été vérifiés.
+- Base documentaire SHA 8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb, 142 079 faits et version financière inchangés. Sauvegarde complète compressée dans proofs/budget.sqlite.gz ; les notices RAP 2019 déjà publiées sont incluses.
+- Recherche : 5683 documents / 4996538 passages. Seul le montage du supplément2 utilise la release 20261016-archives-pap-vectorisation ; anciens index conservés. Protocole tableaux et preuves dans proofs/archives-pap-vectorisation-20261016.
+- Aucun changement des montants, du moteur budgétaire, du code applicatif, des styles, des démos ou de PLFSS. PDF et index massifs conservés hors Git ; références de restauration dans proofs/VERSION-EN-LIGNE-20261016-ARCHIVES.json.
+- Suite : exploiter le balayage 2017–2027 déjà terminé, puis audit financier en Astra Ultra ; pas d'intégration financière automatique à partir de l'index.
+
+## Historique conservé
+
 # Point de reprise — Nos Deniers PLF, 15 octobre 2026
 
 - Chemin permanent : D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; branche main, remote origin https://github.com/KRADIFY/nos-deniers.git. Contrôle depuis cette racine : `git status --short --branch`, `git log -1 --oneline` et `git ls-remote origin refs/heads/main`.

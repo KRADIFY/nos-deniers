@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "all_old_sql_records_identical": true,
+  "old_record_fingerprints": {
+    "passages": {
+      "records": 348856,
+      "sha256": "613530c4100b96b9faeb0aa550dac8235305fbb17395507e2b641bfbb3dd0405"
+    },
+    "documents": {
+      "records": 978,
+      "sha256": "9583a95d6d1df763de2100be5858f467850190c9f1b167b3d882e4f58879331b"
+    },
+    "citations": {
+      "records": 351194,
+      "sha256": "56509dd88c93744227820c1e8b3fb270b484d4d85b34e48784bc674a7620c959"
+    },
+    "parts": {
+      "records": 45,
+      "sha256": "2a22d6a98da6cb0cb262937b9856056ceb4ba0939c6255d046fa7bea84c11f7f"
+    }
+  },
+  "old_dense_ids_codes_identical": true,
+  "old_dense_proof_sha256": "c596c69c43cd6456c23f4230e9b564a1d62562a4608ab49a3f4df16e9769b6fa",
+  "previous_passages": 348856,
+  "encoded_passages_checked": 1817,
+  "new_passages": 1817,
+  "reused_passages": 0,
+  "new_documents": 5,
+  "counts": {
+    "passages": 350673,
+    "documents": 983,
+    "citations": 353011
+  },
+  "part_checks": [
+    {
+      "file": "part-000000.sqlite",
+      "vectors_checked": 1817
+    }
+  ],
+  "input_sha256": "4a01bc3ae0aec7e10dccc74aa99cb8b84944fa774d8dbbef7f17aa04e1b0a499",
+  "base_input_sha256": "5089bcdcd395be8c371f4ed99961b46251120a744d61a7349b3b27b8687ce442",
+  "manifest_sha256": "c549d3a10da02aaea2bb2490b12a31e9220f5cbde21aa6ea4ce57ebe2622992a",
+  "files": [
+    {
+      "path": "search.sqlite",
+      "bytes": 1719107584,
+      "sha256": "a116db537827d8e8fe3fffdae9998bd66e10a3186cee8861729fd0b5d2850705"
+    },
+    {
+      "path": "dense.faiss",
+      "bytes": 362083488,
+      "sha256": "1b23e600670dfbd975eb5cba5d201ec43547badfdf96a961b722a02c02fce3d1"
+    }
+  ]
+}

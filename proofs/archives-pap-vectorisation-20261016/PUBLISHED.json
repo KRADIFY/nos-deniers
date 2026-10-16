@@ -1,0 +1,60 @@
+{
+  "published": true,
+  "time": "2026-10-16T09:53:12.021655+00:00",
+  "new_documents": 5,
+  "new_passages": 1817,
+  "previous_passages_preserved": 4994721,
+  "indexed_documents": 5683,
+  "indexed_passages": 4996538,
+  "new_index": "/opt/nos-deniers/releases/20261016-archives-pap-vectorisation/search-supplement2",
+  "previous_index_retained": "/opt/nos-deniers/releases/20261015-complements-vectorisation/search-supplement2",
+  "backup": "/opt/nos-deniers/staging/20261016-archives-pap-vectorisation/backup-before-activation",
+  "financial_database_sha256_unchanged": "578a0a6134ee50e58f722f7feea9c8c9e68ec532765ffacb989b69a72d6df1e3",
+  "data_version_unchanged": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752",
+  "facts_unchanged": 142079,
+  "other_containers_unchanged": true,
+  "application_image_and_styles_unchanged": true,
+  "all_three_collections_mounted": true,
+  "instances": [
+    {
+      "port": 8552,
+      "passages": 4996538,
+      "documents": 5683,
+      "fact_count": 142079,
+      "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752"
+    },
+    {
+      "port": 8556,
+      "passages": 4996538,
+      "documents": 5683,
+      "fact_count": 142079,
+      "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752"
+    },
+    {
+      "port": 8557,
+      "passages": 4996538,
+      "documents": 5683,
+      "fact_count": 142079,
+      "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752"
+    },
+    {
+      "port": 8558,
+      "passages": 4996538,
+      "documents": 5683,
+      "fact_count": 142079,
+      "data_version": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752"
+    }
+  ],
+  "files": [
+    {
+      "path": "search.sqlite",
+      "bytes": 1719107584,
+      "sha256": "a116db537827d8e8fe3fffdae9998bd66e10a3186cee8861729fd0b5d2850705"
+    },
+    {
+      "path": "dense.faiss",
+      "bytes": 362083488,
+      "sha256": "1b23e600670dfbd975eb5cba5d201ec43547badfdf96a961b722a02c02fce3d1"
+    }
+  ]
+}

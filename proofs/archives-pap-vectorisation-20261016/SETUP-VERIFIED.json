@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-16T09:24:26.892483+00:00",
+  "passed": true,
+  "current_database_sha256": "578a0a6134ee50e58f722f7feea9c8c9e68ec532765ffacb989b69a72d6df1e3",
+  "documents": 5,
+  "pages": 395,
+  "reused_indexed_documents": 90,
+  "new_campaign_cap_usd": 2.0,
+  "max_rate_usd_h": 4.6,
+  "new_persistent_volume": false,
+  "existing_campaigns_untouched": true,
+  "origins": {
+    "prepare_sources.py": {
+      "origin": "D:\\ChatGPT\\docker\\budget\\outputs\\vectorisation-complements-20261015\\prepare_sources.py",
+      "origin_sha256": "ecc9f380b4a4fab8d54f7caf07da0f11e7bd21f2eb42317447ba4aa7c82644b8",
+      "new_sha256": "ca46318c9dac93ebf12c73b5e5e3492c4442363604320e575148ab93e9bfe244"
+    },
+    "export_and_verify.py": {
+      "origin": "D:\\ChatGPT\\docker\\budget\\outputs\\vectorisation-complements-20261015\\export_and_verify.py",
+      "origin_sha256": "591306ff68322ba40ee2005f662816ca585d1694f96c770bd0d6db3fa0bc778e",
+      "new_sha256": "93f626c7abc7857df73a209bffecec1ae1bcabee958dc7d5ee8d6b3a1a0352ae"
+    },
+    "build_append.py": {
+      "origin": "D:\\ChatGPT\\docker\\budget\\outputs\\vectorisation-complements-20261015\\build_append.py",
+      "origin_sha256": "ffa32e4ce2679cef1cfae4f76b8cde1d4aa4b1620075cefd66c04d58f0384520",
+      "new_sha256": "17fc47fcc23c8e0d16328ec267c8cb39fcc986e85b015a62964eaa9872035ef2"
+    },
+    "check_candidate.py": {
+      "origin": "D:\\ChatGPT\\docker\\budget\\outputs\\vectorisation-complements-20261015\\check_candidate.py",
+      "origin_sha256": "77034fd8e7de5797bfa11bd820bf78a1c63505710770da4af43c147c5253fb2c",
+      "new_sha256": "0277a82e613bada258aaad55c4ffacf2c36632b356850cc9a5974d3ce7b6b634"
+    },
+    "finish_index.py": {
+      "origin": "D:\\ChatGPT\\docker\\budget\\outputs\\vectorisation-complements-20261015\\finish_index.py",
+      "origin_sha256": "555151bc8f5740f16eeedf6b5c03f4bbcf6c4c3da3ff35605fe2fe3b63c43b3f",
+      "new_sha256": "739a9a091679487e3b5ea2af277fd7aeae071cd16b4d6d85d31afcfa70829160"
+    },
+    "activate_local.py": {
+      "origin": "D:\\ChatGPT\\docker\\budget\\outputs\\vectorisation-complements-20261015\\activate_local.py",
+      "origin_sha256": "094350226f311f485b557c2c9cfdef6d4e11f3691c820cc146a353373b316c04",
+      "new_sha256": "4b19e41ff1a5ce08f84d1ff597a96ce21a49f31b9b648fe2f30ac40bc9d4cac1"
+    },
+    "verify_public.py": {
+      "origin": "D:\\ChatGPT\\docker\\budget\\outputs\\vectorisation-complements-20261015\\verify_public.py",
+      "origin_sha256": "62a871652e2bb5377fdc45efee7defefcef8c56f915694c8ec5d27a570fa6134",
+      "new_sha256": "62a871652e2bb5377fdc45efee7defefcef8c56f915694c8ec5d27a570fa6134"
+    }
+  },
+  "controller_origins_root": "D:\\ChatGPT\\docker\\budget\\outputs\\vectorisation-complements-20261015\\runpod\\controller",
+  "frozen_controller_sha256": {
+    "bootstrap_budget_guard.py": "14525404d09fb096d69406a231127cc39771f03fe6eca9bc446794f7ada63541",
+    "campaign_budget.py": "b0d558b1339571be7cab618e88a7ba29a29282948603c791c296f0989c33c1a1",
+    "checkpoint_store.py": "0de1194ec0ff83de805c73054c20061e299cbf4c1aad576da81aad0ec92012ab",
+    "invoke.sh": "9c113dc4cc7ae0ee0bce431a22982624099530419cd70ee6af3099ef468e5eba",
+    "pod_safety_guard.py": "6156c9ee70c1f01d8bba3d56b00e88dfa9be4d0a9fad09034990e1ef7227e7a8",
+    "remote_worker.py": "6d7efe9270b4fb77b19c99897be9a496de2da1f62247bf1167b7140844ee7677",
+    "runpod_controller.py": "d48612615f655f41792c3450d56973b69eb3cfe8964a9fe31784482f3642ebd8",
+    "selftest.py": "89b1fe0eacd894c8b509c8b624e427965cce906b9da522b6ed64f0758dde75ba",
+    "settings.py": "c318cf3c325e3408fc9ba2bad58dd7e7512a41fdf98774009f8dd695c3306c5b",
+    "test_final_safety.py": "86bb30b81b488f79ed1414e51be98c7549ace76991b6eb080c7620bd3d1d05f8",
+    "test_transport_retry.py": "0a159bd9552da1400364ea81e71d336a2d239346f2c04f80a676f84a7a5fdd3d",
+    "vendor/bge_encoder.py": "190f3acd8012a11cb20eeaf92bcd1e3edb416ed4ab179a119788822fe8c6279d",
+    "vendor/hatvp_core.py": "f238c021ddcaec43c2073a2d9b4db25ed9a9d77e651af30b1b0c1d24c44071e7",
+    "vendor/runpod_embedding_job_resilient.py": "d34d68217b91628b32c7a7d8614a28adb53c302e956aa1f9afe6e6862cec94f0"
+  }
+}

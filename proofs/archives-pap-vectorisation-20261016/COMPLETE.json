@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-16T09:55:18.128463+00:00",
+  "passed": true,
+  "encoded_documents": 5,
+  "encoded_passages": 1817,
+  "new_index_passages": 1817,
+  "indexed_documents": 5683,
+  "indexed_passages": 4996538,
+  "reused_existing_documents": 90,
+  "documentary_sources_added": 5,
+  "source_count": 5631,
+  "database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "financial_facts_unchanged": 142079,
+  "financial_version_unchanged": "522b5e8ff1e502ffa3a173fb1552e20651729eee0e1a33c0bbb52c2c90650752",
+  "old_passages_preserved": true,
+  "both_public_sites_verified": true,
+  "local_activation_verified": true,
+  "runpod_pod_deleted": true,
+  "campaign_cap_usd": 2.0,
+  "final_balance_usd": 10.1552146371,
+  "git_backup_pending": true,
+  "financial_audit_not_started": true
+}

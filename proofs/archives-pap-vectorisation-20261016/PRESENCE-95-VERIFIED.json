@@ -1,0 +1,1214 @@
+{
+  "at": "2026-10-16T09:24:26.414532+00:00",
+  "sources": [
+    {
+      "sha256": "ed199b335fcace410254f65f62884010947da990a0688712ffeefe0a222f0fb7",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Action_exterieure_Etat_AA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "6ceb9e71e41f154b88dee214a99020b57038ce9a7643c0957069e7b489228157",
+          "source_id": "bdb50e8cef9e9d15d576",
+          "citations": 855
+        }
+      ]
+    },
+    {
+      "sha256": "8ca2100c126795128ffd040142a7e5308c3ce910f9fab8fd3e7b447cfea53514",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Administration_generale_territoriale_Etat_AB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "b48e883fdebc79f4fd7d519c84d09e95de84260c5db37f36115103c6197a1ac6",
+          "source_id": "8ca2100c126795128ffd",
+          "citations": 965
+        }
+      ]
+    },
+    {
+      "sha256": "b0ee007891e7e0d283fa54dbf22d4f23a88197b2398c124321f71a3fa87b14f8",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Agriculture_alimentation_foret_affaires_rurales_AC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "b95beb083e8214f75859693976815db173960451b50875f108aafe6735480845",
+          "source_id": "b0ee007891e7e0d283fa",
+          "citations": 1097
+        }
+      ]
+    },
+    {
+      "sha256": "dc4dc4283330feb4c1446b8bab92f54ef32762cb27f43ddce9885dbd8a2402b3",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Aide_publique_developpement_AD.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "2bea594d35215ffe462021bfeccf0297ac3b245bd27f29fe09aac14a10d8e0b7",
+          "source_id": "dc4dc4283330feb4c144",
+          "citations": 492
+        }
+      ]
+    },
+    {
+      "sha256": "244c81396561e21c2cdd458bfb46bb7baa4caf67b2e985d5f503d5de8c2f7ae4",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Investir_France_2030_AV.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "4b3b1bd4b060f1e4565eae2eb8d4be766a65d431a1ba4ec307cb0ab14913d50c",
+          "source_id": "244c81396561e21c2cdd",
+          "citations": 546
+        }
+      ]
+    },
+    {
+      "sha256": "79f14308c5540217bc8fadf6ed3d48120a3b95e16ae8e10dbc35cd780da6890c",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Conseil_controle_Etat_CA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "0b3d7dcf6c0a6f2119f2085672e6d8466b041c89a2f65f292e782331815a305d",
+          "source_id": "79f14308c5540217bc8f",
+          "citations": 653
+        }
+      ]
+    },
+    {
+      "sha256": "85e85b7b38d419c9ffea3b1280edf33512cb34a04e666d7651e858f26d11bc0b",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Culture_CB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "59c738dc5059cd72e93c6939304ab4390b616ecc9a9638e2c80e8e39b8fbde0f",
+          "source_id": "85e85b7b38d419c9ffea",
+          "citations": 1418
+        }
+      ]
+    },
+    {
+      "sha256": "ead873592d52796c64b820a70002f40bad1ed2b25e6780e54c47d35d73b52273",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Defense_DA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "8762534dd647139ae3d67bc191239e81ad76a3f88018ef508e6ec9a1519a06d4",
+          "source_id": "ead873592d52796c64b8",
+          "citations": 5215
+        }
+      ]
+    },
+    {
+      "sha256": "42823441a91663e84f10df7a4ae9c7bbbca22136e02d4371ff52ddd1e8e836b7",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Economie_DB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "a3104a7192cd1310ac2a4783ca46dcd9e1579591de8eb2afd1299f170b326c4c",
+          "source_id": "42823441a91663e84f10",
+          "citations": 950
+        }
+      ]
+    },
+    {
+      "sha256": "a0b36455149681f295031b8feccacafaca1c8613dc639e54e70112ebb6400ac9",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Direction_action_du_Gouvernement_DC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "3e3583b9177b8adb647cbe63c81fc9167e906df5bc2c2b0e65e2440bca8b98da",
+          "source_id": "a0b36455149681f29503",
+          "citations": 838
+        }
+      ]
+    },
+    {
+      "sha256": "92f6215b4a5e87ceb04eaf5222105405d6fc6d3d8388a9a8f1c4c667b5285c2f",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Engagements_financiers_Etat_EB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "5097099ff311bb3fd023bf44c65bdfca60bb1f7060b842a09d75d755414ddb7f",
+          "source_id": "92f6215b4a5e87ceb04e",
+          "citations": 590
+        }
+      ]
+    },
+    {
+      "sha256": "abc02c2a2500a5cafee95e2123c40d917e64b95b9837d4c5e69473c040976e4b",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Enseignement_scolaire_EC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "16deb58f079fd7bc72641345ab5a1d78f6cf2b278a8a16640257e3be1f78d1d6",
+          "source_id": "abc02c2a2500a5cafee9",
+          "citations": 2038
+        }
+      ]
+    },
+    {
+      "sha256": "9b475321d1770286ffc8120f230a5b2fcd06b78788fd03113e1cbcee728dceb2",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Gestion_finances_publiques_GA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "d1e0938b584ef68b0f132397e3dae7e5740ed30f31d63aaed4361aca2e0368ab",
+          "source_id": "9b475321d1770286ffc8",
+          "citations": 1190
+        }
+      ]
+    },
+    {
+      "sha256": "b3c4446e81f2192258bf6a1a7ccb853707be9937f9c95edf1497bc3cb366a67c",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Immigration_asile_integration_IA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "d60279c45f86f32668ff2d91e81d6cae7fc39469716ac558592acb033c1b2829",
+          "source_id": "b3c4446e81f2192258bf",
+          "citations": 395
+        }
+      ]
+    },
+    {
+      "sha256": "c3be0fcfeb01dbf86383b24255347c11a96698831cb0f65931aa99d1c13dab1b",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Justice_JA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "0fe848217495f77ae9e3bd02293cdd1870b2a888f708acae24a3a488972920c9",
+          "source_id": "c3be0fcfeb01dbf86383",
+          "citations": 1687
+        }
+      ]
+    },
+    {
+      "sha256": "890589da85af006c471ec971b73812eecb7cf0ac3d87fa09c47c98112cba6c21",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Medias_livre_industries_culturelles_MA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "b079f6e3978f3f6c6cf09cb2c5b74b3e753c6d6558682811e3b4b0248c927cb2",
+          "source_id": "890589da85af006c471e",
+          "citations": 431
+        }
+      ]
+    },
+    {
+      "sha256": "1c803aefb9432910c7c9fe1e6d8e17679ae8d666c3b24571774d5b5cf6021dde",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Monde_combattants_memoire_liens_nation_MB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "1f65e815ef8b7edf9480489079f5be899bd719c82bd4ec5f617109340a1cd078",
+          "source_id": "1c803aefb9432910c7c9",
+          "citations": 629
+        }
+      ]
+    },
+    {
+      "sha256": "456faa471059e07a8f1cecef72e3764712a51ebc6c176d8656f76445f1cce907",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Outre-mer_OA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "b8d6d31b52e602ecbfb460e1eb363a84b8e4b6d80309bae27b10b0e80b59bd18",
+          "source_id": "456faa471059e07a8f1c",
+          "citations": 504
+        }
+      ]
+    },
+    {
+      "sha256": "b1d43ac64ece8667fc51cb81ae96c701f953ce5471d56ad6964c55199abac6d6",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Pouvoirs_publics_PB.pdf",
+      "catalogue_present": false,
+      "indexed": []
+    },
+    {
+      "sha256": "42b408575cca78e35e002fb7b2f3d6b29dc545472d0a95d9d0300bfe024cae27",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Credits_non_repartis_PC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "3862726336e66b86e02f07dadfedf2c1f929a7bcc2990ef40740e4033ce34323",
+          "source_id": "42b408575cca78e35e00",
+          "citations": 88
+        }
+      ]
+    },
+    {
+      "sha256": "80b825c97005db41f05c5cf27521fee8564257b1bd6872d21c83ada46125c619",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Recherche_enseignement_superieur_RA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "69fd7eaa864400ee530b1f064ef88e6f91c5e59a89a7864a86715fe2fd5b8207",
+          "source_id": "80b825c97005db41f05c",
+          "citations": 2210
+        }
+      ]
+    },
+    {
+      "sha256": "af70ff6aa925413f031b472108d16ea710b0dfbaef07b9dab2344a03f6293fd4",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Regimes_sociaux_retraite_RB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "bbf12153e8e252c146d919de1507f716de05e282f94d6e69f7a7005f6bd6d6ec",
+          "source_id": "af70ff6aa925413f031b",
+          "citations": 391
+        }
+      ]
+    },
+    {
+      "sha256": "1a0d11ba2007f8a524e751ded035065699545e0446d30eab25b25382d002af1b",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Relations_collectivites_territoriales_RC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "cc4d90969c5819b0c7ab68d30ca4abbe6dde0b78e6738bc9d295101d982742e5",
+          "source_id": "1a0d11ba2007f8a524e7",
+          "citations": 312
+        }
+      ]
+    },
+    {
+      "sha256": "246b2d9f8cb4dc0fec55f6de5b7c171c75046c2ae32ff5c3e5d927cd9a55e435",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Remboursements_degrevements_RD.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "ae87cfae3219a213a3910762d74c077c60775b8ebb7405b959075449ac56d464",
+          "source_id": "246b2d9f8cb4dc0fec55",
+          "citations": 241
+        }
+      ]
+    },
+    {
+      "sha256": "356c4b7ddf6ed47a710b018676d770bf11ca2ad8c901537a7301bda059f17c6e",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Sante_SA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "e748d8933270abe36e0f5f0ea732266f5e02ddad8d333ac53a6accf6f4af502f",
+          "source_id": "356c4b7ddf6ed47a710b",
+          "citations": 432
+        }
+      ]
+    },
+    {
+      "sha256": "20fd11785a678d7ae34252fa9324598971240e9957626aa0aac68fae55fc8875",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Securites_SB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "7dd8aac72cc280fe3fea6678e09c63c33c84db43908ab53c00e9df80d73c6a53",
+          "source_id": "20fd11785a678d7ae342",
+          "citations": 1302
+        }
+      ]
+    },
+    {
+      "sha256": "4dcbc9bd93809ba783840f1657fef3f2912870fe0f9c943ab3e26114dd9de06c",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Solidarite_insertion_egalite_chances_SE.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "b73db553f42eab119936442d3d4e13edb80a2755ec7d924778d2a08c9429a5c7",
+          "source_id": "4dcbc9bd93809ba78384",
+          "citations": 545
+        }
+      ]
+    },
+    {
+      "sha256": "ed5fce8fde7345c6f143bf51196372fe5ccd47f652b95dded3c39c88c8a67875",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Sport_jeunesse_vie_associative_SF.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "1b2b9be303f3f2eb43450f0ef19466bf6ae64327ad03d537e7fea2936d8899ae",
+          "source_id": "ed5fce8fde7345c6f143",
+          "citations": 645
+        }
+      ]
+    },
+    {
+      "sha256": "b353e4911e7ad97636876b971c9535418ffb459b34824f3883438ab76eba9659",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Ecologie_developpement_mobilites_durables_TA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "72854969e40e3bf3587bf0791ce4aef42d6a9d2038106bad3a4e34336b1cbf15",
+          "source_id": "b353e4911e7ad9763687",
+          "citations": 2830
+        }
+      ]
+    },
+    {
+      "sha256": "78803337e7ec790dc298eb5f8acdb4d0c73496d1a4e1f695fd816c0fe5d890d1",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Travail_emploi_TB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "6a9094e26c617364a4665a1485acc3302ed33ee7a845a9796a707243b85e1c4f",
+          "source_id": "78803337e7ec790dc298",
+          "citations": 1329
+        }
+      ]
+    },
+    {
+      "sha256": "974fb809a821c5fcd7b9b765f0c8360e50d2573956cdff5c8e8bc213ee9c4b84",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Transformation_fonction_publiques_TR.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "e4332edbe109f53f823c463b2c1550f772dcd1aceb9c821772f9fbd6bf44e106",
+          "source_id": "974fb809a821c5fcd7b9",
+          "citations": 505
+        }
+      ]
+    },
+    {
+      "sha256": "5ee5dac34097980afe65f9af04724d3c54ee8703ccd2008748c5bfa31f32c83e",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BG_Cohesion_territoires_VA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "477763a12b4de9d8445c863dab2f701670b760e5f3fbfff25bf129335ce37de0",
+          "source_id": "5ee5dac34097980afe65",
+          "citations": 1293
+        }
+      ]
+    },
+    {
+      "sha256": "5a0cf712969d6d042db27d1a5b598135e7182e32d9848b09eb46cf2dd8c75032",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BA_Controle_exploitation_aeriens_XC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "2d5b2ff77cbaaef3a6c351e691a1a55faa0e955fad65da3862c119551e9457c1",
+          "source_id": "5a0cf712969d6d042db2",
+          "citations": 625
+        }
+      ]
+    },
+    {
+      "sha256": "003fe02ca42d1d0233f1d0788af353a5db32b5f9a7a9aaef6c14aa9157d68289",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_BA_Publications_officielles_information_administrative_XJ.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "0ae0a4801f33ddabd3f65329edb83f9a08ea00135376470b1e9051608ba0fb7c",
+          "source_id": "003fe02ca42d1d0233f1",
+          "citations": 313
+        }
+      ]
+    },
+    {
+      "sha256": "05ffec541adf065be4723c90cb46168912e19e0d7745ad89d5ec832e1f1b4d1b",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CAS_Gestion_patrimoine_immobilier_Etat_YB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "85ddeaad23195f507b276c68461a18277d29d1b7e43850d2381a8dd10a405c53",
+          "source_id": "05ffec541adf065be472",
+          "citations": 113
+        }
+      ]
+    },
+    {
+      "sha256": "dbdc2dfc7660a9757e0e6e16d1086918f3f60767d3673d45ffc9dd9e7323dd3c",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CAS_Participations_financieres_Etat_YC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "5632e93b001dafe98f8a8e3e05c1729638964f01a520f265851086192927dbcb",
+          "source_id": "dbdc2dfc7660a9757e0e",
+          "citations": 197
+        }
+      ]
+    },
+    {
+      "sha256": "67d9a944877e687b6877ed6fe25ad136e69e2117e9dc2fd2571d37303ca1c973",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CAS_Pensions_YD.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "0d6319222401c51262a8c1c9824a4bc11a6c39a3012e095e1b138b69a6e91f4a",
+          "source_id": "67d9a944877e687b6877",
+          "citations": 382
+        }
+      ]
+    },
+    {
+      "sha256": "fecb00b02b3b75a5bcebcbea0037f2ae258f624d0bcfb667f6ae6b4022f43572",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CAS_Controle_circulation_routiers_YE.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "17405432fa4b9e07a0ac59243190e9492a00c04e0aac3f89c3e1a4b44c1e6b09",
+          "source_id": "fecb00b02b3b75a5bceb",
+          "citations": 277
+        }
+      ]
+    },
+    {
+      "sha256": "6903a34d5d362219a6be8c4ad37a905cb48c75fe95efb4c9b0b34edd0ba7ac78",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CAS_Developpement_agricole_rural_YF.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "22e581b7d148022feb823851d58b5418042dffd15852a50bfb672db3af183e9e",
+          "source_id": "6903a34d5d362219a6be",
+          "citations": 155
+        }
+      ]
+    },
+    {
+      "sha256": "09dcdce679bda45b90683984f8830b52ad4e29ce6a2ce9c5368d1ff1db1eccb2",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CAS_Financement_aides_collectivites_electrification_rurale_YK.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "adbaa762d0d98a7e5beb6477ac0b6f1cb8186eb8a50bce12cb6d8336bad04abb",
+          "source_id": "09dcdce679bda45b9068",
+          "citations": 137
+        }
+      ]
+    },
+    {
+      "sha256": "17732d1316874dff094e5ecfb886f99d0676770b257d7fc1d66f04d74cea22bd",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_COM_Comptes_operations_monetaires.pdf",
+      "catalogue_present": false,
+      "indexed": []
+    },
+    {
+      "sha256": "6127973acf76426f6aa3ba94840483c3d0d4701ae66b490aed1dda055444122e",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CCO_Comptes_commerce.pdf",
+      "catalogue_present": false,
+      "indexed": []
+    },
+    {
+      "sha256": "b652ea688be9bc459e9069cbbb393a55cce24db55befea066c3094ddea3322c6",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CCF_Avances_divers_services_ZB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "1af12dcd281c851cc6961f38d0471497e046c6d125a90a8cccd5b5de19ce65eb",
+          "source_id": "b652ea688be9bc459e90",
+          "citations": 292
+        }
+      ]
+    },
+    {
+      "sha256": "e2b49bb2f75ed8d077189369d2f8c92c53871d6117e805d43f8f06e7173f45bc",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CCF_Avances_collectivites_territoriales_ZC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "3986bf1c98d7f20253a2f09bbcbd61ab97f8f3b85273d78f35092a6d82492fd1",
+          "source_id": "e2b49bb2f75ed8d07718",
+          "citations": 157
+        }
+      ]
+    },
+    {
+      "sha256": "f9c29792531a925b8c869523fb7f71e5208d8be99a737445211328909a9a40f0",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CCF_Avances_audiovisuel_public_ZD.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "999afeb47b8ca046f461101b54eed4a876ff468bebe6c6c064630cbbc681cca5",
+          "source_id": "f9c29792531a925b8c86",
+          "citations": 628
+        }
+      ]
+    },
+    {
+      "sha256": "b49d821be70a66abfd363fc80d7c9f1f1f55ed66935ec5afaa736894dcb7e05d",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CCF_Prets_Etats_etrangers_ZE.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "c003ddbf9379258d80adce702674583a227972f4133e41599bba1e58c984ddf2",
+          "source_id": "b49d821be70a66abfd36",
+          "citations": 187
+        }
+      ]
+    },
+    {
+      "sha256": "4fae070d2aea1d1b024cbf2ea1ab3121d7468d68e40160717a470e082a5db1ac",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2026\\PAP2026_CS_CCF_Prets_avances_particuliers_organismes_prives_ZF.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2",
+          "reference_id": "64108001f0e1bf7c244677aeb0ad1e5542546f172d250a69249ef5e9cbbc1567",
+          "source_id": "4fae070d2aea1d1b024c",
+          "citations": 221
+        }
+      ]
+    },
+    {
+      "sha256": "16265bf1917f7269f686aef75ffef90e84e755539e4b826502b712262b5072b0",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Action_exterieure_Etat_AA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "755a97b8012c50e819a08add001f9cd37aff6f55e98fbe2984473dbf78b98ba0",
+          "source_id": "2cb2464f0fe96c516812",
+          "citations": 979
+        }
+      ]
+    },
+    {
+      "sha256": "e28fc72aeefd97df8781f3ecdc0403f81c1abf28a84cad8d619e4f9ee6ac417a",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Administration_generale_territoriale_Etat_AB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "2cb4aad8158e5bc1031162ddd321e3369ea414ec1f8c449eec4b83e576171b93",
+          "source_id": "d427db666f06f0aebc4a",
+          "citations": 1031
+        }
+      ]
+    },
+    {
+      "sha256": "cf23b9b371c1959f15b442990b9c482edb018ba0b8f5f8f757b3fad747adc7c7",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Agriculture_alimentation_foret_affaires_rurales_AC.pdf",
+      "catalogue_present": false,
+      "indexed": []
+    },
+    {
+      "sha256": "b036357439ef66e8ff2598a8b05a1591110a3b7e41ebf986800a1471fbb4f38d",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Aide_publique_developpement_AD.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "89b094280c3458625b00951ec1c7ecf56198b7947e1f1323c49804c0d7d9d5e1",
+          "source_id": "b45ec3d617e5df288357",
+          "citations": 502
+        }
+      ]
+    },
+    {
+      "sha256": "b4c8c921339c528dc5539a403ba4d4df02be7723ba6a6830f643dcc494f341e3",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Audiovisuel_Public_AQ.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "66f0bd6b5f9ac27283d0d86a9e475ed99e04cf69154930a03ed66dd1e3d29f39",
+          "source_id": "207e7e1c455e287dc049",
+          "citations": 667
+        }
+      ]
+    },
+    {
+      "sha256": "49443d4892507ffe2a0ea7e4a72a4b1896c90115fc867cca4aff6fb4e9bd655a",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Investir_France_2030_AV.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "235e1048b1e5e5776c5b1c2910069765b8a3bab3db865db73b55f3c7c47bcf7c",
+          "source_id": "0b6c982efe5ded4c9c25",
+          "citations": 547
+        }
+      ]
+    },
+    {
+      "sha256": "0c5c618ea74dea915755eaf8e6b60a64eb12fe95617219abc8e15569a391a123",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Conseil_controle_Etat_CA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "de1c1088bbc5684c2acd5cc32fb5e685a1fa00878099378335efb76a6475586a",
+          "source_id": "cba8568ed3a453482293",
+          "citations": 695
+        }
+      ]
+    },
+    {
+      "sha256": "be46113559cd49f50bf61df85e2949dd27d4bf3d45f069c0ad1779edde3f34c4",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Culture_CB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "d73e4286c3b53cb146fd858c8a571d26d4a4633e173420035a9d383dd7a2e77c",
+          "source_id": "cf5d39216ba0cb8446ac",
+          "citations": 1544
+        }
+      ]
+    },
+    {
+      "sha256": "246600a432c87917fa1175f3d53c87420e26f1d6310ca1985f7d431dfdb600c1",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Defense_DA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "a990bd2dba117aa9ff64c5f8c9cba5c3eba575f30ca7a1c153dd8e8706c90668",
+          "source_id": "b54a28efb1b15a2eda3b",
+          "citations": 4956
+        }
+      ]
+    },
+    {
+      "sha256": "1fdc15cdf670fc360b1355cc02fcf63171e7b810281b926d24308c04acac2614",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Economie_DB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "729e2b1aea5e2833f369819bf25abf89532b860ce35c0040f0b86d1817e8519c",
+          "source_id": "54b6527d80e8cc4f117e",
+          "citations": 1057
+        }
+      ]
+    },
+    {
+      "sha256": "567f071879e4d7eab6beff491180df0d65e5f3d66fa71d6f6bd0cb7e1e9fc6e7",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Direction_action_du_Gouvernement_DC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "c703c825d1d03081b5085730fcc27d71c210fdf3bbc91efacc3ebd1e432b01f1",
+          "source_id": "c649d84e8dcbc7264455",
+          "citations": 852
+        }
+      ]
+    },
+    {
+      "sha256": "062ff1ee189fdd5ace22fc6d66f1b94ecbd709aef9f9244f7c99c52bd493e528",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Engagements_financiers_Etat_EB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "c2e3138f2269606fd27be7ff0cae398ba0ab4fdf97d3e87427c0ed8a1207cfc9",
+          "source_id": "9accff7b790164da3018",
+          "citations": 629
+        }
+      ]
+    },
+    {
+      "sha256": "8d347c18a426ab0ebb7cb639801e083adfc265244f553bd41580ad1d56ecbb11",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Enseignement_scolaire_EC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "faa63db92ce985a10cf6461da21e7138cf27cea41e15f7638a32611ebfa4a876",
+          "source_id": "a72b59cf2c9d3de48677",
+          "citations": 2257
+        }
+      ]
+    },
+    {
+      "sha256": "a1a721b7e750d2f578dfc8efe37683817ba59ed3c5210b34aba0826bf5f8ac66",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Gestion_finances_publiques_GA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "62a292aac0b670d178a03f4414873df98a6cbca66d47b4cd548cb1b60d8591a8",
+          "source_id": "2b284531903562ae4e71",
+          "citations": 1215
+        }
+      ]
+    },
+    {
+      "sha256": "ab5068ac8296f9b267d92b89c70838b417333a48714b1126885bed56145732c0",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Immigration_asile_integration_IA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "c7d4d2dfd4f98aa52c603fd9b8b374a019f5a42974c2a48521bf9d594a4ddbba",
+          "source_id": "cce9f21092394afe3397",
+          "citations": 393
+        }
+      ]
+    },
+    {
+      "sha256": "e3212594fed181aac77bbd222034c760d464ffc05cd25485e22aa9ba327717d1",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Justice_JA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "d1ed1d2c836777b70eb08f1fc56543c8bd83cdab52fe8f72554448a0db525b2f",
+          "source_id": "1a6fc0584176e0e71181",
+          "citations": 1823
+        }
+      ]
+    },
+    {
+      "sha256": "a32265fbf7dfb766d4ee6274a0e59d86b0e43c46f11f0590a1267e4e7f10a8e5",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Medias_livre_industries_culturelles_MA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "8329a94384ea52f9f2c03d7a360ea8a1863aaba03eb38aceb0840ce48b536510",
+          "source_id": "30f289efdcd34d599bc4",
+          "citations": 452
+        }
+      ]
+    },
+    {
+      "sha256": "20aae827c70847c53892e1f551aeddb7dd8e952dbbf3a4d254092a99745a37b4",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Anciens_combattants_memoire_liens_nation_MB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "6fb38089ba5c613c680f07ac2aa70319829c2153410318f35c950a2dd9f742f7",
+          "source_id": "fe3e6c0b3814a7fffc37",
+          "citations": 579
+        }
+      ]
+    },
+    {
+      "sha256": "56d61020dc56b7e82eec49d7048f723d2ccd5b8c6137a4029ad1b55f021f7a3a",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Outre-mer_OA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "dbf1a2196ac7649c9339057ac239b726d356cde8cee12119649700ae8df0263d",
+          "source_id": "18cbcc61ce8bcae8b894",
+          "citations": 501
+        }
+      ]
+    },
+    {
+      "sha256": "01bb87a45d9bb1b02c090a9c4c1b155e232c2be5be2b23a0a48328cc066961bd",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Pouvoirs_publics_PB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "7fb138cc024a532bcec24008e2c244c503c2019a38a472607eed0910d22d0d05",
+          "source_id": "ee423a543162f369da8f",
+          "citations": 170
+        }
+      ]
+    },
+    {
+      "sha256": "7e297c1b7603a0c8281319d3c342932f5edab67d4caf1a650bdf89972639c2b6",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Credits_non_repartis_PC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "47f4af82ced821a65d92483d611b3a828b091342b2346443de2f6dc05c40d018",
+          "source_id": "18e73bd6e77c99f2a48a",
+          "citations": 86
+        }
+      ]
+    },
+    {
+      "sha256": "acedcde7e0fcdacf80ab2532f6c99933a71be680fa594e69e1c60b449d350fd7",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Plan_relance_PR.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "4c552fcdc2127d53f37e193f986b2318e4b580761847eb495f6847ab9b6d7e31",
+          "source_id": "0b0ac2a13b3b01dd16ab",
+          "citations": 279
+        }
+      ]
+    },
+    {
+      "sha256": "32777eabbc6383c9c1f379a6a6c6852957d4d7b91431151be65ae8d85d2fbb8a",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Recherche_enseignement_superieur_RA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "765574711c65cc0ec22e542a7c48163fdf1cc77a0119466909efee7fe731a77a",
+          "source_id": "2bb7ddf02c61e19a2af7",
+          "citations": 2331
+        }
+      ]
+    },
+    {
+      "sha256": "328576a9eeaf1ea15cfe4953b88c9d143f61cf183193abac0b7d11ec04ca5489",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Regimes_sociaux_retraite_RB.pdf",
+      "catalogue_present": false,
+      "indexed": []
+    },
+    {
+      "sha256": "63edb318620863e3ba0c659fae44147a56d5809513a6a28bbe0756f31ed4d07f",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Relations_collectivites_territoriales_RC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "9b6dc252205ec10faad36c1abd13198c6e8c3c5ae5f4841c9e400fda96507a8a",
+          "source_id": "86f8dd585d30046121f4",
+          "citations": 285
+        }
+      ]
+    },
+    {
+      "sha256": "ba5d5faee306d41bcda8f76cb556394113e3bb26b23f0da0454bd2852fa8fb95",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Remboursements_degrevements_RD.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "41b07951404af4897957cb03ab422c77422288c8343dae28548c1a0cd3d2c1ea",
+          "source_id": "e5364a72b758146bc918",
+          "citations": 235
+        }
+      ]
+    },
+    {
+      "sha256": "513adc15cef24739daf443e6005ac7019fb2d18c08c92ff773ff6bc2a55483e5",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Sante_SA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "0a57743a99c04cf28b4f9127ca1ef9636424101cbb38d532871c4c9144909e66",
+          "source_id": "9a156c0cc5f2cb7ca1d5",
+          "citations": 428
+        }
+      ]
+    },
+    {
+      "sha256": "eb277fbc47a99e9ce2c5be35d21a291013d3094bce8b78cde32f4453f67a3c74",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Securites_SB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "f3e6ec768cd68413fc7cb13c5417955861068fd77d57735115130d78f8dcd708",
+          "source_id": "9881989879081e706c51",
+          "citations": 1324
+        }
+      ]
+    },
+    {
+      "sha256": "bc4eb73bc00eb4bff22930666426fd65f25d978b6b5147d8994732381a9d12bf",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Solidarite_insertion_egalite_chances_SE.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "37e4807f9ea5db3f6c58b582c439bd1f93f33add0462cd217d282924b1e0ddb9",
+          "source_id": "2c48aab3ad37b899abfa",
+          "citations": 583
+        }
+      ]
+    },
+    {
+      "sha256": "a664d9168ad84f99eecf81df60b3530b70f2b6a41e0863a4185dc2e6b0f4526d",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Sport_jeunesse_vie_associative_SF.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "bdd683486d5811ea29fe4093ae2e63d6fdcb2ce634a83a76c9eafc15ba7924aa",
+          "source_id": "34e4d052e7121b884de9",
+          "citations": 705
+        }
+      ]
+    },
+    {
+      "sha256": "b7672d0f5258af38bc69d06858463983707c027c06df9c8b0f425c1f26cde26b",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Ecologie_developpement_mobilites_durables_TA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "68a42445881705de97deba887eb7e9301e3fc5e332dca54eba85a0dde35efefb",
+          "source_id": "3bd8c08e6bb6eea75dcf",
+          "citations": 2760
+        }
+      ]
+    },
+    {
+      "sha256": "7e4e51a7189c0e68f6b4086021ef0dd3f1a29d0d282c963540cf8e4b880a95eb",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Travail_emploi_TB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "eced650c9616f17dcc873b7998d58c868e2895e0a76c04d566cf3f625ca771b6",
+          "source_id": "ad7b18dfc52a93462b32",
+          "citations": 1287
+        }
+      ]
+    },
+    {
+      "sha256": "a1ea431a39f36e133ecaf44df7a964c546ca74685ace5d725c2457f9aa9dd41d",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Transformation_fonction_publiques_TR.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "843befd1af84fd771bf8bdcd99c56e43423f85007d59306b7690bb5448e3b808",
+          "source_id": "52a524303a6c9ab3c758",
+          "citations": 559
+        }
+      ]
+    },
+    {
+      "sha256": "9797b6d035988a91e9ce090656a5eae29039b7047d40d9b79dda95bc94192850",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BG_Cohesion_territoires_VA.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "252e5d95c88d63f20b773c2632c94202d8941b8a6f9d33ef4d5d6974f1878f17",
+          "source_id": "8a1f8fa45b814b86fd29",
+          "citations": 1288
+        }
+      ]
+    },
+    {
+      "sha256": "9fc92f5660f68cda1bae8218db2b4cded932e3efb5041c52b9fc98ce28ec1efb",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BA_Controle_exploitation_aeriens_XC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "8d422829a8438ef116da0cb0b704448516b1bd0f51e74db95736cb615f22b1e2",
+          "source_id": "43db3581db7594f43fbe",
+          "citations": 764
+        }
+      ]
+    },
+    {
+      "sha256": "6da15addf359f38ed9606a4a816b21f61b29627cb5968d7fa45a03b517001e15",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_BA_Publications_officielles_information_administrative_XJ.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "8e8ff00841e6a16cbc2f8a3acb1d831866a090807e33b0c8de91a0922f2c62af",
+          "source_id": "9fa3071563a2855fe23e",
+          "citations": 307
+        }
+      ]
+    },
+    {
+      "sha256": "7975c52b21ce947e1680516a2caed16788c332a01d63de01cc6fce41e5811c9a",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CAS_Gestion_patrimoine_immobilier_Etat_YB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "cadd9c97f936f4a863fe94229768318fad8dc11cdb92d892c4b9ce72c1fb71a3",
+          "source_id": "3c3d0516a55a667e714e",
+          "citations": 116
+        }
+      ]
+    },
+    {
+      "sha256": "e5b8224449fde1c0fce1301a914bc11678da22934ab19f9459c130f9b704ef80",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CAS_Participations_financieres_Etat_YC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "57e0f3c0c358fa60e8b319f8735bdb24f9b9f9a05fb5f895c0ad76b398f9ba70",
+          "source_id": "81a655c6204fd948affd",
+          "citations": 185
+        }
+      ]
+    },
+    {
+      "sha256": "45a51e43dbe039032782ccc85ac21f8b91239fd2b218ab36c6171b20d8cec98f",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CAS_Pensions_YD.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "6f2288f51d188df834fb6258d2b22feb9f9d001d6f839229369ea7acb5adcc64",
+          "source_id": "7b9ab666bfe1a4ceb54b",
+          "citations": 321
+        }
+      ]
+    },
+    {
+      "sha256": "1e3acd3700eb12e6723fade2dd68e90e4f699f72a28dbd510496d282649ee2b7",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CAS_Controle_circulation_routiers_YE.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "50d9cf495cf8ed653895d616e850baedf5875d2442f63dcec27c1e40b3ed27e7",
+          "source_id": "e7e7bfd8191f47d41767",
+          "citations": 281
+        }
+      ]
+    },
+    {
+      "sha256": "6c47a396bdf1f3324cbbdd6ec1912cfc9d4fd68d4d2a4baf7b980aae24f138c0",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CAS_Developpement_agricole_rural_YF.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "809762bdf767afc7d6cd58304cd0e5e5d91a071c7abfadfc977bcc81bdaa2208",
+          "source_id": "01926f2f963e3183298d",
+          "citations": 155
+        }
+      ]
+    },
+    {
+      "sha256": "f119a3cc3c16b4f7fa065a61be0d7f0c32251b0b3bc61e410749a0240c823f8d",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CAS_Financement_aides_collectivites_electrification_rurale_YK.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "063ea2dc140378bc219f5b6f29d17a8924f42a17286daf6f0c718fadbca42dc5",
+          "source_id": "59efd81810bcfe65a058",
+          "citations": 138
+        }
+      ]
+    },
+    {
+      "sha256": "fe1f509070346b95399be20277ef3a3817ad19bb9e4f91cda3ed672d546d8856",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_COM_Comptes_operations_monetaires.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "35507d70cec78b5ffb6964272909815e7d161ebc4f5b205d4f9222532debda2f",
+          "source_id": "756243102aaf0e54c483",
+          "citations": 37
+        }
+      ]
+    },
+    {
+      "sha256": "cacf59d334db6b1fb83fb258ec76c2f43554a1be791933193a3bccb9cb0dc49b",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CCO_Comptes_commerce.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "aaefd3c0495363c1581705438774cd45dc37e3e95acfd748b813402106c656eb",
+          "source_id": "c781d3ed6f2353596cf1",
+          "citations": 149
+        }
+      ]
+    },
+    {
+      "sha256": "e89df20fa45087f75ba1f787bd8d5f44fb46f10b9d3bb2eaa0f3559f9258fe20",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CCF_Avances_divers_services_ZB.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "add5cb73236822d08637c640c7b8acf433ef1bd18b7cb12a023ae2639a11b467",
+          "source_id": "37bd6eb15aa1fecb228e",
+          "citations": 287
+        }
+      ]
+    },
+    {
+      "sha256": "3db8e159fbe3cebe51cbb4105f80b5d2d1797fe1c2538523b201965b0f30df6f",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CCF_Avances_collectivites_territoriales_ZC.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "5806c262d23c75b754dfbfcaa6463ad102dca1b91210a67b3b38d0e23b1135b9",
+          "source_id": "f240912cd6d299c3e1b4",
+          "citations": 153
+        }
+      ]
+    },
+    {
+      "sha256": "cf2bb6111dad414f733206ecd8b70f3825d1d3d8eb96268e2a1d24d23aef789e",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CCF_Prets_Etats_etrangers_ZE.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "cf7c86af7560c3818cb6e1cfa8592b84fd11a5a1b51a03b3d629ce955f2ad64f",
+          "source_id": "a33e90625291bebb2372",
+          "citations": 184
+        }
+      ]
+    },
+    {
+      "sha256": "9349351d680303fd8574e6680dce1709a42609e221865c63d7672c3510a7b9d1",
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\archives-pap-extraites-20261016\\PAP-2025\\PAP2025_CS_CCF_Prets_avances_particuliers_organismes_prives_ZF.pdf",
+      "catalogue_present": true,
+      "indexed": [
+        {
+          "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+          "reference_id": "b17b572785200cbfe99bcee81e2b34d0d1353690dc332c8ac248418a60fd18cc",
+          "source_id": "bd41d71355bb54732dfb",
+          "citations": 223
+        }
+      ]
+    }
+  ],
+  "total": 95,
+  "already_indexed": 90,
+  "new_documents": 5,
+  "new_pages": 395,
+  "active_indices": [
+    "D:\\LexMachine\\NosDeniers\\search_20260919",
+    "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-index-supp1",
+    "D:\\ChatGPT\\docker\\budget\\releases\\20261015-complements-vectorisation\\search-supplement2"
+  ]
+}
