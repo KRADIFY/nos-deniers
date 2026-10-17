@@ -1,0 +1,1110 @@
+{
+  "passed": true,
+  "derived_sum_overlay_sha256": "8d804b477de90797c78aa8550a6c236b75f476903d1836acaa9b2d3951834408",
+  "changed_coordinate_references": [
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "source": "725671a96f66983c2718",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1515,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1514,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1515,
+      "raw_literal": "931 525 161",
+      "cents": 93152516100,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/02",
+      "source": "725671a96f66983c2718",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1516,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1515,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1516,
+      "raw_literal": "612 941 947",
+      "cents": 61294194700,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/03",
+      "source": "725671a96f66983c2718",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1517,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1516,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1517,
+      "raw_literal": "2 879 599",
+      "cents": 287959900,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "725671a96f66983c2718",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1519,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1518,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1519,
+      "raw_literal": "45 496",
+      "cents": 4549600,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "725671a96f66983c2718",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1520,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1519,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1520,
+      "raw_literal": "9 900 617",
+      "cents": 990061700,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/11",
+      "source": "725671a96f66983c2718",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1519,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1518,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1519,
+      "raw_literal": "45 496",
+      "cents": 4549600,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/12",
+      "source": "725671a96f66983c2718",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1520,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1519,
+        "column": 13,
+        "column_header": "EXEC AE 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1520,
+      "raw_literal": "9 900 617",
+      "cents": 990061700,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "source": "004cd50f706316484d7e",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1515,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1514,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1515,
+      "raw_literal": "931 525 161",
+      "cents": 93152516100,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/02",
+      "source": "004cd50f706316484d7e",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1516,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1515,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1516,
+      "raw_literal": "612 941 947",
+      "cents": 61294194700,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/03",
+      "source": "004cd50f706316484d7e",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1517,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1516,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1517,
+      "raw_literal": "2 879 599",
+      "cents": 287959900,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "004cd50f706316484d7e",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1519,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1518,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1519,
+      "raw_literal": "45 496",
+      "cents": 4549600,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "004cd50f706316484d7e",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1520,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1519,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1520,
+      "raw_literal": "7 321 862",
+      "cents": 732186200,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/11",
+      "source": "004cd50f706316484d7e",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1519,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1518,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1519,
+      "raw_literal": "45 496",
+      "cents": 4549600,
+      "original_frozen_proof_unchanged": true
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/12",
+      "source": "004cd50f706316484d7e",
+      "old_source_location": {
+        "sheet": "CSV",
+        "row": 1520,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017"
+      },
+      "new_source_location": {
+        "sheet": "CSV",
+        "row": 1519,
+        "column": 13,
+        "column_header": "EXEC CP 2017\nRAP 2017",
+        "row_basis": "logical_csv_record_including_header"
+      },
+      "physical_line_start": 1520,
+      "raw_literal": "7 321 862",
+      "cents": 732186200,
+      "original_frozen_proof_unchanged": true
+    }
+  ],
+  "checks": [
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "source": "725671a96f66983c2718",
+      "csv_record": 1510,
+      "physical_line_start": 1511,
+      "column": 13,
+      "cents": 6805071600
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/02",
+      "source": "725671a96f66983c2718",
+      "csv_record": 1511,
+      "physical_line_start": 1512,
+      "column": 13,
+      "cents": 4208783000
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/03",
+      "source": "725671a96f66983c2718",
+      "csv_record": 1512,
+      "physical_line_start": 1513,
+      "column": 13,
+      "cents": 45858700
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "source": "004cd50f706316484d7e",
+      "csv_record": 1510,
+      "physical_line_start": 1511,
+      "column": 13,
+      "cents": 6805071600
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/02",
+      "source": "004cd50f706316484d7e",
+      "csv_record": 1511,
+      "physical_line_start": 1512,
+      "column": 13,
+      "cents": 4208783000
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/03",
+      "source": "004cd50f706316484d7e",
+      "csv_record": 1512,
+      "physical_line_start": 1513,
+      "column": 13,
+      "cents": 45858700
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1615,
+      "physical_line_start": 1615,
+      "column": 13,
+      "cents": 6780841100
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/02",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1504,
+      "physical_line_start": 1504,
+      "column": 13,
+      "cents": 4172635900
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/03",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1022,
+      "physical_line_start": 1022,
+      "column": 13,
+      "cents": 48621900
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1615,
+      "physical_line_start": 1615,
+      "column": 14,
+      "cents": 6780841100
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/02",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1504,
+      "physical_line_start": 1504,
+      "column": 14,
+      "cents": 4172635900
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/03",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1022,
+      "physical_line_start": 1022,
+      "column": 14,
+      "cents": 48621900
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "source": "725671a96f66983c2718",
+      "csv_record": 1514,
+      "physical_line_start": 1515,
+      "column": 13,
+      "cents": 93152516100
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/02",
+      "source": "725671a96f66983c2718",
+      "csv_record": 1515,
+      "physical_line_start": 1516,
+      "column": 13,
+      "cents": 61294194700
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/03",
+      "source": "725671a96f66983c2718",
+      "csv_record": 1516,
+      "physical_line_start": 1517,
+      "column": 13,
+      "cents": 287959900
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "725671a96f66983c2718",
+      "csv_record": 1518,
+      "physical_line_start": 1519,
+      "column": 13,
+      "cents": 4549600
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "725671a96f66983c2718",
+      "csv_record": 1519,
+      "physical_line_start": 1520,
+      "column": 13,
+      "cents": 990061700
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/11",
+      "source": "725671a96f66983c2718",
+      "csv_record": 1518,
+      "physical_line_start": 1519,
+      "column": 13,
+      "cents": 4549600
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/12",
+      "source": "725671a96f66983c2718",
+      "csv_record": 1519,
+      "physical_line_start": 1520,
+      "column": 13,
+      "cents": 990061700
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "source": "004cd50f706316484d7e",
+      "csv_record": 1514,
+      "physical_line_start": 1515,
+      "column": 13,
+      "cents": 93152516100
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/02",
+      "source": "004cd50f706316484d7e",
+      "csv_record": 1515,
+      "physical_line_start": 1516,
+      "column": 13,
+      "cents": 61294194700
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/03",
+      "source": "004cd50f706316484d7e",
+      "csv_record": 1516,
+      "physical_line_start": 1517,
+      "column": 13,
+      "cents": 287959900
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "004cd50f706316484d7e",
+      "csv_record": 1518,
+      "physical_line_start": 1519,
+      "column": 13,
+      "cents": 4549600
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "004cd50f706316484d7e",
+      "csv_record": 1519,
+      "physical_line_start": 1520,
+      "column": 13,
+      "cents": 732186200
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/11",
+      "source": "004cd50f706316484d7e",
+      "csv_record": 1518,
+      "physical_line_start": 1519,
+      "column": 13,
+      "cents": 4549600
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/12",
+      "source": "004cd50f706316484d7e",
+      "csv_record": 1519,
+      "physical_line_start": 1520,
+      "column": 13,
+      "cents": 732186200
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 278,
+      "physical_line_start": 278,
+      "column": 13,
+      "cents": 91992913400
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/02",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 2393,
+      "physical_line_start": 2393,
+      "column": 13,
+      "cents": 59993590800
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/03",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1076,
+      "physical_line_start": 1076,
+      "column": 13,
+      "cents": 282880200
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1330,
+      "physical_line_start": 1330,
+      "column": 13,
+      "cents": 7614200
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 2718,
+      "physical_line_start": 2718,
+      "column": 13,
+      "cents": 1364187600
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/11",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1330,
+      "physical_line_start": 1330,
+      "column": 13,
+      "cents": 7614200
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/12",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 2718,
+      "physical_line_start": 2718,
+      "column": 13,
+      "cents": 1364187600
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 278,
+      "physical_line_start": 278,
+      "column": 14,
+      "cents": 91992913400
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/02",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 2393,
+      "physical_line_start": 2393,
+      "column": 14,
+      "cents": 59993590800
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/03",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1076,
+      "physical_line_start": 1076,
+      "column": 14,
+      "cents": 282880200
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1330,
+      "physical_line_start": 1330,
+      "column": 14,
+      "cents": 7614200
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 2718,
+      "physical_line_start": 2718,
+      "column": 14,
+      "cents": 1249079500
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/11",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 1330,
+      "physical_line_start": 1330,
+      "column": 14,
+      "cents": 7614200
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/12",
+      "source": "531ff850adabe9c284d2",
+      "csv_record": 2718,
+      "physical_line_start": 2718,
+      "column": 14,
+      "cents": 1249079500
+    }
+  ],
+  "values_labels_quantums_relations_unchanged": true,
+  "old_projection_and_qualification_files_preserved": true
+}

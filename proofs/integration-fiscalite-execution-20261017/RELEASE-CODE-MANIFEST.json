@@ -1,0 +1,12 @@
+{
+  "new_image_tag": "lexmachine-budget:20261017-fiscalite-execution-579",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "89fbf9ce57936e0b176ae7cd187b281c8211cb26ce63ad8c9ded81deaf86fbc6"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}
