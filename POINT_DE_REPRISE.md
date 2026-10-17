@@ -1,3 +1,15 @@
+# Détails de gestion P156 publiés — 17 octobre 2026
+
+- Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent e74e59d74262ca360b40013fc89d9609cd650358 ; courant : git log -1.
+- Image locale/quatre webs publics lexmachine-budget:20261017-p156-details-267. Ajout267positions annuelles sélectionnables : PAP2025–2027/actions06–07,PAP2026–2027/actions08–10,RAP2025/actions03–06–07.241positions issues des qualifications financières et26natures/agrégats de navigation ;123proses,144autres natures/agrégats. Pas267enveloppes indépendantes à additionner. Quatre natures investissement RAP2025/action03 parallèles àDNS restent réservées, dont deux négatives ; aucun lien dispositif/nature inventé.
+- Seul le registre de détails est complété ; aucun code de calcul ou présentation modifié. Anciennes partitions, montants canoniques, centimes, réserves d'unité/précision, blancs et AE/CP propres conservés. GIP2027/chargesSRE etDNS partiels, loyerDNVSF CP seul. Les autres chargesSRE inconnues ne deviennent pas zéro ; invalidité sans mesure, recettes et variations ne deviennent pas des enveloppes.
+-267montants/libellés/quantums/SHA/pages rapprochés aux registres figés,25920combinaisons d'exclusions et1538ordres/doublons, tous anciens lots recontrôlés. Les lignes communes du tableau PLF/LFI/EXEC peuvent avoir une légende commune ; chaque étape garde son montant et son libellé littéral dans la traçabilité. Les lignes propres à une autre étape restent inconnues dans l'étape absente. Les267preuves annuelles propres ont été contrôlées.
+- Budget/Budgetécolo :534montants nouveaux (267par site), navigation, citations, exclusions imbriquées/partielles et témoins antérieurs vérifiés enHTTP. Preuves proofs/integration-p156-gestion-20261017/.166tests :164passent,les deux mêmes assertions historiques obsolètes demeurent. Image testée par étape/année/mesure et garde de dépassement P177 conservée ; localready vérifié. Pas de recette visuelle navigateur ni de passeHTTPlocale exhaustive revendiquée.
+- Sept PDF déjà indexés ; aucun nouvel encodage. Base SHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb/142079faits et index5683documents/4996538passages inchangés. Anciennes images et sauvegardes conservées.
+- Sept lots publiés :3210positions annuelles sélectionnables ajoutées, sans taux de couverture de tous lesPAP/RAP.39codifiées restent réservées, ainsi que les sources exactes manquantes déjà documentées. Suite : autres projections qualifiées P177 logement/prévention etP231 aides étudiantes, sans relancer l'audit exhaustif. AutomationPAUSED,max1auxiliaire,aucunWord sans demande.
+
+## Historique conservé
+
 # Prévention de l'exclusion et conduite P177 : détails publiés — 17 octobre 2026
 
 - Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent95ec88454601c86233a2004698168b464a27b6a2 ; courant : git log -1.

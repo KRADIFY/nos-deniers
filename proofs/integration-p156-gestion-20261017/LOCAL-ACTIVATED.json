@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "at": "2026-10-17T21:12:29.788028+00:00",
+  "old_image": "lexmachine-budget:20261017-p177-details-28",
+  "new_image": "lexmachine-budget:20261017-p156-details-267",
+  "code_files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "6b98071fd2165751df9d0927bd6d04f30853b5c5b84c0929db9b7de58e005e9d"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": true,
+      "sha256": "10bad48b9c7601fc642069d9b2f14948335f65f88f60afdd6d29db5f46f3f278"
+    }
+  ],
+  "compose_before_sha256": "5749bcee8a57ec9df984f73ef40cea7f611362a04014bbe8f74ca0df81225a33",
+  "compose_after_sha256": "b8cd6aa7920952fca2b14f348e81d6a48bd6a2254ae7f6c0424fc1d55ecdbbf7",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "at": "2026-10-17T21:10:40.822606+00:00",
+  "read_only": true,
+  "source_matches": {
+    "766c2a8e89d564d9433273e5d5940d02dbaf00fc0357b96dfab85d8540b0a916": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 856,
+            "reference_id": "a4afc1fcf4838ca0c819eb9d6a3e1ea5be26b9900f25a54e4e2715d9b6671df1",
+            "source_sha256": "766c2a8e89d564d9433273e5d5940d02dbaf00fc0357b96dfab85d8540b0a916",
+            "source_id": "766c2a8e89d564d94332",
+            "title": "FR_2026_PLF_GA_PGM_156.pdf Télécharger ( pdf 598.90 Ko)  156 - Gestion fiscale et financière de l'État et du secteur public local 2026 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/30934",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "9b475321d1770286ffc8120f230a5b2fcd06b78788fd03113e1cbcee728dceb2": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 857,
+            "reference_id": "d1e0938b584ef68b0f132397e3dae7e5740ed30f31d63aaed4361aca2e0368ab",
+            "source_sha256": "9b475321d1770286ffc8120f230a5b2fcd06b78788fd03113e1cbcee728dceb2",
+            "source_id": "9b475321d1770286ffc8",
+            "title": "PAP2026_BG_Gestion_finances_publiques_GA.pdf Télécharger ( pdf 2.38 Mo)  Gestion des finances publiques 2026 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/30703",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "cc0e352645a4f2c92bf4fa307daee644fbb716175ae450b17d2197ea2dbe738b": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2782,
+            "reference_id": "8c98bf31ac2ba43e49b53a2b542167c45811aa5d18671e11069428c8f1bac93a",
+            "source_sha256": "cc0e352645a4f2c92bf4fa307daee644fbb716175ae450b17d2197ea2dbe738b",
+            "source_id": "2d1da065033fb9b1b13d",
+            "title": "Gestion des finances publiques",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1109859/file/Gestion_finances_publiques_GA.pdf",
+            "format": "pdf",
+            "years_key": "|2025|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "22b7d4816e5b167f9978d052e166f5ab26f5e89ccdc626956e1d91fac3a78f1e": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2176,
+            "reference_id": "6e77eea2cce20d2b020857462481a62cf3da9212264d8cf9da8e20369f3f73c0",
+            "source_sha256": "22b7d4816e5b167f9978d052e166f5ab26f5e89ccdc626956e1d91fac3a78f1e",
+            "source_id": "4772b4968eaf70c0599e",
+            "title": "Gestion des finances publiques",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1087984/file/PAP2026_BG_Gestion_finances_publiques_GA.pdf",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "5889ad6a3ed3d109d0e3902fa67e01d9fe8e2f197623261657ffedb81c9820b5": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 797,
+            "reference_id": "e724574e8fcfd5e63d7a854f3fd881179ad68be844dea9f3a318122b69ddfdbb",
+            "source_sha256": "5889ad6a3ed3d109d0e3902fa67e01d9fe8e2f197623261657ffedb81c9820b5",
+            "source_id": "5889ad6a3ed3d109d0e3",
+            "title": "FR_2027_PLF_GA_PGM_156.pdf Télécharger ( pdf 601.83 Ko)  156 - Gestion fiscale et financière de l'État et du secteur public local 2027 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/34357",
+            "format": "pdf",
+            "years_key": "|2027|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "a1a721b7e750d2f578dfc8efe37683817ba59ed3c5210b34aba0826bf5f8ac66": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1948,
+            "reference_id": "62a292aac0b670d178a03f4414873df98a6cbca66d47b4cd548cb1b60d8591a8",
+            "source_sha256": "a1a721b7e750d2f578dfc8efe37683817ba59ed3c5210b34aba0826bf5f8ac66",
+            "source_id": "2b284531903562ae4e71",
+            "title": "Gestion des finances publiques",
+            "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2025/Gestion_finances_publiques.pdf",
+            "format": "pdf",
+            "years_key": "|2025|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c2125bd20369561d9cab8538df209e7a67d3e9c9fe1736409d0be6c8287f88e2": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 798,
+            "reference_id": "25c77d6f2c8115fa2cfa6044c0851d905b23239c0526b3b3cff1f629007ac778",
+            "source_sha256": "c2125bd20369561d9cab8538df209e7a67d3e9c9fe1736409d0be6c8287f88e2",
+            "source_id": "c2125bd20369561d9cab",
+            "title": "PAP-2027-Gestion_finances_publiques_.pdf Télécharger ( pdf 2.83 Mo)  * Gestion des finances publiques 2027 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/34354",
+            "format": "pdf",
+            "years_key": "|2027|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ]
+  },
+  "new_encoding_required": false
+}
