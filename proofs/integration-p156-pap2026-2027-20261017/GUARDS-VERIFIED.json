@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "at": "2026-10-17T20:33:07.685009+00:00",
+  "checks": [
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    }
+  ]
+}

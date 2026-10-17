@@ -1,0 +1,10 @@
+{
+  "new_image_tag": "lexmachine-budget:20261017-fiscalite-details-152",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "f37f7dd6664f1286888da62345fcaa0cdba7a2309f25139829cfac49c6e2110e"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true
+}

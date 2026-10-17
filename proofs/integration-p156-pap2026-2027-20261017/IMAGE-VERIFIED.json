@@ -1,0 +1,218 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/02/01",
+      "cents": 196000000,
+      "source": "766c2a8e89d564d94332",
+      "page": 51,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/02/01",
+      "cents": 1134000000,
+      "source": "766c2a8e89d564d94332",
+      "page": 51,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/02/01",
+      "cents": 397000000,
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 52,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/02/01",
+      "cents": 1123000000,
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 52,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/02/01/01",
+      "cents": 675000000,
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/02/01/01",
+      "cents": 1037000000,
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/02/01/01",
+      "cents": 831000000,
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/02/01/01",
+      "cents": 1254000000,
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "path": "GA/156/03/01/01",
+      "cents": 113089683400,
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "path": "GA/156/03/01/01",
+      "cents": 113089683400,
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "path": "GA/156/03/01/01",
+      "cents": 112009259900,
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "path": "GA/156/03/01/01",
+      "cents": 112009259900,
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "source_format": "pdf",
+      "source_location": null
+    }
+  ],
+  "p177_preserved": true,
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "f37f7dd6664f1286888da62345fcaa0cdba7a2309f25139829cfac49c6e2110e"
+    }
+  ],
+  "registry_version": "451e3fa11c901714b92ed6ac7387ca8a40aa5e1bcee963143bbdd0ab87a93f84",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb"
+}

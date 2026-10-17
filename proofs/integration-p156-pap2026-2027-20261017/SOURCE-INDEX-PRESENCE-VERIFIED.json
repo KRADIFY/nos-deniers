@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "at": "2026-10-17T20:37:27.456470+00:00",
+  "read_only": true,
+  "source_matches": {
+    "5889ad6a3ed3d109d0e3902fa67e01d9fe8e2f197623261657ffedb81c9820b5": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 797,
+            "reference_id": "e724574e8fcfd5e63d7a854f3fd881179ad68be844dea9f3a318122b69ddfdbb",
+            "source_sha256": "5889ad6a3ed3d109d0e3902fa67e01d9fe8e2f197623261657ffedb81c9820b5",
+            "source_id": "5889ad6a3ed3d109d0e3",
+            "title": "FR_2027_PLF_GA_PGM_156.pdf Télécharger ( pdf 601.83 Ko)  156 - Gestion fiscale et financière de l'État et du secteur public local 2027 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/34357",
+            "format": "pdf",
+            "years_key": "|2027|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "766c2a8e89d564d9433273e5d5940d02dbaf00fc0357b96dfab85d8540b0a916": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 856,
+            "reference_id": "a4afc1fcf4838ca0c819eb9d6a3e1ea5be26b9900f25a54e4e2715d9b6671df1",
+            "source_sha256": "766c2a8e89d564d9433273e5d5940d02dbaf00fc0357b96dfab85d8540b0a916",
+            "source_id": "766c2a8e89d564d94332",
+            "title": "FR_2026_PLF_GA_PGM_156.pdf Télécharger ( pdf 598.90 Ko)  156 - Gestion fiscale et financière de l'État et du secteur public local 2026 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/30934",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ]
+  },
+  "new_encoding_required": false
+}

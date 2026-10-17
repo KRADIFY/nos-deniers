@@ -1,3 +1,16 @@
+# Fiscalité : détails 2026–2027 sélectionnables publiés — 17 octobre 2026
+
+- Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent069c6021af8d6066276fdb71fccd61bccf50c9d9 ; courant : git log -1.
+- Image locale et quatre webs publics lexmachine-budget:20261017-fiscalite-details-152. P156 PAP2026–2027 : action01 Fiscalité des grandes entreprises,02 Fiscalité des PME,03 Fiscalité des particuliers. Ajout de152positions annuelles :84montants narratifs de dispositifs/finalités et68natures/agrégats pour les sélectionner dans leur hiérarchie. Repères locaux cachés comme codes officiels ; pas152nouveaux financements indépendants.
+- Aucun code de calcul ou présentation changé dans ce lot : seul le registre source/faits est complété, anciennes partitions conservées. Parents et centimes inchangés, réserves de précision propres conservées (dont contrôle fiscal2027CP−10000€, fonctionnement particuliers2027−10833€AE/−10978€CP). Aucun solde créé, unité imprimée non réécrite, blanc devenu zéro ou AE=CP déduit.
+- Contre-revue de projection root :152montants/libellés/quantums/SHA/pages comparés aux registres financiers figés et relations effectives. Fonctions réelles :152sélections,26624combinaisons d'exclusions,1572doublons/ordres, ancêtres, chemins profonds et sources ; six gardes sources/faits. Tous les anciens lots sont préservés/recontrôlés.164tests,162passent,les deux mêmes assertions historiques obsolètes signalées.
+- Budget et Budgetécolo :304montants vérifiés (152par site), rubriques/niveaux, sources PDF, littéraux, exclusions imbriquées et témoins antérieurs concordants. Preuves : proofs/integration-p156-pap2026-2027-20261017/. Les deuxPDF sont déjà présents dans les index ; aucune nouvelle vectorisation nécessaire.
+- Base canonique SHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb/142079faits et index5683docs/4996538passages inchangés. Cinq lots publiés :2915positions annuelles ajoutées, dont2723codifiées,40P177,152P156. Ces comptes ne sont ni des enveloppes additionnables ni un pourcentage de couverture de tous les PDF. Les39codifiées restantes gardent leurs motifs de report.
+- Local ready et image réellement testés sur base SHAidentique ; aucun test navigateur visuel ou parcoursHTTPlocal exhaustif revendiqué. Anciennes images/sauvegardes conservées pour retour arrière.
+- P1562025/action01 et03 restent réservés : primaire qualifiéa89c…absent du catalogue ; P1772025/a1239d…également réservé. Aucun transfert de preuve vers un autreSHA. Ne pas étendre cette réserve aux cas disposant d'une contreversion propre déjà qualifiée et cataloguée. Suite : poursuivre l'intégration des autres paquets clos, priorités dans integration-ready-inventory-20261017/, notammentP177a11/a14 etP156a06/a07/a08. Audit exhaustif arrêté, automationPAUSED,max1auxiliaire,aucun Word sans demande.
+
+## Historique conservé
+
 # Quatrième lot de détails sélectionnables publié — 17 octobre 2026
 
 - Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; branche main/KRADIFY/nos-deniers. Commit sûr précédent e0d56b0a7e583c03df8ec33d474969742b47e3c8 ; courant : git log -1.

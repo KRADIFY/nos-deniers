@@ -1,0 +1,2440 @@
+{
+  "passed": true,
+  "at": "2026-10-17T20:32:58.004875+00:00",
+  "positions": 152,
+  "source_fact_mapping": [
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-function",
+      "source": "766c2a8e89d564d94332",
+      "page": 50,
+      "cents": 435000000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-domain1",
+      "source": "766c2a8e89d564d94332",
+      "page": 51,
+      "cents": 196000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-domain2",
+      "source": "766c2a8e89d564d94332",
+      "page": 51,
+      "cents": 150000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-domain3",
+      "source": "766c2a8e89d564d94332",
+      "page": 51,
+      "cents": 19000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-domain4",
+      "source": "766c2a8e89d564d94332",
+      "page": 51,
+      "cents": 70000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-personnel",
+      "source": "766c2a8e89d564d94332",
+      "page": 50,
+      "cents": 12362495700,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-salary",
+      "source": "766c2a8e89d564d94332",
+      "page": 50,
+      "cents": 7242158200,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-social",
+      "source": "766c2a8e89d564d94332",
+      "page": 50,
+      "cents": 4937293500,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-benefits",
+      "source": "766c2a8e89d564d94332",
+      "page": 50,
+      "cents": 183044000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-function",
+      "source": "766c2a8e89d564d94332",
+      "page": 50,
+      "cents": 1373000000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-domain1",
+      "source": "766c2a8e89d564d94332",
+      "page": 51,
+      "cents": 1134000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-domain2",
+      "source": "766c2a8e89d564d94332",
+      "page": 51,
+      "cents": 150000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-domain3",
+      "source": "766c2a8e89d564d94332",
+      "page": 51,
+      "cents": 19000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-domain4",
+      "source": "766c2a8e89d564d94332",
+      "page": 51,
+      "cents": 70000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-personnel",
+      "source": "766c2a8e89d564d94332",
+      "page": 50,
+      "cents": 12362495700,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-salary",
+      "source": "766c2a8e89d564d94332",
+      "page": 50,
+      "cents": 7242158200,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-social",
+      "source": "766c2a8e89d564d94332",
+      "page": 50,
+      "cents": 4937293500,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2026-action01-benefits",
+      "source": "766c2a8e89d564d94332",
+      "page": 50,
+      "cents": 183044000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-function",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 51,
+      "cents": 626160000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-domain1",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 52,
+      "cents": 397000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-domain2",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 52,
+      "cents": 139000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-domain3",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 52,
+      "cents": 17000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-domain4",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 52,
+      "cents": 74000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-personnel",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 51,
+      "cents": 12493820300,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-salary",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 51,
+      "cents": 7362569900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-social",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 51,
+      "cents": 5022832000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-benefits",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 51,
+      "cents": 108418400,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-function",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 51,
+      "cents": 1336190000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-domain1",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 52,
+      "cents": 1123000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-domain2",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 52,
+      "cents": 138000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-domain3",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 52,
+      "cents": 16000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-domain4",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 52,
+      "cents": 60000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-personnel",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 51,
+      "cents": 12493820300,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-salary",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 51,
+      "cents": 7362569900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-social",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 51,
+      "cents": 5022832000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "audit_node_id": "P156-PLF2027-action01-benefits",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 51,
+      "cents": 108418400,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-function",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 6781500000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-control-fiscal",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 1548000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-control-immobilier",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 675000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-control-metiers",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 490000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-control-informatique",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 68000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-control-courant",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 315000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-central-IT",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 3050000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-buralistes",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 1650000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-affranchissement",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 520000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-justice",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 14000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-investment",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 5108000000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-personnel",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 151558648400,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-salary",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 88785608600,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-social",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 60529001700,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-benefits",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 2244038100,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-function",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 7153500000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-control-fiscal",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 1910000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-control-immobilier",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 1037000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-control-metiers",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 490000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-control-informatique",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 68000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-control-courant",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 315000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-central-IT",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 3060000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-buralistes",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 1650000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-affranchissement",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 520000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-justice",
+      "source": "766c2a8e89d564d94332",
+      "page": 54,
+      "cents": 14000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-investment",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 5138000000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-personnel",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 151558648400,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-salary",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 88785608600,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-social",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 60529001700,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2026-action02-benefits",
+      "source": "766c2a8e89d564d94332",
+      "page": 52,
+      "cents": 2244038100,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-function",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 6976975900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-control-fiscal",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 1673000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-control-immobilier",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 831000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-control-metiers",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 417000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-control-informatique",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 87000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-control-courant",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 338000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-central-IT",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 3589000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-buralistes",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 990000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-affranchissement",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 700000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-justice",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 25000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-investment",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 3009709700,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-personnel",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 150545702400,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-salary",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 88716118600,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-social",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 60523184200,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-benefits",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 1306399600,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-function",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 7340344300,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-control-fiscal",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 2056000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-control-immobilier",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 1254000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-control-metiers",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 412000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-control-informatique",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 79000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-control-courant",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 312000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-central-IT",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 3569000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-buralistes",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 990000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-affranchissement",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 700000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-justice",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 55,
+      "cents": 25000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-investment",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 3469445800,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-personnel",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 150545702400,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-salary",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 88716118600,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-social",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 60523184200,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "audit_node_id": "P156-PAP2027-action02-benefits",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 53,
+      "cents": 1306399600,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-personnel",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 193046145900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-salary",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 113089683400,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-social",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 77098143900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-benefits",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 2858318600,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-function",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 11035010000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-sdnc-dnvsf",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 421000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-immobilier",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 21000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-metiers",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 200000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-informatique-telecommunication",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 50000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-charges-courantes",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 150000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-affranchissement",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 5900000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-central-IT",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 4670000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-justice",
+      "source": "766c2a8e89d564d94332",
+      "page": 58,
+      "cents": 44000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-investment",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 1480000000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-personnel",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 193046145900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-salary",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 113089683400,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-social",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 77098143900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-benefits",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 2858318600,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-function",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 11214010000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-sdnc-dnvsf",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 620000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-immobilier",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 220000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-metiers",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 200000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-informatique-telecommunication",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 50000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-charges-courantes",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 150000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-affranchissement",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 5900000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-central-IT",
+      "source": "766c2a8e89d564d94332",
+      "page": 57,
+      "cents": 4650000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-justice",
+      "source": "766c2a8e89d564d94332",
+      "page": 58,
+      "cents": 44000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2026-action03-investment",
+      "source": "766c2a8e89d564d94332",
+      "page": 55,
+      "cents": 1450000000,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-personnel",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 190072705300,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-salary",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 112009259900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-social",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 76414039900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-benefits",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 1649405500,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-function",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 12004916700,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-sdnc-dnvsf",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 592000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-immobilier",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 109000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-metiers",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 227000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-informatique-telecommunication",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 115000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-charges-courantes",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 141000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-affranchissement",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 6300000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-central-IT",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 5067000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-justice",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 60,
+      "cents": 47000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-investment",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 2673307700,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-personnel",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 190072705300,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-salary",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 112009259900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-social",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 76414039900,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-benefits",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 1649405500,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-function",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 10344902200,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-sdnc-dnvsf",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 601000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-immobilier",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 97000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-metiers",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 244000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-informatique-telecommunication",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 103000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-charges-courantes",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 157000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-affranchissement",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 6270000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-central-IT",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 59,
+      "cents": 3428000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-justice",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 60,
+      "cents": 47000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "03"
+      ],
+      "audit_node_id": "P156-PAP2027-action03-investment",
+      "source": "5889ad6a3ed3d109d0e3",
+      "page": 56,
+      "cents": 1595887100,
+      "contribution_kind": "nature_or_aggregate_navigation"
+    }
+  ],
+  "not_new_primary_financial_QA": true
+}
