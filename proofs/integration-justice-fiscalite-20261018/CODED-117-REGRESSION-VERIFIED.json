@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "at": "2026-10-17T22:20:33.532142+00:00",
+  "partitions": 50,
+  "new_positions": 117,
+  "counts": {
+    "unchanged_parent": 50,
+    "unchanged_program": 50,
+    "every_child_selectable": 295,
+    "actual_parent_view": 295,
+    "new_primary_citation": 17,
+    "unit_disclosed": 117,
+    "printed_code_displayed": 117,
+    "ancestor_exclusion": 295,
+    "duplicate_exclusion": 295,
+    "exclusion_combinations": 3259,
+    "exclusion_order": 3019,
+    "CSV_record_and_column": 100,
+    "blank_PDF_not_zeroed": 100
+  },
+  "errors": []
+}

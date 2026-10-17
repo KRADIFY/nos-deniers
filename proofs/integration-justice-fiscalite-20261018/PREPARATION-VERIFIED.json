@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "new_positions": 531,
+  "new_qualified_positions": 382,
+  "existing_nature_and_aggregate_navigation_positions": 149,
+  "partitions": 30,
+  "source_files": 13,
+  "prior_partitions_preserved": true,
+  "summaries": [
+    {
+      "scope": "P107 PAP2027 action01",
+      "projection_from_frozen_financial_qualification_only": true,
+      "no_new_primary_or_visual_review": true,
+      "independent_delivery_QA_pending": true,
+      "at": "2026-10-17T22:05:45.746249+00:00",
+      "partitions": 2,
+      "navigation_positions": 91,
+      "source_files": 1,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P156 PAP2017–2020/action03",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_source_positions_original": 148,
+      "new_measured_positions_selected": 126,
+      "parallel_service_positions_reserved": 22,
+      "current_nature_title_navigation": 32,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T22:11:29.653305+00:00",
+      "partitions": 8,
+      "navigation_positions": 158,
+      "source_files": 7,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P156 PAP2021–2024/action03",
+      "registry_file": "FINANCIAL-REGISTRY-FINAL.json",
+      "original_new_positions": 76,
+      "new_measured_positions_selected": 52,
+      "parallel_service_positions_reserved": 8,
+      "reserved2024_new_positions": 16,
+      "current_nature_title_navigation": 42,
+      "missing_own_source_years": [
+        2024
+      ],
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T22:14:07.059835+00:00",
+      "partitions": 6,
+      "navigation_positions": 94,
+      "source_files": 5,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P156 PAP2017–2020/action05",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "original_new_positions": 81,
+      "new_measured_positions_selected": 65,
+      "parallel_DNID_CAS_service_positions_reserved": 16,
+      "current_nature_title_navigation": 29,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T22:16:43.021204+00:00",
+      "partitions": 8,
+      "navigation_positions": 94,
+      "source_files": 7,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P156 PAP2021–2024/action05",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "original_new_positions": 72,
+      "new_measured_positions_selected": 48,
+      "parallel_DNID_CAS_service_positions_reserved": 8,
+      "reserved2024_new_positions": 16,
+      "current_nature_title_navigation": 46,
+      "missing_own_source_years": [
+        2024
+      ],
+      "prose_relations_conservatively_partial_without_extra_financial_closure_claim": true,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T22:18:31.103727+00:00",
+      "partitions": 6,
+      "navigation_positions": 94,
+      "source_files": 5,
+      "no_integration": true,
+      "no_publication": true
+    }
+  ],
+  "source_reserves_and_parallel_axes_retained": true
+}

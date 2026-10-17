@@ -1,3 +1,18 @@
+# Justice et fiscalité : détails sélectionnables publiés — 18 octobre 2026
+
+- Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédentec73cf6aec3659517358baa42914bbe9d7995f31 ; courant : git log -1.
+- Image locale/quatre webs publics lexmachine-budget:20261018-justice-fiscalite-12. P107PAP2027/action01 et P156PAP2017–2023/actions03/05 selon leurs propres sources disponibles :531positions annuelles sélectionnables ajoutées, dont382qualifiées et149natures/agrégats courants de navigation. Ce ne sont pas531enveloppes indépendantes à additionner.
+- Seul le registre de détails est complété, code de calcul et présentation inchangés. Anciennes partitions conservées identiques après relectureJSON compacte ; montants canoniques, centimes, signes, zéros imprimés, blancs et mesures annuelles propres conservés.
+- P107 :91positions sous garde/contrôle, personnel, fonctionnement, investissement, sécurisation, immobilier et établissementsPPP. PPP partiel ; AE inconnues non transformées en zéro, investissement/APIJ AE partiels malgré égalité des seuls postes connus. Les14établissements sont sous leurs totaux respectifs ; aucun projetENAP66,2M€, forfait, fondsdeconcours ou provision sans mesure ajouté.
+- P156/action03 : choix de l'axe de domaines sous groupes documentés, services SDNC/DNVSF/DIS parallèles réservés. Groupe2017 SDNC+DNVSF distinct des années comprenantDIS, libellés annuels conservés. Totalservices2020+2M€ par mesure préservé, fonctionnement partiel ; PAS2021 inclus, blancs corporelles2023NULL. Année2024 sans propreSHA qualifié disponible maintenue réservée, aucun transfert de qualification.
+- P156/action05 : domaines etCAS ne se cumulent pas ; baux pluriannuels, prévisions/recettes et sources de portées distinctes gardent leurs réserves. Les résultats figés de chaque projection et ses RESERVED-AND-PARALLEL restent consultables dans les dossiers source, sans correction de montant ni faux solde.
+-531montants/libellés/quantums/preuves comparés aux registres etQA figés ;84150scénarios d'exclusion,4713ordres/doublons, anciens lots recontrôlés. Grandes branches bornées, sans fausse exhaustivité combinatoire.166tests :164passent,les deux mêmes assertions historiques obsolètes demeurent.
+- Budget/Budgetécolo :1062montants vérifiés (531parsite), navigation/citations/exclusions et témoins anciens concordants. Preuves proofs/integration-justice-fiscalite-20261018/. Image réelle par année/étape/mesure et localready contrôlés ; sauvegardes et anciennes images conservées. Aucune recette visuelle navigateur ou passeHTTPlocale exhaustive revendiquée.
+-13sources déjà indexées, aucun encodage nouveau. BaseSHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb/142079faits et index5683documents/4996538passages inchangés. Douze lots publiés :5283positions annuelles ajoutées ; aucun pourcentage de complétude desPAP/RAP. Autres compléments qualifiés encore à projeter ; les39codifiées et autres réserves restent séparées.
+- Suite : poursuivre les paquets clos disponibles sans relancer l'audit exhaustif. AutomationPAUSED,max1auxiliaire,aucunWord sansdemande.
+
+## Historique conservé
+
 # Fiscalité exécutée : compléments sélectionnables publiés — 18 octobre 2026
 
 - Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent 2c90be357c077586ed752092a9d1dc56fefb0d07 ; courant : git log -1.

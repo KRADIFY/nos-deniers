@@ -1,0 +1,294 @@
+{
+  "passed": true,
+  "at": "2026-10-17T22:21:17.186861+00:00",
+  "read_only": true,
+  "source_matches": {
+    "df26b50d5947dd7b13c05e8556a3e7d1e5ac4cc735b28d67e70914e3804862ac": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 791,
+            "reference_id": "27c27a20b572f61b1428d922e53a9faa1a5044a160f603ffac15d5ca0cf6c2ca",
+            "source_sha256": "df26b50d5947dd7b13c05e8556a3e7d1e5ac4cc735b28d67e70914e3804862ac",
+            "source_id": "aa6bbba5b0229ec65320",
+            "title": "PAP2019 BG Gestion finances publiques ressources humaines",
+            "url": "",
+            "format": "pdf",
+            "years_key": "|2019|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "019478fbedc939293135b8f0cd4542e7bc2e146b7e2604c9affd1dce540f6f2a": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 826,
+            "reference_id": "29906024f9aa36b7e0e4a10f5ab0cc92240bbdcc11ed5c0ed8e57a4619010a01",
+            "source_sha256": "019478fbedc939293135b8f0cd4542e7bc2e146b7e2604c9affd1dce540f6f2a",
+            "source_id": "3cf05923cc12d05cf376",
+            "title": "PAP 2018 — DBGPGMPGM156",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2018/pap/pdf/DBGPGMPGM156.pdf",
+            "format": "pdf",
+            "years_key": "|2018|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "9a8decbf3ff7962ecb82a9d4daf1fc648ef514dbd20321bf0ceb3458da8e3daa": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2483,
+            "reference_id": "7bc28531c900b47d76822f2b726e32018f07dfcff02d4a1e78e4659c942d6b4e",
+            "source_sha256": "9a8decbf3ff7962ecb82a9d4daf1fc648ef514dbd20321bf0ceb3458da8e3daa",
+            "source_id": "c3894e6d4706fd2a5993",
+            "title": "PLF 2021 — Gestion des finances publiques",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/9538",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "af1c1bae8d1dd94ff7051d34bf01455aa6cbe28856873f41ede9ca33463534e7": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2137,
+            "reference_id": "6c44583523bc463dd7969cff5ef09a3780dc107908d4822a3a542c75af3dd641",
+            "source_sha256": "af1c1bae8d1dd94ff7051d34bf01455aa6cbe28856873f41ede9ca33463534e7",
+            "source_id": "041088df72b353761129",
+            "title": "PAP 2017 — DBGPGMPGM156",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2017/pap/pdf/DBGPGMPGM156.pdf",
+            "format": "pdf",
+            "years_key": "|2017|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "59c88f54132b37d1acf7dfdea604bf59a34927fc33fe5e6586ab8a1ec9c5206b": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-index-supp1",
+        "documents": [
+          {
+            "id": 96,
+            "reference_id": "incremental:59c88f54132b37d1acf7dfdea604bf59a34927fc33fe5e6586ab8a1ec9c5206b",
+            "source_sha256": "59c88f54132b37d1acf7dfdea604bf59a34927fc33fe5e6586ab8a1ec9c5206b",
+            "source_id": "59c88f54132b37d1acf7",
+            "title": "107 - Administration pénitentiaire",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/33751",
+            "format": "pdf",
+            "years_key": "|2027|",
+            "stage": "PLF 2027 publié",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_source",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "ecde5c9193b68f106bcf8fdfd24065f0141ffea328925c446d3a50e1c7472c71": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4125,
+            "reference_id": "d3fdcb93e918bb872cb9538d7769709d8643ff48ba9a57599341e4d6a7d88315",
+            "source_sha256": "ecde5c9193b68f106bcf8fdfd24065f0141ffea328925c446d3a50e1c7472c71",
+            "source_id": "574431d7a9c2fd80b2f9",
+            "title": "PLF 2019 — Gestion des finances publiques et des ressources humaines",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/3884",
+            "format": "pdf",
+            "years_key": "|2019|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "388582abbff612e4fd343c729b2a2749d93cf34b673e05e8a5f0a2106f62be1c": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2143,
+            "reference_id": "6c8704541d2f9026254b464c1622f079ca0d225fd567e3326c6f74e289bc4563",
+            "source_sha256": "388582abbff612e4fd343c729b2a2749d93cf34b673e05e8a5f0a2106f62be1c",
+            "source_id": "efb7e19bacbe64ace6ff",
+            "title": "Gestion des finances publiques",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/494508/file/PAP2023_BG_Gestion_finances_publiques.pdf",
+            "format": "pdf",
+            "years_key": "|2023|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "4e89248aea050b430124c54cacdd32a04c7f38dfa25c681996eb2485ba450362": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2718,
+            "reference_id": "88f7e9da95fba9a6a3331010d925df64c530a18643db2d5c01ad03bd807e4c9f",
+            "source_sha256": "4e89248aea050b430124c54cacdd32a04c7f38dfa25c681996eb2485ba450362",
+            "source_id": "268b53a0bbb6c62d25a3",
+            "title": "PLF 2022 — 156 - Gestion fiscale et financière de l'État et du secteur public local",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/13678",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "35588b05ce39f5c072b2200ebe29db3425f5ba5d092facabe57a3b5922749a8e": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1359,
+            "reference_id": "443665c6dae5af4dea511476fe3db73ba1a12fd839353acc8ea8ec39552e467d",
+            "source_sha256": "35588b05ce39f5c072b2200ebe29db3425f5ba5d092facabe57a3b5922749a8e",
+            "source_id": "e35c89c5bc6f02de7687",
+            "title": "PLF 2022 — Gestion des finances publiques",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/13438",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "a73e6f8421d97e96e939451de595ed7d66d723dd67ab6325b7a46c98ec838598": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4239,
+            "reference_id": "d9dd5dd9c311eca7895151f6156c5e741b74e7c4cd8fd07df11e992d3ba4e4c6",
+            "source_sha256": "a73e6f8421d97e96e939451de595ed7d66d723dd67ab6325b7a46c98ec838598",
+            "source_id": "1c1cc0ff4381968f606c",
+            "title": "PAP2017 BG Gestion finances publiques ressources humaines",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2017/pap/pdf/PAP2017_BG_Gestion_finances_publiques_ressources_humaines.pdf",
+            "format": "pdf",
+            "years_key": "|2017|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c7856eea7d99094bb8256b0b8d8bc6506358efb5f00e287c5b8da6382824a700": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2513,
+            "reference_id": "7d80eb13033f75285e6ef870de066d2a4ca4ee8cf502e452c2499c6c31b42d00",
+            "source_sha256": "c7856eea7d99094bb8256b0b8d8bc6506358efb5f00e287c5b8da6382824a700",
+            "source_id": "1f4ba285302dc7ee49a8",
+            "title": "PLF 2020 — 156 - Gestion fiscale et financière de l'État et du secteur public local",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/3961",
+            "format": "pdf",
+            "years_key": "|2020|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "70c9d4c7087180c4435f35874a300fa3a2c2226207c2ab3bc7fdb94e2bdda227": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3295,
+            "reference_id": "a8b4eeb272088b3c1012c8ee29598e3c5c930f976a71ac4aa6824ac15cffaf09",
+            "source_sha256": "70c9d4c7087180c4435f35874a300fa3a2c2226207c2ab3bc7fdb94e2bdda227",
+            "source_id": "11f327f034b5e331f982",
+            "title": "PAP2018 BG Gestion finances publiques ressources humaines",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2018/pap/pdf/PAP2018_BG_Gestion_finances_publiques_ressources_humaines.pdf",
+            "format": "pdf",
+            "years_key": "|2018|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "3c9f5926e7cb93fa70209f10c1c8dc5a7dc8bb23f182fee38ec78e3a4bc1683f": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4788,
+            "reference_id": "f51c2ff5bb1f3c61afb7609189b2ab5ff960580e396e772d1c714ebfa7abebd5",
+            "source_sha256": "3c9f5926e7cb93fa70209f10c1c8dc5a7dc8bb23f182fee38ec78e3a4bc1683f",
+            "source_id": "deb84a1a84f57a1e8afe",
+            "title": "PLF 2021 — 156 - Gestion fiscale et financière de l'État et du secteur public local",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/9784",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ]
+  },
+  "new_encoding_required": false
+}

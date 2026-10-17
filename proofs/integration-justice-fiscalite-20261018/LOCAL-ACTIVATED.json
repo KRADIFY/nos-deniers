@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "at": "2026-10-17T22:25:49.302999+00:00",
+  "old_image": "lexmachine-budget:20261017-fiscalite-execution-579",
+  "new_image": "lexmachine-budget:20261018-justice-fiscalite-12",
+  "code_files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "325485d61a5a43d4d85d70459cee0413d13ee86ef699fdc2fc0517bb3cc2647d"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": true,
+      "sha256": "89fbf9ce57936e0b176ae7cd187b281c8211cb26ce63ad8c9ded81deaf86fbc6"
+    }
+  ],
+  "compose_before_sha256": "6d7cec7863e456f58ecfcc001d676ce9041e9a8f9b8c7b04c4114125c0168570",
+  "compose_after_sha256": "5bd9fba441970c2b829549e58f1a0370d30ac54af596d5342b424c1a672cc632",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

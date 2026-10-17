@@ -1,0 +1,12 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-justice-fiscalite-12",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "325485d61a5a43d4d85d70459cee0413d13ee86ef699fdc2fc0517bb3cc2647d"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

@@ -1,0 +1,25 @@
+{
+  "published": true,
+  "at": "2026-10-17T22:25:13.488744+00:00",
+  "services": [
+    "web1",
+    "web2",
+    "web3",
+    "web4"
+  ],
+  "old_image": "lexmachine-budget:20261017-fiscalite-execution-579",
+  "new_image": "lexmachine-budget:20261018-justice-fiscalite-12",
+  "image_id": "sha256:d51a79c683c683b65b2dbc3564b627e5a6e367aef2376162b0646a4fb528c282",
+  "registry_version": "cea9b0910d9d716f71b6452f8fd71fb31e41235673e9cf0af8f4f68e0fa36757",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "financial_facts": 142079,
+  "compose_before_sha256": "7bc50a90f323ddd70e802c24d0c19cc7d7a22d1d2db816adb0d2503a0f9a7112",
+  "compose_after_sha256": "63d06637e3e62a26531687896b746cb3766fddbceacd1b36582c4c8055673aa6",
+  "old_image_retained": true,
+  "only_reviewed_registry_data_changed": true,
+  "source_files_verified": 13,
+  "selectable_new_positions": 531,
+  "new_qualified_positions": 382,
+  "existing_nature_and_aggregate_navigation_positions": 149,
+  "public_API_checks_pending": true
+}
