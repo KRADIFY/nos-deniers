@@ -1,0 +1,9 @@
+{
+  "batch": "integration-p156-execution-soutien-20261018",
+  "previous_batch": "integration-p156-soutien-historique-20261018",
+  "ordinal": 15,
+  "title": "Fiscalité exécutée et soutien récent : détails publiés",
+  "scope": "P156 RAP2017–2024/action03 et PAP2025–2027/action09",
+  "scope_notes": "- RAP/action03 : natures et domaines suivent un axe exclusif ; DNS est inclus, natures d’investissement parallèles réservées. Négatifs et blancs conservés. CorpsCSV de personnel2017/2018 issus des propres faits canoniques, sans nouvelle lecturePDF revendiquée ; parent2020/2021/2022 garde ses centimes face au PDF à l’euro. La mission2024 employée est bien financièrement qualifiée dans son propre cas.\n- Proses et variations d’investissement2022 contradictoires conservées ; listes IT2023 toujours partielles. Prévisions initiales et LFIycFdC/AdP restent distinctes, aucune ventilation ou correction de montant inventée.\n- PAP/action09 : 100M€AE de datacenter2026 inclus sous120,50M€AE d’investissement informatique ; CPNULL et aucun reliquat20,50M€ créé. Véhicules2025 sans mesure et projets/cofinancementsMayotte, fourchettes et économies restent hors budgets annuels ordinaires. Les huit natures d’investissement parallèles sont réservées.\n- Allègement nécessaire sous la limiteGit : copies d’audit dupliquées remplacées par référencesSHA réversibles vers l’archive intégrale conservée dans le dossier de livraison ; tous champs financiers/source/libellé/règle/garde identiques, construction réelle des lignes du moteur comparée sur toutes les entrées. Aucun code de production ni architecture modifié ; reçu indépendant distinct obligatoire.",
+  "next_step": "autres projections qualifiées encore à livrer, en particulier P156RAP/actions05–09 et P231/P177/P109/P135 selon les preuves disponibles"
+}

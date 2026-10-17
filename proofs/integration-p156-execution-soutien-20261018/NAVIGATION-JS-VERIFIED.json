@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "depth": 0,
+      "has_children": false,
+      "disabled": false
+    },
+    {
+      "depth": 0,
+      "has_children": true,
+      "disabled": false
+    },
+    {
+      "depth": 1,
+      "has_children": false,
+      "disabled": false
+    },
+    {
+      "depth": 1,
+      "has_children": true,
+      "disabled": false
+    },
+    {
+      "depth": 2,
+      "has_children": false,
+      "disabled": false
+    },
+    {
+      "depth": 2,
+      "has_children": true,
+      "disabled": false
+    },
+    {
+      "depth": 3,
+      "has_children": false,
+      "disabled": true
+    },
+    {
+      "depth": 3,
+      "has_children": true,
+      "disabled": false
+    },
+    {
+      "depth": 4,
+      "has_children": false,
+      "disabled": true
+    },
+    {
+      "depth": 4,
+      "has_children": true,
+      "disabled": false
+    },
+    {
+      "depth": 5,
+      "has_children": false,
+      "disabled": true
+    },
+    {
+      "depth": 5,
+      "has_children": true,
+      "disabled": false
+    }
+  ],
+  "visual_browser_verified": false,
+  "browser_limitation": "Node browser-control kernel fails before startup: apply deny-read ACLs; no application/environment repair attempted. This verifies the actual label renderer and drill condition, not a browser screenshot."
+}

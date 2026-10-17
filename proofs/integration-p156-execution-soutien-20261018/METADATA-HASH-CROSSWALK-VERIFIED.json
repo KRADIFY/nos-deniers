@@ -1,0 +1,3547 @@
+{
+  "passed": true,
+  "crosswalk": {
+    "candidate": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-p156-execution-soutien-20261018",
+    "mapping": [
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "5e40cda9b44ea8c285a857ef8647298c2d28956daed440a493a234836ee5d387",
+        "compacted_partition_sha256": "7d05885d634fd35f5a3b8373538145233f644bbfe95fd7f31a54db18de7b61a9"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "ebbaaeda418430a5be47ebf90c9afad39c9ad5c7a7670a239e5bcb451f7e199e",
+        "compacted_partition_sha256": "d4231eb2cbeb32a4099489c9148c5371ba9b4ea1b3418e12a93ff5f8e54333cb"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "912f7fccd27f22ffc45e29ad5807332f1944c7e8215658b6e2674288d2512cb9",
+        "compacted_partition_sha256": "75ad79bb17108913e771ff7b3121ba25b2be06092c27a96befce94d91af2f725"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "fd804eadbd5b460d6a1f0b13ef647b4c33e870e9445aaf7957c93037347ccdde",
+        "compacted_partition_sha256": "50ea077795814901a9830ecaa27ebd0cb9c8b852706eb56b63de8d3efbd33f0c"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "940530420673a91139172d8aa31398144530487152ccdf0f62312f57f1557383",
+        "compacted_partition_sha256": "d6abd29a2332e85d8a97e8f8ed21438bb1bd64dac7b4423ab227c795a9685373"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "b330f90256621dc27fbbe293176fa204e150effea33e3d57f925e39d8cabcf80",
+        "compacted_partition_sha256": "ee63b6ab2be2bf5fd985750faa2b66df8111b8f034055990f8d015a36ce0a5fc"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "697435155dfbd72bc70bb0697d0867c8771c752be55d8cf5e4ad2bd5c525b837",
+        "compacted_partition_sha256": "6d020eb5256991fffcb2bf1e6b5b5fd5133e1aca66e6a9a8b18f3abdf4370b9f"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "0be8268e3a29ca5dad92a39f137d91de0146ccd14105a452b974dcca93e588aa",
+        "compacted_partition_sha256": "9ea8eae1008095a08a7fd8ce3b9fd4e051d0b0822fb44ffaa216de281080f7a7"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "70106c6253db1336c204b9cd4e57bb26425c529e4cd1d30ace2766ad4df67396",
+        "compacted_partition_sha256": "5963a2fa03a5a50279154502afb7f3ad906f4952f0ea4e93d99c61dc2e70c3d0"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "578b0b132d8711c71b2f86b7e2a6b4278c83008bba310662f4c66ee995c2f69b",
+        "compacted_partition_sha256": "f4b7ab8866fd153740e9eedc8167634d35d696a22cca78b87063890cbea58f84"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "1ac47417ed797ff3c4a285352c74f5497e5fa4118e63bec541efb391087aa4bb",
+        "compacted_partition_sha256": "571b319b2bc9f39a9fc12cc3303f7a6419bfcc89c08a54fc14d8bab857dccc9b"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "df9adf7fbf7f085c9e4c9ac3488dfcc3f469a02eb89f1578fe0b8805817bfcb1",
+        "compacted_partition_sha256": "f0e8204d424f817463b1337b3ce8b19cd9ee22ef61fe1494d2f5625c4909ff6c"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "177",
+          "11"
+        ],
+        "original_partition_sha256": "40926934eac7f41a1ace33269bb73f950b93d82cdc873941346fc9a37b07cd8a",
+        "compacted_partition_sha256": "0e47f43749d61b57efee1a81513bf7fb2bfd36037dec29476bada7f3c2dcab04"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "177",
+          "11"
+        ],
+        "original_partition_sha256": "3db51e364135f0629fea8a6cf65458e7692c568f6954af97bf807091adbe7129",
+        "compacted_partition_sha256": "5d34a3cb94c1984b55a9124a2b1ac3389e89d4182757b227ae1631956ba18d5d"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "177",
+          "11"
+        ],
+        "original_partition_sha256": "00aa2d4121b59c1797829f32e10fbd35184de0a1ca62ba9df096c0042074bce6",
+        "compacted_partition_sha256": "a7762df850ec3fb6d1f03c5a272ef2634822bd4710c569d5e8de5e6447df6991"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "177",
+          "11"
+        ],
+        "original_partition_sha256": "b6c49db615e9482f65444ec5bb66a78c6ff9ae3b39ec57d83cd9203fe560dfe9",
+        "compacted_partition_sha256": "0f0f4f696698d2b6b665a9d2ea2179b9eb0d58cfa3e1b118ac40f847a62f354c"
+      },
+      {
+        "key": [
+          2025,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "bcf658d241e966382bf0a1766c40afa892145a14d71de48636857db4dd27f9be",
+        "compacted_partition_sha256": "cef13ae8f89a08e64aa42e48c8bfb7f09f796d36e7d39f10e7cb7ea09bfada59"
+      },
+      {
+        "key": [
+          2025,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "04cc7de119a96e3b6ac95fd29ea388c75249b49982a160a5d4702e0e74616819",
+        "compacted_partition_sha256": "0e4bb4e1fae4d315a1d393536e353a0f0cb967083aee329dc6872b18d1c33b10"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "8a4c9df63af83cf9452f608dfe93fc21aa7c269e47aa686f2fbdfd90d2b573ec",
+        "compacted_partition_sha256": "29bc5da169dac839ac140b8efd77808961f879c4c1ad7e0439bf8a98d63a830e"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "6648d340cb930e1fa57b04849bf29014c54172e57f97d00076bb23ee59001905",
+        "compacted_partition_sha256": "e7013bd3c86a3ce4285f49ac72f18203fb0dbac3e1ba7b6d6eebdf7a54b4aa62"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "dec769a3c98fd5a3ec55257f7f895e41e592027173b8cba63815d8cc4368221c",
+        "compacted_partition_sha256": "48c13a2dc2253efe94dedbd6b436caeb7737a377b65137ee5efd1eedb21b79ae"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "d1d7333e2c2c318ab74f2798753303ae1af7fc1e3b1bb31f1ab141ce9df1adfd",
+        "compacted_partition_sha256": "5a2e6a3b71ab69dcfcb244f75c4e7a6066b9e7546b854b24e2bc7d3cc5c8c7d1"
+      },
+      {
+        "key": [
+          2025,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "f83fba5e6eccbe6b157664edcb03e3a159581e15610f7be23d18c798f2e8b727",
+        "compacted_partition_sha256": "484bda5f84a4b92a624a4addd1c5355bc415e5217bbde3395203ca39f0751fa2"
+      },
+      {
+        "key": [
+          2025,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "90bce40d1609397f5373401be09afdb755dcdea67b2a97dcd2633351330be729",
+        "compacted_partition_sha256": "d769c5ddbe4de3b6fea16a58727743d21d76166dc7cfac020a1c731a05d142bd"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "491ae6262f7c0e5c74075b933ff08943b83f5a445cb7fb0ba826f45df73d94ed",
+        "compacted_partition_sha256": "543d00c49522d2d98896207786ccd7aab547e67dd5abb446a4cc6f3e5dfc0347"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "173408857fc0bff2921576d02a944d311faefcb66f15c4fd4d8923d988e1e0f9",
+        "compacted_partition_sha256": "338a7e0071c7fe250dcea1f281bf470befb5539deec4bd440e1190222b2db31c"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "1014015a201d7ffbd52326d2a6224aec4dd869cf43a714419d119ca8b9ebf0c6",
+        "compacted_partition_sha256": "6f2bcf4fa2ea56727f2801b46eeb381bae34c60dce4cd5700373a9c2629e6e70"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "c8cb202c6aef511a3ad554bf28ee84ff895dba4a1a329de08cf88e6bbfef0ac0",
+        "compacted_partition_sha256": "358e5a2f94239beffa5e9e49b59f4b684bd57dac05311fc52024aded2e9ba75a"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "26980f2d5fd25c13568be34bceb7d80ba5a03b1e6e5010d6003bbd43fc84e11a",
+        "compacted_partition_sha256": "a234228afdd10a1b019e559fcfa169eff30bcf9068546ae9b07f80243fb8a1e6"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "e4ee1d021417f29a149eb0a5ed227c0a7ae2e844e9fa92dd4d99e20ad0c17985",
+        "compacted_partition_sha256": "434267879e83925de67f0416110fa2f4e191d651bbd03faede212d7e7211f56d"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "94a448c7fb89bbda2ea20e54e3bf199fafe1fae1f6f54eb90e94e3551c5cd1a9",
+        "compacted_partition_sha256": "28007eae508969cb88f7ebf945ab233ecfbd6588e4ecd80436d7469c9b6e149d"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "5c3646c68275fe4c5346371154240704e984e5777fb7949602e417adac909524",
+        "compacted_partition_sha256": "d94f253ccd4a0258c1c6944aff5e18f6ed22112060461cbecc089ce879a0e1dd"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "10"
+        ],
+        "original_partition_sha256": "c85839e91a8d842c76365af0ac966ce54a9511524c5199815b87fd7ed7a05366",
+        "compacted_partition_sha256": "db2abe079f1232103dcd3c4650975c5c2cf946170d3598e2a438b10206eb982a"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "10"
+        ],
+        "original_partition_sha256": "872a0e8acdd8e9ad4e51dcf33410763f10a8df4243cd1fb5f4100efbbe24e379",
+        "compacted_partition_sha256": "d69e91e6428c70e3b428e66dee84926139fcd92347213b180770cb8a8aa10993"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "10"
+        ],
+        "original_partition_sha256": "5ee8d2a0e44a4a52dcd3d63ca735bf29d46a8f3d39eef727983bfcc7b9e1c370",
+        "compacted_partition_sha256": "dc2f10077cec1ff150d6bfa95184914cd6335531abb04f3b2ef5842cf3b72c93"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "10"
+        ],
+        "original_partition_sha256": "b87b08704effe867bfaf2f2cc17e55d0c2bf2899739a84722d3e282473676808",
+        "compacted_partition_sha256": "b3110661a1b0a52ce370fdcf058e780d6a9197273ad37554849386048916ddff"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "fbc82888ad0141412a4974d78922a06cb80640d61f6e3820bdc27cec378c9d8b",
+        "compacted_partition_sha256": "a813638b5ab1066973ade52fd0fd439e8f82f034654547c37f461e4f5a23c407"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "d47b24ac42f9955bb87460a7c49b04ded50c384fcf63d78b876e12a35746ab87",
+        "compacted_partition_sha256": "37db24eb6d5cd57a3db5654718de88d3473a42a787ec308bcca599fe59c2da65"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "07f2aa49a41400d0d45d5a6fc846db43f6b818f214d6f6affedd03fcb27f7bf5",
+        "compacted_partition_sha256": "67f0116e193c0e105b26681323c0ba35b02ee0183744a33be6d9642b491a61a9"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "a744a7ce82c3ed1646ee283e7442d18d643afc2b4316f9125748fd38051cbca9",
+        "compacted_partition_sha256": "392f3a0f44c8b769426aaf79d214ed0f42c7e0087fbd7a4353a8d7d0e5de0d0b"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "398c5e199c2953f437c3edf7e2c575b4bad4551e2d83347448102a94444833e6",
+        "compacted_partition_sha256": "d06127f8a8ecc4061f644dd58de85a3c3a1d54ca14b0bafdaaa56e188b4efbf7"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "4b0538ed87f56122f5dbed2d11202aa1bd6baee021060b37079beb9c45cf98ef",
+        "compacted_partition_sha256": "00e5401b965ef2f18b0a517b65adf2bda65bd9734eb13eb404d166fa998c68aa"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "177",
+          "11"
+        ],
+        "original_partition_sha256": "9b23e7f09418ca9eed031d2b2c7a62fa8a2963d4acd2dc85d144388e0c63d0c8",
+        "compacted_partition_sha256": "0de1dda40dca3ef836624ea7e5047cee4d5a006e8f019186624bd9325757367c"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "177",
+          "11"
+        ],
+        "original_partition_sha256": "700ea3ecac7c4b34870b147b1752b48a021a981934110e8acd1b11b8ebed4164",
+        "compacted_partition_sha256": "6dbac85c76f86419d2b145518ff77361bc3e38b56829c2bd41a695e002f45674"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "177",
+          "11"
+        ],
+        "original_partition_sha256": "0b8e3c17984ff2e64afafc0c5d337cd46830a8f2f5113577e95532671d271577",
+        "compacted_partition_sha256": "d2f1ae5de758d19c4b5773c60ad8b264bc4e05ef2250a98bf6767ea7566a8e6b"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "177",
+          "11"
+        ],
+        "original_partition_sha256": "98ccac23794a171e6bae0ce051bdc7443a43fa8f06fd30337249c080e929476d",
+        "compacted_partition_sha256": "c0732528db84fb35d01141354b2e3404a0d79511f5b5ebfe7fcb060624f4d39f"
+      },
+      {
+        "key": [
+          2024,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "177",
+          "11"
+        ],
+        "original_partition_sha256": "a9efb1602492c53cc33a50050203b083628f56e425cc2bd8278f6717c49a781f",
+        "compacted_partition_sha256": "67dc98ed4c90bb32e210858b8d2724c14391ed963d90db7289783910b585844e"
+      },
+      {
+        "key": [
+          2024,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "177",
+          "11"
+        ],
+        "original_partition_sha256": "713d277246d7530b1ff5cde2bc4e4af3cd45f578b318da42c64c6cf7295adfd3",
+        "compacted_partition_sha256": "f859ff25c319c922b5b4bc83fd4ef00646749598d5b58f9488a7df0ac6150b9f"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "eb544ce0e9fdf89ca2feebd0b2eba8e201b3d25fa9cbe7cdb680e16dcddf7f4e",
+        "compacted_partition_sha256": "ef033ec64eedeb5931f3d60c976c637e6429a34fcfdb401843f4e4d0b4b16e11"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "7d4a17ef1bb29766f5e9909dbfb4af961934b4edb6c1bfd2f1929730197ef018",
+        "compacted_partition_sha256": "dc403c884d31956005d31a5545900b7ee49141074c65317f446eb839a57590d0"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "8dca529eea51b3438b0a4e2ac6422e5bf0fd73750e375fe5c32b03bde082e5da",
+        "compacted_partition_sha256": "272a30ae6a121190232bdf3b9f98910e004ecde66824276773c19d9c3212fe9e"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "1a1a73d02eb90f64802a33f55d80286fa2e351406549f2b1f26e0544136dc92c",
+        "compacted_partition_sha256": "d759bfed805719e2c4601f13e530e70a533033c4d28e9436ce79a6e20605a07c"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "4ba1954b98925f73c7feeb48bac1d202ba7e49f669350524881eaded2013b266",
+        "compacted_partition_sha256": "08381e385c0503fcc9ee70be4d32a646f32a744ccea5daa282072b61b4032046"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "1fe722d96c54eca7a163c1ee6daf12f7c7687a161f7e3a32b639c56ba50cc4df",
+        "compacted_partition_sha256": "bb97d1d52dc069daa0f1de7d0e87dae89f8ef5a3fedfab822473fd3795bfa029"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "aae41e99da12c7356b4203245a8bc726978924d553a83a2143391b285504b3df",
+        "compacted_partition_sha256": "29b27b93bcad8bdf5e5a955612ece8a113d5118605afea6e83a1600431d46af8"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "ecb7d370cd16662bcbcd08236ce558501666c43e8afc3d42026ba1098d4c1e10",
+        "compacted_partition_sha256": "5656c4573b389bf6e7dffd1f9fc404d1a04e057d5ae674687885d781aa0b0a05"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "177",
+          "12"
+        ],
+        "original_partition_sha256": "eb62a7da501f5a317b78b5a0fc1b2b75edb33d057859b65d2887f480b56c0c10",
+        "compacted_partition_sha256": "56f7ba129ec6e30d21c91abac70e3e094a4ffbd7988a70884338877145143db3"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "177",
+          "12"
+        ],
+        "original_partition_sha256": "e2f3501aa51e46f4a8cb69a8c1b4f779fd328c2d869182c93c5c2c9ecd7e76c7",
+        "compacted_partition_sha256": "086f7504b9f157254bf9585945bbbb23313b40f02487498599a094cda55a13c5"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "177",
+          "12"
+        ],
+        "original_partition_sha256": "5b5327e03ac00a670da61bef6a53e211eeda97df865651e25e3f4cc6ac98125b",
+        "compacted_partition_sha256": "6ccac29dcc675885d41d25b9a5de469419d7d918b5f6137021f454be62ce655d"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "177",
+          "12"
+        ],
+        "original_partition_sha256": "fea150e3617f2be9927d4b8f2d81aa72304d60ea3d18d64eeb1aee8844abd6a3",
+        "compacted_partition_sha256": "e4f25667d5975a963e4bd5f2b6740eb79e86cad49db780eb0ced47b2672bd2cb"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "177",
+          "12"
+        ],
+        "original_partition_sha256": "6d096188098ba2e775183d8d810bbb4b35008e658b181493a30d2006b5d685aa",
+        "compacted_partition_sha256": "ae1107b7a961740b269bb2a957f159671b7ae8d2f56ac22102943594580bf2a3"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "177",
+          "12"
+        ],
+        "original_partition_sha256": "de5888fbc6f135f77cba4f1a79d26ac0675eb1686d5c32394f64492ef63a98bd",
+        "compacted_partition_sha256": "0050741b46f6b9183d6af2a039f95b7dcdc7b2baadbff8aa1aebd4c8bb371f4d"
+      },
+      {
+        "key": [
+          2020,
+          "EXEC",
+          "AE",
+          "BG",
+          "VA",
+          "177",
+          "12"
+        ],
+        "original_partition_sha256": "0e22c8bd7d64206d354cd6821b959d4c6e22e095ceaa03a4ab227314aeed91e3",
+        "compacted_partition_sha256": "576547d5881edc9707c070da624bfe3025a0d28ca3414df9c6329f0ecdd0c65b"
+      },
+      {
+        "key": [
+          2020,
+          "EXEC",
+          "CP",
+          "BG",
+          "VA",
+          "177",
+          "12"
+        ],
+        "original_partition_sha256": "9ce78d479ab489af89d77d8df2c81b7a6efc8c0fa71c45d9bcf4570af5f13b4f",
+        "compacted_partition_sha256": "389239873af8e5cc4dc0ab2a738e359838e313a9e6c6c06e02f75aa7f3ac0337"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "AE",
+          "BG",
+          "VA",
+          "177",
+          "12"
+        ],
+        "original_partition_sha256": "0555cb05d393bf05d18e57579a00fd2f0cd1d5ae32ede590739756de381fdb5b",
+        "compacted_partition_sha256": "1e340d7e227b5e6ab4d4f42b0210db97119d07e967b12feedf49f77c2c28314c"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "CP",
+          "BG",
+          "VA",
+          "177",
+          "12"
+        ],
+        "original_partition_sha256": "f37550011693e1c91ab5f44aea2d31debcad65fe2180528af0b0c35576f4127a",
+        "compacted_partition_sha256": "8d591e5b1ed810e01e388f78e695abf689c90ccd23fb08909cb8ca4045d3e28d"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "68616b1a7400baea5c2a5c38ff63faf6e9584f60b21d0d62c7496adb56374473",
+        "compacted_partition_sha256": "e28a6a932f568184bdcaf02002650596fae1ff996eb038cd3f082001a4d061c2"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "b4700440a8ba7aae528b64c979e2cf12f7f4b94cabf1bc0b3d5adb248ee07896",
+        "compacted_partition_sha256": "ff0be9c11749c2f979ab51caf18cf8384976ae5c67b97cd937442052e07ff4d3"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "084ff44d2b976a83d018d4236ba2e52b2bd0fdf87f114fdeb4706663fe54870e",
+        "compacted_partition_sha256": "6885f2e3f29a94a30f6c6b242e7d2340786740a5e620222445c46a30ecabfff0"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "6dedd0f388f5ab6b00f110a5663bb1a48adb22bc8260d3c9955d4f16ad937dab",
+        "compacted_partition_sha256": "02b1aa3211e191f4a6ad9b2f9929ea170c8681047528d9cd1090c2ad97b39413"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "d6cf981b086489e0812409487d66f3fa2d0e681b887a076587691e54273eda8a",
+        "compacted_partition_sha256": "e1e3f6f151291f88dda860f3f9b6ab5a5b86d6b3238993e3edc9a9f4f141d107"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "476cf7389918c77a6a031c4d3f753de1d4756b1261c2dec56d8bc5725d58e34d",
+        "compacted_partition_sha256": "ff6a4ae71948ee5cc5b42a2cc34e40667536550611e3c174117314e09beabe3d"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "80d62703b1e93539fde013f9ac4ce2b4059e919052e4f72f21c8e94b8b5df25b",
+        "compacted_partition_sha256": "23f384a5634154b8c5fe73c2ce3ff1b34cf672022cb78de98792f09a0a504d4d"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "2b9fb63a25178d26124915553ae7b17725e004f7360f620487a3bbfe08da47d4",
+        "compacted_partition_sha256": "9bec4a709a30d7684d4cf834c7ef348240680a222d31bcafd74492f4309a2e51"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "3e86c6617df8db5108d4c03bd250d4cec43326c6c561de137b476a02f0a197cf",
+        "compacted_partition_sha256": "51abc16117dcb27cdb89ad5348f22db74b634dfc4e293ae4e1803a8fe35da092"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "b20fb0975b5d021e7f5cd86df678f7181bde3606039a1536ee0c9859e4e08320",
+        "compacted_partition_sha256": "9759d0c7c5c426499dabcbd2f70bdf233dd4fce17475042c396f4ccb4a29ed96"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "3febe6b9f1ca55e9f701463cb77ea898f4debd34324a6738a70cf978c6b2be09",
+        "compacted_partition_sha256": "55b698dad884d178d3e244770886a87fc77a74d1f9ce7f2fd32eae76f934fba8"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "59b3be6deeab5fb267dc05f02377a50ef16705b977a8918ea4ebc634df1e86b5",
+        "compacted_partition_sha256": "3c28b39aabec895ae010befc82a5f789334f0780922cdf871a6fd8930953a021"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "ae88733375c69b68d1a46ec5e0ed7eb28c1f266b98b72e35c0aee0968525cb79",
+        "compacted_partition_sha256": "611a8f524a56fd50f587ca1e7611892b34013ae98cfcfda257f6f09c46ae55d8"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "1a6a0bb911ae74194f1a6aa80ff17a24e5dea7b2542da97d877dda2e958af192",
+        "compacted_partition_sha256": "907ee61a7fb539b74629fa6d101daf3a95827f7ace0f894ef96805f3464bb1a5"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "a4a494092853c8ee3fc443086596eb7ebfbec48821326005a99851f1ed086c72",
+        "compacted_partition_sha256": "785a84cdb39d94bce1e8abcf3030dd2933b3a5b594b72f6b780c3d502dfe1cb6"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "4028644a3e9eda3dac40a47b019b337f21a48bf9424308566e1d8836e42a083d",
+        "compacted_partition_sha256": "7f9336a2e899a8d7346377364d6fa27b33a3679ed85b1b017205efc7df72e9f4"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "5a1f4ad2d8eb763344c1809feaa26e42c449c5a92321b0d7d4560844e2e4689f",
+        "compacted_partition_sha256": "cb747843249c67c80990c18112c7dd5a17f9721673ceff2ff07aab454a870e22"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "cf51a66367d1a82474da2ab2e1e6101616bab796708e4f3bf90912a37261554c",
+        "compacted_partition_sha256": "0f13c133b86086ec1945de7fb389837e0d814b1a11690a04a93a414660a35a4b"
+      },
+      {
+        "key": [
+          2022,
+          "EXEC",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "10a1a4cc41c407eb60b579f6e9f3db7040dd4fe4573bb2c0126f54be0f861419",
+        "compacted_partition_sha256": "c21ed0e378ca51c0a75c573e8fa7dda7271029e728dabaf5995f6a1a1bd4c7a0"
+      },
+      {
+        "key": [
+          2022,
+          "EXEC",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "502a7b8c1add87b9152a17960316aca1d33c8a4263415d63de4db87b5d45ddb2",
+        "compacted_partition_sha256": "f12995b028bd79a31ed3f3cae7a44602859ddb3ae1ff6deceb45314de5ee612e"
+      },
+      {
+        "key": [
+          2023,
+          "EXEC",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "cb4da76c1b30059edd4f5ef62c0baec7aa18352f7f3da51b9c6e55552385261c",
+        "compacted_partition_sha256": "6f872691463b27341383a990d972b46ce42abe35f3f74981ed7e0256e64445a2"
+      },
+      {
+        "key": [
+          2023,
+          "EXEC",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "43de6b7046758982b4ef088a043914e208dc07b7acedd4126d8c3488b6398fa2",
+        "compacted_partition_sha256": "5cb6009d2dcdcc6b49a75957d0a78153ddc61257cb95365ad96a6e5ce75df712"
+      },
+      {
+        "key": [
+          2024,
+          "EXEC",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "856dc330ad622c0d4f5d411ec9370d8d94c047090a11e39cc45fdce0b203295a",
+        "compacted_partition_sha256": "27d391ebf309500c45376a92a172db39faddffaf48f5ce4bafe63a3136f3be7f"
+      },
+      {
+        "key": [
+          2024,
+          "EXEC",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "01"
+        ],
+        "original_partition_sha256": "b28c7210e10b7c16830868d8b56ed42184ee2a176f53ea3cddb231d05393c144",
+        "compacted_partition_sha256": "4b832c1265bc600f6ce1775d61c75d50ac88cf3663be7a34eeb9d288f374d031"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "94859b9c93056b1002eb86e43eb09dd025d5f190b3867e548efbe1abe104aa8b",
+        "compacted_partition_sha256": "40806a193d41935c8795a9bd8950a6c661c1cb97390e26f8ccdb59b9441e086e"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "b91e888fdf0d2c14796386985802e25e956cb79a60c19fe9a3afa532c13bae1e",
+        "compacted_partition_sha256": "b093b0d2c55e186969b57c3f4cbdac7c782429f179cddfc49d87de1a1cc349ee"
+      },
+      {
+        "key": [
+          2022,
+          "EXEC",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "0485674ac03531ba823ad491110c606f4adf0e6094a4d66e8fcfe53f6c92c1ef",
+        "compacted_partition_sha256": "cee9ec7d54e1541d8b8ac8338662d4ee1ff2dc101be348ec91f0f34ec05041c7"
+      },
+      {
+        "key": [
+          2022,
+          "EXEC",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "99c3ade849a0e6893c05b59eaef57136bb9ea108ee1432128f290f8b8671f1f7",
+        "compacted_partition_sha256": "bb8d12f58cd25c2e2af239c2d82fdab552e4ef42ce862d7ab726a44e0bb6d296"
+      },
+      {
+        "key": [
+          2023,
+          "EXEC",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "e1bb64e461f09f952a058d45b0d79894024f1f897e8fc36946751a751ee61b94",
+        "compacted_partition_sha256": "c98384bb2e5c9d53c7d82aa598a1d7bc00b6717c874cf78ddcbc22a0b9f0f0e2"
+      },
+      {
+        "key": [
+          2023,
+          "EXEC",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "e847384ac92ef76a40ab2b694d8d377a1a15a0beaa5fb8fbf5d153dec2631c05",
+        "compacted_partition_sha256": "59b3327c6c75b4ea780aaa82fddb3c297bed7a62df168a75585b48ce2324f375"
+      },
+      {
+        "key": [
+          2024,
+          "EXEC",
+          "AE",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "395f87c1939a70ad48633f1a352ca7baf8b64ec760fb79e9f2d3a5ce7d52a1eb",
+        "compacted_partition_sha256": "a0ae63783beda8a30e2b18efaf17f87383fb3299c3b183e7c163e96f60232bd5"
+      },
+      {
+        "key": [
+          2024,
+          "EXEC",
+          "CP",
+          "BG",
+          "RA",
+          "231",
+          "02"
+        ],
+        "original_partition_sha256": "2a682b9ce698231bb9a4e85241c2e7211864d8ed965ca9a5e3d9c8e3fa7318cf",
+        "compacted_partition_sha256": "ec25b948b19ae827007312379e640330a93295ed8971678b1f0312876f182907"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "10f4e6888ca0aa6e6261c8e41492a4c90785b137678f21c301a00fad00c737ef",
+        "compacted_partition_sha256": "00fca17c046e037cfc931b672120d07e15476b9749024bb0d1c847adfedcd6f7"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "f14955f23888c2c04f504b883361886d439cbe2006b2059ac24d92c60535b7d1",
+        "compacted_partition_sha256": "70709ac905e6a7c6895230ddd9f40db2c97fbe0b7275ffd76805b1f1dbc2c38e"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "80fc740626a12b51ec5ec7b52d0b31aa443663b23a10d924f3620b9e29fb85b0",
+        "compacted_partition_sha256": "8b652902846ec1fa6d9eaa579b3f6927b0a0207b689d3f517cfb4985f447a226"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "0811302d5df0fa0f77bd2b2ef13f64401110ccca494baca8ea74432dbb94110f",
+        "compacted_partition_sha256": "e96ef9ad8b70e14eefbd08b956095a8db919c8ea164e36f2cca51f177b5d6c5c"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "db830dd5f18ca8a727dbaeec4caa1265995f34b607d2e07e956a331898af9495",
+        "compacted_partition_sha256": "76d3cc3e5e6dfdb7652660dd81df9125b08978c6797bdb7670774fd4fbac7fd9"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "5bda8786b3305eb0185dece2332dc6690ae07a34de069a9330343db9a57a201d",
+        "compacted_partition_sha256": "dbf0b2bf3e3263ab6aa35e459240b6737cebcdfc9d3d77456e7d67a46d312874"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "1c674ef8291b2e6076ce199e2fa63d3823be95110083238ec538aa0f84379157",
+        "compacted_partition_sha256": "8e5dece20333ec90e415845a99921b7b35f1a40fb55966a7ad156435f14b86a0"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "0539ab167b534d1f4cfc5b08774c5f2fc5628c55209967eb967c04af6fca63b2",
+        "compacted_partition_sha256": "8c31a2066e76b1985704115dbf8aa6fb64ad638005bffd6606c574849e812821"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "ff9729ba9d2690115d40f93bcbe71afe9387d136f03616d1b419f263e2ca1861",
+        "compacted_partition_sha256": "0dd3491899b0dabc2f2f9ec369f5d004a84e2ba5d0981496b97714a7add23038"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "ce4c5b600615a81ee09006a62a447c8efa464ade36cb7064fb75540d3262dcf2",
+        "compacted_partition_sha256": "5d19fa656d0e652ea07bc19eabf998956b64ca54853d572c3be1cc63c710a279"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "72ab7f784d8317908b4423a1390124d95cd9e6115dce90e41f19373790749d4e",
+        "compacted_partition_sha256": "14a1adb2ba3d7934c631c7833204da49293eb2c36ae614be0400eb8332909e70"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "d8a8644d01a6b1937b1ff6c92f307eafc194bd7aef364beb47a2269789e6adc8",
+        "compacted_partition_sha256": "6c328f24ecaba92c8c17a36a5a50131e26f350b8098f0d0469b748abd4d0a366"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "b0936a7e2d66bf8a32f8a0bb478660567f711e14ed56aaa27fde6a7c52a056e3",
+        "compacted_partition_sha256": "50f9c46d4ebbe27a1723d4e1602f3e217cd7f8d092057c2c74482a2848db0840"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "124a4c6555f34c8e30ec6d9fcf69dfac46112c8bdf0ec8c9883b784ba29cb346",
+        "compacted_partition_sha256": "1398199c7b72e95b244c8f6f064910bff1160da2504f75dfff8005bbf258b659"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "bc1257df169d3e86ca364e0c0b11b5297c262f7f63a36bc96f9b67d749ae1d45",
+        "compacted_partition_sha256": "37775fc22f8ccb963e0f61dcce0e7cc4f24ed6aedc95104ab0f6ceb4430b71a6"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "b19081ba5b6677165edbb3d4ddfbbe99b0251fa293f4e2265427f120ed291042",
+        "compacted_partition_sha256": "12100dceeccfe73c9f40b645c91b9f82b988ddde2a384d50cc11f0fe8aee92b1"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "c888fb8231273bf1634a6b0ee7beadcce14f42361442b4fc1803b3a98dbbcd81",
+        "compacted_partition_sha256": "aa716e330276ede7fa6bac8cd80e5921aa0cc5f05c39b71b01b5bccbce5091e9"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "cb13df0bc16e6f4b0fe34a6edaa7ad49c7fc79f7c5383b8df85a5e08e2462588",
+        "compacted_partition_sha256": "98c2cc9ff113c42f04f32ceee2a45853d05cbbc4821619a335c9177779f9359c"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "5259129811fe432e681703f363b50a6d2ec19121b1af01fac0ed6b2b74b443b7",
+        "compacted_partition_sha256": "8634c61713f1d903900a633c5acaabfb1b99c2a899b351fc21a88e165fb5861d"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "7630df050a17daf3c44002d9b1e557f734607b5d3026867b8b4a4294de6b7c7a",
+        "compacted_partition_sha256": "723405125ff6b0f07d242857cec01a5cbf27f15db5e16551ecd7906f447f7223"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "d07becbc2c2499c7f826aa094fda3c6cc36b8e6a008fabbd29393e07418d4f07",
+        "compacted_partition_sha256": "c88dd71048cf5a0b696b51076467c1cd2958333b691efd0ec7742dd0cf65945f"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "6f33c524998f9ba27e455cbe187c9277253fa643a840856f29444362c5f269f4",
+        "compacted_partition_sha256": "bcbf8e15b53f74dbfa530ef46a406b441f5bd5ba3a093bc58e77de102edf4fe5"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "19f71294be11958844bcc0a38a6820b959f7bcbb4e369cd87551b33b1a301858",
+        "compacted_partition_sha256": "c91d0291e5578638655967e652a87cbe1798f3d4b3fb4812b416fbde0fd284e7"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "153221277b024dc379ac1f84d6989d963a324df43458a6d54c8a90be7ddfc8b4",
+        "compacted_partition_sha256": "51d39e967ddea33d17daa58858e8f059cbff638427814c1aff319d4c58e04053"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "d3cfb7b09e91c6e5ad38948651ada83682b9767eca86d18910248065203e0d68",
+        "compacted_partition_sha256": "f4ff8990cbfdedfb47877c9501cf7affaab6f25632e63c439f645dded655cf2b"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "05482a0ad07179ec98adb1e3c90de8bb67a31257566171e1ac86152f548bddd1",
+        "compacted_partition_sha256": "45c92cea15b71cb2182d2da6d23b9161f793fdf8e954b899a4e52f875e446c18"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "ea3ec459e314f62747c085597c52baada9e039115dfb10ea5cfa9f7a44757903",
+        "compacted_partition_sha256": "59f3d3a92c5317ee80095f576b710a51ad4b3038624affe4baa8caf79247bcaf"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "b1c1a699eea4cc46dd8f254c4f558b7f82138fb4bbe95d8b6eef6547ceafabd6",
+        "compacted_partition_sha256": "e323ea7346df4d325cc218afc9af180705b25632e82b804210474fbcdb9546ba"
+      },
+      {
+        "key": [
+          2017,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "0924bd82b0480fe0a6c58e8a8df4140a69f80e15fb97bde3e62c24256be16e63",
+        "compacted_partition_sha256": "7de104fffb024df9a129ba4b2595cff3d5701667073a39f5e8ef992026491721"
+      },
+      {
+        "key": [
+          2017,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "918ea15d837be4bc9dc5b5be62084846f17e51d07116478543bb82781eb55256",
+        "compacted_partition_sha256": "6010b2a768c6a5599f68128d2c59cae25b712843d3b0550ff8076544424d28c3"
+      },
+      {
+        "key": [
+          2018,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "bef9556b99c629ff202d0b69372b245da14888ab961daf8ce1dd80a42047a448",
+        "compacted_partition_sha256": "c4db8dea9e52e907c2bdbe88ec6b4936ef88741332d6a7e80b9542366bb0c084"
+      },
+      {
+        "key": [
+          2018,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "ab4eb96e3f242277e8ea3be7b133f11c8e8bab784080f8804a12dee6d0471ec6",
+        "compacted_partition_sha256": "a91cdd3096011dba3e517766e1efeaa7017d2747c4b8120acd0fe774a5e87ba0"
+      },
+      {
+        "key": [
+          2019,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "bf1a7b0e8f0fc6c591c4d18f420a4abb985f39a3ef4c78b3267f71aedcfeea90",
+        "compacted_partition_sha256": "ee31aaf614205af129db89eab4b5e8a8c875822ded9ff9dfca79b82e8e6b03b8"
+      },
+      {
+        "key": [
+          2019,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "4e0508010384e359001ee5806790856a6d2cd767a3e570b92c98522c4cf713b4",
+        "compacted_partition_sha256": "ea1b6c9a3e7b09abb0aa25f72e615203e52eaeaff1f0a033524d9dc99b3e01c9"
+      },
+      {
+        "key": [
+          2020,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "47699496470f39fb5a96835279f8ac6126bb4dc74c38a4ea3a858b433cd3502d",
+        "compacted_partition_sha256": "f20cccf320c79ba49f58466a862d1f9f2cf3310495689f1ed92f0e98e6e8fe8b"
+      },
+      {
+        "key": [
+          2020,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "15439aad4a5afc18aaea907ab91d240e921b6e76c0176dd6b6d4cd104debe24f",
+        "compacted_partition_sha256": "ee8424e2bf93a4218d864f26e7655a7a48590d1c95878126b2ffc96eb1323363"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "632ae60a4b62ea5852307406808799b30cbe720f4071ee2d5847a03ddf350c63",
+        "compacted_partition_sha256": "64f076f5d458aef1db378dca69d6cad54526e744eeb45e60830990bc79f93887"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "116f1a8c614b9bfe1906a898f2cdaa2bc558ac55422b317b7d55a1f893ebb822",
+        "compacted_partition_sha256": "573b5885f018da57f0379abeac7fed46e486ca170814ceea5eeccf902ff2a1e9"
+      },
+      {
+        "key": [
+          2022,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "632c3094885252e5ad4e324f472dc2e1ca0e30b6da927ebf8b04154fb936b260",
+        "compacted_partition_sha256": "46fa7e2d523ebbb05c248fe05eab500c2c04ce2d9a70a6da007bf771bcb900f1"
+      },
+      {
+        "key": [
+          2022,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "01"
+        ],
+        "original_partition_sha256": "6df2876670f41684211ebfcbc643a0b5a0a6b2da9ecdea3b7786476771a23d5c",
+        "compacted_partition_sha256": "0efaef2adfe821d9d8fc1c05f88ea02ed24ec7c1d436e7df9135429e6b923d9c"
+      },
+      {
+        "key": [
+          2017,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "6a7b596fa5a80de9a681128a8153714e5724fc231773227703a57de8dc39377f",
+        "compacted_partition_sha256": "3bdec3ff29ae707a1f19e859e1a380d58e252da6ccccfb374562653ed18af030"
+      },
+      {
+        "key": [
+          2017,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "f69a276760213775736bcd768d1ef039e072e72449dfdeb14de515bf9ee564b7",
+        "compacted_partition_sha256": "db5c23f0f2c9e39c2a246703747ffcaab182fd2d799acee4a6974d2642e436b2"
+      },
+      {
+        "key": [
+          2018,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "627c8637dca9b79f9d3d86fad34aea81f47f97ac0bc1ea0ca40931898de55a01",
+        "compacted_partition_sha256": "6bf9c14a47d4712779112822ff7690e47c050204852a86c5079d34a8a28d3505"
+      },
+      {
+        "key": [
+          2018,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "ef7a25d6124018e4c38d56e03f6880390bd21968da460620ab2fdabdf5561203",
+        "compacted_partition_sha256": "4cb72061ee7b852df54e7a7f8437c53b2cc7cd8a07e37a37168aab0d8a1b538b"
+      },
+      {
+        "key": [
+          2019,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "b694da005825f8a7f3f36220f527a12d1d482c58414c07d38f39e8e338cbba3f",
+        "compacted_partition_sha256": "5de73c8fb0bc119359c7068f57f41151d61ac190f3be0bb84ecfb996afd7b9d4"
+      },
+      {
+        "key": [
+          2019,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "d4fabd7f00d52d2ab1866913ffd67568e9607a1b416dddc377c4abb3b812ac4e",
+        "compacted_partition_sha256": "1e348b826493e808e524abb77ee15037464b686ce163305d0bc98cfb3fdbd683"
+      },
+      {
+        "key": [
+          2020,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "d17d1e5d2c1396a523dbe4b4c1f596e2ec2114da0ec9b090e79ed747fb565236",
+        "compacted_partition_sha256": "88e08df0f1bea54c52e2647bf9ced397e1a5beff0e666086c4fe4c39186e099e"
+      },
+      {
+        "key": [
+          2020,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "d9ec11c071e5e78e08a7b4754e23d34fe96f33d0e78b8583d74197fe8cefab3f",
+        "compacted_partition_sha256": "1ea202382436ec939c1555465bde6728a3e463dd94a8d3946cb9c7c20802f0fa"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "d50c90e61e0d92de9d4f327cf81ba1f21c19c4e4d04b9b226d50d38e4042be51",
+        "compacted_partition_sha256": "998b5d2615bd9e0b8c8b71b21791616dd9acedcec5101c7929f48030c5f0f61f"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "08c1a42cbb27a040d573e266cc833ae8379d593eb4f339dba5199c2fb5b12557",
+        "compacted_partition_sha256": "de0586188d0924d882d4e758af018e9b1937b9e7b10b8a56ea55b90d7385e804"
+      },
+      {
+        "key": [
+          2022,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "c82689178905ea4c37f390ac26b132d519dc11103243b615e14eeb6934c819f9",
+        "compacted_partition_sha256": "520626ef39828b6368f3f339fbeb0887e925d7bbee72db22a49eed39034558e8"
+      },
+      {
+        "key": [
+          2022,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "ace09d692866cfb782d9356741bbb601bfcab281c93f237f914a22bf01681c05",
+        "compacted_partition_sha256": "dc557bf2c958aabf2c72fbf674a45497b04420d3a42ea3580d36cabfd4b1169c"
+      },
+      {
+        "key": [
+          2023,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "8e6135cc5695f1613bea07d63e98391db8b455bb6e3b78769f8e3e3366cee604",
+        "compacted_partition_sha256": "aa61970a1f97660b1fdaddfdbc92b57f7bc92f7ebdb1677e6cec480efe02f4b8"
+      },
+      {
+        "key": [
+          2023,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "935ba372cfdb75f2352669a076632b0f4ce5644a61ba2b3144f6abf5c136f2f4",
+        "compacted_partition_sha256": "d51a2ec14716d19319eca5c681af492c3eb8e0a168414dbdce019734e169b7e2"
+      },
+      {
+        "key": [
+          2024,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "8f0320f0ecd3bf9c83d6c91ba6ff3da24c390da7ce6e4594f382e987107bb741",
+        "compacted_partition_sha256": "cc207c02ec264a89b75c33b424544d225f713eec7e3f9d2caa177fafe59c92cf"
+      },
+      {
+        "key": [
+          2024,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "c5502fba0802833d14139dc52d8055a1e18024d4d1f129c7b326fa355e6e5f29",
+        "compacted_partition_sha256": "06423e2b8af0279d5ab02a14a5ce56a52a05181748b143d93e4e33db29847ba4"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "7e5fa612279998d436fa5c3e37091c8234bdc5d070b35b8321456bca8018341d",
+        "compacted_partition_sha256": "8165bc9e5449030accff277de7bbb1c9ee2c3e0e8303ebf865fdcbab081a7ce1"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "02"
+        ],
+        "original_partition_sha256": "cf21936ab6ab405eb5624f0afbb3638761684d8f0b57dc367a174ad6df5cf250",
+        "compacted_partition_sha256": "6fd3e7b1fa65679744d6ddf4e2152198e74ddf4dabeb61ef0385e1a471796b73"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "JA",
+          "107",
+          "01"
+        ],
+        "original_partition_sha256": "012d8081d0cb69c37a5a36db0213cd654303e03316d06888bfa2267724f36175",
+        "compacted_partition_sha256": "9741c97c9e50d5d3d12a7206f08b7b94a206eecabb661a9b62ef4074e667bc43"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "JA",
+          "107",
+          "01"
+        ],
+        "original_partition_sha256": "595b5b413b2b1bb24def0ea82668c54d440ed90cc615c7d1f513726d2a689ff4",
+        "compacted_partition_sha256": "6bdd7700d7182951c42364e0c7cfdc76d7b22fe7fca4a7fd6b6377657647a2a8"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "2f9124e7101404e4cd44e358382e15aba5667897595b732ccdbdb3306a077f74",
+        "compacted_partition_sha256": "b0db52bd3a4cf8edae9077a2649ba5b7daaaa4a7cf6ce1aa5316eda6cb99ca34"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "999d584f59611be0f97a7f432cdb213c2fb96ea8e9af8c65afb8f0abbbe8a1b0",
+        "compacted_partition_sha256": "a8ed063c4fdb889676df501acf75f45ec812e35ae30f6ccbe134c2eb51a12c40"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "58da2601d0180c271f615daecf3fc176ba4d46b3c3529113647f26031b0c771d",
+        "compacted_partition_sha256": "944892a8b84511aaf5afb7dea29e1cb48f3285964b45b12579e37aff9c0b186c"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "7da5f308bf77a179b451526a91c1106545a66b881352e7fdb5c1ba88747171d9",
+        "compacted_partition_sha256": "d4986586f1fe700e74e2c0ff25fc02f8b03e9ff6cf903a37022c701f2dda9b76"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "a89af4ea19eda4205204c236944c134b04835ad7e005ec76fc4bca039018ca56",
+        "compacted_partition_sha256": "f9a46755c87791949e736204375cb218d315165b7a3c42c50a1f59367d97e396"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "48a882fd8c8fd09647595b15cf3cb2030c200356f431f1848424fb5af33179a0",
+        "compacted_partition_sha256": "4f76df66aa9b9ed8a5d0de2561f2e8e67d1970c58789eec2f0ee789836357993"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "d578ddc85797c8ddf3ffa4c052e3008b8aca6a309ba3a2002eae5aa61e9e5535",
+        "compacted_partition_sha256": "c410b1133832c45e23afe97a722b5ed7328151dcecb37da43b161f2b81c87820"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "1853ae9cc0fc98676c1b819d9b6277fddddf960fb2ddf49df05ce2aeb0cdd87e",
+        "compacted_partition_sha256": "e5062d57cdeaeb01d6e17e03ab16b776dcbb7e4f2069b53a53f3ac9a05c6c7ee"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "1dca91afcd78134fbde12154578f84d67b81b5a07ff8a6ff943489fbd490ac1f",
+        "compacted_partition_sha256": "106f38d0d94c186104c247464640464acba43d1b8efa161383bb161149bb75eb"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "0bc1780fadd73b905fe72827d7d1cb613bfd2cce80f3420b3d7833b3e46e4e0d",
+        "compacted_partition_sha256": "19f45d573ebfb33370863038841bef28a0444ea793ac4a2d9021303ed1573f47"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "7a3a591f91fe0a5a8b617ee3bf25d4f143e0e0414f8ecd6927ade88eee414101",
+        "compacted_partition_sha256": "9be85f071aa24207d24f0162cb00f246f74c1bf623b4a484d6a2803a8644b7b2"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "1f1e39387da1a101b9b7933d462d02ab12091e719006482f334c0e8ff46ba82f",
+        "compacted_partition_sha256": "a7079fc00859858cb87298dc270c21b641688ab19168cd9c760b6cb79bf5d6a4"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "1e5ddb0138fa2b2218196c7df9328ca11d60ab3fdcca7768a940a01369255f46",
+        "compacted_partition_sha256": "bff464e5d4af670d913efbc9a9b11190d00870272e06ff8334d90d09b65d79ce"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "0e72cb4c726aa65df551e620ed9380f695fb1b1754a68cfa33007c785ab9fb5b",
+        "compacted_partition_sha256": "e5b8f87e9c0e1784e8886a70b7a4130f66413001b3a874eb46f8e816f8f9b6be"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "27b7255bf9ad300253d34fe2da325b5e6803e997ab9599ad99ff1ca7182725f2",
+        "compacted_partition_sha256": "abf7d771c4634309843f65cb6e1939ac3c83b13e4dacc30aae41f13065c8250b"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "7e25054621ee44a59f44a7d24d50831c974f3d1bfd0b85de0a2b1ae0ca8dede8",
+        "compacted_partition_sha256": "5af9e996d7135aa418c7f1ce5b6cd5f1aeba1c8207a6a8aabc7629fcf740131a"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "8df8bc0c32caf792b64d2a99df48c728d0aeb163295d74bb3603ea37d8f3ae73",
+        "compacted_partition_sha256": "f5feb2f7d026aa90ae4b0499bcafabd09f174a1ec8dbdaaee10b4358266586c5"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "794155f87adaccd9f4eeb27deef90c6acc65d9b99ab3d8490824ca55dc22165b",
+        "compacted_partition_sha256": "0f5ba4d2fae155a17ef078b31e5b7839023d54b37bb4f0542936dbcd1175957a"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "2efe78edfbf6667c66681dd185c563ac92cb926ac595365f2dc4888b30c5f217",
+        "compacted_partition_sha256": "77af80ca0f162d37280bcc5f9088cf3b84bb54b357afa3f74603938eee119b19"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "87a5d47901230b8cface2e0eacb251b30b99556f92e08d8bb8f4da601c85d4e8",
+        "compacted_partition_sha256": "902d3e56b0e612094388edf3ca9f845799c50880455d1aa1880cc7117491621b"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "99203cf2cf03fd8a0bf6dc648236a578fe1809e5947d153c1c0c99ea86f4e647",
+        "compacted_partition_sha256": "eb1465a5e8cea0df0fafc91716575b49b514ee198e575c26b5fa70fdb3ff9643"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "8d7abcaadf3913b86b65424a83718f12f4ee334444f82d17704f888b32b1ea5f",
+        "compacted_partition_sha256": "d5514f874402f05c0424777155205990b29284c126a839872d89ffe633235d0c"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "2dcd58b377b01fee7a1c8294f6cad31556c9ced7cf65ef15d2af073c9792ff22",
+        "compacted_partition_sha256": "4385fa4ac402e3ecfc47c275b9f23e5f5df7a84edb2b535544e1abeca1bdf3f6"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "5621c2f97198df135d001e7bf24db31e02160033971342b19ffaf121b299538c",
+        "compacted_partition_sha256": "4e427dd89667e818b58c0f946308496759e205b4cbb29a373de951f96aab480d"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "7624698eede68c81d35016e5df9c9f0eb19020e45551c05e5a159f49df3750c3",
+        "compacted_partition_sha256": "19e4b166b01fb026e93b77c44b9d6f33846c87fcb8697e74482e4322acbafd9e"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "75ce86160288d288f0d1e4ffc1650fb62565b2cd143d4374332877098897ef26",
+        "compacted_partition_sha256": "45fd7d01e536c2ac90ce4b872de0b422ecb7e017d58562400462952274586cee"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "8eae0bf4a67bb9a7b9123b204f5f142d7e1ac9db5edba1bfe3336878a11caadd",
+        "compacted_partition_sha256": "61ab062159d9c63c51dec2cc03d373a8a2b3d39fd0ba94ae9378db6116f36b75"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "05"
+        ],
+        "original_partition_sha256": "8e079c36b8077d011864dd55a9c9ab3a8c58b7a8a720ae9a60244c790d90245c",
+        "compacted_partition_sha256": "1e09eadc09717ca54a14b4d25b15abaa711b2432b7f4de9fe17d52af2c7a10f2"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "08d616f8557ec7bbef2a8f02e597e053e645abb83d8185a8879cfd4f92bec995",
+        "compacted_partition_sha256": "f8ae092c724c571a1666aada7830915f33b3b39c43b620418b4f561310e39374"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "8dcc2d964ef1053ab40c9a2a75495bad15adbd144c4be86e21b6b228948a3f3a",
+        "compacted_partition_sha256": "4b0c73881ebe5c9ff91a26f1197a28f9efef603cb7b3d08ee98dfd6937b21f44"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "183bf57fcd4d4c4dadbe7cf811f27e7b6d83d8190e73f5cf75de2020b2f68af6",
+        "compacted_partition_sha256": "612e6c3dcef2584285e9c29b7a59b05c0f71ff9bd031306898f52c792fea26aa"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "3316ca74518b91b52f937082619aeec3a407e1b5e6bc665d8e7cad4e57bcebb4",
+        "compacted_partition_sha256": "65044d18e0dc8fce574a332500288c691809aaa49f3bfdd184f3f03e2740d79c"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "df961b32bad79126c137f987fcfb2b6a3654727d36aadf27c66918d9886f42d4",
+        "compacted_partition_sha256": "55d638c3915133e507948e4451ecddd4e0e818a5da33e3201a419aa36f9196cb"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "fa1972eea32e88152e6f902f39dffd656bf52971172d9408590aaacc812992b4",
+        "compacted_partition_sha256": "7c605bdcc8e32410b7300aa2427992aea74a602ba8d8d760bc392f6816583ee9"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "3450102260272655c74b648d67cb468893c9d2769e312f9653f3559c9a5a11c4",
+        "compacted_partition_sha256": "8aba8fdd273731e35f8c9758b579b389c99a0902ad2314ae53ee53146e7c1414"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "2850aceb7bb9f4bf8b272acf502b80e6ffcb94b1c8d2c7cfda62b5549c62a7b0",
+        "compacted_partition_sha256": "64756feb0d48fe675a89bd1168e307e38f803cc13f956142fb1fc463e53f58d9"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "5ee4ca7c2387fd454ebe60d33216ea12c5e0d3b0e057e9f66e6c11d9b47f62ca",
+        "compacted_partition_sha256": "0345eaa765d7ce9f2fb611e37b4cfb6814f848a0dddc737f5b176b57967c0c4f"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "1e8659f459fe5f7f67877003f014e1402127cfa81efd3ae553e7e4c69674167c",
+        "compacted_partition_sha256": "541c9f1b3785b4b56aec50d606ce009a7643d7b2e77369cb6b6ebe3e6b8da489"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "1d874bf8b41985f8d78e46884c4075a12fa32986a068339e0ce03682abebeef1",
+        "compacted_partition_sha256": "e10f01e0578da2705be9cbe9290971cb39b2fd9c15c267b2a3d9e37073c4a9b7"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "d4579669e217ec5ca715257f575b6c33e15201602de73e52b303cb15e6d742a1",
+        "compacted_partition_sha256": "e4f2fd684faa9a16b492a252748b3a82496c6a0c5a85ad294ca6188a10135ea6"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "be95ea564659f86229b761e9c6f7b16e74826307abf70061b6ef8fa3a08a6164",
+        "compacted_partition_sha256": "b146c8a41a0e926df651ececbc3024008625eb6b537081121bfac8bfdb7d50c8"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "06"
+        ],
+        "original_partition_sha256": "db05b2d4e8d9c3d51ce770fbe5c6686b5030d1617bc9efe8b2826eb5642bd882",
+        "compacted_partition_sha256": "12b893c9951dea40c9ae230e3d3a4d0d5b13b227b3ee0be5373297916cdb12e2"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "68c8b72d8ee83e187d05d9cb19822f68f2c223caae56b53e4a2c477c78d8a5a9",
+        "compacted_partition_sha256": "2f490c7385222976e8031140415dd2bf9dad851586cef4e15835789c0f04e0c4"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "64d408536eb55305eb18048a2143dc7a0c28afefc945c01ca3546359c7a8bfee",
+        "compacted_partition_sha256": "92f55863569b0fb5161889db92009215a005a03c23b626066dc1b9c1c3972c9e"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "3aa171426ea4b198e05f9dbc816e594bb05dd46daaf3b9504f39e9752a4ced4a",
+        "compacted_partition_sha256": "1b34d7320785d96858e777a6b9980a2f2b2119a65a3d71909f2a0e755ab35cc2"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "614a6462a3a43a70927ace5b74c10958cdcef76df99458f17dfb75be6fd5314d",
+        "compacted_partition_sha256": "9f17deb05b7c6233890129c7b78ae9d4e93483b64bf33df8b76056715b61ccd7"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "65f0384975778eabaf5c2bcc82acf3f8f1406a0961f43d9f4a783aa54fd4c02f",
+        "compacted_partition_sha256": "76c9428936f0427894a32fd3b913a80251aadf95ad44b09df65c1b30e5838b15"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "4e933e0b8504fccb0bc079ae2fd63ab7291b308467b1a115010ff08550207ab8",
+        "compacted_partition_sha256": "826d3b3506007af8c3081fdafcf4e8aec229772c2c7078551d31735c8f5e1e98"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "ec5b8c9b518aff26f8243036a92dbc81fe86079d9bcb790eda001f015176fad9",
+        "compacted_partition_sha256": "5bfef6fe585337bdb9143c88ba040db630466e10dec5ce36f3971a6761a7899d"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "4e861355548c73a52f87fe2f64f2a5cd7c17817c0b981ff76eb01e821e633e22",
+        "compacted_partition_sha256": "e7ec0ab1a4c36b7ec115d343d45cd3d30076c0e4d42891f5f466b305d444730d"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "ca3f0b3a8ecaf41a4cd05a4be9580a936358ff4a23366e9aaddf49f0cfd8e121",
+        "compacted_partition_sha256": "36839b49481f224ba0765a0d2ea63415f3b983857864f4918fe0c8e79fc0feec"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "556aa11a1fbdc9cc69ed9c48fbd1cc42cea19ac6fe70cae4f04504a6e0fa9444",
+        "compacted_partition_sha256": "f043fe68971dc69f2ea8de095be9d5f4f7f452c992fd83a355c003104b6d5dd1"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "752b9d0888fe35ae42323f4cd019f6a669b869f0bab3302fd3a0c8981ced55ac",
+        "compacted_partition_sha256": "7f07f2e7440e8a9038b7f26cbd16268250b6d03d8175c362f43e2449c1ddc4df"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "59986864f32aef187f4b1e234cd7ad5771014ab72f630ac1c10dae4d6d41c785",
+        "compacted_partition_sha256": "2ea0ce4946ee496e671df789af098d1a74e6f47c09c5bf6a4d2b5b5f397227b7"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "4c9fb5fd0707127f041ae6b0bd78c9a31577fef59bae1452d2021d74f3f0b3ec",
+        "compacted_partition_sha256": "19aa6f9c75e89ac9724d885c1a219bb5959dd69c3bb0a0cb2d1063294eb05dd8"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "07"
+        ],
+        "original_partition_sha256": "655a63bf2090676758b526d100c73e853604c242f6cf4cae6fd239c031b536e5",
+        "compacted_partition_sha256": "080357b51d020b88b791f8f862efad675f11c1e10a339c5d3bede677f6f4c1d0"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "73500a154f709acfb7f86cba9234c02ebb5d3f96443098441ed4756fc2c26398",
+        "compacted_partition_sha256": "35273810735719baba56ed27bf161387e580e7525dedef4050cac1a13d8af04f"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "23711222d153cb4c15df7ecf7bcba67ad3adf2ff9d691ee0e1fd7e0fe22343e5",
+        "compacted_partition_sha256": "182e966abae212e5dd02dd4eae07d845c82bca73809a55aed22aff0f9c1845cd"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "ff7cc91e8a6645b58a52b74f29c7b15c027a6a828da72d811faae2765552737e",
+        "compacted_partition_sha256": "388a7a185f7acc667083581e4feefb405c5ec0e0ab07369f7644757a4fa024c7"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "e66d6110ea4e5a154af376034cb21cc4fe70c8701a38e0141f9f035d0c2ad380",
+        "compacted_partition_sha256": "a40b88bc7c2f0b05dc0caae92d560ef5d5e9a19b5b6d8336608eeca192265a3e"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "27001fddad8f24300f761603590d8c546bb4b3a5af45851abee0317d10351a61",
+        "compacted_partition_sha256": "af73fe1c91b7d16cf557e97ab560b1b31b3120f69b52d9694a618eebd5a8ac18"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "63ac0ec7866abc50240d23288dcbbb78cde4a7aec531eda43b4eb98986eb94d2",
+        "compacted_partition_sha256": "26cf646af7225962fd9ef7059523b59a05659872bcb58971977272bfff94364d"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "053ed324b34ec16795c3bfd919a3e244b9bb60c9ba42370b8f61512be4663df7",
+        "compacted_partition_sha256": "1e0ec6cc5af066de09c2f4b19e6b3dafc79083302b15d60413836c80dbf8b726"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "135371620c62c22f8db5bae558b0c12f26129d754b0b685fee0bef536544a20e",
+        "compacted_partition_sha256": "66bcb088564e924cc9212c7fd4bc365a15f6059f8bb89a26fb1ad6e7ae7eaef6"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "2b527f1a11b64fad440a2a97ddd06369019b33d9ea68b426d2ec32dd7387f268",
+        "compacted_partition_sha256": "08b2baeefeb6213aad55932b967d34dce53edde761a34e2c2da962d0a4dfff80"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "0aed91c557803411475cd0e4ae8d68b17ef24bdbd31f8cd0cb854bb4502a71db",
+        "compacted_partition_sha256": "18b312f114cf044a82916074c6040a495b00e2a7a1aaa956e53ee6045a225b43"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "ea02a12543d05dde5a9f64844a395015267ba4a0098ac3df96211998837a5037",
+        "compacted_partition_sha256": "b6ea165642353a088141ee91b28e7b1854d341028130ec28df80aff6f63b18f9"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "839b83dfc5b80980bbb49997aa8cfa2037940101d16c93cacb984b44f645f007",
+        "compacted_partition_sha256": "4587e3c76a279b115831d422979c88ef8d577bee55699340fad180265828065e"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "a46caa8c56185396b2ef111769ae1dd1c1e02a9f9a5de497eb2f7b8a4e637698",
+        "compacted_partition_sha256": "e75c6b757f39acc86b1b0ca2c6691999fa1f1c17eeb7526d0bec8e172724d89a"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "original_partition_sha256": "b07289edd3cf58dc9a9d92b20c3a41c26abf4b6644be0f0a1a8e7354e0f7de62",
+        "compacted_partition_sha256": "ddef769af59cdecb39c9a2d8b70a788b812740fa364616afce89cda49d74d19f"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "9cd8cfe2d0e17c01e3fdb80bb0ff338d0d0c5c72c5be4e692424d4d77ab25225",
+        "compacted_partition_sha256": "1b50f46a1e07fa2c34f3cc6253c1e043f3d9b70dca9faa98f88f92126918b455"
+      },
+      {
+        "key": [
+          2017,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "d6593fc6fa6917f1d3d825a27b9c8afeb416d769250c364e7a769123848fe930",
+        "compacted_partition_sha256": "12016ec3bfa37672f084b5884bf815bf9de5fb828cc7f2d23d69925fbf5abce4"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "da7ef9d429ed77eb05d1acecdce5bd5f7d5c6fe36745fb1dc7f90bdd16093a0a",
+        "compacted_partition_sha256": "79a1927c80a03b2a16f362ea5da3eaa7694880d392d231ac7cfdd529a2994e32"
+      },
+      {
+        "key": [
+          2018,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "bc9f9e95f993bdd06a0c0e9a416b35c01410ac0fd60596a0362ae3eb1490873b",
+        "compacted_partition_sha256": "50c5c9a678ad54abfb96ce6941ae5c13bfef51ac5ba71839101bae6cc9db9bac"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "a82f82c0d19e89c7a9c75587e34bca43607d1d88d2ad6101634c8c8a3b11cb4e",
+        "compacted_partition_sha256": "d0b3fbeb4eb38b9806f649e6fe68db4cf74edd600a171515880502bf11bc9710"
+      },
+      {
+        "key": [
+          2019,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "cff71c3a17281284695ab74f2fc91e5fbdd677d72410169de19cef535f21afbb",
+        "compacted_partition_sha256": "d7cc8a3a9aa4c914fbab76a88cfedb6c1d8565518af763c57d441aa96bdb17da"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "0b8a04ac2a8b3664192662f6c3fa60f52590719c094b0dce5515d3d1fd81aa72",
+        "compacted_partition_sha256": "4ca35dd83718eddf7ef37a12cb0bcd9facaf9de089327de56bde1e0365d34a59"
+      },
+      {
+        "key": [
+          2020,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "447aa54c10dd5ed7d6b4e033b9b0bbd9a6361f76221fb5a28471cbe71fabb130",
+        "compacted_partition_sha256": "bd52c39d01d6ad6a1ab3aa5a52947d7fe0f2c6bb1785f3bf84a4bfcb0b4c0915"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "392a8e9dbc8f3bd87b07892f378f2f7727029862a8e62909545199af4f59c2b7",
+        "compacted_partition_sha256": "a6a9e08d9a5839f1c2858832db112edf27bf04755c3c6a04c1130c3e482918ea"
+      },
+      {
+        "key": [
+          2021,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "9b64909d8daa899ff0c30f7ead8a8a51ead0e1a863f9864bb4a47c719a7363b4",
+        "compacted_partition_sha256": "fc7faac1a932bdfe16349409b0ed6a675db5d3ffd24c7cde2bb9c86e961b011b"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "36fa1b6807fb20ce22216d84eeffb1cce2a192c797f6c523e568413073654333",
+        "compacted_partition_sha256": "b77d3a9c96a2c978a3f9d46ddfce79c664a6a66b25cf82a6375c5ca70e5279c7"
+      },
+      {
+        "key": [
+          2022,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "2f07b595e58bb0c4d0bf427ee45d3bcaf8c29dc30f1c6771c4b70aacc1c8ae2c",
+        "compacted_partition_sha256": "dc5b265a20aac6250eb37f194c7d7948d655712c07a435decc3a66f941ce9211"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "9023a886650177b11b3f579b7fdc02a95ec71d030a292b1b53de33e0fbabf971",
+        "compacted_partition_sha256": "a49c229d3e122a782e2714f4467a396c7423fff3d38f28c328259c81822ec73d"
+      },
+      {
+        "key": [
+          2023,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "2e33b1bb6ff5c3ad8bf03005e92063b4414ee0308ceaaa79b25936f9e3356b52",
+        "compacted_partition_sha256": "5156afff9442459745598c955e5119bed8539a14fdd80fec2447a1b86e69cb84"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "109",
+          "01"
+        ],
+        "original_partition_sha256": "350a66c6261b116c7e57de4aa9f4c8ca083756b2d1c483b3ba267bcfe3a722e2",
+        "compacted_partition_sha256": "5fa9aa2298e30a45b64baaf5c168e71c08510038767dbbd5c549e089663a3289"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "109",
+          "01"
+        ],
+        "original_partition_sha256": "4fb6dc6e62666afb47a748d06b1e737dfe74a4d701cbe1b10900d66d1e78161c",
+        "compacted_partition_sha256": "08b8209db83e2d83c7152a9845aafbd05bcfa278fde0da9d4bb08e6270c822b9"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "109",
+          "01"
+        ],
+        "original_partition_sha256": "3273320dfb5baf8e3ba2162f333ef4c10772f18583aeb40afff838d83e20a138",
+        "compacted_partition_sha256": "93fbd55c306d44ace43d5de63709f503d433464c09ec2993dec25886a7e4af70"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "109",
+          "01"
+        ],
+        "original_partition_sha256": "eeafc78317bdbd1b94d5adf5bed3ea66f80a0fb69828dd8cee2ba980f2b07402",
+        "compacted_partition_sha256": "8e6e9365b223b6f37d993edfef22f614ef3a612d64b1a7e35803a9259057fcef"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "109",
+          "02"
+        ],
+        "original_partition_sha256": "7ee4bfd3be629ed2033f64c7980c3417cb5713ab398e9dca65982b4ecd192617",
+        "compacted_partition_sha256": "8b2172dcab6f79b52bfc7681348971f84373db963861f591bcdcbaa2504b52f0"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "109",
+          "02"
+        ],
+        "original_partition_sha256": "c766626803c3cbc984d404679036a4d09df0d62c7b741a485430e4704f2e5038",
+        "compacted_partition_sha256": "33ea1825862ddaa532b3239c565d5c0c4af62ba1011a9df2423a8c3a6ad2558a"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "VA",
+          "109",
+          "02"
+        ],
+        "original_partition_sha256": "c17c8a2aeeb64d315f59e895351142b92ea30af7e7e8c130914f71f7776b3cac",
+        "compacted_partition_sha256": "e3c1a56032dcbdbbe68a6c758f79f37b77ee25c6cb5fdfae4fed8fa5d026f80a"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "VA",
+          "109",
+          "02"
+        ],
+        "original_partition_sha256": "73a32a9c8740cc24059032626c83305811b17c8f3841768c849e2e4f9296e807",
+        "compacted_partition_sha256": "5d997f37eb3c1572e9b671ae838d3cd9d900cbbbdc09a182426d957ed3474f8d"
+      },
+      {
+        "key": [
+          2017,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "a84f98d0bd6a7ea9efee8198951f055a719ca7764343dbf42608484bd93e27ea",
+        "compacted_partition_sha256": "d9a0ef9758a1d8d8bda699545fa4cb908a150e7d136ce7b8ae879c5215f34854"
+      },
+      {
+        "key": [
+          2017,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "68bb0697e26368ede92684d814b02e29eea995295db5a883a49e3722eacca3cf",
+        "compacted_partition_sha256": "2560bf00c6d7ba2fb0023817d5a48e287e74651883780a8e48859250a838c58f"
+      },
+      {
+        "key": [
+          2018,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "dc5889d733409c8175acaf14a58b9f678c8234e39dce3ba1139309dc6b0cc6c4",
+        "compacted_partition_sha256": "6ad5c92985c3da70f5e11f39a077fa8d657627405436aab7a3f4a0474dc45bea"
+      },
+      {
+        "key": [
+          2018,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "17eccd343f1aa7526e5c0253ed1204b17f56bf852fa4c0c197055c13edd1a1b9",
+        "compacted_partition_sha256": "901bfe86046b76a0be7030954962c77e7b988c8a3529b9b809b66a477e48e032"
+      },
+      {
+        "key": [
+          2019,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "64e6dce03d329b64298df08f380c9f78fdb65e3c6e7c96e822d92c4b1f976e56",
+        "compacted_partition_sha256": "6541886152dc21d5c0978ad9e282811b494858c1aa10d3ae43415c0c0c498dd5"
+      },
+      {
+        "key": [
+          2019,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "93b7e0af712bc64ee40a17b7b4674bae818000087a8f7d16652bba41388fb22f",
+        "compacted_partition_sha256": "946aebe798c0cf120f32b6240d4a68c0c052834f97bc3388c48e09207a389a97"
+      },
+      {
+        "key": [
+          2020,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "529b02a0eee40d91dbbc6cbb772d8dbbe20fea503224edcb375b6856a7e7128b",
+        "compacted_partition_sha256": "cb55087238ac7b7fc376e57d207043f1108c0d8c09bc81c625d55d6033a4f7b1"
+      },
+      {
+        "key": [
+          2020,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "533b5a9e71f5dc3bf3e81f31232a397d5c7a5917d948a4e88ee61497311b0a94",
+        "compacted_partition_sha256": "b19a8609e4d64a979147d63b63af201811c1c11184fbe7f0029998ec3dd1b148"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "795dee5567d834419d12f98a9b771fd9edf3d8e90740c4eb789596e472dce4cd",
+        "compacted_partition_sha256": "1aaa1c3c3ac316b7df1793eb0572bd5be0fc37a181a7df18ba3e4f57ed335011"
+      },
+      {
+        "key": [
+          2021,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "cc82b5f686532f27b5ffbc4260d77066007cbb0f25f8cdc506689aacf1ac8f6f",
+        "compacted_partition_sha256": "77d3e0fad9931f0ee91aadcbceaf78b57d884cfb7e7326875b7afefad49ff074"
+      },
+      {
+        "key": [
+          2022,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "ec78f9980f7e1e6294b5172e3f56ebd4ed718c71f9208d32304e464efb1f4793",
+        "compacted_partition_sha256": "726c34ad8766b24d850844838519cb988076998660d95360edf2d4f7dd049924"
+      },
+      {
+        "key": [
+          2022,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "95f9b614e3255140c69a436525b5938f8e050cd88de7d064958adb994ee80b49",
+        "compacted_partition_sha256": "ddca04cc45b71f5b2364b5d6635fdd62d82feb314fa3277f27b57cc0cd4571c6"
+      },
+      {
+        "key": [
+          2023,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "f9b65f938fae145412496e840963aeea4471b14ba36d16a66e3bfff15b0047e2",
+        "compacted_partition_sha256": "4f35f37440cb48173f75d65d81189a80de2536e7f810df9c144270ec56ecca1f"
+      },
+      {
+        "key": [
+          2023,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "ebd6353fd046f2c0a8d9b3a8c87d323bf6f4963ce4b5492c0eaa78f8bda49266",
+        "compacted_partition_sha256": "63cd37f452f56fd9105109c9dd8ba7b2ffb64446f026964a719a43f76450a278"
+      },
+      {
+        "key": [
+          2024,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "d111c425a802e57907d13c495d64ba35ef54b48154d671455a6ef832e8eaf513",
+        "compacted_partition_sha256": "46880bc41371c7c0237c13079131549274e15c38ce7a7c51ec91e337bf5793a3"
+      },
+      {
+        "key": [
+          2024,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "03"
+        ],
+        "original_partition_sha256": "4db666baa60552fcba37ffc18c4a529bcce9bc14336febd986d00af106588587",
+        "compacted_partition_sha256": "3e9834ea4d7a9395db3eb56bb90105510ddc0ac5188958e8e673efca5994916d"
+      },
+      {
+        "key": [
+          2025,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "44045c69add7c2e9608fe59ad09d0fdccb8e0ce068f81c28a5ebdbb28636f634",
+        "compacted_partition_sha256": "cbe2fd780d7e8d113661f2247cec284971e6fa8a4fe23013c3f31e6588af7a2f"
+      },
+      {
+        "key": [
+          2025,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "f11b32dd7a36a0157fe8398bd1c50299859f170578b979730198f8e73e2caf29",
+        "compacted_partition_sha256": "4affa9bf1f922e7b3c5905b0831718bbebd28a287fb5e2b6ab67a53bea1341b3"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "cea00cafed69ecc541c1e6f87ce2466a086eee606aeae554db98debcdd86c968",
+        "compacted_partition_sha256": "8c6b15c02400ec162284de91443fa99c2f3e11912d73a44740542f778cdf78fa"
+      },
+      {
+        "key": [
+          2026,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "3569ec93bd546fd8d0157591c2f77f190b1fde00badde88a5f0589e6a192b104",
+        "compacted_partition_sha256": "9cf8d4d9a1d5d7bf8e20aa1d8c8400aa56cb33d365520a51f14ad2c924937e14"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "fe4cde1e13b82e8433550f6b5a1f3e6abd896beea9256761fd8e08bb3a131117",
+        "compacted_partition_sha256": "794c15e2b5395607534b0345613c11487ad07ff883618d90df37bc1d1aba602e"
+      },
+      {
+        "key": [
+          2027,
+          "PLF",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "original_partition_sha256": "daed7dd2fbddafc38c7b9d3aa194541a00bdec86629d14ea155b59407826c121",
+        "compacted_partition_sha256": "b2997ba247ac4b51c36a4d4097a1be477dd26b4afdd02ec7bf9814256099bd29"
+      }
+    ],
+    "note": "A future supersedes_partition_sha256 must cite the actually deployed compacted hash, not the historical sealed pre-compaction hash. Current registries contain no supersedes or affected-hash cross-reference."
+  },
+  "independent_QA_sha256": "bf3b2dec3455eda40bb1cadacea2936b3a53dcf7f1af56957337f86472f014b3",
+  "reference_only_no_financial_change": true
+}

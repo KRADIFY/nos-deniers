@@ -1,0 +1,14 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-p156-execution-soutien-15",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "44aa1964243b85f013933f0f5d10aa38ed7d35b75f7948ebbc2c69e94d968f9f"
+    }
+  ],
+  "append_only_preserves_existing_partitions": false,
+  "existing_financial_partitions_unchanged": true,
+  "unused_audit_metadata_compacted": true,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

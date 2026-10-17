@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "at": "2026-10-17T22:56:41.362046+00:00",
+  "reason": "The prospective financial detail payload exceeds the Git file ceiling because frozen audit snapshots are repeated inside nodes.",
+  "archive_file": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-p156-execution-soutien-20261018\\FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+  "archive_sha256": "644380ee1c7519e22cdac52741dda2c58c22eb29e71e3eaca09014e0b55d993f",
+  "uncompacted_bytes": 123349083,
+  "compacted_bytes": 35651247,
+  "snapshots_referenced": 4188,
+  "audit_snapshot_bytes_before": 89569191,
+  "audit_reference_bytes_after": 1871355,
+  "semantic_payload_sha256": "de858e57f50fc8201d3bece3b86afa559f213763a73222bb0b023c9c41e3d02d",
+  "all_financial_source_label_relation_and_guard_fields_unchanged": true,
+  "runtime_explicit_audit_snapshot_accesses": [],
+  "actual_runtime_row_pairs_identical": 4314,
+  "production_code_unchanged": true,
+  "source_evidence_unchanged": true,
+  "canonical_database_unchanged": true,
+  "not_a_financial_reaudit": true
+}

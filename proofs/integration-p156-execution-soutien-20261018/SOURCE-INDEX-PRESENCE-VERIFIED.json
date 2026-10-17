@@ -1,0 +1,514 @@
+{
+  "passed": true,
+  "at": "2026-10-17T22:58:41.938586+00:00",
+  "read_only": true,
+  "source_matches": {
+    "0d411deb6cbabc3a49fb6159a2311fe03caf579f03a978e3084c4b86e30da80d": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4744,
+            "reference_id": "f357abcb678be382f8c5742e3e96f1f422eead8e54b66f2295808b1124995c10",
+            "source_sha256": "0d411deb6cbabc3a49fb6159a2311fe03caf579f03a978e3084c4b86e30da80d",
+            "source_id": "acbc3854caa405114230",
+            "title": "FR 2019 PLR BG MSN GA",
+            "url": "",
+            "format": "pdf",
+            "years_key": "|2019|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c4e8645a8c38183e6a9b732664d60dbd5683f3dd2830d7fe9eb12697d7bfce89": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1197,
+            "reference_id": "3bf679633ad17628031cc8f8f2e63ccf1d07e994728c298934c2ca3c8c71011a",
+            "source_sha256": "c4e8645a8c38183e6a9b732664d60dbd5683f3dd2830d7fe9eb12697d7bfce89",
+            "source_id": "afe5d663cfb0e2c02192",
+            "title": "Gestion des finances publiques",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/826959/file/RAP2023_BG_Gestion_finances_publiques_GA.pdf",
+            "format": "pdf",
+            "years_key": "|2023|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "285a42286f6f7d6533c497a7549fbd5679cf9f13d7ee4be261b5921fe09350e8": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2970,
+            "reference_id": "9846f7be43f2c04ee809362eaa8c8d00f82dc9531ac356fa9c8379b3ca184ffd",
+            "source_sha256": "285a42286f6f7d6533c497a7549fbd5679cf9f13d7ee4be261b5921fe09350e8",
+            "source_id": "3228b40dca985cb3bb15",
+            "title": "RAP2018 BG Gestion finances publiques ressources humaines",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2018/rap/pdf/RAP2018_BG_Gestion_finances_publiques_ressources_humaines.pdf",
+            "format": "pdf",
+            "years_key": "|2018|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "914816cbc90cfc2c26c6b4e146ea6789c65c5d6e5965c72603df8b454a22fa56": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3027,
+            "reference_id": "9b2eb2e23952803c7c54b0987b1b716c045e1abf46418a84febce618182e946d",
+            "source_sha256": "914816cbc90cfc2c26c6b4e146ea6789c65c5d6e5965c72603df8b454a22fa56",
+            "source_id": "967bc75f1de056a01e3b",
+            "title": "RAP 2021 — 156 - Gestion fiscale et financière de l'État et du secteur public local",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/15751",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "e5f9b5f89ae9a4e43cdb80272b91e917b592f062f750b8034af2d92a626abcac": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1196,
+            "reference_id": "3be310b4408cbe12e447d8c012e659de5fb4ef0bdba3d856725d39aace3db87a",
+            "source_sha256": "e5f9b5f89ae9a4e43cdb80272b91e917b592f062f750b8034af2d92a626abcac",
+            "source_id": "2f6230e25a0d0bfd33f4",
+            "title": "RAP 2022 — 156 - Gestion fiscale et financière de l'État et du secteur public local",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/20418",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c53333019d69ed20936b32da74294dc36f36d28249da60b9e22d29dbe2b42d32": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4318,
+            "reference_id": "dd8220e147d04979195d06eca8d8c7007fdd5c3306e6e7b015fb6a22380c2215",
+            "source_sha256": "c53333019d69ed20936b32da74294dc36f36d28249da60b9e22d29dbe2b42d32",
+            "source_id": "066c6fcbfb5d1d7211ff",
+            "title": "RAP 2021 — Gestion des finances publiques",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/15505",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "65bd47605074f1a744f4e0c6d0f9cb22b54c6514d6ac318e849838f5df2c872d": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 29,
+            "reference_id": "017598a93113ba44c86f4297ef3bf6bb12e2db0b80158db1f7f526e4e1ac6b3f",
+            "source_sha256": "65bd47605074f1a744f4e0c6d0f9cb22b54c6514d6ac318e849838f5df2c872d",
+            "source_id": "dff4179ccf2c00f67090",
+            "title": "FR 2019 PLR BG PGM 156",
+            "url": "",
+            "format": "pdf",
+            "years_key": "|2019|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "a1a721b7e750d2f578dfc8efe37683817ba59ed3c5210b34aba0826bf5f8ac66": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1948,
+            "reference_id": "62a292aac0b670d178a03f4414873df98a6cbca66d47b4cd548cb1b60d8591a8",
+            "source_sha256": "a1a721b7e750d2f578dfc8efe37683817ba59ed3c5210b34aba0826bf5f8ac66",
+            "source_id": "2b284531903562ae4e71",
+            "title": "Gestion des finances publiques",
+            "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2025/Gestion_finances_publiques.pdf",
+            "format": "pdf",
+            "years_key": "|2025|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "cc04e39802d9038db78c599675f2a50ec32cb2a6e91fbe51bfb515ecf1125aa5": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4058,
+            "reference_id": "cfdfaf3206a3b1773a880ba4d09bc985be12f6386a2af8182531107cc73a1612",
+            "source_sha256": "cc04e39802d9038db78c599675f2a50ec32cb2a6e91fbe51bfb515ecf1125aa5",
+            "source_id": "531ff850adabe9c284d2",
+            "title": "Projet de loi de règlement 2018 (PLR 2018)",
+            "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/projet-de-loi-de-reglement-2019-plr-20190/exports/csv?use_labels=false&delimiter=%3B",
+            "format": "csv",
+            "years_key": "|2018|",
+            "stage": "rap-plrg",
+            "source_kind": "source_csv",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "22b7d4816e5b167f9978d052e166f5ab26f5e89ccdc626956e1d91fac3a78f1e": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2176,
+            "reference_id": "6e77eea2cce20d2b020857462481a62cf3da9212264d8cf9da8e20369f3f73c0",
+            "source_sha256": "22b7d4816e5b167f9978d052e166f5ab26f5e89ccdc626956e1d91fac3a78f1e",
+            "source_id": "4772b4968eaf70c0599e",
+            "title": "Gestion des finances publiques",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1087984/file/PAP2026_BG_Gestion_finances_publiques_GA.pdf",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "0888ae822548226cd6cff6f8d74fdaa91a50f2ed988f3fd55de7c81c2be7fe08": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3325,
+            "reference_id": "aa4523718f9c936b77774ac6df14926f3e28d406f5809376e5ece8ee672d0940",
+            "source_sha256": "0888ae822548226cd6cff6f8d74fdaa91a50f2ed988f3fd55de7c81c2be7fe08",
+            "source_id": "725671a96f66983c2718",
+            "title": "PLR 2017 - Exécution par Mission en AE pour le BG",
+            "url": "https://static.data.gouv.fr/resources/plr-2017-projet-de-loi-de-reglement-pour-lannee-2017-donnees-de-lexecution-budgetaire/20180601-180237/PLR2017-Exec-Msn_AE-BG.csv",
+            "format": "csv",
+            "years_key": "|2017|",
+            "stage": "rap-plrg",
+            "source_kind": "source_csv",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "f0aef77957972856340b4527dc3a58ecfb8b4ebdd0f28a0b268ebdc429af23c0": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4316,
+            "reference_id": "dd5d8ad43d8c5907651f224713ff3944e49bfbd4beac50587c9abd92eea2e8ec",
+            "source_sha256": "f0aef77957972856340b4527dc3a58ecfb8b4ebdd0f28a0b268ebdc429af23c0",
+            "source_id": "5e6ee26d2efac595c2fe",
+            "title": "RAP 2018 — DRGPGMPGM156",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2018/rap/pdf/DRGPGMPGM156.pdf",
+            "format": "pdf",
+            "years_key": "|2018|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "3c64501dcd13b28b142a4c9329565383dab81033bd45c9fda89cbdb762cf8f06": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1186,
+            "reference_id": "3b844ab16210f9d9505e4a7f9df9a66c6a0aa56a47cda1326e88de056a4c13e5",
+            "source_sha256": "3c64501dcd13b28b142a4c9329565383dab81033bd45c9fda89cbdb762cf8f06",
+            "source_id": "004cd50f706316484d7e",
+            "title": "PLR 2017 - Exécution par Mission en CP pour le BG",
+            "url": "https://static.data.gouv.fr/resources/plr-2017-projet-de-loi-de-reglement-pour-lannee-2017-donnees-de-lexecution-budgetaire/20180601-180618/PLR2017-Exec-Msn_CP-BG.csv",
+            "format": "csv",
+            "years_key": "|2017|",
+            "stage": "rap-plrg",
+            "source_kind": "source_csv",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "3ed1ef90a00ce3d036bef7b198f667e6a96b2772071b6cd3984604125a69ccf5": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3697,
+            "reference_id": "bdba2680b38f985301bda4c3f1d84b533864844f260ff96bc3e99b5db53b498e",
+            "source_sha256": "3ed1ef90a00ce3d036bef7b198f667e6a96b2772071b6cd3984604125a69ccf5",
+            "source_id": "d31fa13063b5b9af8623",
+            "title": "RAP 2017 — DRGPGMPGM156",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2017/rap/pdf/DRGPGMPGM156.pdf",
+            "format": "pdf",
+            "years_key": "|2017|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "766c2a8e89d564d9433273e5d5940d02dbaf00fc0357b96dfab85d8540b0a916": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 856,
+            "reference_id": "a4afc1fcf4838ca0c819eb9d6a3e1ea5be26b9900f25a54e4e2715d9b6671df1",
+            "source_sha256": "766c2a8e89d564d9433273e5d5940d02dbaf00fc0357b96dfab85d8540b0a916",
+            "source_id": "766c2a8e89d564d94332",
+            "title": "FR_2026_PLF_GA_PGM_156.pdf Télécharger ( pdf 598.90 Ko)  156 - Gestion fiscale et financière de l'État et du secteur public local 2026 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/30934",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c2125bd20369561d9cab8538df209e7a67d3e9c9fe1736409d0be6c8287f88e2": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 798,
+            "reference_id": "25c77d6f2c8115fa2cfa6044c0851d905b23239c0526b3b3cff1f629007ac778",
+            "source_sha256": "c2125bd20369561d9cab8538df209e7a67d3e9c9fe1736409d0be6c8287f88e2",
+            "source_id": "c2125bd20369561d9cab",
+            "title": "PAP-2027-Gestion_finances_publiques_.pdf Télécharger ( pdf 2.83 Mo)  * Gestion des finances publiques 2027 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/34354",
+            "format": "pdf",
+            "years_key": "|2027|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "90c7c6f761e12d8b61aca8081cd3ad11fe3bc485d29db87f2b225a9cafabdcb0": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2252,
+            "reference_id": "71c9f1b7c817f50430201f8831fd12eb0f8b37eb1801476a1e786988e4ec97a4",
+            "source_sha256": "90c7c6f761e12d8b61aca8081cd3ad11fe3bc485d29db87f2b225a9cafabdcb0",
+            "source_id": "bdacc1084e809bde458d",
+            "title": "RAP2017 BG Gestion finances publiques ressources humaines",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2017/rap/pdf/RAP2017_BG_Gestion_finances_publiques_ressources_humaines.pdf",
+            "format": "pdf",
+            "years_key": "|2017|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "1d66411ebc9f35938b525c93b5d3ff34bc96ad38ab971b80ff22ce8f5f24c486": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3824,
+            "reference_id": "c496bf7301787633b6977f8e9a32a73dfe571bb8aca3659b26aca24499b3006a",
+            "source_sha256": "1d66411ebc9f35938b525c93b5d3ff34bc96ad38ab971b80ff22ce8f5f24c486",
+            "source_id": "f487ad1a341b86702723",
+            "title": "RAP 2020 — Gestion des finances publiques et des ressources humaines",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/10396",
+            "format": "pdf",
+            "years_key": "|2020|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "5889ad6a3ed3d109d0e3902fa67e01d9fe8e2f197623261657ffedb81c9820b5": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 797,
+            "reference_id": "e724574e8fcfd5e63d7a854f3fd881179ad68be844dea9f3a318122b69ddfdbb",
+            "source_sha256": "5889ad6a3ed3d109d0e3902fa67e01d9fe8e2f197623261657ffedb81c9820b5",
+            "source_id": "5889ad6a3ed3d109d0e3",
+            "title": "FR_2027_PLF_GA_PGM_156.pdf Télécharger ( pdf 601.83 Ko)  156 - Gestion fiscale et financière de l'État et du secteur public local 2027 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/34357",
+            "format": "pdf",
+            "years_key": "|2027|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "9b475321d1770286ffc8120f230a5b2fcd06b78788fd03113e1cbcee728dceb2": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 857,
+            "reference_id": "d1e0938b584ef68b0f132397e3dae7e5740ed30f31d63aaed4361aca2e0368ab",
+            "source_sha256": "9b475321d1770286ffc8120f230a5b2fcd06b78788fd03113e1cbcee728dceb2",
+            "source_id": "9b475321d1770286ffc8",
+            "title": "PAP2026_BG_Gestion_finances_publiques_GA.pdf Télécharger ( pdf 2.38 Mo)  Gestion des finances publiques 2026 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/30703",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "eefcfd651056b406ae349a00f4b65d9021f762a3e032f908d40ac960b44da29a": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1945,
+            "reference_id": "626fb60f825b9a83514b772d70d62418522a102d84c42456bdbbc5ea53026357",
+            "source_sha256": "eefcfd651056b406ae349a00f4b65d9021f762a3e032f908d40ac960b44da29a",
+            "source_id": "896fedd4aa281f5a4aa6",
+            "title": "RAP 2020 — 156 - Gestion fiscale et financière de l'État et du secteur public local",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/10636",
+            "format": "pdf",
+            "years_key": "|2020|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c69e680ab6dd63bf664cf840b23edf20daa2d311f68c8c324417ac3744844fd6": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2724,
+            "reference_id": "894416479b9fa90df98c78d899e505f46c3e4de1e590afebea5642e08f09b1d2",
+            "source_sha256": "c69e680ab6dd63bf664cf840b23edf20daa2d311f68c8c324417ac3744844fd6",
+            "source_id": "05e544db1b1f14600a48",
+            "title": "RAP 2022 — Gestion des finances publiques",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/20172",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "6d032cdff754a2a8004befd5a623772ae64905ac767ac791873bb07d178878d0": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2012,
+            "reference_id": "663e9a2f9a70e1dc3f93abb409b83ffc05e87c73b0ad55aa637f78369abb4eff",
+            "source_sha256": "6d032cdff754a2a8004befd5a623772ae64905ac767ac791873bb07d178878d0",
+            "source_id": "489dafa3aadf8dbc90aa",
+            "title": "Gestion des finances publiques",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/906955/file/Gestion_finances_publiques.pdf",
+            "format": "pdf",
+            "years_key": "|2024|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ]
+  },
+  "new_encoding_required": false
+}

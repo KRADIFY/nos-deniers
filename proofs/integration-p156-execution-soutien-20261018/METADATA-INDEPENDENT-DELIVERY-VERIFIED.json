@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-17T22:58:58.680460+00:00",
+  "passed": true,
+  "reviewer": "project_p156_ready_details",
+  "candidate": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-p156-execution-soutien-20261018",
+  "checks": {
+    "partitions": 288,
+    "all_nodes": 4314,
+    "snapshots": 4188,
+    "already_referenced_snapshots": 0,
+    "preserved_existing_nodes": 0,
+    "identical_runtime_rows": 4314,
+    "all_non_snapshot_node_fields_equal": 4314,
+    "all_non_hash_partition_fields_equal": 288,
+    "snapshots_restored": 4188
+  },
+  "archive_sha256": "644380ee1c7519e22cdac52741dda2c58c22eb29e71e3eaca09014e0b55d993f",
+  "compacted_candidate_sha256": "44aa1964243b85f013933f0f5d10aa38ed7d35b75f7948ebbc2c69e94d968f9f",
+  "archive_bytes": 123349083,
+  "compacted_bytes": 35651247,
+  "changed_partition_hashes": 272,
+  "previous_partitions": 266,
+  "new_partitions": 22,
+  "snapshot_restoration_byte_identical_to_archive": true,
+  "all_non_audit_snapshot_financial_source_label_rule_guard_and_hierarchy_fields_identical": true,
+  "strict_combined_registry_integrity_passed": true,
+  "affected_hash_cross_reference_count": 0,
+  "supersedes_reference_count": 0,
+  "other_registries_byte_unchanged": true,
+  "runtime_code_byte_unchanged": true,
+  "runtime_audit_node_accesses_found": 0,
+  "findings": [],
+  "conditions": [
+    "Retain the full immutable archive in the permanent delivery folder and backups: it contains the original audit snapshots referenced by archive SHA, partition key, audit node ID and snapshot SHA.",
+    "Only unused audit_node snapshots and their integrity hashes change representation; do not extend this procedure to source_evidence or financial/rule/guard fields.",
+    "For future revisions, supersedes_partition_sha256 must use the actually deployed compacted partition hash; the historical-to-compacted crosswalk is preserved separately. No such references are present now."
+  ],
+  "source_financial_reaudit": false,
+  "production_modified": false,
+  "published": false,
+  "partition_hash_crosswalk_file": "PARTITION-HASH-CROSSWALK.json"
+}

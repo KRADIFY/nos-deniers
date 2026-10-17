@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "source": "725671a96f66983c2718",
+      "sha256": "0888ae822548226cd6cff6f8d74fdaa91a50f2ed988f3fd55de7c81c2be7fe08",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\data-gouv\\2017\\PLR2017-Exec-Msn_AE-BG.csv",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "acbc3854caa405114230",
+      "sha256": "0d411deb6cbabc3a49fb6159a2311fe03caf579f03a978e3084c4b86e30da80d",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\rap\\2019\\FR_2019_PLR_BG_MSN_GA-0d411deb6cba.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "f487ad1a341b86702723",
+      "sha256": "1d66411ebc9f35938b525c93b5d3ff34bc96ad38ab971b80ff22ce8f5f24c486",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2020\\FR_2020_PLR_BG_MSN_GA-1d66411ebc9f.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "3228b40dca985cb3bb15",
+      "sha256": "285a42286f6f7d6533c497a7549fbd5679cf9f13d7ee4be261b5921fe09350e8",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\rap\\2018\\RAP2018_BG_Gestion_finances_publiques_ressources_humaines-285a42286f6f.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "004cd50f706316484d7e",
+      "sha256": "3c64501dcd13b28b142a4c9329565383dab81033bd45c9fda89cbdb762cf8f06",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\data-gouv\\2017\\PLR2017-Exec-Msn_CP-BG.csv",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "d31fa13063b5b9af8623",
+      "sha256": "3ed1ef90a00ce3d036bef7b198f667e6a96b2772071b6cd3984604125a69ccf5",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2017\\DRGPGMPGM156-3ed1ef90a00c.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "dff4179ccf2c00f67090",
+      "sha256": "65bd47605074f1a744f4e0c6d0f9cb22b54c6514d6ac318e849838f5df2c872d",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\rap\\2019\\FR_2019_PLR_BG_PGM_156-65bd47605074.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "bdacc1084e809bde458d",
+      "sha256": "90c7c6f761e12d8b61aca8081cd3ad11fe3bc485d29db87f2b225a9cafabdcb0",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\rap\\2017\\RAP2017_BG_Gestion_finances_publiques_ressources_humaines-90c7c6f761e1.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "531ff850adabe9c284d2",
+      "sha256": "cc04e39802d9038db78c599675f2a50ec32cb2a6e91fbe51bfb515ecf1125aa5",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\api\\projet-de-loi-de-reglement-2019-plr-20190-ae7bd70b\\58074800b18a\\records.csv",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "896fedd4aa281f5a4aa6",
+      "sha256": "eefcfd651056b406ae349a00f4b65d9021f762a3e032f908d40ac960b44da29a",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2020\\FR_2020_PLR_BG_PGM_156-eefcfd651056.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "5e6ee26d2efac595c2fe",
+      "sha256": "f0aef77957972856340b4527dc3a58ecfb8b4ebdd0f28a0b268ebdc429af23c0",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2018\\DRGPGMPGM156-f0aef7795797.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "967bc75f1de056a01e3b",
+      "sha256": "914816cbc90cfc2c26c6b4e146ea6789c65c5d6e5965c72603df8b454a22fa56",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2021\\FR_2021_PLR_BG_PGM_156-914816cbc90c.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "afe5d663cfb0e2c02192",
+      "sha256": "c4e8645a8c38183e6a9b732664d60dbd5683f3dd2830d7fe9eb12697d7bfce89",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2023\\Gestion_des_finances_publiques-c37fdb9a.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "066c6fcbfb5d1d7211ff",
+      "sha256": "c53333019d69ed20936b32da74294dc36f36d28249da60b9e22d29dbe2b42d32",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2021\\FR_2021_PLR_BG_MSN_GA-c53333019d69.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "05e544db1b1f14600a48",
+      "sha256": "c69e680ab6dd63bf664cf840b23edf20daa2d311f68c8c324417ac3744844fd6",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2022\\RAP2022_BG_Gestion_finances_publiques-c69e680ab6dd.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "2f6230e25a0d0bfd33f4",
+      "sha256": "e5f9b5f89ae9a4e43cdb80272b91e917b592f062f750b8034af2d92a626abcac",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2022\\FR_2022_PLR_BG_PGM_156-e5f9b5f89ae9.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "489dafa3aadf8dbc90aa",
+      "sha256": "6d032cdff754a2a8004befd5a623772ae64905ac767ac791873bb07d178878d0",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2024\\Gestion_des_finances_publiques-aade817c.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "4772b4968eaf70c0599e",
+      "sha256": "22b7d4816e5b167f9978d052e166f5ab26f5e89ccdc626956e1d91fac3a78f1e",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\plf\\2026\\Gestion_des_finances_publiques-fb1212db.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "5889ad6a3ed3d109d0e3",
+      "sha256": "5889ad6a3ed3d109d0e3902fa67e01d9fe8e2f197623261657ffedb81c9820b5",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\budget-gouv-20261015\\5889ad6a3ed3d109d0e3.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "766c2a8e89d564d94332",
+      "sha256": "766c2a8e89d564d9433273e5d5940d02dbaf00fc0357b96dfab85d8540b0a916",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\budget-gouv-20261015\\766c2a8e89d564d94332.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "9b475321d1770286ffc8",
+      "sha256": "9b475321d1770286ffc8120f230a5b2fcd06b78788fd03113e1cbcee728dceb2",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\budget-gouv-20261015\\9b475321d1770286ffc8.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "2b284531903562ae4e71",
+      "sha256": "a1a721b7e750d2f578dfc8efe37683817ba59ed3c5210b34aba0826bf5f8ac66",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\plf\\2025\\Gestion_des_finances_publiques-6eb4fab1.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "c2125bd20369561d9cab",
+      "sha256": "c2125bd20369561d9cab8538df209e7a67d3e9c9fe1736409d0be6c8287f88e2",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\budget-gouv-20261015\\c2125bd20369561d9cab.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "at": "2026-10-17T23:04:45.850314+00:00",
+  "old_image": "lexmachine-budget:20261018-p156-soutien-historique-14",
+  "new_image": "lexmachine-budget:20261018-p156-execution-soutien-15",
+  "code_files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "44aa1964243b85f013933f0f5d10aa38ed7d35b75f7948ebbc2c69e94d968f9f"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": true,
+      "sha256": "984dcb76cebfaeda13eae912c732fcfa5bb8cddfeb363016c3f7b4dac14cf74b"
+    }
+  ],
+  "compose_before_sha256": "bc41467a91b176920b7f38dec4019bc44ab58b7d7d1ed62dafbc4ea3c55c4097",
+  "compose_after_sha256": "af97e16db5c1d07847948b428b90e5df7c6a84904db4c968738169fd2d866e06",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

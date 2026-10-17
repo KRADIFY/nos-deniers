@@ -1,0 +1,9 @@
+{
+  "sha256": "644380ee1c7519e22cdac52741dda2c58c22eb29e71e3eaca09014e0b55d993f",
+  "bytes": 123349083,
+  "path": "/opt/nos-deniers/staging/20261018-p156-execution-soutien-15/FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+  "passed": true,
+  "at": "2026-10-17T23:04:53.187091+00:00",
+  "archive_kept_locally_and_remotely": true,
+  "not_a_financial_integration": true
+}
