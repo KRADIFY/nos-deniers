@@ -1,0 +1,25 @@
+{
+  "new_image_tag": "lexmachine-budget:20261017-p177-selectable-40",
+  "files": [
+    {
+      "path": "budget_service/api.py",
+      "sha256": "37949ea8842cab847e874e029eb9a250bbbf13c2272e61247c0a81d83f0773fd"
+    },
+    {
+      "path": "budget_service/action_details.py",
+      "sha256": "a95b15b205b8680a7eaf7d8d6cb9333ce4ab3092107824c69a7dde2ab1c1eb4b"
+    },
+    {
+      "path": "budget_service/reviewed_internal_details.py",
+      "sha256": "bad7236ae5f9dae8f06a5c57a7207f24b876aeb78e38356d4c63c0d94a0da03a"
+    },
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "b7e17b3e7fcecf314ce09772329958ad99fb1a442a7d3d3bc89c5c9e46670309"
+    },
+    {
+      "path": "public/assets/explorer.js",
+      "sha256": "00b94bee479d64de68c732e76ea8fe439e878342ee85fba2518d37e80429210c"
+    }
+  ]
+}

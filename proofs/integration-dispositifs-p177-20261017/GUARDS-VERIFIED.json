@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "at": "2026-10-17T19:41:34.614442+00:00",
+  "checks": [
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "unchanged_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "unchanged_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "unchanged_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "unchanged_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    }
+  ]
+}

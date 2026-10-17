@@ -82,6 +82,8 @@ def registry():
     years=sorted({g['year']for g in data['groups']})
     from .internal_details import version_bytes
     raw += b'\0' + version_bytes()
+    from .reviewed_internal_details import version_bytes as reviewed_version_bytes
+    raw += b'\0' + reviewed_version_bytes()
     data['coverage'] = f'Détail des actions LFI/consommé AE/CP, {years[0]}–{years[-1]}, selon les sources publiées et rapprochées. Seize groupes RAP en désaccord sont affichés avec une alerte ; les autres détails non rapprochés restent indisponibles.'
     assert len({key(g) for g in data['groups']}) == len(data['groups']), 'Duplicate action detail group'
     return data, hashlib.sha256(raw).hexdigest()
@@ -92,7 +94,7 @@ def within(path, parent):
 
 
 def path_of(row):
-    return '/'.join(row[k] for k in ('mission', 'program', 'action', 'subaction') if row[k])
+    return row.get('budget_path') or '/'.join(row[k] for k in ('mission', 'program', 'action', 'subaction') if row[k])
 
 
 def key(row):
@@ -241,7 +243,9 @@ def attach(records, db):
             for sibling in parents[1:]:
                 sibling['_detail_sibling'] = True
     from .internal_details import attach as attach_internal_details
-    return attach_internal_details(records, db, published_row)
+    records = attach_internal_details(records, db, published_row)
+    from .reviewed_internal_details import attach as attach_reviewed_internal_details
+    return attach_reviewed_internal_details(records, db, published_row)
 
 
 def navigation(records):
@@ -340,10 +344,14 @@ def resolve(records, scope, excluded):
         if complete:
             yield dict(row, _fully_excluded=True)
             continue
+        if (row.get('_reviewed_internal_node') and row['cents']>=0 and all(c['cents']>=0 for c in removed)
+                and sum(c['cents'] for c in removed)>row['cents']):
+            yield dict(row, _detail_review_required=True, _detail_note='Les postes exclus dépassent leur total source : ce reste ne peut pas être calculé sans arbitrage documentaire.')
+            continue
         proofs = row.get('_proof_rows', [public_row(row)]) + [dict(public_row(c), cents=-c['cents'], operation='subtract_action') for c in removed]
         yield dict(row, cents=row['cents'] - sum(c['cents'] for c in removed),
                    _resolved_exclusions={e for e in excluded if any(within(e, f) for f in fine)}, _proof_rows=proofs,
-                   _detail_note='Total du périmètre source moins les postes exclus, avant correction de l’inflation. ' + NOTE + (' ' + row['_source_disagreement']['summary'] if row.get('_source_disagreement') else ''),
+                   _detail_note='Total du périmètre source moins les postes exclus, avant correction de l’inflation. ' + NOTE + (' ' + row.get('_detail_note','') if row.get('_reviewed_internal_node') else '') + (' ' + row['_source_disagreement']['summary'] if row.get('_source_disagreement') else ''),
                    approximate=int(bool(row.get('approximate')) or any(c['approximate'] for c in removed)),
                    precision='Total source moins les montants des postes détaillés et sourcés. '+
                              ' '.join(dict.fromkeys(c.get('precision','') for c in removed)))

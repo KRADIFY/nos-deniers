@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-17T19:37:11.163431+00:00",
+  "passed": true,
+  "annual_positions": 40,
+  "yearly_nodes": 20,
+  "partitions": 4,
+  "qualified_financial_files": [
+    {
+      "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\semantic-cases\\p177-2026-2027\\FINANCIAL-CASE-REVIEWED.json",
+      "sha256": "eb2c04452879a8c7c0aebef7c34535769faecd5417a5e3638bdab23fb6df0205"
+    }
+  ],
+  "canonical_facts_rewritten": false,
+  "local_codes_not_official": {
+    "veille": "01",
+    "urgence": "02",
+    "chrs": "03",
+    "adapte": "04",
+    "pensions": "01",
+    "iml": "02",
+    "agls": "03",
+    "alt1": "04",
+    "refugies": "05",
+    "autres": "06"
+  }
+}

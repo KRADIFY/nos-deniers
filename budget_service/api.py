@@ -38,12 +38,12 @@ def metadata(db):
     return meta
 
 def node_path(row):
-    return '/'.join(str(row[k]) for k in ('mission','program','action','subaction') if row[k])
+    return row.get('budget_path') or '/'.join(str(row[k]) for k in ('mission','program','action','subaction') if row[k])
 
 def within(path, parent): return not parent or path == parent or path.startswith(parent+'/')
 
 def valid_path(path):
-    if not re.fullmatch(r'[A-Za-z0-9]{1,16}(?:/\d{2,3}){0,3}',path): raise ValueError('Périmètre invalide')
+    if not re.fullmatch(r'[A-Za-z0-9]{1,16}(?:/\d{2,3}){0,7}',path): raise ValueError('Périmètre invalide')
     return path
 
 def parameters(query):
@@ -181,7 +181,8 @@ def explorer(db, p):
     for r in sorted(group_records,key=lambda r:r['year']):
         path=node_path(r); bits=path.split('/')
         for i in range(len(bits)):
-            names['/'.join(bits[:i+1])]=r[('mission_label','program_label','action_label','subaction_label')[i]]
+            prefix='/'.join(bits[:i+1])
+            names[prefix]=r.get('path_labels',{}).get(prefix) or (r[('mission_label','program_label','action_label','subaction_label')[i]] if i<4 else bits[i])
         if not within(path,p['scope']) or len(bits)<=depth: continue
         key='/'.join(bits[:depth+1]); groups[key]=names[key]
     def series(scope):
@@ -218,7 +219,8 @@ def explorer(db, p):
         return result
     rows=[]
     for key,label in sorted(groups.items(),key=lambda kv:norm(kv[1])):
-        rows.append({'id':key,'label':label,'code':key.split('/')[-1], 'depth':depth,
+        rows.append({'id':key,'label':label,'code':'' if any(node_path(r)==key and r.get('code_basis')=='local_navigation' for r in group_records) else key.split('/')[-1], 'depth':depth,
+                     'code_basis':'local_navigation' if any(node_path(r)==key and r.get('code_basis')=='local_navigation' for r in group_records) else 'published',
                      'excluded':any(within(key,e) for e in p['exclude']),
                      'has_children':any(within(node_path(r),key) and node_path(r)!=key for r in group_records),
                      'series':series(key)})

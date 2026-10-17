@@ -1,0 +1,480 @@
+{
+  "passed": true,
+  "at": "2026-10-17T19:53:55.212609+00:00",
+  "sites": 2,
+  "new_positions_per_site": 40,
+  "checked_positions": 80,
+  "contexts": [
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "checked_positions": [
+        {
+          "path": "VA/177/12/01",
+          "cents": 24150000000
+        },
+        {
+          "path": "VA/177/12/02",
+          "cents": 131550000000
+        },
+        {
+          "path": "VA/177/12/03",
+          "cents": 83270000000
+        },
+        {
+          "path": "VA/177/12/04",
+          "cents": 61430000000
+        },
+        {
+          "path": "VA/177/12/04/01",
+          "cents": 19290000000
+        },
+        {
+          "path": "VA/177/12/04/02",
+          "cents": 21930000000
+        },
+        {
+          "path": "VA/177/12/04/03",
+          "cents": 4710000000
+        },
+        {
+          "path": "VA/177/12/04/04",
+          "cents": 6510000000
+        },
+        {
+          "path": "VA/177/12/04/05",
+          "cents": 1130000000
+        },
+        {
+          "path": "VA/177/12/04/06",
+          "cents": 7860000000
+        }
+      ],
+      "unit_warning": true,
+      "nested_exclusions": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "checked_positions": [
+        {
+          "path": "VA/177/12/01",
+          "cents": 24150000000
+        },
+        {
+          "path": "VA/177/12/02",
+          "cents": 134030000000
+        },
+        {
+          "path": "VA/177/12/03",
+          "cents": 83270000000
+        },
+        {
+          "path": "VA/177/12/04",
+          "cents": 61430000000
+        },
+        {
+          "path": "VA/177/12/04/01",
+          "cents": 19290000000
+        },
+        {
+          "path": "VA/177/12/04/02",
+          "cents": 21930000000
+        },
+        {
+          "path": "VA/177/12/04/03",
+          "cents": 4710000000
+        },
+        {
+          "path": "VA/177/12/04/04",
+          "cents": 6510000000
+        },
+        {
+          "path": "VA/177/12/04/05",
+          "cents": 1130000000
+        },
+        {
+          "path": "VA/177/12/04/06",
+          "cents": 7860000000
+        }
+      ],
+      "unit_warning": true,
+      "nested_exclusions": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "checked_positions": [
+        {
+          "path": "VA/177/12/01",
+          "cents": 27290000000
+        },
+        {
+          "path": "VA/177/12/02",
+          "cents": 144020000000
+        },
+        {
+          "path": "VA/177/12/03",
+          "cents": 84640000000
+        },
+        {
+          "path": "VA/177/12/04",
+          "cents": 64720000000
+        },
+        {
+          "path": "VA/177/12/04/01",
+          "cents": 21170000000
+        },
+        {
+          "path": "VA/177/12/04/02",
+          "cents": 22280000000
+        },
+        {
+          "path": "VA/177/12/04/03",
+          "cents": 5580000000
+        },
+        {
+          "path": "VA/177/12/04/04",
+          "cents": 6490000000
+        },
+        {
+          "path": "VA/177/12/04/05",
+          "cents": 1140000000
+        },
+        {
+          "path": "VA/177/12/04/06",
+          "cents": 8060000000
+        }
+      ],
+      "unit_warning": true,
+      "nested_exclusions": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "checked_positions": [
+        {
+          "path": "VA/177/12/01",
+          "cents": 27290000000
+        },
+        {
+          "path": "VA/177/12/02",
+          "cents": 144650000000
+        },
+        {
+          "path": "VA/177/12/03",
+          "cents": 84640000000
+        },
+        {
+          "path": "VA/177/12/04",
+          "cents": 64720000000
+        },
+        {
+          "path": "VA/177/12/04/01",
+          "cents": 21170000000
+        },
+        {
+          "path": "VA/177/12/04/02",
+          "cents": 22280000000
+        },
+        {
+          "path": "VA/177/12/04/03",
+          "cents": 5580000000
+        },
+        {
+          "path": "VA/177/12/04/04",
+          "cents": 6490000000
+        },
+        {
+          "path": "VA/177/12/04/05",
+          "cents": 1140000000
+        },
+        {
+          "path": "VA/177/12/04/06",
+          "cents": 8060000000
+        }
+      ],
+      "unit_warning": true,
+      "nested_exclusions": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "checked_positions": [
+        {
+          "path": "VA/177/12/01",
+          "cents": 24150000000
+        },
+        {
+          "path": "VA/177/12/02",
+          "cents": 131550000000
+        },
+        {
+          "path": "VA/177/12/03",
+          "cents": 83270000000
+        },
+        {
+          "path": "VA/177/12/04",
+          "cents": 61430000000
+        },
+        {
+          "path": "VA/177/12/04/01",
+          "cents": 19290000000
+        },
+        {
+          "path": "VA/177/12/04/02",
+          "cents": 21930000000
+        },
+        {
+          "path": "VA/177/12/04/03",
+          "cents": 4710000000
+        },
+        {
+          "path": "VA/177/12/04/04",
+          "cents": 6510000000
+        },
+        {
+          "path": "VA/177/12/04/05",
+          "cents": 1130000000
+        },
+        {
+          "path": "VA/177/12/04/06",
+          "cents": 7860000000
+        }
+      ],
+      "unit_warning": true,
+      "nested_exclusions": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "checked_positions": [
+        {
+          "path": "VA/177/12/01",
+          "cents": 24150000000
+        },
+        {
+          "path": "VA/177/12/02",
+          "cents": 134030000000
+        },
+        {
+          "path": "VA/177/12/03",
+          "cents": 83270000000
+        },
+        {
+          "path": "VA/177/12/04",
+          "cents": 61430000000
+        },
+        {
+          "path": "VA/177/12/04/01",
+          "cents": 19290000000
+        },
+        {
+          "path": "VA/177/12/04/02",
+          "cents": 21930000000
+        },
+        {
+          "path": "VA/177/12/04/03",
+          "cents": 4710000000
+        },
+        {
+          "path": "VA/177/12/04/04",
+          "cents": 6510000000
+        },
+        {
+          "path": "VA/177/12/04/05",
+          "cents": 1130000000
+        },
+        {
+          "path": "VA/177/12/04/06",
+          "cents": 7860000000
+        }
+      ],
+      "unit_warning": true,
+      "nested_exclusions": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "checked_positions": [
+        {
+          "path": "VA/177/12/01",
+          "cents": 27290000000
+        },
+        {
+          "path": "VA/177/12/02",
+          "cents": 144020000000
+        },
+        {
+          "path": "VA/177/12/03",
+          "cents": 84640000000
+        },
+        {
+          "path": "VA/177/12/04",
+          "cents": 64720000000
+        },
+        {
+          "path": "VA/177/12/04/01",
+          "cents": 21170000000
+        },
+        {
+          "path": "VA/177/12/04/02",
+          "cents": 22280000000
+        },
+        {
+          "path": "VA/177/12/04/03",
+          "cents": 5580000000
+        },
+        {
+          "path": "VA/177/12/04/04",
+          "cents": 6490000000
+        },
+        {
+          "path": "VA/177/12/04/05",
+          "cents": 1140000000
+        },
+        {
+          "path": "VA/177/12/04/06",
+          "cents": 8060000000
+        }
+      ],
+      "unit_warning": true,
+      "nested_exclusions": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "12"
+      ],
+      "checked_positions": [
+        {
+          "path": "VA/177/12/01",
+          "cents": 27290000000
+        },
+        {
+          "path": "VA/177/12/02",
+          "cents": 144650000000
+        },
+        {
+          "path": "VA/177/12/03",
+          "cents": 84640000000
+        },
+        {
+          "path": "VA/177/12/04",
+          "cents": 64720000000
+        },
+        {
+          "path": "VA/177/12/04/01",
+          "cents": 21170000000
+        },
+        {
+          "path": "VA/177/12/04/02",
+          "cents": 22280000000
+        },
+        {
+          "path": "VA/177/12/04/03",
+          "cents": 5580000000
+        },
+        {
+          "path": "VA/177/12/04/04",
+          "cents": 6490000000
+        },
+        {
+          "path": "VA/177/12/04/05",
+          "cents": 1140000000
+        },
+        {
+          "path": "VA/177/12/04/06",
+          "cents": 8060000000
+        }
+      ],
+      "unit_warning": true,
+      "nested_exclusions": true
+    }
+  ],
+  "assets": [
+    {
+      "site": "https://budget.lexmachine.net",
+      "sha256": "00b94bee479d64de68c732e76ea8fe439e878342ee85fba2518d37e80429210c",
+      "passed": true
+    },
+    {
+      "site": "https://budgetecolo.lexmachine.net",
+      "sha256": "00b94bee479d64de68c732e76ea8fe439e878342ee85fba2518d37e80429210c",
+      "passed": true
+    }
+  ],
+  "local_HTTP_verification_pending": true,
+  "local_image_functions_verified": true,
+  "first_local_503_attempts_preserved": true
+}

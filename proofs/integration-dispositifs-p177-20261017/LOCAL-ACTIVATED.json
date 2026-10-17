@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "at": "2026-10-17T19:46:47.699456+00:00",
+  "old_image": "lexmachine-budget:20261017-details-codes-1258",
+  "new_image": "lexmachine-budget:20261017-p177-selectable-40",
+  "code_files": [
+    {
+      "path": "budget_service/api.py",
+      "sha256": "37949ea8842cab847e874e029eb9a250bbbf13c2272e61247c0a81d83f0773fd"
+    },
+    {
+      "path": "budget_service/action_details.py",
+      "sha256": "a95b15b205b8680a7eaf7d8d6cb9333ce4ab3092107824c69a7dde2ab1c1eb4b"
+    },
+    {
+      "path": "budget_service/reviewed_internal_details.py",
+      "sha256": "bad7236ae5f9dae8f06a5c57a7207f24b876aeb78e38356d4c63c0d94a0da03a"
+    },
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "b7e17b3e7fcecf314ce09772329958ad99fb1a442a7d3d3bc89c5c9e46670309"
+    },
+    {
+      "path": "public/assets/explorer.js",
+      "sha256": "00b94bee479d64de68c732e76ea8fe439e878342ee85fba2518d37e80429210c"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/api.py",
+      "existed": true,
+      "sha256": "946bb118d37d08065aabb6a0402bab613c47d64f36ccc7e7c9bbb1f44fde8d8b"
+    },
+    {
+      "path": "budget_service/action_details.py",
+      "existed": true,
+      "sha256": "f8e4d29f71936e0d4ecc2e5e93dbecf09276a33a1984d51dc012199a38e68dd1"
+    },
+    {
+      "path": "budget_service/reviewed_internal_details.py",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "public/assets/explorer.js",
+      "existed": true,
+      "sha256": "631c37b56dcf20f028291c1e7a05a2819662ac4420381c58f0e5cef843de106c"
+    }
+  ],
+  "compose_before_sha256": "4d11d674c878d7e0d32a20f0a5df190c473bbb1c60fe47d556659352423d23e5",
+  "compose_after_sha256": "5197d6e3010328a8ac9db33301b4ab42ac175132cbf9db449aa9e5e6b7630600",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

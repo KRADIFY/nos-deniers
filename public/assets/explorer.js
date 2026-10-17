@@ -581,7 +581,7 @@ function categorySwitch(row,excluded,restoreOnly=false){
 function categoryLabel(row){
  const depth=state.scope?state.scope.split('/').length:0;
  const missing=!row.excluded&&!row.series.some(a=>Object.keys(data.stages).some(s=>a[s]?.nominal!=null));
- return `<div class="row-label ${missing?'row-unavailable':''}"><span class="code">${esc(row.code)}</span><button type="button" class="drill" data-scope="${esc(row.id)}" ${depth>=3||(state.topic&&state.topic_mode==='only'&&!row.has_children)?'disabled':''}>${esc(row.label)}${row.has_children?'&nbsp;›':''}</button>${categorySwitch(row,row.excluded)}</div>`;
+ return `<div class="row-label ${missing?'row-unavailable':''}"><span class="code">${esc(row.code)}</span><button type="button" class="drill" data-scope="${esc(row.id)}" ${(depth>=3&&!row.has_children)||(state.topic&&state.topic_mode==='only'&&!row.has_children)?'disabled':''}>${esc(row.label)}${row.has_children?'&nbsp;›':''}</button>${categorySwitch(row,row.excluded)}</div>`;
 }
 
 $('source-dialog').addEventListener('close',()=>{sourceRequest++;$('source-dialog').querySelector('.eyebrow').textContent='TRAÇABILITÉ DU MONTANT';updateRequestProgress();});

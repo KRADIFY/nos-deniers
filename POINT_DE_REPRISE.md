@@ -1,3 +1,15 @@
+# Programme 177 : dispositifs sélectionnables publiés — 17 octobre 2026
+
+- Racine permanente : D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main / KRADIFY/nos-deniers. Commit sûr précédent770387da7fa5e26874533f92f85a83b7ad2c9c64 ; commit courant : git log -1.
+- Image locale et des quatre webs publics : lexmachine-budget:20261017-p177-selectable-40. Ajout40montants annuels PLF2026–2027 P177/action12 :veille,urgence,CHRS,logement adapté puis ses six dispositifs. Les repères de navigation internes ne sont pas des codes officiels. Les pensions192,9/211,7M€ conservent le€imprimé et la réserve d'unité déduite.
+- Budget et Budgetécolo vérifiés :40positions par site, sources/pages et littéraux, sélections, exclusions imbriquées etJS de navigation concordants. Voir proofs/integration-dispositifs-p177-20261017/PUBLIC-P177-VERIFIED.json. Contrôles locaux de l'image et des fonctions passés ; contrôleHTTP local encore en cours après503occupé, diagnostics conservés. Aucune recette visuelle navigateur revendiquée : outil de navigateur bloqué au démarrage, rendererJS réellement testé.
+- Les1258montants du premier lot sont conservés et recontrôlés ; total des deux lots1298positions annuelles. Base SHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb /142079faits et index inchangés. Aucun nouveau PDF/OCR/encodage.
+- Extension ciblée de la hiérarchie existante : profondeur supplémentaire et relations exactes/complètes en précision/partielles bornées par leurs preuves, sans modifier les montants ni inventer de solde.4096combinaisons d'exclusions passées ;les7tests nouveaux et4du premier lot passent. Suite historique160/162,les deux mêmes assertions obsolètes restent signalées.
+- P1772025 reste à intégrer :20positions qualifiées, primaire39d0ab82…absent du catalogue actif ; aucun transfert de preuve vers un autreSHA. Pas de faux équilibrage des5,6M€non expliqués. Autres compléments en préparation isolée dans budget/outputs/audit-budgets-internes-pap-rap-2017-2027-20261016/integration-codes-precision-20261017.
+- Reprise : continuer l'intégration/publication des lots qualifiés et clôturer le contrôleHTTP local, sans relancer l'audit exhaustif. AutomationPAUSED,maximum un auxiliaire,aucun Word sans demande. Images précédentes conservées pour retour arrière ;preuves de restauration et SHAdans le dossier du lot.
+
+## Historique conservé
+
 # Détails sélectionnables publiés — 17 octobre 2026
 
 - Racine permanente : D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main / KRADIFY/nos-deniers. Commit sûr précédent : b68b61e8ed62a4c4dd17efc7349e39a7cfb53636 ; commit courant : git log -1.
