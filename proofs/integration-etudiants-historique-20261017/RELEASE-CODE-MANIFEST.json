@@ -1,0 +1,11 @@
+{
+  "new_image_tag": "lexmachine-budget:20261017-etudiants-historique-290",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "ff1babe39b446b3d276f4d389c86b008707b9a4d87b7110469a666a9caaef722"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "runtime_unchanged": true
+}

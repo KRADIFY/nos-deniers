@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "at": "2026-10-17T21:37:00.365300+00:00",
+  "old_image": "lexmachine-budget:20261017-logement-etudiants-211",
+  "new_image": "lexmachine-budget:20261017-etudiants-historique-290",
+  "code_files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "ff1babe39b446b3d276f4d389c86b008707b9a4d87b7110469a666a9caaef722"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": true,
+      "sha256": "ab0d80806582fdbb66ea52aa76b4149e0bcc2da9817a0bacde57491d6fa819ba"
+    }
+  ],
+  "compose_before_sha256": "791a18011de9d24b7c268376879ee97dbb781621ac24b31641b0fb3159507b16",
+  "compose_after_sha256": "0f3ce5ba05590566a0f6884f10d4a33e0a3ce9cb901fc47f14b734ce6a5b9091",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

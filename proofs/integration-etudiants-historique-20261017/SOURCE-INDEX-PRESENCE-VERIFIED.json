@@ -1,0 +1,228 @@
+{
+  "passed": true,
+  "at": "2026-10-17T21:33:58.072350+00:00",
+  "read_only": true,
+  "source_matches": {
+    "9787761fc9ab72dc876b8fab3972c36a320e0af3fabcc67eafe502f2328fcbf2": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3052,
+            "reference_id": "9c0ac3c6a7c4a6b5f1ff18baa37d717aabd3ea6e683379a5cf12391b8d7be6dc",
+            "source_sha256": "9787761fc9ab72dc876b8fab3972c36a320e0af3fabcc67eafe502f2328fcbf2",
+            "source_id": "09f15712511a993f710c",
+            "title": "Recherche et enseignement supérieur",
+            "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PJL-1285/Recherche_enseignement_superieur.pdf",
+            "format": "pdf",
+            "years_key": "|2024|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "6b9ca45c32b76e0b65466c66bda41bbbb4a8ef93a9efa2d9ab61d51179a67ef7": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3531,
+            "reference_id": "b499f152d34b8fa024e9e887064167b749bcc2deb1f31e122f5bd2cc5c9a7296",
+            "source_sha256": "6b9ca45c32b76e0b65466c66bda41bbbb4a8ef93a9efa2d9ab61d51179a67ef7",
+            "source_id": "4ad0af210ea00fa1f103",
+            "title": "PAP 2018 — DBGPGMPGM231",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2018/pap/pdf/DBGPGMPGM231.pdf",
+            "format": "pdf",
+            "years_key": "|2018|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "4fdfd163c969665eea53176ab6fd196bd174cb454fbe2584d635c06cd8d73f7d": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2543,
+            "reference_id": "7f29427419d19a139806ecfc881788b3f5e21dfd8be30d1ae0776fcf1d4b8dcd",
+            "source_sha256": "4fdfd163c969665eea53176ab6fd196bd174cb454fbe2584d635c06cd8d73f7d",
+            "source_id": "4733f482b650505e6bfe",
+            "title": "PAP 2017 — DBGPGMPGM231",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2017/pap/pdf/DBGPGMPGM231.pdf",
+            "format": "pdf",
+            "years_key": "|2017|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "aed8a12241833f322288bd34a050039e2a51a1825373b4f2e0b340d9ed645f48": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2811,
+            "reference_id": "8e52ab5a1cb08273a35627a0d0c8b88c751c4ece127bc83bc0a3ba1c9ececd0d",
+            "source_sha256": "aed8a12241833f322288bd34a050039e2a51a1825373b4f2e0b340d9ed645f48",
+            "source_id": "a070d0456ce8de44e627",
+            "title": "RAP 2022 — 231 - Vie étudiante",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/20559",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "4384a03dbbdde34ccad056d4c29bdcb41aab49a9cadbaaa542318874b625ecf3": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1127,
+            "reference_id": "3845f5f8d596301e404bb7631ebd394df39f0438aefd0a147c670badc1fda528",
+            "source_sha256": "4384a03dbbdde34ccad056d4c29bdcb41aab49a9cadbaaa542318874b625ecf3",
+            "source_id": "8ae5cf2a6ecd3c55bebb",
+            "title": "PAP2019 BG Recherche enseignement superieur",
+            "url": "",
+            "format": "pdf",
+            "years_key": "|2019|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "e2ecf3835c3a71d6269146227bbd185e3c1f7fc3e0f01498004d22d35319f609": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4490,
+            "reference_id": "e667ba40d22546941f3c1f7e25ccb75623170174e68a90f43beb2ac4221bd033",
+            "source_sha256": "e2ecf3835c3a71d6269146227bbd185e3c1f7fc3e0f01498004d22d35319f609",
+            "source_id": "f8548e779f907493f06a",
+            "title": "RAP 2021 — Recherche et enseignement supérieur",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/15559",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "e61aef460c5761d387ff798dc11c992f1cd397919df78e273c068ba0b7898a65": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2167,
+            "reference_id": "6e019a91ae4064a6e5aed43d35d21bb8a5c44e054c65caf79b781e8ce5805073",
+            "source_sha256": "e61aef460c5761d387ff798dc11c992f1cd397919df78e273c068ba0b7898a65",
+            "source_id": "7841011d5ba6c7ca0a4b",
+            "title": "RAP 2021 — 231 - Vie étudiante",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/15895",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "152a42828bc5cb720c14efc4c002bda8b28fcbad0b9e98626aeea2d5c671b351": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1190,
+            "reference_id": "3baf2e76e14ed8d2cd5a02831891affe1f2e014198b71b44f5f170b8ee6aefe8",
+            "source_sha256": "152a42828bc5cb720c14efc4c002bda8b28fcbad0b9e98626aeea2d5c671b351",
+            "source_id": "438378fd8c8f66b18bfd",
+            "title": "Recherche et enseignement supérieur",
+            "url": "https://www2.assemblee-nationale.fr/static/16/pdf/RAP2023_BG_Recherche_enseignement_superieur_RA.pdf",
+            "format": "pdf",
+            "years_key": "|2023|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "155527c5b10f604709ef674b8ec8f0519384e82906cb70a3acdee8185a777daf": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4776,
+            "reference_id": "f490fa9dfc1c5b911509729207524f400f55da26d79083c6ba247111b88ffdc2",
+            "source_sha256": "155527c5b10f604709ef674b8ec8f0519384e82906cb70a3acdee8185a777daf",
+            "source_id": "22bff0eaedceea56b754",
+            "title": "RAP 2022 — Recherche et enseignement supérieur",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/20226",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "5d8d0ea700eb935e14dedbd72c9a4978279a48d0a5160146c35fab4d8653da2d": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3974,
+            "reference_id": "cb0fa9a32321bd119b4edf479e520cc72a2070253077f1732696b48527a541c9",
+            "source_sha256": "5d8d0ea700eb935e14dedbd72c9a4978279a48d0a5160146c35fab4d8653da2d",
+            "source_id": "feaba70a21751733d187",
+            "title": "PLF 2020 — 231 - Vie étudiante",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/4009",
+            "format": "pdf",
+            "years_key": "|2020|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ]
+  },
+  "new_encoding_required": false
+}

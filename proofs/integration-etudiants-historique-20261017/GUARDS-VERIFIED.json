@@ -1,0 +1,262 @@
+{
+  "passed": true,
+  "at": "2026-10-17T21:33:45.178786+00:00",
+  "checks": [
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "kind": "native_action_facts",
+      "relation": "partial",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "kind": "native_action_facts",
+      "relation": "partial",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "kind": "native_action_facts",
+      "relation": "partial",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "partial",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "partial",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "kind": "native_action_facts",
+      "relation": "published_precision",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "kind": "native_action_facts",
+      "relation": "published_precision",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "published_precision",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "published_precision",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    }
+  ]
+}

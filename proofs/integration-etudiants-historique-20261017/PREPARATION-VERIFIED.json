@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "new_positions": 290,
+  "new_qualified_positions": 210,
+  "existing_nature_navigation_positions": 56,
+  "title_aggregate_navigation_positions": 24,
+  "partitions": 32,
+  "source_files": 10,
+  "prior_partitions_preserved": true,
+  "reserved_calendar_PPCR_provision_positions": 19,
+  "reserved_RAP_CPER_positions": 32,
+  "reserved_RAP_english_positions": 2,
+  "separate_original_RAP_reserved_positions": 18
+}

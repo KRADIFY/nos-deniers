@@ -1,3 +1,16 @@
+# Aides étudiantes historiques : compléments publiés — 17 octobre 2026
+
+- Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent f89ad78ab52437cd43f15c1f4bbe58cfa5b4895e ; courant : git log -1.
+- Image locale/quatre webs publics lexmachine-budget:20261017-etudiants-historique-290. P231PAP2017–2020/actions01–02 :176positions (112nouveaux détails,56natures et8titres courants devenant navigables) ;RAP2021–2024/actions01–02 :114positions (76natures nouvelles dont six négatives,22détails CIUP/FSEF/Caen/Grenoble,16titres).290positions annuelles sélectionnables ajoutées, pas290enveloppes indépendantes.
+- Seul le registre source/faits est complété, sans modification de calcul, présentation ou architecture. Anciennes partitions, montants canoniques et centimes préservés. Blancs de prêts/T7 restent inconnus ; racines concernées partielles. Caen/Grenoble inclus sous relations partielles, sans nouveau total CPER. Les parts SCSP/personnel/dispositifs et titres ne se cumulent pas.
+-19positions PAP calendaires/PPCR/provision CPER restent séparées. RAP :32positions ordinaires CPER réservées, deux certifications d'anglais positives sous nature nette contradictoire réservées ;18réserves initiales et71scalaires non mesurés inchangés. Contradictions BCS,SCSP,CPER et variations conservées ; aucun chiffre ou solde corrigé.
+-290montants/libellés/quantums/SHA/pages rapprochés aux registres financiers etQA figés ;24408scénarios d'exclusion,1456ordres/doublons et quatre gardes de dépassement d'ancêtres. Anciens lots codifiés, P17740, fiscalité152, gestion267 et logement/étudiants211 recontrôlés.166tests :164passent,les deux mêmes assertions historiques obsolètes demeurent.
+- Budget/Budgetécolo :580montants vérifiés (290par site), navigation/sources/exclusions et témoins antérieurs concordants. Preuves proofs/integration-etudiants-historique-20261017/. Image réelle testée par année/étape/mesure, localready et sauvegardes vérifiés ; pas de recette visuelle navigateur ou de contrôleHTTPlocal exhaustif revendiqués.
+- Dix PDF déjà indexés, aucun encodage nouveau. Base SHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb/142079faits et index5683documents/4996538passages inchangés. Neuf lots publiés :3711positions annuelles ajoutées ; aucun pourcentage global de complétude desPAP/RAP.
+- Suite : autres détails qualifiés P156PAP2017–2024/action01 et2017–2025/action02 en préparation bornée. Action01/2024 : deuxSHA qualifiés absents du catalogue,18positions réservées (8détails/10natures/agrégats). Pas de transfert vers une autre source ou de nouveau téléchargement. Les39codifiées et autres sources précises absentes gardent leurs réserves. Audit exhaustif arrêté, automationPAUSED,max1auxiliaire,aucunWord sans demande.
+
+## Historique conservé
+
 # Logement et aides étudiantes : compléments publiés — 17 octobre 2026
 
 - Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent : integration-p156-gestion-20261017/GIT-PUSH-VERIFIED.json ; courant : git log -1.
