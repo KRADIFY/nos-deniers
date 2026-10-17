@@ -1,0 +1,250 @@
+{
+  "passed": true,
+  "at": "2026-10-17T21:17:34.145791+00:00",
+  "read_only": true,
+  "source_matches": {
+    "c8ad331638c9278d5481af429d0206604bfa079c02bfaeec4e178bcf3346d7a4": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 889,
+            "reference_id": "7b0027574f43a9e8b5abfd2db0368b2642f32b602ca192853cad30030eda9f99",
+            "source_sha256": "c8ad331638c9278d5481af429d0206604bfa079c02bfaeec4e178bcf3346d7a4",
+            "source_id": "c8ad331638c9278d5481",
+            "title": "FR_2026_PLF_RA_PGM_231.pdf Télécharger ( pdf 427.82 Ko)  231 - Vie étudiante 2026 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/31075",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "b578b488bbe9a57f5a5b7324c6cc6de2112d807e46339e7b0abdae21c4b93557": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 747,
+            "reference_id": "25cbccbf7b04973248974f72c363bae7b82eaf57714f7fd30f0bb844aef314b4",
+            "source_sha256": "b578b488bbe9a57f5a5b7324c6cc6de2112d807e46339e7b0abdae21c4b93557",
+            "source_id": "78d8468b31aada8201d9",
+            "title": "PAP2019 BG Cohesion territoires",
+            "url": "",
+            "format": "pdf",
+            "years_key": "|2019|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "7b3f8bfde0e3de4c737b06be4a1fc26b5e5e2d5123e9d317dec717aeff1d06ae": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1932,
+            "reference_id": "61da3db084497e734d0bb0ed2ae20fd21e0a3243f088c39ffffabafa07a0de06",
+            "source_sha256": "7b3f8bfde0e3de4c737b06be4a1fc26b5e5e2d5123e9d317dec717aeff1d06ae",
+            "source_id": "d2046d53d743c472151a",
+            "title": "PLF 2022 — 177 - Hébergement, parcours vers le logement et insertion des personnes vulnérables",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/13723",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "911f788c7f3e453c5f70728f71cadbf18f5a0e3ecec8ce10a0d849736ad1a475": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1643,
+            "reference_id": "52784e643d56f2b14b6cf308887fbeba8fc634cf0821703345b79dd9c32f0247",
+            "source_sha256": "911f788c7f3e453c5f70728f71cadbf18f5a0e3ecec8ce10a0d849736ad1a475",
+            "source_id": "2b99288951cac1a6fb6d",
+            "title": "RAP 2020 — 177 - Hébergement, parcours vers le logement et insertion des personnes vulnérables",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/10687",
+            "format": "pdf",
+            "years_key": "|2020|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "ef159fa1e01eb3943dddf6a499dce539ec1166a4c22af521d691d53ccc32bf6f": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-index-supp1",
+        "documents": [
+          {
+            "id": 244,
+            "reference_id": "incremental:ef159fa1e01eb3943dddf6a499dce539ec1166a4c22af521d691d53ccc32bf6f",
+            "source_sha256": "ef159fa1e01eb3943dddf6a499dce539ec1166a4c22af521d691d53ccc32bf6f",
+            "source_id": "ef159fa1e01eb3943ddd",
+            "title": "231 - Vie étudiante",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/33985",
+            "format": "pdf",
+            "years_key": "|2027|",
+            "stage": "PLF 2027 publié",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_source",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "9c9e911e6db8ea6268a01fbb5bde1f832ff43c9e84c025e7ab4f913d49721bc7": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3710,
+            "reference_id": "be1bedfec1cda5525dae5331b1e83dad0f96dd395900cbf52f39dbfe73ac08dd",
+            "source_sha256": "9c9e911e6db8ea6268a01fbb5bde1f832ff43c9e84c025e7ab4f913d49721bc7",
+            "source_id": "d1c0970f23345c1413af",
+            "title": "Cohésion des territoires",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/494469/file/PAP2023_BG_Cohesion_territoires.pdf",
+            "format": "pdf",
+            "years_key": "|2023|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "476f4041a256a786ae7d7b3b0b7781c5ebc6b0240f50661bf92f0a77f12d7c53": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2714,
+            "reference_id": "88f2910492a6c4d443b1d1a9701bea642e4d3866ab016a8c5d1ce1d53c1dd7cf",
+            "source_sha256": "476f4041a256a786ae7d7b3b0b7781c5ebc6b0240f50661bf92f0a77f12d7c53",
+            "source_id": "dee6837feb4ccbdf3788",
+            "title": "PAP 2018 — DBGPGMPGM177",
+            "url": "https://www.budget.gouv.fr/sites/performance_publique/files/farandole/ressources/2018/pap/pdf/DBGPGMPGM177.pdf",
+            "format": "pdf",
+            "years_key": "|2018|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "e019fcc83a9a490b59353be31b88d85ba1f9ca30cbe495d30734428d2dc4e264": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4594,
+            "reference_id": "eb8ea23176ee59b0199beea3e36368f0ba6a2d60ce333d79cae934ef027858f4",
+            "source_sha256": "e019fcc83a9a490b59353be31b88d85ba1f9ca30cbe495d30734428d2dc4e264",
+            "source_id": "2916391cc1717a0f3b01",
+            "title": "PLF 2022 — Cohésion des territoires",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/13558",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "67a2aecd23dddd2fc879ec22263794acc618d74b526280d4b12d87882a2bb022": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 369,
+            "reference_id": "12d4ef64ad7ae31659b7022f1a5a658896f532d35ad0129075c4b636c1c322d1",
+            "source_sha256": "67a2aecd23dddd2fc879ec22263794acc618d74b526280d4b12d87882a2bb022",
+            "source_id": "2504605470976ff33389",
+            "title": "PLF 2020 — 177 - Hébergement, parcours vers le logement et insertion des personnes vulnérables",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/3977",
+            "format": "pdf",
+            "years_key": "|2020|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "f2277bd860c11b68afbd189f57601830f4d928b6971b9374524344d2d3848756": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3569,
+            "reference_id": "b6f23cf5b82da9b6475b5e9c832c4bcf879b39d770b1f8b9734375bfe4d470e3",
+            "source_sha256": "f2277bd860c11b68afbd189f57601830f4d928b6971b9374524344d2d3848756",
+            "source_id": "9d582bf60dbc34d9a62a",
+            "title": "RAP 2021 — 177 - Hébergement, parcours vers le logement et insertion des personnes vulnérables",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/15799",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "f77ed40f991f5877631c8598484b91a40b4b262c797912fc6df6555ff5c21e1e": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1279,
+            "reference_id": "3ff44ac4df77e3e287d9168788965ff65135d3b73eefb7ea12d5cae662618f52",
+            "source_sha256": "f77ed40f991f5877631c8598484b91a40b4b262c797912fc6df6555ff5c21e1e",
+            "source_id": "b7dd7c6577809efa3c84",
+            "title": "Cohésion des territoires",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/705136/file/Coh%C3%A9sion%20des%20territoires.pdf",
+            "format": "pdf",
+            "years_key": "|2024|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ]
+  },
+  "new_encoding_required": false
+}

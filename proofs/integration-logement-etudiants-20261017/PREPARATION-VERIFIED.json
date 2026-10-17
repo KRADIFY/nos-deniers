@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "new_positions": 211,
+  "new_qualified_positions": 191,
+  "historical_reused_positions": 16,
+  "title_aggregate_navigation_positions": 4,
+  "partitions": 24,
+  "prior_partitions_preserved": true,
+  "source_files": 11,
+  "reserved_parallel_RAP2020_2021_positions": 15,
+  "reserved_P231_additional_positions": 4
+}

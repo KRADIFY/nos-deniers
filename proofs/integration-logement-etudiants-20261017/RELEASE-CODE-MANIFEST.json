@@ -1,0 +1,11 @@
+{
+  "new_image_tag": "lexmachine-budget:20261017-logement-etudiants-211",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "ab0d80806582fdbb66ea52aa76b4149e0bcc2da9817a0bacde57491d6fa819ba"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "runtime_unchanged": true
+}
