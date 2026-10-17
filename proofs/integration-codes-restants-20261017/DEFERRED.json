@@ -1,0 +1,112 @@
+[
+  {
+    "key": [
+      2020,
+      "EXEC",
+      "AE",
+      "BG",
+      "DA",
+      "146",
+      "07"
+    ],
+    "reason": "Source versions have different detail sets; no precedence chosen"
+  },
+  {
+    "key": [
+      2020,
+      "EXEC",
+      "AE",
+      "BG",
+      "DA",
+      "146",
+      "09"
+    ],
+    "reason": "Source versions have different detail sets; no precedence chosen"
+  },
+  {
+    "key": [
+      2020,
+      "EXEC",
+      "CP",
+      "BG",
+      "DA",
+      "146",
+      "07"
+    ],
+    "reason": "Source versions have different detail sets; no precedence chosen"
+  },
+  {
+    "key": [
+      2022,
+      "EXEC",
+      "CP",
+      "BG",
+      "DA",
+      "146",
+      "08"
+    ],
+    "reason": "Source versions have different detail sets; no precedence chosen"
+  },
+  {
+    "key": [
+      2024,
+      "PLF",
+      "AE",
+      "BG",
+      "TA",
+      "345",
+      "15"
+    ],
+    "reason": "No qualified active primary for unchanged current parent",
+    "projection_ids": [
+      "core2630:1397"
+    ]
+  },
+  {
+    "key": [
+      2024,
+      "PLF",
+      "CP",
+      "BG",
+      "TA",
+      "345",
+      "15"
+    ],
+    "reason": "No qualified active primary for unchanged current parent",
+    "projection_ids": [
+      "core2630:1398"
+    ]
+  },
+  {
+    "projection_id": "recovered270:20",
+    "reason": "Explicit zero, current annual parent absent; no parent invented"
+  },
+  {
+    "projection_id": "recovered270:21",
+    "reason": "Explicit zero, current annual parent absent; no parent invented"
+  },
+  {
+    "projection_id": "recovered270:22",
+    "reason": "Explicit zero, current annual parent absent; no parent invented"
+  },
+  {
+    "projection_id": "recovered270:23",
+    "reason": "Explicit zero, current annual parent absent; no parent invented"
+  },
+  {
+    "projection_id": "recovered270:101",
+    "reason": "Explicit zero, current annual parent absent; no parent invented"
+  },
+  {
+    "projection_id": "recovered270:102",
+    "reason": "Explicit zero, current annual parent absent; no parent invented"
+  },
+  {
+    "projection_id": "recovered270:103",
+    "reason": "Explicit zero, current annual parent absent; no parent invented"
+  },
+  {
+    "projection_id": "recovered270:104",
+    "reason": "Explicit zero, current annual parent absent; no parent invented"
+  }
+]

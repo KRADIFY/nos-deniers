@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "at": "2026-10-17T20:20:42.089918+00:00",
+  "checks": [
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "RA",
+        "190",
+        "13"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "190",
+        "14"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "DA",
+        "146",
+        "06"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    }
+  ]
+}

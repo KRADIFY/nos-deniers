@@ -1,0 +1,17 @@
+{
+  "new_image_tag": "lexmachine-budget:20261017-details-codes-117",
+  "files": [
+    {
+      "path": "budget_service/action_details.py",
+      "sha256": "0679c86c84c3d8511f360090b25a52d05da1f95ffb8b740e441001b532046e2b"
+    },
+    {
+      "path": "budget_service/reviewed_internal_details.py",
+      "sha256": "9168c5e3c3d416ac00d9fd1e0db74ffdd83d41bed3b8f22dc531850f55ebaa90"
+    },
+    {
+      "path": "budget_service/data/internal-details-coded-restants-20261017.json",
+      "sha256": "277a88c7fb361cef502b7ca03f62f536615d3c08fea6abf5a7d861cbf8105eaf"
+    }
+  ]
+}

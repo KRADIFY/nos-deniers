@@ -108,7 +108,7 @@ def public_row(row):
 def published_row(item, base, group, level='action'):
     label = ('action ' + item['code']) if level == 'action' else ('action ' + base['action'] + ' · sous-action ' + item['code'])
     source=item.get('source',group['source'])
-    spreadsheet=item.get('source_format',group.get('source_format')) in ('xls','xlsx')
+    spreadsheet=item.get('source_format',group.get('source_format')) in ('xls','xlsx','csv')
     page=None if spreadsheet else item.get('page',group['page'])
     precision=('Montant publié au centime dans la synthèse RAP. ' if spreadsheet else 'Montant publié à l’euro dans le RAP. ')+display_note(group)
     row = dict(public_row(base), **{level: item['code'], level + '_label': item['label']},
@@ -127,6 +127,8 @@ def published_row(item, base, group, level='action'):
         row['precision']=row['_detail_note']=description['precision']+display_note(group)
         row['field']=(f"{group['stage']} {group['measure']} {group['year']} · {label} · "
                       f"{description['document']} p. {page} · {description['column']}")
+    if item.get('source_format')=='csv':
+        row['field']=item['field']
     if spreadsheet:row['source_location']=item['source_location']
     if group.get('annual_complement_review'):
         if item.get('field'):row['field']=item['field']

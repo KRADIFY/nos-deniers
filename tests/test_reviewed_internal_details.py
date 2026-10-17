@@ -50,4 +50,15 @@ class ReviewedInternalTests(unittest.TestCase):
   for path in [ROOT+'/bad',ROOT+'/01'*6,ROOT+'/01?x=1']:
    with self.assertRaises(ValueError):api.valid_path(path)
 
+ def test_csv_zero_keeps_literal_record_and_column_not_pdf_page(self):
+  base=node(ROOT,100);base.update(year=2017,measure='AE')
+  location=dict(sheet='PLF2017-BG-Msn-Dest.csv',column='AEPLF',row=24,rows=[24])
+  item=dict(code='15',label='Détail zéro',cents=0,source_format='csv',source='csv-source',line=24,field='PLF AE 2017 · CSV ligne24 · AEPLF',source_location=location,
+            source_description=dict(precision='Zéro expliciteCSV, PDFblanc conservé.',document='CSV officiel2017',column='AEPLF'))
+  group=dict(source='csv-source',page=None,year=2017,stage='PLF',measure='AE',budget='BG',mission='VA',program='177')
+  row=action_details.published_row(item,base,group,'subaction')
+  self.assertEqual(row['cents'],0);self.assertIsNone(row['page'])
+  self.assertEqual(row['line'],24);self.assertEqual(row['source_location'],location)
+  self.assertEqual(row['field'],item['field']);self.assertNotIn('p. None',row['field'])
+
 if __name__=='__main__':unittest.main()

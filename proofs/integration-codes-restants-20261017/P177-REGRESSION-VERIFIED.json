@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-17T20:17:53.301680+00:00",
+  "passed": true,
+  "counts": {
+    "parent_unchanged": 4,
+    "source_value_selectable": 40,
+    "source_citation": 40,
+    "actual_leaf_route": 40,
+    "breadcrumbs_label": 40,
+    "deeper_navigation": 4,
+    "unit_warning": 4,
+    "all_hierarchical_exclusion_combinations": 4096,
+    "duplicate_and_permutation": 244,
+    "ancestor_exclusion": 40,
+    "unknown_remains_unavailable": 4
+  },
+  "new_positions": 40,
+  "errors": []
+}

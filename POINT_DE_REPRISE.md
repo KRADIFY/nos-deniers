@@ -1,3 +1,16 @@
+# Quatrième lot de détails sélectionnables publié — 17 octobre 2026
+
+- Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; branche main/KRADIFY/nos-deniers. Commit sûr précédent e0d56b0a7e583c03df8ec33d474969742b47e3c8 ; courant : git log -1.
+- Image locale et quatre webs publics : lexmachine-budget:20261017-details-codes-117. Ajout 117 positions annuelles, dont 17 sur PDF et 100 zéros explicitement publiés dans deux CSV officiels 2017/2018. Les blancs des PDF restent inconnus ; les sources CSV ont leurs lignes et colonnes propres, sans fausse page PDF.
+- Total des quatre lots : 2763 positions annuelles sélectionnables ajoutées, dont 2723 sur le paquet codifié qualifié de 2762 et 40 dispositifs P177. Ce ne sont pas des enveloppes à additionner et ce n'est pas une couverture de tous les PDF. Restent 39 codifiées : parents absents, sources absentes ou variantes documentaires réservées.
+- Contrôles : 50 partitions exactes, 295 enfants (anciens compris), 3259 combinaisons d'exclusions, 3019 ordres, sources/parents/programmes conservés. Les lots précédents 1258/1348/P177 sont recontrôlés. Suite 164 tests : 162 passent ; deux anciennes assertions obsolètes restent signalées, aucune nouvelle erreur.
+- Budget et Budgetécolo : 100 vues parent et 234 nouveaux montants (117 par site) vérifiés en HTTP, avec citations PDF ou ligne/colonne CSV, exclusions et témoins des versions précédentes. Image et fichiers contrôlés sur les quatre webs, dix sources SHA identiques. Preuves : proofs/integration-codes-restants-20261017/.
+- Base canonique SHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb, 142079 faits et index 5683 documents/4996538 passages inchangés. Anciennes images et sauvegardes conservées. Aucune collecte, OCR, RunPod ou vectorisation.
+- Local ready et fonctions réelles de l'image vérifiés sur copie SHA identique des données ; pas de recette visuelle navigateur ni de contrôle HTTP local exhaustif revendiqués. La traçabilité CSV utilise les lignes de preuve déjà affichées dans le site, le premier vérificateur attendait un champ API inexistant : diagnostic archivé, aucun montant changé.
+- Suite : intégrer les dispositifs déjà qualifiés P156 PAP2026–2027/action01 et autres paquets prêts. P1772025 et P1562025/action01 restent réservés : leurs SHA primaires qualifiés sont absents du catalogue actif, sans transfert arbitraire de qualification. Audit exhaustif arrêté, automation PAUSED, maximum un auxiliaire ; aucun mémo Word sans demande.
+
+## Historique conservé
+
 # Troisième lot de détails sélectionnables publié — 17 octobre 2026
 
 - Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Dernier commit sûr précédent8cd9a5709ba9589b508853c7127a390ee0ea03d5 ; commit courant : git log -1.

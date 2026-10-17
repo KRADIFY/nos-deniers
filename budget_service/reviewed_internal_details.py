@@ -13,17 +13,21 @@ from .internal_details import KEY_FIELDS, _encode, _walk, _public, _existing_chi
 
 FILE=Path(__file__).parent/'data/internal-details-reviewed-20261017.json'
 CODED_FILE=FILE.with_name('internal-details-coded-reviewed-20261017.json')
+REMAINING_FILE=FILE.with_name('internal-details-coded-restants-20261017.json')
 
 def version_bytes():
     first=FILE.read_bytes() if FILE.exists() else b''
-    return first+(b'\0'+CODED_FILE.read_bytes() if CODED_FILE.exists() else b'')
+    return first+b''.join(b'\0'+p.read_bytes() for p in (CODED_FILE,REMAINING_FILE) if p.exists())
 
 def _validate_node(node):
     assert isinstance(node['cents'],int)
     if node.get('preserve_existing'):
         assert node['code_basis']=='official_subaction'
         return
-    assert node['source'] and node['sha256'] and node['page']>0
+    assert node['source'] and node['sha256']
+    if node.get('source_format')=='csv':
+        assert node['page'] is None and node['line']>0 and node['source_location']['row']==node['line']
+    else:assert node['page']>0
     assert node['code_basis'] in ('local_navigation','official_action','official_subaction') and node['measure_binding']
     children=node.get('children',[])
     if not children:return
@@ -45,11 +49,16 @@ def registry():
     if CODED_FILE.exists():
         coded=json.loads(CODED_FILE.read_bytes());assert coded['schema']==1 and coded['batch']=='coded-reviewed-20261017'
         data['partitions']+=coded['partitions']
-    result=defaultdict(list);seen=set()
+    if REMAINING_FILE.exists():
+        remaining=json.loads(REMAINING_FILE.read_bytes());assert remaining['schema']==1 and remaining['batch']=='coded-restants-20261017'
+        data['partitions']+=remaining['partitions']
+    result=defaultdict(list);seen={}
     for part in data['partitions']:
         payload={k:v for k,v in part.items() if k!='partition_sha256'}
         assert hashlib.sha256(_encode(payload).encode()).hexdigest()==part['partition_sha256']
-        key=tuple(part['key']);assert key not in seen;seen.add(key)
+        key=tuple(part['key'])
+        if key in seen:assert part.get('supersedes_partition_sha256')==seen[key]
+        seen[key]=part['partition_sha256']
         assert part['axis'] in ('annual_purpose','official_coded_subactions') and part['root']['cents']==part['parent_cents']
         _validate_node(part['root'])
         result[key[:-1]].append(part)
@@ -62,7 +71,7 @@ def _decorate(node,row,path,labels):
                source_evidence=node['source_evidence'],printed_literal=node['literal'],
                measure_binding=node['measure_binding'],precision_quantum_cents=node['quantum_cents'])
     row['_reviewed_internal_node']=True
-    row['_detail_comparisons']=[dict(source=e['source'],page=e['page']) for e in node['source_evidence']]
+    row['_detail_comparisons']=[dict(source=e['source'],page=e['page']) for e in node['source_evidence'] if e.get('page')]
     if node.get('relation'):
         relation=node['relation'];row['internal_relation']=relation
         row['_partial_action_coverage']=relation['status']=='partial'
@@ -83,6 +92,7 @@ def _children(node,parent,group,published_row,existing=()):
             continue
         labels=dict(parent.get('path_labels',{}));labels[path]=child['label']
         family='RAP' if group['stage']=='EXEC' else 'PAP'
+        if child.get('source_format')=='csv':family='CSV budgétaire officiel'
         item=dict(child,source_description=dict(precision=child['note'],document=family+' '+str(group['year']),column=group['measure']+' · '+child['label']))
         row=published_row(item,parent,group,'subaction')
         # Canonical columns still describe their original four levels. The full
@@ -131,8 +141,10 @@ def attach(records,db,published_row):
             children=_children(root,parent,group,published_row,existing)
             if children is None:continue
             _decorate(root,parent,path,labels)
-            parent['_detail_note']=(parent.get('_detail_note','')+' '+root['note']).strip()
-            parent['precision']=(parent.get('precision','')+' '+root['note']).strip()
+            prefix='Version documentaire précédente : ' if part.get('supersedes_partition_sha256') else ''
+            suffix=' Complément de la source CSV : ' if root.get('source_format')=='csv' else ' '
+            parent['_detail_note']=(prefix+parent.get('_detail_note','')+suffix+root['note']).strip()
+            parent['precision']=(prefix+parent.get('precision','')+suffix+root['note']).strip()
             parent['_action_details']=children
             if native:
                 native[0]['_native_internal_children']=parent['_action_details']

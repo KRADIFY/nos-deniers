@@ -1,0 +1,23 @@
+{
+  "published": true,
+  "at": "2026-10-17T20:26:52.481734+00:00",
+  "services": [
+    "web1",
+    "web2",
+    "web3",
+    "web4"
+  ],
+  "old_image": "lexmachine-budget:20261017-details-codes-1348",
+  "new_image": "lexmachine-budget:20261017-details-codes-117",
+  "image_id": "sha256:a2d6e6c70f427040a5289116962166da7bbd2ab5119c685b2f8db1652880bbfb",
+  "registry_version": "cd1e522d4f409f9bdab8364c4b9b5e63487c7ab2f5ce3c5702d6694bb7e4445d",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "financial_facts": 142079,
+  "compose_before_sha256": "99c35f545d2c66c91e803140f0c9daa6be9f76af232d113f8eff13e507e1e1d4",
+  "compose_after_sha256": "e3e01b71787ee16b24a0e1a99ee20584662aba6fbb56e7ecd6e984303dc6b728",
+  "old_image_retained": true,
+  "only_three_integration_files_changed": true,
+  "source_files_verified": 10,
+  "selectable_new_positions": 117,
+  "public_API_checks_pending": true
+}
