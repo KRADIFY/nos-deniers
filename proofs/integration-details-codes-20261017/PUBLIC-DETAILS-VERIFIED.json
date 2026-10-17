@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-17T19:43:57.967582+00:00",
+  "passed": true,
+  "parent_requests": 732,
+  "new_position_checks": 2516,
+  "new_positions_per_site": 1258,
+  "sites": 2,
+  "errors": [],
+  "registry_version": "8aa5051d907bff595e437a1bcbf5ad9045685709f52ef1941244c46a7e174427"
+}

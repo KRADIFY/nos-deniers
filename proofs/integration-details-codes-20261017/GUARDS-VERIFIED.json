@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "kind": "native_action_facts",
+      "test": "changed_canonical_fact_disables_new_detail",
+      "passed": true
+    },
+    {
+      "kind": "native_action_facts",
+      "test": "changed_source_sha_disables_new_detail",
+      "passed": true
+    },
+    {
+      "kind": "native_action_facts",
+      "test": "unchanged_inputs_attach_new_detail",
+      "passed": true
+    },
+    {
+      "kind": "reviewed_registry_action",
+      "test": "changed_canonical_fact_disables_new_detail",
+      "passed": true
+    },
+    {
+      "kind": "reviewed_registry_action",
+      "test": "changed_source_sha_disables_new_detail",
+      "passed": true
+    },
+    {
+      "kind": "reviewed_registry_action",
+      "test": "unchanged_inputs_attach_new_detail",
+      "passed": true
+    },
+    {
+      "test": "tampered_partition_rejected",
+      "passed": true
+    }
+  ]
+}

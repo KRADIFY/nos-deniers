@@ -1,0 +1,129 @@
+[
+  {
+    "key": [
+      2022,
+      "EXEC",
+      "CP",
+      "BG",
+      "RA",
+      "190",
+      "13"
+    ],
+    "position_ids": [
+      1088,
+      1090,
+      1092,
+      1094,
+      1096,
+      1098,
+      1100,
+      1102
+    ],
+    "reason": "other_missing_siblings_require_separate_financial_release",
+    "codes": [
+      "01"
+    ]
+  },
+  {
+    "key": [
+      2024,
+      "PLF",
+      "AE",
+      "BG",
+      "TA",
+      "345",
+      "15"
+    ],
+    "position_ids": [
+      1397
+    ],
+    "reason": "source_not_in_active_catalogue"
+  },
+  {
+    "key": [
+      2024,
+      "PLF",
+      "CP",
+      "BG",
+      "TA",
+      "345",
+      "15"
+    ],
+    "position_ids": [
+      1398
+    ],
+    "reason": "source_not_in_active_catalogue"
+  },
+  {
+    "key": [
+      2026,
+      "PLF",
+      "AE",
+      "BG",
+      "RA",
+      "190",
+      "14"
+    ],
+    "position_ids": [
+      2433
+    ],
+    "reason": "other_missing_siblings_require_separate_financial_release",
+    "codes": [
+      "01"
+    ]
+  },
+  {
+    "key": [
+      2026,
+      "PLF",
+      "AE",
+      "BG",
+      "SB",
+      "152",
+      "05"
+    ],
+    "position_ids": [
+      2279
+    ],
+    "reason": "other_missing_siblings_require_separate_financial_release",
+    "codes": [
+      "01"
+    ]
+  },
+  {
+    "key": [
+      2026,
+      "PLF",
+      "CP",
+      "BG",
+      "RA",
+      "190",
+      "14"
+    ],
+    "position_ids": [
+      2434
+    ],
+    "reason": "other_missing_siblings_require_separate_financial_release",
+    "codes": [
+      "01"
+    ]
+  },
+  {
+    "key": [
+      2026,
+      "PLF",
+      "CP",
+      "BG",
+      "SB",
+      "152",
+      "05"
+    ],
+    "position_ids": [
+      2280
+    ],
+    "reason": "other_missing_siblings_require_separate_financial_release",
+    "codes": [
+      "01"
+    ]
+  }
+]

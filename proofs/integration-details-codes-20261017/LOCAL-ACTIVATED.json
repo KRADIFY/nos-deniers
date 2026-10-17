@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "at": "2026-10-17T19:20:47.484511+00:00",
+  "old_image": "lexmachine-budget:20261015-complements-3916-v2",
+  "new_image": "lexmachine-budget:20261017-details-codes-1258",
+  "code_files": [
+    {
+      "path": "budget_service/api.py",
+      "sha256": "946bb118d37d08065aabb6a0402bab613c47d64f36ccc7e7c9bbb1f44fde8d8b"
+    },
+    {
+      "path": "budget_service/action_details.py",
+      "sha256": "f8e4d29f71936e0d4ecc2e5e93dbecf09276a33a1984d51dc012199a38e68dd1"
+    },
+    {
+      "path": "budget_service/internal_details.py",
+      "sha256": "68426a1b9ce4263888030bb2e69b7a24760dd426e6fe219cb789f7b697494f83"
+    },
+    {
+      "path": "budget_service/data/internal-details-20261017.json",
+      "sha256": "6b1520b3c794569aa1d256f3a1208217baba404efef43947950ec9a9706065fc"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/api.py",
+      "existed": true,
+      "sha256": "caefad6580a8d8c8f674644437eaec3d79e9fc3373eb9e23d2a6083d98e74d68"
+    },
+    {
+      "path": "budget_service/action_details.py",
+      "existed": true,
+      "sha256": "233d5d15e5e83b713c4b0dd6e31222ff62a3bbfabe084fa9b9abcca425516a43"
+    },
+    {
+      "path": "budget_service/internal_details.py",
+      "existed": false,
+      "sha256": null
+    },
+    {
+      "path": "budget_service/data/internal-details-20261017.json",
+      "existed": false,
+      "sha256": null
+    }
+  ],
+  "compose_before_sha256": "5231bf3fc83914daf73e305f9c74a96d5349628602f17284fa89f8c8ad02faeb",
+  "compose_after_sha256": "4d11d674c878d7e0d32a20f0a5df190c473bbb1c60fe47d556659352423d23e5",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

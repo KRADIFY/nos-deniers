@@ -1,0 +1,22 @@
+{
+  "base_image_id": "sha256:c883bb343e204f4f91e070125b2837844e4eddf8fdf32fd7c6ce02507e8bfc6e",
+  "new_image_tag": "lexmachine-budget:20261017-details-codes-1258",
+  "files": [
+    {
+      "path": "budget_service/api.py",
+      "sha256": "946bb118d37d08065aabb6a0402bab613c47d64f36ccc7e7c9bbb1f44fde8d8b"
+    },
+    {
+      "path": "budget_service/action_details.py",
+      "sha256": "f8e4d29f71936e0d4ecc2e5e93dbecf09276a33a1984d51dc012199a38e68dd1"
+    },
+    {
+      "path": "budget_service/internal_details.py",
+      "sha256": "68426a1b9ce4263888030bb2e69b7a24760dd426e6fe219cb789f7b697494f83"
+    },
+    {
+      "path": "budget_service/data/internal-details-20261017.json",
+      "sha256": "6b1520b3c794569aa1d256f3a1208217baba404efef43947950ec9a9706065fc"
+    }
+  ]
+}

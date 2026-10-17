@@ -80,6 +80,8 @@ def registry():
         data['groups'] += json.loads(added)['groups']
         raw += b'\0' + added
     years=sorted({g['year']for g in data['groups']})
+    from .internal_details import version_bytes
+    raw += b'\0' + version_bytes()
     data['coverage'] = f'Détail des actions LFI/consommé AE/CP, {years[0]}–{years[-1]}, selon les sources publiées et rapprochées. Seize groupes RAP en désaccord sont affichés avec une alerte ; les autres détails non rapprochés restent indisponibles.'
     assert len({key(g) for g in data['groups']}) == len(data['groups']), 'Duplicate action detail group'
     return data, hashlib.sha256(raw).hexdigest()
@@ -238,13 +240,15 @@ def attach(records, db):
             parent['_detail_parent_rows'] = [public_row(p) for p in parents]
             for sibling in parents[1:]:
                 sibling['_detail_sibling'] = True
-    return records
+    from .internal_details import attach as attach_internal_details
+    return attach_internal_details(records, db, published_row)
 
 
 def navigation(records):
     for row in records:
         yield row
         yield from navigation(row.get('_action_details', []))
+        yield from navigation(row.get('_native_internal_children', []))
 
 
 def detail_records(records, scope, excluded):
@@ -254,7 +258,8 @@ def detail_records(records, scope, excluded):
     row, source, precision flag and count. The temporary aggregate has all its
     original signed proof rows and is never stored in the canonical database.
     """
-    records = list(records)
+    from .internal_details import resolve_native_parents
+    records = list(resolve_native_parents(records,scope,excluded))
     active = {key(r) for r in records if r.get('_detail_parent_rows') and
               ((scope != path_of(r) and within(scope, path_of(r))) or
                any(e != path_of(r) and within(e, path_of(r)) for e in excluded))}

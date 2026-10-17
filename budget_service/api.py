@@ -188,7 +188,9 @@ def explorer(db, p):
         annual_records=defaultdict(list)
         for r in records:
             path=node_path(r)
-            if within(path,scope) or within(scope,path): annual_records[r['year']].append(r)
+            internal_path=(r.get('_native_internal_overlay') or {}).get('path') or r.get('_native_internal_owner')
+            if within(path,scope) or within(scope,path) or (internal_path and within(scope,internal_path)):
+                annual_records[r['year']].append(r)
         result=[]
         for year in years:
             annual={'year':year}

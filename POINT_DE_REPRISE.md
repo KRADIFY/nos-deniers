@@ -1,3 +1,15 @@
+# Détails sélectionnables publiés — 17 octobre 2026
+
+- Racine permanente : D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main / KRADIFY/nos-deniers. Commit sûr précédent : b68b61e8ed62a4c4dd17efc7349e39a7cfb53636 ; commit courant : git log -1.
+- Premier lot : 1 258 montants annuels AE/CP ajoutés à la sélection, dans 366 ventilations exactement rapprochées. Les 14 positions différées sont décrites dans les preuves. Ces montants sont des détails, à ne pas additionner à leurs parents.
+- Local http://127.0.0.1:8552 et les deux sites https://budget.lexmachine.net et https://budgetecolo.lexmachine.net activés ; image lexmachine-budget:20261017-details-codes-1258. Publication contrôlée sur les 732 vues parent/accès et 2 516 nouvelles positions visibles (1 258 par site). Sélections, exclusions, sources et pages vérifiées.
+- Base SHA 8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb / 142 079 faits inchangés. Index conservés : 5 683 documents / 4 996 538 passages. Aucun nouveau PDF, OCR ou encodage.
+- Preuves et limites : proofs/integration-details-codes-20261017/. Sources et index massifs hors Git. Anciennes images conservées ; revenir à lexmachine-budget:20261015-complements-3916-v2 pour annuler ce seul lot. Les anciens registres sont figés ; le nouveau détail dépend des SHA source et des faits canoniques exacts.
+- Contrôles : 366 parents/programmes inchangés, 1 840 enfants (anciens inclus) sélectionnés et exclus ; tests propres au lot 4/4. Ancienne suite 149/151, deux assertions obsolètes déjà présentes conservées et signalées. Commande : python -B -m unittest discover -s tests -p test_internal_details.py -v.
+- Suite autorisée : intégrer et publier les autres détails déjà qualifiés, en priorité P177 ; pas de reprise de l'audit exhaustif. Candidat P177 isolé sous budget/outputs/audit-budgets-internes-pap-rap-2017-2027-20261016/integration-dispositifs-p177-20261017, non publié à ce point. Automation horaire PAUSED ; maximum un auxiliaire ; aucun Word sans demande.
+
+## Historique conservé
+
 # Version publiée et sauvegardée — 16 octobre 2026
 
 - Chemin permanent : D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main, KRADIFY/nos-deniers. Commit courant : git log -1 ; reçu GIT-PUSH-VERIFIED.json dans budget/outputs/vectorisation-archives-pap-20261016.
