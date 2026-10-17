@@ -307,6 +307,12 @@ def excluded_parts(row, fine):
         removed.extend(parts)
         complete += int(full)
     full = bool(children) and complete == len(children) and not row.get('_partial_action_coverage')
+    # A partial exclusion must also be valid within each included source node.
+    # Checking only the requested ancestor can hide an overdrawn child branch.
+    if (not full and row.get('_reviewed_internal_node') and row['cents'] >= 0
+            and all(part['cents'] >= 0 for part in removed)
+            and sum(part['cents'] for part in removed) > row['cents']):
+        return [], False, False
     return ([public_row(row)] if full else removed), full, True
 
 

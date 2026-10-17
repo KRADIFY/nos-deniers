@@ -1,0 +1,400 @@
+{
+  "passed": true,
+  "at": "2026-10-17T20:46:21.702906+00:00",
+  "positions": 28,
+  "source_fact_mapping": [
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2026-A11-PLF-alt2",
+      "cents": 1520000000,
+      "contribution_kind": "historical_documented_not_yet_selectable"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2026-A11-PLF-voyage",
+      "cents": 260000000,
+      "contribution_kind": "historical_documented_not_yet_selectable"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2026-A11-PLF-bidonvilles",
+      "cents": 890000000,
+      "contribution_kind": "historical_documented_not_yet_selectable"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2026-A11-PLF-expulsions",
+      "cents": 790000000,
+      "contribution_kind": "historical_documented_not_yet_selectable"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "id": "P177-PAP2026-A14-PLF-nature_fonctionnement",
+      "cents": 320900000,
+      "contribution_kind": "new_native_nature"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "id": "P177-PAP2026-A14-PLF-nature_transferts_autres",
+      "cents": 498770000,
+      "contribution_kind": "new_native_nature"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2026-A11-PLF-alt2",
+      "cents": 1520000000,
+      "contribution_kind": "historical_documented_not_yet_selectable"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2026-A11-PLF-voyage",
+      "cents": 260000000,
+      "contribution_kind": "historical_documented_not_yet_selectable"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2026-A11-PLF-bidonvilles",
+      "cents": 890000000,
+      "contribution_kind": "historical_documented_not_yet_selectable"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2026-A11-PLF-expulsions",
+      "cents": 790000000,
+      "contribution_kind": "historical_documented_not_yet_selectable"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "id": "P177-PAP2026-A14-PLF-nature_fonctionnement",
+      "cents": 320900000,
+      "contribution_kind": "new_native_nature"
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "id": "P177-PAP2026-A14-PLF-nature_transferts_autres",
+      "cents": 498770000,
+      "contribution_kind": "new_native_nature"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2027-A11-PLF-alt2",
+      "cents": 1520000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2027-A11-PLF-voyage",
+      "cents": 380000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2027-A11-PLF-bidonvilles",
+      "cents": 900000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2027-A11-PLF-expulsions",
+      "cents": 810000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2027-A11-PLF-other",
+      "cents": 80000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "id": "P177-PAP2027-A14-PLF-nature_fonctionnement",
+      "cents": 313310500,
+      "contribution_kind": "new_native_nature"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "id": "P177-PAP2027-A14-PLF-nature_incorporels",
+      "cents": 224071500,
+      "contribution_kind": "new_native_nature"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "id": "P177-PAP2027-A14-PLF-nature_transferts_autres",
+      "cents": 606314200,
+      "contribution_kind": "new_native_nature"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2027-A11-PLF-alt2",
+      "cents": 1520000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2027-A11-PLF-voyage",
+      "cents": 380000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2027-A11-PLF-bidonvilles",
+      "cents": 900000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2027-A11-PLF-expulsions",
+      "cents": 810000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "id": "P177-PAP2027-A11-PLF-other",
+      "cents": 80000000,
+      "contribution_kind": "new_prose_device"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "id": "P177-PAP2027-A14-PLF-nature_fonctionnement",
+      "cents": 313310500,
+      "contribution_kind": "new_native_nature"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "id": "P177-PAP2027-A14-PLF-nature_incorporels",
+      "cents": 224071500,
+      "contribution_kind": "new_native_nature"
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "id": "P177-PAP2027-A14-PLF-nature_transferts_autres",
+      "cents": 606314200,
+      "contribution_kind": "new_native_nature"
+    }
+  ],
+  "financial_primary_QA_reused_not_replayed": true
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "P177 PAP2026/2027 actions11/14",
+  "merge_rule": "Append eight partition objects to the explicitly loaded reviewed registry; preserve all preceding published partitions and exact original centimes.",
+  "runtime_guard_required": true,
+  "tested_candidate_action_details_sha256": "3953f3e92bdf9788e79a13070814164fc3cfc72eea4e612d73447ecebd83a787",
+  "guard_contract": "After complete-branch closure, recursively reject an incomplete exclusion from a reviewed nonnegative node when its nonnegative removed parts exceed its own amount. Apply at every level, including programme and mission requests. Do not clamp or invent a balancing credit.",
+  "current_runtime_reproducer": "CURRENT-RUNTIME-REPRODUCER.json has four failing ancestor overdraw cases; candidate counterpart passes four. Current public code alone is insufficient for safe activation of action11/2026.",
+  "hierarchy_action11": "Action -> four2026/five2027 measured devices directly. PARTIAL relations remain partial. Native64 is a parallel observation equal to the existing action, not a sibling or required category parent of those devices.",
+  "native64_documentation": "Four annual nature observations retained at root.parallel_native_observations and cited also in root.source_evidence; not four additional selectable credits.",
+  "hierarchy_action14": "Action -> two2026/three2027 disjoint native natures; exact title/category aliases flattened once with complete frozen alias-chain evidence.",
+  "counts": {
+    "exposed_annual_AECP_positions": 28,
+    "new_prose_positions": 10,
+    "new_native_positions": 10,
+    "historical_not_previously_selectable_positions": 8,
+    "parallel_nature64_observations": 4
+  },
+  "history": "Eight2026 positions checked against identical prior398 node/program/action/year/stage/measure/value/sourceSHA/PDFpage and original proof fingerprints; qualified mission corroborations remain their own evidence, not a source substitution.",
+  "amounts_and_reserves": "All printed amounts/signs/quantums/measures/units retained.2026 known devices exceed their partial parent by30918EUR per measure;2027 known devices leave96871EUR per measure. No synthetic remainder.",
+  "unmeasured": "CCAPEX/teams, monthly ALT2 tariffs, SI/associations narrative without AE/CP, cofinancing and FTAP remain scalars/context, not new measured budgets. FdC/AdP remains parallel.",
+  "sources_and_facts": "Per-partition catalogue source dependencies and exact programme fact hash; unchanged current parent cents; all known local source files SHA verified without primary replay.",
+  "local_codes_not_official": true,
+  "unit_inference_visible": true,
+  "no_new_primary_financial_QA": true,
+  "next": "Root independent integration review against recursive-guard candidate, regression checks and authorised two-site publication.",
+  "published": false,
+  "integration_performed": false
+}

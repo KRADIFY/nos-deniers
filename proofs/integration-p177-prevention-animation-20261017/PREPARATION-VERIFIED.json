@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "new_positions": 28,
+  "new_qualified_positions": 20,
+  "historical_not_previously_selectable_positions": 8,
+  "new_prose_positions": 10,
+  "new_native_nature_positions": 10,
+  "partitions": 8,
+  "source_files": 3,
+  "prior_partitions_preserved": true
+}

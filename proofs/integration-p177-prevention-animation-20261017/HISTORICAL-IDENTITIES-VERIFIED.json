@@ -1,0 +1,114 @@
+[
+  {
+    "id": "P177-PAP2026-A11-PLF-alt2",
+    "measure": "AE",
+    "prior_node_id": "P177-2026-alt2",
+    "same_SHA": "fc7cc02300e7802fcef0827c6e4c441245c4251393217f19c5ffa5406793237a",
+    "same_pages": [
+      18
+    ],
+    "same_cents": 1520000000,
+    "prior_register_sha256": "5c80ce44c3e40fbeeb0b117c575ed53fe73accd41c26859e21d129dce2bc6f52",
+    "current_duplicate_selectable_descendants": 0,
+    "new_financial_discovery": false,
+    "proofs_kept_separate_by_source": true
+  },
+  {
+    "id": "P177-PAP2026-A11-PLF-voyage",
+    "measure": "AE",
+    "prior_node_id": "P177-2026-voyage",
+    "same_SHA": "fc7cc02300e7802fcef0827c6e4c441245c4251393217f19c5ffa5406793237a",
+    "same_pages": [
+      18
+    ],
+    "same_cents": 260000000,
+    "prior_register_sha256": "5c80ce44c3e40fbeeb0b117c575ed53fe73accd41c26859e21d129dce2bc6f52",
+    "current_duplicate_selectable_descendants": 0,
+    "new_financial_discovery": false,
+    "proofs_kept_separate_by_source": true
+  },
+  {
+    "id": "P177-PAP2026-A11-PLF-bidonvilles",
+    "measure": "AE",
+    "prior_node_id": "P177-2026-bidonvilles",
+    "same_SHA": "fc7cc02300e7802fcef0827c6e4c441245c4251393217f19c5ffa5406793237a",
+    "same_pages": [
+      18
+    ],
+    "same_cents": 890000000,
+    "prior_register_sha256": "5c80ce44c3e40fbeeb0b117c575ed53fe73accd41c26859e21d129dce2bc6f52",
+    "current_duplicate_selectable_descendants": 0,
+    "new_financial_discovery": false,
+    "proofs_kept_separate_by_source": true
+  },
+  {
+    "id": "P177-PAP2026-A11-PLF-expulsions",
+    "measure": "AE",
+    "prior_node_id": "P177-2026-expulsions",
+    "same_SHA": "fc7cc02300e7802fcef0827c6e4c441245c4251393217f19c5ffa5406793237a",
+    "same_pages": [
+      19
+    ],
+    "same_cents": 790000000,
+    "prior_register_sha256": "5c80ce44c3e40fbeeb0b117c575ed53fe73accd41c26859e21d129dce2bc6f52",
+    "current_duplicate_selectable_descendants": 0,
+    "new_financial_discovery": false,
+    "proofs_kept_separate_by_source": true
+  },
+  {
+    "id": "P177-PAP2026-A11-PLF-alt2",
+    "measure": "CP",
+    "prior_node_id": "P177-2026-alt2",
+    "same_SHA": "fc7cc02300e7802fcef0827c6e4c441245c4251393217f19c5ffa5406793237a",
+    "same_pages": [
+      18
+    ],
+    "same_cents": 1520000000,
+    "prior_register_sha256": "5c80ce44c3e40fbeeb0b117c575ed53fe73accd41c26859e21d129dce2bc6f52",
+    "current_duplicate_selectable_descendants": 0,
+    "new_financial_discovery": false,
+    "proofs_kept_separate_by_source": true
+  },
+  {
+    "id": "P177-PAP2026-A11-PLF-voyage",
+    "measure": "CP",
+    "prior_node_id": "P177-2026-voyage",
+    "same_SHA": "fc7cc02300e7802fcef0827c6e4c441245c4251393217f19c5ffa5406793237a",
+    "same_pages": [
+      18
+    ],
+    "same_cents": 260000000,
+    "prior_register_sha256": "5c80ce44c3e40fbeeb0b117c575ed53fe73accd41c26859e21d129dce2bc6f52",
+    "current_duplicate_selectable_descendants": 0,
+    "new_financial_discovery": false,
+    "proofs_kept_separate_by_source": true
+  },
+  {
+    "id": "P177-PAP2026-A11-PLF-bidonvilles",
+    "measure": "CP",
+    "prior_node_id": "P177-2026-bidonvilles",
+    "same_SHA": "fc7cc02300e7802fcef0827c6e4c441245c4251393217f19c5ffa5406793237a",
+    "same_pages": [
+      18
+    ],
+    "same_cents": 890000000,
+    "prior_register_sha256": "5c80ce44c3e40fbeeb0b117c575ed53fe73accd41c26859e21d129dce2bc6f52",
+    "current_duplicate_selectable_descendants": 0,
+    "new_financial_discovery": false,
+    "proofs_kept_separate_by_source": true
+  },
+  {
+    "id": "P177-PAP2026-A11-PLF-expulsions",
+    "measure": "CP",
+    "prior_node_id": "P177-2026-expulsions",
+    "same_SHA": "fc7cc02300e7802fcef0827c6e4c441245c4251393217f19c5ffa5406793237a",
+    "same_pages": [
+      19
+    ],
+    "same_cents": 790000000,
+    "prior_register_sha256": "5c80ce44c3e40fbeeb0b117c575ed53fe73accd41c26859e21d129dce2bc6f52",
+    "current_duplicate_selectable_descendants": 0,
+    "new_financial_discovery": false,
+    "proofs_kept_separate_by_source": true
+  }
+]

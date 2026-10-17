@@ -1,0 +1,15 @@
+{
+  "new_image_tag": "lexmachine-budget:20261017-p177-details-28",
+  "files": [
+    {
+      "path": "budget_service/action_details.py",
+      "sha256": "3953f3e92bdf9788e79a13070814164fc3cfc72eea4e612d73447ecebd83a787"
+    },
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "10bad48b9c7601fc642069d9b2f14948335f65f88f60afdd6d29db5f46f3f278"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "recursive_guard_only_runtime_change": true
+}

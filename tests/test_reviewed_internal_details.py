@@ -61,4 +61,17 @@ class ReviewedInternalTests(unittest.TestCase):
   self.assertEqual(row['line'],24);self.assertEqual(row['source_location'],location)
   self.assertEqual(row['field'],item['field']);self.assertNotIn('p. None',row['field'])
 
+ def test_partial_child_overdraw_blocks_ancestor_totals(self):
+  a=node(ROOT,100,[node(ROOT+'/01',120),node(ROOT+'/02',30)],True)
+  program=node('VA/177',500,[a,node('VA/177/11',400)])
+  mission=node('VA',1000,[program,node('VA/178',500)])
+  for tree,scope in [(program,'VA/177'),(mission,'VA')]:
+   c=self.cell(tree,scope,[ROOT+'/01'])
+   self.assertEqual(c['status'],'detail_unavailable');self.assertIsNone(c['value'])
+ def test_complete_child_collapse_precedes_ancestor_overdraw_guard(self):
+  a=node(ROOT,100,[node(ROOT+'/01',120),node(ROOT+'/02',30)])
+  program=node('VA/177',500,[a,node('VA/177/11',400)])
+  for ex in [[ROOT+'/01',ROOT+'/02'],[ROOT,ROOT+'/01',ROOT+'/02']]:
+   self.assertEqual(self.amount(self.cell(program,'VA/177',ex)),400)
+
 if __name__=='__main__':unittest.main()

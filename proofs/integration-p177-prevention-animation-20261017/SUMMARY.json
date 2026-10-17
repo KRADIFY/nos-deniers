@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-17T20:42:54.847738+00:00",
+  "scope": "P177 PAP2026/2027 actions11/14 only",
+  "partitions": 8,
+  "navigation_positions": 28,
+  "new_qualified_positions": 20,
+  "new_nature_positions": 10,
+  "new_prose_positions": 10,
+  "historical_positions_reused_not_new": 8,
+  "parallel_native_action11_positions": 4,
+  "action11_selectable_device_positions": 18,
+  "action14_selectable_native_positions": 10,
+  "ordinary_source_parents_preserved": 8,
+  "action11_partial_device_relations": 4,
+  "exact_native_parent_relations": 4,
+  "source2026_action11_known_child_excess_EUR": 30918,
+  "source2027_action11_known_child_gap_EUR": 96871,
+  "required_runtime_condition": "Verify recursive invalidation for partial positive child exclusions exceeding their own parent, including requests at programme/mission scope; do not calculate a negative unexplained remainder.",
+  "no_integration": true,
+  "no_publication": true
+}

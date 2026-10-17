@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "at": "2026-10-17T20:49:44.307260+00:00",
+  "old_image": "lexmachine-budget:20261017-fiscalite-details-152",
+  "new_image": "lexmachine-budget:20261017-p177-details-28",
+  "code_files": [
+    {
+      "path": "budget_service/action_details.py",
+      "sha256": "3953f3e92bdf9788e79a13070814164fc3cfc72eea4e612d73447ecebd83a787"
+    },
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "10bad48b9c7601fc642069d9b2f14948335f65f88f60afdd6d29db5f46f3f278"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/action_details.py",
+      "existed": true,
+      "sha256": "0679c86c84c3d8511f360090b25a52d05da1f95ffb8b740e441001b532046e2b"
+    },
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": true,
+      "sha256": "f37f7dd6664f1286888da62345fcaa0cdba7a2309f25139829cfac49c6e2110e"
+    }
+  ],
+  "compose_before_sha256": "d924d9ed7c8d8bc50693e7642339b62613e0dc58a8130b4c793e7a85a9dca2f0",
+  "compose_after_sha256": "5749bcee8a57ec9df984f73ef40cea7f611362a04014bbe8f74ca0df81225a33",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

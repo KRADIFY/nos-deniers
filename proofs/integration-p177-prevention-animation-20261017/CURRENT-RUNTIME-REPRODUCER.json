@@ -1,0 +1,540 @@
+{
+  "at": "2026-10-17T20:43:55.925704+00:00",
+  "runtime_root": "D:\\ChatGPT\\docker\\backups\\nos-deniers-enligne-20261004\\git",
+  "candidate_recursive_guard": false,
+  "checks": {
+    "frozen_manifest_files": 109,
+    "parents": 8,
+    "navigation_selections": 28,
+    "exclusion_combinations": 120,
+    "duplicate_ancestor_cases": 56,
+    "historical_reuses": 8
+  },
+  "projection_sha256": "13b761c2f1498318fba560a034439dc68964a3649f5a00e220e72f8e79bb5285",
+  "action_details_sha256": "0679c86c84c3d8511f360090b25a52d05da1f95ffb8b740e441001b532046e2b",
+  "reviewed_internal_details_sha256": "9168c5e3c3d416ac00d9fd1e0db74ffdd83d41bed3b8f22dc531850f55ebaa90",
+  "parent_and_selection_checks_passed": true,
+  "ancestor_overdraw_cases_passed": 0,
+  "ancestor_overdraw_cases_total": 4,
+  "passed": false,
+  "ancestor_overdraw_cases": [
+    {
+      "year": 2026,
+      "measure": "AE",
+      "scope": "VA/177",
+      "excluded": [
+        "VA/177/11/01",
+        "VA/177/11/02",
+        "VA/177/11/03",
+        "VA/177/11/04"
+      ],
+      "before": {
+        "approximate": false,
+        "value": 3046689925.0,
+        "nominal": 3046689925.0,
+        "nominal_cents": 304668992500,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "precision": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 1,
+        "sources": [
+          "c9bb891a0169f22103e4"
+        ],
+        "grain": "programme"
+      },
+      "after": {
+        "approximate": false,
+        "value": 3012089925.0,
+        "nominal": 3012089925.0,
+        "nominal_cents": 301208992500,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Total du périmètre source moins les postes exclus, avant correction de l’inflation. Les totaux de programme conservent leurs sources. Le détail par action ou sous-action conserve la précision du document : au centime dans les synthèses Excel, à l’euro dans les tableaux PDF. Aucun écart d’arrondi n’est réparti entre les actions.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Total du périmètre source moins les postes exclus, avant correction de l’inflation. Les totaux de programme conservent leurs sources. Le détail par action ou sous-action conserve la précision du document : au centime dans les synthèses Excel, à l’euro dans les tableaux PDF. Aucun écart d’arrondi n’est réparti entre les actions.",
+        "precision": "Total source moins les montants des postes détaillés et sourcés. Montant du PAP, repère local non officiel. ",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          },
+          {
+            "source": "fc7cc02300e7802fcef0",
+            "page": 18
+          },
+          {
+            "source": "fc7cc02300e7802fcef0",
+            "page": 19
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 1,
+        "sources": [
+          "c9bb891a0169f22103e4",
+          "fc7cc02300e7802fcef0"
+        ],
+        "grain": "programme"
+      },
+      "expected_status": "detail_unavailable",
+      "passed": false
+    },
+    {
+      "year": 2026,
+      "measure": "AE",
+      "scope": "VA",
+      "excluded": [
+        "VA/177/11/01",
+        "VA/177/11/02",
+        "VA/177/11/03",
+        "VA/177/11/04"
+      ],
+      "before": {
+        "approximate": false,
+        "value": 22110606492.0,
+        "nominal": 22110606492.0,
+        "nominal_cents": 2211060649200,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "precision": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          },
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 22
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 6,
+        "sources": [
+          "c9bb891a0169f22103e4"
+        ],
+        "grain": "programme"
+      },
+      "after": {
+        "approximate": false,
+        "value": 22076006492.0,
+        "nominal": 22076006492.0,
+        "nominal_cents": 2207600649200,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé. Total du périmètre source moins les postes exclus, avant correction de l’inflation. Les totaux de programme conservent leurs sources. Le détail par action ou sous-action conserve la précision du document : au centime dans les synthèses Excel, à l’euro dans les tableaux PDF. Aucun écart d’arrondi n’est réparti entre les actions.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé. Total du périmètre source moins les postes exclus, avant correction de l’inflation. Les totaux de programme conservent leurs sources. Le détail par action ou sous-action conserve la précision du document : au centime dans les synthèses Excel, à l’euro dans les tableaux PDF. Aucun écart d’arrondi n’est réparti entre les actions.",
+        "precision": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé. Total source moins les montants des postes détaillés et sourcés. Montant du PAP, repère local non officiel. ",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          },
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 22
+          },
+          {
+            "source": "fc7cc02300e7802fcef0",
+            "page": 18
+          },
+          {
+            "source": "fc7cc02300e7802fcef0",
+            "page": 19
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 6,
+        "sources": [
+          "c9bb891a0169f22103e4",
+          "fc7cc02300e7802fcef0"
+        ],
+        "grain": "programme"
+      },
+      "expected_status": "detail_unavailable",
+      "passed": false
+    },
+    {
+      "year": 2026,
+      "measure": "CP",
+      "scope": "VA/177",
+      "excluded": [
+        "VA/177/11/01",
+        "VA/177/11/02",
+        "VA/177/11/03",
+        "VA/177/11/04"
+      ],
+      "before": {
+        "approximate": false,
+        "value": 3071443369.0,
+        "nominal": 3071443369.0,
+        "nominal_cents": 307144336900,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "precision": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 1,
+        "sources": [
+          "c9bb891a0169f22103e4"
+        ],
+        "grain": "programme"
+      },
+      "after": {
+        "approximate": false,
+        "value": 3036843369.0,
+        "nominal": 3036843369.0,
+        "nominal_cents": 303684336900,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Total du périmètre source moins les postes exclus, avant correction de l’inflation. Les totaux de programme conservent leurs sources. Le détail par action ou sous-action conserve la précision du document : au centime dans les synthèses Excel, à l’euro dans les tableaux PDF. Aucun écart d’arrondi n’est réparti entre les actions.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Total du périmètre source moins les postes exclus, avant correction de l’inflation. Les totaux de programme conservent leurs sources. Le détail par action ou sous-action conserve la précision du document : au centime dans les synthèses Excel, à l’euro dans les tableaux PDF. Aucun écart d’arrondi n’est réparti entre les actions.",
+        "precision": "Total source moins les montants des postes détaillés et sourcés. Montant du PAP, repère local non officiel. ",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          },
+          {
+            "source": "fc7cc02300e7802fcef0",
+            "page": 18
+          },
+          {
+            "source": "fc7cc02300e7802fcef0",
+            "page": 19
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 1,
+        "sources": [
+          "c9bb891a0169f22103e4",
+          "fc7cc02300e7802fcef0"
+        ],
+        "grain": "programme"
+      },
+      "expected_status": "detail_unavailable",
+      "passed": false
+    },
+    {
+      "year": 2026,
+      "measure": "CP",
+      "scope": "VA",
+      "excluded": [
+        "VA/177/11/01",
+        "VA/177/11/02",
+        "VA/177/11/03",
+        "VA/177/11/04"
+      ],
+      "before": {
+        "approximate": false,
+        "value": 22228146636.0,
+        "nominal": 22228146636.0,
+        "nominal_cents": 2222814663600,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "precision": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          },
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 22
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 6,
+        "sources": [
+          "c9bb891a0169f22103e4"
+        ],
+        "grain": "programme"
+      },
+      "after": {
+        "approximate": false,
+        "value": 22193546636.0,
+        "nominal": 22193546636.0,
+        "nominal_cents": 2219354663600,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé. Total du périmètre source moins les postes exclus, avant correction de l’inflation. Les totaux de programme conservent leurs sources. Le détail par action ou sous-action conserve la précision du document : au centime dans les synthèses Excel, à l’euro dans les tableaux PDF. Aucun écart d’arrondi n’est réparti entre les actions.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé. Total du périmètre source moins les postes exclus, avant correction de l’inflation. Les totaux de programme conservent leurs sources. Le détail par action ou sous-action conserve la précision du document : au centime dans les synthèses Excel, à l’euro dans les tableaux PDF. Aucun écart d’arrondi n’est réparti entre les actions.",
+        "precision": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé. Total source moins les montants des postes détaillés et sourcés. Montant du PAP, repère local non officiel. ",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          },
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 22
+          },
+          {
+            "source": "fc7cc02300e7802fcef0",
+            "page": 18
+          },
+          {
+            "source": "fc7cc02300e7802fcef0",
+            "page": 19
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 6,
+        "sources": [
+          "c9bb891a0169f22103e4",
+          "fc7cc02300e7802fcef0"
+        ],
+        "grain": "programme"
+      },
+      "expected_status": "detail_unavailable",
+      "passed": false
+    }
+  ],
+  "program_total_observations": [
+    {
+      "year": 2026,
+      "measure": "AE",
+      "scope": "VA/177",
+      "without_exclusions": {
+        "approximate": false,
+        "value": 3046689925.0,
+        "nominal": 3046689925.0,
+        "nominal_cents": 304668992500,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "precision": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 1,
+        "sources": [
+          "c9bb891a0169f22103e4"
+        ],
+        "grain": "programme"
+      }
+    },
+    {
+      "year": 2026,
+      "measure": "AE",
+      "scope": "VA/177",
+      "without_exclusions": {
+        "approximate": false,
+        "value": 3046689925.0,
+        "nominal": 3046689925.0,
+        "nominal_cents": 304668992500,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "precision": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 1,
+        "sources": [
+          "c9bb891a0169f22103e4"
+        ],
+        "grain": "programme"
+      }
+    },
+    {
+      "year": 2026,
+      "measure": "CP",
+      "scope": "VA/177",
+      "without_exclusions": {
+        "approximate": false,
+        "value": 3071443369.0,
+        "nominal": 3071443369.0,
+        "nominal_cents": 307144336900,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "precision": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 1,
+        "sources": [
+          "c9bb891a0169f22103e4"
+        ],
+        "grain": "programme"
+      }
+    },
+    {
+      "year": 2026,
+      "measure": "CP",
+      "scope": "VA/177",
+      "without_exclusions": {
+        "approximate": false,
+        "value": 3071443369.0,
+        "nominal": 3071443369.0,
+        "nominal_cents": 307144336900,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "precision": "Le total de référence reste celui des faits canoniques du programme, dont les sources sont conservées. Il n’est pas présenté comme un total imprimé du document associé aux nouvelles actions. Couverture partielle ou non démontrée exhaustive. Seuls les postes documentés sont soustraits ; exclure tous les postes connus ne signifie pas exclure le programme entier. Les montants publiés sont conservés ; aucun résidu d’arrondi n’est réparti et aucun solde inconnu n’est inventé.",
+        "citations": [
+          {
+            "source": "c9bb891a0169f22103e4",
+            "page": 21
+          }
+        ],
+        "spreadsheet_cells": [],
+        "count": 1,
+        "sources": [
+          "c9bb891a0169f22103e4"
+        ],
+        "grain": "programme"
+      }
+    },
+    {
+      "year": 2027,
+      "measure": "AE",
+      "scope": "VA/177",
+      "without_exclusions": {
+        "approximate": false,
+        "value": 3255255007.0,
+        "nominal": 3255255007.0,
+        "nominal_cents": 325525500700,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "",
+        "count": 1,
+        "sources": [
+          "d254ced154a60b041d74"
+        ],
+        "grain": "programme"
+      }
+    },
+    {
+      "year": 2027,
+      "measure": "AE",
+      "scope": "VA/177",
+      "without_exclusions": {
+        "approximate": false,
+        "value": 3255255007.0,
+        "nominal": 3255255007.0,
+        "nominal_cents": 325525500700,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "",
+        "count": 1,
+        "sources": [
+          "d254ced154a60b041d74"
+        ],
+        "grain": "programme"
+      }
+    },
+    {
+      "year": 2027,
+      "measure": "CP",
+      "scope": "VA/177",
+      "without_exclusions": {
+        "approximate": false,
+        "value": 3261443368.0,
+        "nominal": 3261443368.0,
+        "nominal_cents": 326144336800,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "",
+        "count": 1,
+        "sources": [
+          "d254ced154a60b041d74"
+        ],
+        "grain": "programme"
+      }
+    },
+    {
+      "year": 2027,
+      "measure": "CP",
+      "scope": "VA/177",
+      "without_exclusions": {
+        "approximate": false,
+        "value": 3261443368.0,
+        "nominal": 3261443368.0,
+        "nominal_cents": 326144336800,
+        "status": "ok",
+        "nominal_status": "ok",
+        "reason": "",
+        "coverage_reason": "",
+        "missing_programs": [],
+        "detail_note": "",
+        "count": 1,
+        "sources": [
+          "d254ced154a60b041d74"
+        ],
+        "grain": "programme"
+      }
+    }
+  ],
+  "no_production_modification": true,
+  "no_network": true,
+  "no_primary_replay": true,
+  "new_independent_financial_QA": false
+}
