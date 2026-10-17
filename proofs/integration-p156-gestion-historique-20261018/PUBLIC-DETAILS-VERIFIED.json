@@ -1,0 +1,999 @@
+{
+  "passed": true,
+  "at": "2026-10-17T22:45:14.851870+00:00",
+  "published_new_positions": 296,
+  "new_qualified_positions": 150,
+  "existing_nature_and_aggregate_navigation_positions": 146,
+  "nested_partial_exclusions_verified": true,
+  "verified_sites": 2,
+  "live_new_positions": 592,
+  "live_parent_views": 232,
+  "registry_version": "0e71aabfb4618679e67134412f433919b9ab86e62293f88d6c8ae090913ebae4",
+  "results": [
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 7,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 7,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 10,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 10,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 7,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 7,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 9,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 9,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 8,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 8,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 10,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 10,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 9,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 10,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 9,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 9,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 12,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 12,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 12,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 15,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budget.lexmachine.net",
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 15,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 7,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 7,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 10,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 10,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 7,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 7,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 9,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 9,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 8,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 8,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 10,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "06"
+      ],
+      "new_positions": 10,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 9,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 10,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 9,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 9,
+      "parent_views": 3,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 12,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 12,
+      "parent_views": 4,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 13,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 12,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 15,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    },
+    {
+      "passed": true,
+      "site": "https://budgetecolo.lexmachine.net",
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "07"
+      ],
+      "new_positions": 15,
+      "parent_views": 5,
+      "parent_preserved": true,
+      "exclusions_and_citations": true
+    }
+  ],
+  "legacy": [
+    {
+      "site": "https://budget.lexmachine.net",
+      "path": "VA/177/12/04/01",
+      "preserved": true
+    },
+    {
+      "site": "https://budget.lexmachine.net",
+      "path": "AD/209/10/01",
+      "preserved": true
+    },
+    {
+      "site": "https://budget.lexmachine.net",
+      "path": "DA/146/06/15",
+      "preserved": true
+    },
+    {
+      "site": "https://budgetecolo.lexmachine.net",
+      "path": "VA/177/12/04/01",
+      "preserved": true
+    },
+    {
+      "site": "https://budgetecolo.lexmachine.net",
+      "path": "AD/209/10/01",
+      "preserved": true
+    },
+    {
+      "site": "https://budgetecolo.lexmachine.net",
+      "path": "DA/146/06/15",
+      "preserved": true
+    }
+  ],
+  "errors": []
+}

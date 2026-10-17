@@ -1,0 +1,25 @@
+{
+  "published": true,
+  "at": "2026-10-17T22:38:00.285999+00:00",
+  "services": [
+    "web1",
+    "web2",
+    "web3",
+    "web4"
+  ],
+  "old_image": "lexmachine-budget:20261018-justice-fiscalite-12",
+  "new_image": "lexmachine-budget:20261018-p156-gestion-historique-13",
+  "image_id": "sha256:120f2e69e4d56f1f647551f461da253727c15ef90a5cc3086eef8a42bf03da87",
+  "registry_version": "0e71aabfb4618679e67134412f433919b9ab86e62293f88d6c8ae090913ebae4",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "financial_facts": 142079,
+  "compose_before_sha256": "63d06637e3e62a26531687896b746cb3766fddbceacd1b36582c4c8055673aa6",
+  "compose_after_sha256": "54775bd1656ef3201e9900f16a1fb5a3e893d087d6cb69f83019d1263edb8a4c",
+  "old_image_retained": true,
+  "only_reviewed_registry_data_changed": true,
+  "source_files_verified": 12,
+  "selectable_new_positions": 296,
+  "new_qualified_positions": 150,
+  "existing_nature_and_aggregate_navigation_positions": 146,
+  "public_API_checks_pending": true
+}

@@ -1,3 +1,18 @@
+# Gestion des pensions et finances locales : détails publiés — 18 octobre 2026
+
+- Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent465d02321882a09c1dec6ab1067d8b8c7939d859 ; courant : git log -1.
+- Image locale/quatre webs publics lexmachine-budget:20261018-p156-gestion-historique-13. P156PAP2017–2023/actions06–07 :296positions annuelles sélectionnables ajoutées, dont150issues des qualifications financières et146natures/titres/alias courants de navigation. Pas296enveloppes indépendantes à additionner.
+- Seul le registre de détails est complété, code de calcul et présentation inchangés. Anciennes partitions conservées identiques après relectureJSON compacte ; montants canoniques, centimes, signes, zéros imprimés, blancs et mesures annuelles propres conservés. Aucun parent ajouté à ses descendants ni solde fabriqué.
+- Actions06/07 : crédits de gestion du service, pas pensions versées duCAS ni budgets des communes. Les références explicites2016 et deux charges2017 à annualité réservée restent horsarbre. GIP2017 enT6 distinct duGIP2027T3 ; alias inclus sous leur nature, pas financements indépendants.
+- Addendum des en-têtesCP2017–2020 appliqué sans changement de montant ; en-têtes initiaux conservés historiques. Investissement2020 et2022 inconnus gardent les actions partielles malgré égalité connue, SRE2022maintenance seule partielle sans1M€inventé. UnitésEUR/MEUR de conversion distinguées des véritables symboles imprimés et notes propres.
+- ServicesDSFP/PIAA sous groupes2017/19/20 avec repères11/12 distincts des domaines ;2018 et2021/22 axes partiels/parallèles réservés. CP0,68M€ versus687000EUR2018 conservé, baux sur3ans en engagement2023, pas loyers annuels répétés ; blancs corporelles distincts des zérosSQL. Sources2024 absentes restent réservées, sans transfert de qualification.
+-296montants/libellés/quantums/preuves comparés aux registres etQA figés ;17664scénarios d'exclusion,1061ordres/doublons, anciens lots recontrôlés. Grandes branches bornées, sans fausse exhaustivité combinatoire.166tests :164passent,les deux mêmes assertions historiques obsolètes demeurent.
+- Budget/Budgetécolo :592montants vérifiés (296parsite), navigation/citations/exclusions et témoins anciens concordants. Preuves proofs/integration-p156-gestion-historique-20261018/. Image réelle par année/étape/mesure et localready contrôlés ; sauvegardes et anciennes images conservées. Aucune recette visuelle navigateur ou passeHTTPlocale exhaustive revendiquée.
+-12sources déjà indexées, aucun encodage nouveau. BaseSHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb/142079faits et index5683documents/4996538passages inchangés. 13lots publiés :5579positions annuelles ajoutées ; aucun pourcentage de complétude desPAP/RAP. Autres compléments qualifiés encore à projeter ; les39codifiées et autres réserves restent séparées.
+- Suite :projections bornées P156PAP2017–2023/actions08–09 en préparation, puis autres paquets clos disponibles. Audit exhaustif arrêté, automationPAUSED,max1auxiliaire,aucunWord sansdemande.
+
+## Historique conservé
+
 # Justice et fiscalité : détails sélectionnables publiés — 18 octobre 2026
 
 - Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédentec73cf6aec3659517358baa42914bbe9d7995f31 ; courant : git log -1.

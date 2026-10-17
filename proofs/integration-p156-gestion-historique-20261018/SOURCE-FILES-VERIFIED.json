@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "source": "3cf05923cc12d05cf376",
+      "sha256": "019478fbedc939293135b8f0cd4542e7bc2e146b7e2604c9affd1dce540f6f2a",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\pap\\2018\\DBGPGMPGM156-019478fbedc9.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "11f327f034b5e331f982",
+      "sha256": "70c9d4c7087180c4435f35874a300fa3a2c2226207c2ab3bc7fdb94e2bdda227",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\plf\\2018\\PAP2018_BG_Gestion_finances_publiques_ressources_humaines-70c9d4c70871.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "1c1cc0ff4381968f606c",
+      "sha256": "a73e6f8421d97e96e939451de595ed7d66d723dd67ab6325b7a46c98ec838598",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\plf\\2017\\PAP2017_BG_Gestion_finances_publiques_ressources_humaines-a73e6f8421d9.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "041088df72b353761129",
+      "sha256": "af1c1bae8d1dd94ff7051d34bf01455aa6cbe28856873f41ede9ca33463534e7",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\pap\\2017\\DBGPGMPGM156-af1c1bae8d1d.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "1f4ba285302dc7ee49a8",
+      "sha256": "c7856eea7d99094bb8256b0b8d8bc6506358efb5f00e287c5b8da6382824a700",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2020\\FR_2020_PLF_BG_PGM_156-c7856eea7d99.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "aa6bbba5b0229ec65320",
+      "sha256": "df26b50d5947dd7b13c05e8556a3e7d1e5ac4cc735b28d67e70914e3804862ac",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\plf\\2019\\PAP2019_BG_Gestion_finances_publiques_ressources_humaines-df26b50d5947.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "574431d7a9c2fd80b2f9",
+      "sha256": "ecde5c9193b68f106bcf8fdfd24065f0141ffea328925c446d3a50e1c7472c71",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2019\\FR_2019_PLF_BG_MSN_GA-ecde5c9193b6.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "e35c89c5bc6f02de7687",
+      "sha256": "35588b05ce39f5c072b2200ebe29db3425f5ba5d092facabe57a3b5922749a8e",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2022\\FR_2022_PLF_BG_MSN_GA-35588b05ce39.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "efb7e19bacbe64ace6ff",
+      "sha256": "388582abbff612e4fd343c729b2a2749d93cf34b673e05e8a5f0a2106f62be1c",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\plf\\2023\\Gestion_des_finances_publiques-ac28ac14.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "deb84a1a84f57a1e8afe",
+      "sha256": "3c9f5926e7cb93fa70209f10c1c8dc5a7dc8bb23f182fee38ec78e3a4bc1683f",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2021\\FR_2021_PLF_BG_PGM_156-3c9f5926e7cb.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "268b53a0bbb6c62d25a3",
+      "sha256": "4e89248aea050b430124c54cacdd32a04c7f38dfa25c681996eb2485ba450362",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2022\\FR_2022_PLF_BG_PGM_156-4e89248aea05.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "c3894e6d4706fd2a5993",
+      "sha256": "9a8decbf3ff7962ecb82a9d4daf1fc648ef514dbd20321bf0ceb3458da8e3daa",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2021\\FR_2021_PLF_BG_MSN_GA-9a8decbf3ff7.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    }
+  ]
+}

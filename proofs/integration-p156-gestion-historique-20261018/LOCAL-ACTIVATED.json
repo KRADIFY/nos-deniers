@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "at": "2026-10-17T22:38:19.360454+00:00",
+  "old_image": "lexmachine-budget:20261018-justice-fiscalite-12",
+  "new_image": "lexmachine-budget:20261018-p156-gestion-historique-13",
+  "code_files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "5ff44e994a3bd744fd5f763baf5fa2a21e597eef982aa7ec94d9c6bcf497edfe"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": true,
+      "sha256": "325485d61a5a43d4d85d70459cee0413d13ee86ef699fdc2fc0517bb3cc2647d"
+    }
+  ],
+  "compose_before_sha256": "5bd9fba441970c2b829549e58f1a0370d30ac54af596d5342b424c1a672cc632",
+  "compose_after_sha256": "e731c7be89ae09e73ddec1815a003ab848353a6cbb63e8182c38bdcb383514f7",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

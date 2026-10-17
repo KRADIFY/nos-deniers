@@ -1,0 +1,12 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-p156-gestion-historique-13",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "5ff44e994a3bd744fd5f763baf5fa2a21e597eef982aa7ec94d9c6bcf497edfe"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

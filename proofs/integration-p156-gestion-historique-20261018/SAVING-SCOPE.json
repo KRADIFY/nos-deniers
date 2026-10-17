@@ -1,0 +1,9 @@
+{
+  "batch": "integration-p156-gestion-historique-20261018",
+  "previous_batch": "integration-justice-fiscalite-20261018",
+  "ordinal": 13,
+  "title": "Gestion des pensions et finances locales : détails publiés",
+  "scope": "P156PAP2017–2023/actions06–07",
+  "scope_notes": "- Actions06/07 : crédits de gestion du service, pas pensions versées duCAS ni budgets des communes. Les références explicites2016 et deux charges2017 à annualité réservée restent horsarbre. GIP2017 enT6 distinct duGIP2027T3 ; alias inclus sous leur nature, pas financements indépendants.\n- Addendum des en-têtesCP2017–2020 appliqué sans changement de montant ; en-têtes initiaux conservés historiques. Investissement2020 et2022 inconnus gardent les actions partielles malgré égalité connue, SRE2022maintenance seule partielle sans1M€inventé. UnitésEUR/MEUR de conversion distinguées des véritables symboles imprimés et notes propres.\n- ServicesDSFP/PIAA sous groupes2017/19/20 avec repères11/12 distincts des domaines ;2018 et2021/22 axes partiels/parallèles réservés. CP0,68M€ versus687000EUR2018 conservé, baux sur3ans en engagement2023, pas loyers annuels répétés ; blancs corporelles distincts des zérosSQL. Sources2024 absentes restent réservées, sans transfert de qualification.",
+  "next_step": "projections bornées P156PAP2017–2023/actions08–09 en préparation, puis autres paquets clos disponibles"
+}

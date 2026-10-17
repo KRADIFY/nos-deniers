@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "new_positions": 296,
+  "new_qualified_positions": 150,
+  "existing_nature_and_aggregate_navigation_positions": 146,
+  "partitions": 28,
+  "source_files": 12,
+  "prior_partitions_preserved": true,
+  "summaries": [
+    {
+      "scope": "P156 PAP2017–2020/action06 Gestion des pensions — crédits de gestion",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_qualified_positions_selected": 34,
+      "current_nature_title_navigation": 30,
+      "named_current_recipient_alias_navigation": 2,
+      "explicit2016_positions_excluded": 6,
+      "annuality_reserved2017_positions_excluded": 2,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T22:22:53.236348+00:00",
+      "partitions": 8,
+      "navigation_positions": 66,
+      "source_files": 7,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P156 PAP2021–2024/action06",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 30,
+      "current_nature_title_and_alias_navigation": 32,
+      "original_new_positions": 40,
+      "reserved2024_new_positions": 10,
+      "missing_own_source_years": [
+        2024
+      ],
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T22:24:32.552777+00:00",
+      "partitions": 6,
+      "navigation_positions": 62,
+      "source_files": 5,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P156 PAP2017–2020/action07",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 50,
+      "current_nature_title_and_alias_navigation": 37,
+      "original_new_positions": 54,
+      "parallel2018_individual_service_positions_reserved": 4,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T22:26:52.232878+00:00",
+      "partitions": 8,
+      "navigation_positions": 87,
+      "source_files": 7,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P156 PAP2021–2024/action07",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 36,
+      "current_nature_title_and_alias_navigation": 45,
+      "original_new_positions": 60,
+      "parallel_individual_service_positions2021_2022_reserved": 8,
+      "reserved2024_new_positions": 16,
+      "missing_own_source_years": [
+        2024
+      ],
+      "QA_comparison_relations_preserved_partial": true,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T22:28:50.049696+00:00",
+      "partitions": 6,
+      "navigation_positions": 81,
+      "source_files": 5,
+      "no_integration": true,
+      "no_publication": true
+    }
+  ],
+  "source_reserves_and_parallel_axes_retained": true
+}
