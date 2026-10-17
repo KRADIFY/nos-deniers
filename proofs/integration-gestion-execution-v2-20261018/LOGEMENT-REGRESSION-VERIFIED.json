@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-17T23:32:58.468967+00:00",
+  "passed": true,
+  "counts": {
+    "parent_unchanged": 24,
+    "source_value_selectable": 211,
+    "source_citation": 211,
+    "actual_leaf_route": 211,
+    "breadcrumbs_documented_label": 211,
+    "annual_source_label": 211,
+    "all_hierarchical_exclusion_combinations": 9116,
+    "duplicate_and_permutation": 523,
+    "ancestor_exclusion": 211,
+    "unknown_remains_unavailable": 24,
+    "unit_warning": 45,
+    "deeper_navigation": 44,
+    "other_stage_rows_not_fabricated": 44,
+    "ancestor_overdraw_unavailable": 4
+  },
+  "new_positions": 211,
+  "errors": [],
+  "verified_by": "Actual preceding candidate runtime execution plus strict numerical/source/label/relationship/code identity; only descriptive-label notes appended",
+  "prior_runtime_receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-gestion-execution-20261018\\LOGEMENT-REGRESSION-VERIFIED.json",
+  "prior_runtime_receipt_sha256": "bd341313b222b07d3f94363df0f7fb2675223b0f3b2e98eb32fca442779ef04b",
+  "runtime_reexecuted_on_this_serialization": false,
+  "invariance_receipt_sha256": "1eb2ce88f504c8fe6a704a11fa98c479b81da53d1c30691765140590ee91d260"
+}

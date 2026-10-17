@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-17T23:33:44.323101+00:00",
+  "passed": true,
+  "counts": {
+    "parent_amount_preserved": 366,
+    "program_total_preserved": 366,
+    "child_selectable": 1840,
+    "child_in_navigation": 1840,
+    "single_child_exclusion": 1840,
+    "duplicate_exclusion": 1840,
+    "parent_child_exclusion": 1840,
+    "source_proof_visible": 1258,
+    "unit_reserve_visible": 1258,
+    "all_children_equal_whole_parent_exclusion": 366
+  },
+  "new_positions_exercised": 1258,
+  "partitions": 366,
+  "errors": [],
+  "active_facts_rewritten": false,
+  "scope": "Actual candidate production functions on read-only active facts; every prepared child, fine selection, duplicate/ancestor/all-child exclusions and primary citations.",
+  "verified_by": "Actual preceding candidate runtime execution plus strict numerical/source/label/relationship/code identity; only descriptive-label notes appended",
+  "prior_runtime_receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-gestion-execution-20261018\\EXACT-CANDIDATE-VERIFIED.json",
+  "prior_runtime_receipt_sha256": "27182dc1d90acdf458c4e4fe5952b368bccbbbd2d673dda0c74db7980b6df8d2",
+  "runtime_reexecuted_on_this_serialization": false,
+  "invariance_receipt_sha256": "1eb2ce88f504c8fe6a704a11fa98c479b81da53d1c30691765140590ee91d260"
+}

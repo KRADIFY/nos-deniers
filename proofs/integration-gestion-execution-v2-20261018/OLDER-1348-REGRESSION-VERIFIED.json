@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "at": "2026-10-17T23:34:07.478726+00:00",
+  "partitions": 283,
+  "new_positions": 1348,
+  "counts": {
+    "unchanged_parent": 283,
+    "unchanged_program": 283,
+    "every_child_selectable": 1501,
+    "actual_parent_view": 1501,
+    "new_primary_citation": 1348,
+    "unit_disclosed": 1348,
+    "printed_code_displayed": 1348,
+    "ancestor_exclusion": 1501,
+    "duplicate_exclusion": 1501,
+    "exclusion_combinations": 13849,
+    "exclusion_order": 12835
+  },
+  "errors": [],
+  "verified_by": "Actual preceding candidate runtime execution plus strict numerical/source/label/relationship/code identity; only descriptive-label notes appended",
+  "prior_runtime_receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-gestion-execution-20261018\\OLDER-1348-REGRESSION-VERIFIED.json",
+  "prior_runtime_receipt_sha256": "1cd42821788ca9d2cca7be99d6dea2291a97838528854b7081171ac3cedba9f5",
+  "runtime_reexecuted_on_this_serialization": false,
+  "invariance_receipt_sha256": "1eb2ce88f504c8fe6a704a11fa98c479b81da53d1c30691765140590ee91d260"
+}

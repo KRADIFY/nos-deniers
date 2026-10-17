@@ -1,0 +1,14 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-gestion-execution-17-v2",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "eb1b261bd2897e2791bdff63ee0b7769ae15270b352d5121fc49d119d917cfee"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "existing_financial_partitions_unchanged": true,
+  "unused_audit_metadata_compacted": false,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

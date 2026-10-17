@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "at": "2026-10-17T23:32:06.636730+00:00",
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p156-rap2025-08-09-10-20261018\\INDEPENDENT-DELIVERY-VERIFIED.json",
+  "receipt_sha256": "d65e6d66a8079f32420220562f26dc38a95137d67fcb9e16d3d513c435bc03d5",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p156-rap2025-08-09-10-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "b3c82f285e03437177ee2a8839927ae4be656a914551470f35f9fe7c82901e2d",
+  "positions": 100,
+  "independent_result": {
+    "at": "2026-10-17T23:29:06.012268+00:00",
+    "passed": true,
+    "positions": 100,
+    "partitions": 6,
+    "receipts": {
+      "08": {
+        "path": "ACTION08-INDEPENDENT-DELIVERY-VERIFIED.json",
+        "sha256": "6c74c73731333f33709d48b9ebc600e793f66d905ec35220a246ba95cdf97a0d"
+      },
+      "09": {
+        "path": "ACTION09-INDEPENDENT-DELIVERY-VERIFIED.json",
+        "sha256": "48ab73eb56b9de9896b4c8dab4f923348d2a0cdab18c27254f3c8d061cc6dba3"
+      },
+      "10": {
+        "path": "ACTION10-INDEPENDENT-DELIVERY-VERIFIED.json",
+        "sha256": "25fa530b3749903c1b8b1b52e61e166ce72583a944bbb0797521f58380c6791f"
+      }
+    },
+    "frontier_modes": [
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "leaves": 4,
+        "strategy": "all subsets"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "08"
+        ],
+        "leaves": 4,
+        "strategy": "all subsets"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "leaves": 31,
+        "strategy": "empty,all,singles,pairs,triples"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "09"
+        ],
+        "leaves": 30,
+        "strategy": "empty,all,singles,pairs,triples"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "AE",
+          "BG",
+          "GA",
+          "156",
+          "10"
+        ],
+        "leaves": 4,
+        "strategy": "all subsets"
+      },
+      {
+        "key": [
+          2025,
+          "EXEC",
+          "CP",
+          "BG",
+          "GA",
+          "156",
+          "10"
+        ],
+        "leaves": 4,
+        "strategy": "all subsets"
+      }
+    ],
+    "runtime_action_details_sha256": "3953f3e92bdf9788e79a13070814164fc3cfc72eea4e612d73447ecebd83a787",
+    "no_new_financial_audit": true,
+    "no_primary_read": true,
+    "no_production_change": true,
+    "reviewer_stopped_after_seal": true
+  }
+}

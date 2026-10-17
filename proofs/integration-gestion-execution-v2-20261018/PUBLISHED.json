@@ -1,0 +1,25 @@
+{
+  "published": true,
+  "at": "2026-10-17T23:40:53.887168+00:00",
+  "services": [
+    "web1",
+    "web2",
+    "web3",
+    "web4"
+  ],
+  "old_image": "lexmachine-budget:20261018-etudiants-execution-16-v2",
+  "new_image": "lexmachine-budget:20261018-gestion-execution-17-v2",
+  "image_id": "sha256:0ca93de3c217b1924c634bb4819d89fa92da25f11d404b861dab9c907a706176",
+  "registry_version": "3e5aa37b28cab05247941140d8f7ddb97b697b7908a21a4e30b160fa98c4b43b",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "financial_facts": 142079,
+  "compose_before_sha256": "bd35a57803e1418c8fb10e092506b2c03a744b5762e698fbd2ffc8a34c01c511",
+  "compose_after_sha256": "346f03dc1ad8dd4a866ecded342c496f9d174081d7c29d7266aab43de07d451a",
+  "old_image_retained": true,
+  "only_reviewed_registry_data_changed": true,
+  "source_files_verified": 15,
+  "selectable_new_positions": 357,
+  "new_qualified_positions": 285,
+  "existing_nature_and_aggregate_navigation_positions": 72,
+  "public_API_checks_pending": true
+}
