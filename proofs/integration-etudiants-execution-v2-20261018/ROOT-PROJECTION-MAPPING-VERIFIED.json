@@ -1,0 +1,3916 @@
+{
+  "passed": true,
+  "at": "2026-10-17T23:26:26.498316+00:00",
+  "positions": 255,
+  "source_fact_mapping": [
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-cat32",
+      "cents": 2916735900,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-staff",
+      "cents": 2900000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-staff-connected",
+      "cents": 20000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-T6",
+      "cents": 234365875500,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-cat61",
+      "cents": 233239951400,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-BCS",
+      "cents": 220430000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-merit",
+      "cents": 3440000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 31
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-international",
+      "cents": 2570000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 31
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-specific",
+      "cents": 4880000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 31
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-master",
+      "cents": 720000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 32
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-GEN",
+      "cents": 500000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 32
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-cat62",
+      "cents": 1125924100,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-BPI",
+      "cents": 400000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 32
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-certification",
+      "cents": 730000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 33
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-cat32",
+      "cents": 2916735900,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-staff",
+      "cents": 2900000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-staff-connected",
+      "cents": 20000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-T6",
+      "cents": 234365875500,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-cat61",
+      "cents": 233239951400,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-BCS",
+      "cents": 220430000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-merit",
+      "cents": 3440000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 31
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-international",
+      "cents": 2570000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 31
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-specific",
+      "cents": 4880000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 31
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-master",
+      "cents": 720000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 32
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-GEN",
+      "cents": 500000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 32
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-cat62",
+      "cents": 1125924100,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 30
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-BPI",
+      "cents": 400000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 32
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2021-A01-certification",
+      "cents": 730000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 33
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-cat32",
+      "cents": 3066735900,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-staff",
+      "cents": 2900000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-staff-connected",
+      "cents": 20000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-T6",
+      "cents": 250421875600,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-cat61",
+      "cents": 249295951400,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-BCS",
+      "cents": 235520000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-merit",
+      "cents": 4280000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 31
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-international",
+      "cents": 2570000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 31
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-specific",
+      "cents": 4880000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 31
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-Parcoursup",
+      "cents": 1000000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 31
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-master",
+      "cents": 720000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 32
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-GEN",
+      "cents": 330000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 32
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-cat62",
+      "cents": 1125924200,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-BPI",
+      "cents": 400000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 32
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-certification",
+      "cents": 730000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 33
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-cat32",
+      "cents": 3066735900,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-staff",
+      "cents": 2900000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-staff-connected",
+      "cents": 20000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-T6",
+      "cents": 250421875600,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-cat61",
+      "cents": 249295951400,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-BCS",
+      "cents": 235520000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-merit",
+      "cents": 4280000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 31
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-international",
+      "cents": 2570000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 31
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-specific",
+      "cents": 4880000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 31
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-Parcoursup",
+      "cents": 1000000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 31
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-master",
+      "cents": 720000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 32
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-GEN",
+      "cents": 330000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 32
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-cat62",
+      "cents": 1125924200,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 30
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-BPI",
+      "cents": 400000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 32
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2022-A01-certification",
+      "cents": 730000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 33
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-cat32",
+      "cents": 3501651400,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-staff",
+      "cents": 3250000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-staff-connected",
+      "cents": 20000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-T6",
+      "cents": 250656421400,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-cat61",
+      "cents": 249530497200,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-BCS",
+      "cents": 235520000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-merit",
+      "cents": 4280000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 165
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-international",
+      "cents": 2890000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 165
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-specific",
+      "cents": 4880000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 166
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-Parcoursup",
+      "cents": 1000000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 166
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-master",
+      "cents": 720000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 166
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-GEN",
+      "cents": 240000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 166
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-cat62",
+      "cents": 1125924200,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-BPI",
+      "cents": 400000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 167
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-certification",
+      "cents": 730000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 167
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-cat32",
+      "cents": 3501651400,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-staff",
+      "cents": 3250000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-staff-connected",
+      "cents": 20000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-T6",
+      "cents": 250656421400,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-cat61",
+      "cents": 249530497200,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-BCS",
+      "cents": 235520000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-merit",
+      "cents": 4280000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 165
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-international",
+      "cents": 2890000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 165
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-specific",
+      "cents": 4880000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 166
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-Parcoursup",
+      "cents": 1000000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 166
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-master",
+      "cents": 720000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 166
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-GEN",
+      "cents": 240000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 166
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-cat62",
+      "cents": 1125924200,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 164
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-BPI",
+      "cents": 400000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 167
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2023-A01-certification",
+      "cents": 730000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 167
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-cat32",
+      "cents": 3870964100,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-staff",
+      "cents": 3270000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-staff-connected",
+      "cents": 20000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-T6",
+      "cents": 261992544200,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-cat61",
+      "cents": 261576620000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-BCS",
+      "cents": 247560000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-merit",
+      "cents": 4280000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 166
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-international",
+      "cents": 2890000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 166
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-specific",
+      "cents": 4880000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 166
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-Parcoursup",
+      "cents": 1000000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 167
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-master",
+      "cents": 720000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 167
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-GEN",
+      "cents": 240000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 167
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-cat62",
+      "cents": 415924200,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-BPI",
+      "cents": 420000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 167
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-cat32",
+      "cents": 3870964100,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-staff",
+      "cents": 3270000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-staff-connected",
+      "cents": 20000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-T6",
+      "cents": 261992544200,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-cat61",
+      "cents": 261576620000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-BCS",
+      "cents": 247560000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-merit",
+      "cents": 4280000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 166
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-international",
+      "cents": 2890000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 166
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-specific",
+      "cents": 4880000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 166
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-Parcoursup",
+      "cents": 1000000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 167
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-master",
+      "cents": 720000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 167
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-GEN",
+      "cents": 240000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 167
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-cat62",
+      "cents": 415924200,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 165
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "01"
+      ],
+      "node": "P231-PAP2024-A01-BPI",
+      "cents": 420000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 167
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-cat32",
+      "cents": 25282557700,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-operating-pay",
+      "cents": 25100000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-network",
+      "cents": 11030000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-compensation",
+      "cents": 6010000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-administrative-pay",
+      "cents": 4390000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-civil-service",
+      "cents": 3670000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-other",
+      "cents": 180000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-IT",
+      "cents": 160000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-training",
+      "cents": 20000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-T5",
+      "cents": 1660000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-cat51",
+      "cents": 1660000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-CCT",
+      "cents": 40000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 35
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-CPER21",
+      "cents": 1620000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 35
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-cat64",
+      "cents": 596375600,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-cat72",
+      "cents": 9258870600,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-cat32",
+      "cents": 25282557700,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-operating-pay",
+      "cents": 25100000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-network",
+      "cents": 11030000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-compensation",
+      "cents": 6010000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-administrative-pay",
+      "cents": 4390000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-civil-service",
+      "cents": 3670000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-other",
+      "cents": 180000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-IT",
+      "cents": 160000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-training",
+      "cents": 20000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-T5",
+      "cents": 1557000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-cat51",
+      "cents": 1557000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-CPER15",
+      "cents": 1142000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 35
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-CCT",
+      "cents": 40000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 35
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-CPER21",
+      "cents": 380000000,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 35
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-cat64",
+      "cents": 596375600,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-cat72",
+      "cents": 9258870600,
+      "source": "9ba96b581cd1dff7e6f2",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-cat32",
+      "cents": 26577580900,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-operating-pay",
+      "cents": 26390000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-network",
+      "cents": 11030000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-compensation",
+      "cents": 6210000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-PSC",
+      "cents": 250000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-indemnity",
+      "cents": 70000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-administrative-pay",
+      "cents": 4390000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-civil-service-EGALIM",
+      "cents": 4450000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-other",
+      "cents": 180000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-IT",
+      "cents": 160000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-training",
+      "cents": 20000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-T5",
+      "cents": 1660000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-cat51",
+      "cents": 1660000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-CPER21",
+      "cents": 1660000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 35
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-cat64",
+      "cents": 596375600,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-cat72",
+      "cents": 9258870600,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-cat32",
+      "cents": 26577580900,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-operating-pay",
+      "cents": 26390000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-network",
+      "cents": 11030000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-compensation",
+      "cents": 6210000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-PSC",
+      "cents": 250000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-indemnity",
+      "cents": 70000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-administrative-pay",
+      "cents": 4390000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-civil-service-EGALIM",
+      "cents": 4450000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-other",
+      "cents": 180000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-IT",
+      "cents": 160000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-training",
+      "cents": 20000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-T5",
+      "cents": 1557000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-cat51",
+      "cents": 1557000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-CPER15",
+      "cents": 368000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 35
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-CCT",
+      "cents": 97000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 35
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-CPER21",
+      "cents": 1092000000,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 35
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-cat64",
+      "cents": 596375600,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-cat72",
+      "cents": 8458870600,
+      "source": "01ba2b1c8f44d1c2615b",
+      "page": 34
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-cat32",
+      "cents": 29089869000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-network",
+      "cents": 21630000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-salary-measures",
+      "cents": 1560000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-network-specific",
+      "cents": 400000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-meal-EGALIM",
+      "cents": 5500000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-T5",
+      "cents": 11028870600,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-cat51",
+      "cents": 1770000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-CPER21",
+      "cents": 1770000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 169
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-cat53",
+      "cents": 9258870600,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-cat64",
+      "cents": 596375600,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-cat32",
+      "cents": 29089869000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-network",
+      "cents": 21630000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-salary-measures",
+      "cents": 1560000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-network-specific",
+      "cents": 400000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-meal-EGALIM",
+      "cents": 5500000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-T5",
+      "cents": 10406620600,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-cat51",
+      "cents": 1947750000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-CPER15",
+      "cents": 490000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 169
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-CCT",
+      "cents": 72000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 169
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-CPER21",
+      "cents": 1386000000,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 169
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-cat53",
+      "cents": 8458870600,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-cat64",
+      "cents": 596375600,
+      "source": "c9ca4e5e3183d003ea71",
+      "page": 168
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-cat32",
+      "cents": 35149182100,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-network",
+      "cents": 23530000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-compensation",
+      "cents": 8720000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-openings",
+      "cents": 400000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-LEVI",
+      "cents": 2500000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-T5",
+      "cents": 13503853900,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-cat51",
+      "cents": 1770000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-CPER21",
+      "cents": 1770000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-cat53",
+      "cents": 11733853900,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-cat64",
+      "cents": 596375600,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-cat32",
+      "cents": 35149182100,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-network",
+      "cents": 23530000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-compensation",
+      "cents": 8720000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-openings",
+      "cents": 400000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-LEVI",
+      "cents": 2500000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-T5",
+      "cents": 10427120600,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-cat51",
+      "cents": 1743250000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-CPER21",
+      "cents": 1610000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-CCT",
+      "cents": 133000000,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 170
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-cat53",
+      "cents": 8683870600,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2024-A02-cat64",
+      "cents": 596375600,
+      "source": "7a2e8dfca4e2b9e22e03",
+      "page": 169
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-title2",
+      "cents": 92401150100,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-nature21",
+      "cents": 55986937000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-nature22",
+      "cents": 35485533200,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-nature23",
+      "cents": 928679900,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-nature31",
+      "cents": 2677375500,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-directions-specialisees",
+      "cents": -109000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-immobilier",
+      "cents": -147000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-metiers",
+      "cents": 26000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-courant",
+      "cents": 11000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-affranchissement",
+      "cents": 2056000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-informatique-centrale",
+      "cents": 725000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 84
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-justice",
+      "cents": 6000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 84
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-title5",
+      "cents": 642019400,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-NARA",
+      "cents": 510000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 84
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-PAYSAGE",
+      "cents": 150000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 84
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-title2",
+      "cents": 92401150100,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-nature21",
+      "cents": 55986937000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-nature22",
+      "cents": 35485533200,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-nature23",
+      "cents": 928679900,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-nature31",
+      "cents": 3016381200,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-directions-specialisees",
+      "cents": 148000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-immobilier",
+      "cents": 80000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-metiers",
+      "cents": 26000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-informatique-reseau",
+      "cents": 20000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-courant",
+      "cents": 21000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-affranchissement",
+      "cents": 2056000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-informatique-centrale",
+      "cents": 807000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 84
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-justice",
+      "cents": 6000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 84
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-title5",
+      "cents": 576607400,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 83
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-NARA",
+      "cents": 450000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 84
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "05"
+      ],
+      "node": "P156-RAP2025-A05-EXEC-PAYSAGE",
+      "cents": 120000000,
+      "source": "2d1da065033fb9b1b13d",
+      "page": 84
+    }
+  ],
+  "CSV_cell_checks": [],
+  "unchanged_programs": [
+    {
+      "year": 2021,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "231",
+      "cents": 290187945600,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "231",
+      "cents": 290084945600,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "231",
+      "cents": 308898968900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "231",
+      "cents": 307995968900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "231",
+      "cents": 313641444500,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "231",
+      "cents": 313019194500,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "231",
+      "cents": 335740641000,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "231",
+      "cents": 332663907700,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "156",
+      "cents": 802517780418,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "156",
+      "cents": 800132484440,
+      "canonical_rows_preserved": true
+    }
+  ],
+  "not_new_financial_primary_QA": true
+}

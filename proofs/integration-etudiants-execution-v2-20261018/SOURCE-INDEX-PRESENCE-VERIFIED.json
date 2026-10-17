@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "at": "2026-10-17T23:26:54.012251+00:00",
+  "read_only": true,
+  "source_matches": {
+    "65045aa4c56dd793c2511225964f99d937cdac88eb7f1e869164d1dc86b546d2": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2879,
+            "reference_id": "92355a6d4383f99d7ebe6114ebefdfa2b457c6b1f4f6e83854796a0d2ab45ed4",
+            "source_sha256": "65045aa4c56dd793c2511225964f99d937cdac88eb7f1e869164d1dc86b546d2",
+            "source_id": "70d682b5a93e93e2ae34",
+            "title": "PLF 2021 — Recherche et enseignement supérieur",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/9592",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "942f8b4f062e64eccd5ea4bab0a7325f70c0a14eaa40556a71476d2c88ac5376": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3166,
+            "reference_id": "a24d0ba1d44c315b551446ab43391394868665f005265fd6196884b1750510d7",
+            "source_sha256": "942f8b4f062e64eccd5ea4bab0a7325f70c0a14eaa40556a71476d2c88ac5376",
+            "source_id": "9ba96b581cd1dff7e6f2",
+            "title": "PLF 2021 — 231 - Vie étudiante",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/9928",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "e65984be298a5ee949aed1c38c076a563182913bab5fc135cb919d44f7fc37f2": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3778,
+            "reference_id": "c1df8e2ef0964f54c2fbba7c2e0b9d0fe97904d8c982b09086766e037f3b59ca",
+            "source_sha256": "e65984be298a5ee949aed1c38c076a563182913bab5fc135cb919d44f7fc37f2",
+            "source_id": "01ba2b1c8f44d1c2615b",
+            "title": "PLF 2022 — 231 - Vie étudiante",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/13819",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "4efaafc3878fd62fdc13fa90244513af61ed89d5a442ab2ffa72878d708e908d": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1331,
+            "reference_id": "428ff763b99231a13eb1a0d5780e2b75a9b7a59f0ab24b36e5c11096f38eaec5",
+            "source_sha256": "4efaafc3878fd62fdc13fa90244513af61ed89d5a442ab2ffa72878d708e908d",
+            "source_id": "7a2e8dfca4e2b9e22e03",
+            "title": "Recherche et enseignement supérieur",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/705292/file/Recherche%20et%20enseignement%20sup%C3%A9rieur.pdf",
+            "format": "pdf",
+            "years_key": "|2024|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "2088c11350d9c0e0ddf933f8fbd838e65c3aa9bbeceb09cff751e8b2aa40581f": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 68,
+            "reference_id": "037515ab1708be5e7759b38a43c57aaa0b536a75947f4869dc3f3c09f2bd6b7e",
+            "source_sha256": "2088c11350d9c0e0ddf933f8fbd838e65c3aa9bbeceb09cff751e8b2aa40581f",
+            "source_id": "c9ca4e5e3183d003ea71",
+            "title": "Recherche et enseignement supérieur",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/494556/file/PAP2023_BG_Recherche_enseignement_superieur.pdf",
+            "format": "pdf",
+            "years_key": "|2023|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "cc0e352645a4f2c92bf4fa307daee644fbb716175ae450b17d2197ea2dbe738b": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2782,
+            "reference_id": "8c98bf31ac2ba43e49b53a2b542167c45811aa5d18671e11069428c8f1bac93a",
+            "source_sha256": "cc0e352645a4f2c92bf4fa307daee644fbb716175ae450b17d2197ea2dbe738b",
+            "source_id": "2d1da065033fb9b1b13d",
+            "title": "Gestion des finances publiques",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1109859/file/Gestion_finances_publiques_GA.pdf",
+            "format": "pdf",
+            "years_key": "|2025|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "f2aba04d0dc05434fbd5ce02de95a722800932038a9d27fd7244a8d8aa87b3b6": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4647,
+            "reference_id": "ee3a8533853bb2a0d8960ad463bac5decfe5305cdf30b358dcdcd05a3994605b",
+            "source_sha256": "f2aba04d0dc05434fbd5ce02de95a722800932038a9d27fd7244a8d8aa87b3b6",
+            "source_id": "823ca77211b700f94892",
+            "title": "PLF 2022 — Recherche et enseignement supérieur",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/13486",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ]
+  },
+  "new_encoding_required": false
+}

@@ -1,3 +1,20 @@
+# Aides étudiantes et gestion des domaines : détails publiés — 18 octobre 2026
+
+- Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent93d0e8a2967b2de9f51b9197bd46b57ccb71f94c ; courant : git log -1.
+- Image locale/quatre webs publics lexmachine-budget:20261018-etudiants-execution-16-v2. P231 PAP2021–2024/actions01–02 et P156 RAP2025/action05 :255positions annuelles sélectionnables ajoutées, dont181issues des qualifications financières et74natures/titres/alias courants de navigation. Pas255enveloppes indépendantes à additionner.
+- Seul le registre de détails est complété, code de calcul et présentation inchangés. Anciennes partitions conservées identiques après relectureJSON compacte ; montants canoniques, centimes, signes, zéros imprimés, blancs et mesures annuelles propres conservés. Aucun parent ajouté à ses descendants ni solde fabriqué.
+- P231 : aides directes et indirectes annuelles, détails sous leurs enveloppes respectives ; bourses calendaires, compléments réservés, montants sans mesure, références d’autres exercices et fractions incluses restent séparés. Unités déduites et libellés annuels sont conservés. Les 33 positions qualifiées2025 dont le seul SHA propre est absent du catalogue restent réservées, sans transfert de preuve.
+- Compensation2024 de repas et fonctionnement est distincte des compléments de repas2027 ; Parcoursup2021 et rémunérations2023 sans disjonction complète ne sont pas ajoutés arbitrairement. Logement2024 AE115,1/CP86,8M€ garde son unité déduite et l’écartAE hors précision ; blancs des prêts restent inconnus. Clé71 locale déduite distincte du code81 non imprimé rejeté.
+- P156RAP2025/action05 : AE négatives conservées et AE informatique-réseau inconnue ; NARA/PAYSAGE restent inclus et partiels sous investissement, écartAE hors précision bloquant les retraits excessifs. Les quatre natures d’investissement parallèles restent réservées. Source missioncc0e… réellement qualifiée dans ce même cas et cataloguée ; programme19d5… variante indisponible conservée. Aucune nouvelle qualification transférée ou montant corrigé.
+- Bases, calculs, présentation et index inchangés. Contrôle indépendant de livraison31positions, dont29qualifiées et2supports, conservé distinctement des QA financières initiales.
+- RepèresCPER2015–2020 séparés de Caen horsCPER existant ; première copie candidate non publiée conservée. Contrôle des intitulés de navigation accepte les libellés annuels documentés de chaque étape ; le libellé exact par étape reste vérifié dans la provenance.
+-255montants/libellés/quantums/preuves comparés aux registres etQA figés ;36352scénarios d'exclusion,2149ordres/doublons, anciens lots recontrôlés. Grandes branches bornées, sans fausse exhaustivité combinatoire.166tests :164passent,les deux mêmes assertions historiques obsolètes demeurent.
+- Budget/Budgetécolo :510montants vérifiés (255parsite), navigation/citations/exclusions et témoins anciens concordants. Preuves proofs/integration-etudiants-execution-v2-20261018/. Image réelle par année/étape/mesure et localready contrôlés ; sauvegardes et anciennes images conservées. Aucune recette visuelle navigateur ou passeHTTPlocale exhaustive revendiquée.
+-7sources déjà indexées, aucun encodage nouveau. BaseSHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb/142079faits et index5683documents/4996538passages inchangés. 16lots publiés :7004positions annuelles ajoutées ; aucun pourcentage de complétude desPAP/RAP. Autres compléments qualifiés encore à projeter ; les39codifiées et autres réserves restent séparées.
+- Suite :autres paquets qualifiés de gestion exécutée, puis compléments P177/P231/P109/P135 selon leurs preuves disponibles. Audit exhaustif arrêté, automationPAUSED,max1auxiliaire,aucunWord sansdemande.
+
+## Historique conservé
+
 # Fiscalité exécutée et soutien récent : détails publiés — 18 octobre 2026
 
 - Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent7399d121e8050cb9a3c9b1852806d340cad5ecfe ; courant : git log -1.

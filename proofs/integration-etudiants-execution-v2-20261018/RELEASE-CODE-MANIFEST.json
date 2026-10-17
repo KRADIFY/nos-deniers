@@ -1,0 +1,14 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-etudiants-execution-16-v2",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "0700d7d6a8544b7b04dec23364b1b2f84de6c000ae4dc96f585a0a62cfaae63c"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "existing_financial_partitions_unchanged": true,
+  "unused_audit_metadata_compacted": false,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

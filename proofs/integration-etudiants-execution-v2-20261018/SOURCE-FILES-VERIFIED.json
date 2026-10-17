@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "source": "c9ca4e5e3183d003ea71",
+      "sha256": "2088c11350d9c0e0ddf933f8fbd838e65c3aa9bbeceb09cff751e8b2aa40581f",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\plf\\2023\\Recherche_et_enseignement_superieur-08d68367.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "7a2e8dfca4e2b9e22e03",
+      "sha256": "4efaafc3878fd62fdc13fa90244513af61ed89d5a442ab2ffa72878d708e908d",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\plf\\2024\\Recherche_et_enseignement_superieur-5838f64e.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "70d682b5a93e93e2ae34",
+      "sha256": "65045aa4c56dd793c2511225964f99d937cdac88eb7f1e869164d1dc86b546d2",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2021\\FR_2021_PLF_BG_MSN_RA-65045aa4c56d.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "9ba96b581cd1dff7e6f2",
+      "sha256": "942f8b4f062e64eccd5ea4bab0a7325f70c0a14eaa40556a71476d2c88ac5376",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2021\\FR_2021_PLF_BG_PGM_231-942f8b4f062e.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "01ba2b1c8f44d1c2615b",
+      "sha256": "e65984be298a5ee949aed1c38c076a563182913bab5fc135cb919d44f7fc37f2",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2022\\FR_2022_PLF_BG_PGM_231-e65984be298a.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "823ca77211b700f94892",
+      "sha256": "f2aba04d0dc05434fbd5ce02de95a722800932038a9d27fd7244a8d8aa87b3b6",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2022\\FR_2022_PLF_BG_MSN_RA-f2aba04d0dc0.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "2d1da065033fb9b1b13d",
+      "sha256": "cc0e352645a4f2c92bf4fa307daee644fbb716175ae450b17d2197ea2dbe738b",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2025\\Gestion_des_finances_publiques-e774e65e.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    }
+  ]
+}

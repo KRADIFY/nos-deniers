@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "paths": [
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2021-A02-CPER15",
+      "old": "RA/231/02/02/01/02",
+      "new": "RA/231/02/02/01/15"
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2022-A02-CPER15",
+      "old": "RA/231/02/02/01/02",
+      "new": "RA/231/02/02/01/15"
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "RA",
+        "231",
+        "02"
+      ],
+      "node": "P231-PAP2023-A02-CPER15",
+      "old": "RA/231/02/02/01/02",
+      "new": "RA/231/02/02/01/15"
+    }
+  ],
+  "original_projection_sha256": "1acf5024507326088c805b31c61390116e493e15914e10798cf6af9e999088eb",
+  "new_projection_sha256": "288871c5373a752844194b71ccc6973f9757acde0e6898cf60be6c8c1b685c49",
+  "reason": "CPER2015–2020 must be distinct from previously published Caen hors CPER at local02",
+  "all_financial_source_unit_label_measure_relation_fields_unchanged": true
+}

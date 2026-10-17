@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "new_positions": 255,
+  "new_qualified_positions": 181,
+  "existing_nature_and_aggregate_navigation_positions": 74,
+  "partitions": 18,
+  "source_files": 7,
+  "prior_partitions_preserved": true,
+  "prior_financial_source_and_relation_fields_preserved": true,
+  "unused_audit_metadata_compacted": false,
+  "summaries": [
+    {
+      "scope": "P231 PAP2021–2024/action01 only",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 84,
+      "current_nature_title_and_alias_navigation": 32,
+      "calendar_BCS_positions_reserved": 8,
+      "additional_credit_positions_reserved": 0,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T23:11:29.516795+00:00",
+      "partitions": 8,
+      "navigation_positions": 116,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P231 PAP2021–2024/action02 only",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 68,
+      "current_nature_title_and_alias_navigation": 40,
+      "calendar_BCS_positions_reserved": 0,
+      "additional_credit_positions_reserved": 2,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T23:12:24.252600+00:00",
+      "partitions": 8,
+      "navigation_positions": 108,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P156 RAP2025/action05 EXEC only",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 29,
+      "current_nature_title_and_alias_navigation": 2,
+      "native_investment_parallel_positions_reserved": 4,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T23:10:57.107281+00:00",
+      "partitions": 2,
+      "navigation_positions": 31,
+      "source_files": 1,
+      "no_integration": true,
+      "no_publication": true
+    }
+  ],
+  "source_reserves_and_parallel_axes_retained": true
+}

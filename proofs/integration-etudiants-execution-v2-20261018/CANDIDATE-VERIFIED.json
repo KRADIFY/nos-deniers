@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-17T23:27:05.647363+00:00",
+  "passed": true,
+  "counts": {
+    "parent_unchanged": 18,
+    "source_value_selectable": 255,
+    "source_citation": 255,
+    "unit_warning": 84,
+    "actual_leaf_route": 255,
+    "breadcrumbs_documented_label": 255,
+    "annual_source_label": 255,
+    "deeper_navigation": 72,
+    "other_stage_rows_not_fabricated": 72,
+    "all_hierarchical_exclusion_combinations": 36352,
+    "duplicate_and_permutation": 2149,
+    "ancestor_exclusion": 255,
+    "unknown_remains_unavailable": 18
+  },
+  "new_positions": 255,
+  "errors": []
+}
