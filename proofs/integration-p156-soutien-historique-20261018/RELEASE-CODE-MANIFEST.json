@@ -1,0 +1,12 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-p156-soutien-historique-14",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "984dcb76cebfaeda13eae912c732fcfa5bb8cddfeb363016c3f7b4dac14cf74b"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

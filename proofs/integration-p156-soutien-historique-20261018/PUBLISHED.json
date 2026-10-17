@@ -1,0 +1,25 @@
+{
+  "published": true,
+  "at": "2026-10-17T22:49:51.868625+00:00",
+  "services": [
+    "web1",
+    "web2",
+    "web3",
+    "web4"
+  ],
+  "old_image": "lexmachine-budget:20261018-p156-gestion-historique-13",
+  "new_image": "lexmachine-budget:20261018-p156-soutien-historique-14",
+  "image_id": "sha256:26af48ed948b22ebd1bb72b1601e6d9b0b9d92366b19b524d6184c0519712a4f",
+  "registry_version": "25d7e3b1404a916760639cf9f5c08e5c9d2884511188f40cd1115fc676d331ca",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "financial_facts": 142079,
+  "compose_before_sha256": "54775bd1656ef3201e9900f16a1fb5a3e893d087d6cb69f83019d1263edb8a4c",
+  "compose_after_sha256": "3704e6e703b52fe51f0a28360f865778ee5dbe4f1623fc09f865b24260bb9636",
+  "old_image_retained": true,
+  "only_reviewed_registry_data_changed": true,
+  "source_files_verified": 16,
+  "selectable_new_positions": 651,
+  "new_qualified_positions": 512,
+  "existing_nature_and_aggregate_navigation_positions": 139,
+  "public_API_checks_pending": true
+}

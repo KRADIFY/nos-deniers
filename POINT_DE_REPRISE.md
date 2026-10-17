@@ -1,3 +1,18 @@
+# Fonds déposés, soutien et aides au logement : détails publiés — 18 octobre 2026
+
+- Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent3a8747b269cfe73ccba9af144d673c0952016547 ; courant : git log -1.
+- Image locale/quatre webs publics lexmachine-budget:20261018-p156-soutien-historique-14. P156 PAP2017–2023/actions08–09 et P109 PAP2026–2027/actions01–02 :651positions annuelles sélectionnables ajoutées, dont512issues des qualifications financières et139natures/titres/alias courants de navigation. Pas651enveloppes indépendantes à additionner.
+- Seul le registre de détails est complété, code de calcul et présentation inchangés. Anciennes partitions conservées identiques après relectureJSON compacte ; montants canoniques, centimes, signes, zéros imprimés, blancs et mesures annuelles propres conservés. Aucun parent ajouté à ses descendants ni solde fabriqué.
+- Action08 : informatique2017–2018 sous fonctionnement ; informatique2021 couvre HT2fonctionnement+investissement et reste sous son agrégat propre, sans ajout de l’axe parallèle des natures. Listes principalement partielles, investissementsAE2020/2022 inconnus conservés.
+- Action09 : les deux minimums de sécurité2020 restent réservés ; aucune fermeture de63,05M€ par égalité nominale. CPaffranchissement2017 imprime79,65€, unitéM€déduite signalée. Social2019 sansAE/CP, baux pluriannuels, fourchettes, économies, recettes et cofinancements restent distincts. Sources2024 qualifiées absentes du catalogue réservées, aucune qualification transférée.
+- P109 : huitpositions nativesPLF2026–2027. Les tableauxFNAL, partsAPL/ALS/ALF et frais sans mesures propres restent documentés hors arbreAE/CP ; aucune mesure héritée du financementÉtat et aucun financeur ajouté au totalFNAL. Les organismes nommés sans allocation individuelle ne reçoivent pas de budget inventé.
+-651montants/libellés/quantums/preuves comparés aux registres etQA figés ;91728scénarios d'exclusion,4316ordres/doublons, anciens lots recontrôlés. Grandes branches bornées, sans fausse exhaustivité combinatoire.166tests :164passent,les deux mêmes assertions historiques obsolètes demeurent.
+- Budget/Budgetécolo :1302montants vérifiés (651parsite), navigation/citations/exclusions et témoins anciens concordants. Preuves proofs/integration-p156-soutien-historique-20261018/. Image réelle par année/étape/mesure et localready contrôlés ; sauvegardes et anciennes images conservées. Aucune recette visuelle navigateur ou passeHTTPlocale exhaustive revendiquée.
+-16sources déjà indexées, aucun encodage nouveau. BaseSHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb/142079faits et index5683documents/4996538passages inchangés. 14lots publiés :6230positions annuelles ajoutées ; aucun pourcentage de complétude desPAP/RAP. Autres compléments qualifiés encore à projeter ; les39codifiées et autres réserves restent séparées.
+- Suite :projections bornées restantes de P156RAP/actions03 puis autres paquets clos disponibles. Audit exhaustif arrêté, automationPAUSED,max1auxiliaire,aucunWord sansdemande.
+
+## Historique conservé
+
 # Gestion des pensions et finances locales : détails publiés — 18 octobre 2026
 
 - Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent465d02321882a09c1dec6ab1067d8b8c7939d859 ; courant : git log -1.
