@@ -1,0 +1,178 @@
+{
+  "passed": true,
+  "at": "2026-10-17T21:57:07.715972+00:00",
+  "corrections": [
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-salary",
+      "source": "6db3496aa73741860b19",
+      "sha256": "bc7567c4376b69e986bfd3ae0772bd4fafb8381ebb2fd6b2c461650e5bba44b6",
+      "before": {
+        "sheet": "CSV",
+        "row": 862,
+        "column": 8,
+        "column_header": "AE-PLF"
+      },
+      "after": {
+        "sheet": "CSV",
+        "row": 862,
+        "column": 10,
+        "column_header": "AE-PLF"
+      },
+      "raw_literal": "981885261",
+      "cents": 98188526100
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-social",
+      "source": "6db3496aa73741860b19",
+      "sha256": "bc7567c4376b69e986bfd3ae0772bd4fafb8381ebb2fd6b2c461650e5bba44b6",
+      "before": {
+        "sheet": "CSV",
+        "row": 863,
+        "column": 8,
+        "column_header": "AE-PLF"
+      },
+      "after": {
+        "sheet": "CSV",
+        "row": 863,
+        "column": 10,
+        "column_header": "AE-PLF"
+      },
+      "raw_literal": "635270700",
+      "cents": 63527070000
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-benefits",
+      "source": "6db3496aa73741860b19",
+      "sha256": "bc7567c4376b69e986bfd3ae0772bd4fafb8381ebb2fd6b2c461650e5bba44b6",
+      "before": {
+        "sheet": "CSV",
+        "row": 864,
+        "column": 8,
+        "column_header": "AE-PLF"
+      },
+      "after": {
+        "sheet": "CSV",
+        "row": 864,
+        "column": 10,
+        "column_header": "AE-PLF"
+      },
+      "raw_literal": "4404197",
+      "cents": 440419700
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-salary",
+      "source": "6db3496aa73741860b19",
+      "sha256": "bc7567c4376b69e986bfd3ae0772bd4fafb8381ebb2fd6b2c461650e5bba44b6",
+      "before": {
+        "sheet": "CSV",
+        "row": 862,
+        "column": 12,
+        "column_header": "CP-PLF"
+      },
+      "after": {
+        "sheet": "CSV",
+        "row": 862,
+        "column": 14,
+        "column_header": "CP-PLF"
+      },
+      "raw_literal": "981885261",
+      "cents": 98188526100
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-social",
+      "source": "6db3496aa73741860b19",
+      "sha256": "bc7567c4376b69e986bfd3ae0772bd4fafb8381ebb2fd6b2c461650e5bba44b6",
+      "before": {
+        "sheet": "CSV",
+        "row": 863,
+        "column": 12,
+        "column_header": "CP-PLF"
+      },
+      "after": {
+        "sheet": "CSV",
+        "row": 863,
+        "column": 14,
+        "column_header": "CP-PLF"
+      },
+      "raw_literal": "635270700",
+      "cents": 63527070000
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-benefits",
+      "source": "6db3496aa73741860b19",
+      "sha256": "bc7567c4376b69e986bfd3ae0772bd4fafb8381ebb2fd6b2c461650e5bba44b6",
+      "before": {
+        "sheet": "CSV",
+        "row": 864,
+        "column": 12,
+        "column_header": "CP-PLF"
+      },
+      "after": {
+        "sheet": "CSV",
+        "row": 864,
+        "column": 14,
+        "column_header": "CP-PLF"
+      },
+      "raw_literal": "4404197",
+      "cents": 440419700
+    }
+  ],
+  "financial_values_labels_quantums_and_relations_unchanged": true,
+  "source_frozen_original_proofs_preserved": true,
+  "all_actual_CSV_values_replayed": true,
+  "prior_registry_partitions_unchanged": true
+}

@@ -1,3 +1,16 @@
+# Fiscalité historique : compléments sélectionnables publiés — 17 octobre 2026
+
+- Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent76a5a2b4fcf325c2bf9256437d751cc7f91fec2e ; courant : git log -1.
+- Image locale/quatre webs publics lexmachine-budget:20261017-fiscalite-historique-462. P156PAP2017–2023/actions01–02 :258positions de détails qualifiés et160natures/agrégats de navigation ; PAP2024–2025/actions01–02 :44positions canoniques déjà connues rendues navigables (36natures et8agrégats). Total462positions annuelles sélectionnables, pas462enveloppes indépendantes ni44nouveaux budgets découverts.
+- Anciennes partitions, montants canoniques et centimes inchangés. Seul le registre de détails est complété ; JSON compact sans perte, objets anciens vérifiés identiques après relecture. Aucun code de calcul, index ou présentation modifié. Les axes domaines sont sélectionnés séparément des directions parallèles ; listes notamment/principalement et investissements incomplets restent partiels, aucun blanc devenu zéro ou solde fabriqué. Le zéroCSV2022 est distinct du blancPDF ; les corporelles2023 restent inconnues malgré une somme connue égale au parent.
+- Les compléments narratifs2024/2025 dont les propres SHA qualifiés sont absents du catalogue demeurent réservés ; rendre leurs natures canoniques navigables ne qualifie pas les PDF absents. Baux conditionnels, axes parallèles, scalaires et réserves d'unité/précision conservés. Repères locaux, pas codes officiels inventés.
+-462montants/libellés/quantums et preuves rapprochés aux registres/QA figés,139visites de cellulesCSV exactes ; six références de colonneCSV2017 corrigées par les en-têtes bruts, sans changer montants ni preuves initiales.55912scénarios d'exclusion et3244ordres/doublons, tous anciens lots recontrôlés. Les grandes branches utilisent des scénarios bornés, aucune exhaustivité combinatoire prétendue.166tests :164passent,les deux mêmes assertions historiques obsolètes demeurent.
+- Budget/Budgetécolo :924montants vérifiés (462parsite), navigation/citations/exclusions et témoins antérieurs concordants. Preuves proofs/integration-fiscalite-historique-20261017/. Image réelle par année/étape/mesure et localready contrôlés, sauvegardes conservées ; aucune recette visuelle navigateur ou passeHTTPlocale exhaustive revendiquée.
+- Dix-neuf sourcesPDF/CSV déjà indexées, aucun encodage nouveau. BaseSHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb/142079faits et index5683documents/4996538passages inchangés. Dix lots publiés :4173positions annuelles ajoutées ; aucun pourcentage de complétude de tous lesPAP/RAP.
+- Suite : projections qualifiées P156RAP2017–2022/action01 etRAPaction02 disponibles/en préparation ; sources exactes2023/2024a01 manquantes réservées.39codifiées et autres réserves documentées maintenues. Audit exhaustif arrêté, automationPAUSED,max1auxiliaire,aucunWord sansdemande.
+
+## Historique conservé
+
 # Aides étudiantes historiques : compléments publiés — 17 octobre 2026
 
 - Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Commit sûr précédent f89ad78ab52437cd43f15c1f4bbe58cfa5b4895e ; courant : git log -1.

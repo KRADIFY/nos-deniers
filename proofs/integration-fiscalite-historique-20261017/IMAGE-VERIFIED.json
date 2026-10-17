@@ -1,0 +1,759 @@
+{
+  "passed": true,
+  "ancestor_overdraw_cases": 4,
+  "checks": [
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6401018800,
+      "source": "6db3496aa73741860b19",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 858,
+        "column": 10,
+        "column_header": "AE-PLF"
+      }
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6401018800,
+      "source": "6db3496aa73741860b19",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 858,
+        "column": 14,
+        "column_header": "CP-PLF"
+      }
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6456967100,
+      "source": "054b635e75292f2b0d74",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1199,
+        "column": 7,
+        "column_header": " AEPLF"
+      }
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6456967100,
+      "source": "054b635e75292f2b0d74",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1199,
+        "column": 9,
+        "column_header": "CPPLF"
+      }
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6753498500,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1082,
+        "column": 13,
+        "column_header": "AE PLF 2019"
+      }
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6753498500,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1082,
+        "column": 14,
+        "column_header": "CP PLF 2019"
+      }
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6656142500,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6656142500,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6746432400,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6746432400,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6929996900,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6929996900,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6527672800,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 6527672800,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 98188526100,
+      "source": "6db3496aa73741860b19",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 862,
+        "column": 10,
+        "column_header": "AE-PLF"
+      }
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 98188526100,
+      "source": "6db3496aa73741860b19",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 862,
+        "column": 14,
+        "column_header": "CP-PLF"
+      }
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 95591112700,
+      "source": "054b635e75292f2b0d74",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1203,
+        "column": 7,
+        "column_header": " AEPLF"
+      }
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 95591112700,
+      "source": "054b635e75292f2b0d74",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1203,
+        "column": 9,
+        "column_header": "CPPLF"
+      }
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 93422851900,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1086,
+        "column": 13,
+        "column_header": "AE PLF 2019"
+      }
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 93422851900,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1086,
+        "column": 14,
+        "column_header": "CP PLF 2019"
+      }
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 91577589400,
+      "source": "b72223d204dfb9e60f8f",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1501,
+        "column": 11,
+        "column_header": "aePlfNp1"
+      }
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 91577589400,
+      "source": "b72223d204dfb9e60f8f",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1501,
+        "column": 12,
+        "column_header": "cpPlfNp1"
+      }
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 90284081700,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 90284081700,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 81009496500,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 81009496500,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/03/11",
+      "cents": 0,
+      "source": "c77688989df5b0a875bc",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 842,
+        "column": 16,
+        "column_header": "CP T2 PLF"
+      }
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 88861658300,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 88861658300,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67,
+      "source_format": "pdf",
+      "source_location": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 7243939300,
+      "source": "e777f0184d52720b78f2",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1133,
+        "column": 12,
+        "column_header": "ae_plf"
+      }
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 7243939300,
+      "source": "e777f0184d52720b78f2",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1133,
+        "column": 13,
+        "column_header": "cp_plf"
+      }
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 93295274600,
+      "source": "e777f0184d52720b78f2",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1241,
+        "column": 12,
+        "column_header": "ae_plf"
+      }
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 93295274600,
+      "source": "e777f0184d52720b78f2",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1241,
+        "column": 13,
+        "column_header": "cp_plf"
+      }
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 7665361100,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1926,
+        "column": 12,
+        "column_header": "ae_plf"
+      }
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "path": "GA/156/01/01/01",
+      "cents": 7665361100,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 1926,
+        "column": 13,
+        "column_header": "cp_plf"
+      }
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 93401955300,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 381,
+        "column": 12,
+        "column_header": "ae_plf"
+      }
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "path": "GA/156/02/01/01",
+      "cents": 93401955300,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null,
+      "source_format": "csv",
+      "source_location": {
+        "sheet": "CSV",
+        "row": 381,
+        "column": 13,
+        "column_header": "cp_plf"
+      }
+    }
+  ],
+  "p177_preserved": true,
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "dc2561ac8ad6d8880688e9cbe4b7f6e7a8ac3df3887f819f692a4f744193c0dc"
+    }
+  ],
+  "registry_version": "605adb1629348cb40842502aeb78f0e21ec6873bd9cf749e830bc403dd457985",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb"
+}

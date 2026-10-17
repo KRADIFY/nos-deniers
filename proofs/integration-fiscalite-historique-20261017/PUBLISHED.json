@@ -1,0 +1,25 @@
+{
+  "published": true,
+  "at": "2026-10-17T21:59:10.166250+00:00",
+  "services": [
+    "web1",
+    "web2",
+    "web3",
+    "web4"
+  ],
+  "old_image": "lexmachine-budget:20261017-etudiants-historique-290",
+  "new_image": "lexmachine-budget:20261017-fiscalite-historique-462",
+  "image_id": "sha256:925effdc1560c302ce5f70320ea03b1891cb4d69d303d1728b9837d00f2dd4bb",
+  "registry_version": "605adb1629348cb40842502aeb78f0e21ec6873bd9cf749e830bc403dd457985",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "financial_facts": 142079,
+  "compose_before_sha256": "5e7da705c63bdced2058a4026cb904465b939759e05a95fbb974a8a14bacb2fc",
+  "compose_after_sha256": "6f9d29941683577ad282d95275780b0a2ff70571ff306b327cc750a28b8978f1",
+  "old_image_retained": true,
+  "only_reviewed_registry_data_changed": true,
+  "source_files_verified": 19,
+  "selectable_new_positions": 462,
+  "new_qualified_positions": 258,
+  "existing_nature_and_aggregate_navigation_positions": 204,
+  "public_API_checks_pending": true
+}

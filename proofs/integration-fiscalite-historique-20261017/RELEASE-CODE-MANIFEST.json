@@ -1,0 +1,12 @@
+{
+  "new_image_tag": "lexmachine-budget:20261017-fiscalite-historique-462",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "dc2561ac8ad6d8880688e9cbe4b7f6e7a8ac3df3887f819f692a4f744193c0dc"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

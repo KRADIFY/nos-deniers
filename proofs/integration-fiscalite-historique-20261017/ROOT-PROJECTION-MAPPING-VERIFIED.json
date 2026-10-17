@@ -1,0 +1,9293 @@
+{
+  "passed": true,
+  "at": "2026-10-17T21:57:56.515439+00:00",
+  "positions": 462,
+  "source_fact_mapping": [
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-personnel",
+      "cents": 10571130300,
+      "source": "041088df72b353761129",
+      "page": 40
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category21",
+      "cents": 6401018800,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category22",
+      "cents": 4141400100,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category23",
+      "cents": 28711400,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-function",
+      "cents": 560000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-immobilier",
+      "cents": 200000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-loyers",
+      "cents": 154000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-entretien",
+      "cents": 46000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-metiers",
+      "cents": 186000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-deplacement",
+      "cents": 150000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-justice",
+      "cents": 20000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-affranchissement",
+      "cents": 16000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-informatique-telecom",
+      "cents": 34000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-courant-source-solde",
+      "cents": 140000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-transport",
+      "cents": 25000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-personnel",
+      "cents": 10571130300,
+      "source": "041088df72b353761129",
+      "page": 40
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category21",
+      "cents": 6401018800,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category22",
+      "cents": 4141400100,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category23",
+      "cents": 28711400,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-function",
+      "cents": 920000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-immobilier",
+      "cents": 560000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-loyers",
+      "cents": 514000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-entretien",
+      "cents": 46000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-metiers",
+      "cents": 186000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-deplacement",
+      "cents": 150000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-justice",
+      "cents": 20000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-affranchissement",
+      "cents": 16000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-informatique-telecom",
+      "cents": 34000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-courant-source-solde",
+      "cents": 140000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-transport",
+      "cents": 25000000,
+      "source": "041088df72b353761129",
+      "page": 41
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-personnel",
+      "cents": 10684171200,
+      "source": "3cf05923cc12d05cf376",
+      "page": 41
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category21",
+      "cents": 6456967100,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category22",
+      "cents": 4200322000,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category23",
+      "cents": 26882100,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-function",
+      "cents": 685000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-immobilier",
+      "cents": 104000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-loyers",
+      "cents": 5000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-entretien",
+      "cents": 99000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-metiers",
+      "cents": 410000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-deplacement",
+      "cents": 180000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-justice",
+      "cents": 200000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-affranchissement-impression",
+      "cents": 30000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-informatique",
+      "cents": 25000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-courant",
+      "cents": 146000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-transport",
+      "cents": 20000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-personnel",
+      "cents": 10684171200,
+      "source": "3cf05923cc12d05cf376",
+      "page": 41
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category21",
+      "cents": 6456967100,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category22",
+      "cents": 4200322000,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category23",
+      "cents": 26882100,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-function",
+      "cents": 1050000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-immobilier",
+      "cents": 469000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-loyers",
+      "cents": 370000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-entretien",
+      "cents": 99000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-metiers",
+      "cents": 410000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-deplacement",
+      "cents": 180000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-justice",
+      "cents": 200000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-affranchissement-impression",
+      "cents": 30000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-informatique",
+      "cents": 25000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-courant",
+      "cents": 146000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-transport",
+      "cents": 20000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 42
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-personnel",
+      "cents": 11102400900,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 52
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category21",
+      "cents": 6753498500,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category22",
+      "cents": 4320454800,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category23",
+      "cents": 28447600,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-function",
+      "cents": 620000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 53
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-immobilier",
+      "cents": 110000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 53
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-metiers",
+      "cents": 350000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 53
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-informatique",
+      "cents": 50000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 54
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-courant",
+      "cents": 110000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 54
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-personnel",
+      "cents": 11102400900,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 52
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category21",
+      "cents": 6753498500,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category22",
+      "cents": 4320454800,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category23",
+      "cents": 28447600,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-function",
+      "cents": 1010000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 53
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-immobilier",
+      "cents": 500000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 53
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-metiers",
+      "cents": 350000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 53
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-informatique",
+      "cents": 50000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 54
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-courant",
+      "cents": 110000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 54
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-personnel",
+      "cents": 10924533600,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-category21",
+      "cents": 6656142500,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-category22",
+      "cents": 4240047700,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-category23",
+      "cents": 28343400,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-function",
+      "cents": 635000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-immobilier",
+      "cents": 134000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-metiers",
+      "cents": 364000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-informatique",
+      "cents": 30000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-courant",
+      "cents": 107000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-personnel",
+      "cents": 10924533600,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-category21",
+      "cents": 6656142500,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-category22",
+      "cents": 4240047700,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-category23",
+      "cents": 28343400,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-function",
+      "cents": 1071000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-immobilier",
+      "cents": 570000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-metiers",
+      "cents": 364000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-informatique",
+      "cents": 30000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2020-action01-courant",
+      "cents": 107000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 44
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-personnel",
+      "cents": 11066486400,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-category21",
+      "cents": 6746432400,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-category22",
+      "cents": 4291004200,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-category23",
+      "cents": 29049800,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-function",
+      "cents": 520000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-immobilier",
+      "cents": 180000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-metiers",
+      "cents": 200000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-informatique",
+      "cents": 45000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 46
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-courant",
+      "cents": 95000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 46
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-personnel",
+      "cents": 11066486400,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-category21",
+      "cents": 6746432400,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-category22",
+      "cents": 4291004200,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-category23",
+      "cents": 29049800,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-function",
+      "cents": 990000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-immobilier",
+      "cents": 650000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-metiers",
+      "cents": 200000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 45
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-informatique",
+      "cents": 45000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 46
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2021-action01-courant",
+      "cents": 95000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 46
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-personnel",
+      "cents": 11391576400,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-category21",
+      "cents": 6929996900,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-category22",
+      "cents": 4392610900,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-category23",
+      "cents": 68968600,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-function",
+      "cents": 8666000000,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-immobilier",
+      "cents": 8300000000,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 67
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-metiers",
+      "cents": 200000000,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 67
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-informatique",
+      "cents": 30000000,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 67
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-courant",
+      "cents": 136000000,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 67
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-personnel",
+      "cents": 11391576400,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-category21",
+      "cents": 6929996900,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-category22",
+      "cents": 4392610900,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-category23",
+      "cents": 68968600,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-function",
+      "cents": 926000000,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 66
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-immobilier",
+      "cents": 560000000,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 67
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-metiers",
+      "cents": 200000000,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 67
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-informatique",
+      "cents": 30000000,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 67
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2022-action01-courant",
+      "cents": 136000000,
+      "source": "e35c89c5bc6f02de7687",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-personnel",
+      "cents": 10696678800,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-category21",
+      "cents": 6527672800,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-category22",
+      "cents": 4095557100,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-category23",
+      "cents": 73448900,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-function",
+      "cents": 430000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-immobilier",
+      "cents": 200000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-metiers",
+      "cents": 140000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-informatique",
+      "cents": 30000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-courant",
+      "cents": 60000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-personnel",
+      "cents": 10696678800,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-category21",
+      "cents": 6527672800,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-category22",
+      "cents": 4095557100,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-category23",
+      "cents": 73448900,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-function",
+      "cents": 870000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-immobilier",
+      "cents": 640000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-metiers",
+      "cents": 140000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-informatique",
+      "cents": 30000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2023-action01-courant",
+      "cents": 60000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 65
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-personnel",
+      "cents": 162156015800,
+      "source": "041088df72b353761129",
+      "page": 42
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-salary",
+      "cents": 98188526100,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-social",
+      "cents": 63527070000,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-benefits",
+      "cents": 440419700,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-function",
+      "cents": 5044000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-group",
+      "cents": 1375000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-real-estate",
+      "cents": 347000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-rents",
+      "cents": 237000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-maintenance",
+      "cents": 73000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-fluids",
+      "cents": 37000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-business",
+      "cents": 564000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-IT",
+      "cents": 136000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-current",
+      "cents": 328000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-central-IT",
+      "cents": 929000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-IT-recouvrement",
+      "cents": 395000000,
+      "source": "041088df72b353761129",
+      "page": 44
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-IT-assiette",
+      "cents": 439000000,
+      "source": "041088df72b353761129",
+      "page": 44
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-IT-controle",
+      "cents": 95000000,
+      "source": "041088df72b353761129",
+      "page": 44
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-remises",
+      "cents": 2100000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-affranchissement",
+      "cents": 590000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-justice",
+      "cents": 50000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-investment",
+      "cents": 1020000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-INV-recouvrement",
+      "cents": 672000000,
+      "source": "041088df72b353761129",
+      "page": 45
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-INV-assiette",
+      "cents": 236000000,
+      "source": "041088df72b353761129",
+      "page": 45
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-INV-controle",
+      "cents": 112000000,
+      "source": "041088df72b353761129",
+      "page": 45
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-personnel",
+      "cents": 162156015800,
+      "source": "041088df72b353761129",
+      "page": 42
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-salary",
+      "cents": 98188526100,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-social",
+      "cents": 63527070000,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-benefits",
+      "cents": 440419700,
+      "source": "6db3496aa73741860b19",
+      "page": null
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-function",
+      "cents": 5266000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-group",
+      "cents": 1955000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-real-estate",
+      "cents": 927000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-rents",
+      "cents": 817000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-maintenance",
+      "cents": 73000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-fluids",
+      "cents": 37000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-business",
+      "cents": 564000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-IT",
+      "cents": 136000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-control-current",
+      "cents": 328000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-central-IT",
+      "cents": 571000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-IT-recouvrement",
+      "cents": 292000000,
+      "source": "041088df72b353761129",
+      "page": 44
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-IT-assiette",
+      "cents": 223000000,
+      "source": "041088df72b353761129",
+      "page": 44
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-IT-controle",
+      "cents": 56000000,
+      "source": "041088df72b353761129",
+      "page": 44
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-remises",
+      "cents": 2100000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-affranchissement",
+      "cents": 590000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-justice",
+      "cents": 50000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-investment",
+      "cents": 723000000,
+      "source": "041088df72b353761129",
+      "page": 43
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-INV-recouvrement",
+      "cents": 543000000,
+      "source": "041088df72b353761129",
+      "page": 45
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-INV-assiette",
+      "cents": 161000000,
+      "source": "041088df72b353761129",
+      "page": 45
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-INV-controle",
+      "cents": 19000000,
+      "source": "041088df72b353761129",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-personnel",
+      "cents": 158172063200,
+      "source": "3cf05923cc12d05cf376",
+      "page": 43
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-salary",
+      "cents": 95591112700,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-social",
+      "cents": 62182979500,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-benefits",
+      "cents": 397971000,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-function",
+      "cents": 4624500000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-group",
+      "cents": 1255000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-real-estate",
+      "cents": 283000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-rents",
+      "cents": 75000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-maintenance",
+      "cents": 168000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-fluids",
+      "cents": 40000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-business",
+      "cents": 678000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-IT",
+      "cents": 126000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-current",
+      "cents": 168000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-central-IT",
+      "cents": 617500000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-IT-recouvrement",
+      "cents": 217000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 46
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-IT-assiette",
+      "cents": 295000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 46
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-IT-controle",
+      "cents": 106000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 46
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-remises",
+      "cents": 2100000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-affranchissement",
+      "cents": 552000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-justice",
+      "cents": 100000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-investment",
+      "cents": 868000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-INV-recouvrement",
+      "cents": 513000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 47
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-INV-assiette",
+      "cents": 133000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 47
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-INV-controle",
+      "cents": 222000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 47
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-personnel",
+      "cents": 158172063200,
+      "source": "3cf05923cc12d05cf376",
+      "page": 43
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-salary",
+      "cents": 95591112700,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-social",
+      "cents": 62182979500,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-benefits",
+      "cents": 397971000,
+      "source": "054b635e75292f2b0d74",
+      "page": null
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-function",
+      "cents": 5273500000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-group",
+      "cents": 2010000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-real-estate",
+      "cents": 1038000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-rents",
+      "cents": 830000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-maintenance",
+      "cents": 168000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-fluids",
+      "cents": 40000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-business",
+      "cents": 678000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-IT",
+      "cents": 126000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-control-current",
+      "cents": 168000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-central-IT",
+      "cents": 511500000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-IT-recouvrement",
+      "cents": 247000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 46
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-IT-assiette",
+      "cents": 197000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 46
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-IT-controle",
+      "cents": 68000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 46
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-remises",
+      "cents": 2100000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-affranchissement",
+      "cents": 552000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-justice",
+      "cents": 100000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-investment",
+      "cents": 709200000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 45
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-INV-recouvrement",
+      "cents": 491000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 47
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-INV-assiette",
+      "cents": 111000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 47
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-INV-controle",
+      "cents": 107000000,
+      "source": "3cf05923cc12d05cf376",
+      "page": 47
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-personnel",
+      "cents": 153582316800,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 54
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-salary",
+      "cents": 93422851900,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-social",
+      "cents": 59765942400,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-benefits",
+      "cents": 393522500,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-function",
+      "cents": 4515000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-control-group",
+      "cents": 1350000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-control-real-estate",
+      "cents": 330000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-control-business",
+      "cents": 620000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-control-IT",
+      "cents": 90000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-control-current",
+      "cents": 310000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-central-IT",
+      "cents": 715000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-remises",
+      "cents": 2000000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-affranchissement",
+      "cents": 390000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-justice",
+      "cents": 60000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-investment",
+      "cents": 741000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-personnel",
+      "cents": 153582316800,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 54
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-salary",
+      "cents": 93422851900,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-social",
+      "cents": 59765942400,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-benefits",
+      "cents": 393522500,
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "page": null
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-function",
+      "cents": 5162000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-control-group",
+      "cents": 2100000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-control-real-estate",
+      "cents": 1080000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-control-business",
+      "cents": 620000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-control-IT",
+      "cents": 90000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-control-current",
+      "cents": 310000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-central-IT",
+      "cents": 612000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-remises",
+      "cents": 2000000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-affranchissement",
+      "cents": 390000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-justice",
+      "cents": 60000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-investment",
+      "cents": 784000000,
+      "source": "aa6bbba5b0229ec65320",
+      "page": 55
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-personnel",
+      "cents": 150303640100,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 45
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-salary",
+      "cents": 91577589400,
+      "source": "b72223d204dfb9e60f8f",
+      "page": null
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-social",
+      "cents": 58336092400,
+      "source": "b72223d204dfb9e60f8f",
+      "page": null
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-benefits",
+      "cents": 389958300,
+      "source": "b72223d204dfb9e60f8f",
+      "page": null
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-function",
+      "cents": 4478000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 46
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-control-group",
+      "cents": 1386000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-control-real-estate",
+      "cents": 420000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-control-business",
+      "cents": 611000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-control-IT",
+      "cents": 95000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-control-current",
+      "cents": 260000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-central-IT",
+      "cents": 673000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 46
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-IT-recouvrement",
+      "cents": 366000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-IT-assiette",
+      "cents": 166000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-IT-controle",
+      "cents": 141000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-remises",
+      "cents": 2100000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 46
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-affranchissement",
+      "cents": 250000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 46
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-justice",
+      "cents": 69000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-investment",
+      "cents": 1330000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 46
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-INV-recouvrement",
+      "cents": 592000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 48
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-INV-assiette",
+      "cents": 317000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 48
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-INV-controle",
+      "cents": 421000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 48
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-personnel",
+      "cents": 150303640100,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 45
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-salary",
+      "cents": 91577589400,
+      "source": "b72223d204dfb9e60f8f",
+      "page": null
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-social",
+      "cents": 58336092400,
+      "source": "b72223d204dfb9e60f8f",
+      "page": null
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-benefits",
+      "cents": 389958300,
+      "source": "b72223d204dfb9e60f8f",
+      "page": null
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-function",
+      "cents": 5194400000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 46
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-control-group",
+      "cents": 2070000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-control-real-estate",
+      "cents": 1104000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-control-business",
+      "cents": 611000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-control-IT",
+      "cents": 95000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-control-current",
+      "cents": 260000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-central-IT",
+      "cents": 705400000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 46
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-IT-recouvrement",
+      "cents": 439000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-IT-assiette",
+      "cents": 151000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-IT-controle",
+      "cents": 115000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-remises",
+      "cents": 2100000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 46
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-affranchissement",
+      "cents": 250000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 46
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-justice",
+      "cents": 69000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 47
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-investment",
+      "cents": 1248000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 46
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-INV-recouvrement",
+      "cents": 645000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 48
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-INV-assiette",
+      "cents": 353000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 48
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-INV-controle",
+      "cents": 250000000,
+      "source": "1f4ba285302dc7ee49a8",
+      "page": 48
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-personnel",
+      "cents": 148097173600,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 46
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-salary",
+      "cents": 90284081700,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-social",
+      "cents": 57424332700,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-benefits",
+      "cents": 388759200,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-function",
+      "cents": 5823910000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-control-group",
+      "cents": 1380000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-real-estate",
+      "cents": 480000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-business",
+      "cents": 550000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-local-IT",
+      "cents": 100000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 48
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-current",
+      "cents": 250000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 48
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-central-IT",
+      "cents": 1903910000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-PAS-function",
+      "cents": 539000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 48
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-remises",
+      "cents": 1900000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-postage",
+      "cents": 580000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-justice",
+      "cents": 60000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-investment",
+      "cents": 1035830000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-PAS-investment",
+      "cents": 51000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 48
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-personnel",
+      "cents": 148097173600,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 46
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-salary",
+      "cents": 90284081700,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-social",
+      "cents": 57424332700,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-benefits",
+      "cents": 388759200,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-function",
+      "cents": 6246077500,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-control-group",
+      "cents": 2000000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-real-estate",
+      "cents": 1100000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-business",
+      "cents": 550000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-local-IT",
+      "cents": 100000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 48
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-current",
+      "cents": 250000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 48
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-central-IT",
+      "cents": 1706077500,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-PAS-function",
+      "cents": 534000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 48
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-remises",
+      "cents": 1900000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-postage",
+      "cents": 580000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-justice",
+      "cents": 60000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-investment",
+      "cents": 1097923000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 47
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2021-A02-PAS-investment",
+      "cents": 56000000,
+      "source": "deb84a1a84f57a1e8afe",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-personnel",
+      "cents": 133204885700,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 46
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-salary",
+      "cents": 81009496500,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-social",
+      "cents": 51348247100,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-benefits",
+      "cents": 847142100,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-function",
+      "cents": 6149000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-control-group",
+      "cents": 1355000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-real-estate",
+      "cents": 355000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-business",
+      "cents": 550000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-local-IT",
+      "cents": 100000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-current",
+      "cents": 350000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-central-IT",
+      "cents": 2310000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-remises",
+      "cents": 1900000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-postage",
+      "cents": 530000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-justice",
+      "cents": 54000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-investment",
+      "cents": 561364000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-category51",
+      "cents": 45813700,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-category52",
+      "cents": 515550300,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-personnel",
+      "cents": 133204885700,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 46
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-salary",
+      "cents": 81009496500,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-social",
+      "cents": 51348247100,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-benefits",
+      "cents": 847142100,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-function",
+      "cents": 6244000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-control-group",
+      "cents": 1950000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-real-estate",
+      "cents": 950000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-business",
+      "cents": 550000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-local-IT",
+      "cents": 100000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-current",
+      "cents": 350000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-central-IT",
+      "cents": 1810000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-remises",
+      "cents": 1900000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-postage",
+      "cents": 530000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-justice",
+      "cents": 54000000,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-investment",
+      "cents": 548854700,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-category51",
+      "cents": 0,
+      "source": "c77688989df5b0a875bc",
+      "page": null
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-category52",
+      "cents": 548854700,
+      "source": "268b53a0bbb6c62d25a3",
+      "page": 48
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-personnel",
+      "cents": 145614621600,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-salary",
+      "cents": 88861658300,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-social",
+      "cents": 55753099000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-benefits",
+      "cents": 999864300,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-function",
+      "cents": 14364000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-control-group",
+      "cents": 5860000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-real-estate",
+      "cents": 5000000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-business",
+      "cents": 470000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-local-IT",
+      "cents": 130000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-current",
+      "cents": 260000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-central-IT",
+      "cents": 5970000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-remises",
+      "cents": 2000000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-postage",
+      "cents": 480000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 68
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-justice",
+      "cents": 54000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 68
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-investment",
+      "cents": 3280000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-category52",
+      "cents": 3280000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-personnel",
+      "cents": 145614621600,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-salary",
+      "cents": 88861658300,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-social",
+      "cents": 55753099000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-benefits",
+      "cents": 999864300,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-function",
+      "cents": 8974000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-control-group",
+      "cents": 1910000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-real-estate",
+      "cents": 1050000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-business",
+      "cents": 470000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-local-IT",
+      "cents": 130000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-current",
+      "cents": 260000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-central-IT",
+      "cents": 4530000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-remises",
+      "cents": 2000000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-postage",
+      "cents": 480000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 68
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-justice",
+      "cents": 54000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 68
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-investment",
+      "cents": 3260000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2023-A02-category52",
+      "cents": 3260000000,
+      "source": "efb7e19bacbe64ace6ff",
+      "page": 67
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-personnel",
+      "cents": 11842655200,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category21",
+      "cents": 7243939300,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category22",
+      "cents": 4503514100,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category23",
+      "cents": 95201800,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-function",
+      "cents": 320000000,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-personnel",
+      "cents": 11842655200,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category21",
+      "cents": 7243939300,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category22",
+      "cents": 4503514100,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category23",
+      "cents": 95201800,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-function",
+      "cents": 820000000,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-personnel",
+      "cents": 152522505200,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category21",
+      "cents": 93295274600,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category22",
+      "cents": 58001119200,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category23",
+      "cents": 1226111400,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-function",
+      "cents": 8171800000,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-investment",
+      "cents": 2610000000,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-personnel",
+      "cents": 152522505200,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category21",
+      "cents": 93295274600,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category22",
+      "cents": 58001119200,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category23",
+      "cents": 1226111400,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-function",
+      "cents": 9044000000,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-investment",
+      "cents": 2455000000,
+      "source": "e777f0184d52720b78f2",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-personnel",
+      "cents": 12709011400,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category21",
+      "cents": 7665361100,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category22",
+      "cents": 4942753600,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category23",
+      "cents": 100896700,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-function",
+      "cents": 559000000,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-personnel",
+      "cents": 12709011400,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category21",
+      "cents": 7665361100,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category22",
+      "cents": 4942753600,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category23",
+      "cents": 100896700,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-function",
+      "cents": 1110000000,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-personnel",
+      "cents": 154858524600,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category21",
+      "cents": 93401955300,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category22",
+      "cents": 60227149500,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category23",
+      "cents": 1229419800,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-function",
+      "cents": 7786000000,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-investment",
+      "cents": 4542000000,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-personnel",
+      "cents": 154858524600,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category21",
+      "cents": 93401955300,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category22",
+      "cents": 60227149500,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category23",
+      "cents": 1229419800,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-function",
+      "cents": 8888333300,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-investment",
+      "cents": 4014666700,
+      "source": "7c854f33fe8f2d87a98e",
+      "page": null
+    }
+  ],
+  "CSV_cell_checks": [
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category21",
+      "source": "6db3496aa73741860b19",
+      "row": 858,
+      "column": 10,
+      "cents": 6401018800
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category22",
+      "source": "6db3496aa73741860b19",
+      "row": 859,
+      "column": 10,
+      "cents": 4141400100
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category23",
+      "source": "6db3496aa73741860b19",
+      "row": 860,
+      "column": 10,
+      "cents": 28711400
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category21",
+      "source": "6db3496aa73741860b19",
+      "row": 858,
+      "column": 14,
+      "cents": 6401018800
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category22",
+      "source": "6db3496aa73741860b19",
+      "row": 859,
+      "column": 14,
+      "cents": 4141400100
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2017-action01-category23",
+      "source": "6db3496aa73741860b19",
+      "row": 860,
+      "column": 14,
+      "cents": 28711400
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category21",
+      "source": "054b635e75292f2b0d74",
+      "row": 1199,
+      "column": 7,
+      "cents": 6456967100
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category22",
+      "source": "054b635e75292f2b0d74",
+      "row": 1200,
+      "column": 7,
+      "cents": 4200322000
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category23",
+      "source": "054b635e75292f2b0d74",
+      "row": 1201,
+      "column": 7,
+      "cents": 26882100
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category21",
+      "source": "054b635e75292f2b0d74",
+      "row": 1199,
+      "column": 9,
+      "cents": 6456967100
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category22",
+      "source": "054b635e75292f2b0d74",
+      "row": 1200,
+      "column": 9,
+      "cents": 4200322000
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2018-action01-category23",
+      "source": "054b635e75292f2b0d74",
+      "row": 1201,
+      "column": 9,
+      "cents": 26882100
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category21",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1082,
+      "column": 13,
+      "cents": 6753498500
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category22",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1083,
+      "column": 13,
+      "cents": 4320454800
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category23",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1084,
+      "column": 13,
+      "cents": 28447600
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category21",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1082,
+      "column": 14,
+      "cents": 6753498500
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category22",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1083,
+      "column": 14,
+      "cents": 4320454800
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2019-action01-category23",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1084,
+      "column": 14,
+      "cents": 28447600
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-salary",
+      "source": "6db3496aa73741860b19",
+      "row": 862,
+      "column": 10,
+      "cents": 98188526100
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-social",
+      "source": "6db3496aa73741860b19",
+      "row": 863,
+      "column": 10,
+      "cents": 63527070000
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-benefits",
+      "source": "6db3496aa73741860b19",
+      "row": 864,
+      "column": 10,
+      "cents": 440419700
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-salary",
+      "source": "6db3496aa73741860b19",
+      "row": 862,
+      "column": 14,
+      "cents": 98188526100
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-social",
+      "source": "6db3496aa73741860b19",
+      "row": 863,
+      "column": 14,
+      "cents": 63527070000
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2017-A02-benefits",
+      "source": "6db3496aa73741860b19",
+      "row": 864,
+      "column": 14,
+      "cents": 440419700
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-salary",
+      "source": "054b635e75292f2b0d74",
+      "row": 1203,
+      "column": 7,
+      "cents": 95591112700
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-social",
+      "source": "054b635e75292f2b0d74",
+      "row": 1204,
+      "column": 7,
+      "cents": 62182979500
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-benefits",
+      "source": "054b635e75292f2b0d74",
+      "row": 1205,
+      "column": 7,
+      "cents": 397971000
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-salary",
+      "source": "054b635e75292f2b0d74",
+      "row": 1203,
+      "column": 9,
+      "cents": 95591112700
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-social",
+      "source": "054b635e75292f2b0d74",
+      "row": 1204,
+      "column": 9,
+      "cents": 62182979500
+    },
+    {
+      "key": [
+        2018,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2018-A02-benefits",
+      "source": "054b635e75292f2b0d74",
+      "row": 1205,
+      "column": 9,
+      "cents": 397971000
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-salary",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1086,
+      "column": 13,
+      "cents": 93422851900
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-social",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1087,
+      "column": 13,
+      "cents": 59765942400
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-benefits",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1088,
+      "column": 13,
+      "cents": 393522500
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-salary",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1086,
+      "column": 14,
+      "cents": 93422851900
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-social",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1087,
+      "column": 14,
+      "cents": 59765942400
+    },
+    {
+      "key": [
+        2019,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2019-A02-benefits",
+      "source": "f5baebdc3fb1a7d7a5ee",
+      "row": 1088,
+      "column": 14,
+      "cents": 393522500
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-salary",
+      "source": "b72223d204dfb9e60f8f",
+      "row": 1501,
+      "column": 11,
+      "cents": 91577589400
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-social",
+      "source": "b72223d204dfb9e60f8f",
+      "row": 1500,
+      "column": 11,
+      "cents": 58336092400
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-benefits",
+      "source": "b72223d204dfb9e60f8f",
+      "row": 1498,
+      "column": 11,
+      "cents": 389958300
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-salary",
+      "source": "b72223d204dfb9e60f8f",
+      "row": 1501,
+      "column": 12,
+      "cents": 91577589400
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-social",
+      "source": "b72223d204dfb9e60f8f",
+      "row": 1500,
+      "column": 12,
+      "cents": 58336092400
+    },
+    {
+      "key": [
+        2020,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2020-A02-benefits",
+      "source": "b72223d204dfb9e60f8f",
+      "row": 1498,
+      "column": 12,
+      "cents": 389958300
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2022-A02-category51",
+      "source": "c77688989df5b0a875bc",
+      "row": 842,
+      "column": 16,
+      "cents": 0
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 525,
+      "column": 12,
+      "cents": 320000000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 571,
+      "column": 12,
+      "cents": 4503514100
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 1133,
+      "column": 12,
+      "cents": 7243939300
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 2300,
+      "column": 12,
+      "cents": 95201800
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 1133,
+      "column": 12,
+      "cents": 7243939300
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 571,
+      "column": 12,
+      "cents": 4503514100
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 2300,
+      "column": 12,
+      "cents": 95201800
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category21",
+      "source": "e777f0184d52720b78f2",
+      "row": 1133,
+      "column": 12,
+      "cents": 7243939300
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category22",
+      "source": "e777f0184d52720b78f2",
+      "row": 571,
+      "column": 12,
+      "cents": 4503514100
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category23",
+      "source": "e777f0184d52720b78f2",
+      "row": 2300,
+      "column": 12,
+      "cents": 95201800
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-function",
+      "source": "e777f0184d52720b78f2",
+      "row": 525,
+      "column": 12,
+      "cents": 320000000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 525,
+      "column": 13,
+      "cents": 820000000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 571,
+      "column": 13,
+      "cents": 4503514100
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 1133,
+      "column": 13,
+      "cents": 7243939300
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 2300,
+      "column": 13,
+      "cents": 95201800
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 1133,
+      "column": 13,
+      "cents": 7243939300
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 571,
+      "column": 13,
+      "cents": 4503514100
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 2300,
+      "column": 13,
+      "cents": 95201800
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category21",
+      "source": "e777f0184d52720b78f2",
+      "row": 1133,
+      "column": 13,
+      "cents": 7243939300
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category22",
+      "source": "e777f0184d52720b78f2",
+      "row": 571,
+      "column": 13,
+      "cents": 4503514100
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-category23",
+      "source": "e777f0184d52720b78f2",
+      "row": 2300,
+      "column": 13,
+      "cents": 95201800
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2024-A01-canonical-function",
+      "source": "e777f0184d52720b78f2",
+      "row": 525,
+      "column": 13,
+      "cents": 820000000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 425,
+      "column": 12,
+      "cents": 2610000000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 817,
+      "column": 12,
+      "cents": 1226111400
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 1241,
+      "column": 12,
+      "cents": 93295274600
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 2016,
+      "column": 12,
+      "cents": 8171800000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 2145,
+      "column": 12,
+      "cents": 58001119200
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 1241,
+      "column": 12,
+      "cents": 93295274600
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 2145,
+      "column": 12,
+      "cents": 58001119200
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 817,
+      "column": 12,
+      "cents": 1226111400
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category21",
+      "source": "e777f0184d52720b78f2",
+      "row": 1241,
+      "column": 12,
+      "cents": 93295274600
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category22",
+      "source": "e777f0184d52720b78f2",
+      "row": 2145,
+      "column": 12,
+      "cents": 58001119200
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category23",
+      "source": "e777f0184d52720b78f2",
+      "row": 817,
+      "column": 12,
+      "cents": 1226111400
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-function",
+      "source": "e777f0184d52720b78f2",
+      "row": 2016,
+      "column": 12,
+      "cents": 8171800000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-investment",
+      "source": "e777f0184d52720b78f2",
+      "row": 425,
+      "column": 12,
+      "cents": 2610000000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 425,
+      "column": 13,
+      "cents": 2455000000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 817,
+      "column": 13,
+      "cents": 1226111400
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 1241,
+      "column": 13,
+      "cents": 93295274600
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 2016,
+      "column": 13,
+      "cents": 9044000000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-total",
+      "source": "e777f0184d52720b78f2",
+      "row": 2145,
+      "column": 13,
+      "cents": 58001119200
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 1241,
+      "column": 13,
+      "cents": 93295274600
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 2145,
+      "column": 13,
+      "cents": 58001119200
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-personnel",
+      "source": "e777f0184d52720b78f2",
+      "row": 817,
+      "column": 13,
+      "cents": 1226111400
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category21",
+      "source": "e777f0184d52720b78f2",
+      "row": 1241,
+      "column": 13,
+      "cents": 93295274600
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category22",
+      "source": "e777f0184d52720b78f2",
+      "row": 2145,
+      "column": 13,
+      "cents": 58001119200
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-category23",
+      "source": "e777f0184d52720b78f2",
+      "row": 817,
+      "column": 13,
+      "cents": 1226111400
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-function",
+      "source": "e777f0184d52720b78f2",
+      "row": 2016,
+      "column": 13,
+      "cents": 9044000000
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2024-A02-canonical-investment",
+      "source": "e777f0184d52720b78f2",
+      "row": 425,
+      "column": 13,
+      "cents": 2455000000
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 346,
+      "column": 12,
+      "cents": 100896700
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1233,
+      "column": 12,
+      "cents": 559000000
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1253,
+      "column": 12,
+      "cents": 4942753600
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1926,
+      "column": 12,
+      "cents": 7665361100
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1926,
+      "column": 12,
+      "cents": 7665361100
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1253,
+      "column": 12,
+      "cents": 4942753600
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 346,
+      "column": 12,
+      "cents": 100896700
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category21",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1926,
+      "column": 12,
+      "cents": 7665361100
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category22",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1253,
+      "column": 12,
+      "cents": 4942753600
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category23",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 346,
+      "column": 12,
+      "cents": 100896700
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-function",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1233,
+      "column": 12,
+      "cents": 559000000
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 346,
+      "column": 13,
+      "cents": 100896700
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1233,
+      "column": 13,
+      "cents": 1110000000
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1253,
+      "column": 13,
+      "cents": 4942753600
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1926,
+      "column": 13,
+      "cents": 7665361100
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1926,
+      "column": 13,
+      "cents": 7665361100
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1253,
+      "column": 13,
+      "cents": 4942753600
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 346,
+      "column": 13,
+      "cents": 100896700
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category21",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1926,
+      "column": 13,
+      "cents": 7665361100
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category22",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1253,
+      "column": 13,
+      "cents": 4942753600
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-category23",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 346,
+      "column": 13,
+      "cents": 100896700
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "01"
+      ],
+      "node": "P156-PAP2025-A01-canonical-function",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 1233,
+      "column": 13,
+      "cents": 1110000000
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 174,
+      "column": 12,
+      "cents": 1229419800
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 381,
+      "column": 12,
+      "cents": 93401955300
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 437,
+      "column": 12,
+      "cents": 7786000000
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 948,
+      "column": 12,
+      "cents": 60227149500
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 979,
+      "column": 12,
+      "cents": 4542000000
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 381,
+      "column": 12,
+      "cents": 93401955300
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 948,
+      "column": 12,
+      "cents": 60227149500
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 174,
+      "column": 12,
+      "cents": 1229419800
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category21",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 381,
+      "column": 12,
+      "cents": 93401955300
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category22",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 948,
+      "column": 12,
+      "cents": 60227149500
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category23",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 174,
+      "column": 12,
+      "cents": 1229419800
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-function",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 437,
+      "column": 12,
+      "cents": 7786000000
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-investment",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 979,
+      "column": 12,
+      "cents": 4542000000
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 174,
+      "column": 13,
+      "cents": 1229419800
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 381,
+      "column": 13,
+      "cents": 93401955300
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 437,
+      "column": 13,
+      "cents": 8888333300
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 948,
+      "column": 13,
+      "cents": 60227149500
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-total",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 979,
+      "column": 13,
+      "cents": 4014666700
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 381,
+      "column": 13,
+      "cents": 93401955300
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 948,
+      "column": 13,
+      "cents": 60227149500
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-personnel",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 174,
+      "column": 13,
+      "cents": 1229419800
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category21",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 381,
+      "column": 13,
+      "cents": 93401955300
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category22",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 948,
+      "column": 13,
+      "cents": 60227149500
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-category23",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 174,
+      "column": 13,
+      "cents": 1229419800
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-function",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 437,
+      "column": 13,
+      "cents": 8888333300
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "02"
+      ],
+      "node": "P156-PAP2025-A02-canonical-investment",
+      "source": "7c854f33fe8f2d87a98e",
+      "row": 979,
+      "column": 13,
+      "cents": 4014666700
+    }
+  ],
+  "unchanged_programs": [
+    {
+      "year": 2017,
+      "stage": "PLF",
+      "measure": "AE",
+      "cents": 824963157200,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2017,
+      "stage": "PLF",
+      "measure": "CP",
+      "cents": 809021658900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2018,
+      "stage": "PLF",
+      "measure": "AE",
+      "cents": 811166063100,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2018,
+      "stage": "PLF",
+      "measure": "CP",
+      "cents": 805413063100,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "AE",
+      "cents": 798187738300,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2019,
+      "stage": "PLF",
+      "measure": "CP",
+      "cents": 773818890500,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2020,
+      "stage": "PLF",
+      "measure": "AE",
+      "cents": 777921886200,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2020,
+      "stage": "PLF",
+      "measure": "CP",
+      "cents": 770385878500,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "PLF",
+      "measure": "AE",
+      "cents": 765175048100,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "PLF",
+      "measure": "CP",
+      "cents": 759125517300,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "PLF",
+      "measure": "AE",
+      "cents": 758357855500,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "PLF",
+      "measure": "CP",
+      "cents": 754862566600,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "PLF",
+      "measure": "AE",
+      "cents": 823242052100,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "PLF",
+      "measure": "CP",
+      "cents": 796888621900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "PLF",
+      "measure": "AE",
+      "cents": 808062230600,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "PLF",
+      "measure": "CP",
+      "cents": 813812394000,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "PLF",
+      "measure": "AE",
+      "cents": 825548417100,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "PLF",
+      "measure": "CP",
+      "cents": 820948417100,
+      "canonical_rows_preserved": true
+    }
+  ],
+  "not_new_financial_primary_QA": true,
+  "canonical_only_navigation_not_new_budget": true
+}

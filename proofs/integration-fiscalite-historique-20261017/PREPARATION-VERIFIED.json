@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "new_positions": 462,
+  "new_qualified_positions": 258,
+  "existing_nature_and_aggregate_navigation_positions": 204,
+  "partitions": 36,
+  "source_files": 19,
+  "prior_partitions_preserved": true,
+  "lossless_compact_JSON": true,
+  "source_absence_and_parallel_axes_reserves_retained": true
+}
