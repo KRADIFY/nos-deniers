@@ -1,0 +1,17 @@
+{
+  "new_image_tag": "lexmachine-budget:20261017-details-codes-1348",
+  "files": [
+    {
+      "path": "budget_service/internal_details.py",
+      "sha256": "00187e6297d9b7db3dfb39e045c095cf2e1d50b437311045111cef4348726052"
+    },
+    {
+      "path": "budget_service/reviewed_internal_details.py",
+      "sha256": "774381871db63966125131e7632dadf8df5813b75069aea6b3954a537ff1e007"
+    },
+    {
+      "path": "budget_service/data/internal-details-coded-reviewed-20261017.json",
+      "sha256": "6565ff6e7460053a0a5846d4e99446ea941bdf0a794daca312322cd9bf924378"
+    }
+  ]
+}

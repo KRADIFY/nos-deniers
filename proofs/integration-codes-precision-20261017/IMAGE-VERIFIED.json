@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "DA",
+        "146",
+        "06"
+      ],
+      "path": "DA/146/06/14",
+      "cents": 19958929000,
+      "source": "cccd817a12f2472e4019",
+      "page": 8
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "DA",
+        "212",
+        "51"
+      ],
+      "path": "DA/212/51/01",
+      "cents": 2570222500,
+      "source": "dddea1de393ea9595261",
+      "page": 16
+    },
+    {
+      "key": [
+        2017,
+        "PLF",
+        "AE",
+        "BG",
+        "EB",
+        "114",
+        "04"
+      ],
+      "path": "EB/114/04/01",
+      "cents": 0,
+      "source": "c69c5cc08416cb3b2ff5",
+      "page": 52
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "DA",
+        "146",
+        "07"
+      ],
+      "path": "DA/146/07/23",
+      "cents": 0,
+      "source": "a89743e6f0a95c0faa36",
+      "page": 382
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "DA",
+        "146",
+        "07"
+      ],
+      "path": "DA/146/07/67",
+      "cents": -2182405900,
+      "source": "a89743e6f0a95c0faa36",
+      "page": 383
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "TB",
+        "103",
+        "03"
+      ],
+      "path": "TB/103/03/03",
+      "cents": 0,
+      "source": "9b7bafb45978259c7d17",
+      "page": 109
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "DA",
+        "146",
+        "07"
+      ],
+      "path": "DA/146/07/23",
+      "cents": 557545500,
+      "source": "9ede83094e21a951e090",
+      "page": 361
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "AC",
+        "149",
+        "29"
+      ],
+      "path": "AC/149/29/01",
+      "cents": 0,
+      "source": "91df7b817335cea40339",
+      "page": 32
+    }
+  ],
+  "p177_preserved": true,
+  "files": [
+    {
+      "path": "budget_service/internal_details.py",
+      "sha256": "00187e6297d9b7db3dfb39e045c095cf2e1d50b437311045111cef4348726052"
+    },
+    {
+      "path": "budget_service/reviewed_internal_details.py",
+      "sha256": "774381871db63966125131e7632dadf8df5813b75069aea6b3954a537ff1e007"
+    },
+    {
+      "path": "budget_service/data/internal-details-coded-reviewed-20261017.json",
+      "sha256": "6565ff6e7460053a0a5846d4e99446ea941bdf0a794daca312322cd9bf924378"
+    }
+  ],
+  "registry_version": "2ee0f25eb01000dd06a57464d29e64854e59568c29b5c721700be5c8b7146c75",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb"
+}

@@ -1,3 +1,16 @@
+# Troisième lot de détails sélectionnables publié — 17 octobre 2026
+
+- Racine permanente D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main/KRADIFY/nos-deniers. Dernier commit sûr précédent8cd9a5709ba9589b508853c7127a390ee0ea03d5 ; commit courant : git log -1.
+- Image locale et quatre webs publics : lexmachine-budget:20261017-details-codes-1348. Ajout de1348positions annuelles AE/CP codifiées dans283relations, dont50partielles,73exactes et160complètes à précision publiée. Les centimes, signes, zéros explicites, sources et montants actuels sont conservés ; aucune inconnue devenuezéro, aucun solde créé.
+- Total des trois lots2646positions ajoutées :1258codifiées exactes+40P177PLF2026–2027+1348codifiées. Il ne s'agit pas d'enveloppes indépendantes à additionner. Sur le seul paquet codifié qualifié2762,2606sont publiées et156restent à projeter ou résoudre ; cette proportion n'est pas une couverture de tous les PDF.
+- Preuves : proofs/integration-codes-precision-20261017/. Tous les1348montants et1501enfants (anciens compris) vérifiés dans les fonctions de production sur la base primaire ;13849combinaisons d'exclusions, parents/programmes conservés. Ancienlot1258 etP17740 recontrôlés. Suite163tests :161passent,les deux mêmes assertions historiques obsolètes signalées. Régression ciblée corrigée : un détail natif connu sous un parent exclu devient bien exclu, au lieu d'être annoncé manquant.
+- En ligne sur Budget/Budgetécolo :14vues représentatives/122nouveaux détails, sélections/exclusions/citations, zéros/négatifs et trois types de relations vérifiés ;P177 etlot1258 témoins conservés. L'image et ses fichiers sont identiques sur les quatre webs, base/source SHA vérifiés avant activation. Les1348lignes n'ont pas toutes été requêtées individuellement enHTTP ; elles l'ont été dans le candidat testé.
+- Base canonique SHA8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb /142079faits inchangés ;index5683documents/4996538passages inchangés. Aucun nouveau PDF/OCR/RunPod/encodage. Anciennes images et sauvegardes conservées.
+- Local : image activée/readyz et fonctions réelles de l'image contrôlées ; la passeHTTP localeP177 a reçu des503occupé et a été arrêtée avant la nouvelle activation pour ne pas comparer des versions différentes. Les réponses publiques80positionsP177 sont vérifiées. Aucune recette visuelle navigateur ni clôture de toute la passeHTTP locale n'est revendiquée.
+- Suite autorisée : traiter les156codifiées restantes (dont132zéros documentaires à schéma séparé,32sansparentcourant) et les autres dispositifs qualifiés, sans relancer l'audit exhaustif. P1772025 :20positions différées car primaire39d0ab82…absent du catalogue et des trois index actifs ; original local et preuves sont conservés. Les variantes contradictoires restent à part, sans source arbitrairement privilégiée. AutomationPAUSED,max1auxiliaire,aucun Word sans demande.
+
+## Historique conservé
+
 # Programme 177 : dispositifs sélectionnables publiés — 17 octobre 2026
 
 - Racine permanente : D:/ChatGPT/docker/backups/nos-deniers-enligne-20261004/git ; main / KRADIFY/nos-deniers. Commit sûr précédent770387da7fa5e26874533f92f85a83b7ad2c9c64 ; commit courant : git log -1.

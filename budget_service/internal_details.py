@@ -124,7 +124,7 @@ def resolve_native_parents(records,scope,excluded):
         overlay=row.get('_native_internal_overlay')
         if not overlay:continue
         path=overlay['path']
-        if any(_within(path,e) for e in excluded):continue
+        if any(_within(path,e) for e in excluded) and (scope==path or not _within(scope,path)):continue
         if (scope!=path and _within(scope,path)) or any(e!=path and _within(e,path) for e in excluded):
             active[(_key(row)[:-1],path)]=overlay['virtual']
     for row in records:

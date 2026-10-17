@@ -1,0 +1,188 @@
+[
+  {
+    "projection_id": "core2630:1088",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:1090",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:1092",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:1094",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:1096",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:1098",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:1100",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:1102",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:1397",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:1398",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:2279",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:2280",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:2433",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "projection_id": "core2630:2434",
+    "reason": "Different sealed proof schema, separate converter required"
+  },
+  {
+    "key": [
+      2020,
+      "EXEC",
+      "AE",
+      "BG",
+      "DA",
+      "146",
+      "07"
+    ],
+    "reason": "Source versions have different detail sets; no precedence chosen"
+  },
+  {
+    "key": [
+      2020,
+      "EXEC",
+      "AE",
+      "BG",
+      "DA",
+      "146",
+      "09"
+    ],
+    "reason": "Source versions have different detail sets; no precedence chosen"
+  },
+  {
+    "key": [
+      2020,
+      "EXEC",
+      "CP",
+      "BG",
+      "DA",
+      "146",
+      "07"
+    ],
+    "reason": "Source versions have different detail sets; no precedence chosen"
+  },
+  {
+    "key": [
+      2022,
+      "EXEC",
+      "CP",
+      "BG",
+      "DA",
+      "146",
+      "08"
+    ],
+    "reason": "Source versions have different detail sets; no precedence chosen"
+  },
+  {
+    "key": [
+      2022,
+      "EXEC",
+      "CP",
+      "BG",
+      "RA",
+      "190",
+      "13"
+    ],
+    "reason": "Other siblings lack available converter/qualification",
+    "codes": [
+      "02",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ]
+  },
+  {
+    "key": [
+      2026,
+      "PLF",
+      "AE",
+      "BG",
+      "RA",
+      "190",
+      "14"
+    ],
+    "reason": "Other siblings lack available converter/qualification",
+    "codes": [
+      "03"
+    ]
+  },
+  {
+    "key": [
+      2026,
+      "PLF",
+      "AE",
+      "BG",
+      "SB",
+      "152",
+      "05"
+    ],
+    "reason": "Other siblings lack available converter/qualification",
+    "codes": [
+      "02"
+    ]
+  },
+  {
+    "key": [
+      2026,
+      "PLF",
+      "CP",
+      "BG",
+      "RA",
+      "190",
+      "14"
+    ],
+    "reason": "Other siblings lack available converter/qualification",
+    "codes": [
+      "03"
+    ]
+  },
+  {
+    "key": [
+      2026,
+      "PLF",
+      "CP",
+      "BG",
+      "SB",
+      "152",
+      "05"
+    ],
+    "reason": "Other siblings lack available converter/qualification",
+    "codes": [
+      "02"
+    ]
+  }
+]

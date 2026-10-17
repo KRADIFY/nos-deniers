@@ -77,6 +77,12 @@ class InternalDetailTests(unittest.TestCase):
         self.assertEqual(self.cell(rows)['nominal_cents'],200000001)
         self.assertIsNone(self.cell(rows,PATH+'/01')['value'])
 
+    def test_known_native_child_under_excluded_parent_is_excluded(self):
+        raw=[fact()];rows=self.attach(raw,partition(raw))
+        c=self.cell(rows,PATH+'/01',[PATH])
+        self.assertEqual(c['status'],'excluded')
+        self.assertEqual(c['value'],0)
+
     def test_changed_primary_source_disables_new_details(self):
         raw=[fact()];rows=self.attach(raw,partition(raw),SourceDB(changed=True))
         self.assertEqual(self.cell(rows)['nominal_cents'],200000000)

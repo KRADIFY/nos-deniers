@@ -1,0 +1,18 @@
+{
+  "tests": 163,
+  "passed": 161,
+  "errors": [],
+  "skipped": [],
+  "elapsed_seconds": 5.23399999999674,
+  "scope": "Existing isolated unit tests, mocked data and in-memory SQLite only; no application or active data changes.",
+  "failures": [
+    {
+      "test": "test_budget.BudgetCalculationTests.test_query_bounds_and_formula_injection",
+      "note": "Same historical obsolete assertions retained"
+    },
+    {
+      "test": "test_action_details.ActionDetailTests.test_reviewed_groups_have_complete_actions_and_explicit_rounding",
+      "note": "Same historical obsolete assertions retained"
+    }
+  ]
+}
