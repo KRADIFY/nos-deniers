@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "archives": {
+    "/opt/nos-deniers/staging/20261018-p156-execution-soutien-15/FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json": "644380ee1c7519e22cdac52741dda2c58c22eb29e71e3eaca09014e0b55d993f",
+    "/opt/nos-deniers/staging/20261018-gestion-locale-execution-18/FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json": "08138a3c6ef10ffc85e0a9a16b0476fd7648d5995395487701b64276bd3dadfe",
+    "/opt/nos-deniers/staging/20261018-soutien-prevention-19-v3/FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json": "3080281e5b92c7896a123387f9a15a691af4a28849fe8375b887398058d5787c"
+  }
+}

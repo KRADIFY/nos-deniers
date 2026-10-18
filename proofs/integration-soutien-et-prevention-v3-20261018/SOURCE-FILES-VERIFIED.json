@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "source": "acbc3854caa405114230",
+      "sha256": "0d411deb6cbabc3a49fb6159a2311fe03caf579f03a978e3084c4b86e30da80d",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\rap\\2019\\FR_2019_PLR_BG_MSN_GA-0d411deb6cba.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "f487ad1a341b86702723",
+      "sha256": "1d66411ebc9f35938b525c93b5d3ff34bc96ad38ab971b80ff22ce8f5f24c486",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2020\\FR_2020_PLR_BG_MSN_GA-1d66411ebc9f.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "3228b40dca985cb3bb15",
+      "sha256": "285a42286f6f7d6533c497a7549fbd5679cf9f13d7ee4be261b5921fe09350e8",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\rap\\2018\\RAP2018_BG_Gestion_finances_publiques_ressources_humaines-285a42286f6f.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "d31fa13063b5b9af8623",
+      "sha256": "3ed1ef90a00ce3d036bef7b198f667e6a96b2772071b6cd3984604125a69ccf5",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2017\\DRGPGMPGM156-3ed1ef90a00c.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "dff4179ccf2c00f67090",
+      "sha256": "65bd47605074f1a744f4e0c6d0f9cb22b54c6514d6ac318e849838f5df2c872d",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\rap\\2019\\FR_2019_PLR_BG_PGM_156-65bd47605074.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "bdacc1084e809bde458d",
+      "sha256": "90c7c6f761e12d8b61aca8081cd3ad11fe3bc485d29db87f2b225a9cafabdcb0",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\collecte\\rap\\2017\\RAP2017_BG_Gestion_finances_publiques_ressources_humaines-90c7c6f761e1.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "896fedd4aa281f5a4aa6",
+      "sha256": "eefcfd651056b406ae349a00f4b65d9021f762a3e032f908d40ac960b44da29a",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2020\\FR_2020_PLR_BG_PGM_156-eefcfd651056.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "5e6ee26d2efac595c2fe",
+      "sha256": "f0aef77957972856340b4527dc3a58ecfb8b4ebdd0f28a0b268ebdc429af23c0",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2018\\DRGPGMPGM156-f0aef7795797.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "489dafa3aadf8dbc90aa",
+      "sha256": "6d032cdff754a2a8004befd5a623772ae64905ac767ac791873bb07d178878d0",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2024\\Gestion_des_finances_publiques-aade817c.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "967bc75f1de056a01e3b",
+      "sha256": "914816cbc90cfc2c26c6b4e146ea6789c65c5d6e5965c72603df8b454a22fa56",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2021\\FR_2021_PLR_BG_PGM_156-914816cbc90c.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "afe5d663cfb0e2c02192",
+      "sha256": "c4e8645a8c38183e6a9b732664d60dbd5683f3dd2830d7fe9eb12697d7bfce89",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2023\\Gestion_des_finances_publiques-c37fdb9a.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "066c6fcbfb5d1d7211ff",
+      "sha256": "c53333019d69ed20936b32da74294dc36f36d28249da60b9e22d29dbe2b42d32",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2021\\FR_2021_PLR_BG_MSN_GA-c53333019d69.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "05e544db1b1f14600a48",
+      "sha256": "c69e680ab6dd63bf664cf840b23edf20daa2d311f68c8c324417ac3744844fd6",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2022\\RAP2022_BG_Gestion_finances_publiques-c69e680ab6dd.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "2f6230e25a0d0bfd33f4",
+      "sha256": "e5f9b5f89ae9a4e43cdb80272b91e917b592f062f750b8034af2d92a626abcac",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2022\\FR_2022_PLR_BG_PGM_156-e5f9b5f89ae9.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "d2c406b7e2bc73904e50",
+      "sha256": "32ce9c21bdaeddc73ea48365e7ca39a875db451857d65105d39eb7e91e15e4b9",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2025\\Cohesion_des_territoires-3c38c98a.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "12c1ec729cf3eac1be6e",
+      "sha256": "546d8e4cd9e45a7ba64ad50b0389bcb97c2dd9ef8c90fcf84b2bd6d31c71fcf9",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2021\\FR_2021_PLF_BG_MSN_VA-546d8e4cd9e4.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "1f33dcb8d71d7fe7db83",
+      "sha256": "8d939111ccfbf19ec86e1eeb0ba5a2f73231287b79683fc2559fd26a431902ed",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2021\\FR_2021_PLF_BG_PGM_177-8d939111ccfb.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    }
+  ]
+}

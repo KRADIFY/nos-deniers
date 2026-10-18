@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "at": "2026-10-18T00:11:58.990376+00:00",
+  "checks": [
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "kind": "native_action_facts",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "kind": "native_action_facts",
+      "relation": "published_precision",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "kind": "native_action_facts",
+      "relation": "published_precision",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "exact",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "kind": "reviewed_registry_action",
+      "relation": "partial",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "kind": "native_action_facts",
+      "relation": "partial",
+      "valid_attaches": true,
+      "changed_fact_disables": true,
+      "changed_source_disables": true
+    }
+  ]
+}

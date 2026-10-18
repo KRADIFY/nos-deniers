@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-18T00:10:19.782405+00:00",
+  "passed": true,
+  "counts": {
+    "parent_unchanged": 24,
+    "source_value_selectable": 211,
+    "source_citation": 211,
+    "actual_leaf_route": 211,
+    "breadcrumbs_documented_label": 211,
+    "annual_source_label": 211,
+    "all_hierarchical_exclusion_combinations": 9116,
+    "duplicate_and_permutation": 523,
+    "ancestor_exclusion": 211,
+    "unknown_remains_unavailable": 24,
+    "unit_warning": 45,
+    "deeper_navigation": 44,
+    "other_stage_rows_not_fabricated": 44,
+    "ancestor_overdraw_unavailable": 4
+  },
+  "new_positions": 211,
+  "errors": [],
+  "verified_by": "Actual prior candidate runtime plus strict single-note numerical-input invariance",
+  "previous_runtime_receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-soutien-et-prevention-v2-20261018\\LOGEMENT-REGRESSION-VERIFIED.json",
+  "previous_runtime_receipt_sha256": "1c1f49b9d63f7c36dd60b40a538aa30e3c3e2204fb131be2b94bf7b3e5636624",
+  "runtime_reexecuted_on_this_serialization": false,
+  "numerical_input_invariance_sha256": "56d685ab082cabccdba333ff1b8fce789469b8fe7bb369d699ef293975fe3637"
+}

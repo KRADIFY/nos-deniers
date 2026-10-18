@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-18T00:10:11.216716+00:00",
+  "passed": true,
+  "counts": {
+    "parent_unchanged": 26,
+    "source_value_selectable": 267,
+    "source_citation": 267,
+    "unit_warning": 144,
+    "actual_leaf_route": 267,
+    "breadcrumbs_documented_label": 267,
+    "annual_source_label": 267,
+    "deeper_navigation": 69,
+    "other_stage_rows_not_fabricated": 69,
+    "all_hierarchical_exclusion_combinations": 25920,
+    "duplicate_and_permutation": 1538,
+    "ancestor_exclusion": 267,
+    "unknown_remains_unavailable": 26
+  },
+  "new_positions": 267,
+  "errors": [],
+  "verified_by": "Actual prior candidate runtime plus strict single-note numerical-input invariance",
+  "previous_runtime_receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-soutien-et-prevention-v2-20261018\\MANAGEMENT-REGRESSION-VERIFIED.json",
+  "previous_runtime_receipt_sha256": "cbb3f8184f7f3448907fc64052a998f80b0316bedea69a4a01bb84e7064471a1",
+  "runtime_reexecuted_on_this_serialization": false,
+  "numerical_input_invariance_sha256": "56d685ab082cabccdba333ff1b8fce789469b8fe7bb369d699ef293975fe3637"
+}

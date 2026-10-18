@@ -1,0 +1,2179 @@
+{
+  "at": "2026-10-18T00:26:46.670218+00:00",
+  "qualified_coded_denominator": 2762,
+  "published_coded_positions": 2723,
+  "remaining_coded_positions": 39,
+  "published_p177_noncoded_positions": 40,
+  "published_added_positions_total": 8311,
+  "not_global_PAP_RAP_coverage": true,
+  "remaining_positions": [
+    {
+      "position_id": 701,
+      "annual_key": {
+        "year": 2020,
+        "stage": "EXEC",
+        "budget": "BG",
+        "mission": "DA",
+        "program": "146",
+        "action": "07",
+        "detail_code": "45",
+        "measure": "AE"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Espace - Maîtrise de l'Espace"
+      ],
+      "completed_annual_label": null,
+      "unit": "EUR",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "financial_amount_support": "etaye_dans_le_tableau_annuel_a_sa_precision_publiee",
+      "partition_class": "complete_official_partition_available_at_published_precision",
+      "parent_child_semantics": "ordinary_official_subaction_distinct_from_parent",
+      "source_cohort": "other1358",
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\remaining-1358-semantic\\FINANCIAL-REGISTRY-1358.json",
+        "sha256": "8d68dd0871e79f59450010f25d96d850f9b4f3925225d14a8ea53c8c8aca4bdd",
+        "array_field": null,
+        "array_index": 202,
+        "position_id": 701
+      },
+      "reserves_preserved_in_full_qualification": true,
+      "relation_warnings": [
+        "Printed precision supports the source figures; exact-cent equality demanded by the present import contract is not established. Preserve current cent-valued children and parent."
+      ],
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "current_engine_eligibility_not_inferred_from_amount_support": true,
+      "projection_id": "core2630:701",
+      "core_source_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\combined-2630\\PROPOSALS-COMBINED-2630.json",
+        "sha256": "7725582bc0a78d3c96db2b85b1af98f41cafcfb31d5b1a8c2904bffd82df328e",
+        "position_id": 701
+      }
+    },
+    {
+      "position_id": 702,
+      "annual_key": {
+        "year": 2020,
+        "stage": "EXEC",
+        "budget": "BG",
+        "mission": "DA",
+        "program": "146",
+        "action": "07",
+        "detail_code": "45",
+        "measure": "CP"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Espace - Maîtrise de l'Espace"
+      ],
+      "completed_annual_label": null,
+      "unit": "EUR",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "financial_amount_support": "etaye_dans_le_tableau_annuel_a_sa_precision_publiee",
+      "partition_class": "complete_official_partition_available_at_published_precision",
+      "parent_child_semantics": "ordinary_official_subaction_distinct_from_parent",
+      "source_cohort": "other1358",
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\remaining-1358-semantic\\FINANCIAL-REGISTRY-1358.json",
+        "sha256": "8d68dd0871e79f59450010f25d96d850f9b4f3925225d14a8ea53c8c8aca4bdd",
+        "array_field": null,
+        "array_index": 203,
+        "position_id": 702
+      },
+      "reserves_preserved_in_full_qualification": true,
+      "relation_warnings": [
+        "Printed precision supports the source figures; exact-cent equality demanded by the present import contract is not established. Preserve current cent-valued children and parent."
+      ],
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "current_engine_eligibility_not_inferred_from_amount_support": true,
+      "projection_id": "core2630:702",
+      "core_source_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\combined-2630\\PROPOSALS-COMBINED-2630.json",
+        "sha256": "7725582bc0a78d3c96db2b85b1af98f41cafcfb31d5b1a8c2904bffd82df328e",
+        "position_id": 702
+      }
+    },
+    {
+      "position_id": 705,
+      "annual_key": {
+        "year": 2020,
+        "stage": "EXEC",
+        "budget": "BG",
+        "mission": "DA",
+        "program": "146",
+        "action": "09",
+        "detail_code": "62",
+        "measure": "AE"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Frapper à distance - SCAF"
+      ],
+      "completed_annual_label": null,
+      "unit": "EUR",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "financial_amount_support": "etaye_dans_le_tableau_annuel_a_sa_precision_publiee",
+      "partition_class": "complete_official_partition_available_at_published_precision",
+      "parent_child_semantics": "ordinary_official_subaction_distinct_from_parent",
+      "source_cohort": "other1358",
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\remaining-1358-semantic\\FINANCIAL-REGISTRY-1358.json",
+        "sha256": "8d68dd0871e79f59450010f25d96d850f9b4f3925225d14a8ea53c8c8aca4bdd",
+        "array_field": null,
+        "array_index": 206,
+        "position_id": 705
+      },
+      "reserves_preserved_in_full_qualification": true,
+      "relation_warnings": [
+        "Printed precision supports the source figures; exact-cent equality demanded by the present import contract is not established. Preserve current cent-valued children and parent."
+      ],
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "current_engine_eligibility_not_inferred_from_amount_support": true,
+      "projection_id": "core2630:705",
+      "core_source_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\combined-2630\\PROPOSALS-COMBINED-2630.json",
+        "sha256": "7725582bc0a78d3c96db2b85b1af98f41cafcfb31d5b1a8c2904bffd82df328e",
+        "position_id": 705
+      }
+    },
+    {
+      "position_id": 707,
+      "annual_key": {
+        "year": 2020,
+        "stage": "EXEC",
+        "budget": "BG",
+        "mission": "DA",
+        "program": "146",
+        "action": "09",
+        "detail_code": "80",
+        "measure": "AE"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Opérer en milieu hostile - MGCS Système de combat terrestre principal"
+      ],
+      "completed_annual_label": null,
+      "unit": "EUR",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "financial_amount_support": "etaye_dans_le_tableau_annuel_a_sa_precision_publiee",
+      "partition_class": "complete_official_partition_available_at_published_precision",
+      "parent_child_semantics": "ordinary_official_subaction_distinct_from_parent",
+      "source_cohort": "other1358",
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\remaining-1358-semantic\\FINANCIAL-REGISTRY-1358.json",
+        "sha256": "8d68dd0871e79f59450010f25d96d850f9b4f3925225d14a8ea53c8c8aca4bdd",
+        "array_field": null,
+        "array_index": 208,
+        "position_id": 707
+      },
+      "reserves_preserved_in_full_qualification": true,
+      "relation_warnings": [
+        "Printed precision supports the source figures; exact-cent equality demanded by the present import contract is not established. Preserve current cent-valued children and parent."
+      ],
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "current_engine_eligibility_not_inferred_from_amount_support": true,
+      "projection_id": "core2630:707",
+      "core_source_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\combined-2630\\PROPOSALS-COMBINED-2630.json",
+        "sha256": "7725582bc0a78d3c96db2b85b1af98f41cafcfb31d5b1a8c2904bffd82df328e",
+        "position_id": 707
+      }
+    },
+    {
+      "position_id": 1050,
+      "annual_key": {
+        "year": 2022,
+        "stage": "EXEC",
+        "budget": "BG",
+        "mission": "DA",
+        "program": "146",
+        "action": "08",
+        "detail_code": "51",
+        "measure": "CP"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Assurer la mobilité - FTLT"
+      ],
+      "completed_annual_label": null,
+      "unit": "EUR",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "financial_amount_support": "etaye_dans_le_tableau_annuel_a_sa_precision_publiee",
+      "partition_class": "complete_official_partition_available_at_published_precision",
+      "parent_child_semantics": "ordinary_official_subaction_distinct_from_parent",
+      "source_cohort": "other1358",
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\remaining-1358-semantic\\FINANCIAL-REGISTRY-1358.json",
+        "sha256": "8d68dd0871e79f59450010f25d96d850f9b4f3925225d14a8ea53c8c8aca4bdd",
+        "array_field": null,
+        "array_index": 395,
+        "position_id": 1050
+      },
+      "reserves_preserved_in_full_qualification": true,
+      "relation_warnings": [
+        "Printed precision supports the source figures; exact-cent equality demanded by the present import contract is not established. Preserve current cent-valued children and parent."
+      ],
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "current_engine_eligibility_not_inferred_from_amount_support": true,
+      "projection_id": "core2630:1050",
+      "core_source_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\combined-2630\\PROPOSALS-COMBINED-2630.json",
+        "sha256": "7725582bc0a78d3c96db2b85b1af98f41cafcfb31d5b1a8c2904bffd82df328e",
+        "position_id": 1050
+      }
+    },
+    {
+      "position_id": 1397,
+      "annual_key": {
+        "year": 2024,
+        "stage": "PLF",
+        "budget": "BG",
+        "mission": "TA",
+        "program": "345",
+        "action": "15",
+        "detail_code": "01",
+        "measure": "AE"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Frais financiers et de gestion des contrats"
+      ],
+      "completed_annual_label": null,
+      "unit": "EUR",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "financial_amount_support": "etaye_dans_le_tableau_annuel_a_sa_precision_publiee",
+      "partition_class": "complete_exact_partition_preserving_current_values",
+      "parent_child_semantics": "official_internal_detail_no_ancestor_double_count",
+      "source_cohort": "native1150",
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\native-semantic-1150\\PROPOSALS-1150.json",
+        "sha256": "39f9023b7a49003637cbd60904bde2eb0fd0ea0d678d126214b66ca8ab3d1c2d",
+        "array_field": "positions",
+        "array_index": 578,
+        "position_id": 1397
+      },
+      "reserves_preserved_in_full_qualification": true,
+      "relation_warnings": [],
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "current_engine_eligibility_not_inferred_from_amount_support": true,
+      "projection_id": "core2630:1397",
+      "core_source_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\combined-2630\\PROPOSALS-COMBINED-2630.json",
+        "sha256": "7725582bc0a78d3c96db2b85b1af98f41cafcfb31d5b1a8c2904bffd82df328e",
+        "position_id": 1397
+      }
+    },
+    {
+      "position_id": 1398,
+      "annual_key": {
+        "year": 2024,
+        "stage": "PLF",
+        "budget": "BG",
+        "mission": "TA",
+        "program": "345",
+        "action": "15",
+        "detail_code": "01",
+        "measure": "CP"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Frais financiers et de gestion des contrats"
+      ],
+      "completed_annual_label": null,
+      "unit": "EUR",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "financial_amount_support": "etaye_dans_le_tableau_annuel_a_sa_precision_publiee",
+      "partition_class": "complete_exact_partition_preserving_current_values",
+      "parent_child_semantics": "official_internal_detail_no_ancestor_double_count",
+      "source_cohort": "native1150",
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\native-semantic-1150\\PROPOSALS-1150.json",
+        "sha256": "39f9023b7a49003637cbd60904bde2eb0fd0ea0d678d126214b66ca8ab3d1c2d",
+        "array_field": "positions",
+        "array_index": 579,
+        "position_id": 1398
+      },
+      "reserves_preserved_in_full_qualification": true,
+      "relation_warnings": [],
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "current_engine_eligibility_not_inferred_from_amount_support": true,
+      "projection_id": "core2630:1398",
+      "core_source_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\combined-2630\\PROPOSALS-COMBINED-2630.json",
+        "sha256": "7725582bc0a78d3c96db2b85b1af98f41cafcfb31d5b1a8c2904bffd82df328e",
+        "position_id": 1398
+      }
+    },
+    {
+      "projection_id": "recovered270:20",
+      "annual_key": {
+        "year": 2017,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "96",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Parts étrangères"
+      ],
+      "additional_exact_CSV_labels_with_source": [
+        {
+          "source_sha256": "052eba0a096a017de28b4e9ac26300ca73fd8b33f6965256e817618be81beef7",
+          "csv_record_one_based": 70,
+          "label": "Parts étrangères",
+          "source": "CSV"
+        }
+      ],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "disclosed EURinference, positive complete same-CSVparent sums match current scale",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "CSV",
+      "source_followup_id": 20,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 19,
+        "followup_id": 20
+      },
+      "proof_reference": {
+        "path": "CSV108-TARGETS-FROZEN.json",
+        "followup_id": 20
+      },
+      "parent_partition_reference": {
+        "path": "CSV-ZERO-PARENT-PARTITIONS.json",
+        "index": 6,
+        "status": "source_complete_partition_current_parent_absent"
+      },
+      "reserves": [
+        "PDF originally lacks a numeric cell at requested annual measure; preserved as blank/unknownPDF. Zero comes only from explicit0literal in official CSV.",
+        "CSV and PDF remain distinct source versions; no claim a zero is printed on thePDF.",
+        "Source complete all-zero partition but current annual action parent absent; separate parent registration/eligibility required before any selection."
+      ],
+      "blank_PDF_not_changed_to_zero": true,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:21",
+      "annual_key": {
+        "year": 2017,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "96",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Parts étrangères"
+      ],
+      "additional_exact_CSV_labels_with_source": [
+        {
+          "source_sha256": "052eba0a096a017de28b4e9ac26300ca73fd8b33f6965256e817618be81beef7",
+          "csv_record_one_based": 70,
+          "label": "Parts étrangères",
+          "source": "CSV"
+        }
+      ],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "disclosed EURinference, positive complete same-CSVparent sums match current scale",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "CSV",
+      "source_followup_id": 21,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 20,
+        "followup_id": 21
+      },
+      "proof_reference": {
+        "path": "CSV108-TARGETS-FROZEN.json",
+        "followup_id": 21
+      },
+      "parent_partition_reference": {
+        "path": "CSV-ZERO-PARENT-PARTITIONS.json",
+        "index": 7,
+        "status": "source_complete_partition_current_parent_absent"
+      },
+      "reserves": [
+        "PDF originally lacks a numeric cell at requested annual measure; preserved as blank/unknownPDF. Zero comes only from explicit0literal in official CSV.",
+        "CSV and PDF remain distinct source versions; no claim a zero is printed on thePDF.",
+        "Source complete all-zero partition but current annual action parent absent; separate parent registration/eligibility required before any selection."
+      ],
+      "blank_PDF_not_changed_to_zero": true,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:22",
+      "annual_key": {
+        "year": 2017,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "97",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Programmes civils"
+      ],
+      "additional_exact_CSV_labels_with_source": [
+        {
+          "source_sha256": "052eba0a096a017de28b4e9ac26300ca73fd8b33f6965256e817618be81beef7",
+          "csv_record_one_based": 71,
+          "label": "Programmes civils",
+          "source": "CSV"
+        }
+      ],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "disclosed EURinference, positive complete same-CSVparent sums match current scale",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "CSV",
+      "source_followup_id": 22,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 21,
+        "followup_id": 22
+      },
+      "proof_reference": {
+        "path": "CSV108-TARGETS-FROZEN.json",
+        "followup_id": 22
+      },
+      "parent_partition_reference": {
+        "path": "CSV-ZERO-PARENT-PARTITIONS.json",
+        "index": 6,
+        "status": "source_complete_partition_current_parent_absent"
+      },
+      "reserves": [
+        "PDF originally lacks a numeric cell at requested annual measure; preserved as blank/unknownPDF. Zero comes only from explicit0literal in official CSV.",
+        "CSV and PDF remain distinct source versions; no claim a zero is printed on thePDF.",
+        "Source complete all-zero partition but current annual action parent absent; separate parent registration/eligibility required before any selection."
+      ],
+      "blank_PDF_not_changed_to_zero": true,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:23",
+      "annual_key": {
+        "year": 2017,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "97",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Programmes civils"
+      ],
+      "additional_exact_CSV_labels_with_source": [
+        {
+          "source_sha256": "052eba0a096a017de28b4e9ac26300ca73fd8b33f6965256e817618be81beef7",
+          "csv_record_one_based": 71,
+          "label": "Programmes civils",
+          "source": "CSV"
+        }
+      ],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "disclosed EURinference, positive complete same-CSVparent sums match current scale",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "CSV",
+      "source_followup_id": 23,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 22,
+        "followup_id": 23
+      },
+      "proof_reference": {
+        "path": "CSV108-TARGETS-FROZEN.json",
+        "followup_id": 23
+      },
+      "parent_partition_reference": {
+        "path": "CSV-ZERO-PARENT-PARTITIONS.json",
+        "index": 7,
+        "status": "source_complete_partition_current_parent_absent"
+      },
+      "reserves": [
+        "PDF originally lacks a numeric cell at requested annual measure; preserved as blank/unknownPDF. Zero comes only from explicit0literal in official CSV.",
+        "CSV and PDF remain distinct source versions; no claim a zero is printed on thePDF.",
+        "Source complete all-zero partition but current annual action parent absent; separate parent registration/eligibility required before any selection."
+      ],
+      "blank_PDF_not_changed_to_zero": true,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:101",
+      "annual_key": {
+        "year": 2018,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "96",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Parts étrangères"
+      ],
+      "additional_exact_CSV_labels_with_source": [
+        {
+          "source_sha256": "873db44e3ff639ecaa0dd36129f1a06a7e318f143e852da9095e8c9c0171d980",
+          "csv_record_one_based": 205,
+          "label": "Parts étrangères",
+          "source": "CSV"
+        }
+      ],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "disclosed EURinference, positive complete same-CSVparent sums match current scale",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "CSV",
+      "source_followup_id": 101,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 74,
+        "followup_id": 101
+      },
+      "proof_reference": {
+        "path": "CSV108-TARGETS-FROZEN.json",
+        "followup_id": 101
+      },
+      "parent_partition_reference": {
+        "path": "CSV-ZERO-PARENT-PARTITIONS.json",
+        "index": 31,
+        "status": "source_complete_partition_current_parent_absent"
+      },
+      "reserves": [
+        "PDF originally lacks a numeric cell at requested annual measure; preserved as blank/unknownPDF. Zero comes only from explicit0literal in official CSV.",
+        "CSV and PDF remain distinct source versions; no claim a zero is printed on thePDF.",
+        "Source complete all-zero partition but current annual action parent absent; separate parent registration/eligibility required before any selection."
+      ],
+      "blank_PDF_not_changed_to_zero": true,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:102",
+      "annual_key": {
+        "year": 2018,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "96",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Parts étrangères"
+      ],
+      "additional_exact_CSV_labels_with_source": [
+        {
+          "source_sha256": "873db44e3ff639ecaa0dd36129f1a06a7e318f143e852da9095e8c9c0171d980",
+          "csv_record_one_based": 205,
+          "label": "Parts étrangères",
+          "source": "CSV"
+        }
+      ],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "disclosed EURinference, positive complete same-CSVparent sums match current scale",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "CSV",
+      "source_followup_id": 102,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 75,
+        "followup_id": 102
+      },
+      "proof_reference": {
+        "path": "CSV108-TARGETS-FROZEN.json",
+        "followup_id": 102
+      },
+      "parent_partition_reference": {
+        "path": "CSV-ZERO-PARENT-PARTITIONS.json",
+        "index": 32,
+        "status": "source_complete_partition_current_parent_absent"
+      },
+      "reserves": [
+        "PDF originally lacks a numeric cell at requested annual measure; preserved as blank/unknownPDF. Zero comes only from explicit0literal in official CSV.",
+        "CSV and PDF remain distinct source versions; no claim a zero is printed on thePDF.",
+        "Source complete all-zero partition but current annual action parent absent; separate parent registration/eligibility required before any selection."
+      ],
+      "blank_PDF_not_changed_to_zero": true,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:103",
+      "annual_key": {
+        "year": 2018,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "97",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Programmes civils"
+      ],
+      "additional_exact_CSV_labels_with_source": [
+        {
+          "source_sha256": "873db44e3ff639ecaa0dd36129f1a06a7e318f143e852da9095e8c9c0171d980",
+          "csv_record_one_based": 206,
+          "label": "Programmes civils",
+          "source": "CSV"
+        }
+      ],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "disclosed EURinference, positive complete same-CSVparent sums match current scale",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "CSV",
+      "source_followup_id": 103,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 76,
+        "followup_id": 103
+      },
+      "proof_reference": {
+        "path": "CSV108-TARGETS-FROZEN.json",
+        "followup_id": 103
+      },
+      "parent_partition_reference": {
+        "path": "CSV-ZERO-PARENT-PARTITIONS.json",
+        "index": 31,
+        "status": "source_complete_partition_current_parent_absent"
+      },
+      "reserves": [
+        "PDF originally lacks a numeric cell at requested annual measure; preserved as blank/unknownPDF. Zero comes only from explicit0literal in official CSV.",
+        "CSV and PDF remain distinct source versions; no claim a zero is printed on thePDF.",
+        "Source complete all-zero partition but current annual action parent absent; separate parent registration/eligibility required before any selection."
+      ],
+      "blank_PDF_not_changed_to_zero": true,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:104",
+      "annual_key": {
+        "year": 2018,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "97",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Programmes civils"
+      ],
+      "additional_exact_CSV_labels_with_source": [
+        {
+          "source_sha256": "873db44e3ff639ecaa0dd36129f1a06a7e318f143e852da9095e8c9c0171d980",
+          "csv_record_one_based": 206,
+          "label": "Programmes civils",
+          "source": "CSV"
+        }
+      ],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "disclosed EURinference, positive complete same-CSVparent sums match current scale",
+      "unit_inference_disclosed": true,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "CSV",
+      "source_followup_id": 104,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 77,
+        "followup_id": 104
+      },
+      "proof_reference": {
+        "path": "CSV108-TARGETS-FROZEN.json",
+        "followup_id": 104
+      },
+      "parent_partition_reference": {
+        "path": "CSV-ZERO-PARENT-PARTITIONS.json",
+        "index": 32,
+        "status": "source_complete_partition_current_parent_absent"
+      },
+      "reserves": [
+        "PDF originally lacks a numeric cell at requested annual measure; preserved as blank/unknownPDF. Zero comes only from explicit0literal in official CSV.",
+        "CSV and PDF remain distinct source versions; no claim a zero is printed on thePDF.",
+        "Source complete all-zero partition but current annual action parent absent; separate parent registration/eligibility required before any selection."
+      ],
+      "blank_PDF_not_changed_to_zero": true,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:234",
+      "annual_key": {
+        "year": 2020,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "96",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Parts étrangères"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 234,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 108,
+        "followup_id": 234
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 234
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2020/PLF/146/12/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:235",
+      "annual_key": {
+        "year": 2020,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "96",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Parts étrangères"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 235,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 109,
+        "followup_id": 235
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 235
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2020/PLF/146/12/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:236",
+      "annual_key": {
+        "year": 2020,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "97",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Programmes civils"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 236,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 110,
+        "followup_id": 236
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 236
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2020/PLF/146/12/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:237",
+      "annual_key": {
+        "year": 2020,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "97",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Programmes civils"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 237,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 111,
+        "followup_id": 237
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 237
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2020/PLF/146/12/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:240",
+      "annual_key": {
+        "year": 2021,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "96",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Parts étrangères"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 240,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 112,
+        "followup_id": 240
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 240
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2021/PLF/146/12/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:241",
+      "annual_key": {
+        "year": 2021,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "96",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Parts étrangères"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 241,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 113,
+        "followup_id": 241
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 241
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2021/PLF/146/12/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:242",
+      "annual_key": {
+        "year": 2021,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "97",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Programmes civils"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 242,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 114,
+        "followup_id": 242
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 242
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2021/PLF/146/12/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:243",
+      "annual_key": {
+        "year": 2021,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "97",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Programmes civils"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 243,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 115,
+        "followup_id": 243
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 243
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2021/PLF/146/12/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:247",
+      "annual_key": {
+        "year": 2021,
+        "stage": "EXEC",
+        "program": "345",
+        "action": "13",
+        "detail_code": "01",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Soutien aux effacements"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 247,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 116,
+        "followup_id": 247
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 247
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2021/EXEC/345/13/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:248",
+      "annual_key": {
+        "year": 2021,
+        "stage": "EXEC",
+        "program": "345",
+        "action": "13",
+        "detail_code": "01",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Soutien aux effacements"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 248,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 117,
+        "followup_id": 248
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 248
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2021/EXEC/345/13/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:249",
+      "annual_key": {
+        "year": 2022,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "96",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Parts étrangères"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 249,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 118,
+        "followup_id": 249
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 249
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2022/PLF/146/12/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:250",
+      "annual_key": {
+        "year": 2022,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "96",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Parts étrangères"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 250,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 119,
+        "followup_id": 250
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 250
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2022/PLF/146/12/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:251",
+      "annual_key": {
+        "year": 2022,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "97",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Programmes civils"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 251,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 120,
+        "followup_id": 251
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 251
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2022/PLF/146/12/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:252",
+      "annual_key": {
+        "year": 2022,
+        "stage": "PLF",
+        "program": "146",
+        "action": "12",
+        "detail_code": "97",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "DA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Programmes civils"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 252,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 121,
+        "followup_id": 252
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 252
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2022/PLF/146/12/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:259",
+      "annual_key": {
+        "year": 2023,
+        "stage": "PLF",
+        "program": "345",
+        "action": "09",
+        "detail_code": "01",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Eolien terrestre"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 259,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 122,
+        "followup_id": 259
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 259
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2023/PLF/345/09/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:260",
+      "annual_key": {
+        "year": 2023,
+        "stage": "PLF",
+        "program": "345",
+        "action": "09",
+        "detail_code": "01",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Eolien terrestre"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 260,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 123,
+        "followup_id": 260
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 260
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2023/PLF/345/09/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:261",
+      "annual_key": {
+        "year": 2023,
+        "stage": "PLF",
+        "program": "345",
+        "action": "09",
+        "detail_code": "02",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Eolien en mer"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 261,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 124,
+        "followup_id": 261
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 261
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2023/PLF/345/09/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:262",
+      "annual_key": {
+        "year": 2023,
+        "stage": "PLF",
+        "program": "345",
+        "action": "09",
+        "detail_code": "02",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Eolien en mer"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 262,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 125,
+        "followup_id": 262
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 262
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2023/PLF/345/09/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:263",
+      "annual_key": {
+        "year": 2023,
+        "stage": "PLF",
+        "program": "345",
+        "action": "09",
+        "detail_code": "03",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Solaire photovoltaïque"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 263,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 126,
+        "followup_id": 263
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 263
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2023/PLF/345/09/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:264",
+      "annual_key": {
+        "year": 2023,
+        "stage": "PLF",
+        "program": "345",
+        "action": "09",
+        "detail_code": "03",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Solaire photovoltaïque"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 264,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 127,
+        "followup_id": 264
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 264
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2023/PLF/345/09/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:265",
+      "annual_key": {
+        "year": 2023,
+        "stage": "PLF",
+        "program": "345",
+        "action": "09",
+        "detail_code": "04",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Bio-énergies"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 265,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 128,
+        "followup_id": 265
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 265
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2023/PLF/345/09/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:266",
+      "annual_key": {
+        "year": 2023,
+        "stage": "PLF",
+        "program": "345",
+        "action": "09",
+        "detail_code": "04",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Bio-énergies"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 266,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 129,
+        "followup_id": 266
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 266
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2023/PLF/345/09/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:267",
+      "annual_key": {
+        "year": 2023,
+        "stage": "PLF",
+        "program": "345",
+        "action": "09",
+        "detail_code": "05",
+        "measure": "AE",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Autres énergies"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 267,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 130,
+        "followup_id": 267
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 267
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2023/PLF/345/09/AE"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    },
+    {
+      "projection_id": "recovered270:268",
+      "annual_key": {
+        "year": 2023,
+        "stage": "PLF",
+        "program": "345",
+        "action": "09",
+        "detail_code": "05",
+        "measure": "CP",
+        "budget": "BG",
+        "mission": "TA"
+      },
+      "value_cents": 0,
+      "value_type": "explicit_zero",
+      "annual_source_labels": [
+        "Autres énergies"
+      ],
+      "additional_exact_CSV_labels_with_source": [],
+      "labels_and_versions_not_unified": true,
+      "unit": "EUR",
+      "unit_status": "EURexplicit in the same supporting PDFunit note",
+      "unit_inference_disclosed": false,
+      "printed_precision_cents": 100,
+      "source_cohort": "recovered270",
+      "source_type": "PDF",
+      "source_followup_id": 268,
+      "financial_amount_support": "zero_numerique_explicite_dans_la_source_qui_le_prouve",
+      "parent_child_semantics": "official_zero_detail_not_extra_spending",
+      "partition_class": "complete_source_partition_current_parent_absent",
+      "current_parent_present": false,
+      "full_qualification_reference": {
+        "path": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\coded-details\\ambiguous-270-followup\\PROPOSALS-132-EXPLICIT-ZEROS.json",
+        "sha256": "253273a27214f17048108940953e4da5ce8a6854d94e75884fa9e4d841f5ec89",
+        "array_field": "positions",
+        "array_index": 131,
+        "followup_id": 268
+      },
+      "proof_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "followup_id": 268
+      },
+      "parent_partition_reference": {
+        "path": "EXPLICIT-NATIVE-ZEROS-24.json",
+        "partition_id": "2023/PLF/345/09/CP"
+      },
+      "reserves": [
+        "Original financial uncertainty resolved by explicit same-PDFEURnote and source native parent0partition. Current parent still absent: no automatic registration or calculation."
+      ],
+      "blank_PDF_not_changed_to_zero": false,
+      "source_version_precedence_chosen": false,
+      "integration_approved": false,
+      "engine_eligibility_not_inferred": true
+    }
+  ],
+  "published_p156_fiscality_documentary_positions": 152,
+  "published_p156_new_prose_positions": 84,
+  "published_p156_nature_aggregate_navigation_positions": 68,
+  "not_additive_funding_envelopes": true,
+  "published_p177_actions11_14_documentary_positions": 28,
+  "published_p177_actions11_14_new_qualified_positions": 20,
+  "published_p177_actions11_14_historical_not_previously_selectable": 8,
+  "published_p156_management_navigation_positions": 267,
+  "published_p156_management_source_qualified_positions": 241,
+  "published_p156_management_support_navigation_positions": 26,
+  "reserved_p156_RAP2025_action03_parallel_nature_positions": 4,
+  "published_logement_etudiants_navigation_positions": 211,
+  "published_logement_etudiants_new_qualified_positions": 191,
+  "published_logement_etudiants_historical_reused_positions": 16,
+  "published_logement_etudiants_title_aggregate_positions": 4,
+  "reserved_P177_RAP2020_2021_parallel_positions": 15,
+  "published_etudiants_history_navigation_positions": 290,
+  "published_etudiants_history_new_qualified_positions": 210,
+  "published_etudiants_history_existing_nature_positions": 56,
+  "published_etudiants_history_title_aggregate_positions": 24,
+  "reserved_etudiants_history_calendar_PPCR_CPER_provision_positions": 19,
+  "reserved_etudiants_history_RAP_CPER_ordinary_positions": 32,
+  "reserved_etudiants_history_RAP_english_positions": 2,
+  "published_fiscal_history_navigation_positions": 462,
+  "published_fiscal_history_new_qualified_positions": 258,
+  "published_fiscal_history_existing_nature_and_aggregate_positions": 204,
+  "published_fiscal_execution_navigation_positions": 579,
+  "published_fiscal_execution_new_qualified_positions": 453,
+  "published_fiscal_execution_existing_nature_and_aggregate_positions": 126,
+  "published_justice_fiscal_navigation_positions": 531,
+  "published_justice_fiscal_qualified_positions": 382,
+  "published_justice_fiscal_existing_nature_and_aggregate_positions": 149,
+  "release_13": {
+    "batch": "integration-p156-gestion-historique-20261018",
+    "navigation_positions": 296,
+    "qualified_positions": 150,
+    "current_nature_title_and_alias_navigation": 146
+  },
+  "release_14": {
+    "batch": "integration-p156-soutien-historique-20261018",
+    "navigation_positions": 651,
+    "qualified_positions": 512,
+    "current_nature_title_and_alias_navigation": 139
+  },
+  "release_15": {
+    "batch": "integration-p156-execution-soutien-20261018",
+    "navigation_positions": 519,
+    "qualified_positions": 427,
+    "current_nature_title_and_alias_navigation": 92
+  },
+  "release_16": {
+    "batch": "integration-etudiants-execution-v2-20261018",
+    "navigation_positions": 255,
+    "qualified_positions": 181,
+    "current_nature_title_and_alias_navigation": 74
+  },
+  "release_17": {
+    "batch": "integration-gestion-execution-v2-20261018",
+    "navigation_positions": 357,
+    "qualified_positions": 285,
+    "current_nature_title_and_alias_navigation": 72
+  },
+  "release_18": {
+    "batch": "integration-gestion-locale-execution-20261018",
+    "navigation_positions": 328,
+    "qualified_positions": 226,
+    "current_nature_title_and_alias_navigation": 102
+  },
+  "release_19": {
+    "batch": "integration-soutien-et-prevention-v3-20261018",
+    "navigation_positions": 622,
+    "qualified_positions": 542,
+    "current_nature_title_and_alias_navigation": 80
+  }
+}

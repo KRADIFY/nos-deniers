@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-18T00:12:31.171989+00:00",
+  "passed": true,
+  "counts": {
+    "parent_unchanged": 30,
+    "source_value_selectable": 579,
+    "source_citation": 579,
+    "unit_warning": 197,
+    "actual_leaf_route": 579,
+    "breadcrumbs_documented_label": 579,
+    "annual_source_label": 579,
+    "deeper_navigation": 168,
+    "other_stage_rows_not_fabricated": 168,
+    "all_hierarchical_exclusion_combinations": 95194,
+    "duplicate_and_permutation": 5486,
+    "ancestor_exclusion": 579,
+    "unknown_remains_unavailable": 30,
+    "ancestor_overdraw_unavailable": 2
+  },
+  "new_positions": 579,
+  "errors": [],
+  "verified_by": "Actual prior candidate runtime plus strict single-note numerical-input invariance",
+  "previous_runtime_receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-soutien-et-prevention-v2-20261018\\EXECUTION-REGRESSION-VERIFIED.json",
+  "previous_runtime_receipt_sha256": "bedef09deb1e8f8fb1e0438fcfc98486970a9ab7cccdec1765e44cf6c34108ad",
+  "runtime_reexecuted_on_this_serialization": false,
+  "numerical_input_invariance_sha256": "56d685ab082cabccdba333ff1b8fce789469b8fe7bb369d699ef293975fe3637"
+}

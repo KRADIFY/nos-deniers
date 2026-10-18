@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-18T00:10:39.876196+00:00",
+  "passed": true,
+  "counts": {
+    "parent_unchanged": 32,
+    "source_value_selectable": 290,
+    "source_citation": 290,
+    "unit_warning": 156,
+    "actual_leaf_route": 290,
+    "breadcrumbs_documented_label": 290,
+    "annual_source_label": 290,
+    "deeper_navigation": 76,
+    "other_stage_rows_not_fabricated": 76,
+    "all_hierarchical_exclusion_combinations": 24408,
+    "duplicate_and_permutation": 1456,
+    "ancestor_exclusion": 290,
+    "unknown_remains_unavailable": 32,
+    "ancestor_overdraw_unavailable": 4
+  },
+  "new_positions": 290,
+  "errors": [],
+  "verified_by": "Actual prior candidate runtime plus strict single-note numerical-input invariance",
+  "previous_runtime_receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-soutien-et-prevention-v2-20261018\\ETUDIANTS-REGRESSION-VERIFIED.json",
+  "previous_runtime_receipt_sha256": "319b3e5cfb84f364f9a403a4eba9729033b7ea510379edc4232d5dbc3100b19e",
+  "runtime_reexecuted_on_this_serialization": false,
+  "numerical_input_invariance_sha256": "56d685ab082cabccdba333ff1b8fce789469b8fe7bb369d699ef293975fe3637"
+}

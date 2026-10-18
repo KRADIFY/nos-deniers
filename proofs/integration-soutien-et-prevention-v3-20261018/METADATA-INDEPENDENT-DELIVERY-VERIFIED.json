@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-metadata-O19-v2-20261018\\METADATA-COMPACTION-INDEPENDENT-QA-VERIFIED.json",
+  "receipt_sha256": "d4f42a119eae4e157836f41891efdec3a8b673b980e7f28fa186141f0bc7e9ee",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-metadata-O19-v2-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "87944ab3ea6a863cd2041d3530b1488cb3c4dd3cc45795261c7634fdbd578fd5",
+  "independent_result": {
+    "at": "2026-10-18T00:11:30.118008+00:00",
+    "passed": true,
+    "reviewer": "project_p156_ready_details",
+    "candidate": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-soutien-et-prevention-v3-20261018",
+    "checks": {
+      "partitions": 382,
+      "all_nodes": 5970,
+      "snapshots": 642,
+      "already_referenced_snapshots": 5202,
+      "preserved_existing_nodes": 0,
+      "identical_runtime_rows": 5970,
+      "all_non_snapshot_node_fields_equal": 5970,
+      "all_non_hash_partition_fields_equal": 382,
+      "snapshots_restored": 642
+    },
+    "archive_sha256": "3080281e5b92c7896a123387f9a15a691af4a28849fe8375b887398058d5787c",
+    "compacted_candidate_sha256": "7957e3ab984ed187d4af5082129bce2d4688b08a96cfde5af3723caace902466",
+    "archive_bytes": 110666519,
+    "compacted_bytes": 69685836,
+    "changed_partition_hashes": 20,
+    "previous_partitions": 362,
+    "new_partitions": 20,
+    "snapshot_restoration_byte_identical_to_archive": true,
+    "all_non_audit_snapshot_financial_source_label_rule_guard_and_hierarchy_fields_identical": true,
+    "strict_combined_registry_integrity_passed": true,
+    "affected_hash_cross_reference_count": 0,
+    "supersedes_reference_count": 0,
+    "other_registries_byte_unchanged": true,
+    "runtime_code_byte_unchanged": true,
+    "runtime_audit_node_accesses_found": 0,
+    "findings": [],
+    "conditions": [
+      "Retain the full immutable archive in the permanent delivery folder and backups: it contains the original audit snapshots referenced by archive SHA, partition key, audit node ID and snapshot SHA.",
+      "Only unused audit_node snapshots and their integrity hashes change representation; do not extend this procedure to source_evidence or financial/rule/guard fields."
+    ],
+    "source_financial_reaudit": false,
+    "production_modified": false,
+    "published": false,
+    "older_archive_checks": [
+      {
+        "archive": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-p156-execution-soutien-20261018\\FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+        "archive_sha256": "644380ee1c7519e22cdac52741dda2c58c22eb29e71e3eaca09014e0b55d993f",
+        "references_checked": 4188,
+        "payloads_match_original_snapshots": true,
+        "separate_from_O19_archive": true
+      },
+      {
+        "archive": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-gestion-locale-execution-20261018\\FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+        "archive_sha256": "08138a3c6ef10ffc85e0a9a16b0476fd7648d5995395487701b64276bd3dadfe",
+        "references_checked": 1014,
+        "payloads_match_original_snapshots": true,
+        "separate_from_O19_archive": true
+      }
+    ],
+    "all_non_data_application_and_test_files_byte_unchanged": true,
+    "application_file_count": 124,
+    "original_archive_SHA_is_O19_only": true,
+    "older_O15_and_O18_references_preserved_and_resolved": true,
+    "root_crosswalk_missing_reconstructed_independently": true,
+    "visible_French_note_annotations_independently_verified": 86,
+    "EUR_note_annotations": 84,
+    "MEUR_note_annotations": 2,
+    "original_O19_archive_byte_exact_after_removing_only_added_note_suffixes": true
+  }
+}

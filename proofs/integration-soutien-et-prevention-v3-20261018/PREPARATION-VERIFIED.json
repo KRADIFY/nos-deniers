@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "new_positions": 622,
+  "new_qualified_positions": 542,
+  "existing_nature_and_aggregate_navigation_positions": 80,
+  "partitions": 20,
+  "source_files": 17,
+  "prior_partitions_preserved": false,
+  "prior_financial_source_and_relation_fields_preserved": true,
+  "unused_audit_metadata_compacted": true,
+  "summaries": [
+    {
+      "scope": "P156 RAP2017–2020/action09 EXEC only",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 236,
+      "current_nature_title_and_alias_navigation": 56,
+      "qualified_ordinary_source_positions": 242,
+      "four_CP_maintenance_positions_already_in_242": true,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T23:51:03.052589+00:00",
+      "partitions": 8,
+      "navigation_positions": 292,
+      "source_files": 8,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P156 RAP2021–2024/action09 EXEC only",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 296,
+      "current_nature_title_and_alias_navigation": 24,
+      "qualified_ordinary_source_positions": 325,
+      "leases_2022_AE12270000000_cents_reserved_whole": true,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T23:55:38.591158+00:00",
+      "partitions": 8,
+      "navigation_positions": 320,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P177 RAP2025/action11 EXEC device axis only",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 8,
+      "current_nature_title_and_alias_navigation": 0,
+      "native_nature_parallel_positions_reserved": 8,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T23:50:41.564188+00:00",
+      "partitions": 2,
+      "navigation_positions": 8,
+      "source_files": 1,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P177 PAP2021/action14 centres sociaux only",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 2,
+      "current_nature_title_and_alias_navigation": 0,
+      "two_AHI_positions_reserved": true,
+      "no_new_financial_QA": true,
+      "at": "2026-10-17T23:55:27.988343+00:00",
+      "partitions": 2,
+      "navigation_positions": 2,
+      "source_files": 2,
+      "no_integration": true,
+      "no_publication": true
+    }
+  ],
+  "source_reserves_and_parallel_axes_retained": true
+}

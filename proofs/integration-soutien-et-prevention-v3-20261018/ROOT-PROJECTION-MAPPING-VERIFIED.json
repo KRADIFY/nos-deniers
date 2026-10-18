@@ -1,0 +1,9501 @@
+{
+  "passed": true,
+  "at": "2026-10-18T00:10:50.247106+00:00",
+  "positions": 622,
+  "source_fact_mapping": [
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-t2",
+      "cents": 103715957500,
+      "source": "d31fa13063b5b9af8623",
+      "page": 66
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-31",
+      "cents": 81330849200,
+      "source": "d31fa13063b5b9af8623",
+      "page": 67
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-property",
+      "cents": 44798000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-rent",
+      "cents": 7450000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-energy",
+      "cents": 3374000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-upkeep",
+      "cents": 4517000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-services_property",
+      "cents": 4378000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-other_property",
+      "cents": 1119000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-business",
+      "cents": 17793000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-postage",
+      "cents": 7792000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-printing",
+      "cents": 2764000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-travel",
+      "cents": 3877000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-justice",
+      "cents": 1570000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-bank",
+      "cents": 1790000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-IT",
+      "cents": 12089000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-IT_central",
+      "cents": 9635000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-IT_local",
+      "cents": 1690000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-IT_network",
+      "cents": 1427000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-telecom",
+      "cents": 1027000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-other_current",
+      "cents": 6650000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-training",
+      "cents": 2161000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-security",
+      "cents": 894000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-materials",
+      "cents": 976000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-social",
+      "cents": 805000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-supplies",
+      "cents": 527000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-transport",
+      "cents": 428000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-external",
+      "cents": 217000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-general",
+      "cents": 642000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-t5-calculation-reference",
+      "cents": 1519184600,
+      "source": "d31fa13063b5b9af8623",
+      "page": 71
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-investment_materials",
+      "cents": 106000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 72
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-investment_IT",
+      "cents": 956000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 71
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-investment_property",
+      "cents": 457000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 71
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-t6-calculation-reference",
+      "cents": 47741200,
+      "source": "d31fa13063b5b9af8623",
+      "page": 72
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-63",
+      "cents": 3000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 72
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-64",
+      "cents": 44741200,
+      "source": "d31fa13063b5b9af8623",
+      "page": 72
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-71",
+      "cents": -148900,
+      "source": "d31fa13063b5b9af8623",
+      "page": 73
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-t2",
+      "cents": 103715957500,
+      "source": "d31fa13063b5b9af8623",
+      "page": 66
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-31",
+      "cents": 83848500400,
+      "source": "d31fa13063b5b9af8623",
+      "page": 67
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-property",
+      "cents": 46582000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-rent",
+      "cents": 8893000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-energy",
+      "cents": 4411000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-upkeep",
+      "cents": 4523000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-rent_related_charges",
+      "cents": 1780000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-tenant_owner_upkeep",
+      "cents": 2743000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-services_property",
+      "cents": 3673000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-other_property",
+      "cents": 1122000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-business",
+      "cents": 18536000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-postage",
+      "cents": 7863000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 68
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-printing",
+      "cents": 3420000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-travel",
+      "cents": 3872000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-justice",
+      "cents": 1591000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-bank",
+      "cents": 1790000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-IT",
+      "cents": 12040000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-IT_central",
+      "cents": 9698000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 69
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-IT_local",
+      "cents": 1629000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-IT_network",
+      "cents": 1200000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-telecom",
+      "cents": 1142000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-other_current",
+      "cents": 6690000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-training",
+      "cents": 2161000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-security",
+      "cents": 883000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-materials",
+      "cents": 982000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-social",
+      "cents": 812000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-supplies",
+      "cents": 527000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-transport",
+      "cents": 431000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-external",
+      "cents": 255000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-general",
+      "cents": 639000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 70
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-t5-calculation-reference",
+      "cents": 2142671800,
+      "source": "d31fa13063b5b9af8623",
+      "page": 71
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-investment_materials",
+      "cents": 121000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 72
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-investment_IT",
+      "cents": 1479000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 71
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-investment_property",
+      "cents": 543000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 71
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-t6-calculation-reference",
+      "cents": 40241200,
+      "source": "d31fa13063b5b9af8623",
+      "page": 72
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-63",
+      "cents": 3000000,
+      "source": "d31fa13063b5b9af8623",
+      "page": 72
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-64",
+      "cents": 37241200,
+      "source": "d31fa13063b5b9af8623",
+      "page": 72
+    },
+    {
+      "key": [
+        2017,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2017-A09-EXEC-71",
+      "cents": 0,
+      "source": "d31fa13063b5b9af8623",
+      "page": 73
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-t2",
+      "cents": 105544932100,
+      "source": "3228b40dca985cb3bb15",
+      "page": 81
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-31",
+      "cents": 93094321400,
+      "source": "3228b40dca985cb3bb15",
+      "page": 82
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-property",
+      "cents": 55458000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-rent",
+      "cents": 13212000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-energy",
+      "cents": 7566000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-upkeep",
+      "cents": 5360000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-services_property",
+      "cents": 3703000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-other_property",
+      "cents": 1444000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-business",
+      "cents": 17209000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-postage",
+      "cents": 6545000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-printing",
+      "cents": 2802000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-travel",
+      "cents": 3793000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-justice",
+      "cents": 2095000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-bank",
+      "cents": 1974000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-IT",
+      "cents": 13248000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-IT_central",
+      "cents": 10333000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-IT_local",
+      "cents": 2002000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-IT_network",
+      "cents": 1734000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-telecom",
+      "cents": 1181000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-other_current",
+      "cents": 7179000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-training",
+      "cents": 2016000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-security",
+      "cents": 753000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-materials",
+      "cents": 1257000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-social",
+      "cents": 801000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-supplies",
+      "cents": 507000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-transport",
+      "cents": 421000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-external",
+      "cents": 288000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-general",
+      "cents": 1136000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-t5-calculation-reference",
+      "cents": 2663747400,
+      "source": "3228b40dca985cb3bb15",
+      "page": 86
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-investment_materials",
+      "cents": 397000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-investment_IT",
+      "cents": 1505000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 86
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-investment_property",
+      "cents": 762000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 86
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-t6-calculation-reference",
+      "cents": 134960200,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-ANTS_IQUIT",
+      "cents": 49000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-RPCU_IGN",
+      "cents": 50000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-international_organisms",
+      "cents": 35000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-63",
+      "cents": 1000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-t2",
+      "cents": 105544932100,
+      "source": "3228b40dca985cb3bb15",
+      "page": 81
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-31",
+      "cents": 85403053400,
+      "source": "3228b40dca985cb3bb15",
+      "page": 82
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-property",
+      "cents": 47506000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-rent",
+      "cents": 8666000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-energy",
+      "cents": 4107000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-upkeep",
+      "cents": 5337000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-rent_related_charges",
+      "cents": 1760000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-tenant_owner_upkeep",
+      "cents": 3577000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-services_property",
+      "cents": 3779000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-other_property",
+      "cents": 1444000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-business",
+      "cents": 17663000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-postage",
+      "cents": 6578000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 83
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-printing",
+      "cents": 3270000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-travel",
+      "cents": 3799000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-justice",
+      "cents": 2039000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-bank",
+      "cents": 1978000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-IT",
+      "cents": 13034000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-IT_central",
+      "cents": 10640000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-IT_local",
+      "cents": 2139000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 84
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-IT_network",
+      "cents": 1341000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-telecom",
+      "cents": 1053000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-other_current",
+      "cents": 7200000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-training",
+      "cents": 2031000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-security",
+      "cents": 769000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-materials",
+      "cents": 1266000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-social",
+      "cents": 801000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-supplies",
+      "cents": 519000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-transport",
+      "cents": 421000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-external",
+      "cents": 277000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-general",
+      "cents": 1116000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 85
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-t5-calculation-reference",
+      "cents": 2191737600,
+      "source": "3228b40dca985cb3bb15",
+      "page": 86
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-investment_materials",
+      "cents": 367000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-investment_IT",
+      "cents": 1203000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 86
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-investment_property",
+      "cents": 622000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 86
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-t6-calculation-reference",
+      "cents": 101661500,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-ANTS_IQUIT",
+      "cents": 49000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-RPCU_IGN",
+      "cents": 9000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-international_organisms",
+      "cents": 43000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2018,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2018-A09-EXEC-63",
+      "cents": 1000000,
+      "source": "3228b40dca985cb3bb15",
+      "page": 87
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-t2",
+      "cents": 101903904815,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-21",
+      "cents": 62632967541,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-22",
+      "cents": 38858101109,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-23",
+      "cents": 412836165,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-31",
+      "cents": 67702719298,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-property",
+      "cents": 30886000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-rent",
+      "cents": 9868000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-energy",
+      "cents": 10689000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-upkeep",
+      "cents": 5656000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-business",
+      "cents": 16748000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-postage",
+      "cents": 5967000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-printing",
+      "cents": 3738000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-travel",
+      "cents": 3600000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-justice",
+      "cents": 1197000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-bank",
+      "cents": 2212000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-IT",
+      "cents": 13460000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-IT_central",
+      "cents": 10925000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-IT_local",
+      "cents": 1972000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-PAS_applications",
+      "cents": 190000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-IT_network",
+      "cents": 1046000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-telecom",
+      "cents": 1489000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-other_current",
+      "cents": 6609000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-training",
+      "cents": 2059000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-security",
+      "cents": 654000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-materials",
+      "cents": 1192000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-social",
+      "cents": 828000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-supplies",
+      "cents": 498000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-transport",
+      "cents": 367000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-external",
+      "cents": 348000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-general",
+      "cents": 662000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-t5",
+      "cents": 2944741867,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-investment_materials",
+      "cents": 210000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-investment_IT",
+      "cents": 1673000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-investment_property",
+      "cents": 1062000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-t6",
+      "cents": 36604643,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-61",
+      "cents": 357132,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-63",
+      "cents": 1000000,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-64",
+      "cents": 35247511,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-t2",
+      "cents": 101903904815,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-21",
+      "cents": 62632967541,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-22",
+      "cents": 38858101109,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-23",
+      "cents": 412836165,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-31",
+      "cents": 58785008237,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-property",
+      "cents": 23136000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-rent",
+      "cents": 8138000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-energy",
+      "cents": 4077000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-upkeep",
+      "cents": 5738000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-business",
+      "cents": 15838000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-postage",
+      "cents": 5725000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-printing",
+      "cents": 3249000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-travel",
+      "cents": 3600000000,
+      "source": "acbc3854caa405114230",
+      "page": 84
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-justice",
+      "cents": 1190000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-bank",
+      "cents": 2037000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-IT",
+      "cents": 13162000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-IT_central",
+      "cents": 10682000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-IT_local",
+      "cents": 1956000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-PAS_applications",
+      "cents": 416000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-IT_network",
+      "cents": 1429000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-telecom",
+      "cents": 1052000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-other_current",
+      "cents": 6648000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-training",
+      "cents": 2040000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-security",
+      "cents": 674000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-materials",
+      "cents": 1213000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-social",
+      "cents": 827000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-supplies",
+      "cents": 497000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-transport",
+      "cents": 373000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-external",
+      "cents": 324000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-general",
+      "cents": 694000000,
+      "source": "acbc3854caa405114230",
+      "page": 85
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-t5",
+      "cents": 2881579945,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-investment_materials",
+      "cents": 251000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-investment_IT",
+      "cents": 1713000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-investment_property",
+      "cents": 917000000,
+      "source": "acbc3854caa405114230",
+      "page": 86
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-t6",
+      "cents": 44500587,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-61",
+      "cents": 357132,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-63",
+      "cents": 1000000,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2019,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2019-A09-EXEC-64",
+      "cents": 43143455,
+      "source": "acbc3854caa405114230",
+      "page": 83
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-t2",
+      "cents": 110328808259,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-21",
+      "cents": 67885065456,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-22",
+      "cents": 42019481050,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-23",
+      "cents": 424261753,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-ht2",
+      "cents": 71520798836,
+      "source": "f487ad1a341b86702723",
+      "page": 85
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-property",
+      "cents": 26423000000,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-rent",
+      "cents": 11586000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-energy",
+      "cents": 426000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-upkeep",
+      "cents": 6044000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-services_property",
+      "cents": 6664000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-business",
+      "cents": 14838000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-postage",
+      "cents": 4933000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-printing",
+      "cents": 2761000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-travel",
+      "cents": 3471000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-justice",
+      "cents": 1215000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-bank",
+      "cents": 2441000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-IT",
+      "cents": 19015000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-IT_central",
+      "cents": 16264000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-IT_network",
+      "cents": 1244000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-telecom",
+      "cents": 1507000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-other_current",
+      "cents": 6437000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-training",
+      "cents": 1204000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-security",
+      "cents": 516000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-materials",
+      "cents": 1570000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-social",
+      "cents": 884000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-supplies",
+      "cents": 759000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-transport",
+      "cents": 345000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-external",
+      "cents": 376000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-general",
+      "cents": 783000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-investment_property",
+      "cents": 1602000000,
+      "source": "f487ad1a341b86702723",
+      "page": 89
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-investment_materials",
+      "cents": 140000000,
+      "source": "f487ad1a341b86702723",
+      "page": 89
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-t6",
+      "cents": 44475894,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-DLF_intervention",
+      "cents": 41000000,
+      "source": "f487ad1a341b86702723",
+      "page": 89
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-t2",
+      "cents": 110328808259,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-21",
+      "cents": 67885065456,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-22",
+      "cents": 42019481050,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-23",
+      "cents": 424261753,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-ht2",
+      "cents": 64708405153,
+      "source": "f487ad1a341b86702723",
+      "page": 85
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-property",
+      "cents": 24159000000,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-rent",
+      "cents": 8221000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-energy",
+      "cents": 3888000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-upkeep",
+      "cents": 5748000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-services_property",
+      "cents": 4656000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-business",
+      "cents": 14284000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-postage",
+      "cents": 4923000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-printing",
+      "cents": 2588000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-travel",
+      "cents": 3471000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-justice",
+      "cents": 1221000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-bank",
+      "cents": 2163000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-IT",
+      "cents": 16305000000,
+      "source": "f487ad1a341b86702723",
+      "page": 87
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-IT_central",
+      "cents": 13705000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-IT_network",
+      "cents": 1304000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-telecom",
+      "cents": 1296000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-other_current",
+      "cents": 6167000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-training",
+      "cents": 1162000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-security",
+      "cents": 488000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-materials",
+      "cents": 1501000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-social",
+      "cents": 876000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-supplies",
+      "cents": 756000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-transport",
+      "cents": 292000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-external",
+      "cents": 327000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-general",
+      "cents": 766000000,
+      "source": "f487ad1a341b86702723",
+      "page": 88
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-investment_property",
+      "cents": 1278000000,
+      "source": "f487ad1a341b86702723",
+      "page": 89
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-investment_materials",
+      "cents": 140000000,
+      "source": "f487ad1a341b86702723",
+      "page": 89
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-t6",
+      "cents": 52047339,
+      "source": "f487ad1a341b86702723",
+      "page": 86
+    },
+    {
+      "key": [
+        2020,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2020-A09-EXEC-DLF_intervention",
+      "cents": 41000000,
+      "source": "f487ad1a341b86702723",
+      "page": 89
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-t2",
+      "cents": 112336043200,
+      "source": "967bc75f1de056a01e3b",
+      "page": 68
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-21",
+      "cents": 69166587400,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-22",
+      "cents": 42613014900,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-23",
+      "cents": 556441000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-t3",
+      "cents": 68742971900,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-property",
+      "cents": 27756000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-rent",
+      "cents": 8461000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-energy",
+      "cents": 4612000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-upkeep",
+      "cents": 7283000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-services",
+      "cents": 5771000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-business",
+      "cents": 13822000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-postage",
+      "cents": 5340000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-printing",
+      "cents": 1865000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-travel",
+      "cents": 3175000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-justice",
+      "cents": 934000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-bank",
+      "cents": 2488000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-IT",
+      "cents": 20590000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-IT_central_local",
+      "cents": 16171000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-portable_pc",
+      "cents": 1963000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-network",
+      "cents": 2110000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-telecom",
+      "cents": 2309000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-running",
+      "cents": 6574000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-training",
+      "cents": 1296000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-security",
+      "cents": 470000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-equipment_running",
+      "cents": 1572000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-social",
+      "cents": 850000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-supplies",
+      "cents": 608000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 72
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-transport",
+      "cents": 553000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 72
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-external_services",
+      "cents": 392000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 72
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-general",
+      "cents": 833000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-t5",
+      "cents": 6021131400,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-investment_equipment",
+      "cents": 343000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 73
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-investment_IT",
+      "cents": 2888000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 72
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-investment_property",
+      "cents": 2836000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 72
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-t6",
+      "cents": 46145700,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-63",
+      "cents": 13100000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-64",
+      "cents": 33045700,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-t2",
+      "cents": 112336043200,
+      "source": "967bc75f1de056a01e3b",
+      "page": 68
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-21",
+      "cents": 69166587400,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-22",
+      "cents": 42613014900,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-23",
+      "cents": 556441000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-t3",
+      "cents": 64696649700,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-property",
+      "cents": 25620000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-rent",
+      "cents": 7597000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-energy",
+      "cents": 3919000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-upkeep",
+      "cents": 6966000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-services",
+      "cents": 5494000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-business",
+      "cents": 14622000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-postage",
+      "cents": 5406000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-printing",
+      "cents": 2445000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-travel",
+      "cents": 3175000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-justice",
+      "cents": 926000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-bank",
+      "cents": 2652000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-IT",
+      "cents": 18092000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 70
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-IT_central_local",
+      "cents": 14596000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-portable_pc",
+      "cents": 2168000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-network",
+      "cents": 1486000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-telecom",
+      "cents": 2010000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-running",
+      "cents": 6362000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-training",
+      "cents": 1180000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-security",
+      "cents": 448000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-equipment_running",
+      "cents": 1551000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-social",
+      "cents": 850000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-supplies",
+      "cents": 601000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 72
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-transport",
+      "cents": 539000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 72
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-external_services",
+      "cents": 392000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 72
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-general",
+      "cents": 798000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 71
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-t5",
+      "cents": 5304176200,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-investment_equipment",
+      "cents": 317000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 73
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-investment_IT",
+      "cents": 2776000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 72
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-investment_property",
+      "cents": 2259000000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 72
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-t6",
+      "cents": 47850200,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-63",
+      "cents": 13100000,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2021-A09-EXEC-64",
+      "cents": 34750200,
+      "source": "967bc75f1de056a01e3b",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-t2",
+      "cents": 97628294000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-21",
+      "cents": 59764782800,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-22",
+      "cents": 36954626700,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-23",
+      "cents": 908884600,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-t3",
+      "cents": 77795229100,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-property",
+      "cents": 31195000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-rent",
+      "cents": 14227000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-energy",
+      "cents": 3528000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-upkeep",
+      "cents": 7508000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-services",
+      "cents": 4031000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-business",
+      "cents": 17237000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-postage",
+      "cents": 6579000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-printing",
+      "cents": 2013000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-travel",
+      "cents": 3487000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-justice",
+      "cents": 1303000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-bank",
+      "cents": 3799000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-IT",
+      "cents": 20803000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-IT_central_local",
+      "cents": 17677000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-network",
+      "cents": 1306000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-telecom",
+      "cents": 1820000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-running",
+      "cents": 8560000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-training",
+      "cents": 2336000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-security",
+      "cents": 343000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-equipment_running",
+      "cents": 1899000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-social",
+      "cents": 970000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-supplies",
+      "cents": 785000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-transport",
+      "cents": 567000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-external_services",
+      "cents": 484000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-general",
+      "cents": 1170000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-t5",
+      "cents": 9222760800,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-investment_equipment",
+      "cents": 288000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-investment_IT",
+      "cents": 5406000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-investment_property",
+      "cents": 3522000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-NRP",
+      "cents": 1239000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-NRP_perpignan",
+      "cents": 90000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-NRP_NDV",
+      "cents": 42000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-NRP_nimes",
+      "cents": 48000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-NRP_sete",
+      "cents": 41000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-relocations",
+      "cents": 730000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-ESI_angers",
+      "cents": 55000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-CDFIP_dieppe",
+      "cents": 43000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-contact_cahors",
+      "cents": 57000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-contact_decazeville",
+      "cents": 39000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-contact_epinal",
+      "cents": 38000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-pont_audemer",
+      "cents": 50000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-redon",
+      "cents": 36000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-t6",
+      "cents": 6488000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-63",
+      "cents": 1000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-64",
+      "cents": 5488000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-t2",
+      "cents": 97628294000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-21",
+      "cents": 59764782800,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-22",
+      "cents": 36954626700,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-23",
+      "cents": 908884600,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-t3",
+      "cents": 70849145000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-property",
+      "cents": 25776000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-rent",
+      "cents": 6991000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-energy",
+      "cents": 4527000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-upkeep",
+      "cents": 7375000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-services",
+      "cents": 5031000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-business",
+      "cents": 17443000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-postage",
+      "cents": 6544000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-printing",
+      "cents": 2246000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-travel",
+      "cents": 3487000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-justice",
+      "cents": 1308000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-bank",
+      "cents": 3801000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-IT",
+      "cents": 19287000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-IT_central_local",
+      "cents": 16238000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 71
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-network",
+      "cents": 1340000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-telecom",
+      "cents": 1709000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-running",
+      "cents": 8343000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-training",
+      "cents": 2210000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-security",
+      "cents": 313000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-equipment_running",
+      "cents": 1880000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-social",
+      "cents": 970000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-supplies",
+      "cents": 771000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-transport",
+      "cents": 608000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-external_services",
+      "cents": 469000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-general",
+      "cents": 1119000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 72
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-t5",
+      "cents": 7390233700,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 69
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-investment_equipment",
+      "cents": 266000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-investment_IT",
+      "cents": 4625000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-investment_property",
+      "cents": 2499000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-NRP",
+      "cents": 956000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-relocations",
+      "cents": 597000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 73
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-basse_terre",
+      "cents": 109000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-besancon",
+      "cents": 91000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-rennes_magenta",
+      "cents": 75000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-brignoles",
+      "cents": 65000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-dax",
+      "cents": 73000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 74
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-t6",
+      "cents": 13612200,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-63",
+      "cents": 1000000,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2022-A09-EXEC-64",
+      "cents": 12612200,
+      "source": "2f6230e25a0d0bfd33f4",
+      "page": 70
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-t2",
+      "cents": 92983593800,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-21",
+      "cents": 56800506500,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-22",
+      "cents": 34966072200,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-23",
+      "cents": 1217015100,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-t3",
+      "cents": 92038246900,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-property",
+      "cents": 34006000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-rent",
+      "cents": 10180000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-energy",
+      "cents": 9997000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-upkeep",
+      "cents": 7751000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-services",
+      "cents": 4551000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-business",
+      "cents": 20988000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-postage",
+      "cents": 6618000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-printing",
+      "cents": 3695000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-travel",
+      "cents": 3767000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-justice",
+      "cents": 1887000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-bank",
+      "cents": 5016000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-IT",
+      "cents": 27542000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-IT_central_local",
+      "cents": 23598000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-network",
+      "cents": 2044000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-telecom",
+      "cents": 1900000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-running",
+      "cents": 9502000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-training",
+      "cents": 2731000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-security",
+      "cents": 346000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-equipment_running",
+      "cents": 1793000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-social",
+      "cents": 1505000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-supplies",
+      "cents": 682000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-transport",
+      "cents": 568000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-external_services",
+      "cents": 546000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-general",
+      "cents": 1331000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-t5",
+      "cents": 13055012500,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-investment_equipment",
+      "cents": 2009000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 92
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-investment_IT",
+      "cents": 8127000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-investment_property",
+      "cents": 2923000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-t6",
+      "cents": 3218800,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-61",
+      "cents": 110000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-63",
+      "cents": 1000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-64",
+      "cents": 2108800,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-t2",
+      "cents": 92983593800,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-21",
+      "cents": 56800506500,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-22",
+      "cents": 34966072200,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-23",
+      "cents": 1217015100,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-t3",
+      "cents": 79197497500,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-property",
+      "cents": 26822000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-rent",
+      "cents": 6971000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-energy",
+      "cents": 6036000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-upkeep",
+      "cents": 7666000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-services",
+      "cents": 4643000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-business",
+      "cents": 18994000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-postage",
+      "cents": 6649000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-printing",
+      "cents": 2533000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-travel",
+      "cents": 3763000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 89
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-justice",
+      "cents": 1442000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-bank",
+      "cents": 4602000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-IT",
+      "cents": 24548000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-IT_central_local",
+      "cents": 20562000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-network",
+      "cents": 2022000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-telecom",
+      "cents": 1963000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-running",
+      "cents": 8833000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-training",
+      "cents": 2342000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 90
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-security",
+      "cents": 356000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-equipment_running",
+      "cents": 1654000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-social",
+      "cents": 1487000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-supplies",
+      "cents": 676000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-transport",
+      "cents": 575000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-external_services",
+      "cents": 510000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-general",
+      "cents": 1232000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-t5",
+      "cents": 9654408500,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-investment_equipment",
+      "cents": 1825000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 92
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-investment_IT",
+      "cents": 4610000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-investment_property",
+      "cents": 3224000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 91
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-t6",
+      "cents": 4237300,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-61",
+      "cents": 110000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-63",
+      "cents": 1000000,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2023-A09-EXEC-64",
+      "cents": 3127300,
+      "source": "afe5d663cfb0e2c02192",
+      "page": 88
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-t2",
+      "cents": 97829735400,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-21",
+      "cents": 60075174100,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-22",
+      "cents": 36672216700,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-23",
+      "cents": 1082344700,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-t3",
+      "cents": 81913368400,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-property",
+      "cents": 23423000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-rent",
+      "cents": 9344000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-energy",
+      "cents": 1083000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-upkeep",
+      "cents": 6750000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-asbestos",
+      "cents": 120000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-services",
+      "cents": 5483000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-business",
+      "cents": 20075000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-postage",
+      "cents": 6946000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-printing",
+      "cents": 3026000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-travel",
+      "cents": 3740000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-justice",
+      "cents": 1243000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-bank",
+      "cents": 5114000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-IT",
+      "cents": 29037000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-IT_central_local",
+      "cents": 25025000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-IBM_contract",
+      "cents": 2620000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-DATALAKE",
+      "cents": 910000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-network",
+      "cents": 1669000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-telecom",
+      "cents": 2342000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-running",
+      "cents": 9379000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-training",
+      "cents": 3190000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-security",
+      "cents": 344000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-equipment_running",
+      "cents": 1411000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-social",
+      "cents": 1496000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-supplies",
+      "cents": 479000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-transport",
+      "cents": 504000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-external_services",
+      "cents": 488000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-general",
+      "cents": 1466000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-t5",
+      "cents": 7042336600,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-investment_equipment",
+      "cents": 304000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 96
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-investment_IT",
+      "cents": 3551000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-investment_property",
+      "cents": 3187000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-t6",
+      "cents": 50939300,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-61",
+      "cents": 1634300,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-63",
+      "cents": 1000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-64",
+      "cents": 48305000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-t2",
+      "cents": 97829735400,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-21",
+      "cents": 60075174100,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-22",
+      "cents": 36672216700,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-23",
+      "cents": 1082344700,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-t3",
+      "cents": 81289658100,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-property",
+      "cents": 25470000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-rent",
+      "cents": 6478000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-energy",
+      "cents": 5871000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-upkeep",
+      "cents": 7313000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-asbestos",
+      "cents": 190000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-services",
+      "cents": 4998000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-business",
+      "cents": 19684000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-postage",
+      "cents": 6768000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-printing",
+      "cents": 2417000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-travel",
+      "cents": 3736000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-justice",
+      "cents": 1445000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-bank",
+      "cents": 5312000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 93
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-IT",
+      "cents": 26767000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-IT_central_local",
+      "cents": 23353000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-IBM_contract",
+      "cents": 780000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-DATALAKE",
+      "cents": 730000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-network",
+      "cents": 1310000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-telecom",
+      "cents": 2103000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-running",
+      "cents": 9370000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-training",
+      "cents": 2912000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-security",
+      "cents": 376000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-equipment_running",
+      "cents": 1535000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-social",
+      "cents": 1498000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-supplies",
+      "cents": 503000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-transport",
+      "cents": 521000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-external_services",
+      "cents": 527000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-general",
+      "cents": 1497000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 94
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-t5",
+      "cents": 8498257600,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-investment_equipment",
+      "cents": 367000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 96
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-investment_IT",
+      "cents": 4489000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-investment_property",
+      "cents": 3642000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 95
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-t6",
+      "cents": 54301200,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-61",
+      "cents": 1634300,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-63",
+      "cents": 1000000,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "GA",
+        "156",
+        "09"
+      ],
+      "node": "P156-RAP2024-A09-EXEC-64",
+      "cents": 51666900,
+      "source": "489dafa3aadf8dbc90aa",
+      "page": 92
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "node": "P177-RAP2025-A11-ALT2",
+      "cents": 1850000000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 45
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "node": "P177-RAP2025-A11-gens",
+      "cents": 390000000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 45
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "node": "P177-RAP2025-A11-bidonvilles",
+      "cents": 1010000000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 46
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "node": "P177-RAP2025-A11-expulsions",
+      "cents": 820000000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 46
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "node": "P177-RAP2025-A11-ALT2",
+      "cents": 1850000000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 45
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "node": "P177-RAP2025-A11-gens",
+      "cents": 390000000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 45
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "node": "P177-RAP2025-A11-bidonvilles",
+      "cents": 1020000000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 46
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "11"
+      ],
+      "node": "P177-RAP2025-A11-expulsions",
+      "cents": 820000000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 46
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "node": "P177-PAP2021-A14-PLF-centres_sociaux",
+      "cents": 40000000,
+      "source": "1f33dcb8d71d7fe7db83",
+      "page": 29
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "177",
+        "14"
+      ],
+      "node": "P177-PAP2021-A14-PLF-centres_sociaux",
+      "cents": 40000000,
+      "source": "1f33dcb8d71d7fe7db83",
+      "page": 29
+    }
+  ],
+  "CSV_cell_checks": [],
+  "unchanged_programs": [
+    {
+      "year": 2017,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "156",
+      "cents": 804881615600,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2017,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "156",
+      "cents": 805692205900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2018,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "156",
+      "cents": 810357483100,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2018,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "156",
+      "cents": 802012896400,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2019,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "156",
+      "cents": 775295993289,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2019,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "156",
+      "cents": 767845547984,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2020,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "156",
+      "cents": 765567051419,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2020,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "156",
+      "cents": 757671757899,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "156",
+      "cents": 761185045160,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "156",
+      "cents": 755272134953,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "177",
+      "cents": 217451876700,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "177",
+      "cents": 220000000000,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "156",
+      "cents": 772763402414,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "156",
+      "cents": 764810863008,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "156",
+      "cents": 806171503800,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "156",
+      "cents": 787046401900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "156",
+      "cents": 800012773652,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "156",
+      "cents": 795919664926,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "177",
+      "cents": 310318077624,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "177",
+      "cents": 313231735542,
+      "canonical_rows_preserved": true
+    }
+  ],
+  "not_new_financial_primary_QA": true
+}

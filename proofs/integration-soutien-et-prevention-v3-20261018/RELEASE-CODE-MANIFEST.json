@@ -1,0 +1,14 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-soutien-prevention-19-v3",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "7957e3ab984ed187d4af5082129bce2d4688b08a96cfde5af3723caace902466"
+    }
+  ],
+  "append_only_preserves_existing_partitions": false,
+  "existing_financial_partitions_unchanged": true,
+  "unused_audit_metadata_compacted": true,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

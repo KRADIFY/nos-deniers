@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "at": "2026-10-18T00:09:56.120659+00:00",
+  "counts": {
+    "new_rows_in_parent_view": 1258,
+    "real_leaf_routes": 366
+  },
+  "errors": [],
+  "scope": "Production explorer functions, actual selected canonical records cached per SQL dimensions; every new displayed row and one full leaf-route series filter per parent, complementing all1258 cell/exclusion tests.",
+  "verified_by": "Actual prior candidate runtime plus strict single-note numerical-input invariance",
+  "previous_runtime_receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-soutien-et-prevention-v2-20261018\\EXPLORER-VIEWS-VERIFIED.json",
+  "previous_runtime_receipt_sha256": "596b57e168c7c9e9009e030ba82c0bb45ab389aae47a3e3d51c153295c872ed9",
+  "runtime_reexecuted_on_this_serialization": false,
+  "numerical_input_invariance_sha256": "56d685ab082cabccdba333ff1b8fce789469b8fe7bb369d699ef293975fe3637"
+}

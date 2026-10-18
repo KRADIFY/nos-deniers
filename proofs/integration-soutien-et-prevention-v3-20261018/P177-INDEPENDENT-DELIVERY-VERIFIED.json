@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p177-rap2025-a11-pap2021-a14-20261018\\INDEPENDENT-DELIVERY-VERIFIED.json",
+  "receipt_sha256": "dcd70be7cf9064913a0097259e0d1fceb381b36d6fb91b2d76fb6cc73209652c",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p177-rap2025-a11-pap2021-a14-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "a91f7dc4add4194de11eda3170b3ab1f007acc8556772dfa5dbb287e15bd8c30",
+  "positions": 10,
+  "independent_result": {
+    "at": "2026-10-17T23:59:07.533255+00:00",
+    "passed": true,
+    "navigation_positions": 10,
+    "packages": 2,
+    "individual_receipts": [
+      {
+        "path": "RAP2025-A11-INDEPENDENT-DELIVERY-VERIFIED.json",
+        "sha256": "6c4bbd65f5bee7324d86342bd2894ac5dcc221f0599dde55658582440a840078"
+      },
+      {
+        "path": "PAP2021-A14-CENTRES-INDEPENDENT-DELIVERY-VERIFIED.json",
+        "sha256": "ee3e0cece2e3629ec37b47a970d3f93bafda007695194dae0d07f99a8a75b611"
+      }
+    ],
+    "runtime_action_details_sha256": "3953f3e92bdf9788e79a13070814164fc3cfc72eea4e612d73447ecebd83a787",
+    "overlay_required": false,
+    "all_sources_measures_quantums_NULL_and_scope_reserves_preserved": true,
+    "new_financial_audit": false,
+    "primary_read": false,
+    "production_modified": false,
+    "reviewer_stopped_after_seal": true
+  }
+}
