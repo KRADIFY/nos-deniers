@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "at": "2026-10-17T23:54:11.851553+00:00",
+  "old_image": "lexmachine-budget:20261018-gestion-execution-17-v2",
+  "new_image": "lexmachine-budget:20261018-gestion-locale-execution-18",
+  "code_files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "cf58c27fe955970e7e27dd7802fae4bc1489ee9c853e37f1b2038f795c027e3e"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": true,
+      "sha256": "eb1b261bd2897e2791bdff63ee0b7769ae15270b352d5121fc49d119d917cfee"
+    }
+  ],
+  "compose_before_sha256": "fbd42cf98efd7ca001a315aac6b93f1bafa95cee346536eac8b4f79f64ea2046",
+  "compose_after_sha256": "f1046184b3a5bb082a4ff2d01f5e07a8c1c4b1879fb35c95505235410ef71ca4",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

@@ -1,0 +1,14 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-gestion-locale-execution-18",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "cf58c27fe955970e7e27dd7802fae4bc1489ee9c853e37f1b2038f795c027e3e"
+    }
+  ],
+  "append_only_preserves_existing_partitions": false,
+  "existing_financial_partitions_unchanged": true,
+  "unused_audit_metadata_compacted": true,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

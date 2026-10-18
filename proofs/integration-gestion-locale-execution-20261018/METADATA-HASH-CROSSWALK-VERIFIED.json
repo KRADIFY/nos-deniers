@@ -1,0 +1,311 @@
+{
+  "passed": true,
+  "crosswalk": {
+    "passed": true,
+    "generated_independently": true,
+    "changes": [
+      {
+        "old_partition_sha256": "f94a6b4ee3897a1595573140a89a93a98f108189bb0ca7f81d8d92a54d0a5fd0",
+        "new_partition_sha256": "563eb91979c693e1ae999b9dbef1842f1f688573761c60cd22a1620d5a9f172f"
+      },
+      {
+        "old_partition_sha256": "6dbbe2e24ef2a0d766d928fb5d256ff6af2182401545e49e5cd7e150d572f8fd",
+        "new_partition_sha256": "c130c67d449d8802b6b26330b6e84d47ae47b4910d1baafdbbaca5cf7a24677f"
+      },
+      {
+        "old_partition_sha256": "a58ff7706b758cdab367fbd4efb6a09041de60894dfbd7f1d0c1f3c5b92c8a88",
+        "new_partition_sha256": "bf3f721143f67d7d92a57df233690c3f097b4542ba419e47a40b920f3dc9b5a3"
+      },
+      {
+        "old_partition_sha256": "5fca0027f40fd212d34e2ca080188cd9da4cb3445a45e93e0e570069feafffd1",
+        "new_partition_sha256": "82f52731edaed7bce32e7f2550f4f256e343d524a918687ab6d29cf7f41930e5"
+      },
+      {
+        "old_partition_sha256": "9481cb021dfbcf09cfba19d7604a441fd9113ee098621db819adc1b47a0662bc",
+        "new_partition_sha256": "9e411999ffb67c79fc8576c831222aa6de74420bdfda005383e610e5f81e76e3"
+      },
+      {
+        "old_partition_sha256": "37959c42ff4a98b72574bdefb16e9ece7ec0a7fc47d0ea4dcce81589fc5caf00",
+        "new_partition_sha256": "c8f3ea34c64d6b4e73db25b0b460b15f2070aa9f099cb91bdc4e05509849d03c"
+      },
+      {
+        "old_partition_sha256": "14e8e509f64b47fcc2f81a5bc3e75750820e2bf67fdd428ddc70d4a3b0166cbb",
+        "new_partition_sha256": "e107bc69a92970f442c58f541292148215215b6081bea54f43ba67dbfc4f1c09"
+      },
+      {
+        "old_partition_sha256": "b3744bf1284dc63ea37c919b7b17c7aa4499943281da3e3941e06d51b8a9dd9c",
+        "new_partition_sha256": "9ce316d4fa6111141be48e56201ab6b2480b7b514bde3ac9fc19911f9b55767e"
+      },
+      {
+        "old_partition_sha256": "d26cabcae2d2c59e1a33501872a3302d33755ee5a2c409f9d93c10e0f00f18ba",
+        "new_partition_sha256": "d41eed383f3c1a2c6fc9ad646d84b92c9eed0fda3425513c67e6b97ebf7d0bd2"
+      },
+      {
+        "old_partition_sha256": "368d7528d9b925151f4e0f3d394dd2ea1e3aed73a5e9c3d4a6a9d41eaa7acaf1",
+        "new_partition_sha256": "8b34100115b3c8fc3f035dccdb13ab4c725dd0a6f281496a199f204c8721a0d8"
+      },
+      {
+        "old_partition_sha256": "45e8ec6f7a4ccd8b3456c9088c101b8c7939549e4d5fa169eabd33b18fc0e12a",
+        "new_partition_sha256": "3827a785c3d0f24e5c427540f6043803a913296ea5b8aca45815b5033e92f763"
+      },
+      {
+        "old_partition_sha256": "fbac1cb1ef9b6899aed88c43956dbc0ad023dc21ddcd308314432e3d51becbbc",
+        "new_partition_sha256": "33201375dd4992efe0877568156539e7bc859486dc06e608be5f2ec380ddd32c"
+      },
+      {
+        "old_partition_sha256": "1c71d7996333b610e3c5272902190fc1567eb4cfa73488a54c649c72877a7356",
+        "new_partition_sha256": "a57bdb794e0fb7a97a3ded1207c03c00ae298728bb73965bd2e9b9d07878fc77"
+      },
+      {
+        "old_partition_sha256": "4fd922896809b915864ceef32b95032428effe061897587756df0ff0227c1449",
+        "new_partition_sha256": "cb59ae04bfa4c4596f16bb836c6db131ad11f3010ca9c71d5d708a2eb00236b2"
+      },
+      {
+        "old_partition_sha256": "2d5fb25f22dbd4bc025fb8870ee83448e83162dc604c80debbfa3a423e1b7538",
+        "new_partition_sha256": "d1789a3e279e0c29ed9803ed8633001d5306bbd75d2f0d9b1654f86f738b399b"
+      },
+      {
+        "old_partition_sha256": "7c4559e47d163192abe3636250f73909d444f70fd59d55bcf1c8222313644c70",
+        "new_partition_sha256": "8ccbb88228a26a754b60a48b9039bb9b39f281a7c191da5c1d4a9f1fec7c9188"
+      },
+      {
+        "old_partition_sha256": "ed73ef305d5c66e69c45f7e6705fdae5fecde1765fffad9811fb0f1a83d1c7c9",
+        "new_partition_sha256": "44f693aeacbf7eb1a4e82f485174cec61e5c8c1dcec1d5730eca8f165b5db2f4"
+      },
+      {
+        "old_partition_sha256": "43a05f8888db7e0bbce68b6096388dc2a73469f3a96872f5765bec365d367b40",
+        "new_partition_sha256": "42e067a2722d746d4f08e5cf42b60ce757efed374acee18e1dc8464b35572463"
+      },
+      {
+        "old_partition_sha256": "3384552e53e3b06d62c19b941a63bc7fc6eb132446ca675d06da84b13beee270",
+        "new_partition_sha256": "5a5f2853f1efa899d923cadaecf714228de508b428ac3bd85adb40c639ccdf5d"
+      },
+      {
+        "old_partition_sha256": "8d61850ebe4621743b2fa432cb920b7fa7b961baeee3bd754dad47725529d3de",
+        "new_partition_sha256": "b2cf03b1459af838c4e9525a1e40f252c72f8596bc1b1ddca84d8e65d2a8e226"
+      },
+      {
+        "old_partition_sha256": "62dbc315f2b9558793de5d33295ae4f9808541fe3df09e8518b238b156a40400",
+        "new_partition_sha256": "8741c86e80f0f1074146e6bf61a451e84a8af8f285ff4739b729ded89ed3faaf"
+      },
+      {
+        "old_partition_sha256": "0723453d3a46d7aef9f6c74ca91fb564f753cf9833d134b0679278399cd72445",
+        "new_partition_sha256": "e91ecf667845abdbba2f6c632e787f2426eadb08ee955273088613e63a35a5b4"
+      },
+      {
+        "old_partition_sha256": "0663e37d14db3821b92329810141dd54abde0f6fa95da724f76128c9a2d7b107",
+        "new_partition_sha256": "fed9412bbb99841bd356b9f80b091f68eeb9bc00002069978c15ba2b8f9ca4ac"
+      },
+      {
+        "old_partition_sha256": "5fb88115ef4c16b2d3ab4ac75484e406b7616bbd30b43a8747bc627cbd23be62",
+        "new_partition_sha256": "7c895aa40ab8f7c0a04e0529777a90335612584c4232dd349d94df6eebf17ae9"
+      },
+      {
+        "old_partition_sha256": "a20b9d19d1d06adb2b1709c7e78a9c9897bca7e8ff36718e4ddfc1e95425ce39",
+        "new_partition_sha256": "388e940276f95d4963047e809c71761fdc1a599c078d1ba69796ba3cdc8665c3"
+      },
+      {
+        "old_partition_sha256": "ef113731193519fc2142d17b5777b78096b22bcfd921e9a7ab917e46c0d7ad1a",
+        "new_partition_sha256": "794a38fc32503635b2a6d03406c8356ed3d9d40c849ce51142ca3959754e7acb"
+      },
+      {
+        "old_partition_sha256": "bfbf449df2ce08118893391a9418e0d80709ee9802ec6dffbc32c3d405e149c2",
+        "new_partition_sha256": "f5aaa3eb9adf834baf5aa4ad4c97baea4f46ad6f15087789e89f5613bc515851"
+      },
+      {
+        "old_partition_sha256": "339c6764e12080ca06687a418b10cc18a9086909f43703d6db1d9c548195fa83",
+        "new_partition_sha256": "f049e740642208c926c1c0ce50f69afd2d236ae94833296c521da7eed9455477"
+      },
+      {
+        "old_partition_sha256": "55c9043af4e2bc640e14ef5e6be3576359c2323985287f303177a664d329cb33",
+        "new_partition_sha256": "60792e2fe4e35e38d756e3b70c951bf0a6069ae6868b5f5ae04ee9c271d31f3a"
+      },
+      {
+        "old_partition_sha256": "01537b324aa47e31aac767ad05b53dfba9719903993a2a3f71b9710e9ce0ad2c",
+        "new_partition_sha256": "4eb98ef69acfb909b4ff664c1939c64694f306481525356537de6fc02769e108"
+      },
+      {
+        "old_partition_sha256": "7bacadc49b18d9d890043609c0f14d5535b399aab8e4500bdb627043189e56a7",
+        "new_partition_sha256": "9679ffdb842f47ab9097563bb42daeb3d4b89a15e41ba9fe86fd3f15a0863e59"
+      },
+      {
+        "old_partition_sha256": "60ed7083f6a418b66fe221e9d6a4078bc6a9d193e157fb9a6dba7b94fa780047",
+        "new_partition_sha256": "bef7ff762a9120ba07dda35bc9a5c0a49447b3691f48c939060998d0e58766b3"
+      },
+      {
+        "old_partition_sha256": "c16f6dc9323e49cba4afabc4712506b5319a1b419c467428245dc0a4f7268454",
+        "new_partition_sha256": "0096018cee7308480c66a999e74be9b7aef858e1ec806e325231c0511d6bcccc"
+      },
+      {
+        "old_partition_sha256": "20c243b52b2aa1754b8c8bed3d1c18f4c8fa1db024a688613f75d586bbdbcb4a",
+        "new_partition_sha256": "7a9e4b382205e314998bcd70912080187a7720c9998f67c23a1059dc3a3000d8"
+      },
+      {
+        "old_partition_sha256": "1ddf0d209a08158e305ee8e74fdf1839f814f2e4b7c2f8ede5c83a56a562821a",
+        "new_partition_sha256": "a25c96cfe41a3cd476899919b4691a6b360e1226929f1f58f485c98989630779"
+      },
+      {
+        "old_partition_sha256": "1b8376e5071e9ab77e021c035ca693b428f56bc7170ec4459e7ba64ff13c2700",
+        "new_partition_sha256": "ca3bf87a4619a50ffc901f5baab1568ac1f306bfdfcae4123fad810938c3a371"
+      },
+      {
+        "old_partition_sha256": "738e7b53660a2476d02500246be3b1c61625e58bd4be918c2976d2884287d03c",
+        "new_partition_sha256": "dc84c40015ad825a05490a4131d04104954b067674b4431a37ba70ed75149e21"
+      },
+      {
+        "old_partition_sha256": "070046f343f17412d1e46890feeb9870523b39a048c3d8e0714759b6e9c8a182",
+        "new_partition_sha256": "791105ca3ecb29c95369553b48b8a3dd2a6a961b0ebd164c267aeebb60dec4c8"
+      },
+      {
+        "old_partition_sha256": "b174c60219d1eb2fff645d4738eaa9e9cb6eb3fab84f0916b7f2ae004f1c4518",
+        "new_partition_sha256": "d70bdee77561ed5cf4bc7d28d11e23b3753fd487182f7100c3cef0d1340cf646"
+      },
+      {
+        "old_partition_sha256": "af6290577504eed84737933920b99f033559bee8dd479e209e6eaee21b006444",
+        "new_partition_sha256": "c9911c7ff0d027c5a81e2bac8b18479f7dacc7459744451f004a2dac9ac05851"
+      },
+      {
+        "old_partition_sha256": "327ab7ad284d100b0536fcdf18543c4128da2bf34a88614644c3f40a66f502b7",
+        "new_partition_sha256": "ded87ced9bdfaf48604d23da5035480a8737fe728cd95d5beee903994d2a03c1"
+      },
+      {
+        "old_partition_sha256": "397f7dd6cd27853cc5e38301ea6570a14edba7b7899d92e1b820ee77909fd5c5",
+        "new_partition_sha256": "ade5fb1780ac64968afe32a78d67ec1e728c5cd56bdb99c2fc6afca54410929a"
+      },
+      {
+        "old_partition_sha256": "e3cc5a27ad8221afa2596e22bdc850d4b935f5f5253413b8b501c164aef85150",
+        "new_partition_sha256": "28eb55e9a653de333c6de22c41f74bd9fd0d29e7abf5aa5c3f5c2e4cd246f726"
+      },
+      {
+        "old_partition_sha256": "1756f6db6d6ce4d47819d6dbba01a2cde76bc8fa0e3c06a1e963e78f6f712d19",
+        "new_partition_sha256": "e0c647935079bc7bcfad1b6a612ab83abbcdfa2ab27c0592e8a624178854d74c"
+      },
+      {
+        "old_partition_sha256": "22ea4c5087d65f38476723189971e05dd9c003cea5eb508500e9a722ee5a60fb",
+        "new_partition_sha256": "e029a228485a8d2698eac477046c1d3dc1840a542f9b8f025477db1f3961a952"
+      },
+      {
+        "old_partition_sha256": "8771a8bca3353c45b2cc30e4a1b8af81243aa8deb3ec77251a21980e90e4a14c",
+        "new_partition_sha256": "c0bd6b9d95b0a787f578261a34d37f2c4cb8c1b5956a5868c75c4384522d1913"
+      },
+      {
+        "old_partition_sha256": "170997d2281fac0d45fbd3292b3408fc258510dc85155247a47719f61dfb4f94",
+        "new_partition_sha256": "1711714afcaaf762383e148cd87bcb0ee2e86b5f7838a6d2c2eb26df23e1512a"
+      },
+      {
+        "old_partition_sha256": "351d8eb317ef2674982e69840bb8b4bb30ea20e24849efb4dea88f2c6cd90394",
+        "new_partition_sha256": "d6987669d43d13c5e272cdfe2a5e764ae63535bf661efdd0ab3c1aec98635ec8"
+      },
+      {
+        "old_partition_sha256": "78e50d85ffc5cba52ca5823e8246c74c925b23a5c034a68ecc92fb74bc09087d",
+        "new_partition_sha256": "b5c6092b20017611191874398acec3fd9de6e37a4f1076ba8ba6e4393aa31d2a"
+      },
+      {
+        "old_partition_sha256": "377ec0842ab923b23ef2942b9c0043c531c898623d5394a46a584c38b2d824de",
+        "new_partition_sha256": "0d0bed53f563599e565415119eb3989c23897e600c818dc11a813a56fef3389a"
+      },
+      {
+        "old_partition_sha256": "c84d390ffd8a2285b008c84ab265db1f7af4268da710b645fef908a6b936a278",
+        "new_partition_sha256": "453c7a43d615b270a7a950b4ca4894e498044a62fa470a32b4b04bab3543984d"
+      },
+      {
+        "old_partition_sha256": "3bac816e46ea9a091bc4126b6beed6414d23274b0f19eee262fd699a281fe2fb",
+        "new_partition_sha256": "be9c0d99f6d6ef6ee4b04ad62dfe9cddd8ce371f753e22855a7289a54ec944f1"
+      },
+      {
+        "old_partition_sha256": "c26462a6b933f89837199601e3849bcc190ea839a49bff93b2b4bfec375d6db4",
+        "new_partition_sha256": "e24dee377326cfc8b364df6a5a849aed07a6d8d1bfb304e5d8b439cf9e4bdcbf"
+      },
+      {
+        "old_partition_sha256": "e707071e631a13fdafd77bf75c8ee8494ab961940c1030af308b639738bf097a",
+        "new_partition_sha256": "aca363ccd743063f540e3f80b3d32f2983e11eb923aab45637e1b9faa674b610"
+      },
+      {
+        "old_partition_sha256": "1707104805d710744feb0a79835b6e4877ebd10da16ddcfb2ffafcae0c59b233",
+        "new_partition_sha256": "0640d5a9911792f624f9654c0567fa1518ba58a3a30e8d32fedf00750b92dfb6"
+      },
+      {
+        "old_partition_sha256": "d321aa44927bfca85610d8a2f42f09488b63a01f847109b4913a19a8a5a525de",
+        "new_partition_sha256": "2b7c9353015856c85ee8c33851efba21e47c739b6f7b1438c6d27bf8ca0cf966"
+      },
+      {
+        "old_partition_sha256": "f92745b87e8321d72803a85a18e8f6d777808705a2d1c1653a3a542f331f90e2",
+        "new_partition_sha256": "a1aa8b43fac90682685b6cdf8454676818426d97545d14eaae1b8e6d48875e94"
+      },
+      {
+        "old_partition_sha256": "216d997b4dcfd60c11174194c949e318da6bd314291c38eff3810cf7558146b3",
+        "new_partition_sha256": "88f5c8a0bf1620d5c14c559ce1d2d90ee51a5a377b85e51cf61fa41aa992a34d"
+      },
+      {
+        "old_partition_sha256": "4e42c4155ff76382f7f45454e6805b89b88fcc356cf2ae0f28dbe286b6f308f3",
+        "new_partition_sha256": "fd359c3546d9d24f714af4e7c0a4f9f29ccb2eb30acd10930efd4ee5fbbb2694"
+      },
+      {
+        "old_partition_sha256": "332257f624c09d0bf7cc8a9671c08317f14da52216f70ba73831c3d7e0b490f2",
+        "new_partition_sha256": "db09405c11ebdde22c08fd26510c45dea9e0c434a4a0253d8cb8d4e5f93d9df4"
+      },
+      {
+        "old_partition_sha256": "9b6399b3287de5926d0fc622f3f1e6455a84b41949b3e9ae223049ec8b55b707",
+        "new_partition_sha256": "561953f509a1b3665bc09282b147ab537b4b63a51666739ff33be5460bd8684a"
+      },
+      {
+        "old_partition_sha256": "bfeaa2b7b78ef651ec6ded1b717369e5e1e2d6ab10e6bf48fee2f1294fef594c",
+        "new_partition_sha256": "2d301cf84c46fac000150ca384ee115e4b4e001cfb439e95b2fe9f8f5c690966"
+      },
+      {
+        "old_partition_sha256": "1edfc0ba7df36131925c159f5ba507e84be2d8b304df5a2d097f286639d7bdb5",
+        "new_partition_sha256": "ae9da12f5d071730229ce96171f0232f97baa2b2b4e9f907197418cf16120403"
+      },
+      {
+        "old_partition_sha256": "86d10b03d300c14bab8cfc77a6614bcb8a248945cd62d8c5700936a75872502b",
+        "new_partition_sha256": "07ab7d3dfeae8f82a7915e4c6924b6418ad54a80f88946ea2a458a33dbd0ea80"
+      },
+      {
+        "old_partition_sha256": "93085fe405c11f2a212529e29a45ef19dd2aafe83c5252d17acdc37a33144d0f",
+        "new_partition_sha256": "11fd5d6ecb7972e994bbe18f3376b0224b7e127b0341996e8ec117f51d369bb1"
+      },
+      {
+        "old_partition_sha256": "d0e10c5bbcd1c1b49804e5682638e1dfc0c59894d68f3b5b89dac12540646b98",
+        "new_partition_sha256": "b0c83f6b216b18830b39788aef30286f11ae4733619c3d600db614585c1707eb"
+      },
+      {
+        "old_partition_sha256": "4df06762e3aaeb55a9868a3cb91b4cd0e62bac295354f8a897e02eace0b5ff70",
+        "new_partition_sha256": "4d167353dab5532d1d6ddabb25479466e469dada15c52d13a2ee9a0251a85cb5"
+      },
+      {
+        "old_partition_sha256": "e741ac1463a43f04736095704181067fa667c82d476c344481d50a9dbbe595f7",
+        "new_partition_sha256": "c4278d1f0d001fb05fb08553b6c0042c3f77e416228b23d49ea0c69e3d06eb1c"
+      },
+      {
+        "old_partition_sha256": "c8795dc4c67a3a0d0ec4072a19679dfa8ddafd930df599d6faddee0647c65f38",
+        "new_partition_sha256": "4a30d47df2f3553cebfde452bfd748d0078a52e79b71d37c70a70bc2abacb336"
+      },
+      {
+        "old_partition_sha256": "211019bb1187c52ace7504d7c5d38716fcdb450653ca2a2f5119e63b3fadd5e1",
+        "new_partition_sha256": "1ff7e6034329eff5e75bfaf8ee07534b168454778c1a9730bbe2985ed54a17c4"
+      },
+      {
+        "old_partition_sha256": "7bb78b05b288b54d86d0b65c2c91e51d4a22a18b21161be309a435f78022c0d2",
+        "new_partition_sha256": "ae27eba06c5ed38fa70c1066f5bc7221c5db2c2a3532f71c688aab2194bc6a5e"
+      },
+      {
+        "old_partition_sha256": "063f5d6fc39ddc5a065dfc6059f00e7fb222ed8ea01f5648611fcbb8a25c903a",
+        "new_partition_sha256": "51a20c57152e1cd3d698b9031706c21da235b9316c86bbad11237932c866a7a4"
+      },
+      {
+        "old_partition_sha256": "e147f42b7722b1acfe4cf10c954e03238b5069c6e2a6d65f7703b83129a72929",
+        "new_partition_sha256": "bab9338084c8c1e87e340e19a7653f6703e81fe88e88647a2e19a385705cc337"
+      },
+      {
+        "old_partition_sha256": "93ec01f38e2751e45205ec0e97336ab6ce21056eabe04daa0ec1d851d9639a44",
+        "new_partition_sha256": "8438f7ee2019978c9e72eb70433fca11d7400ae5dfc50534ae0fff97456c500e"
+      }
+    ],
+    "affected_old_hash_references": []
+  },
+  "crosswalk_sha256": "76e9a785e4481bae96cc9be16dcb6b7e1fcccfc31409ddc0d61a65825f339409",
+  "independent_metadata_QA_sha256": "700060bddafb3151e2b8028ac8cf19a9bf65948a00a77ad560850db3154ff4e5",
+  "strict_no_broken_references_sha256": "da7a91faefc1109d1c508088053facb2a85af2940e1162467f69aac4dd4d5e46",
+  "old_archive_O15_sha256": "644380ee1c7519e22cdac52741dda2c58c22eb29e71e3eaca09014e0b55d993f",
+  "new_archive_O18_sha256": "08138a3c6ef10ffc85e0a9a16b0476fd7648d5995395487701b64276bd3dadfe"
+}
