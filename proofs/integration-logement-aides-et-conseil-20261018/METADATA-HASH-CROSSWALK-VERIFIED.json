@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "crosswalk_sha256": "27eeccc14b45d290538746aa51200cbde0085ad84e319dcb41c2b2e24e1f5226",
+  "independent_receipt_sha256": "bc2fbcc543af2efeb4aabfecbd8e03083332ceb614752fcbdafceca7cace7ed7",
+  "receipt_binds_candidate_and_full_archive": true,
+  "prior_financial_fields_preserved": true
+}

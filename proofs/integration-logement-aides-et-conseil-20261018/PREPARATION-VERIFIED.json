@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "new_positions": 91,
+  "new_qualified_positions": 77,
+  "existing_nature_and_aggregate_navigation_positions": 14,
+  "partitions": 26,
+  "source_files": 20,
+  "prior_partitions_preserved": false,
+  "prior_financial_source_and_relation_fields_preserved": true,
+  "unused_audit_metadata_compacted": true,
+  "summaries": [
+    {
+      "scope": "P135 PAP2025–2026/action01 qualified device axis only",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 13,
+      "current_nature_title_and_alias_navigation": 0,
+      "documentary_source_positions": 21,
+      "parallel_native2026_positions_reserved": 8,
+      "FdC_forecast_positions_reserved": 8,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:55:56.376410+00:00",
+      "partitions": 4,
+      "navigation_positions": 13,
+      "source_files": 5,
+      "no_integration": true,
+      "no_publication": true,
+      "new_measured_positions_by_year": {
+        "2025": 6,
+        "2026": 7
+      },
+      "missing_AE_positions_not_created": [
+        "renovation2025",
+        "renovation2026",
+        "mining2025"
+      ]
+    },
+    {
+      "scope": "p109-2017-2020-pap-action01 own explicit T2 zeros plus current native nature navigation",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 2,
+      "current_nature_title_and_alias_navigation": 2,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:53:45.342095+00:00",
+      "partitions": 2,
+      "navigation_positions": 4,
+      "source_files": 2,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P109 PAP2019–2020/action02 own annual organisation contributions and explicit T2zeros",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 6,
+      "current_nature_title_and_alias_navigation": 4,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:56:02.607011+00:00",
+      "partitions": 4,
+      "navigation_positions": 10,
+      "source_files": 3,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "p109-2021-2024-pap-action02 own explicit T2 zeros plus current native nature navigation",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 8,
+      "current_nature_title_and_alias_navigation": 8,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:54:10.377642+00:00",
+      "partitions": 8,
+      "navigation_positions": 16,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P109 RAP2021–2024/action02 own native64 and nested recipient groups",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 48,
+      "current_nature_title_and_alias_navigation": 0,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:59:00.178600+00:00",
+      "partitions": 8,
+      "navigation_positions": 48,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    }
+  ],
+  "source_reserves_and_parallel_axes_retained": true
+}

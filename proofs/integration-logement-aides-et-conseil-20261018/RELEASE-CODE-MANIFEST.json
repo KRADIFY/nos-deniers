@@ -1,0 +1,14 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-logement-aides-conseil-23",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "6491ad4a0ba27df28df25bf1e9c3e813203de62ed68c797b52950f783c39119e"
+    }
+  ],
+  "append_only_preserves_existing_partitions": false,
+  "existing_financial_partitions_unchanged": true,
+  "unused_audit_metadata_compacted": true,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

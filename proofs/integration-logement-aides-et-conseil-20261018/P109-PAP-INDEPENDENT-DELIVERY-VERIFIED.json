@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p109-pap-native-and-anil-20261018\\INDEPENDENT-DELIVERY-VERIFIED.json",
+  "receipt_sha256": "9adf6552783a821d903b700d9446136e58e89647c8445c2460b9138c0f8c2835",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p109-pap-native-and-anil-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "e4fc23e24c11d177be561229b45208e130f5804e437af4f2cf6b7a3bc6e14dc5",
+  "independent_result": {
+    "at": "2026-10-18T01:01:13.950942+00:00",
+    "passed": true,
+    "reviewer_stopped": true,
+    "donors": 3,
+    "navigation_positions": 30,
+    "new_qualified_positions": 16,
+    "of_which_explicit_T2_zeros": 12,
+    "of_which_ANIL_ADIL_positions": 4,
+    "current_nature_navigation": 14,
+    "receipts": [
+      {
+        "path": "DONOR-1-INDEPENDENT-DELIVERY-VERIFIED.json",
+        "sha256": "caac76179868dc06689974000e3762a35249956e256c7a933d3f5b24cad1f9c0"
+      },
+      {
+        "path": "DONOR-2-INDEPENDENT-DELIVERY-VERIFIED.json",
+        "sha256": "c0c01c551c66f39f1f6cf8d0d0a235665f5aafe60a94b8fa24bbc0e35a77ac63"
+      },
+      {
+        "path": "DONOR-3-INDEPENDENT-DELIVERY-VERIFIED.json",
+        "sha256": "4487af2ace7c2a3ead0ca71d935df10b88964177e219eaa5a68f072b3b590a39"
+      }
+    ],
+    "no_new_primary_or_financial_audit": true,
+    "production_modified": false
+  }
+}

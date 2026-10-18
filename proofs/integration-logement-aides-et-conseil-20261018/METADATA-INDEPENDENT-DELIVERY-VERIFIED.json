@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-metadata-O23-20261018\\METADATA-COMPACTION-INDEPENDENT-QA-VERIFIED.json",
+  "receipt_sha256": "bc2fbcc543af2efeb4aabfecbd8e03083332ceb614752fcbdafceca7cace7ed7",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-metadata-O23-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "c2f6bcc83d86dc89bff3e29b2e0fe5866e5cbf90753e126071e0ed6c6fac347c",
+  "independent_result": {
+    "at": "2026-10-18T01:07:51.595480+00:00",
+    "passed": true,
+    "reviewer": "project_p156_ready_details",
+    "candidate": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-logement-aides-et-conseil-20261018",
+    "checks": {
+      "partitions": 468,
+      "all_nodes": 6478,
+      "snapshots": 508,
+      "already_referenced_snapshots": 5844,
+      "preserved_existing_nodes": 0,
+      "identical_runtime_rows": 6478,
+      "all_non_snapshot_node_fields_equal": 6478,
+      "all_non_hash_partition_fields_equal": 468,
+      "snapshots_restored": 508
+    },
+    "archive_sha256": "8ae97999c58dcc9d14f5fb4f0619782c5584c1f80e0d5380ec92331941629cbe",
+    "compacted_candidate_sha256": "6491ad4a0ba27df28df25bf1e9c3e813203de62ed68c797b52950f783c39119e",
+    "archive_bytes": 114344644,
+    "compacted_bytes": 84055172,
+    "changed_partition_hashes": 86,
+    "previous_partitions": 442,
+    "new_partitions": 26,
+    "snapshot_restoration_byte_identical_to_archive": true,
+    "all_non_audit_snapshot_financial_source_label_rule_guard_and_hierarchy_fields_identical": true,
+    "strict_combined_registry_integrity_passed": true,
+    "affected_hash_cross_reference_count": 0,
+    "supersedes_reference_count": 0,
+    "other_registries_byte_unchanged": true,
+    "runtime_code_byte_unchanged": true,
+    "runtime_audit_node_accesses_found": 0,
+    "findings": [],
+    "conditions": [
+      "Retain the full immutable archive in the permanent delivery folder and backups: it contains the original audit snapshots referenced by archive SHA, partition key, audit node ID and snapshot SHA.",
+      "Only unused audit_node snapshots and their integrity hashes change representation; do not extend this procedure to source_evidence or financial/rule/guard fields."
+    ],
+    "source_financial_reaudit": false,
+    "production_modified": false,
+    "published": false,
+    "older_archive_checks": [
+      {
+        "archive": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-p156-execution-soutien-20261018\\FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+        "archive_sha256": "644380ee1c7519e22cdac52741dda2c58c22eb29e71e3eaca09014e0b55d993f",
+        "references_checked": 4188,
+        "payloads_match_original_snapshots": true,
+        "separate_from_O23_archive": true
+      },
+      {
+        "archive": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-gestion-locale-execution-20261018\\FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+        "archive_sha256": "08138a3c6ef10ffc85e0a9a16b0476fd7648d5995395487701b64276bd3dadfe",
+        "references_checked": 1014,
+        "payloads_match_original_snapshots": true,
+        "separate_from_O23_archive": true
+      },
+      {
+        "archive": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-soutien-et-prevention-v3-20261018\\FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+        "archive_sha256": "3080281e5b92c7896a123387f9a15a691af4a28849fe8375b887398058d5787c",
+        "references_checked": 642,
+        "payloads_match_original_snapshots": true,
+        "separate_from_O23_archive": true
+      }
+    ],
+    "all_non_data_application_and_test_files_byte_unchanged": true,
+    "application_file_count": 124,
+    "original_archive_SHA_is_O23_only": true,
+    "older_O15_O18_O19_references_preserved_and_resolved": true,
+    "root_crosswalk_missing_reconstructed_independently": true
+  }
+}

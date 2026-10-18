@@ -1,0 +1,25 @@
+{
+  "published": true,
+  "at": "2026-10-18T01:09:37.036764+00:00",
+  "services": [
+    "web1",
+    "web2",
+    "web3",
+    "web4"
+  ],
+  "old_image": "lexmachine-budget:20261018-logement-historique-22-v2",
+  "new_image": "lexmachine-budget:20261018-logement-aides-conseil-23",
+  "image_id": "sha256:f3f90c5bf6db7ac7057e2dc96a0b059f32d129e6f055faaca364210d33e001aa",
+  "registry_version": "1b01ab540e86d4274a64a72633d1b4a5521fc37def92200259b8c77d8729f172",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "financial_facts": 142079,
+  "compose_before_sha256": "af2ede8eb8db91b220d6b766c2c65ff57a6fb3fce259d7e491d9fa154174c22b",
+  "compose_after_sha256": "1ddc05b76a30e6767114d2f3a513575f358ce81f2ea321b3ea768d3e718c59cf",
+  "old_image_retained": true,
+  "only_reviewed_registry_data_changed": true,
+  "source_files_verified": 20,
+  "selectable_new_positions": 91,
+  "new_qualified_positions": 77,
+  "existing_nature_and_aggregate_navigation_positions": 14,
+  "public_API_checks_pending": true
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "at": "2026-10-18T01:09:54.595580+00:00",
+  "old_image": "lexmachine-budget:20261018-logement-historique-22-v2",
+  "new_image": "lexmachine-budget:20261018-logement-aides-conseil-23",
+  "code_files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "6491ad4a0ba27df28df25bf1e9c3e813203de62ed68c797b52950f783c39119e"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": true,
+      "sha256": "95ee03e56d0b9dbad493388cf82268fe23b1f72ec072ac7fabd08ee3b6d8fdca"
+    }
+  ],
+  "compose_before_sha256": "c4d619ba3b7d20c1e98af12a7fc9f4a4c4d1da7f7a9dcda8e176e976c5b4046c",
+  "compose_after_sha256": "271ec24365020a9e7e2e40d4988060cc852336b1730eb337fcac12d6c106a247",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}
