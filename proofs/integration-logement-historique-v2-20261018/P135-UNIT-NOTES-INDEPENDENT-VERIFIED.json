@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p135-pap2124-a03-unit-notes-20261018\\INDEPENDENT-UNIT-NOTE-DELIVERY-VERIFIED.json",
+  "receipt_sha256": "0782174cc56214b84c45030d9758bc884836af891dcff2c23680214a2451d29b",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p135-pap2124-a03-unit-notes-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "e03f65861591621f0e05f1767eeb60415945b384a1feb3dc58bfef2b94b1b08e",
+  "independent_result": {
+    "at": "2026-10-18T00:53:17.633369+00:00",
+    "passed": true,
+    "reviewer_stopped": true,
+    "scope": "Independent technical review of eight root-authored French note additions only",
+    "original_projection_sha256": "31e973b2fef1c3e453976cd68064e8ecd34e9fcbc6661d5d483717fcb5fcbc57",
+    "derived_projection_sha256": "b3c63459db30c96a07260522541c3d8781a0dc4e53a560e3e975fdc7e0541b46",
+    "derived_manifest_sha256": "97df78980577411a4983d2971502f3499a24fef4b4a58a686f2da2935d87bf2f",
+    "manifest_checks": {
+      "original_files": 17,
+      "derived_files": 19
+    },
+    "notes_added": 8,
+    "navigation_positions_unchanged": 30,
+    "byte_exact_reversibility": true,
+    "all_non_note_node_fields_identical": true,
+    "no_new_financial_review_or_primary_reread": true,
+    "not_independent_QA_of_original_financial_projection": true,
+    "production_modified": false
+  }
+}

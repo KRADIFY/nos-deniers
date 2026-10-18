@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "at": "2026-10-18T00:59:08.733660+00:00",
+  "old_image": "lexmachine-budget:20261018-logement-associations-21",
+  "new_image": "lexmachine-budget:20261018-logement-historique-22-v2",
+  "code_files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "95ee03e56d0b9dbad493388cf82268fe23b1f72ec072ac7fabd08ee3b6d8fdca"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": true,
+      "sha256": "e53dcbf0715f9a4af5a392c97007a3b4c30ff1e53ffdda042668cdfdd52cdb63"
+    }
+  ],
+  "compose_before_sha256": "3c889af595cd21909ad74c45ac4e1a9151ea638dec962b990c3ed46cb5fd7de9",
+  "compose_after_sha256": "c4d619ba3b7d20c1e98af12a7fc9f4a4c4d1da7f7a9dcda8e176e976c5b4046c",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

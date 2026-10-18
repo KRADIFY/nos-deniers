@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "new_positions": 98,
+  "new_qualified_positions": 98,
+  "existing_nature_and_aggregate_navigation_positions": 0,
+  "partitions": 26,
+  "source_files": 13,
+  "prior_partitions_preserved": true,
+  "prior_financial_source_and_relation_fields_preserved": true,
+  "unused_audit_metadata_compacted": false,
+  "summaries": [
+    {
+      "scope": "P135 PAP2021–2024/action04 own annual purposes and disjoint explicit T2zeros",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 54,
+      "current_nature_title_and_alias_navigation": 0,
+      "documentary_source_positions": 54,
+      "positive_purpose_positions": 46,
+      "explicit_T2_zero_positions_selected": 8,
+      "current_native_natures_retained_in_proofs": 24,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:41:28.053386+00:00",
+      "partitions": 8,
+      "navigation_positions": 54,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true,
+      "new_measured_positions_by_year": {
+        "2021": 12,
+        "2022": 12,
+        "2023": 14,
+        "2024": 16
+      }
+    },
+    {
+      "scope": "P135 PAP2021–2024/action03 qualified ordinary annual purposes and explicit T2zeros only",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 30,
+      "current_nature_title_and_alias_navigation": 0,
+      "positive_purpose_positions": 22,
+      "explicit_T2_zero_positions_selected": 8,
+      "annuality_reserved_positions_excluded": 8,
+      "positive_native_natures_already_current": 25,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:46:12.258353+00:00",
+      "partitions": 8,
+      "navigation_positions": 30,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true,
+      "new_measured_positions_by_year": {
+        "2021": 2,
+        "2022": 4,
+        "2023": 12,
+        "2024": 12
+      },
+      "no_new_native_nature_navigation": true
+    },
+    {
+      "scope": "P109 RAP2021–2024/action01 twelve own native EXEC category positions",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 12,
+      "current_nature_title_and_alias_navigation": 0,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:46:07.488147+00:00",
+      "partitions": 8,
+      "navigation_positions": 12,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P109 RAP2025/action01 two own EXEC native category61 positions",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 2,
+      "current_nature_title_and_alias_navigation": 0,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:47:42.307548+00:00",
+      "partitions": 2,
+      "navigation_positions": 2,
+      "source_files": 1,
+      "no_integration": true,
+      "no_publication": true
+    }
+  ],
+  "source_reserves_and_parallel_axes_retained": true
+}

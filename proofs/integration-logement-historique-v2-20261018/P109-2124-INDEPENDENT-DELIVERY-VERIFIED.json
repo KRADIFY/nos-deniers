@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p109-rap2124-a01-20261018\\INDEPENDENT-DELIVERY-VERIFIED.json",
+  "receipt_sha256": "177b6be6ff09bff532e44a7a2a8eaa92ad822ad397cf9889e080d68aafdaaaad",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p109-rap2124-a01-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "6aef3ce115ed49dcfba6f87a9457ffffe51ff653c7973335774f5091ad7a2d6a",
+  "independent_result": {
+    "at": "2026-10-18T00:50:41.030706+00:00",
+    "passed": true,
+    "reviewer_stopped": true,
+    "navigation_positions": 12,
+    "partitions": 8,
+    "checks": {
+      "donor_files": 14,
+      "financial_author_files": 50,
+      "financial_QA_files": 28,
+      "positions": 12,
+      "parents": 8,
+      "proofs": 32,
+      "column_checks": 32,
+      "guards19fields": 8,
+      "source_dependencies": 12,
+      "relations": 8,
+      "selections": 12,
+      "frontier_cases": 24,
+      "program_mission": 48,
+      "duplicate_ancestor": 24
+    },
+    "projection_sha256": "e1aa8ee65ce25bfd8c15359acb7784e4b2316ddc48d6b93d9b459cda59cc0b3d",
+    "donor_manifest_sha256": "df11b6e8b98cc303fa9ee64a5b12b47f222a7b321af6f411ce6d7cfd7fe5623e",
+    "financial_QA_sha256": "36abacd3a40de2b59d41af8bfaab7e0bd2e07a7428019eaa6fd59ce076619532",
+    "FNAL_94_cells_remain_without_AE_CP": true,
+    "absent_2023_2024_category31_not_created": true,
+    "negative_AE2022_preserved": true,
+    "three_sub_euro_current_source_differences_preserved": true,
+    "no_primary_or_financial_requalification": true,
+    "production_modified": false
+  }
+}

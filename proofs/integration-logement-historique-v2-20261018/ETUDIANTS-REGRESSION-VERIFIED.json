@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-18T00:54:43.625288+00:00",
+  "passed": true,
+  "counts": {
+    "parent_unchanged": 32,
+    "source_value_selectable": 290,
+    "source_citation": 290,
+    "unit_warning": 156,
+    "actual_leaf_route": 290,
+    "breadcrumbs_documented_label": 290,
+    "annual_source_label": 290,
+    "deeper_navigation": 76,
+    "other_stage_rows_not_fabricated": 76,
+    "all_hierarchical_exclusion_combinations": 2076,
+    "duplicate_and_permutation": 204,
+    "ancestor_exclusion": 290,
+    "unknown_remains_unavailable": 32,
+    "ancestor_overdraw_unavailable": 4
+  },
+  "new_positions": 290,
+  "errors": [],
+  "prior_unchanged_partition_witness_policy": "All old source values/citations/routes/labels/ancestors retained; full subsets up to8 paths, otherwise empty/all/singles/all pairs. Earlier full matrices and exact old partition/code invariance retained."
+}
