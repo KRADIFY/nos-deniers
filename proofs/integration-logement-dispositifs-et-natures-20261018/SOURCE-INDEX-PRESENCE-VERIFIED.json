@@ -1,0 +1,426 @@
+{
+  "passed": true,
+  "at": "2026-10-18T01:20:53.199888+00:00",
+  "read_only": true,
+  "source_matches": {
+    "e05260ba6f072e5337773ac1fda4d97187c7e0bac4f2be7e8be418a514e79d45": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 941,
+            "reference_id": "b67cc0022f0e5926e7343097f6d4730e08ba5aa8cf182fc166af1e9dc8ebe14c",
+            "source_sha256": "e05260ba6f072e5337773ac1fda4d97187c7e0bac4f2be7e8be418a514e79d45",
+            "source_id": "e05260ba6f072e533777",
+            "title": "FR_2026_PLF_VA_PGM_135.pdf Télécharger ( pdf 626.63 Ko)  135 - Urbanisme, territoires et amélioration de l'habitat 2026 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/30880",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "546d8e4cd9e45a7ba64ad50b0389bcb97c2dd9ef8c90fcf84b2bd6d31c71fcf9": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3662,
+            "reference_id": "bbf9396563d0234a8acb6aac750cafae9d9cd084dddfa13b6b3c98b376e225f9",
+            "source_sha256": "546d8e4cd9e45a7ba64ad50b0389bcb97c2dd9ef8c90fcf84b2bd6d31c71fcf9",
+            "source_id": "12c1ec729cf3eac1be6e",
+            "title": "PLF 2021 — Cohésion des territoires",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/9664",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "893e91173fc6fea2200f114aec6063b029e54dd70f27f8cffa51b57b1d906da2": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 790,
+            "reference_id": "f9d392d3842b2894895a9df6a175169804a5b42bfcad81816accf7ea6a9218d1",
+            "source_sha256": "893e91173fc6fea2200f114aec6063b029e54dd70f27f8cffa51b57b1d906da2",
+            "source_id": "893e91173fc6fea2200f",
+            "title": "FR_2025_PLF_VA_PGM_135.pdf Télécharger ( pdf 841.24 Ko)  135 - Urbanisme, territoires et amélioration de l'habitat 2025 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/27863",
+            "format": "pdf",
+            "years_key": "|2025|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "e019fcc83a9a490b59353be31b88d85ba1f9ca30cbe495d30734428d2dc4e264": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4594,
+            "reference_id": "eb8ea23176ee59b0199beea3e36368f0ba6a2d60ce333d79cae934ef027858f4",
+            "source_sha256": "e019fcc83a9a490b59353be31b88d85ba1f9ca30cbe495d30734428d2dc4e264",
+            "source_id": "2916391cc1717a0f3b01",
+            "title": "PLF 2022 — Cohésion des territoires",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/13558",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "703b2c7360e7b5a200163a8a1e25bf0b2bd7beb83a08c0a48f51d367c502fe95": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-index-supp1",
+        "documents": [
+          {
+            "id": 114,
+            "reference_id": "incremental:703b2c7360e7b5a200163a8a1e25bf0b2bd7beb83a08c0a48f51d367c502fe95",
+            "source_sha256": "703b2c7360e7b5a200163a8a1e25bf0b2bd7beb83a08c0a48f51d367c502fe95",
+            "source_id": "703b2c7360e7b5a20016",
+            "title": "Cohésion des territoires",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/33733",
+            "format": "pdf",
+            "years_key": "|2027|",
+            "stage": "PLF 2027 publié",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_source",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c98055f05508a4072bb322692050290464408c81ad7f8b12fcb843996301ce51": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3647,
+            "reference_id": "bb7b1a6f2260707ebf7f95c929b11c8e7505987cc89b660e14ecd952991fc10f",
+            "source_sha256": "c98055f05508a4072bb322692050290464408c81ad7f8b12fcb843996301ce51",
+            "source_id": "dca85104653c2c5a3d17",
+            "title": "Cohésion des territoires",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/906916/file/Cohesion_territoires.pdf",
+            "format": "pdf",
+            "years_key": "|2024|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "e0c8aa4d12e2baf2e01a848400e94604af1994eb4407b52c09d6cd6e19f22c79": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 23,
+            "reference_id": "01211430980251794e11226cbff23b28ed9eff26b1fa9c2150860f8b6175ff8d",
+            "source_sha256": "e0c8aa4d12e2baf2e01a848400e94604af1994eb4407b52c09d6cd6e19f22c79",
+            "source_id": "639fa14727f2eda93dc8",
+            "title": "RAP 2021 — 135 - Urbanisme, territoires et amélioration de l'habitat",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/15697",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "9797b6d035988a91e9ce090656a5eae29039b7047d40d9b79dda95bc94192850": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 731,
+            "reference_id": "252e5d95c88d63f20b773c2632c94202d8941b8a6f9d33ef4d5d6974f1878f17",
+            "source_sha256": "9797b6d035988a91e9ce090656a5eae29039b7047d40d9b79dda95bc94192850",
+            "source_id": "8a1f8fa45b814b86fd29",
+            "title": "Cohésion des territoires",
+            "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2025/Cohesion_territoires.pdf",
+            "format": "pdf",
+            "years_key": "|2025|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "a4d3d35492219cd5969fb40f9b63e966cdaf7bbfdebeb13bb503d417db86f9ba": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1435,
+            "reference_id": "47fbceb7e0c9598d5fef92f7f0ba8bc83eab99b47ec60c80f97f9d35bad2c84c",
+            "source_sha256": "a4d3d35492219cd5969fb40f9b63e966cdaf7bbfdebeb13bb503d417db86f9ba",
+            "source_id": "fa77710c7b3b658e4b4b",
+            "title": "PLF 2022 — 135 - Urbanisme, territoires et amélioration de l'habitat",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/13624",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "1d1a1425112e4e8f7844e5afffc66ac02d20b6a8e8d28a2e0d138575b63878ff": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4649,
+            "reference_id": "ee520f979d2bf987e7657f1a612ba428b5fd79c76e47e5a2f63fc5362915350b",
+            "source_sha256": "1d1a1425112e4e8f7844e5afffc66ac02d20b6a8e8d28a2e0d138575b63878ff",
+            "source_id": "94cc3bccae5a7cc2cde3",
+            "title": "RAP 2022 — Cohésion des territoires",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/20298",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "739d6bc171278808cc4f20eeb5463893a6d925b6ac157c5854227737c1a72bce": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2865,
+            "reference_id": "916ee523df31958013752935554010810be747d684a687b427bcafca2dbd3e13",
+            "source_sha256": "739d6bc171278808cc4f20eeb5463893a6d925b6ac157c5854227737c1a72bce",
+            "source_id": "cd3e0dda56f7232a0526",
+            "title": "Cohésion des territoires",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/826932/file/RAP2023_BG_Cohesion_territoires_VA.pdf",
+            "format": "pdf",
+            "years_key": "|2023|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c9231342ba763727c13440739750c2854e512e462b2162903a3259135f88b6af": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1076,
+            "reference_id": "36731710ccca029669f125db8a896ad396183ff583aab264914f964ec1c4c62a",
+            "source_sha256": "c9231342ba763727c13440739750c2854e512e462b2162903a3259135f88b6af",
+            "source_id": "1b8099b9f8ff5be60dfc",
+            "title": "PLF 2021 — 135 - Urbanisme, territoires et amélioration de l'habitat",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/9730",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "ab3dd6765878f46aaece4966a5349f34fad342c14adb77cbf84ba079d01a6ace": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4393,
+            "reference_id": "e1af2bc5ecfaa06784be9bf8a889c43be8abb5a2be6da68e3faf1aee4edbf66e",
+            "source_sha256": "ab3dd6765878f46aaece4966a5349f34fad342c14adb77cbf84ba079d01a6ace",
+            "source_id": "e300779c6f8baac6aff1",
+            "title": "RAP 2022 — 135 - Urbanisme, territoires et amélioration de l'habitat",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/20364",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "958cdf40df88749d0c34be4b38eed533c5b0f975d703858b74344ca7101985a1": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2593,
+            "reference_id": "826b45ada6a654fc96ebc9bf563349892be2c1dbada6734569637d48ce02a3d1",
+            "source_sha256": "958cdf40df88749d0c34be4b38eed533c5b0f975d703858b74344ca7101985a1",
+            "source_id": "fbf12ff706972e2ba680",
+            "title": "RAP 2021 — Cohésion des territoires",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/15631",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "599a163c4a04b75c3e474e985db93f72ce76754a9d38fc078bb43001a06883d2": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-index-supp1",
+        "documents": [
+          {
+            "id": 95,
+            "reference_id": "incremental:599a163c4a04b75c3e474e985db93f72ce76754a9d38fc078bb43001a06883d2",
+            "source_sha256": "599a163c4a04b75c3e474e985db93f72ce76754a9d38fc078bb43001a06883d2",
+            "source_id": "599a163c4a04b75c3e47",
+            "title": "135 - Urbanisme, territoires et amélioration de l'habitat",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/33796",
+            "format": "pdf",
+            "years_key": "|2027|",
+            "stage": "PLF 2027 publié",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_source",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "9c9e911e6db8ea6268a01fbb5bde1f832ff43c9e84c025e7ab4f913d49721bc7": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3710,
+            "reference_id": "be1bedfec1cda5525dae5331b1e83dad0f96dd395900cbf52f39dbfe73ac08dd",
+            "source_sha256": "9c9e911e6db8ea6268a01fbb5bde1f832ff43c9e84c025e7ab4f913d49721bc7",
+            "source_id": "d1c0970f23345c1413af",
+            "title": "Cohésion des territoires",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/494469/file/PAP2023_BG_Cohesion_territoires.pdf",
+            "format": "pdf",
+            "years_key": "|2023|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "5ee5dac34097980afe65f9af04724d3c54ee8703ccd2008748c5bfa31f32c83e": [
+      {
+        "index": "D:\\ChatGPT\\docker\\budget\\releases\\20261016-archives-pap-vectorisation\\search-supplement2",
+        "documents": [
+          {
+            "id": 938,
+            "reference_id": "477763a12b4de9d8445c863dab2f701670b760e5f3fbfff25bf129335ce37de0",
+            "source_sha256": "5ee5dac34097980afe65f9af04724d3c54ee8703ccd2008748c5bfa31f32c83e",
+            "source_id": "5ee5dac34097980afe65",
+            "title": "PAP2026_BG_Cohesion_territoires_VA.pdf Télécharger ( pdf 1.96 Mo)  Cohésion des territoires 2026 PLF PAP",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/30817",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "PAP",
+            "source_kind": "source_pdf",
+            "table_layout": "positioned_and_reconstructed_candidates",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "f77ed40f991f5877631c8598484b91a40b4b262c797912fc6df6555ff5c21e1e": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1279,
+            "reference_id": "3ff44ac4df77e3e287d9168788965ff65135d3b73eefb7ea12d5cae662618f52",
+            "source_sha256": "f77ed40f991f5877631c8598484b91a40b4b262c797912fc6df6555ff5c21e1e",
+            "source_id": "b7dd7c6577809efa3c84",
+            "title": "Cohésion des territoires",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/705136/file/Coh%C3%A9sion%20des%20territoires.pdf",
+            "format": "pdf",
+            "years_key": "|2024|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "e493fbcdc1122f231c6c2e65d8e2331199bb789825ea36575e68ecf14f25c825": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2541,
+            "reference_id": "7f017969d3c621832b2b365c75c6a3d1e0b9e5b81e3774b5e33d98c51bff7ce7",
+            "source_sha256": "e493fbcdc1122f231c6c2e65d8e2331199bb789825ea36575e68ecf14f25c825",
+            "source_id": "c9bb891a0169f22103e4",
+            "title": "Cohésion des territoires",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1087954/file/PAP2026_BG_Cohesion_territoires_VA.pdf",
+            "format": "pdf",
+            "years_key": "|2026|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ]
+  },
+  "new_encoding_required": false
+}

@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-metadata-O24-20261018\\METADATA-COMPACTION-INDEPENDENT-QA-VERIFIED.json",
+  "receipt_sha256": "81cc293ed50136211285cd465f55a30d8f04026aea2f70189cf115bf61cc0407",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-metadata-O24-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "79872c55b02ac838504000044b3255f43046d05ad3885da9a75b7e4131a6322c",
+  "independent_result": {
+    "at": "2026-10-18T01:14:41.575480+00:00",
+    "passed": true,
+    "reviewer": "project_p156_ready_details",
+    "candidate": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-logement-dispositifs-et-natures-20261018",
+    "checks": {
+      "partitions": 490,
+      "all_nodes": 6608,
+      "snapshots": 130,
+      "already_referenced_snapshots": 6352,
+      "preserved_existing_nodes": 0,
+      "identical_runtime_rows": 6608,
+      "all_non_snapshot_node_fields_equal": 6608,
+      "all_non_hash_partition_fields_equal": 490,
+      "snapshots_restored": 130
+    },
+    "archive_sha256": "9e28a9e0a44188df666d46e7a4936dc2db789cb6f9bd767beb6afb127521b50e",
+    "compacted_candidate_sha256": "fee1badeed6690e39bbf04c80ca002e8527680be2996807904a99f709d678dc2",
+    "archive_bytes": 99317760,
+    "compacted_bytes": 89847696,
+    "changed_partition_hashes": 22,
+    "previous_partitions": 468,
+    "new_partitions": 22,
+    "snapshot_restoration_byte_identical_to_archive": true,
+    "all_non_audit_snapshot_financial_source_label_rule_guard_and_hierarchy_fields_identical": true,
+    "strict_combined_registry_integrity_passed": true,
+    "affected_hash_cross_reference_count": 0,
+    "supersedes_reference_count": 0,
+    "other_registries_byte_unchanged": true,
+    "runtime_code_byte_unchanged": true,
+    "runtime_audit_node_accesses_found": 0,
+    "findings": [],
+    "conditions": [
+      "Retain the full immutable archive in the permanent delivery folder and backups: it contains the original audit snapshots referenced by archive SHA, partition key, audit node ID and snapshot SHA.",
+      "Only unused audit_node snapshots and their integrity hashes change representation; do not extend this procedure to source_evidence or financial/rule/guard fields."
+    ],
+    "source_financial_reaudit": false,
+    "production_modified": false,
+    "published": false,
+    "older_archive_checks": [
+      {
+        "archive": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-p156-execution-soutien-20261018\\FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+        "archive_sha256": "644380ee1c7519e22cdac52741dda2c58c22eb29e71e3eaca09014e0b55d993f",
+        "references_checked": 4188,
+        "payloads_match_original_snapshots": true,
+        "separate_from_O24_archive": true
+      },
+      {
+        "archive": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-gestion-locale-execution-20261018\\FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+        "archive_sha256": "08138a3c6ef10ffc85e0a9a16b0476fd7648d5995395487701b64276bd3dadfe",
+        "references_checked": 1014,
+        "payloads_match_original_snapshots": true,
+        "separate_from_O24_archive": true
+      },
+      {
+        "archive": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-soutien-et-prevention-v3-20261018\\FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+        "archive_sha256": "3080281e5b92c7896a123387f9a15a691af4a28849fe8375b887398058d5787c",
+        "references_checked": 642,
+        "payloads_match_original_snapshots": true,
+        "separate_from_O24_archive": true
+      },
+      {
+        "archive": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\integration-logement-aides-et-conseil-20261018\\FULL-PARTITIONS-BEFORE-AUDIT-METADATA-COMPACTION.json",
+        "archive_sha256": "8ae97999c58dcc9d14f5fb4f0619782c5584c1f80e0d5380ec92331941629cbe",
+        "references_checked": 508,
+        "payloads_match_original_snapshots": true,
+        "separate_from_O24_archive": true
+      }
+    ],
+    "all_non_data_application_and_test_files_byte_unchanged": true,
+    "application_file_count": 124,
+    "original_archive_SHA_is_O24_only": true,
+    "older_O15_O18_O19_O23_references_preserved_and_resolved": true,
+    "root_crosswalk_missing_reconstructed_independently": true
+  }
+}

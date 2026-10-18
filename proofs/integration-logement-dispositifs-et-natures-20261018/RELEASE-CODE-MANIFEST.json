@@ -1,0 +1,14 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-logement-dispositifs-natures-24",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "fee1badeed6690e39bbf04c80ca002e8527680be2996807904a99f709d678dc2"
+    }
+  ],
+  "append_only_preserves_existing_partitions": false,
+  "existing_financial_partitions_unchanged": true,
+  "unused_audit_metadata_compacted": true,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

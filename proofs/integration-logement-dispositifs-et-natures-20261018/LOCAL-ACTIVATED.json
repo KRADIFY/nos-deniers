@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "at": "2026-10-18T01:22:14.201087+00:00",
+  "old_image": "lexmachine-budget:20261018-logement-aides-conseil-23",
+  "new_image": "lexmachine-budget:20261018-logement-dispositifs-natures-24",
+  "code_files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "fee1badeed6690e39bbf04c80ca002e8527680be2996807904a99f709d678dc2"
+    }
+  ],
+  "backup": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "existed": true,
+      "sha256": "6491ad4a0ba27df28df25bf1e9c3e813203de62ed68c797b52950f783c39119e"
+    }
+  ],
+  "compose_before_sha256": "271ec24365020a9e7e2e40d4988060cc852336b1730eb337fcac12d6c106a247",
+  "compose_after_sha256": "077fffa529e2bd567cd70ca9eff47dcc90ef2b96c73da7c32355b487b1ff5a9b",
+  "facts_unchanged": 142079,
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "public_verification_pending": true
+}

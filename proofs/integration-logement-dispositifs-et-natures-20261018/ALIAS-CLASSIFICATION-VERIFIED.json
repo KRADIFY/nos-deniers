@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "at": "2026-10-18T01:15:10.546405+00:00",
+  "navigation_positions": 108,
+  "source_documentary_qualified_counter_before": 84,
+  "new_qualified_positions": 82,
+  "current_navigation_support_positions": 26,
+  "already_current_2025_aliases_reclassified": 2,
+  "independent_delivery_receipt": "independent-delivery-p135-pap2527-a02-20261018\\INDEPENDENT-DELIVERY-VERIFIED.json",
+  "independent_delivery_sha256": "2a70a9b87f651823cc05c3cdc36b07fe88e96c11027cc5e8fe557e39adf01b2c",
+  "candidate_unchanged_sha256": "fee1badeed6690e39bbf04c80ca002e8527680be2996807904a99f709d678dc2",
+  "only_delivery_counter_metadata_changed": true,
+  "classification_controller_files": [
+    {
+      "path": "publish_remote.py",
+      "before_sha256": "2434057815376aad4d089145925fa487cd9515327cb6202b1d5cefd601e961e3",
+      "sha256": "ac4f7ac5bb80de47d91efd073e9bc022086b2a3569ed2aa5b1c25c18821cd4bb"
+    },
+    {
+      "path": "activate_local.py",
+      "before_sha256": "4770182c68f4d7c2d94dddbc67fc979041b470d664547fe8e01c665c37e4c395",
+      "sha256": "4770182c68f4d7c2d94dddbc67fc979041b470d664547fe8e01c665c37e4c395"
+    },
+    {
+      "path": "verify_published.py",
+      "before_sha256": "187b17edbfca02195cc6bd409ca8c1377b2fe96f83a4810133e21e562bbd7f97",
+      "sha256": "009afa84af6f7c81860e3bd2f5f4756ccb57cc133976042b2750a2a36beb605b"
+    }
+  ],
+  "no_financial_source_measure_label_unit_rule_or_amount_changed": true
+}

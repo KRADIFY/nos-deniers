@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p135-pap2124-a01-20261018\\INDEPENDENT-DELIVERY-VERIFIED.json",
+  "receipt_sha256": "1f67e0ab6d94ec8423d7c513a196a40effef7380528f6ed02c1e1107d1de62f8",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p135-pap2124-a01-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "3535216f6dff0599ff0fce7a4c84f58436428cd448335ee61d83b487f095f0ba",
+  "independent_result": {
+    "at": "2026-10-18T01:12:21.010495+00:00",
+    "passed": true,
+    "reviewer_stopped": true,
+    "navigation_positions": 34,
+    "new_device_positions": 26,
+    "explicit_T2_zeros": 8,
+    "navigation_supports": 0,
+    "partitions": 8,
+    "checks": {
+      "donor_files": 16,
+      "author_files": 46,
+      "financial_QA_files": 25,
+      "parents": 8,
+      "positions": 34,
+      "proofs": 74,
+      "relations": 8,
+      "guards19": 8,
+      "sources": 12,
+      "selections": 34,
+      "frontier_cases": 160,
+      "ancestor_cases": 320,
+      "duplicates": 68,
+      "explicit_T2_zeros": 8,
+      "own_mining_zero_quantum_zero": 1
+    },
+    "projection_sha256": "dd6f31dd24aa977ec8945e527f70a9d48e0c37031ff14ac2fe81e37673a57e3e",
+    "donor_manifest_sha256": "30e6c20330474e407050607429e95fac5e1191cf2eafdf07983b06cabdd16b32",
+    "all_printed_units_quantums_measures_and_cents_unchanged": true,
+    "mining2024_AE_zero_quantum0_only_own_frozen_qualification": true,
+    "enterprise_nature_blank_still_NULL": true,
+    "SNE_own_action_not_entire_GIP": true,
+    "TFPB2024_not_multiplied_by10": true,
+    "no_primary_or_financial_requalification": true,
+    "production_modified": false
+  }
+}

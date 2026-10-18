@@ -1,0 +1,25 @@
+{
+  "published": true,
+  "at": "2026-10-18T01:22:04.239929+00:00",
+  "services": [
+    "web1",
+    "web2",
+    "web3",
+    "web4"
+  ],
+  "old_image": "lexmachine-budget:20261018-logement-aides-conseil-23",
+  "new_image": "lexmachine-budget:20261018-logement-dispositifs-natures-24",
+  "image_id": "sha256:7c737fdb32c9674121d11652d66916695f441812e83ef4cd4c0d2acbe4a3d57d",
+  "registry_version": "f704bf6e061a3f397a93630bab398a6d1f1e9b303cae321536087f6ff1534bc1",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "financial_facts": 142079,
+  "compose_before_sha256": "1ddc05b76a30e6767114d2f3a513575f358ce81f2ea321b3ea768d3e718c59cf",
+  "compose_after_sha256": "21d6d85f80670cb0bb8991f96f8018e39171e4b47c92f20dc60f002ac6b3a454",
+  "old_image_retained": true,
+  "only_reviewed_registry_data_changed": true,
+  "source_files_verified": 19,
+  "selectable_new_positions": 108,
+  "new_qualified_positions": 82,
+  "existing_nature_and_aggregate_navigation_positions": 26,
+  "public_API_checks_pending": true
+}

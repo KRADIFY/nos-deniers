@@ -1,0 +1,1807 @@
+{
+  "passed": true,
+  "at": "2026-10-18T01:14:38.616966+00:00",
+  "positions": 108,
+  "source_fact_mapping": [
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-T2",
+      "cents": 0,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 99
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-device-mining",
+      "cents": 1000000000,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 100
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-device-sne",
+      "cents": 500000000,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 100
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-device-travellers",
+      "cents": 400000000,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 100
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-T2",
+      "cents": 0,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 99
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-device-mining",
+      "cents": 1000000000,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 100
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-device-sne",
+      "cents": 500000000,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 100
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-device-travellers",
+      "cents": 400000000,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 100
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-T2",
+      "cents": 0,
+      "source": "2916391cc1717a0f3b01",
+      "page": 106
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-device-mining",
+      "cents": 1000000000,
+      "source": "2916391cc1717a0f3b01",
+      "page": 107
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-device-sne",
+      "cents": 500000000,
+      "source": "2916391cc1717a0f3b01",
+      "page": 107
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-device-travellers",
+      "cents": 250000000,
+      "source": "2916391cc1717a0f3b01",
+      "page": 107
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-T2",
+      "cents": 0,
+      "source": "2916391cc1717a0f3b01",
+      "page": 106
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-device-mining",
+      "cents": 1000000000,
+      "source": "2916391cc1717a0f3b01",
+      "page": 107
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-device-sne",
+      "cents": 500000000,
+      "source": "2916391cc1717a0f3b01",
+      "page": 107
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-device-travellers",
+      "cents": 250000000,
+      "source": "2916391cc1717a0f3b01",
+      "page": 107
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-T2",
+      "cents": 0,
+      "source": "d1c0970f23345c1413af",
+      "page": 102
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-device-mining",
+      "cents": 3500000000,
+      "source": "d1c0970f23345c1413af",
+      "page": 103
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-device-sne",
+      "cents": 500000000,
+      "source": "d1c0970f23345c1413af",
+      "page": 104
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-device-travellers",
+      "cents": 300000000,
+      "source": "d1c0970f23345c1413af",
+      "page": 104
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-T2",
+      "cents": 0,
+      "source": "d1c0970f23345c1413af",
+      "page": 102
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-device-mining",
+      "cents": 1000000000,
+      "source": "d1c0970f23345c1413af",
+      "page": 103
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-device-sne",
+      "cents": 500000000,
+      "source": "d1c0970f23345c1413af",
+      "page": 104
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-device-travellers",
+      "cents": 300000000,
+      "source": "d1c0970f23345c1413af",
+      "page": 104
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-T2",
+      "cents": 0,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 108
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-device-mining",
+      "cents": 0,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 109
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-device-sne",
+      "cents": 500000000,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 110
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-device-travellers",
+      "cents": 299000000,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 110
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-device-tfpb",
+      "cents": 700000000,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 110
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-T2",
+      "cents": 0,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 108
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-device-mining",
+      "cents": 1980000000,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 109
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-device-sne",
+      "cents": 500000000,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 110
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-device-travellers",
+      "cents": 299000000,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 110
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-device-tfpb",
+      "cents": 700000000,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 110
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2025-management-fees-alias",
+      "cents": 460000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 106
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2025-management-fees-alias",
+      "cents": 460000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 106
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2026-nature31",
+      "cents": 658000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 104
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2026-SGFGAS",
+      "cents": 450000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 104
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2026-FGR",
+      "cents": 208000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 104
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2026-nature31",
+      "cents": 658000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 104
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2026-SGFGAS",
+      "cents": 450000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 104
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2026-FGR",
+      "cents": 208000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 104
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2027-nature31",
+      "cents": 613000000,
+      "source": "599a163c4a04b75c3e47",
+      "page": 39
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2027-FGAS",
+      "cents": 420000000,
+      "source": "599a163c4a04b75c3e47",
+      "page": 39
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2027-FGR",
+      "cents": 210000000,
+      "source": "599a163c4a04b75c3e47",
+      "page": 39
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2027-nature31",
+      "cents": 613000000,
+      "source": "599a163c4a04b75c3e47",
+      "page": 39
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2027-FGAS",
+      "cents": 420000000,
+      "source": "599a163c4a04b75c3e47",
+      "page": 39
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2027-FGR",
+      "cents": 210000000,
+      "source": "599a163c4a04b75c3e47",
+      "page": 39
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-support-HT2",
+      "cents": 36297454300,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-support-T3",
+      "cents": 102914000,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-31",
+      "cents": 102914000,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-support-T6",
+      "cents": 36194540300,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-62",
+      "cents": 14321742200,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-63",
+      "cents": 20560624200,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-64",
+      "cents": 1312173900,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-support-HT2",
+      "cents": 31450580400,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-support-T3",
+      "cents": 117829300,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-31",
+      "cents": 117829300,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-support-T6",
+      "cents": 31332751200,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-62",
+      "cents": 12017129900,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-63",
+      "cents": 17425130000,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2021-native-64",
+      "cents": 1890491200,
+      "source": "fbf12ff706972e2ba680",
+      "page": 114
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-support-HT2",
+      "cents": 35711142500,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-support-T3",
+      "cents": 87156400,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-31",
+      "cents": 87156400,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-support-T6",
+      "cents": 35623986000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-62",
+      "cents": 17149123300,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-63",
+      "cents": 17026396400,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-64",
+      "cents": 1448466300,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-support-HT2",
+      "cents": 29889891700,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-support-T3",
+      "cents": 114380700,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-31",
+      "cents": 114380700,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-support-T6",
+      "cents": 29775511000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-62",
+      "cents": 12872487600,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-63",
+      "cents": 15342907100,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2022-native-64",
+      "cents": 1560116400,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 118
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-support-HT2",
+      "cents": 67580086300,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-support-T3",
+      "cents": 159948500,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-31",
+      "cents": 159948500,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-support-T6",
+      "cents": 67420137800,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-61",
+      "cents": 5500000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-62",
+      "cents": 29497367900,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-63",
+      "cents": 36205611900,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-64",
+      "cents": 1711658000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-support-HT2",
+      "cents": 26292268600,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-support-T3",
+      "cents": 22221800,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-31",
+      "cents": 22221800,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-support-T6",
+      "cents": 26270046800,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-61",
+      "cents": 5500000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-62",
+      "cents": 9997328100,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-63",
+      "cents": 15133111900,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2023-native-64",
+      "cents": 1134106800,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 106
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-support-HT2",
+      "cents": 60602324500,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-support-T3",
+      "cents": 157911100,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-31",
+      "cents": 157911100,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-support-T6",
+      "cents": 60444413400,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-61",
+      "cents": 1700000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-62",
+      "cents": 24072498200,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-63",
+      "cents": 34032569200,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-64",
+      "cents": 2337646000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-support-HT2",
+      "cents": 30839675000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-support-T3",
+      "cents": 138243600,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-31",
+      "cents": 138243600,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-support-T6",
+      "cents": 30701431500,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-61",
+      "cents": 1700000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-62",
+      "cents": 14425172400,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-63",
+      "cents": 14644150800,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "01"
+      ],
+      "node": "p135-2024-native-64",
+      "cents": 1630408300,
+      "source": "dca85104653c2c5a3d17",
+      "page": 117
+    }
+  ],
+  "CSV_cell_checks": [],
+  "unchanged_programs": [
+    {
+      "year": 2021,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "135",
+      "cents": 139564960476,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "135",
+      "cents": 94124078605,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 52835344800,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 52835344800,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "135",
+      "cents": 96211624187,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "135",
+      "cents": 89166074630,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 53027793200,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 53027793200,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "135",
+      "cents": 139561170900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "135",
+      "cents": 108916008300,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 80307587000,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 78077587000,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "135",
+      "cents": 146603664904,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "135",
+      "cents": 121797634657,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 151286146900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 153866146900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 268806896300,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 299582301300,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2026,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 192334347200,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2026,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 203044539000,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2027,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 583505177900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2027,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 179394020900,
+      "canonical_rows_preserved": true
+    }
+  ],
+  "not_new_financial_primary_QA": true
+}

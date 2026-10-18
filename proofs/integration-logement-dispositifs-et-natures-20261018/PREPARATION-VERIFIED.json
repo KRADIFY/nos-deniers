@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "new_positions": 108,
+  "new_qualified_positions": 82,
+  "existing_nature_and_aggregate_navigation_positions": 26,
+  "partitions": 22,
+  "source_files": 19,
+  "prior_partitions_preserved": false,
+  "prior_financial_source_and_relation_fields_preserved": true,
+  "unused_audit_metadata_compacted": true,
+  "summaries": [
+    {
+      "scope": "P135 PAP2021–2024/action01 own devices and explicit T2zeros",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 34,
+      "current_nature_title_and_alias_navigation": 0,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T01:04:14.125707+00:00",
+      "partitions": 8,
+      "navigation_positions": 34,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P135 PAP2025–2027/action02 own native31 and annual management fee components",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 14,
+      "current_nature_title_and_alias_navigation": 0,
+      "same_current_envelope_documentary_aliases_within_qualified_count": 2,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T01:10:42.316180+00:00",
+      "partitions": 6,
+      "navigation_positions": 14,
+      "source_files": 7,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P135 RAP2021–2024/action01 native table hierarchy only; frozen financial QA reused",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 36,
+      "current_nature_title_and_alias_navigation": 24,
+      "documentary_qualified_positions_in_case": 77,
+      "parallel_commentary_positions_reserved": 41,
+      "reserved_credit_origin_AE_candidates": 2,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T01:10:02.188902+00:00",
+      "partitions": 8,
+      "navigation_positions": 60,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    }
+  ],
+  "source_reserves_and_parallel_axes_retained": true,
+  "classification_clarification": "The two already-current P135 PAP2025 action02 whole-envelope aliases are navigation supports, confirmed by independent delivery QA; source donor original14 documentary count preserved in summaries. No candidate, financial position or source field changed."
+}
