@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p135-rap2025-a03-20261018\\INDEPENDENT-DELIVERY-VERIFIED.json",
+  "receipt_sha256": "ec6fe5008e351e06ad50cff67de7f904917b25ff46457bd2940d2c2b5cf483eb",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p135-rap2025-a03-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "350a8d441d3b983f2932084aaa6bd35438a67cb3bcaaf1839f15310746d2ce6f",
+  "independent_result": {
+    "at": "2026-10-18T00:37:40.903519+00:00",
+    "passed": true,
+    "reviewer_stopped": true,
+    "navigation_positions": 20,
+    "new_measured_nature_positions": 12,
+    "current_title_and_HT2_navigation": 8,
+    "partitions": 2,
+    "checks": {
+      "donor_files": 14,
+      "author_files": 38,
+      "financial_QA_files": 17,
+      "new_nature_positions": 12,
+      "support_positions": 8,
+      "parents": 2,
+      "own_proofs": 22,
+      "relations": 10,
+      "guards19fields": 2,
+      "source_dependencies": 2,
+      "selections": 20,
+      "branch_subsets": 60,
+      "frontier_subsets": 128,
+      "duplicates_ancestors": 40,
+      "program_mission": 256
+    },
+    "projection_sha256": "b50a3fc33078ba34e6612ee6b87c2243723094e13806454e1561aca8a9f65183",
+    "donor_manifest_sha256": "a0db3e28359a8323075bb130fdb1375d0cc1fe6ccbfe4c7e60f60c2d966b3765",
+    "financial_QA_sha256": "fbc19cec4263b63d263b81fbdede36e9cc766ca5ec13e46af6c0b6726c9c208a",
+    "conclusion": "Twelve own native nature positions and eight supporting title/HT2 positions match the frozen financial qualifications. T2 remains NULL, the action remains partial, the T6AE one-EUR gap and source precision closure are preserved. Prose aliases/variants and LFI forecasts remain separate.",
+    "no_primary_or_new_financial_qualification": true,
+    "production_modified": false
+  }
+}

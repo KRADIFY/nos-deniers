@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "source": "d2c406b7e2bc73904e50",
+      "sha256": "32ce9c21bdaeddc73ea48365e7ca39a875db451857d65105d39eb7e91e15e4b9",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2025\\Cohesion_des_territoires-3c38c98a.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "599a163c4a04b75c3e47",
+      "sha256": "599a163c4a04b75c3e474e985db93f72ce76754a9d38fc078bb43001a06883d2",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\incremental-20261002\\599a163c4a04b75c3e474e985db93f72ce76754a9d38fc078bb43001a06883d2.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "5ee5dac34097980afe65",
+      "sha256": "5ee5dac34097980afe65f9af04724d3c54ee8703ccd2008748c5bfa31f32c83e",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\budget-gouv-20261015\\5ee5dac34097980afe65.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "703b2c7360e7b5a20016",
+      "sha256": "703b2c7360e7b5a200163a8a1e25bf0b2bd7beb83a08c0a48f51d367c502fe95",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\incremental-20261002\\703b2c7360e7b5a200163a8a1e25bf0b2bd7beb83a08c0a48f51d367c502fe95.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "893e91173fc6fea2200f",
+      "sha256": "893e91173fc6fea2200f114aec6063b029e54dd70f27f8cffa51b57b1d906da2",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\budget-gouv-20261015\\893e91173fc6fea2200f.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "8a1f8fa45b814b86fd29",
+      "sha256": "9797b6d035988a91e9ce090656a5eae29039b7047d40d9b79dda95bc94192850",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\plf\\2025\\Cohesion_des_territoires-8c0a8c7c.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "e05260ba6f072e533777",
+      "sha256": "e05260ba6f072e5337773ac1fda4d97187c7e0bac4f2be7e8be418a514e79d45",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\manual\\budget-gouv-20261015\\e05260ba6f072e533777.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "c9bb891a0169f22103e4",
+      "sha256": "e493fbcdc1122f231c6c2e65d8e2331199bb789825ea36575e68ecf14f25c825",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\plf\\2026\\Cohesion_des_territoires-b2e071e5.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p109-rap2025-a02-20261018\\INDEPENDENT-DELIVERY-VERIFIED.json",
+  "receipt_sha256": "fcd7dfed8ad81e005a187c025eeee9c57663d4abc548dd55caf782bc42c59913",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p109-rap2025-a02-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "3b084b0c602099e2198b79053d29b00ee2b22edd81026a1890b609538884ee10",
+  "independent_result": {
+    "at": "2026-10-18T00:29:21.751188+00:00",
+    "passed": true,
+    "reviewer_stopped": true,
+    "navigation_positions": 12,
+    "partitions": 2,
+    "checks": {
+      "donor_manifest_files": 14,
+      "author_manifest_files": 27,
+      "financial_QA_manifest_files": 26,
+      "position_matches": 12,
+      "parent_matches": 2,
+      "proof_matches": 14,
+      "program_fact_guards": 2,
+      "source_guards": 2,
+      "relations": 4,
+      "selections": 12,
+      "frontier_cases": 128,
+      "duplicate_ancestor_cases": 24,
+      "program_mission_cases": 128
+    },
+    "projection_sha256": "6af50bfbd6477ec6356098e4c9daf2654036bf44d25bad806c1bf7ee603b19c2",
+    "donor_manifest_sha256": "45351370b8e4b65c4eafac03785dc657b5ad345931f310a4d40836f5bf2b09ca",
+    "source_case_QA_sha256": "026582bbf9fd55e49c7512c2f4890a80ff77baa3cf3decd1e104cc29b195bbaf",
+    "conclusion": "Twelve source-bound ordinary EXEC positions agree with the frozen qualification. Partial recipient lists retain overdraw and precision warnings; unknown T2 and unmeasured P135 contribution remain excluded.",
+    "printed_DALO_symbol_EUR_normalization_distinguished": true,
+    "negative_or_NULL_not_replaced": true,
+    "no_primary_rereading_or_financial_requalification": true,
+    "production_modified": false
+  }
+}

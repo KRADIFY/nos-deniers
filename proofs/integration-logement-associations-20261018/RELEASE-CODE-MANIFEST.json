@@ -1,0 +1,14 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-logement-associations-21",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "e53dcbf0715f9a4af5a392c97007a3b4c30ff1e53ffdda042668cdfdd52cdb63"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "existing_financial_partitions_unchanged": true,
+  "unused_audit_metadata_compacted": false,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

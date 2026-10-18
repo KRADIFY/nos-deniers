@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "new_positions": 99,
+  "new_qualified_positions": 91,
+  "existing_nature_and_aggregate_navigation_positions": 8,
+  "partitions": 16,
+  "source_files": 8,
+  "prior_partitions_preserved": true,
+  "prior_financial_source_and_relation_fields_preserved": true,
+  "unused_audit_metadata_compacted": false,
+  "summaries": [
+    {
+      "scope": "P109 RAP2025/action02 EXEC recipients under own nature64",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 12,
+      "current_nature_title_and_alias_navigation": 0,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:25:02.435768+00:00",
+      "partitions": 2,
+      "navigation_positions": 12,
+      "source_files": 1,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P135 PAP2025–2027/action04 annual purpose axis only",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED-V2.json",
+      "new_measured_positions_selected": 30,
+      "current_nature_title_and_alias_navigation": 0,
+      "documentary_source_positions": 52,
+      "parallel_native_positions_reserved": 20,
+      "included_funding_positions_reserved": 2,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:32:17.443730+00:00",
+      "partitions": 6,
+      "navigation_positions": 30,
+      "source_files": 7,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P135 PAP2025–2027/action05 own annual purpose axis only",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 37,
+      "current_nature_title_and_alias_navigation": 0,
+      "documentary_source_positions": 53,
+      "parallel_native_positions_reserved": 16,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:35:00.879139+00:00",
+      "partitions": 6,
+      "navigation_positions": 37,
+      "source_files": 7,
+      "no_integration": true,
+      "no_publication": true,
+      "new_measured_positions_by_year": {
+        "2025": 15,
+        "2026": 18,
+        "2027": 4
+      },
+      "unpriced_2027_subheadings_not_created": 8,
+      "ENL2025_AE_NULL_not_created": true
+    },
+    {
+      "scope": "P135 RAP2025/action03 EXEC native coherent title/category axis",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 12,
+      "current_nature_title_and_alias_navigation": 8,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:34:58.833052+00:00",
+      "partitions": 2,
+      "navigation_positions": 20,
+      "source_files": 1,
+      "no_integration": true,
+      "no_publication": true
+    }
+  ],
+  "source_reserves_and_parallel_axes_retained": true
+}

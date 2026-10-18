@@ -1,0 +1,1576 @@
+{
+  "passed": true,
+  "at": "2026-10-18T00:38:15.250842+00:00",
+  "positions": 99,
+  "source_fact_mapping": [
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-NATURE64",
+      "cents": 925764400,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 73
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-ANIL",
+      "cents": 97200000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 74
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-ADIL",
+      "cents": 770000000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 74
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-tenant_associations",
+      "cents": 38100000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 74
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-DALO",
+      "cents": 900000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 74
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-diverse_associations",
+      "cents": 24500000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 74
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-NATURE64",
+      "cents": 915990300,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 73
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-ANIL",
+      "cents": 97200000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 74
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-ADIL",
+      "cents": 770000000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 74
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-tenant_associations",
+      "cents": 38100000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 74
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-DALO",
+      "cents": 900000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 74
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "109",
+        "02"
+      ],
+      "node": "P109-RAP2025-A02-diverse_associations",
+      "cents": 24500000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 74
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2025-purpose-subvention-l-anah",
+      "cents": 229200000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 109
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2025-purpose-qualit-de-la-construction",
+      "cents": 750000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 109
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2025-purpose-contentieux-de-l-habitat",
+      "cents": 4330000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 110
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2025-purpose-contentieux-de-l-urbanisme",
+      "cents": 380000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 110
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2025-purpose-observatoires-des-loyers",
+      "cents": 360000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 110
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2025-purpose-subvention-l-anah",
+      "cents": 252200000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 109
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2025-purpose-qualit-de-la-construction",
+      "cents": 750000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 109
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2025-purpose-contentieux-de-l-habitat",
+      "cents": 4330000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 110
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2025-purpose-contentieux-de-l-urbanisme",
+      "cents": 380000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 110
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2025-purpose-observatoires-des-loyers",
+      "cents": 360000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 110
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2026-purpose-subvention-l-anah",
+      "cents": 150600000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 107
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2026-purpose-qualit-de-la-construction",
+      "cents": 940000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 107
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2026-purpose-contentieux-de-l-habitat",
+      "cents": 5190000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 108
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2026-purpose-contentieux-de-l-urbanisme",
+      "cents": 380000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 109
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2026-purpose-observatoires-des-loyers",
+      "cents": 360000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 109
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2026-purpose-subvention-l-anah",
+      "cents": 153500000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 107
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2026-purpose-qualit-de-la-construction",
+      "cents": 940000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 107
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2026-purpose-contentieux-de-l-habitat",
+      "cents": 5190000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 108
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2026-purpose-contentieux-de-l-urbanisme",
+      "cents": 380000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 109
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2026-purpose-observatoires-des-loyers",
+      "cents": 360000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 109
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2027-purpose-subvention-l-anah",
+      "cents": 540600000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 108
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2027-purpose-qualit-de-la-construction",
+      "cents": 420000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 109
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2027-purpose-contentieux-de-l-habitat",
+      "cents": 8040000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 109
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2027-purpose-contentieux-de-l-urbanisme",
+      "cents": 380000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 110
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2027-purpose-observatoires-des-loyers",
+      "cents": 360000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 110
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2027-purpose-subvention-l-anah",
+      "cents": 123300000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 108
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2027-purpose-qualit-de-la-construction",
+      "cents": 420000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 109
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2027-purpose-contentieux-de-l-habitat",
+      "cents": 8040000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 109
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2027-purpose-contentieux-de-l-urbanisme",
+      "cents": 380000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 110
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2027-purpose-observatoires-des-loyers",
+      "cents": 360000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 110
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-dalo",
+      "cents": 1140000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 112
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-tudes-centrales-et-locales",
+      "cents": 300000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 112
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-syst-mes-d-information-et-innovation-conseil-et-appui-aux-politiques-publiques",
+      "cents": 2420000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 113
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-territoires-et-usagers",
+      "cents": 180000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 114
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-communication-marketing-influence",
+      "cents": 160000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 114
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-rh-et-environnement-de-travail-num-rique",
+      "cents": 85000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 114
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-fonctionnement-et-logistique",
+      "cents": 50000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 115
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-dalo",
+      "cents": 1140000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 112
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-tudes-centrales-et-locales",
+      "cents": 300000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 112
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-enl",
+      "cents": 70000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 112
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-syst-mes-d-information-et-innovation-conseil-et-appui-aux-politiques-publiques",
+      "cents": 2370000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 113
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-territoires-et-usagers",
+      "cents": 180000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 114
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-communication-marketing-influence",
+      "cents": 160000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 114
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-rh-et-environnement-de-travail-num-rique",
+      "cents": 85000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 114
+    },
+    {
+      "key": [
+        2025,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2025-purpose-fonctionnement-et-logistique",
+      "cents": 50000000,
+      "source": "8a1f8fa45b814b86fd29",
+      "page": 115
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-dalo",
+      "cents": 1140000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 110
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-tudes-centrales-et-locales",
+      "cents": 330000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 111
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-enl",
+      "cents": 70000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 111
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-syst-mes-d-information",
+      "cents": 1590000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 111
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-innovation-conseil-et-appui-aux-politiques-publiques",
+      "cents": 830000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 113
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-communication-marketing-influence",
+      "cents": 200000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 114
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-rh-et-environnement-de-travail-num-rique",
+      "cents": 150000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 114
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-fonctionnement-et-logistique",
+      "cents": 50000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 114
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-territoires-et-usagers",
+      "cents": 180000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 115
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-dalo",
+      "cents": 1140000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 110
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-tudes-centrales-et-locales",
+      "cents": 330000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 111
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-enl",
+      "cents": 90000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 111
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-syst-mes-d-information",
+      "cents": 1570000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 111
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-innovation-conseil-et-appui-aux-politiques-publiques",
+      "cents": 830000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 113
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-communication-marketing-influence",
+      "cents": 200000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 114
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-rh-et-environnement-de-travail-num-rique",
+      "cents": 150000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 114
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-fonctionnement-et-logistique",
+      "cents": 50000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 114
+    },
+    {
+      "key": [
+        2026,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2026-purpose-territoires-et-usagers",
+      "cents": 180000000,
+      "source": "5ee5dac34097980afe65",
+      "page": 115
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2027-purpose-dalo",
+      "cents": 1230000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 111
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2027-purpose-innovation-territorialisation-et-services-num-riques",
+      "cents": 3800000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 112
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2027-purpose-dalo",
+      "cents": 1230000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 111
+    },
+    {
+      "key": [
+        2027,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "05"
+      ],
+      "node": "p135-2027-purpose-innovation-territorialisation-et-services-num-riques",
+      "cents": 3800000000,
+      "source": "703b2c7360e7b5a20016",
+      "page": 112
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2025-A03-native-HT2",
+      "cents": 529155300,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 117
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2025-A03-native-T3",
+      "cents": 453838300,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature31",
+      "cents": 453838300,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2025-A03-native-T5",
+      "cents": 10112200,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature51",
+      "cents": 10112200,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2025-A03-native-T6",
+      "cents": 65204800,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature61",
+      "cents": 8146400,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature62",
+      "cents": 36050000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature63",
+      "cents": 5597000,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature64",
+      "cents": 15411500,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2025-A03-native-HT2",
+      "cents": 712029100,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 117
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2025-A03-native-T3",
+      "cents": 442205400,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature31",
+      "cents": 442205400,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2025-A03-native-T5",
+      "cents": 5402600,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature51",
+      "cents": 5402600,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2025-A03-native-T6",
+      "cents": 264421100,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature61",
+      "cents": 7899900,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature62",
+      "cents": 15669200,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature63",
+      "cents": 221054500,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    },
+    {
+      "key": [
+        2025,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2025-action03-nature64",
+      "cents": 19797500,
+      "source": "d2c406b7e2bc73904e50",
+      "page": 118
+    }
+  ],
+  "CSV_cell_checks": [],
+  "unchanged_programs": [
+    {
+      "year": 2025,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "109",
+      "cents": 1665574467665,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "135",
+      "cents": 313690579829,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "109",
+      "cents": 1665564693565,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "135",
+      "cents": 284475566327,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 268806896300,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2025,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 299582301300,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2026,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 192334347200,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2026,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 203044539000,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2027,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 583505177900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2027,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 179394020900,
+      "canonical_rows_preserved": true
+    }
+  ],
+  "not_new_financial_primary_QA": true
+}
