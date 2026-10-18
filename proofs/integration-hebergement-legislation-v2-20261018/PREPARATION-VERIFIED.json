@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "new_positions": 134,
+  "new_qualified_positions": 134,
+  "existing_nature_and_aggregate_navigation_positions": 0,
+  "partitions": 18,
+  "source_files": 14,
+  "prior_partitions_preserved": true,
+  "prior_financial_source_and_relation_fields_preserved": true,
+  "unused_audit_metadata_compacted": false,
+  "summaries": [
+    {
+      "scope": "P177 PAP2021–2023/action12 PLF measured ordinary details only",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 46,
+      "current_nature_title_and_alias_navigation": 0,
+      "ordinary_positions_by_year": {
+        "2021": 6,
+        "2022": 20,
+        "2023": 20
+      },
+      "scalar_nodes_without_measures_reserved": 16,
+      "prior_year_reference_nodes_reserved": 1,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:05:08.393476+00:00",
+      "partitions": 6,
+      "navigation_positions": 46,
+      "source_files": 5,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P177 RAP2022–2023/action12 EXEC coherent purpose axis only",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 44,
+      "current_nature_title_and_alias_navigation": 0,
+      "parallel_native_positions_reserved": 28,
+      "ordinary_qualified_positions": 72,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:18:45.430967+00:00",
+      "partitions": 4,
+      "navigation_positions": 44,
+      "source_files": 3,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P156 RAP2021–2024/action10 EXEC native44 only",
+      "registry_file": "FINANCIAL-REGISTRY.json",
+      "new_measured_positions_selected": 44,
+      "current_nature_title_and_alias_navigation": 0,
+      "new_individually_priced_prose_budgets": 0,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T00:15:29.990234+00:00",
+      "partitions": 8,
+      "navigation_positions": 44,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    }
+  ],
+  "source_reserves_and_parallel_axes_retained": true
+}

@@ -1,0 +1,14 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-hebergement-legislation-20-v2",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "2862c7845e138dfe06e2f15be34ec228c5b77a6eb623b5aac059b7f4a6b5ccd8"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "existing_financial_partitions_unchanged": true,
+  "unused_audit_metadata_compacted": false,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}

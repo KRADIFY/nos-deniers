@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "source": "12c1ec729cf3eac1be6e",
+      "sha256": "546d8e4cd9e45a7ba64ad50b0389bcb97c2dd9ef8c90fcf84b2bd6d31c71fcf9",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2021\\FR_2021_PLF_BG_MSN_VA-546d8e4cd9e4.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "d2046d53d743c472151a",
+      "sha256": "7b3f8bfde0e3de4c737b06be4a1fc26b5e5e2d5123e9d317dec717aeff1d06ae",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2022\\FR_2022_PLF_BG_PGM_177-7b3f8bfde0e3.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "1f33dcb8d71d7fe7db83",
+      "sha256": "8d939111ccfbf19ec86e1eeb0ba5a2f73231287b79683fc2559fd26a431902ed",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2021\\FR_2021_PLF_BG_PGM_177-8d939111ccfb.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "d1c0970f23345c1413af",
+      "sha256": "9c9e911e6db8ea6268a01fbb5bde1f832ff43c9e84c025e7ab4f913d49721bc7",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\plf\\2023\\Cohesion_des_territoires-71624ee5.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "2916391cc1717a0f3b01",
+      "sha256": "e019fcc83a9a490b59353be31b88d85ba1f9ca30cbe495d30734428d2dc4e264",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2022\\FR_2022_PLF_BG_MSN_VA-e019fcc83a9a.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "94cc3bccae5a7cc2cde3",
+      "sha256": "1d1a1425112e4e8f7844e5afffc66ac02d20b6a8e8d28a2e0d138575b63878ff",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2022\\FR_2022_PLR_BG_MSN_VA-1d1a1425112e.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "cd3e0dda56f7232a0526",
+      "sha256": "739d6bc171278808cc4f20eeb5463893a6d925b6ac157c5854227737c1a72bce",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2023\\Cohesion_des_territoires-412cb928.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "2e33527331f45b1e4b5f",
+      "sha256": "b84bbfc1c2167341e7934bce56871f7c6c8fe43ff4ac80aa231d7cdcc28611ed",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2022\\FR_2022_PLR_BG_PGM_177-b84bbfc1c216.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "489dafa3aadf8dbc90aa",
+      "sha256": "6d032cdff754a2a8004befd5a623772ae64905ac767ac791873bb07d178878d0",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2024\\Gestion_des_finances_publiques-aade817c.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "967bc75f1de056a01e3b",
+      "sha256": "914816cbc90cfc2c26c6b4e146ea6789c65c5d6e5965c72603df8b454a22fa56",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2021\\FR_2021_PLR_BG_PGM_156-914816cbc90c.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "afe5d663cfb0e2c02192",
+      "sha256": "c4e8645a8c38183e6a9b732664d60dbd5683f3dd2830d7fe9eb12697d7bfce89",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2023\\Gestion_des_finances_publiques-c37fdb9a.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "066c6fcbfb5d1d7211ff",
+      "sha256": "c53333019d69ed20936b32da74294dc36f36d28249da60b9e22d29dbe2b42d32",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2021\\FR_2021_PLR_BG_MSN_GA-c53333019d69.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "05e544db1b1f14600a48",
+      "sha256": "c69e680ab6dd63bf664cf840b23edf20daa2d311f68c8c324417ac3744844fd6",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2022\\RAP2022_BG_Gestion_finances_publiques-c69e680ab6dd.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "2f6230e25a0d0bfd33f4",
+      "sha256": "e5f9b5f89ae9a4e43cdb80272b91e917b592f062f750b8034af2d92a626abcac",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2022\\FR_2022_PLR_BG_PGM_156-e5f9b5f89ae9.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    }
+  ]
+}

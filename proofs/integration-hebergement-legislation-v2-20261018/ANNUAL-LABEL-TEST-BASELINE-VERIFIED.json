@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "changed_test_controllers": [
+    {
+      "script": "verify_fiscality_history_regression.py",
+      "before_sha256": "6b2c47353bf66f6fd2b058024ee2ac98384630016b34badb9ee1735e142c1646",
+      "sha256": "cbe2b4f7f03ee798e3002cb4df193421303549f2dfe000fa42c678013cc44886"
+    },
+    {
+      "script": "verify_logement_regression.py",
+      "before_sha256": "06234342de380399a3d58d8efcf069a81b444bf381a2e57206ba28c07868678b",
+      "sha256": "6a023e6d35a29211804a48009cdb32fb0571df245388029e1a84a27e83ff6d29"
+    }
+  ],
+  "only_navigation_breadcrumb_accepts_current_candidate_same_year_same_path_documented_labels": true,
+  "exact_original_label_by_year_stage_measure_still_asserted_in_provenance": true,
+  "source_amount_unit_and_exclusion_assertions_unchanged": true,
+  "production_unchanged": true,
+  "no_arbitrary_label_added": true
+}

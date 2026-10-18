@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "at": "2026-10-18T00:26:16.826512+00:00",
+  "partitions": 283,
+  "new_positions": 1348,
+  "counts": {
+    "unchanged_parent": 283,
+    "unchanged_program": 283,
+    "every_child_selectable": 1501,
+    "actual_parent_view": 1501,
+    "new_primary_citation": 1348,
+    "unit_disclosed": 1348,
+    "printed_code_displayed": 1348,
+    "ancestor_exclusion": 1501,
+    "duplicate_exclusion": 1501,
+    "exclusion_combinations": 13849,
+    "exclusion_order": 12835
+  },
+  "errors": []
+}

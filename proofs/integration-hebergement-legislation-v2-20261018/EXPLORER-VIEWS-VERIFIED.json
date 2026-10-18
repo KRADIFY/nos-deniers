@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "at": "2026-10-18T00:26:59.562811+00:00",
+  "counts": {
+    "new_rows_in_parent_view": 1258,
+    "real_leaf_routes": 366
+  },
+  "errors": [],
+  "scope": "Production explorer functions, actual selected canonical records cached per SQL dimensions; every new displayed row and one full leaf-route series filter per parent, complementing all1258 cell/exclusion tests."
+}

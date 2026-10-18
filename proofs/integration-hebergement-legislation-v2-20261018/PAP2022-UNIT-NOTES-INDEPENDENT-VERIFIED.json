@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-pap2022-a12-note-clarification-20261018\\INDEPENDENT-FRENCH-NOTE-DELIVERY-VERIFIED.json",
+  "receipt_sha256": "8b15ab40f2040083a8aea2c44a5895dd12f1dd67675a081ac8238622952aa8c3",
+  "manifest": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-pap2022-a12-note-clarification-20261018\\FINAL-MANIFEST.json",
+  "manifest_sha256": "344925696ffcddfa17afe45c0e6d454899f398acf65608bccc56414d7dc883e8",
+  "independent_result": {
+    "passed": true,
+    "reviewer_stopped": true,
+    "at": "2026-10-18T00:26:56.745421+00:00",
+    "scope": "Exactly two visible French append-only warnings on PAP2022 urgency AE/CP",
+    "original_projection_sha256": "97493528c90ef78370410926da7a5522d10da3fa5f0aa010518d48a44fd32364",
+    "derived_projection_sha256": "c8a297db269dff1c121bc24ce9200cc079f87c350a458b8e651b5dfc0a6c3fed",
+    "derived_manifest_sha256": "a888f76387c8fd76aa78f12241beaec81dc5ae6b2e1900c6005eeb47cdaf1c96",
+    "manifest_files_verified": {
+      "original": 16,
+      "derived": 17
+    },
+    "notes_added": 2,
+    "navigation_positions_unchanged": 46,
+    "financial_source_unit_label_path_relation_guard_and_audit_fields_identical": true,
+    "printed_MdEUR_and_inferred_MEUR_preserved": true,
+    "restoration_byte_exact": true,
+    "new_primary_or_financial_audit": false,
+    "production_modified": false
+  }
+}

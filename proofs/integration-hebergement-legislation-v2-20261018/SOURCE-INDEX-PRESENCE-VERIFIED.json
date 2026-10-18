@@ -1,0 +1,316 @@
+{
+  "passed": true,
+  "at": "2026-10-18T00:31:12.224770+00:00",
+  "read_only": true,
+  "source_matches": {
+    "546d8e4cd9e45a7ba64ad50b0389bcb97c2dd9ef8c90fcf84b2bd6d31c71fcf9": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3662,
+            "reference_id": "bbf9396563d0234a8acb6aac750cafae9d9cd084dddfa13b6b3c98b376e225f9",
+            "source_sha256": "546d8e4cd9e45a7ba64ad50b0389bcb97c2dd9ef8c90fcf84b2bd6d31c71fcf9",
+            "source_id": "12c1ec729cf3eac1be6e",
+            "title": "PLF 2021 — Cohésion des territoires",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/9664",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "9c9e911e6db8ea6268a01fbb5bde1f832ff43c9e84c025e7ab4f913d49721bc7": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3710,
+            "reference_id": "be1bedfec1cda5525dae5331b1e83dad0f96dd395900cbf52f39dbfe73ac08dd",
+            "source_sha256": "9c9e911e6db8ea6268a01fbb5bde1f832ff43c9e84c025e7ab4f913d49721bc7",
+            "source_id": "d1c0970f23345c1413af",
+            "title": "Cohésion des territoires",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/494469/file/PAP2023_BG_Cohesion_territoires.pdf",
+            "format": "pdf",
+            "years_key": "|2023|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "7b3f8bfde0e3de4c737b06be4a1fc26b5e5e2d5123e9d317dec717aeff1d06ae": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1932,
+            "reference_id": "61da3db084497e734d0bb0ed2ae20fd21e0a3243f088c39ffffabafa07a0de06",
+            "source_sha256": "7b3f8bfde0e3de4c737b06be4a1fc26b5e5e2d5123e9d317dec717aeff1d06ae",
+            "source_id": "d2046d53d743c472151a",
+            "title": "PLF 2022 — 177 - Hébergement, parcours vers le logement et insertion des personnes vulnérables",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/13723",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c4e8645a8c38183e6a9b732664d60dbd5683f3dd2830d7fe9eb12697d7bfce89": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1197,
+            "reference_id": "3bf679633ad17628031cc8f8f2e63ccf1d07e994728c298934c2ca3c8c71011a",
+            "source_sha256": "c4e8645a8c38183e6a9b732664d60dbd5683f3dd2830d7fe9eb12697d7bfce89",
+            "source_id": "afe5d663cfb0e2c02192",
+            "title": "Gestion des finances publiques",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/826959/file/RAP2023_BG_Gestion_finances_publiques_GA.pdf",
+            "format": "pdf",
+            "years_key": "|2023|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "739d6bc171278808cc4f20eeb5463893a6d925b6ac157c5854227737c1a72bce": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2865,
+            "reference_id": "916ee523df31958013752935554010810be747d684a687b427bcafca2dbd3e13",
+            "source_sha256": "739d6bc171278808cc4f20eeb5463893a6d925b6ac157c5854227737c1a72bce",
+            "source_id": "cd3e0dda56f7232a0526",
+            "title": "Cohésion des territoires",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/826932/file/RAP2023_BG_Cohesion_territoires_VA.pdf",
+            "format": "pdf",
+            "years_key": "|2023|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "6d032cdff754a2a8004befd5a623772ae64905ac767ac791873bb07d178878d0": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2012,
+            "reference_id": "663e9a2f9a70e1dc3f93abb409b83ffc05e87c73b0ad55aa637f78369abb4eff",
+            "source_sha256": "6d032cdff754a2a8004befd5a623772ae64905ac767ac791873bb07d178878d0",
+            "source_id": "489dafa3aadf8dbc90aa",
+            "title": "Gestion des finances publiques",
+            "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/906955/file/Gestion_finances_publiques.pdf",
+            "format": "pdf",
+            "years_key": "|2024|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "1d1a1425112e4e8f7844e5afffc66ac02d20b6a8e8d28a2e0d138575b63878ff": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4649,
+            "reference_id": "ee520f979d2bf987e7657f1a612ba428b5fd79c76e47e5a2f63fc5362915350b",
+            "source_sha256": "1d1a1425112e4e8f7844e5afffc66ac02d20b6a8e8d28a2e0d138575b63878ff",
+            "source_id": "94cc3bccae5a7cc2cde3",
+            "title": "RAP 2022 — Cohésion des territoires",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/20298",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c53333019d69ed20936b32da74294dc36f36d28249da60b9e22d29dbe2b42d32": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4318,
+            "reference_id": "dd8220e147d04979195d06eca8d8c7007fdd5c3306e6e7b015fb6a22380c2215",
+            "source_sha256": "c53333019d69ed20936b32da74294dc36f36d28249da60b9e22d29dbe2b42d32",
+            "source_id": "066c6fcbfb5d1d7211ff",
+            "title": "RAP 2021 — Gestion des finances publiques",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/15505",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "e019fcc83a9a490b59353be31b88d85ba1f9ca30cbe495d30734428d2dc4e264": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4594,
+            "reference_id": "eb8ea23176ee59b0199beea3e36368f0ba6a2d60ce333d79cae934ef027858f4",
+            "source_sha256": "e019fcc83a9a490b59353be31b88d85ba1f9ca30cbe495d30734428d2dc4e264",
+            "source_id": "2916391cc1717a0f3b01",
+            "title": "PLF 2022 — Cohésion des territoires",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/13558",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "c69e680ab6dd63bf664cf840b23edf20daa2d311f68c8c324417ac3744844fd6": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 2724,
+            "reference_id": "894416479b9fa90df98c78d899e505f46c3e4de1e590afebea5642e08f09b1d2",
+            "source_sha256": "c69e680ab6dd63bf664cf840b23edf20daa2d311f68c8c324417ac3744844fd6",
+            "source_id": "05e544db1b1f14600a48",
+            "title": "RAP 2022 — Gestion des finances publiques",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/20172",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "b84bbfc1c2167341e7934bce56871f7c6c8fe43ff4ac80aa231d7cdcc28611ed": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 4606,
+            "reference_id": "ebce001a662517e09a60335d2f654a08fa53dc689e7984f24dcf6a547aebb923",
+            "source_sha256": "b84bbfc1c2167341e7934bce56871f7c6c8fe43ff4ac80aa231d7cdcc28611ed",
+            "source_id": "2e33527331f45b1e4b5f",
+            "title": "RAP 2022 — 177 - Hébergement, parcours vers le logement et insertion des personnes vulnérables",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/20463",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "e5f9b5f89ae9a4e43cdb80272b91e917b592f062f750b8034af2d92a626abcac": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1196,
+            "reference_id": "3be310b4408cbe12e447d8c012e659de5fb4ef0bdba3d856725d39aace3db87a",
+            "source_sha256": "e5f9b5f89ae9a4e43cdb80272b91e917b592f062f750b8034af2d92a626abcac",
+            "source_id": "2f6230e25a0d0bfd33f4",
+            "title": "RAP 2022 — 156 - Gestion fiscale et financière de l'État et du secteur public local",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/20418",
+            "format": "pdf",
+            "years_key": "|2022|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "8d939111ccfbf19ec86e1eeb0ba5a2f73231287b79683fc2559fd26a431902ed": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 1912,
+            "reference_id": "60cbfb920496b0d3e8c549477cebd69ec3ae9e434e6a0abfd9e429ec3312a2bf",
+            "source_sha256": "8d939111ccfbf19ec86e1eeb0ba5a2f73231287b79683fc2559fd26a431902ed",
+            "source_id": "1f33dcb8d71d7fe7db83",
+            "title": "PLF 2021 — 177 - Hébergement, parcours vers le logement et insertion des personnes vulnérables",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/9832",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "plf-pap",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ],
+    "914816cbc90cfc2c26c6b4e146ea6789c65c5d6e5965c72603df8b454a22fa56": [
+      {
+        "index": "D:\\LexMachine\\NosDeniers\\search_20260919",
+        "documents": [
+          {
+            "id": 3027,
+            "reference_id": "9b2eb2e23952803c7c54b0987b1b716c045e1abf46418a84febce618182e946d",
+            "source_sha256": "914816cbc90cfc2c26c6b4e146ea6789c65c5d6e5965c72603df8b454a22fa56",
+            "source_id": "967bc75f1de056a01e3b",
+            "title": "RAP 2021 — 156 - Gestion fiscale et financière de l'État et du secteur public local",
+            "url": "https://www.budget.gouv.fr/documentation/file-download/15751",
+            "format": "pdf",
+            "years_key": "|2021|",
+            "stage": "rap-plrg",
+            "source_kind": "source_pdf",
+            "table_layout": "not_certified",
+            "numeric_status": "raw_not_validated_facts",
+            "local_available": 1
+          }
+        ]
+      }
+    ]
+  },
+  "new_encoding_required": false
+}
