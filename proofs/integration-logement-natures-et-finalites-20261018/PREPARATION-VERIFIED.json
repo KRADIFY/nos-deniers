@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "new_positions": 116,
+  "new_qualified_positions": 83,
+  "existing_nature_and_aggregate_navigation_positions": 33,
+  "partitions": 24,
+  "source_files": 12,
+  "prior_partitions_preserved": true,
+  "prior_financial_source_and_relation_fields_preserved": true,
+  "unused_audit_metadata_compacted": false,
+  "summaries": [
+    {
+      "scope": "P135 PAP2021–2024/action02 own T2zeros and current nature/whole-envelope alias navigation",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 8,
+      "current_nature_title_and_alias_navigation": 8,
+      "source_documentary_positions_including_two_current_aliases": 10,
+      "explicit_new_T2zeros": 8,
+      "already_current_2024_fee_aliases_support": 2,
+      "current_nature31_support": 6,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T01:20:00.309974+00:00",
+      "partitions": 8,
+      "navigation_positions": 16,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P135 RAP2021–2024/action03 own native nature/title hierarchy",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 39,
+      "current_nature_title_and_alias_navigation": 25,
+      "qualified_case_positions": 41,
+      "State2021_parallel_positions_reserved": 2,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T01:16:20.406411+00:00",
+      "partitions": 8,
+      "navigation_positions": 64,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    },
+    {
+      "scope": "P135 RAP2021–2024/action04 qualified purposes and included DRIHL parts only",
+      "registry_file": "FINANCIAL-REGISTRY-REVIEWED.json",
+      "new_measured_positions_selected": 36,
+      "current_nature_title_and_alias_navigation": 0,
+      "documentary_case_positions": 86,
+      "parallel_native_natures_reserved": 50,
+      "no_new_financial_QA": true,
+      "at": "2026-10-18T01:19:03.108469+00:00",
+      "partitions": 8,
+      "navigation_positions": 36,
+      "source_files": 6,
+      "no_integration": true,
+      "no_publication": true
+    }
+  ],
+  "source_reserves_and_parallel_axes_retained": true
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "independent_root_mapping_sha256": "c260763aa56df7562a8a47c1e33219aa7fe0d00c721a0266b4e712270ca5542f",
+  "frozen_author_source_maps": [
+    {
+      "folder": "projection-p135-rap2021-2024-action03-20261018",
+      "mapping_sha256": "0d0cf0225477b518d272ecd404e47ca7733378e0123070f32bcc9bb7cb952cd3",
+      "projection_sha256": "8eb37267347ed5ff8337b44c6b7e480c5b06643d866c960afe63274f375826cd",
+      "manifest_sha256": "7a3eb628b6fc10fad8185b07b6e2e4c37b73b18435d40261746700911b48667e",
+      "qualified_rows": 39
+    },
+    {
+      "folder": "projection-p135-rap2021-2024-action04-20261018",
+      "mapping_sha256": "216d8fbd3fc428ba65b10a0de015dba7068c83b38e02f32a61c3c00a2e67ede3",
+      "projection_sha256": "bad2b5912edf23764c4dd4e0cf7b3ef4d8bbe9796347791cbe7294c879a8234f",
+      "manifest_sha256": "be23b978bace60faff2707977f4300bdcafea270be5d699ed7ab4b05264f4513",
+      "qualified_rows": 36
+    }
+  ],
+  "own_financial_QA_consumed_not_replayed": true,
+  "parallel_and_unknown_axes_preserved": true
+}

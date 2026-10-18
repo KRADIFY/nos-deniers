@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "source": "12c1ec729cf3eac1be6e",
+      "sha256": "546d8e4cd9e45a7ba64ad50b0389bcb97c2dd9ef8c90fcf84b2bd6d31c71fcf9",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2021\\FR_2021_PLF_BG_MSN_VA-546d8e4cd9e4.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "d1c0970f23345c1413af",
+      "sha256": "9c9e911e6db8ea6268a01fbb5bde1f832ff43c9e84c025e7ab4f913d49721bc7",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\plf\\2023\\Cohesion_des_territoires-71624ee5.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "fa77710c7b3b658e4b4b",
+      "sha256": "a4d3d35492219cd5969fb40f9b63e966cdaf7bbfdebeb13bb503d417db86f9ba",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2022\\FR_2022_PLF_BG_PGM_135-a4d3d3549221.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "1b8099b9f8ff5be60dfc",
+      "sha256": "c9231342ba763727c13440739750c2854e512e462b2162903a3259135f88b6af",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2021\\FR_2021_PLF_BG_PGM_135-c9231342ba76.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "2916391cc1717a0f3b01",
+      "sha256": "e019fcc83a9a490b59353be31b88d85ba1f9ca30cbe495d30734428d2dc4e264",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\plf\\2022\\FR_2022_PLF_BG_MSN_VA-e019fcc83a9a.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "b7dd7c6577809efa3c84",
+      "sha256": "f77ed40f991f5877631c8598484b91a40b4b262c797912fc6df6555ff5c21e1e",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\plf\\2024\\Cohesion_des_territoires-f51f0b22.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "94cc3bccae5a7cc2cde3",
+      "sha256": "1d1a1425112e4e8f7844e5afffc66ac02d20b6a8e8d28a2e0d138575b63878ff",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2022\\FR_2022_PLR_BG_MSN_VA-1d1a1425112e.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "cd3e0dda56f7232a0526",
+      "sha256": "739d6bc171278808cc4f20eeb5463893a6d925b6ac157c5854227737c1a72bce",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2023\\Cohesion_des_territoires-412cb928.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "fbf12ff706972e2ba680",
+      "sha256": "958cdf40df88749d0c34be4b38eed533c5b0f975d703858b74344ca7101985a1",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2021\\FR_2021_PLR_BG_MSN_VA-958cdf40df88.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "e300779c6f8baac6aff1",
+      "sha256": "ab3dd6765878f46aaece4966a5349f34fad342c14adb77cbf84ba079d01a6ace",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2022\\FR_2022_PLR_BG_PGM_135-ab3dd6765878.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "dca85104653c2c5a3d17",
+      "sha256": "c98055f05508a4072bb322692050290464408c81ad7f8b12fcb843996301ce51",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\raw\\rap\\2024\\Cohesion_des_territoires-e21701e8.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    },
+    {
+      "source": "639fa14727f2eda93dc8",
+      "sha256": "e0c8aa4d12e2baf2e01a848400e94604af1994eb4407b52c09d6cd6e19f22c79",
+      "path": "D:\\ChatGPT\\docker\\budget\\releases\\en-ligne-20261008\\plf-data\\public\\selenium\\rap\\2021\\FR_2021_PLR_BG_PGM_135-e0c8aa4d12e2.pdf",
+      "file_hash_verified": true,
+      "primary_replay": false
+    }
+  ]
+}

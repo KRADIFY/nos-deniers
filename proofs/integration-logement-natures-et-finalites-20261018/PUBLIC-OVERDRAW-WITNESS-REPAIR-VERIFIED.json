@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "at": "2026-10-18T01:27:51.970611+00:00",
+  "workers_absent_before_repair": true,
+  "old_controller_sha256": "a22156cb1eddc5b0f5d7c6758b6631a4d281a04c62e10a529a74e271ffa85662",
+  "new_controller_sha256": "69b77fa2652cdb51cf1bf247bc5d91509019f6b01fe56e373645c96f6df3e02e",
+  "change": "Use same existing overdraw oracle already exercised by candidate, including first-child duplicate-exclusion case. No negative residual expected when known positive child exceeds canonical parent.",
+  "financial_or_runtime_change": false,
+  "failed_original_receipt_retained": false,
+  "fresh_full_public_verification_required": true
+}

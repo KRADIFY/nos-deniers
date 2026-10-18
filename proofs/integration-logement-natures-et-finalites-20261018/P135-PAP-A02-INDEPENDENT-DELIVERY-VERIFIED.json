@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "receipt": "D:\\ChatGPT\\docker\\budget\\outputs\\audit-budgets-internes-pap-rap-2017-2027-20261016\\independent-delivery-p135-pap2124-a02-20261018\\INDEPENDENT-DELIVERY-VERIFIED.json",
+  "receipt_sha256": "c603cb7c8fa5aa44d7df293df51679e076312bc4dba5f40beb0ff286b0cdc7d1",
+  "manifest_sha256": "9159916c32111d38c3998e92741ae32af4b5140d4c0c5caa327c316cce196cf8",
+  "independent_result": {
+    "at": "2026-10-18T01:22:16.722214+00:00",
+    "passed": true,
+    "reviewer_stopped": true,
+    "navigation_positions": 16,
+    "new_measured_positions_selected": 8,
+    "current_nature_title_and_alias_navigation": 8,
+    "current_nature31": 6,
+    "current_alias2024": 2,
+    "partitions": 8,
+    "checks": {
+      "donor_files": 14,
+      "author_files": 24,
+      "financial_QA_files": 10,
+      "parents": 8,
+      "positions": 16,
+      "new_T2_zeros": 8,
+      "current_nature_supports": 6,
+      "current_alias_supports": 2,
+      "proofs": 36,
+      "guards19": 8,
+      "relations": 8,
+      "sources": 12,
+      "selections": 16,
+      "frontier_cases": 32,
+      "ancestor_cases": 64,
+      "duplicates": 32
+    },
+    "projection_sha256": "8d16c80da0204b9491f1dc2fe06226a7f6aa52e964dcc5efd55473daafbacb66",
+    "donor_manifest_sha256": "1f045a25b84cb9088e2f2140b8e3ed01b6c2c1d4d1f1fdef4ce3ab8c621974a3",
+    "no_primary_or_financial_requalification": true,
+    "production_modified": false
+  }
+}

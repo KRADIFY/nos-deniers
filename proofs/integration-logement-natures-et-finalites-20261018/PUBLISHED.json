@@ -1,0 +1,25 @@
+{
+  "published": true,
+  "at": "2026-10-18T01:32:22.546931+00:00",
+  "services": [
+    "web1",
+    "web2",
+    "web3",
+    "web4"
+  ],
+  "old_image": "lexmachine-budget:20261018-logement-dispositifs-natures-24",
+  "new_image": "lexmachine-budget:20261018-logement-natures-finalites-25",
+  "image_id": "sha256:3bab706bb9eb53a4f46ef3a82fe0f4693bcd8301f5966a77271966ee2e1b07ba",
+  "registry_version": "50677cf14fa7235e6c1ce71169393a8314d610b37589b17bfb864987fed8284b",
+  "financial_database_sha256": "8408a08b88c8d27ed8b5b9737d3580ece9d192edaa1d96e7f1a73a8494ac52fb",
+  "financial_facts": 142079,
+  "compose_before_sha256": "21d6d85f80670cb0bb8991f96f8018e39171e4b47c92f20dc60f002ac6b3a454",
+  "compose_after_sha256": "e676ede2bd541ddca9fbac4a5b9f776fc3de4b9a670ddc4a07800fa85a4e7b16",
+  "old_image_retained": true,
+  "only_reviewed_registry_data_changed": true,
+  "source_files_verified": 12,
+  "selectable_new_positions": 116,
+  "new_qualified_positions": 83,
+  "existing_nature_and_aggregate_navigation_positions": 33,
+  "public_API_checks_pending": true
+}

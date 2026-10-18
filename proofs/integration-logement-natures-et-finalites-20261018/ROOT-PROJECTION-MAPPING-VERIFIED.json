@@ -1,0 +1,1879 @@
+{
+  "passed": true,
+  "at": "2026-10-18T01:25:26.174748+00:00",
+  "positions": 116,
+  "source_fact_mapping": [
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2021-T2",
+      "cents": 0,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 103
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2021-action02-current-nature31",
+      "cents": 410000000,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 104
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2021-T2",
+      "cents": 0,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 103
+    },
+    {
+      "key": [
+        2021,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2021-action02-current-nature31",
+      "cents": 410000000,
+      "source": "12c1ec729cf3eac1be6e",
+      "page": 104
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2022-T2",
+      "cents": 0,
+      "source": "2916391cc1717a0f3b01",
+      "page": 108
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2022-action02-current-nature31",
+      "cents": 410000000,
+      "source": "2916391cc1717a0f3b01",
+      "page": 109
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2022-T2",
+      "cents": 0,
+      "source": "2916391cc1717a0f3b01",
+      "page": 108
+    },
+    {
+      "key": [
+        2022,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2022-action02-current-nature31",
+      "cents": 410000000,
+      "source": "2916391cc1717a0f3b01",
+      "page": 109
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2023-T2",
+      "cents": 0,
+      "source": "d1c0970f23345c1413af",
+      "page": 104
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2023-action02-current-nature31",
+      "cents": 410000000,
+      "source": "d1c0970f23345c1413af",
+      "page": 105
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2023-T2",
+      "cents": 0,
+      "source": "d1c0970f23345c1413af",
+      "page": 104
+    },
+    {
+      "key": [
+        2023,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2023-action02-current-nature31",
+      "cents": 410000000,
+      "source": "d1c0970f23345c1413af",
+      "page": 105
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2024-T2",
+      "cents": 0,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 110
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2024-SGFGAS-fees",
+      "cents": 420000000,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 111
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2024-T2",
+      "cents": 0,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 110
+    },
+    {
+      "key": [
+        2024,
+        "PLF",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "02"
+      ],
+      "node": "p135-2024-SGFGAS-fees",
+      "cents": 420000000,
+      "source": "b7dd7c6577809efa3c84",
+      "page": 111
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2021-A03-native-support-HT2",
+      "cents": 1129844200,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2021-A03-native-support-T3",
+      "cents": 378866200,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature31",
+      "cents": 378866200,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2021-A03-native-support-T5",
+      "cents": -456200,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature51",
+      "cents": -456200,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2021-A03-native-support-T6",
+      "cents": 751434300,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature61",
+      "cents": 709854000,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature62",
+      "cents": 11989100,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature63",
+      "cents": 13994600,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature64",
+      "cents": 15596600,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2021-A03-native-support-HT2",
+      "cents": 1068288800,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2021-A03-native-support-T3",
+      "cents": 307849100,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature31",
+      "cents": 307849100,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2021-A03-native-support-T6",
+      "cents": 760439700,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature61",
+      "cents": 721367800,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature62",
+      "cents": 11861700,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature63",
+      "cents": 3964000,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2021-action03-nature64",
+      "cents": 23246200,
+      "source": "fbf12ff706972e2ba680",
+      "page": 118
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2022-A03-native-support-HT2",
+      "cents": 1075129500,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2022-A03-native-support-T3",
+      "cents": 341623600,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2022-action03-nature31",
+      "cents": 341623600,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2022-A03-native-support-T6",
+      "cents": 733505800,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2022-action03-nature61",
+      "cents": 706440200,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2022-action03-nature62",
+      "cents": 17126500,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2022-action03-nature64",
+      "cents": 9939100,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2022-A03-native-support-HT2",
+      "cents": 1117284900,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2022-A03-native-support-T3",
+      "cents": 358762700,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2022-action03-nature31",
+      "cents": 358762700,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2022-A03-native-support-T6",
+      "cents": 758522200,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2022-action03-nature61",
+      "cents": 709586500,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2022-action03-nature62",
+      "cents": 14670500,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2022-action03-nature63",
+      "cents": 25814300,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2022-action03-nature64",
+      "cents": 8450900,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 122
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2023-A03-native-support-HT2",
+      "cents": 1027513600,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2023-A03-native-support-T3",
+      "cents": 439897800,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2023-action03-nature31",
+      "cents": 439897800,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2023-A03-native-support-T6",
+      "cents": 587615800,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2023-action03-nature61",
+      "cents": 549964400,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2023-action03-nature62",
+      "cents": 16100400,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2023-action03-nature64",
+      "cents": 21551000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2023-A03-native-support-HT2",
+      "cents": 1209116200,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2023-A03-native-support-T3",
+      "cents": 418684300,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2023-action03-nature31",
+      "cents": 418684300,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2023-A03-native-support-T6",
+      "cents": 790432000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2023-action03-nature61",
+      "cents": 552225200,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2023-action03-nature62",
+      "cents": 10941700,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2023-action03-nature63",
+      "cents": 211345400,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2023-action03-nature64",
+      "cents": 15919800,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 110
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2024-A03-native-support-HT2",
+      "cents": 487215700,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2024-A03-native-support-T3",
+      "cents": 402584400,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2024-action03-nature31",
+      "cents": 402584400,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2024-A03-native-support-T6",
+      "cents": 84631300,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2024-action03-nature61",
+      "cents": -28250700,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2024-action03-nature62",
+      "cents": 21303100,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2024-action03-nature63",
+      "cents": 61200000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2024-action03-nature64",
+      "cents": 30378800,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2024-A03-native-support-HT2",
+      "cents": 612309100,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2024-A03-native-support-T3",
+      "cents": 412580200,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2024-action03-nature31",
+      "cents": 412580200,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "P135-RAP2024-A03-native-support-T6",
+      "cents": 199728900,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2024-action03-nature61",
+      "cents": 3220700,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2024-action03-nature62",
+      "cents": 26811900,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2024-action03-nature63",
+      "cents": 144454400,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "03"
+      ],
+      "node": "p135-2024-action03-nature64",
+      "cents": 25241800,
+      "source": "dca85104653c2c5a3d17",
+      "page": 122
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2021-action04-qualite_construction",
+      "cents": 560000000,
+      "source": "fbf12ff706972e2ba680",
+      "page": 120
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2021-action04-observatoires_loyers",
+      "cents": 300000000,
+      "source": "fbf12ff706972e2ba680",
+      "page": 121
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2021-action04-qualite_construction",
+      "cents": 540000000,
+      "source": "fbf12ff706972e2ba680",
+      "page": 120
+    },
+    {
+      "key": [
+        2021,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2021-action04-observatoires_loyers",
+      "cents": 300000000,
+      "source": "fbf12ff706972e2ba680",
+      "page": 121
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2022-action04-qualite_construction",
+      "cents": 380000000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 124
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2022-action04-contentieux_habitat",
+      "cents": 3700000000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 123
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2022-action04-contentieux_urbanisme",
+      "cents": 410000000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 124
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2022-action04-observatoires_loyers",
+      "cents": 360000000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 125
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2022-action04-indemnisation_secheresse",
+      "cents": 30000000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 125
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2022-action04-qualite_construction",
+      "cents": 380000000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 124
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2022-action04-contentieux_habitat",
+      "cents": 3550000000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 123
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2022-action04-contentieux_urbanisme",
+      "cents": 380000000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 124
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2022-action04-observatoires_loyers",
+      "cents": 360000000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 125
+    },
+    {
+      "key": [
+        2022,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2022-action04-indemnisation_secheresse",
+      "cents": 36000000,
+      "source": "94cc3bccae5a7cc2cde3",
+      "page": 125
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2023-action04-qualite_construction",
+      "cents": 590000000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 112
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2023-action04-contentieux_habitat",
+      "cents": 4600000000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 112
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2023-action04-DRIHL_contentieux",
+      "cents": 4400000000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 112
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2023-action04-contentieux_urbanisme",
+      "cents": 320000000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 112
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2023-action04-observatoires_loyers",
+      "cents": 320000000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 113
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2023-action04-qualite_construction",
+      "cents": 580000000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 112
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2023-action04-contentieux_habitat",
+      "cents": 4750000000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 112
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2023-action04-DRIHL_contentieux",
+      "cents": 4550000000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 112
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2023-action04-contentieux_urbanisme",
+      "cents": 250000000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 112
+    },
+    {
+      "key": [
+        2023,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2023-action04-observatoires_loyers",
+      "cents": 320000000,
+      "source": "cd3e0dda56f7232a0526",
+      "page": 113
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-subvention_ANAH",
+      "cents": 38020000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 126
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-qualite_construction",
+      "cents": 880000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 125
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-contentieux_habitat",
+      "cents": 4630000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 124
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-DRIHL_contentieux",
+      "cents": 4310000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 125
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-contentieux_urbanisme",
+      "cents": 160000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 125
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "AE",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-observatoires_loyers",
+      "cents": 330000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 126
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-subvention_ANAH",
+      "cents": 38020000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 126
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-qualite_construction",
+      "cents": 910000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 125
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-contentieux_habitat",
+      "cents": 4670000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 124
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-DRIHL_contentieux",
+      "cents": 4340000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 125
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-contentieux_urbanisme",
+      "cents": 130000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 125
+    },
+    {
+      "key": [
+        2024,
+        "EXEC",
+        "CP",
+        "BG",
+        "VA",
+        "135",
+        "04"
+      ],
+      "node": "p135-2024-action04-observatoires_loyers",
+      "cents": 330000000,
+      "source": "dca85104653c2c5a3d17",
+      "page": 126
+    }
+  ],
+  "CSV_cell_checks": [],
+  "unchanged_programs": [
+    {
+      "year": 2021,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "135",
+      "cents": 139564960476,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "135",
+      "cents": 94124078605,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 52835344800,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2021,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 52835344800,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "135",
+      "cents": 96211624187,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "135",
+      "cents": 89166074630,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 53027793200,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2022,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 53027793200,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "135",
+      "cents": 139561170900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "135",
+      "cents": 108916008300,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 80307587000,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2023,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 78077587000,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "EXEC",
+      "measure": "AE",
+      "program": "135",
+      "cents": 146603664904,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "EXEC",
+      "measure": "CP",
+      "program": "135",
+      "cents": 121797634657,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "PLF",
+      "measure": "AE",
+      "program": "135",
+      "cents": 151286146900,
+      "canonical_rows_preserved": true
+    },
+    {
+      "year": 2024,
+      "stage": "PLF",
+      "measure": "CP",
+      "program": "135",
+      "cents": 153866146900,
+      "canonical_rows_preserved": true
+    }
+  ],
+  "not_new_financial_primary_QA": true
+}

@@ -1,0 +1,14 @@
+{
+  "new_image_tag": "lexmachine-budget:20261018-logement-natures-finalites-25",
+  "files": [
+    {
+      "path": "budget_service/data/internal-details-reviewed-20261017.json",
+      "sha256": "73d262b78c5e1f837b41e0b4f7a6ddac290e8163ff2b4941e834e1184f416d8c"
+    }
+  ],
+  "append_only_preserves_existing_partitions": true,
+  "existing_financial_partitions_unchanged": true,
+  "unused_audit_metadata_compacted": false,
+  "runtime_unchanged": true,
+  "lossless_compact_JSON": true
+}
